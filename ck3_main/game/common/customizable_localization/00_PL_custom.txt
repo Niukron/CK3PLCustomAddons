@@ -1,0 +1,283 @@
+﻿NazwaReligiiGraczaX = {
+	type = character
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = christianity_religion
+			}
+		}
+		localization_key = custom_chrzescijanska
+	}
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = baltic_religion
+			}
+		}
+		localization_key = custom_baltycka
+	}
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = akom_religion
+			}
+		}
+		localization_key = custom_akom
+	}
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = bon_religion
+			}
+		}
+		localization_key = custom_bon
+	}
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = tani_religion
+			}
+		}
+		localization_key = custom_tani
+	}
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = dualism_religion
+			}
+		}
+		localization_key = custom_dualism
+	}
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = finno_ugric_religion
+			}
+		}
+		localization_key = custom_finno_ugric
+	}
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = germanic_religion
+			}
+		}
+		localization_key = custom_germanic
+	}
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = hellenism_religion
+			}
+		}
+		localization_key = custom_hellenism
+	}
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = hinduism_religion
+			}
+		}
+		localization_key = custom_hinduism
+	}
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = islam_religion
+			}
+		}
+		localization_key = custom_islam
+	}
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = jainism_religion
+			}
+		}
+		localization_key = custom_jainism
+	}
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = judaism_religion
+			}
+		}
+		localization_key = custom_judaism
+	}
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = kushitism_religion
+			}
+		}
+		localization_key = custom_kushitism
+	}
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = magyar_religion
+			}
+		}
+		localization_key = custom_magyar
+	}
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = mundhum_religion
+			}
+		}
+		localization_key = custom_mundhum
+	}
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = paganism_religion
+			}
+		}
+		localization_key = custom_paganism
+	}
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = qiangic_religion
+			}
+		}
+		localization_key = custom_qiangic
+	}
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = slavic_religion
+			}
+		}
+		localization_key = custom_slavic
+	}
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = taoism_religion
+			}
+		}
+		localization_key = custom_taoism
+	}
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = tengrism_religion
+			}
+		}
+		localization_key = custom_tengrism
+	}
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = waaqism_religion
+			}
+		}
+		localization_key = custom_waaqism
+	}
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = west_african_religion
+			}
+		}
+		localization_key = custom_west_african
+	}
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = west_african_bori_religion
+			}
+		}
+		localization_key = custom_west_african_bori
+	}
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = west_african_orisha_religion
+			}
+		}
+		localization_key = custom_west_african_orisha
+	}
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = west_african_roog_religion
+			}
+		}
+		localization_key = custom_west_african_roog
+	}
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = yazidi_religion
+			}
+		}
+		localization_key = custom_yazidi
+	}
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = zoroastrianism_religion
+			}
+		}
+		localization_key = custom_zoroastrianism
+	}
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = zunism_religion
+			}
+		}
+		localization_key = custom_zunism
+	}
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = buddhism_religion
+			}
+		}
+		localization_key = custom_buddhism
+	}
+	text = {
+		trigger = {
+			faith = {
+				NOT = {
+					religion_tag = christianity_religion
+					religion_tag = baltic_religion
+					religion_tag = akom_religion
+					religion_tag = bon_religion
+					religion_tag = buddhism_religion
+					religion_tag = tani_religion
+					religion_tag = dualism_religion
+					religion_tag = finno_ugric_religion
+					religion_tag = germanic_religion
+					religion_tag = hellenism_religion
+					religion_tag = hinduism_religion
+					religion_tag = islam_religion
+					religion_tag = jainism_religion
+					religion_tag = judaism_religion
+					religion_tag = kushitism_religion
+					religion_tag = magyar_religion
+					religion_tag = mundhum_religion
+					religion_tag = paganism_religion
+					religion_tag = qiangic_religion
+					religion_tag = slavic_religion
+					religion_tag = taoism_religion
+					religion_tag = tengrism_religion
+					religion_tag = waaqism_religion
+					religion_tag = west_african_religion
+					religion_tag = west_african_bori_religion
+					religion_tag = west_african_orisha_religion
+					religion_tag = west_african_roog_religion
+					religion_tag = yazidi_religion
+					religion_tag = zoroastrianism_religion
+					religion_tag = zunism_religion
+				}
+			}
+		}
+		localization_key = custom_alternatywny
+	}
+}
