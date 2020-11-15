@@ -40,46 +40,5 @@ GetReligion_adj_fem_acc_alternatywny:0 ""
 GetTitleAdPos_ZE:0 "ze"
 GetTitleAdPos_Z:0 "z"
 
-#   
-# TODO:
-# DLA ŻONY ŻYWEGO KRÓLA ZROBIĆ JEGO TYTUŁ
-# BEZ TYTUŁU W NAZWIE GDY BRAK DYNASTII
-
-
-
-GetUINameNotMeNoTooltip_title_adj_fallback:0 ""
-# CHARACTER_FULL_NAME_NICKNAMED:0 "$TIER$ $NAME$ '$NICK$' z $TITLE$"
-# CHARACTER_FULL_NAME:0 "$TIER$ $NAME$ z $TITLE$"
-# CHARACTER_FULL_NAME_NICKNAMED_PATRONYM:0 "$TIER$ $NAME$ '$NICK$' $DYNASTY$ z $TITLE$"
-# CHARACTER_FULL_NAME_NICKNAMED_PREFIX_PATRONYM:0 "$NICK$ $TIER$ $NAME$ $DYNASTY$ z $TITLE$"
-# CHARACTER_FULL_NAME_PATRONYM:0 "$TIER$ $NAME$ $PATRONYM$ z $TITLE$"
-
+# GetUINameNotMeNoTooltip_title_adj
 GetUINameNotMeNoTooltip_title_adj:0 "[ROOT.GetCharacter.GetTitledFirstNameNicknamedNoTooltipRegnal][Select_CString(ROOT.GetCharacter.HasLandedTitles, Concatenate(Concatenate(Concatenate(' ', ROOT.GetCharacter.Custom('GetTitleAdPos')), ' '), ROOT.GetCharacter.GetPrimaryTitle.GetAdjectiveNoTooltip), Select_CString(ROOT.GetCharacter.GetPrimarySpouse.HasLandedTitles, Concatenate(Concatenate(Concatenate(' ', ROOT.GetCharacter.GetPrimarySpouse.Custom('GetTitleAdPos')), ' '), ROOT.GetCharacter.GetPrimarySpouse.GetPrimaryTitle.GetAdjectiveNoTooltip), Select_CString(ROOT.GetCharacter.HasDynasty, Concatenate(' ', ROOT.GetCharacter.GetDynasty.GetNameNoTooltip), '')))]"
-# GetUINameNotMeNoTooltip_title_adj_landed_dead:0 "[ROOT.GetCharacter.GetTitledFirstNameNicknamedNoTooltipRegnal] [ROOT.GetCharacter.Custom('GetTitleAdPos')] [ROOT.GetCharacter.GetPrimaryTitle.GetAdjectiveNoTooltip]"
-
-
-# CHARACTER_FULL_NAME_UNLANDED:0 "$NAME$ $DYNASTY$"
-# CHARACTER_FULL_NAME_UNLANDED_PATRONYM:0 "$NAME$ $PATRONYM$ $DYNASTY$"
-# CHARACTER_FULL_NAME_UNLANDED_NICKNAMED_PREFIX_PATRONYM:0 "$NICK$ $NAME$ $DYNASTY$"
-# CHARACTER_FULL_NAME_UNLANDED_NICKNAMED:0 "$NAME$ '$NICK$' $DYNASTY$"
-# CHARACTER_FULL_NAME_UNLANDED_NICKNAMED_PREFIX:0 "$NICK$ $NAME$ $DYNASTY$"
-# CHARACTER_FULL_NAME_UNLANDED_NICKNAMED_PATRONYM:0 "$NAME$ '$NICK$' $DYNASTY$"
-
-#GetUINameNotMeNoTooltip_title_adj_unlanded_alive:0 "[ROOT.GetCharacter.GetTitledFirstNameNicknamedNoTooltipRegnal][Select_CString(ROOT.GetCharacter.GetPrimarySpouse.HasLandedTitles, Concatenate(Concatenate(Concatenate(' ', ROOT.GetCharacter.GetPrimarySpouse.Custom('GetTitleAdPos')), ' '), ROOT.GetCharacter.GetPrimarySpouse.GetPrimaryTitle.GetAdjectiveNoTooltip), Concatenate(' ', ROOT.GetCharacter.GetDynasty.GetNameNoTooltip))]"
-
-
-# GetUINameNotMeNoTooltip_title_adj_unlanded:0 "[ROOT.GetCharacter.GetTitledFirstNameNicknamedNoTooltipRegnal][Select_CString(ROOT.GetCharacter.GetPrimarySpouse.HasLandedTitles, Concatenate(Concatenate(Concatenate(' ', ROOT.GetCharacter.GetPrimarySpouse.Custom('GetTitleAdPos')), ' '), ROOT.GetCharacter.GetPrimarySpouse.GetPrimaryTitle.GetAdjectiveNoTooltip), Concatenate(' ', ROOT.GetCharacter.GetDynasty.GetNameNoTooltip))]"
-
-#GetUINameNotMeNoTooltip_title_adj_unlanded_dead:0 "[ROOT.GetCharacter.GetTitledFirstNameNicknamedNoTooltipRegnal][Select_CString(ROOT.GetCharacter.GetPrimarySpouse.HasLandedTitles, Concatenate(Concatenate(Concatenate(' ', ROOT.GetCharacter.GetPrimarySpouse.Custom('GetTitleAdPos')), ' '), ROOT.GetCharacter.GetPrimarySpouse.GetPrimaryTitle.GetAdjectiveNoTooltip), Concatenate(' ', ROOT.GetCharacter.GetDynasty.GetNameNoTooltip))]"
-
-
-# CHARACTER_TITLED_FIRST_NAME:0 "$TIER$ 035 $NAME$"
-# CHARACTER_TITLED_FIRST_NAME_NICKNAMED:0 "$TIER$ $NAME$ 030 $NICK$"
-# CHARACTER_TITLED_FIRST_NAME_NICKNAMED_PREFIX:0 "$NICK$ 029 $TIER$ $NAME$"
-# CHARACTER_TITLED_FIRST_NAME_PATRONYM:0 "$TIER$ $NAME$ 023 $PATRONYM$"
-# CHARACTER_TITLED_FIRST_NAME_NICKNAMED_PATRONYM:0 "$TIER$ $NAME$ 017 $NICK$"
-# CHARACTER_TITLED_FIRST_NAME_NICKNAMED_PREFIX_PATRONYM:0 "$NICK$ $TIER$ 016 $NAME$"
-
-
-
-

@@ -256,7 +256,8 @@ GetUINameNotMeNoTooltip_title_adj = {
 	}
 }
 
-# Trzeba będzie zaaktualizować, gdy będą wszystkie tytuły przetłumaczone. Generować regexpem całą funkcję z danych zawartych w pliku titles_l_english
+# Trzeba będzie zaaktualizować, gdy będą wszystkie tytuły przetłumaczone. Generować regexpem całą funkcję z danych zawartych w pliku titles_l_english		
+#
 GetTitleAdPos = {
 	type = character
 	
