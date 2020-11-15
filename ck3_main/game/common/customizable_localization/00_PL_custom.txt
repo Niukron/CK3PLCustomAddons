@@ -1,4 +1,5 @@
-﻿NazwaReligiiGraczaX = {
+﻿GetReligion_adj_fem_acc = {
+	
 	type = character
 	
 	text = {
@@ -7,7 +8,7 @@
 				religion_tag = christianity_religion
 			}
 		}
-		localization_key = custom_chrzescijanska
+		localization_key = GetReligion_adj_fem_acc_chrzescijanska
 	}
 	text = {
 		trigger = {
@@ -15,7 +16,7 @@
 				religion_tag = baltic_religion
 			}
 		}
-		localization_key = custom_baltycka
+		localization_key = GetReligion_adj_fem_acc_baltycka
 	}
 	text = {
 		trigger = {
@@ -23,7 +24,7 @@
 				religion_tag = akom_religion
 			}
 		}
-		localization_key = custom_akom
+		localization_key = GetReligion_adj_fem_acc_akom
 	}
 	text = {
 		trigger = {
@@ -31,7 +32,7 @@
 				religion_tag = bon_religion
 			}
 		}
-		localization_key = custom_bon
+		localization_key = GetReligion_adj_fem_acc_bon
 	}
 	text = {
 		trigger = {
@@ -39,7 +40,7 @@
 				religion_tag = tani_religion
 			}
 		}
-		localization_key = custom_tani
+		localization_key = GetReligion_adj_fem_acc_tani
 	}
 	text = {
 		trigger = {
@@ -47,7 +48,7 @@
 				religion_tag = dualism_religion
 			}
 		}
-		localization_key = custom_dualism
+		localization_key = GetReligion_adj_fem_acc_dualism
 	}
 	text = {
 		trigger = {
@@ -55,7 +56,7 @@
 				religion_tag = finno_ugric_religion
 			}
 		}
-		localization_key = custom_finno_ugric
+		localization_key = GetReligion_adj_fem_acc_finno_ugric
 	}
 	text = {
 		trigger = {
@@ -63,7 +64,7 @@
 				religion_tag = germanic_religion
 			}
 		}
-		localization_key = custom_germanic
+		localization_key = GetReligion_adj_fem_acc_germanic
 	}
 	text = {
 		trigger = {
@@ -71,7 +72,7 @@
 				religion_tag = hellenism_religion
 			}
 		}
-		localization_key = custom_hellenism
+		localization_key = GetReligion_adj_fem_acc_hellenism
 	}
 	text = {
 		trigger = {
@@ -79,7 +80,7 @@
 				religion_tag = hinduism_religion
 			}
 		}
-		localization_key = custom_hinduism
+		localization_key = GetReligion_adj_fem_acc_hinduism
 	}
 	text = {
 		trigger = {
@@ -87,7 +88,7 @@
 				religion_tag = islam_religion
 			}
 		}
-		localization_key = custom_islam
+		localization_key = GetReligion_adj_fem_acc_islam
 	}
 	text = {
 		trigger = {
@@ -95,7 +96,7 @@
 				religion_tag = jainism_religion
 			}
 		}
-		localization_key = custom_jainism
+		localization_key = GetReligion_adj_fem_acc_jainism
 	}
 	text = {
 		trigger = {
@@ -103,7 +104,7 @@
 				religion_tag = judaism_religion
 			}
 		}
-		localization_key = custom_judaism
+		localization_key = GetReligion_adj_fem_acc_judaism
 	}
 	text = {
 		trigger = {
@@ -111,7 +112,7 @@
 				religion_tag = kushitism_religion
 			}
 		}
-		localization_key = custom_kushitism
+		localization_key = GetReligion_adj_fem_acc_kushitism
 	}
 	text = {
 		trigger = {
@@ -119,7 +120,7 @@
 				religion_tag = magyar_religion
 			}
 		}
-		localization_key = custom_magyar
+		localization_key = GetReligion_adj_fem_acc_magyar
 	}
 	text = {
 		trigger = {
@@ -127,7 +128,7 @@
 				religion_tag = mundhum_religion
 			}
 		}
-		localization_key = custom_mundhum
+		localization_key = GetReligion_adj_fem_acc_mundhum
 	}
 	text = {
 		trigger = {
@@ -135,7 +136,7 @@
 				religion_tag = paganism_religion
 			}
 		}
-		localization_key = custom_paganism
+		localization_key = GetReligion_adj_fem_acc_paganism
 	}
 	text = {
 		trigger = {
@@ -143,7 +144,7 @@
 				religion_tag = qiangic_religion
 			}
 		}
-		localization_key = custom_qiangic
+		localization_key = GetReligion_adj_fem_acc_qiangic
 	}
 	text = {
 		trigger = {
@@ -151,7 +152,7 @@
 				religion_tag = slavic_religion
 			}
 		}
-		localization_key = custom_slavic
+		localization_key = GetReligion_adj_fem_acc_slavic
 	}
 	text = {
 		trigger = {
@@ -159,7 +160,7 @@
 				religion_tag = taoism_religion
 			}
 		}
-		localization_key = custom_taoism
+		localization_key = GetReligion_adj_fem_acc_taoism
 	}
 	text = {
 		trigger = {
@@ -167,7 +168,7 @@
 				religion_tag = tengrism_religion
 			}
 		}
-		localization_key = custom_tengrism
+		localization_key = GetReligion_adj_fem_acc_tengrism
 	}
 	text = {
 		trigger = {
@@ -175,7 +176,7 @@
 				religion_tag = waaqism_religion
 			}
 		}
-		localization_key = custom_waaqism
+		localization_key = GetReligion_adj_fem_acc_waaqism
 	}
 	text = {
 		trigger = {
@@ -183,7 +184,7 @@
 				religion_tag = west_african_religion
 			}
 		}
-		localization_key = custom_west_african
+		localization_key = GetReligion_adj_fem_acc_west_african
 	}
 	text = {
 		trigger = {
@@ -191,7 +192,7 @@
 				religion_tag = west_african_bori_religion
 			}
 		}
-		localization_key = custom_west_african_bori
+		localization_key = GetReligion_adj_fem_acc_west_african_bori
 	}
 	text = {
 		trigger = {
@@ -199,7 +200,7 @@
 				religion_tag = west_african_orisha_religion
 			}
 		}
-		localization_key = custom_west_african_orisha
+		localization_key = GetReligion_adj_fem_acc_west_african_orisha
 	}
 	text = {
 		trigger = {
@@ -207,7 +208,7 @@
 				religion_tag = west_african_roog_religion
 			}
 		}
-		localization_key = custom_west_african_roog
+		localization_key = GetReligion_adj_fem_acc_west_african_roog
 	}
 	text = {
 		trigger = {
@@ -215,7 +216,7 @@
 				religion_tag = yazidi_religion
 			}
 		}
-		localization_key = custom_yazidi
+		localization_key = GetReligion_adj_fem_acc_yazidi
 	}
 	text = {
 		trigger = {
@@ -223,7 +224,7 @@
 				religion_tag = zoroastrianism_religion
 			}
 		}
-		localization_key = custom_zoroastrianism
+		localization_key = GetReligion_adj_fem_acc_zoroastrianism
 	}
 	text = {
 		trigger = {
@@ -231,7 +232,7 @@
 				religion_tag = zunism_religion
 			}
 		}
-		localization_key = custom_zunism
+		localization_key = GetReligion_adj_fem_acc_zunism
 	}
 	text = {
 		trigger = {
@@ -239,10 +240,181 @@
 				religion_tag = buddhism_religion
 			}
 		}
-		localization_key = custom_buddhism
+		localization_key = GetReligion_adj_fem_acc_buddhism
 	}
 	text = {
-		localization_key = custom_alternatywny
+		localization_key = GetReligion_adj_fem_acc_alternatywny
 		fallback = yes
 	}
 }
+
+GetUINameNotMeNoTooltip_title_adj = {
+	type = character
+	
+	# landed
+	
+	text = {
+		#trigger = {
+		#	AND = {
+		#		is_landed = yes
+		#		#is_alive = yes
+		#	}
+		#}
+		localization_key = GetUINameNotMeNoTooltip_title_adj
+	}
+	
+	
+	# # unlanded
+	# text = {
+		# trigger = {
+			# AND = {	
+				# is_landed = no
+				# #is_alive = yes
+			# }
+		# }
+		# localization_key = GetUINameNotMeNoTooltip_title_adj_unlanded
+	# }
+	
+	# landed dead
+	
+#	text = {
+#		trigger = {
+#		AND = {
+#				is_landed = yes
+#				is_alive = no
+#			}
+#		}
+#		localization_key = GetUINameNotMeNoTooltip_title_adj_landed_dead
+#	}
+	
+	
+	# unlanded dead
+#	text = {
+#		trigger = {
+#			AND = {	
+#				is_landed = no
+#				is_alive = no
+#			}
+#		}
+#		localization_key = GetUINameNotMeNoTooltip_title_adj_unlanded_dead
+#	}
+	
+	#text = {
+	#	localization_key = GetUINameNotMeNoTooltip_title_adj_fallback
+	#	fallback = yes
+	#}
+}
+
+GetTitleAdPos = {
+	type = character
+	
+	text = {
+		trigger = {
+			OR = {
+				primary_title = title:c_scalovia
+				primary_title = title:c_schmalkalden
+				primary_title = title:c_shetland
+				primary_title = title:c_shiraz
+				primary_title = title:c_shirvan
+				primary_title = title:c_shorkot
+				primary_title = title:c_skane
+				primary_title = title:c_slesvig
+				primary_title = title:c_smolensk
+				primary_title = title:c_speyer
+				primary_title = title:c_spoleto
+				primary_title = title:c_sravasti
+				primary_title = title:c_srihatta
+				primary_title = title:c_sripatha
+				primary_title = title:c_sripuri
+				primary_title = title:c_srirangapatna
+				primary_title = title:c_stade
+				primary_title = title:c_stendal
+				primary_title = title:c_stezycka
+				primary_title = title:c_sthanisvara
+				primary_title = title:c_stoenesti
+				primary_title = title:c_strassburg
+				primary_title = title:c_strathearn
+				primary_title = title:c_swetaka_mandala
+				primary_title = title:c_znojmo
+				primary_title = title:d_champagne
+				primary_title = title:d_galloway
+				primary_title = title:d_knights_hospitaler
+				primary_title = title:d_samogitia
+				primary_title = title:d_skane
+				primary_title = title:d_sky_lords
+				primary_title = title:d_slavonia
+				primary_title = title:d_slesvig
+				primary_title = title:d_smaland
+				primary_title = title:d_smolensk
+				primary_title = title:d_spoleto
+				primary_title = title:d_steyermark
+				primary_title = title:d_swabia
+				primary_title = title:d_swiss
+				primary_title = title:e_golden_horde
+				primary_title = title:e_hre
+				primary_title = title:e_slavia
+				primary_title = title:e_scandinavia
+				primary_title = title:k_scotland
+				primary_title = title:k_sweden
+				primary_title = title:c_slutsk
+				primary_title = title:k_switzerland
+				primary_title = title:c_shahrazur
+				primary_title = title:c_starodub
+				primary_title = title:k_caspian_steppe
+				primary_title = title:c_sharkiya
+				primary_title = title:d_shirvan
+				primary_title = title:c_svaneti
+				primary_title = title:c_shaki
+				primary_title = title:c_shaqiq
+				primary_title = title:c_sharaf
+				primary_title = title:c_spis
+				primary_title = title:c_szabolcs
+				primary_title = title:c_szatmar
+				primary_title = title:c_zolyom
+				primary_title = title:d_shammar
+				primary_title = title:c_shchuchinsk
+				primary_title = title:c_shavgar
+				primary_title = title:c_shelji
+				primary_title = title:d_shamir
+				primary_title = title:c_shamir
+				primary_title = title:c_showak
+				primary_title = title:d_baraba_steppe
+				primary_title = title:d_shoria
+				primary_title = title:c_sharga
+				primary_title = title:c_stoyanka
+				primary_title = title:c_shor
+				primary_title = title:c_shityy
+				primary_title = title:c_shishina
+				primary_title = title:c_shunzhou
+				primary_title = title:d_zhenfan
+				primary_title = title:c_zhenfan
+				primary_title = title:d_shanzhou
+				primary_title = title:c_shanzhou
+				primary_title = title:c_shazhou
+				primary_title = title:c_skardu
+				primary_title = title:c_shigar
+				primary_title = title:c_zhidoi
+				primary_title = title:d_sriksetra
+				primary_title = title:c_sriksetra
+				primary_title = title:c_shabe
+				primary_title = title:c_sharka
+				primary_title = title:c_sherbro
+				primary_title = title:c_showa
+				primary_title = title:d_shabelle
+				primary_title = title:d_sharka
+				primary_title = title:d_showa
+				primary_title = title:c_slupsk
+				primary_title = title:c_stettin
+				primary_title = title:c_miastko
+				primary_title = title:c_berent
+				primary_title = title:c_skara
+			}
+		}
+		localization_key = GetTitleAdPos_ZE
+	}
+	text = {
+		localization_key = GetTitleAdPos_Z
+		fallback = yes
+	}
+}
+

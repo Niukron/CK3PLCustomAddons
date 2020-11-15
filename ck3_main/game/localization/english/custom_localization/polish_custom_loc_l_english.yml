@@ -1,34 +1,85 @@
 ﻿l_english:
-# Dla CREATE_FAITH_WINDOW_TITLE = "Utwórz nową wiarę.." użycie SCOPE.Custom('NazwaReligiiGraczaX')
-custom_chrzescijanska:0 "chrześcijańską"
-custom_baltycka:0 "bałtycką"
-custom_akom:0 "akańską"
-custom_bon:0 "tybetańską"
-custom_buddhism:0 "buddyjską"
-custom_tani:0 "tanijską"
-custom_dualism:0 "dualizmu(?)"
-custom_finno_ugric:0 "finougryjską"
-custom_germanic:0 "nordycką"
-custom_hellenism:0 "greko-rzymską(?)"
-custom_hinduism:0 "hinduistyczną"
-custom_islam:0 "muzumańską"
-custom_jainism:0 "dźinistyczną"
-custom_judaism:0 "judaizmu"
-custom_kushitism:0 "kordofanizmu(?)"
-custom_magyar:0 "uralską"
-custom_mundhum:0 "mindhumizmu"
-custom_paganism:0 "pogańską"
-custom_qiangic:0 "Hsexje"
-custom_slavic:0 "słowiańską"
-custom_taoism:0 "taoizmu"
-custom_tengrism:0 "stepową"
-custom_waaqism:0 "oromo-somali"
-custom_west_african:0 "manadyjską"
-custom_west_african_bori:0 "hausyjską"
-custom_west_african_orisha:0 "jorubską"
-custom_west_african_roog:0 "senegambijską"
-custom_yazidi:0 "miletańską"
-custom_zoroastrianism:0 "zaratusztriańską"
-custom_zunism:0 "zunbil"
+# Dla CREATE_FAITH_WINDOW_TITLE = "Utwórz nową wiarę.." użycie SCOPE.Custom('GetReligion_adj_fem_acc')
+GetReligion_adj_fem_acc_chrzescijanska:0 "chrześcijańską"
+GetReligion_adj_fem_acc_baltycka:0 "bałtycką"
+GetReligion_adj_fem_acc_akom:0 "akańską"
+GetReligion_adj_fem_acc_bon:0 "tybetańską"
+GetReligion_adj_fem_acc_buddhism:0 "buddyjską"
+GetReligion_adj_fem_acc_tani:0 "tanijską"
+GetReligion_adj_fem_acc_dualism:0 "dualizmu(?)"
+GetReligion_adj_fem_acc_finno_ugric:0 "finougryjską"
+GetReligion_adj_fem_acc_germanic:0 "nordycką"
+GetReligion_adj_fem_acc_hellenism:0 "greko-rzymską(?)"
+GetReligion_adj_fem_acc_hinduism:0 "hinduistyczną"
+GetReligion_adj_fem_acc_islam:0 "muzumańską"
+GetReligion_adj_fem_acc_jainism:0 "dźinistyczną"
+GetReligion_adj_fem_acc_judaism:0 "judaizmu"
+GetReligion_adj_fem_acc_kushitism:0 "kordofanizmu(?)"
+GetReligion_adj_fem_acc_magyar:0 "uralską"
+GetReligion_adj_fem_acc_mundhum:0 "mindhumizmu"
+GetReligion_adj_fem_acc_paganism:0 "pogańską"
+GetReligion_adj_fem_acc_qiangic:0 "Hsexje"
+GetReligion_adj_fem_acc_slavic:0 "słowiańską"
+GetReligion_adj_fem_acc_taoism:0 "taoizmu"
+GetReligion_adj_fem_acc_tengrism:0 "stepową"
+GetReligion_adj_fem_acc_waaqism:0 "oromo-somali"
+GetReligion_adj_fem_acc_west_african:0 "manadyjską"
+GetReligion_adj_fem_acc_west_african_bori:0 "hausyjską"
+GetReligion_adj_fem_acc_west_african_orisha:0 "jorubską"
+GetReligion_adj_fem_acc_west_african_roog:0 "senegambijską"
+GetReligion_adj_fem_acc_yazidi:0 "miletańską"
+GetReligion_adj_fem_acc_zoroastrianism:0 "zaratusztriańską"
+GetReligion_adj_fem_acc_zunism:0 "zunbil"
 # Będzie wyświetlony w przypadku dodania przez paradox jakiejś nowej religii – można dać puste wtedy będzie Utwórz nową wiarę
-custom_alternatywny:0 ""
+GetReligion_adj_fem_acc_alternatywny:0 ""
+
+
+
+# Alternatywy dla GetFullName itd
+
+GetTitleAdPos_ZE:0 "ze"
+GetTitleAdPos_Z:0 "z"
+
+#   
+# TODO:
+# DLA ŻONY ŻYWEGO KRÓLA ZROBIĆ JEGO TYTUŁ
+# BEZ TYTUŁU W NAZWIE GDY BRAK DYNASTII
+
+
+
+GetUINameNotMeNoTooltip_title_adj_fallback:0 ""
+# CHARACTER_FULL_NAME_NICKNAMED:0 "$TIER$ $NAME$ '$NICK$' z $TITLE$"
+# CHARACTER_FULL_NAME:0 "$TIER$ $NAME$ z $TITLE$"
+# CHARACTER_FULL_NAME_NICKNAMED_PATRONYM:0 "$TIER$ $NAME$ '$NICK$' $DYNASTY$ z $TITLE$"
+# CHARACTER_FULL_NAME_NICKNAMED_PREFIX_PATRONYM:0 "$NICK$ $TIER$ $NAME$ $DYNASTY$ z $TITLE$"
+# CHARACTER_FULL_NAME_PATRONYM:0 "$TIER$ $NAME$ $PATRONYM$ z $TITLE$"
+
+GetUINameNotMeNoTooltip_title_adj:0 "[ROOT.GetCharacter.GetTitledFirstNameNicknamedNoTooltipRegnal][Select_CString(ROOT.GetCharacter.HasLandedTitles, Concatenate(Concatenate(Concatenate(' ', ROOT.GetCharacter.Custom('GetTitleAdPos')), ' '), ROOT.GetCharacter.GetPrimaryTitle.GetAdjectiveNoTooltip), Select_CString(ROOT.GetCharacter.GetPrimarySpouse.HasLandedTitles, Concatenate(Concatenate(Concatenate(' ', ROOT.GetCharacter.GetPrimarySpouse.Custom('GetTitleAdPos')), ' '), ROOT.GetCharacter.GetPrimarySpouse.GetPrimaryTitle.GetAdjectiveNoTooltip), Select_CString(ROOT.GetCharacter.HasDynasty, Concatenate(' ', ROOT.GetCharacter.GetDynasty.GetNameNoTooltip), '')))]"
+# GetUINameNotMeNoTooltip_title_adj_landed_dead:0 "[ROOT.GetCharacter.GetTitledFirstNameNicknamedNoTooltipRegnal] [ROOT.GetCharacter.Custom('GetTitleAdPos')] [ROOT.GetCharacter.GetPrimaryTitle.GetAdjectiveNoTooltip]"
+
+
+# CHARACTER_FULL_NAME_UNLANDED:0 "$NAME$ $DYNASTY$"
+# CHARACTER_FULL_NAME_UNLANDED_PATRONYM:0 "$NAME$ $PATRONYM$ $DYNASTY$"
+# CHARACTER_FULL_NAME_UNLANDED_NICKNAMED_PREFIX_PATRONYM:0 "$NICK$ $NAME$ $DYNASTY$"
+# CHARACTER_FULL_NAME_UNLANDED_NICKNAMED:0 "$NAME$ '$NICK$' $DYNASTY$"
+# CHARACTER_FULL_NAME_UNLANDED_NICKNAMED_PREFIX:0 "$NICK$ $NAME$ $DYNASTY$"
+# CHARACTER_FULL_NAME_UNLANDED_NICKNAMED_PATRONYM:0 "$NAME$ '$NICK$' $DYNASTY$"
+
+#GetUINameNotMeNoTooltip_title_adj_unlanded_alive:0 "[ROOT.GetCharacter.GetTitledFirstNameNicknamedNoTooltipRegnal][Select_CString(ROOT.GetCharacter.GetPrimarySpouse.HasLandedTitles, Concatenate(Concatenate(Concatenate(' ', ROOT.GetCharacter.GetPrimarySpouse.Custom('GetTitleAdPos')), ' '), ROOT.GetCharacter.GetPrimarySpouse.GetPrimaryTitle.GetAdjectiveNoTooltip), Concatenate(' ', ROOT.GetCharacter.GetDynasty.GetNameNoTooltip))]"
+
+
+# GetUINameNotMeNoTooltip_title_adj_unlanded:0 "[ROOT.GetCharacter.GetTitledFirstNameNicknamedNoTooltipRegnal][Select_CString(ROOT.GetCharacter.GetPrimarySpouse.HasLandedTitles, Concatenate(Concatenate(Concatenate(' ', ROOT.GetCharacter.GetPrimarySpouse.Custom('GetTitleAdPos')), ' '), ROOT.GetCharacter.GetPrimarySpouse.GetPrimaryTitle.GetAdjectiveNoTooltip), Concatenate(' ', ROOT.GetCharacter.GetDynasty.GetNameNoTooltip))]"
+
+#GetUINameNotMeNoTooltip_title_adj_unlanded_dead:0 "[ROOT.GetCharacter.GetTitledFirstNameNicknamedNoTooltipRegnal][Select_CString(ROOT.GetCharacter.GetPrimarySpouse.HasLandedTitles, Concatenate(Concatenate(Concatenate(' ', ROOT.GetCharacter.GetPrimarySpouse.Custom('GetTitleAdPos')), ' '), ROOT.GetCharacter.GetPrimarySpouse.GetPrimaryTitle.GetAdjectiveNoTooltip), Concatenate(' ', ROOT.GetCharacter.GetDynasty.GetNameNoTooltip))]"
+
+
+# CHARACTER_TITLED_FIRST_NAME:0 "$TIER$ 035 $NAME$"
+# CHARACTER_TITLED_FIRST_NAME_NICKNAMED:0 "$TIER$ $NAME$ 030 $NICK$"
+# CHARACTER_TITLED_FIRST_NAME_NICKNAMED_PREFIX:0 "$NICK$ 029 $TIER$ $NAME$"
+# CHARACTER_TITLED_FIRST_NAME_PATRONYM:0 "$TIER$ $NAME$ 023 $PATRONYM$"
+# CHARACTER_TITLED_FIRST_NAME_NICKNAMED_PATRONYM:0 "$TIER$ $NAME$ 017 $NICK$"
+# CHARACTER_TITLED_FIRST_NAME_NICKNAMED_PREFIX_PATRONYM:0 "$NICK$ $TIER$ 016 $NAME$"
+
+
+
+
