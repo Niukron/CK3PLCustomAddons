@@ -1,0 +1,5 @@
+﻿l_english:
+ KILL_LIST: "[KillListWindow.GetCharacter.GetUINamePossessive|U] Kills"
+ OPEN_KILL_LIST_TOOLTIP: "#I Click to open Kill List#!"
+ DEATH_DATE: "Death Date"
+ DEATH_REASON: "Death Reason"

@@ -1,0 +1,13 @@
+﻿l_english:
+ blackmail.0001.t: "Blackmail Refused!"
+ blackmail.0001.desc: "Whether it is a misguided sense of pride, or fear of some greater reprisal, [recipient.GetTitledFirstName] claims that I hold no sway over [recipient.GetHerHim]!"
+ blackmail.0001.a: "A threat was made, and there can be only one outcome..."
+ blackmail.0001.b: "I hate to admit it, but I cannot reveal this secret."
+ blackmail.1001.t: "Fear of the Unknown"
+ blackmail.1001.desc: "My vassals know nothing about my blackmail, but they have noticed how my victim, [blackmail_target.GetTitledFirstName], acts around me. They have seen the fear that flashes across [blackmail_target.GetHerHis] eyes..."
+ blackmail.1001.a: "They should #EMP all#! fear me..."
+ blackmail.1001.b: "\"I assure you all, nothing untoward is going on!\""
+ blackmail.1002.t: "The Shadow Looming"
+ blackmail.1002.desc: "The threat of being exposed is constantly on my mind. [blackmailer.GetTitledFirstName] knows too much about me, and the consequences of refusing any of [blackmailer.GetHerHis] demands are too great to even contemplate.\n\nAm I safe, even if I do?"
+ blackmail.1002.a: "I lie awake at night with worry."
+ blackmail.1002.b: "It will all be fine, [blackmailer.GetFirstNameNoTooltip] told me so!"

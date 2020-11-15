@@ -1,0 +1,13 @@
+﻿l_english:
+ culture_group_military: "Military"
+ culture_group_civic: "Civic"
+ culture_group_regional: "Cultural and Regional"
+ culture_group_any: "any"
+ culture_era_tribal: "Tribal"
+ culture_era_tribal_desc: "The Tribal Era of a [culture|E] predates the emergence of codified laws and an institutionalized government. Rulers with [tribal_government|E] can only make use of Tribal Era [innovations|E]."
+ culture_era_early_medieval: "Early Medieval"
+ culture_era_early_medieval_desc: "The Early Medieval Era sees the emergence of professional administrators and a number of important [innovations|E], allowing a [culture|E] to exit the Dark Ages."
+ culture_era_high_medieval: "High Medieval"
+ culture_era_high_medieval_desc: "The High Medieval Era is a time of great technological and administrative progress, seeing towns grow into cities and the rise of the burgher class even as the aristocracy reigns supreme."
+ culture_era_late_medieval: "Late Medieval"
+ culture_era_late_medieval_desc: "The Late Medieval Era marks the zenith of the feudal world. Bureaucrats, artisans, merchants and money lenders are starting to encroach on the power of the old privileged classes, except for the monarchs themselves."
