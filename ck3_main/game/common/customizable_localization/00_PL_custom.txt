@@ -251,60 +251,12 @@
 GetUINameNotMeNoTooltip_title_adj = {
 	type = character
 	
-	# landed
-	
 	text = {
-		#trigger = {
-		#	AND = {
-		#		is_landed = yes
-		#		#is_alive = yes
-		#	}
-		#}
 		localization_key = GetUINameNotMeNoTooltip_title_adj
 	}
-	
-	
-	# # unlanded
-	# text = {
-		# trigger = {
-			# AND = {	
-				# is_landed = no
-				# #is_alive = yes
-			# }
-		# }
-		# localization_key = GetUINameNotMeNoTooltip_title_adj_unlanded
-	# }
-	
-	# landed dead
-	
-#	text = {
-#		trigger = {
-#		AND = {
-#				is_landed = yes
-#				is_alive = no
-#			}
-#		}
-#		localization_key = GetUINameNotMeNoTooltip_title_adj_landed_dead
-#	}
-	
-	
-	# unlanded dead
-#	text = {
-#		trigger = {
-#			AND = {	
-#				is_landed = no
-#				is_alive = no
-#			}
-#		}
-#		localization_key = GetUINameNotMeNoTooltip_title_adj_unlanded_dead
-#	}
-	
-	#text = {
-	#	localization_key = GetUINameNotMeNoTooltip_title_adj_fallback
-	#	fallback = yes
-	#}
 }
 
+# Trzeba będzie zaaktualizować, gdy będą wszystkie tytuły przetłumaczone. Generować regexpem całą funkcję z danych zawartych w pliku titles_l_english
 GetTitleAdPos = {
 	type = character
 	
