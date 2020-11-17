@@ -4,8 +4,12 @@
 
 $MAIN_GAME_FOLDER = 'A:\Gry\SteamLibrary\steamapps\common\Crusader Kings III\'
 
+# DEBUG MODE - nie pobiera danych z transifexa oraz nie kopiuje plików do folderu z grą.
 $DEBUG_MODE = 0
+# Jeśli chcesz widzieć jakie pliki są kopiowane - włącz tą opcję
 $LOG_CPY_FILES = 0
+# Jeśli chcesz użyć nowszego cli transifexa i pominąć stare skrypty zmień na 1
+#$TEST_MODE = 0
 
 $str_article_to_find = '_article:0 "the ‎"'
 $str_article_to_replace = '_article:0 "‎"'
@@ -66,4 +70,4 @@ Proszę podać poprawny folder w skrypcie
 "
 }
 
-Read-Host -Prompt "Kliknij enter, aby wyjsc"
+Read-Host -Prompt "Kliknij enter, aby wyjść"
