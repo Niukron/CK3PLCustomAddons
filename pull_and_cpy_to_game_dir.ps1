@@ -11,7 +11,7 @@ $LOG_CPY_FILES = 0
 # Jeśli chcesz użyć nowszego cli transifexa i pominąć stare skrypty zmień na 1
 #$TEST_MODE = 0
 
-$str_article_to_find = '_article:0 "the ‎"'
+$str_article_to_find_2 = '_article:0 "the "'
 $str_article_to_replace = '_article:0 "‎"'
 
 $TRANSIFEX_COMPILED_FILES = "$PSScriptRoot\ck3transifex\Spolszczenie_CK3\*"
@@ -27,11 +27,8 @@ Oczekiwanie na zakończenie procesu w oknie CMD.."
 	}
 	Write-Host "Proces zakończony..."
 
-	$str_article_to_find = '_article:0 "the ‎"'
-	$str_article_to_replace = '_article:0 "‎"'
-
 	Get-ChildItem $TRANSIFEX_COMPILED_FILES -Recurse -Filter "*.yml" | ForEach-Object { 
-		(Get-Content $_.FullName) -replace $str_article_to_find, $str_article_to_replace | Set-Content -Encoding UTF8 $_.FullName
+		(Get-Content $_.FullName) -replace $str_article_to_find_2, $str_article_to_replace  | Set-Content -Encoding UTF8 $_.FullName
 		Write-Host "Usuwanie przedimka 'the' z pliku: " $_.Name
 	}
 
