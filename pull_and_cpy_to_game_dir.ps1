@@ -1,11 +1,9 @@
-﻿
-
-# Główny folder gry - aby skrypt działał musi zostać uzupełniony
+﻿# Główny folder gry - aby skrypt działał musi zostać uzupełniony
 
 $MAIN_GAME_FOLDER = 'A:\Gry\SteamLibrary\steamapps\common\Crusader Kings III\'
 
 # DEBUG MODE - nie pobiera danych z transifexa oraz nie kopiuje plików do folderu z grą.
-$DEBUG_MODE = 1
+$DEBUG_MODE = 0
 # Jeśli chcesz widzieć jakie pliki są kopiowane - włącz tą opcję
 $LOG_CPY_FILES = 0
 # Jeśli chcesz użyć nowszego cli transifexa i pominąć stare skrypty zmień na 1
@@ -30,7 +28,7 @@ if($version_on_github -ne $version_local) {
 	if(Test-Path $MAIN_GAME_FOLDER) {
 
 		Write-Host "Pobieranie danych z transifex...
-	Oczekiwanie na zakończenie procesu w oknie CMD.."
+Oczekiwanie na zakończenie procesu w oknie CMD.."
 		if(!$DEBUG_MODE) { 
 			Start-Process "$PSScriptRoot\ck3transifex\pull_translations_from_transifex.bat" -WorkingDirectory "$PSScriptRoot\ck3transifex\"  -Wait 
 		}
@@ -42,25 +40,25 @@ if($version_on_github -ne $version_local) {
 		}
 
 		Write-Host "Proces zakończony...
-	Kopiowanie plików spolszczenia do folderu z grą..."
+Kopiowanie plików spolszczenia do folderu z grą..."
 
 		if($LOG_FILES -And !$DEBUG_MODE)
 		{
 			Copy-item -Force -Recurse -Verbose $TRANSIFEX_COMPILED_FILES -Destination $MAIN_GAME_FOLDER
 			Write-Host "Proces zakończony...
-	Kopiowanie dodatków do spolszczenia..."
+Kopiowanie dodatków do spolszczenia..."
 			Copy-item -Force -Recurse -Verbose $CK3_PL_ADDONS -Destination $MAIN_GAME_FOLDER
 			Write-Host "Proces zakończony...
 
-	Ukończono instalację plików"
+Ukończono instalację plików"
 		} elseif(!$DEBUG_MODE) {
 			Copy-item -Force -Recurse $TRANSIFEX_COMPILED_FILES -Destination $MAIN_GAME_FOLDER
 			Write-Host "Proces zakończony...
-	Kopiowanie dodatków do spolszczenia..."
+Kopiowanie dodatków do spolszczenia..."
 			Copy-item -Force -Recurse $CK3_PL_ADDONS -Destination $MAIN_GAME_FOLDER
 			Write-Host "Proces zakończony...
 
-	Ukończono instalację plików"
+Ukończono instalację plików"
 		
 		}
 		Read-Host -Prompt "Kliknij enter, aby wyjść"
@@ -69,11 +67,10 @@ if($version_on_github -ne $version_local) {
 
 	Write-Host "Podany folder z grą nie istnieje.
 
-	Podana ścieżka: $MAIN_GAME_FOLDER 
+Podana ścieżka: $MAIN_GAME_FOLDER 
 
-	Proszę podać poprawny folder w skrypcie
+Proszę podać poprawny folder w skrypcie"
 
-	"
 	Read-Host -Prompt "Kliknij enter, aby wyjść"
 	
 	}
