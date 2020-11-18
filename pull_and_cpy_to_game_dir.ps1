@@ -12,7 +12,7 @@ $LOG_CPY_FILES = 0
 #$TEST_MODE = 0
 
 $str_article_to_find_2 = '_article:0 "the "'
-$str_article_to_replace = '_article:0 "‎"'
+$str_article_to_replace = '_article:0 ""'
 
 $TRANSIFEX_COMPILED_FILES = "$PSScriptRoot\ck3transifex\Spolszczenie_CK3\*"
 $CK3_PL_ADDONS = "$PSScriptRoot\ck3_main\*"
