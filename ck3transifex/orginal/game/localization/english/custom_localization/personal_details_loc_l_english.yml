@@ -19,17 +19,14 @@
  education_martial_loc:0 "warfare"
  education_intrigue_loc:0 "intrigue"
  education_diplomacy_loc:0 "diplomacy"
-
  temper_anger:0 "anger"
  temper_disappointment:0 "disappointment"
  temper_hesitation:0 "hesitation"
  temper_horror:0 "horror"
-
  prison_pet_rat:0 "rat"
  prison_pet_stone:0 "stone"
  prison_pet_spoon:0 "spoon"
  prison_pet_cockroach:0 "cockroach"
-
  saddle:0 "saddle"
  gown:0 "gown"
  jacket:0 "jacket"
@@ -42,10 +39,8 @@
  tapestry:0 "tapestry"
  holy_bock:0 "[ROOT.Char.GetFaith.ReligiousText]"
  leatherbound_journal:0 "leather-bound journal"
-
  died_simply:0 "died"
  died_house_arrest:0 "died in house arrest"
- 
  private_object_finest_leather_shoes:0 "finest leather shoes"
  private_object_favorite_embroidered_cloak:0 "favorite embroidered cloak"
  private_object_ceremonial_sword:0 "ceremonial sword"
@@ -61,7 +56,6 @@
  private_object_precious_jewelry:0 "precious jewelry"
  private_object_hairbrush:0 "hairbrush"
  private_object_formal_gown:0 "formal gown"
-
  a_whip:0 "a whip"
  a_shoe:0 "a shoe"
  a_rope:0 "a rope"

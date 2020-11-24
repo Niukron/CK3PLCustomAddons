@@ -203,7 +203,7 @@
  witch.4003.a: "I take my leave, my work completed."
  witch.4003.b: "[annoying_clergy.GetSheHe|U] is ready for the greater truths."
  witch.4003.c: "[annoying_clergy.GetSheHe|U] will become my disciple!"
- witch.4004.desc: "Under the innocent guise of theological queries, I have sowed doubt in [annoying_clergy.GetTitledFirstNamePossessive] heart. I can tell [annoying_clergy.GetHerHis] faith is wavering from [annoying_clergy.GetHerHis] uncertain answers and the shadow of worry that falls upon [annoying_clergy.GetHerHis] face when  [annoying_clergy.GetSheHe] thinks no one is watching.\n\nI am not there, not yet, but a final attempt #EMP should#! break [annoying_clergy.GetHerHim]."
+ witch.4004.desc: "Under the innocent guise of theological queries, I have sowed doubt in [annoying_clergy.GetTitledFirstNamePossessive] heart. I can tell [annoying_clergy.GetHerHis] faith is wavering from [annoying_clergy.GetHerHis] uncertain answers and the shadow of worry that falls upon [annoying_clergy.GetHerHis] face when [annoying_clergy.GetSheHe] thinks no one is watching.\n\nI am not there, not yet, but a final attempt #EMP should#! break [annoying_clergy.GetHerHim]."
  witch.4004.a: "It is a worthy effort!"
  witch.4004.b: "My time is better spent on other things."
  witch.4005.desc: "I left a tome of uncomfortable truths in [annoying_clergy.GetTitledFirstNamePossessive] chambers, but I saw [annoying_clergy.GetHerHim] throw it in the fire after reading just a few pages. The challenge must have strengthened [annoying_clergy.GetHerHis] faith — I can no longer detect any uncertainty in [annoying_clergy.GetHerHis] heart."

@@ -187,6 +187,7 @@
  doctrine_parameter_opinion_of_unreformed_syncretic_recipient_opinion_active: ""
  doctrine_parameter_unreformed_syncretic_recipient_opinion_active: "Mutual [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [opinion|E] bonus with [faiths|E] that have $tenet_unreformed_syncretism_name$ [core_tenet|E]"
  doctrine_parameter_opinion_of_unreformed_syncretic_actor_opinion_active: ""
+ doctrine_parameter_unreformed_syncretic_conversion_malus_active: "Base speed of converting syncretised faiths is reduced by [EmptyScope.ScriptValue('conversion_syncretic_with_religion_malus_efficancy_procentage')|-0%]"
  tenet_christian_syncretism_name: "Christian Syncretism"
  tenet_christian_syncretism_desc: "Jesus of Nazareth may not have been true divinity, but he was still an upstanding and virtuous figure. We should honor and respect his teachings."
  doctrine_parameter_hostility_override_special_doctrine_is_christian_faith: ""

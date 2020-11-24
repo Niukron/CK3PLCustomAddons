@@ -95,7 +95,7 @@
  tooltip.5020.c.fail: "[helpful_councillor.GetFirstNamePossessiveNoTooltip] reasons to educate [scoped_heir.GetFirstNameNoTooltip] elude me"
  tooltip.5020.c.fail.effect: "I might have to take action"
  tooltip.5020.c.critfail: "[helpful_councillor.GetFirstNameNoTooltip] finds out that I have decided to spy on [helpful_councillor.GetHerHim]"
- tooltip.5020.c.critfail.effect: "[helpful_councillor.GetFirstName]  is insulted and stops mentoring [scoped_heir.GetFirstName]"
+ tooltip.5020.c.critfail.effect: "[helpful_councillor.GetFirstName] is insulted and stops mentoring [scoped_heir.GetFirstName]"
  yearly.5021.deceitfulcouncillor.desc: "I was right to suspect [helpful_councillor.GetFirstNamePossessive] intentions! After having [helpful_councillor.GetHerHim] under watch for a few days, it is abundantly clear that [helpful_councillor.GetSheHe] is only interested in pitting my own [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('scoped_heir'))] against me."
  yearly.5021.honestcouncillor.desc: "Despite strict scrutiny [helpful_councillor.GetFirstName] my spy was unable to find anything that might persuade me to believe that [helpful_councillor.GetHerHis] intentions are nothing but pure.\n\n[helpful_councillor.GetSheHe|U] truly seems interested only in helping my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('scoped_heir'))] become a better ruler."
  yearly.5021.a: "No harm in letting [helpful_councillor.GetHerHim] mentor [scoped_heir.GetFirstNameNoTooltip]!"

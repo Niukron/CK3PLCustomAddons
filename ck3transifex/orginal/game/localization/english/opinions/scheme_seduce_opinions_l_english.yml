@@ -6,11 +6,8 @@
  seduce_suspicion_target_spouse_opinion:0 "Suspicious"
  seduce_refused_target_spouse_opinion:0 "Refused to End Seduction"
  seduce_continued_seduction_of_my_spouse_opinion:0 "Lied About Seduction"
-
-  #used for romance and seduce schemes
  seduce_regular_cooldown_opinion:0 "Rebuffed Advances"
  seduce_permanent_blocker_opinion:0 "Repulsed by Advances"
-
  adulterer_advances_on_relevant_character:0 "Made Adulterous Advances"
  fornicator_advances_on_relevant_character:0 "Made Fornicatory Advances"
  incestuous_advances_on_relevant_character:0 "Made Incestuous Advances"

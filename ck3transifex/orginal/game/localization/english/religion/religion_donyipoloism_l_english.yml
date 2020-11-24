@@ -41,7 +41,6 @@
  tani_bishop_plural:0 "miri"
  tani_divine_realm:0 "Gangging Siring"
  tani_positive_afterlife:0 "Gangging Siring"
-
  tani_creator_god_name:0 "Sedi"
  tani_creator_god_name_possessive:0 "Sedi's"
  tani_health_god_name:0 "$tani_high_god_name$"
@@ -64,31 +63,24 @@
  tani_night_god_name_possessive:0 "$tani_high_god_name_possessive$"
  tani_water_god_name:0 "$tani_high_god_name$"
  tani_water_god_name_possessive:0 "$tani_high_god_name_possessive$"
-
- #Donyi-Poloism
  donyipoloism:0 "Donyi-Poloism"
  donyipoloism_adj:0 "Donyi-Poloist"
  donyipoloism_adherent:0 "Donyi-Polo Ome"
  donyipoloism_adherent_plural:0 "Donyi-Polo Ome"
  donyipoloism_desc:0 "Donyi-Poloism is that main form of the Tani Lhoba religion that worships the dual Sun-Moon deities that are the eyes of the creator god Sedi as the Supreme Being."
- 
  donyipoloism_old:0 "Old Donyi-Poloism"
  donyipoloism_old_adj:0 "Old Donyi-Poloist"
  donyipoloism_old_adherent:0 "Old Donyi-Polo Ome"
  donyipoloism_old_adherent_plural:0 "Old Donyi-Polo Ome"
-
- #Sedism
  sedism:0 "Sedism"
  sedism_adj:0 "Sedist"
  sedism_adherent:0 "Sedi Ome"
  sedism_adherent_plural:0 "Sedi Ome"
  sedism_desc:0 "Sedism is a form of the Tani Lhoba religion that worships the creator god Sedi as the Supreme Being."
- 
  sedism_old:0 "Old Sedism"
  sedism_old_adj:0 "Old Sedist"
  sedism_old_adherent:0 "Old Sedi Ome"
  sedism_old_adherent_plural:0 "Old Sedi Ome"
- 
  sedism_high_god_name:0 "Donyi-Polo"
  sedism_high_god_name_possessive:0 "Donyi-Polo's"
  sedism_high_god_shehe:0 "He"

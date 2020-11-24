@@ -23,5 +23,5 @@
  wooden_horse: "wooden horse"
  doll: "doll"
  stick_horse: "stick horse"
- child_object_of_interest_set: "[ROOT.Char.Custom('child_object_of_interest')]"
+ child_object_of_interest_set: "[ROOT.Char.Custom('child_favorite_toy')]"
  child_object_of_interest_random: "[ROOT.Char.Custom('child_object_of_interest_random')]"

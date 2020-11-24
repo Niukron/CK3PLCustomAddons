@@ -13,7 +13,6 @@
  CLICK_TO_PASS_LAW:0 "\n#I Click to pass [Law.GetNameNoTooltip|V]#!"
  LAW_COST:1 "\n#S Cost:#! [GuiLaw.GetShortCostString|L]"
  LAW_TITLE_ALLEGIANCE_OPINION:0 "$EFFECT_LIST_BULLET$Vassals Swearing [title_allegiance|E] [opinion|E]: $VALUE|+=$"
-
  crown_authority:0 "[crown_authority|E]"
  crown_authority_0:0 "Autonomous Vassals"
  crown_authority_0_effects_not_in_prev:0 "#weak Vassals provide [levies|E] and [taxes|E], but are otherwise free to do as they wish#!"

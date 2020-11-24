@@ -6,4 +6,3 @@
  LV_UNRAISED:0 "Unraised"
  LV_MAINTENANCE:0 "Maintenance: [gold_i][LevyView.GetMaintenanceCost|2]/month"
  LV_NO_COUNTERS:0 "Levies never [counter|E] other Types"
- 

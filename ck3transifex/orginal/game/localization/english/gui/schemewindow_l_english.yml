@@ -119,7 +119,7 @@
  SCHEME_TARGET_TRAVELLING_UNSAFE_ROADS:0 "[target.GetFirstNameNoTooltip] is out traveling, unprotected and alone: $VALUE|+0=$"
  SCHEME_TARGET_TRAVELLING_INCOGNITO:0 "[target.GetFirstNameNoTooltip] is traveling incognito: $VALUE|+0=$"
  SCHEME_I_AM_SPYMASTER:1 "You are [target.GetFirstNamePossessiveNoTooltip] [spymaster|E]: $VALUE|+0=$"
- SCHEME_I_AM_SPYMASTER_OF_LIEGE:0 "You are [target.GetFirstNamePossessiveNoTooltip] [lieges|E] [spymaster|E]: $VALUE|+0=$"
+ SCHEME_I_AM_SPYMASTER_OF_LIEGE:1 "You are [target.GetFirstNamePossessiveNoTooltip] [liege|E]'s [spymaster|E]: $VALUE|+0=$"
  SCHEME_I_AM_SPYMASTER_OF_HOST:0 "You are the [spymaster|E] of [target.GetFirstNamePossessiveNoTooltip] [host|E]: $VALUE|+0=$"
  SCHEME_I_AM_GUARDIAN:0 "You are [target.GetFirstNamePossessiveNoTooltip] [guardian|E]: $VALUE|+0=$"
  SCHEME_I_AM_COUNCILLOR:0 "You are [target.GetFirstNamePossessiveNoTooltip] [councillor|E]: $VALUE|+0=$"
@@ -163,11 +163,11 @@
  SCHEME_SEDUCE_SPOUSE_OPINION_PENALTY:1 "[target.GetTitledFirstName] loves [target.GetHerHis] [target.Custom2('RelationToMeShort', target.GetPrimarySpouse)]: $VALUE|+0=-+$"
  SCHEME_SEDUCE_SPOUSE_OPINION_PENALTY_MILD:0 "[target.GetTitledFirstName] is not unhappy with [target.GetHerHis] [target.Custom2('RelationToMeShort', target.GetPrimarySpouse)]: $VALUE|+0=-+$"
  SCHEME_SEDUCE_SPOUSE_OPINION_BONUS:1 "[target.GetTitledFirstName] hates [target.GetHerHis] [target.Custom2('RelationToMeShort', target.GetPrimarySpouse)]: $VALUE|+0=-+$"
+ SCHEME_SEDUCE_UNWILLING_TO_COMMIT_ADULTERY:0 "[target.GetTitledFirstName] does not want to dishonor themselves by committing adultery: $VALUE|+0=-+$"
  SCHEME_SEDUCE_SPOUSE_STRONG_HOOK_PENALTY:0 "[target.GetTitledFirstName] is loyal to [target.GetHerHis] [target.Custom2('RelationToMeShort', target.GetPrimarySpouse)]: $VALUE|+0=-+$"
  SEDUCE_COURTIER_GUEST_PERK_BONUS:0 "[GetPerk( 'home_advantage_perk' ).GetName( GetPlayer )]: $VALUE|+0=-+$"
  SEDUCE_PERK_BONUS:0 "[GetPerk( 'smooth_operator_perk' ).GetName( GetPlayer )]: $VALUE|+0=-+$"
  TEMPTATION_FOCUS_BONUS:0 "[GetFocus('intrigue_temptation_focus').GetName]: $VALUE|+0=-+$"
-
  SCHEME_SEDUCE_WRONG_GENDER:0 "I am not attracted to [target.GetWomenMen]: $VALUE|0=-+$"
  SCHEME_SEDUCE_TABOO_INCEST:0 "Incest is taboo: $VALUE|0=-+$"
  SCHEME_SEDUCE_UNWILLING_INCEST:0 "You are [family|E]: $VALUE|0=-+$"
@@ -242,7 +242,6 @@
  SCHEME_TRAIT_CYNICAL:1 "[GetTrait('cynical').GetName( owner.Self )]: $VALUE|+0=$"
  SCHEME_TRAIT_TRUSTING:1 "[GetTrait('trusting').GetName( owner.Self )]: $VALUE|+0=$"
  SCHEME_TRAIT_EXCOMMUNICATED:1 "[GetTrait('excommunicated').GetName( owner.Self )]: $VALUE|+0=$"
-
  OPEN_SCHEMES_TAB:0 "Schemes"
  OPEN_HOOKS_AND_SECRETS_TAB:0 "Hooks and Secrets"
  INTRIGUE_WINDOW_MY_HOOKS_TITLE:1 "[hooks|E] You Hold"
@@ -250,7 +249,7 @@
  INTRIGUE_WINDOW_SECRETS_KNOWN_TO_ME_TITLE:0 "[secrets|E] Known to Me"
  INTRIGUE_WINDOW_SECRET_DESC:0 "[IntrigueWindowSecretItem.GetSecret.GetDesc]"
  INTRIGUE_WINDOW_SECRET_TOOLTIP:0 "#T [Secret.GetCategoryName]#! \n[IntrigueWindowSecretItem.GetSecret.GetDesc]"
- INTRIGUE_WINDOW_SECRET_KNOWN_TO_ME_BLACKMAIL:0 "Blackmail for a Hook"
+ INTRIGUE_WINDOW_SECRET_KNOWN_TO_ME_BLACKMAIL:1 "Blackmail"
  INTRIGUE_WINDOW_MY_SECRETS_TITLE:1 "Your [secrets|E]"
  INTRIGUE_WINDOW_MY_SECRET_KNOWN_TO_NUM:0 "Known by [GetDataModelSize( IntrigueWindowSecretItem.GetKnownBy )] others"
  INTRIGUE_WINDOW_MY_SECRET_KNOWN_TO_NONE:0 "Known to none"
@@ -280,11 +279,8 @@
  INTRIGUE_WINDOW_SECRET_BLACKMAIL_CANT_BLACKMAIL:0 "@warning_icon! #X No [secret|E] can be used for blackmail at the moment#!"
  INTRIGUE_WINDOW_SECRET_BLACKMAIL_TT:0 "#T Blackmail#!\n\n[SelectLocalization( IntrigueWindowSecretGroup.CanBlackmail, 'blackmail_interaction_desc', 'INTRIGUE_WINDOW_SECRET_BLACKMAIL_CANT_BLACKMAIL' )]"
  INTRIGUE_WINDOW_SECRET_EXPOSE_DESC:3 "@warning_icon! #X You can #bold not#! expose [TARGET_CHARACTER.GetUINamePossessive] [SECRET.GetName] [secret|E]#!"
-
  is_forced_into_scheme_trigger:0 "Is forced into participating in a scheme"
  SCHEME_TYPE_TRIGGER:0 "Scheme is of the $SCHEME_NAME|V$-kind"
  SCHEME_NUMBER_OF_EXPOSED_AGENTS_TRIGGER:0 "Exposed Agents in [scheme|E]: $COMPARATOR$ $NUM|V0$"
  SCHEME_POWER_RESISTANCE_RATIO_TRIGGER:0 "The Scheme's power resistance ratio is: $COMPARATOR$ $NUM|V0$"
  SCHEME_MONTHLY_PROGRESS_TRIGGER:0 "Scheme Monthly Progress is: $COMPARATOR$ $NUM|V0$"
-
- 

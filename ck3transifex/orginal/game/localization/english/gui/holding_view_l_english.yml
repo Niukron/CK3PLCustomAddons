@@ -1,6 +1,6 @@
 ﻿l_english:
  HOLDING_TAX:0 "[tax|E]:"
- HOLDING_TAX_VALUE:0 "@gold_icon! [Holding.GetIncome|2V]"
+ HOLDING_TAX_VALUE:1 "@gold_icon! [Holding.GetIncome|2]"
  HOLDING_LOOT:1 "[raid_loot|E]:"
  HOLDING_LOOT_VALUE:0 "@gold_icon! [Holding.GetProvince.GetRaidLoot|0V]"
  HOLDING_FORT_LEVEL:1 "[fort_level|E]:"
@@ -40,6 +40,7 @@
  CONSTRUCT_HOLDING_PRIMARY:0 "Constructing this [holding|E] will result in a $NAME$"
  HOLDING_NOT_THE_COUNTY_HOLDER:1 "@warning_icon!#X Only the [holder|E] of this [county|E] or their [liege|E] is able to construct a new [holding|E]#!"
  BUILDING_NOT_THE_BARONY_HOLDER:1 "@warning_icon!#X Only the [holder|E] of this [holding|E] or their [liege|E] is able to construct a new [building|E]#!"
+ BUILDING_NOT_THE_DIRECT_BARONY_HOLDER:0 "@warning_icon!#X Only the [holder|E] of this [holding|E] is able to cancel or replace [buildings|E]#!"
  BUILDING_NOT_THE_BARONY_LESSEE:0 "@warning_icon!#X Only the [lessee|E] of this [holding|E] is able to construct a new [building|E]#!"
  HOLDING_VIEW_ALREADY_HAS_PRIMARY:0 "@warning_icon!#X This Barony already contains a [holding|E]#!"
  HOLDING_VIEW_MISSING_PRIMARY:0 "@warning_icon!#X This Barony does not have a [holding|E] yet#!"
@@ -131,7 +132,7 @@
  HOLDING_VIEW_ENEMY_OR_HOSTILE_UNITS:0 "@warning_icon! #X There are enemy or hostile armies in the Holding.#!"
  HOLDING_VIEW_UNDER_SIEGE:0 "@warning_icon! #X Holding Under [siege|E]#!"
  CONSTRUCTING_BUILDING_TITLE:2 "#T #high Constructing:#! [BUILDING.GetNameNoTooltip]#! #weak ([BUILDING.GetTypeName])#!\n\n"
- HOLDING_LEVY_SIZE:0 "@soldier_icon! [Holding.GetMaxLevySize|0]"
+ HOLDING_LEVY_SIZE:1 "@soldier_icon! [Holding.GetMaxLevySize|0]"
  HOLDING_VIEW_NEXT:0 "Next holding"
  HOLDING_VIEW_PREVIOUS:0 "Previous holding"
  HOLDING_VIEW_CONSTRUCT_OR_UPGRADE:0 "[Select_CString(EqualTo_int32(GUITrackItem.GetNextBuilding.GetLevel,'(int32)1'), 'Construct', 'Upgrade to')] [GUITrackItem.GetNextBuilding.GetNameNoTooltip]"
@@ -146,8 +147,8 @@
  HOLDING_VIEW_NO_COUNTY_MODIFIERS:0 "No County Modifiers"
  BUILDING_EFFECT_PROVINCE_HEADER:0 "#low This Holding:#!"
  BUILDING_EFFECT_COUNTY_HEADER:0 "#low This County:#!"
- BUILDING_EFFECT_CHARACTER_HEADER:0 "#low Your Realm:#!"
- BUILDING_EFFECT_DUCHY_CAPITAL_HEADER:1 "#low All your Holdings in the Duchy:#!"
+ BUILDING_EFFECT_CHARACTER_HEADER:1 "#low Holder of this Holding:#!"
+ BUILDING_EFFECT_DUCHY_CAPITAL_HEADER:2 "#low All Holdings in this Duchy:#!"
  BUILDING_CONSTRUCTION_COMPLETE_EFFECT_HEADER:0 "#low On Construction Completed:#!\n"
  RAID_TT_NO_LOOT_RAIDED:0 "@warning_icon!#X No available loot due to recently being raided#!"
  HOLDING_VIEW_YOUR_COUNTY:0 "Your [county|E]"
@@ -157,6 +158,5 @@
  FIND_VASSAL_BUTTON_HOLDING_VIEW_TOOLTIP:2 "#T $FIND_VASSAL_HEADER$#!\nChoose someone to grant the [HoldingView.GetCountyTitle.GetNameNoTooltip] to.\n\n$FIND_VASSAL_BUTTON_TOOLTIP_SEGMENT$"
  VASSAL_POSSESSIVE:0 "vassal's"
  HOLDING_VIEW_BUILDING_IN_VASSAL:0 "Constructing in your Vassal's [holding|E]"
-
  CULTURE_COUNTY_WINDOW:0 "[Culture.GetNameNoTooltip]"
- 
+ HOLDING_VIEW_ALREADY_CONSTRUCTING_HOLDING:0 "@warning_icon!#X You are already constructing a $HOLDING|V$ in this [county|E]#!"

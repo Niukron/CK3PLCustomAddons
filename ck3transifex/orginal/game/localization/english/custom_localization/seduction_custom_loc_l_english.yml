@@ -5,8 +5,6 @@
  seduction_object_sea_shell:0 "sea shell"
  seduction_object_a_sea_shell:0 "a sea shell"
  seduction_object_sea_shells:0 "sea shells"
-
- #SeductionGiftType
  seduce_gift_tapestry:0 "dynastic tapestry"
  seduce_gift_horse:0 "purebred horse"
  seduce_gift_tailored_clothes:0 "masterfully tailored clothes"
@@ -19,7 +17,6 @@
  seduce_gift_stuffed_animal:0 "stuffed fox"
  seduce_gift_flower_display:0 "flower display"
  seduce_gift_handkerchief:0 "crested handkerchief"
- #SeductionGiftTypeIndefinite
  seduce_gift_indefinite_tapestry:0 "a dynastic tapestry"
  seduce_gift_indefinite_horse:0 "a purebred horse"
  seduce_gift_indefinite_tailored_clothes:0 "some masterfully tailored clothes"
@@ -32,8 +29,6 @@
  seduce_gift_indefinite_stuffed_animal:0 "a stuffed fox"
  seduce_gift_indefinite_flower_display:0 "a flower display"
  seduce_gift_indefinite_handkerchief:0 "a handkerchief with a house crest"
-
-
  book_in_question_religious:0 "[SCOPE.Custom('RandomReligiousTextName')]"
  book_in_question_entertaining:0 "[SCOPE.Custom('RandomEntertainmentTextName')]"
  book_in_question_informative:0 "[SCOPE.Custom('RandomInformativeTextName')]"

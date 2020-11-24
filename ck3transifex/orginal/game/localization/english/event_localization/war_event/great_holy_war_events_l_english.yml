@@ -74,7 +74,6 @@
  great_holy_war.0040.b:0 "I will make a generous contribution."
  great_holy_war.0040.c:0 "I can spare a few coins for this endeavor."
  great_holy_war.0040.d:0 "I will seriously consider it."
-
  great_holy_war.0050.title:0 "[the_faith.GHWName] for [target_kingdom.GetNameNoTierNoTooltip]"
  great_holy_war.0050.base.desc:0 "[the_faith.GetAdjectiveNoTooltip] rulers, invigorated by a call to arms of [ghw_sponsor.GetTitledFirstName], have started to gather a large host of zealots to wage a [the_faith.GHWName] against all enemies of the [the_faith.ReligiousSymbol] in [target_kingdom.GetNameNoTierNoTooltip]. More and more fanatics are drawn in every day in what will soon be a mighty army of the [the_faith.ReligiousSymbol] assembled to bring war upon our lands."
  great_holy_war.0050.defender.desc:0 "\n\nIt falls upon me to organize my fellow [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] rulers in the region and prepare for the incoming tide of [ghw_sponsor.Custom('GetUnbelieverNamePlural')] before it's too late."

@@ -12,7 +12,6 @@
  SETTING_TOOLTIP_LOCK_TIME_TOOLTIP:1 "#T $SETTING_TOOLTIP_LOCK_TIME$#!\nSets the delay before tooltips are locked."
  SETTING_TOOLTIP_OPEN_TIME_WHEN_ANOTHER_LOCKED:0 "Locked Open Delay"
  SETTING_TOOLTIP_OPEN_TIME_WHEN_ANOTHER_LOCKED_TOOLTIP:1 "#T $SETTING_TOOLTIP_OPEN_TIME_WHEN_ANOTHER_LOCKED$#!\nSets the delay before tooltips are locked when another tooltip is already open."
- # Audio
  SETTING_Sound_Effects:1 "All Sound Effects"
  SETTING_Sound_Effects_TOOLTIP:1 "#T Sound Effects Volume\n#!Sets the volume of ALL sound effects."
  SETTING_Ambience:0 "Ambience"
@@ -36,6 +35,8 @@
  SETTINGS_CATEGORY_GAME_PORTRAITS:0 "Portraits"
  SETTING_SHOW_DISTURBING_PORTRAIT_MODIFIERS:0 "Show graphic diseases and injuries"
  SETTING_SHOW_DISTURBING_PORTRAIT_MODIFIERS_TOOLTIP:0 "#T $SETTING_SHOW_DISTURBING_PORTRAIT_MODIFIERS$#!\nSets whether graphic injuries and diseases will be visible on character portraits."
+ SETTING_SHOW_NUDITY:0 "Show nudity"
+ SETTING_SHOW_NUDITY_TOOLTIP:0 "#T $SETTING_SHOW_NUDITY$#!\nSets whether characters can be shown nude."
  NEVER:0 "Never"
  MONTHLY:0 "Every month"
  HALFYEAR:0 "Every 6 months"
@@ -57,4 +58,3 @@
  ALWAYS_SHOW:0 "Always Show"
  SETTING_HIDE_COAST_BORDER_ON_ZOOM:0 "Coastal Borders"
  SETTING_HIDE_COAST_BORDER_ON_ZOOM_TOOLTIP:0 "#T $SETTING_HIDE_COAST_BORDER_ON_ZOOM$#!\nThis option will control when coastal realm borders should be shown.\nIf $BASED_ON_ZOOM_LEVEL$ then they will be hidden in the detail zoom level.\n\nPicking a $ALWAYS_SHOW$ or $ALWAYS_HIDE$ may increase performance at the cost of the coastal realm borders not hiding dynamically."
- 

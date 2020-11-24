@@ -78,7 +78,7 @@
  tooltip_combat_phase_main: "#T Current [combat_phase|E]: [main_phase|E]#!"
  tooltip_combat_phase_pursuit: "#T Current [combat_phase|E]: [aftermath|E]#!"
  COMBAT_WIDTH_BREAKDOWN_HEADER: "[combat_width|E]: $VALUE|V$"
- MEN_AT_ARMS_DESC: "$REGIMENT_TYPE|V$: $VALUE|0$"
+ MEN_AT_ARMS_DESC: "$MEN_AT_ARMS_TYPE|V$: $VALUE|0$"
  COUNTERED: "countered"
  PURSUING: "Pursuing"
  RETREATING: "Retreating"

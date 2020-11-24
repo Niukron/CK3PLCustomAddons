@@ -6,7 +6,6 @@
  dualism_religion_adherent:0 "Dualist"
  dualism_religion_adherent_plural:0 "Dualists"
  dualism_religion_desc:0 "Dualism most commonly is the belief that there are two fundamental forces which exist in direct opposition to each other; a benevolent spiritual force that gave birth to the human soul, and a malevolent material force that created the human body."
-
  dualism_high_god_name:0 "God"
  dualism_high_god_name_possessive:0 "God's"
  dualism_high_god_alternate:0 "The One"
@@ -42,7 +41,6 @@
  dualist_death_deity_name_possessive:0 "Death's"
  dualism_death_shehe:0 "it"
  dualism_death_diety_herhis:0 "its"
-
  dualism_creator_god_name:0 "$dualism_devil_name$"
  dualism_creator_god_name_possessive:0 "$dualism_devil_name_possessive$"
  dualism_health_god_name:0 "$dualism_high_god_name$"
@@ -65,8 +63,6 @@
  dualism_night_god_name_possessive:0 "$dualism_high_god_name_possessive$"
  dualism_water_god_name:0 "$dualism_high_god_name$"
  dualism_water_god_name_possessive:0 "$dualism_high_god_name_possessive$"
-
- #Manicheanism
  manichean:0 "Manicheanism"
  manichean_adj:0 "Manichean"
  manichean_adherent:0 "Manichean"
@@ -77,7 +73,6 @@
  manicheanism_good_god_first_man:0 "The First Man"
  manicheanism_devil_name:0 "The Prince of Darkness"
  manicheanism_devil_name_possessive:0 "The Prince of Darkness'"
-
  manicheanism_high_god_name:0 "The Father of Greatness"
  manicheanism_high_god_name_possessive:0 "The Father of Greatness'"
  manicheanism_creator_god_name:0 "The Mother of Life"
@@ -100,8 +95,6 @@
  manicheanism_water_god_name_possessive:0 "Āb's"
  manichean_religious_head_title:0 "Yamag"
  manichean_religious_head_title_name:0 "Yamagate"
-
- #Mandeanism
  mandeaism:0 "Mandeaism"
  mandeaism_adj:0 "Mandean"
  mandeaism_adherent:0 "Mandean"
@@ -114,7 +107,6 @@
  mandeaism_devil_name:0 "Ptahil"
  mandeaism_devil_name_possessive:0 "Ptahil's"
  mandeaism_good_god_king_of_light:0 "The King of Light"
-
  mandeaism_creator_god_name:0 "$mandeaism_devil_name$"
  mandeaism_creator_god_name_possessive:0 "$mandeaism_devil_name_possessive$"
  mandeaism_health_god_name:0 "$mandeaism_high_god_name$"
@@ -133,8 +125,6 @@
  mandeaism_night_god_name_possessive:0 "$mandeaism_high_god_name_possessive$"
  mandeaism_water_god_name:0 "Yardana"
  mandeaism_water_god_name_possessive:0 "Yardana's"
-
- #Sabianism
  sabianism:0 "Sabianism"
  sabianism_adj:0 "Sabian"
  sabianism_adherent:0 "Sabian"
@@ -148,8 +138,6 @@
  sabianism_devil_name_possessive:0 "$christianity_devil_name_possessive$"
  sabianism_creator_god_name:0 "$christianity_devil_name$"
  sabianism_creator_god_name_possessive:0 "$christianity_devil_name_possessive$"
-
- #Valentinianism
  valentinianism:0 "Valentinianism"
  valentinianism_adj:0 "Valentinian"
  valentinianism_adherent:0 "Valentinian"
@@ -161,7 +149,6 @@
  valentinianism_high_god_name_alternate_possessive:0 "The Father's"
  valentinianism_devil_name:0 "Sophia"
  valentinianism_devil_name_possessive:0 "Sophia's"
-
  valentinianism_creator_god_name:0 "Sophia"
  valentinianism_creator_god_name_possessive:0 "Sophia's"
  valentinianism_health_god_name:0 "Zoê"
@@ -182,8 +169,6 @@
  valentinianism_night_god_name_possessive:0 "Ennoia's"
  valentinianism_water_god_name:0 "$valentinianism_creator_god_name$"
  valentinianism_water_god_name_possessive:0 "$valentinianism_creator_god_name_possessive$"
-
- #Sethianism
  sethianism:0 "Sethianism"
  sethianism_adj:0 "Sethian"
  sethianism_adherent:0 "Sethianist"
@@ -196,7 +181,6 @@
  sethianism_devil_name:0 "Yaldabaoth"
  sethianism_devil_name_possessive:0 "Yaldabaoth's"
  sethian_divine_realm:0 "Pleroma"
-
  sethianism_creator_god_name:0 "$sethianism_high_god_name$"
  sethianism_creator_god_name_possessive:0 "$sethianism_high_god_name_possessive$"
  sethianism_health_god_name:0 "$sethianism_high_god_name$"
@@ -215,8 +199,6 @@
  sethianism_night_god_name_possessive:0 "$sethianism_high_god_name_possessive$"
  sethianism_water_god_name:0 "$sethianism_high_god_name$"
  sethianism_water_god_name_possessive:0 "$sethianism_high_god_name_possessive$"
-
- #Priscillianism
  priscillianism:0 "Priscillianism"
  priscillianism_adj:0 "Priscillianist"
  priscillianism_adherent:0 "Pricillianist"
@@ -226,14 +208,11 @@
  priscillianism_high_god_name_possessive:0 "The Deity's"
  priscillianism_good_god_saviour:0 "The Saviour"
  priscillianism_good_god_the_light:0 "The Light"
-
- #Borborism
  cainitism:0 "Cainitism"
  cainitism_adj:0 "Cainite"
  cainitism_adherent:0 "Cainite"
  cainitism_adherent_plural:0 "Cainites"
  cainitism_desc:0 "Caine was the first victim of the Evil of the Demiurge, creator of all physical matter. Since matter and bodies are evil, bodies must be defiled and destroyed through sinfulness, so that the true human soul within can be freed."
  cainite_religious_text:0 "Gospel of Judas"
-
  cainitism_knowledge_god_name:0 "Judas"
  cainitism_knowledge_god_name_possessive:0 "Judas'"

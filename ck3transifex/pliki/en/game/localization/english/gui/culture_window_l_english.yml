@@ -40,7 +40,7 @@
  INNOVATION_UNLOCK_CASUS_BELLI: "Can use $NAME$ [casus_belli|E]"
  INNOVATION_UNLOCK_MAA: "Can recruit $NAME$ as [men_at_arms|E]"
  INNOVATION_UNLOCK_LAW: "Can enact the $NAME$ [law|E]"
- INNOVATION_REGIMENT_TYPE_BONUS: "$NAME$ bonus:"
+ INNOVATION_MEN_AT_ARMS_TYPE_BONUS: "$NAME$ bonus:"
  INNOVATION_TOOLTIP_PROGRESS: "Progress: [CultureInnovation.GetProgress|0V]/100"
  INNOVATION_STATE_DISCOVERED: "Known to the [CULTURE.GetCollectiveNoun]"
  INNOVATION_STATE_PROGRESSING: "Expected to be discovered in about $TIME|V$"

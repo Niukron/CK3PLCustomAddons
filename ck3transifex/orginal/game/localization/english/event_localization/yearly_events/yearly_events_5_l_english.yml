@@ -76,7 +76,6 @@
  tooltip.5010.b.fail:0 "I fail to reconcile the two vassals"
  tooltip.5010.b.critfail:0 "I anger the two vassals"
  tooltip.5010.d.vassalsfight.effect:0 "[bickering_vassal_2.GetFirstName] challenges [bickering_vassal_1.GetFirstName] to a duel to the death!"
-
  yearly.5020.t:0 "Concerning Tutelage"
  yearly.5020.opening:0 "[helpful_councillor.Custom2('AppropriateGreeting', ROOT.Char)]"
  yearly.5020.intro.desc:0 "Your [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('scoped_heir'))] [scoped_heir.GetFirstName] has taken great interest in my work as your [helpful_councillor.Custom('CouncilPosition')], as of late. If you were to graciously allow me to spend some time with"
@@ -96,7 +95,7 @@
  tooltip.5020.c.fail:0 "[helpful_councillor.GetFirstNamePossessiveNoTooltip] reasons to educate [scoped_heir.GetFirstNameNoTooltip] elude me"
  tooltip.5020.c.fail.effect:0 "I might have to take action"
  tooltip.5020.c.critfail:0 "[helpful_councillor.GetFirstNameNoTooltip] finds out that I have decided to spy on [helpful_councillor.GetHerHim]"
- tooltip.5020.c.critfail.effect:0 "[helpful_councillor.GetFirstName]  is insulted and stops mentoring [scoped_heir.GetFirstName]"
+ tooltip.5020.c.critfail.effect:0 "[helpful_councillor.GetFirstName] is insulted and stops mentoring [scoped_heir.GetFirstName]"
  yearly.5021.deceitfulcouncillor.desc:0 "I was right to suspect [helpful_councillor.GetFirstNamePossessive] intentions! After having [helpful_councillor.GetHerHim] under watch for a few days, it is abundantly clear that [helpful_councillor.GetSheHe] is only interested in pitting my own [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('scoped_heir'))] against me."
  yearly.5021.honestcouncillor.desc:0 "Despite strict scrutiny [helpful_councillor.GetFirstName] my spy was unable to find anything that might persuade me to believe that [helpful_councillor.GetHerHis] intentions are nothing but pure.\n\n[helpful_councillor.GetSheHe|U] truly seems interested only in helping my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('scoped_heir'))] become a better ruler."
  yearly.5021.a:0 "No harm in letting [helpful_councillor.GetHerHim] mentor [scoped_heir.GetFirstNameNoTooltip]!"
@@ -115,7 +114,6 @@
  yearly.5024.b:0 "I cannot believe it. You are behind all this!"
  yearly.5020.a.e.tt:0 "[helpful_councillor.GetFirstNameNoTooltip] will teach [scoped_heir.GetFirstNameNoTooltip] about [helpful_councillor.GetHerHis] responsibilities as [helpful_councillor.GetCouncilTitle]"
  tooltip_yearly_5022_a:0 "Allow [helpful_councillor.GetFirstName] to continue with [helpful_councillor.GetHerHis] tutoring."
-
  yearly.5030.opening:0 "[squealing_vassal.Custom2('AppropriateGreeting', ROOT.Char)]"
  yearly.5030.earnestvassal.desc:0 "I have come to discover a most appalling truth about [blackmailed_vassal.GetTitledFirstName]. Though I loathe bringing this matter to your attention, I must inform you that this [blackmailed_vassal.GetWomanMan] is keeping secrets of the most alarming kind from you."
  yearly.5030.selfishvassal.desc:0 "I write to inform you of a most appalling discovery I made about [blackmailed_vassal.GetTitledFirstName]. This [blackmailed_vassal.GetWomanMan] is engaging in unsavory and dishonorable activities behind your back.\n\nI sincerely hope that bringing this sensitive information to your attention will prove my unwavering loyalty towards you, my [ROOT.Char.GetTitleTierName]."
@@ -169,7 +167,6 @@
  yearly.5043.torturedeadlyfail.desc:0 "My interrogation proved to be too much for the two prisoners. \n\nThey drew their last breath before telling me their secret."
  yearly.5043.a.a:0 "What a waste of time this was..."
  yearly.5043.a.b:0 "Why did they not speak?"
- 
  yearly.5050.t:0 "Marital Recriminations"
  yearly.5050.desc.a:0 ""Absolutely unacceptable!" \n\n[scoped_spouse.GetFirstName] bursts into my chambers, [scoped_spouse.GetHerHis] face red with anger, yelling loud enough for the entire [ROOT.Char.Custom('ResidenceBuilding')] to hear [scoped_spouse.GetHerHim]. \n\n"[slighting_courtier.GetTitledFirstName] has just insulted my honor! I demand that you cast that [slighting_courtier.Custom('InsultAdjective')] [slighting_courtier.Custom('InsultNoun')] from our court!""
  yearly.5050.desc.b:0 "I am surprised to find my [scoped_spouse.GetWifeHusband] skulking in my study. By the look on [scoped_spouse.GetHerHis] face, something is clearly upsetting [scoped_spouse.GetFirstName], yet it takes me a while to convince [scoped_spouse.GetHerHim] to share [scoped_spouse.GetHerHis] concerns with me. \n\n"My beloved, I must confess you that [slighting_courtier.GetFirstName] has gravely insulted me. I cannot bear the thought of being close to that coarse [slighting_courtier.GetWomanMan] any further.""
@@ -205,7 +202,6 @@
  yearly.5054.desc.b:0 "Just as I expected, executing [slighting_courtier.GetTitledFirstName] in the most painful and public way for slighting my [scoped_spouse.GetWifeHusband] was precisely the message I needed to send to the court.\n\nNobody dares to talk back or even just approach [scoped_spouse.GetFirstName] without [scoped_spouse.GetHerHis] permission. No longer will I have to worry about [scoped_spouse.GetHerHis] incessant complaints."
  yearly.5054.a.a:0 "I believe a thank you is in order, dear."
  yearly.5054.a.b:0 "Peace at last."
-
  yearly.9020.t:0 "A Mighty Elephant"
  yearly.9020.desc:1 "[marshal.Custom2('MyCharacterIntroduction', ROOT.Char)|U] approaches me with a smile on [marshal.GetHerHis] face. [marshal.GetSheHe|U] explains that I have received a truly impressive gift from an overseer in the [county.GetNameNoTooltip], and beckons me to come with [marshal.GetHerHim].\n\nAnd impressive it is! As I walk outside, I am greeted by a #emphasis gargantuan#! elephant. Larger than any I have seen. The beast will certainly bring devestation to any foe."
  yearly.9020.a:0 "I will ride this mighty beast into battle. Personally."
@@ -214,8 +210,6 @@
  yearly.9020.d1:1 "Let us honor [ROOT.Char.GetFaith.KnowledgeGodName] and release it."
  yearly.9020.d2:0 "Such an animal should be free. Release it."
  yearly_9020_personal_war_elephant:0 "Personal War Elephant"
-
-# Oltner
  yearly.8000.t:0 "Paying Homage"
  yearly.8000.desc:1 "My vassal, [vassal.GetTitledFirstName], has arrived outside my [ROOT.Char.Custom('ResidenceBuilding')] with a grand procession of well-dressed diplomats, $knight_culture_player_plural_no_tooltip_lowercase$, and exotic entertainers. The fellowship resembles a parade, led by [vassal.GetFirstNameNoTooltip] [vassal.GetHerselfHimself].\n\nIn a booming voice, [vassal.GetFirstNameNoTooltip] announces that [vassal.GetSheHe] is here to pay homage and that [vassal.GetSheHe] comes bearing gifts of #emphasis gold!#!"
  yearly.8000.desc.paranoid:0 "\n\n...[vassal.GetSheHe] is obviously here to #emphasis kill me!#!"
@@ -258,7 +252,6 @@
  yearly.8400.c:0 "This will not happen again. Understand?"
  yearly.8400.d:0 "I never realized you could do #emphasis that#!. Tempting..."
  yearly.8400.a.tt:0 "I send [deviant_guest.GetTitledFirstName] to the Court of [appropriate_court_target_owner.GetTitledFirstName], where [deviant_guest.GetSheHe] will make a fine agent..."
- 
  yearly.8500.opening:0 "[current_head_of_faith.Custom2('AppropriateGreeting', ROOT.Char)]"
  yearly.8500.desc.a:0 "The situation you are in is unfortunate. Still, I offer you this gift, so that you may triumph in this perilous time.\n\nI pray that [current_head_of_faith.GetFaith.HighGodName] stays on your side."
  yearly.8500.desc.b:0 "Your righteous struggle against the unbelievers has not gone unnoticed. I have personally dispatched an emissary carrying enough coin to see you through this tumultous time.\n\nMay [current_head_of_faith.GetFaith.HighGodName] protect you."

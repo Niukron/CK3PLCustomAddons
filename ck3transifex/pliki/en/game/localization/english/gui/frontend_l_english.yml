@@ -43,7 +43,7 @@
  FRONTEND_LOBBY_UNAVAILABLE_LOGIN: "@warning_icon! #X Log in to your Paradox Account to play Multiplayer#!"
  FRONTEND_LOBBY_UNAVAILABLE_USERNAME: "@warning_icon! #X You need to set a Username in order to play Multiplayer. You can do that in the Account Window.#!"
  FRONTEND_LOGIN_PROMPT: "Open Login window"
- FRONTEND_OBSERVER_DESC: "Play as an Observer, seeing the game unfold without directly participating.\n\nOnce in the game, you can Ctrl-click a Character to see the game from their perspective.\n\nYou can return to this lobby later if you want to play as a Character instead."
+ FRONTEND_OBSERVER_DESC: "Play as an Observer, seeing the game unfold without directly participating.\n\nOnce in the game, you can Control+click a Character to see the game from their perspective.\n\nYou can return to this lobby later if you want to play as a Character instead."
  SAVE_WINDOW_OVERWRITE: "Overwrite"
  SAVE_WINDOW_SAVE: "[SelectLocalization( SaveGameWindow.IsOverwrite, 'SAVE_WINDOW_OVERWRITE', '' )][SelectLocalization( And( Not( SaveGameWindow.IsOverwrite ), SaveGameWindow.IsIronman ), 'START_IRONMAN_SAVE', '' )][SelectLocalization( And( Not( SaveGameWindow.IsOverwrite ), Not( SaveGameWindow.IsIronman ) ), 'SAVE', '' )]"
  SAVE_WINDOW_SHOW_INVALID: "Show invalid"

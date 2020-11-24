@@ -15,7 +15,7 @@
  FOCUS_BUTTON:0 "Show Focus View"
  GOTO_PLAYER:1 "#T Go to your Location#!\nMove the camera to [GetPlayer.GetCurrentLocation.GetName|V]"
  GOTO_CAPITAL:1 "#T Go to your [realm_capital|E]#!\nMove the camera to [GetPlayer.GetCapitalLocation.GetName|V]"
- MAPMODE_REALMS:0 "#T Realms\n#!Shows [rulers|E] and their [realms|E] on the map.\nSelect a Realm to see its [vassals|E]."
+ MAPMODE_REALMS:1 "#T Realms\n#!Shows [rulers|E] and their [realms|E] on the map.\nCtrl+click a Realm to see its [vassals|E]."
  MAPMODE_TERRAIN:1 "#T #V Terrain#! Map Mode#!"
  MAPMODE_CULTURES:0 "#T Cultures\n#!Shows the [culture|E] of each [county|E] on the map.\nIn striped areas the County and the [top_liege|E] have different Cultures."
  MAPMODE_AREAS:1 "#T #V Areas#! Map Mode #D (Debug)#!#!"
@@ -60,8 +60,8 @@
  GAINED_BREAKDOWN_LABEL_LINK:0 "Total Gained"
  LOST_BREAKDOWN_LABEL_LINK:0 "Total Lost"
  TOTAL_BREAKDOWN_LABEL:0 "[PlayerValueItem.GetBalanceTotal]"
- MONTHLY_BREAKDOWN_ITEM:0 "$VALUE|+=$/month"
- YEARLY_BREAKDOWN_ITEM:0 "$VALUE|+=$/year"
+ MONTHLY_BREAKDOWN_ITEM:1 "#UNDERLINE $VALUE|+=$#!/month"
+ YEARLY_BREAKDOWN_ITEM:1 "#UNDERLINE $VALUE|+=$#!/year"
  PLAYER_VALUE_LEVEL_LABEL:0 "[PlayerValueItem.GetLevelConcept]:"
  PROGRESS_TOWARD_LEVEL:0 "Progress toward: $LEVEL$"
  PIETY_LEVEL_LABEL_0:2 "@piety_level_0_icon_christian! [GetModifier( 'piety_level_0' ).GetNameWithTooltip|L]"
@@ -100,17 +100,17 @@
  PRESTIGE_LEVEL_LABEL_3:1 "@prestige_level_3_icon! [GetModifier( 'prestige_level_3' ).GetNameWithTooltip|L]"
  PRESTIGE_LEVEL_LABEL_4:1 "@prestige_level_4_icon! [GetModifier( 'prestige_level_4' ).GetNameWithTooltip|L]"
  PRESTIGE_LEVEL_LABEL_5:1 "@prestige_level_5_icon! [GetModifier( 'prestige_level_5' ).GetNameWithTooltip|L]"
- #DYNASTY_PRESTIGE_LEVEL_LABEL_0:0 "" Delete this
- #DYNASTY_PRESTIGE_LEVEL_LABEL_1:0 "" Delete this
- #DYNASTY_PRESTIGE_LEVEL_LABEL_2:0 "" Delete this
- #DYNASTY_PRESTIGE_LEVEL_LABEL_3:0 "" Delete this
- #DYNASTY_PRESTIGE_LEVEL_LABEL_4:0 "" Delete this
- #DYNASTY_PRESTIGE_LEVEL_LABEL_5:0 "" Delete this
- #DYNASTY_PRESTIGE_LEVEL_LABEL_6:0 "" Delete this
- #DYNASTY_PRESTIGE_LEVEL_LABEL_7:0 "" Delete this
- #DYNASTY_PRESTIGE_LEVEL_LABEL_8:0 "" Delete this
- #DYNASTY_PRESTIGE_LEVEL_LABEL_9:0 "" Delete this
- #DYNASTY_PRESTIGE_LEVEL_LABEL_10:0 "" Delete this
+ #DYNASTY_PRESTIGE_LEVEL_LABEL_0:0 ""
+ #DYNASTY_PRESTIGE_LEVEL_LABEL_1:0 ""
+ #DYNASTY_PRESTIGE_LEVEL_LABEL_2:0 ""
+ #DYNASTY_PRESTIGE_LEVEL_LABEL_3:0 ""
+ #DYNASTY_PRESTIGE_LEVEL_LABEL_4:0 ""
+ #DYNASTY_PRESTIGE_LEVEL_LABEL_5:0 ""
+ #DYNASTY_PRESTIGE_LEVEL_LABEL_6:0 ""
+ #DYNASTY_PRESTIGE_LEVEL_LABEL_7:0 ""
+ #DYNASTY_PRESTIGE_LEVEL_LABEL_8:0 ""
+ #DYNASTY_PRESTIGE_LEVEL_LABEL_9:0 ""
+ #DYNASTY_PRESTIGE_LEVEL_LABEL_10:0 ""
  PIETY_PROGRESS_TOOLTIP:0 "Progress: $VALUE|0V$/$MAX|0$ towards the next [piety_level|E]"
  PRESTIGE_PROGRESS_TOOLTIP:0 "Progress: $VALUE|0V$/$MAX|0$ towards the next [prestige_level|E]"
  DYNASTY_PRESTIGE_PROGRESS_TOOLTIP:0 "Progress: $VALUE|0V$/$MAX|0$ towards the next [dynasty_prestige_level|E]"
@@ -150,11 +150,11 @@
  GO_BACK_VIEW_HISTORY:0 "#T Show previous view#!\n$VIEW_NAME$"
  I_CAN_ENFORCE_DEMANDS:1 "#I You can enforce your demands#!"
  TOGGLE_OUTLINER:0 "#T Toggle Outliner#!"
- PLAYER_STRESS_TOOLTIP:0 "#T [stress_level|E]: [GetPlayer.GetStressLevel|V]/[GetDefine('NCharacter', 'MAX_STRESS_LEVEL')|V]\n#![GetPlayer.StressLevelEffect]\n\n#S [stress|E]: [stress_i][GetPlayer.GetStress|V]/[GetMaxStress|V]#!\n[GetPlayer.StressProgressDesc]"
+ PLAYER_STRESS_TOOLTIP:1 "#T [stress_level|E]: [GetPlayer.GetStressLevel|V]/[GetDefine('NCharacter', 'MAX_STRESS_LEVEL')|V]\n#![AddTextIfNotEmpty('#S Effects:#!\n', GetPlayer.StressLevelEffect )]\n[AddTextIf(Not(StringIsEmpty(GetPlayer.StressLevelEffect)), '\n')]#S [stress|E]: [stress_i][GetPlayer.GetStress|V]/[GetMaxStress|V]#!\n[GetPlayer.StressProgressDesc]"
  STRESS_LEVEL_PROGRESS:0 "Next level at [stress_i]$NEXT|V$"
  STRESS_LEVEL_PROGRESS_MAX:1 "#X @warning_icon! You are already at maximum Stress Level. At [stress_i]$NEXT|V$ you will suffer a mental breakdown and lose [stress_loss_i][GetDefine('NCharacter', 'STRESS_PER_LEVEL')|P]#!"
  OBSERVER_MODE_ON:0 "#T Leave this Character's perspective#!"
- ACTIONS_TT:0 "#T Issues\n#![ActionItemHandler.GetNumberOfActions] issues[ActionItemHandler.GetSuggestionsDebugTooltip]\n\n[SelectLocalization( ActionItemHandler.HasAvailableActions, 'ACTIONS_TT_CLICK_TO_VIEW', '' )]"
+ ACTIONS_TT:2 "#T Current Situation\n#!You have [ActionItemHandler.GetNumberOfUnreadActions|V] unread messages[ActionItemHandler.GetSuggestionsDebugTooltip]\n\n[SelectLocalization( ActionItemHandler.HasAvailableActions, 'ACTIONS_TT_CLICK_TO_VIEW', '' )]"
  ACTIONS_TT_CLICK_TO_VIEW:0 "#I Click to view#!"
  INGAME_TOPBAR_CULTURE_HEAD:1 "As the [GetPlayer.GetCulture.GetNameNoTooltip] [cultural_head|E] you can change the Fascination"
  INGAME_TOPBAR_NOT_CULTURE_HEAD:1 "@warning_icon!#X You are not the [GetPlayer.GetCulture.GetNameNoTooltip] [cultural_head|E] so you cannot change the Fascination #!"
@@ -169,10 +169,10 @@
  BOTTOMBAR_SCHEME_TOOLTIP:0 "#T Scheme: #!\n[Scheme.GetTooltip]"
  INGAME_TOPBAR_MILITARY_STRENGTH:0 "#T Military strength#!:\n[InGameTopbar.GetStrengthTooltip]"
  VALUE_BREAKDOWN_NO_VALUES:0 "No values"
+ VALUE_BREAKDOWN_TOTAL:0 "Total:"
  VALUE_BREAKDOWN_NO_EXPENSES:0 "No Expenses"
  INGAME_MENU_TT:0 "#T In-game Menu#!"
  MORE_POPOUT_TT:0 "#T More...#!"
- 
  DE_JURE_DUCHIES_HEADER:0 "Showing: [duchies|E], [de_jure|E]"
  DE_JURE_KINGDOMS_HEADER:0 "Showing: [kingdoms|E], [de_jure|E]"
  DE_JURE_EMPIRES_HEADER:0 "Showing: [empires|E], [de_jure|E]"

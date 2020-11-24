@@ -5,11 +5,9 @@
  romantic_gesture_opinion:0 "Romantic Gesture"
  spilled_wine_on_me:0 "Spilled Wine"
  friendly_interaction:0 "Friendly Interaction"
-
  acting_strange:0 "Acting Strange"
  opinion_acting_strange:0 "Acting Strange"
  blamed_me_unjustly:0 "Unjustly Blamed"
-
  bitter_rivalry_opinion:0 "Bitter Rivalry"
  friendliness_opinion:0 "Friendly"
  unfriendly_opinion:0 "Unfriendly"
@@ -46,8 +44,6 @@
  slept_with_spouse_discovered_opinion:0 "Slept with my Spouse"
  unfaithful_spouse_exposed_opinion:0 "Unfaithful"
  unfaithful_spouse_discovered_opinion:0 "Unfaithful"
- 
-
  betrayal_infidelity_opinion:0 "Betrayal"
  refused_to_renounce_lover_opinion:0 "Refused to Renounce Lover"
  betrayed_our_promise:0 "Betrayed Our Promise"
@@ -99,8 +95,6 @@
  dismissive_opinion:0 "Dismissive"
  hurt_opinion:0 "Hurt"
  annoyed_opinion:0 "Annoyed"
-
-
  plotting_against_vassals_opinion:0 "Plotting Against My Vassals"
  loved_one_dungeon_death:0 "Caused the death of a loved one"
  helped_me_in_time_of_need:0 "Helped me in my Time of Need"
@@ -186,3 +180,4 @@
  declined_guardianship_opinion:0 "Declined Guardianship"
  claimant_faction_claimant_opinion:0 "Enthroned Me"
  claimant_faction_member_opinion:0 "Enthroned Liege"
+ raided_me_opinion:0 "Raided Me"

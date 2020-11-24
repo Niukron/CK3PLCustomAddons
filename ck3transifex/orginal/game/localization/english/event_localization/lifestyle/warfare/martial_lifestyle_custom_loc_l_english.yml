@@ -16,7 +16,6 @@
  forest_fighter_skill_desc:0 "forest fighting"
  cautious_leader_skill_desc:0 "making careful, calculated advances"
  organizer_skill_desc:0 "moving armies from place to place"
-
  trait_logistician_tooltip:0 "[GetTrait('logistician').GetName( ROOT.Char )]"
  trait_military_engineer_tooltip:0 "[GetTrait('military_engineer').GetName( ROOT.Char )]"
  trait_aggressive_attacker_tooltip:0 "[GetTrait('aggressive_attacker').GetName( ROOT.Char )]"
@@ -34,7 +33,6 @@
  forest_fighter_skill_tooltip:0 "[GetTrait('forest_fighter').GetName( ROOT.Char )]"
  cautious_leader_skill_tooltip:0 "[GetTrait('cautious_leader').GetName( ROOT.Char )]"
  organizer_skill_tooltip:0 "[GetTrait('organizer').GetName( ROOT.Char )]"
-
  warhorse_name_tencendur:0 "Tencendur"
  warhorse_name_bucephalus:0 "Bucephalus"
  warhorse_name_seianian:0 "Seianian"
@@ -58,7 +56,6 @@
  warhorse_name_prancer:0 "Prancer"
  warhorse_name_abbot:0 "Abbot"
  warhorse_name_glitterhoof:0 "Glitterhoof"
-
  horse_gender_her:0 "her"
  horse_gender_his:0 "his"
  horse_gender_him:0 "him"

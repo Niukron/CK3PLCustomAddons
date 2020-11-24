@@ -52,6 +52,7 @@
  death_punishment: "was executed as punishment"
  death_punishment_killer: "was executed by [TARGET_CHARACTER.GetUIName] as punishment"
  death_disappearance: "disappeared without a trace"
+ death_disappearance_killer: "disappeared without a trace on [TARGET_CHARACTER.GetUINamePossessive] orders"
  death_dungeon: "died in captivity"
  death_dungeon_passive: "$death_dungeon$"
  death_drinking_passive: "drank [CHARACTER.GetHerselfHimself] to death"

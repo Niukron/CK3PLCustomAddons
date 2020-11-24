@@ -21,10 +21,9 @@
  county_corruption_uncooperative_guilds_modifier_desc:1 "[county_corruption|E]\nThe local guilds are reluctant to cooperate with this County's rulers"
  county_corruption_lackluster_administration_modifier:0 "Lackluster Administration"
  county_corruption_lackluster_administration_modifier_desc:1 "[county_corruption|E]\nThis County's ruler can no longer fund the proper administration here!"
-
  gain_county_corruption.message.low_control:0 "Low Control"
  gain_county_corruption.message.deficit:0 "In Debt"
  gain_county_corruption.message.county_corruption:0 "Corruption"
  gain_county_corruption.message.desc:0 "[county_corruption|E]:\n$EFFECT$"
  remove_county_corruption.message.marshal_removal:1 "Increased Control"
- #remove_county_corruption.message:0 "" Delete This
+ #remove_county_corruption.message:0 ""

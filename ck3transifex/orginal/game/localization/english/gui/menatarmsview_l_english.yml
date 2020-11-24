@@ -14,7 +14,6 @@
  MAA_HOME_BANNER:0 "Home Rally Point:"
  MAA_DESTROY:0 "Destroy"
  MAA_ARMY:0 "In Army: [Regiment.GetArmy.GetName]"
- #Confirmation messages
  MAA_DESTROY_CONFIRMATION_TITLE:0 "Destroy [REGIMENT.GetNameNoTooltip]"
  MAA_DESTROY_CONFIRMATION_TEXT:0 "Regiment [REGIMENT.GetNameNoTooltip] will be destroyed."
  MAA_DESTROY_CONFIRMATION_ACCEPT:0 "Destroy"
@@ -24,15 +23,13 @@
  MAA_TYPE_NAME:0 "Type: [Regiment.GetMAAType.GetBaseTypeName]"
  MAA_INCREASE_SIZE:0 "Increase Size to [MAAItem.GetNextSize]"
  MAA_DECREASE_SIZE:0 "Decrease Size to [MAAItem.GetPreviousSize]"
- MAA_INCREASE_SIZE_TOOLTIP:0 "#T $MAA_INCREASE_SIZE$#!\nCost: [RegimentType.GetCostString( GetPlayer )]\nMaintenance will increase by:\n[RegimentType.GetReinforcementCostString( GetPlayer )]\n[RegimentType.GetFullStrengthMaintenanceCostForPlayerString]"
- MAA_DECREASE_SIZE_TOOLTIP:0 "#T $MAA_DECREASE_SIZE$#!\nMaintenance will be reduced by:\n[MenAtArmsView.GetReduceSizeBlockers][RegimentType.GetReinforcementCostString( GetPlayer )]\n[RegimentType.GetFullStrengthMaintenanceCostForPlayerString]"
+ MAA_INCREASE_SIZE_TOOLTIP:1 "#T $MAA_INCREASE_SIZE$#!\nCost: [MenAtArmsType.GetCostString( GetPlayer )]\nMaintenance will increase by:\n[MenAtArmsType.GetReinforcementCostString( GetPlayer )]\n[MenAtArmsType.GetFullStrengthMaintenanceCostForPlayerString]"
+ MAA_DECREASE_SIZE_TOOLTIP:1 "#T $MAA_DECREASE_SIZE$#!\nMaintenance will be reduced by:\n[MenAtArmsView.GetReduceSizeBlockers][MenAtArmsType.GetReinforcementCostString( GetPlayer )]\n[MenAtArmsType.GetFullStrengthMaintenanceCostForPlayerString]"
  MAA_DESTROY_TOOLTIP:0 "#T Destroy Regiment#!\n[MenAtArmsView.GetReduceSizeBlockers]$MAA_FULL_MAINTENANCE_TEXT$: [Regiment.CalcReinforcementCost]/month\n$MAA_UNRAISED_MAINTENANCE_TEXT$[Regiment.CalcUnraisedCost]/month"
  MAA_AT_MAX_SIZE:0 "At maximum Size"
  MAA_SIZE_CHANGE:0 "@soldier_icon! +[Regiment.GetMAAType.GetStackSize]"
  MAA_REINFORCING:1 "Reinforcing"
  REGIMENT_CURRENT_SIZE:0 "Size [Regiment.GetMAAChunkCount]/[Regiment.CalcMaxMAAChunkCount]"
-
- #Tooltip
  MAA_TT_BUY_TITLE:0 "#T Add $COUNT$ Soldiers#!"
  MAA_TT_SELL_TITLE:0 "#T Remove $COUNT$ Soldiers#!"
  MAA_TT_DESTROY_TITLE:0 "#T Destroy Regiment#!"
@@ -45,7 +42,6 @@
  MAA_TT_WILL_DESTROY:0 "This will destroy the Regiment"
  MAA_BASE_TYPE:0 "Category: $TYPE|V$"
  MAA_CHUNK_SIZE:0 "[soldiers|E]: $VALUE|V$"
- CREATE_MAA_HEADER:0 "#T Create [REGIMENT_TYPE.GetNameNoTooltip|V] Regiment#!"
+ CREATE_MAA_HEADER:1 "#T Create [MEN_AT_ARMS_TYPE.GetNameNoTooltip|V] Regiment#!"
  CANT_CREATE_MAA_AT_CAP:0 "@warning_icon!#X At [men_at_arms|E] Regiment Limit#!"
  CREATE_MAA_TOOLTIP:0 "#T Create New [men_at_arms|E] [regiment|E]#!\n[MilitaryItem.GetMaACanBeCreatedTooltip]"
- 

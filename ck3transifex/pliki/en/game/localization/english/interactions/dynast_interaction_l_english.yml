@@ -23,6 +23,8 @@
  dynast_claim_title_interaction: "Claim Title"
  dynast_claim_title_interaction_desc: "$dynasty_interaction_header$[claim|EU] a [title|E] held by [recipient.GetShortUINameNoTooltip] for yourself"
  dynast_claim_title_interaction_notification: "Claimed Title"
+ ALREADY_HAVE_CLAIM_ON_THIS_TITLE: "You already have a claim on this title"
+ ALREADY_HAVE_CLAIMS_ON_ALL_TITLES: "You already have claims on all of [TARGET_CHARACTER.GetTitledFirstNamePossessive] titles"
  dynast_end_dynasty_wars_interaction: "End Dynasty Wars"
  dynast_end_dynasty_wars_interaction_desc: "$dynasty_interaction_header$Demand that [recipient.GetShortUINameNoTooltip] immediately ends all their offensive wars against any other members of our [dynasty|E]"
  dynast_end_dynasty_wars_interaction_notification: "Ended Dynasty War"

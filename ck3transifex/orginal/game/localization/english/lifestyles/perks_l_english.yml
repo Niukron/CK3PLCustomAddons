@@ -10,7 +10,6 @@
  smooth_operator_perk_name:0 "Smooth Operator"
  seducer_perk_female_name:0 "Seductress"
  seducer_perk_male_name:0 "Seducer"
- # Intrigue: Schemer
  truth_is_relative_perk_name:0 "Truth is Relative"
  digging_for_dirt_perk_name:0 "Digging for Dirt"
  kidnapper_perk_name:0 "Kidnapper"
@@ -20,7 +19,6 @@
  a_job_done_right_perk_name:0 "A Job Done Right"
  twice_schemed_perk_name:0 "Twice Schemed"
  schemer_perk_name:0 "Schemer"
- # Intrigue: Dread
  dark_insights_perk_name:0 "Dark Insights"
  divine_retribution_perk_name:0 "Divine Retribution"
  dreadful_perk_name:0 "Dreadful"
@@ -30,7 +28,6 @@
  forever_infamous_perk_name:0 "Forever Infamous"
  prison_feudal_complex_perk_name:0 "Prison-Feudal Complex"
  torturer_perk_name:0 "Torturer"
- #Learning_name: Theology Tree
  faithful_perk_name:0 "Faithful"
  zealous_proselytizer_perk_name:0 "Zealous Proselytizer"
  religious_icon_perk_name:0 "Religious Icon"
@@ -40,7 +37,6 @@
  radiant_perk_name:0 "Radiant"
  defender_of_the_faith_perk_name:0 "Defender of the Faith"
  theologian_perk_name:0 "Theologian"
- #Learning: Medicine Tree
  anatomical_studies_perk_name:0 "Anatomical Studies"
  carefree_perk_name:0 "Carefree"
  mental_resilience_perk_name:0 "Mental Resilience"
@@ -50,7 +46,6 @@
  iron_constitution_perk_name:0 "Iron Constitution"
  healthy_perk_name:0 "Healthy"
  whole_of_body_perk_name:0 "Whole of Body"
- #Learning: Scholarship Tree
  pedagogy_perk_name:0 "Pedagogy"
  open_minded_perk_name:0 "Open-Minded"
  prophet_perk_name:0 "Prophet"
@@ -60,7 +55,6 @@
  learn_on_the_job_perk_name:0 "Learn on the Job"
  sanctioned_loopholes_perk_name:0 "Sanctioned Loopholes"
  scholar_perk_name:0 "Scholar"
- #Stewardship: Domain Tree
  tax_man_perk_male_name:0 "Tax Man"
  tax_man_perk_female_name:0 "Tax Woman"
  defensive_measures_perk_name:0 "Defensive Measures"
@@ -71,7 +65,6 @@
  popular_figurehead_perk_name:0 "Popular Figurehead"
  divided_attention_perk_name:0 "Divided Attention"
  architect_perk_name:0 "Architect"
- #Stewardship: Vassal & Liege Tree
  meritocracy_perk_name:0 "Meritocracy"
  chains_of_loyalty_perk_name:0 "Chains of Loyalty"
  likable_perk_name:0 "Likable"
@@ -81,7 +74,6 @@
  toe_the_line_perk_name:0 "Toe the Line"
  honored_to_serve_perk_name:0 "Honored to Serve"
  administrator_perk_name:0 "Administrator"
- #Stewardship: Wealth Tree
  golden_obligations_perk_name:0 "Golden Obligations"
  heregeld_perk_name:0 "Heregeld"
  detailed_ledgers_perk_name:0 "Detailed Ledgers"
@@ -91,7 +83,6 @@
  golden_aplomb_perk_name:0 "Golden Aplomb"
  at_any_cost_perk_name:0 "At Any Cost"
  avaricious_perk_name:0 "Avaricious"
- #Diplomacy: Foreign Affairs Tree
  thoughtful_perk_name:0 "Thoughtful"
  ducal_conquest_perk_name:0 "Ducal Conquest"
  forced_vassalage_perk_name:0 "Forced Vassalage"
@@ -101,7 +92,6 @@
  embassies_perk_name:0 "Embassies"
  accomplished_forger_perk_name:0 "Accomplished Forger"
  diplomat_perk_name:0 "Diplomat"
- #Diplomacy: Family Tree
  befriend_perk_name:0 "Befriend"
  confidants_perk_name:0 "Confidants"
  flatterer_perk_name:0 "Flatterer"
@@ -112,7 +102,6 @@
  sound_foundations_perk_name:0 "Sound Foundations"
  family_man_perk_male_name:0 "Patriarch"
  family_man_perk_female_name:0 "Matriarch"
- #Diplomacy: Majesty Tree
  benevolent_intent_perk_name:0 "Benevolent Intent"
  inspiring_rule_perk_name:0 "Inspiring Rule"
  firm_hand_perk_name:0 "Firm Hand"
@@ -122,7 +111,6 @@
  a_life_of_glory_perk_name:0 "A Life of Glory"
  dignitas_perk_name:0 "Dignitas"
  august_perk_name:0 "August"
- #Martial: Strategy Tree
  bellum_justum_perk_name:0 "Bellum Justum"
  parthian_tactics_perk_name:0 "Parthian Tactics"
  envelopment_perk_name:0 "Envelopment"
@@ -132,7 +120,6 @@
  living_off_the_land_perk_name:0 "Living Off the Land"
  sappers_perk_name:0 "Sappers"
  strategist_perk_name:0 "Strategist"
- # Martial: Control
  serve_the_crown_perk_name:0 "Serve the Crown"
  a_mans_home_perk_female_name:0 "A Woman's Home"
  a_mans_home_perk_male_name:0 "A Man's Home"
@@ -143,7 +130,6 @@
  soldiers_of_lesser_fortune_perk_name:0 "Soldiers of Lesser Fortune"
  absolute_control_perk_name:0 "Absolute Control"
  overseer_perk_name:0 "Overseer"
- # Martial: Chivalry
  stalwart_leader_perk_name:0 "Stalwart Leader"
  courtship_perk_name:0 "Courtship"
  promising_prospects_perk_name:0 "Promising Prospects"
@@ -153,8 +139,6 @@
  kingsguard_perk_name:0 "Kingsguard"
  peacemaker_perk_name:0 "Peacemaker"
  gallant_perk_name:0 "Gallant"
-
- # Other
  groomed_to_rule_msg_title:0 "Groomed to Rule"
  LOYALTY_AND_RESPECT_PERK_STATS_EFFECT:0 "[skills|E] from [spouse|E] [councillor_tasks|E]: #p +25%#!"
  dark_insight_gain_stats_tt:0 "Might gain some [GetPerk('dark_insights_perk').GetName(GetPlayer)]"

@@ -2,6 +2,8 @@
  chancellor_task.1001.t: "A New Claimant"
  chancellor_task.1001.desc: "Of all the buffoonery I have ever seen...\n\nIn [councillor.GetTitledFirstNamePossessive] inane efforts to improve my relations with my neighbors, my good-for-nothing [councillor.GetCouncilTitle] has officially acknowledged [neighboring_ruler.GetTitledFirstNamePossessive] claim to the [target_county.GetName]!"
  chancellor_task.1001.a: "You are supposed to make me friends, not enemies!"
+ chancellor_task.1001.title_message: "Blunder Results in Claim"
+ chancellor_task.1001.message: "[councillor.GetTitledFirstName] officially acknowledged your claim to the [target_county.GetName]"
  chancellor_task.1002.t: "The End of a Peace"
  chancellor_task.1002.desc: "In [councillor.GetTitledFirstNamePossessive] attempt at improving my reputation, my incompetent [councillor.GetCouncilTitle] has agreed to a treaty that #EMP cancels out#! parts of my old treaty with [target.GetName]!\n\nThe way the [target.GetTitleTierName] sees it, [target.GetSheHe] is free to declare war on me as [target.GetSheHe] might wish."
  chancellor_task.1002.a: "Why would you ever agree to this, [councillor.GetFirstNameNoTooltip]?!"

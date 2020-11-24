@@ -12,8 +12,6 @@
  NOT_IS_HELD_BY:0 "Is #bold not#! held by [TARGET_CHARACTER.GetShortUIName]"
  TITLE_IS_HELD_BY:0 "[TITLE.GetName] is held by [TARGET_CHARACTER.GetShortUIName]"
  NOT_TITLE_IS_HELD_BY:0 "[TITLE.GetName] is #bold not#! held by [TARGET_CHARACTER.GetShortUIName]"
-
- # Character Relationship Triggers
  LIEGE_EQUAL_FIRST:1 "You are a vassal of [TARGET_CHARACTER.GetShortUIName]"
  NOT_LIEGE_EQUAL_FIRST:1 "You are #bold not#! a vassal of [TARGET_CHARACTER.GetShortUIName]"
  LIEGE_EQUAL_THIRD:0 "[CHARACTER.GetShortUIName|U] is [TARGET_CHARACTER.GetShortUINamePossessive] vassal"
@@ -46,8 +44,6 @@
  NOT_REAL_FATHER_EQUAL_THIRD:0 "[TARGET_CHARACTER.GetShortUIName|U] is #bold not#! [CHARACTER.GetShortUINamePossessive] real father"
  PLAYER_HEIR_EQUAL_FIRST:2 "[TARGET_CHARACTER.GetShortUIName|U] is your [player_heir|E]"
  PLAYER_HEIR_EQUAL_THIRD:1 "[TARGET_CHARACTER.GetShortUIName|U] is [CHARACTER.GetShortUINamePossessive] [player_heir|E]"
-
- # Character Attribute Triggers
  CHARACTER_FAITH_EQUAL_FIRST:1 "You are [FAITH.GetAdjective]"
  NOT_CHARACTER_FAITH_EQUAL_FIRST:1 "You are #bold not#! [FAITH.GetAdjective]"
  CHARACTER_FAITH_EQUAL_THIRD:0 "[CHARACTER.GetShortUIName|U] is [FAITH.GetAdjective]"
@@ -64,7 +60,6 @@
  NOT_CHARACTER_CULTURE_GROUP_EQUAL_FIRST:1 "You are #bold not#! of a [CULTURE_GROUP.GetName] [culture|E]"
  CHARACTER_CULTURE_GROUP_EQUAL_THIRD:0 "[CHARACTER.GetShortUIName|U] is of a [CULTURE_GROUP.GetName] [culture|E]"
  NOT_CHARACTER_CULTURE_GROUP_EQUAL_THIRD:0 "[CHARACTER.GetShortUIName|U] is #bold not#! of a [CULTURE_GROUP.GetName] [culture|E]"
-
  CHARACTER_HOUSE_EQUAL_FIRST:1 "You belong to the [house|E] [DYNASTY_HOUSE.GetName]"
  NOT_CHARACTER_HOUSE_EQUAL_FIRST:1 "You do #bold not#! belong to the [house|E] [DYNASTY_HOUSE.GetName]"
  CHARACTER_HOUSE_EQUAL_THIRD:0 "[CHARACTER.GetShortUIName|U] belongs to the [house|E] [DYNASTY_HOUSE.GetName]"
@@ -73,8 +68,6 @@
  NOT_CHARACTER_DYNASTY_EQUAL_FIRST:1 "You are #bold not#! part of the [dynasty|E] [DYNASTY.GetName]"
  CHARACTER_DYNASTY_EQUAL_THIRD:0 "[CHARACTER.GetShortUIName|U] is part of the [dynasty|E] [DYNASTY.GetName]"
  NOT_CHARACTER_DYNASTY_EQUAL_THIRD:0 "[CHARACTER.GetShortUIName|U] #bold is not#! part of the [dynasty|E] [DYNASTY.GetName]"
-
- # Title Attribute Triggers
  LANDED_TITLE_FAITH_EQUAL_THIRD:0 "[TITLE.GetName] is [FAITH.GetAdjective]"
  NOT_LANDED_TITLE_FAITH_EQUAL_THIRD:0 "[TITLE.GetName] is #bold not#! [FAITH.GetAdjective]"
  LANDED_TITLE_FAITH_EQUAL_GLOBAL:0 "Is [FAITH.GetAdjective]"
@@ -91,8 +84,6 @@
  NOT_LANDED_TITLE_CULTURE_GROUP_EQUAL_THIRD:0 "[TITLE.GetName] is #bold not#! of a [CULTURE_GROUP.GetName] [culture|E]"
  LANDED_TITLE_CULTURE_GROUP_EQUAL_GLOBAL:0 "Is of a [CULTURE_GROUP.GetName] [culture|E]"
  NOT_LANDED_TITLE_CULTURE_GROUP_EQUAL_GLOBAL:0 "Is #bold not#! of a [CULTURE_GROUP.GetName] [culture|E]"
-
-  # Province Attribute Triggers
  PROVINCE_FAITH_EQUAL_THIRD:0 "[PROVINCE.GetName] is [FAITH.GetAdjective]"
  NOT_PROVINCE_FAITH_EQUAL_THIRD:0 "[PROVINCE.GetName] is #bold not#! [FAITH.GetAdjective]"
  PROVINCE_FAITH_EQUAL_GLOBAL:0 "Is [FAITH.GetAdjective]"
@@ -109,14 +100,10 @@
  NOT_PROVINCE_CULTURE_GROUP_EQUAL_THIRD:0 "[PROVINCE.GetName] is #bold not#! of a [CULTURE_GROUP.GetName] [culture|E]"
  PROVINCE_CULTURE_GROUP_EQUAL_GLOBAL:0 "Is of a [CULTURE_GROUP.GetName] [culture|E]"
  NOT_PROVINCE_CULTURE_GROUP_EQUAL_GLOBAL:0 "Is #bold not#! of a [CULTURE_GROUP.GetName] [culture|E]"
-
- # Faith Triggers
  FAITH_RELIGION_EQUAL_THIRD:0 "[FAITH.GetName] is a [RELIGION.GetAdjective] [faith|E]"
  NOT_FAITH_RELIGION_EQUAL_THIRD:0 "[FAITH.GetName] is #bold not#! a [RELIGION.GetAdjective] [faith|E]"
  FAITH_RELIGION_EQUAL_GLOBAL:0 "Is a [RELIGION.GetAdjective] [faith|E]"
  NOT_FAITH_RELIGION_EQUAL_GLOBAL:0 "Is #bold not#! a [RELIGION.GetAdjective] [faith|E]"
-
- # Culture Triggers
  CULTURE_CULUTRE_GROUP_EQUAL_THIRD:0 "[CULTURE.GetName] is a [CULTURE_GROUP.GetName] [culture|E]"
  NOT_CULTURE_CULUTRE_GROUP_EQUAL_THIRD:0 "[CULTURE.GetName] is #bold not#! a [CULTURE_GROUP.GetName] [culture|E]"
  CULTURE_CULUTRE_GROUP_EQUAL_GLOBAL:0 "Is a [CULTURE_GROUP.GetName] [culture|E]"

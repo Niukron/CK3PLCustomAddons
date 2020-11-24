@@ -97,7 +97,7 @@
  yearly.3000.b.failure.desc: "I fail to cajole [guest_lover.GetHerHim]"
  intrigue_temptation.3010.t: "A Bloom In The Wilderness"
  intrigue_temptation.3010.start.desc: "For the third night in a row, I am sitting at the same table, at the same inn. It has an excellent view of the bar — and the captivating [bar_servant.Custom('bar_servant')] behind it.\n\nMy daydream is interrupted when [wingman.Custom2('MyCharacterIntroduction', ROOT.Char)] slams [wingman.GetHerHis] tankard down on the table. \"I have seen you gawking at [bar_servant.GetFirstName] all night,\" [wingman.GetSheHe] whispers with a sly smile. \"I do not blame you, [bar_servant.GetSheHe] is a"
- intrigue_temptation.3010.end.desc: "[bar_servant.GetWomanMan]. Do you want me to make introductions?\""
+ intrigue_temptation.3010.end.desc: "[bar_servant.Custom('RomanticComplimentAdjective')] [bar_servant.GetWomanMan]. Do you want me to make introductions?\""
  intrigue_temptation.3010.a: "You know [bar_servant.GetHerHim]? That would be perfect!"
  intrigue_temptation.3010.b: "I want to do this myself."
  intrigue_temptation.3010.c: "I am just here for the drinks..."

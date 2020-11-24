@@ -28,7 +28,6 @@
  mundhumism_priest_term_plural:0 "Fedangma"
  mundhumism_bishop:0 "nakchhong"
  mundhumism_bishop_plural:0 "nakchhongs"
-
  mundhumism_creator_god_name:0 "Porokmi Yambhamiba"
  mundhumism_creator_god_name_possessive:0 "Porokmi Yambhamiba's"
  mundhumism_health_god_name:0 "Yuma Sammang"
@@ -51,31 +50,24 @@
  mundhumism_night_god_name_possessive:0 "$mundhumism_health_god_name_possessive$"
  mundhumism_water_god_name:0 "$mundhumism_health_god_name$"
  mundhumism_water_god_name_possessive:0 "$mundhumism_health_god_name_possessive$"
-
- #Kiratism
  kiratism:0 "Kiratism"
  kiratism_adj:0 "Kiratist"
  kiratism_adherent:0 "Kiratite"
  kiratism_adherent_plural:0 "Kiratites"
  kiratism_desc:0 "Kiratism is the practice of Mundhism that is common between a majority of the Kirati people. It focuses on the worship of Tagera Ningwaphuma as the Supreme Being and the honoring of ancestors."
- 
  kiratism_old:0 "Old Kiratism"
  kiratism_old_adj:0 "Old Kiratist"
  kiratism_old_adherent:0 "Old Kiratite"
  kiratism_old_adherent_plural:0 "Old Kiratites"
-
- #Yumaism
  yumaism:0 "Yumaism"
  yumaism_adj:0 "Yumaist"
  yumaism_adherent:0 "Yumaite"
  yumaism_adherent_plural:0 "Yumaites"
  yumaism_desc:0 "Yumaites focus their worship on Yuma Sammang, the female personification of Tagera Ningwaphuma, as the Supreme Goddess, whom they hail as the Mother of Nature."
- 
  yumaism_old:0 "Old Yumaism"
  yumaism_old_adj:0 "Old Yumaist"
  yumaism_old_adherent:0 "Old Yumaite"
  yumaism_old_adherent_plural:0 "Old Yumaites"
- 
  yumaism_high_god_name:0 "$mundhumism_health_god_name$"
  yumaism_high_god_name_possessive:0 "$mundhumism_health_god_name_possessive$"
  yumaism_creator_god_name:0 "$mundhumism_health_god_name$"

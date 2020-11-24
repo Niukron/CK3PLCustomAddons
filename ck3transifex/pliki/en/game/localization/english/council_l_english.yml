@@ -23,7 +23,7 @@
  COUNCILLOR_TASK_ALREADY_IN_PROCESS: "The task is already being executed"
  COUNCILLOR_TIMEOUT_FIRE: "@warning_icon!#X The [councillor|E] can not be fired until [DATE.GetString]#!"
  COUNCILLOR_TIMEOUT_REASSIGN: "@warning_icon!#X The [councillor|E] can not be reassigned until [DATE.GetString]#!"
- COUNCILLOR_ALREADY_CHANGED: "@warning_icon!#X The [councillor|E] has been already fired or assigned once#!"
+ COUNCILLOR_ALREADY_CHANGED: "@warning_icon!#X The [councillor|E] has already been fired or assigned once#!"
  COUNCILLOR_CAN_CHANGE_ONCE: "@warning_icon!#X Once appointed as [COUNCIL_POSITION_TYPE.GetName|V], [CHARACTER.GetShortUIName] cannot be fired or assigned another position#!"
  COUNCILLOR_CLICK_TO_HIRE: "Click to appoint a [ActiveCouncilTask.GetPositionName|E]"
  COUNCILLOR_BLANK_LIEGE: "Your [liege|E] has no [ActiveCouncilTask.GetPositionName|E]"

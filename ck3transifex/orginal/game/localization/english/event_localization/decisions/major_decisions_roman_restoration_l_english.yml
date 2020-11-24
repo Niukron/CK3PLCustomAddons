@@ -16,8 +16,6 @@
  roman_restoration.0002.c:0 "The end is nigh!"
  roman_restoration.0002.d:0 "I will stop them!"
  roman_restoration.0002.e:0 "I see..."
-
-# Restoring Roman Empire as HRE, by Flavio Verna
  roman_restoration.0003.t:0 "Holy and Roman"
  roman_restoration.0003.desc.greeks:0 "How ironic that the Empire once smeared as a barbarous pretender by the Byzantines would be brought to eternal glory under Greek leadership...\n\n"
  roman_restoration.0003.desc.other:0 ""
@@ -28,19 +26,13 @@
  roman_restoration.0004.desc.others:0 "Ever since Charlemagne was crowned by Pope Leo III, the Empire of the Greeks looked with contempt to what is referred to as the pretender in the West. Yet [scoped_emperor.GetTitledFirstName] has achieved the impossible: the restoration of the Eastern and Western borders from ancient times.\n\nThis new Empire, forged under the holy light of Christ, stands as the only true Imperium Romanum, ready to bring order upon a dark world."
  roman_restoration.0004.a:0 "Could it be...?"
  roman_restoration.0004.b:0 "They are still pretenders!"
-
-# New Emperor becomes Augustus, by Flavio Verna
  roman_restoration.0005.t:0 "Augustus"
  roman_restoration.0005.desc.regular:0 "Acclaimed by Senate and Army, I have been recognized as the rightful ruler of the restored Roman Empire. \n\nNo greater honor or responsibility can be bestowed upon a single [ROOT.Char.GetWomanMan]. I must be sure to live up to the expectations of my subjects if I wish to remain in power for long."
  roman_restoration.0005.desc.holy:0 "Acclaimed by the [ROOT.Char.GetFaith.GetAdjective] Clergy and the Army, I have been recognized as the rightful ruler of the restored Roman Empire. \n\nBy grace of [ROOT.Char.GetFaith.HighGodName], I will be able to rule justly and for a long time."
  roman_restoration.0005.a:0 "Hail Caesar!"
-
-# Old Emperor loses Augustus, by Flavio Verna
  roman_restoration.0006.t:0 "A New Emperor"
  roman_restoration.0006.desc:0 "With the loss of all legitimacy, I can no longer lay any claim to the title of Augustus. The Empire now belongs to [new_holder.GetTitledFirstName]."
  roman_restoration.0006.a:0 "I will be back!"
-
-# Old Roman Provinces are Restored, by Henrik Thyrwall & Flavio Verna
  roman_restoration.0010.t:0 "The Province of Syria Palaestina"
  roman_restoration.0010.desc:0 "The whole of the ancient province of Syria Palaestina has finally been liberated from the vile clutches of barbarians and restored to the Imperium Romanum. A great triumph will be held for the brave heroes who accomplished this feat. May their names echo in eternity!"
  roman_restoration.0010.a:0 "Long live the Empire!"
@@ -75,10 +67,8 @@
  roman_restoration.0024.desc.christian:0 "\n\nChurch bells across Europe are ringing to celebrate this momentous occasion and men and women in both Rome and Constantinople are weeping tears of joy. For the sake of all humanity, the new Pax Romana must endure, lest the world plunge into yet another dark age of ignorance and barbarity bereft of Rome's guiding light."
  roman_restoration.0024.desc.hellenic:0 "\n\nBy shedding the weight of the dead god of the Galileans and re-embracing the Olympians the Empire of Caesar and Augustus has risen from its ashes. For the sake of all humanity, the new Pax Romana must endure, lest the world plunge into yet another dark age of ignorance and barbarity bereft of Rome's guiding light."
  roman_restoration.0024.desc.fallback:0 "\n\nCountless people from all races and creeds all across Europe are celebrating this momentous occasion and men and women in both Rome and Constantinople are weeping tears of joy. For the sake of all humanity, the new Pax Romana must endure, lest the world plunge into yet another dark age of ignorance and barbarity bereft of Rome's guiding light."
-
-# Schism is mended, by Henrik Thyrwall & Flavio Verna
  roman_restoration.0100.t:0 "The Great Schism Mended"
- roman_restoration.0100.desc.intro:0 "At last the Great Schism between the Western Catholic Church and the Eastern Orthodox Church has been mended."
+ roman_restoration.0100.desc.intro:1 "At last the Great Schism has been mended."
  roman_restoration.0100.desc.orthodox:0 "\n\nNo longer will the arrogant Bishops in Rome claim undue primacy over their peers, ignoring or outright disobeying Canonical edicts. With the reunification of the Pentarchy under Orthodox Imperial rule, the Catholic faith now holds little sway over the people of Europe. \n\nIt is only a matter of time before the few who still cling to outdated and heretical rites are brought into the fold of the true Ecumenical Church."
  roman_restoration.0100.desc.catholic:0 "\n\nThe centuries-long fight of the Papacy to assert is primacy over the Pentarchy has finally come to an end. With the reunification of the original seats under Catholic rule, the Orthodox clergy has been forced to bow to the undeniable authority of the throne of Saint Peter. \n\nThe few amongst them who still cling to their outdated and heretical rites will soon be brought into the fold of the true Ecumenical Church, one way or the other."
  roman_restoration.0100.desc.generic:0 "\n\nWith the Pentarchy firmly under [mending_faith.GetAdjective] control, in an unexpected turn of events, both the Pope in Rome and the Patriarch of Constantinople are no longer able to deny the primacy of [mending_faith.GetName] over all other branches of Christianity."
@@ -90,8 +80,6 @@
  roman_restoration.0101.a:0 "If this is how the wind is blowing..."
  roman_restoration.0101.b:0 "Heretics! All of them!"
  roman_restoration.0102.a:0 "Troubling news..."
-
-# Restored Patriarchate Events, by Henrik Thyrwall & Flavio Verna
  roman_restoration.0104.t:0 "The Patriarchate of Antioch"
  roman_restoration.0104.desc:0 "With the city back under Roman control, the Patriarchate of Antioch has been properly restored as one of the episcopal sees of the Pentarchy in the Eastern Orthodox Church. It was originally founded by Saint Peter the Apostle, who is regarded as the first Pope by the Western Catholic Church."
  roman_restoration.0104.a:0 "God be praised!"
@@ -103,8 +91,6 @@
  roman_restoration.0107.desc:0 "With the city back under Roman control, the Patriarchate of Rome has been properly restored as one of the episcopal sees of the Pentarchy in the Eastern Orthodox Church. If all five historical patriarchates are returned to the Pentarchy, the Great Schism between the Eastern and Western churches may finally be mended."
  roman_restoration.0120.t:0 "The Iconoclast Patriarchate"
  roman_restoration.0120.desc:0 "With the great city of Constantinople in Iconoclastic hands, a new Patriarch has been put in charge of the Eastern Church. With the help of [new_pope.GetFaith.HighGodName], [new_pope.GetFirstName] will prove to be a more virtuous and considerate leader than [new_pope.GetHerHis] Ecumenical predecessors. \n\nThis new Patriarchate will surely stand against the excesses, corruption, and idolatry of its predecessor, and usher a new, glorious era for all faithful Iconoclasts."
-
-# Imposing the Iconoclast Patriarchate, by Flavio Verna
  roman_restoration.0120.a:0 "Down with these blasphemous idols!"
  roman_restoration.0121.desc.orthodox:0 "With the great city of Constantinople fallen under the hands of heretics, the vile Iconoclast [reformer.GetTitledFirstName] has appointed a false Patriarch to the Ecumenical Church, ousting all Orthodox prelates from their offices.\n\nIf this tyrant is not soon deposed and [reformer.GetHerHis] blasphemy rectified, this might be the beginning of the end for the Orthodox Church."
  roman_restoration.0121.desc.iconoclast:0 "With the great city of Constantinople in Iconoclastic hands, a new Patriarch has been put in charge of the Eastern Church by [reformer.GetTitledFirstName]. With the help of [new_pope.GetFaith.HighGodName], [new_pope.GetFirstName] will prove to be a more virtuous and considerate leader than [new_pope.GetHerHis] Ecumenical predecessors. \n\nThis new Patriarchate will surely stand against the excesses, corruption, and idolatry of its predecessor, and usher a new, glorious era for all faithful Iconoclasts."
@@ -112,8 +98,6 @@
  roman_restoration.0121.a:0 "Savages!"
  roman_restoration.0121.b:0 "It was about time!"
  roman_restoration.0121.c:0 "I see..."
-
-# Restoring the Ecumenical Patriarchate, by Flavio Verna
  roman_restoration.0122.t:0 "The Ecumenical Patriarchate"
  roman_restoration.0122.desc:0 "The unfortunate exile of the Ecumenical Patriarchate has finally come to an end.\n\nThe one true Church has returned to Constantinople, ready to lead the Christian world with a firm yet gentle hand."
  roman_restoration.0122.a:0 "Glory!"
@@ -123,8 +107,6 @@
  roman_restoration.0123.a:0 "Finally, reason has been restored to the Church!"
  roman_restoration.0123.b:0 "Vile idolaters, all of them!"
  roman_restoration.0123.c:0 "I see..."
-
-# Restoring the Papacy, by Flavio Verna
  roman_restoration.0124.t:0 "The Holy See"
  roman_restoration.0124.desc:0 "The age of turmoil and despair for the Catholic world has come to an end: with a new Pope restore to the historical seat of Rome, the one true Church can finally recover from the disastrous setbacks suffered in recent times.\n\nWith the help of [new_pope.GetFaith.HighGodName], [new_pope.GetTitledFirstName] will bring order and stability to the Catholic clergy once scattered across Europe and re-establish a strict hierarchy to the Church."
  roman_restoration.0124.a:0 "The Holy See has risen from its ashes!"
@@ -132,8 +114,6 @@
  roman_restoration.0125.desc.other:0 "After losing its ancestral seat and most of its supporters, the Catholic Church was by many considered on the verge of collapse. Yet, thanks to the pious intervention of [reformer.GetTitledFirstName], a new Pope reigns in Rome once again.\n\nWith the Holy See finally restored, the Catholics might be able to reclaim their place as a major Christian branch."
  roman_restoration.0125.a:0 "Our Mother Church is whole once more!"
  roman_restoration.0125.b:0 "Interesting..."
-
-# Destroying the Papacy, by Flavio Verna
  roman_restoration.0130.t:0 "The Dissolution of the Papacy"
  roman_restoration.0130.desc.muslim:1 "The Christians' dominion over Rome has finally come to an end. \n\nThanks to the committed efforts of many devoted servants of [scoped_destroyer.GetFaith.HighGodName], all of Italy has fallen under [scoped_destroyer.GetFaith.GetAdjective] rule. The faithful have worked tirelessly to strip away all blasphemous icons and bring the decadent clergy that ruled over these lands to justice."
  roman_restoration.0130.desc.hellenic:1 "The tyranny of the Galileans over Europe has finally come to an end.\n\nFor centuries these glorified cultists have been given free rein to vilify and deface the ancient monuments of our divine protectors, but no more! By restoring [scoped_destroyer.GetFaith.GetAdjective] rule over Rome and the Italian peninsula, we have squashed the very heart of the Church of the carpenter god."
@@ -151,24 +131,18 @@
  roman_restoration.0131.a.a:0 "It was about time somebody did it."
  roman_restoration.0131.a.b:0 "The end is nigh!"
  roman_restoration.0131.a.c:0 "I see..."
-
-# Unifying Italy, by Flavio Verna
  roman_restoration.0140.t:0 "The Italian Empire"
  roman_restoration.0140.desc:0 "Ever since the fall of the Western Empire, the Italian peninsula has been fractured between rebellious city-states, greedy bishops, and barbarian conquerors.\n\nYet, under my dynasty's rule, Italy has set aside petty infighting and made itself whole once again, resurging as a dominant power in the West. No longer will we be a prize to be contended between Franks and Greeks, or be brutalized by pirates and barbarian pretenders. From this day forward we retake our place as true heirs of the Roman Empire!"
  roman_restoration.0140.a:0 "Labor omnia vincit!"
  roman_restoration.0141.desc:0 "Ever since the fall of the Western Empire, the Italian peninsula has been fractured between rebellious city-states, greedy bishops, and barbarian conquerors, its ancient glory squandered in petty infighting.\n\nYet, under [scoped_ruler.GetTitledFirstNamePossessive] rule, Italy has been made whole once again, resurging as a dominant power in the West. Once contended between Franks and Greeks, it has now become an Empire on its own right, ruling over the core of the old Roman heartlands."
  roman_restoration.0141.a:0 "This is unfortunate."
  roman_restoration.0141.b:0 "Interesting..."
-
-# Restoring Roman Empire as Italy, by Flavio Verna
  roman_restoration.0150.t:0 "From Rome to Rome"
  roman_restoration.0150.desc:0 "It is clear now that no attempt to restore the broken Empire of old would have been successful, as long as it was pursued by barbarous Germans or effeminate Greeks.\n\nIt is only through the sacrifices of the Italian people that Rome has once again returned to its rightful place as Queen of Cities.\n\n"
  roman_restoration.0150.a:0 "Omnes viae Romam ducunt."
  roman_restoration.0151.t:0 "The Second Age of Rome"
  roman_restoration.0151.desc.byzantines:0 "The unthinkable has happened! The petty city-states of Italy have managed to unite under a single banner and carve a bloodied path into our Eastern Provinces in an effort to restore the Empire of old.\n\nHaving restored most of the ancient provinces under [scoped_emperor.GetHerHis] rule, [scoped_emperor.GetTitledFirstName] has declared the Roman Empire to be restored under [scoped_emperor.GetHerHis] barbarous leadership. With as little legitimacy as we have left, we are no longer able to dismiss this ludicrous claim."
  roman_restoration.0151.desc.others:0 "The rising Italian Empire has managed to reclaim enough of the old provinces under the leadership of [scoped_emperor.GetTitledFirstName] to proclaim itself a Roman Empire reborn.\n\nScorning both the pretenders in the North and the East, this new Nation seeks to restore its ancient borders against all opponents."
- 
-# Roman Empire dismantles pretenders, by Flavio Verna
  roman_restoration.0160.t:0 "The Pretender"
  roman_restoration.0160.desc:0 "For too long we have tolerated the barbarous pretenders in the North draping themselves with undeserved Imperial dignity. Rome is firmly under the control of the true Empire, and the pathetic federation of German warlords that once sought to rule the West has been pushed beyond the Rhine, in the savage forests wherein it belongs.\n\nIt is time to teach these barbarians their final lesson and strip them of their false Empire once and for all."
  roman_restoration.0160.a:0 "Our legions will crush them!"
@@ -187,7 +161,6 @@
  roman_restoration.0165.t:0 "The Franks Strike Back"
  roman_restoration.0165.desc:1 "The Romans' pride was their undoing. Despite all [byz_emperor.GetHerHis] boasting, [byz_emperor.GetTitledFirstNamePossessive] legions proved unable to stand against my faithful $knight_culture_player_plural_no_tooltip_lowercase$. Thanks to my unyielding defense, I have given new dignity to my title."
  roman_restoration.0165.a:0 "And don't ever return!"
-
  roman_restoration.0170.t:0 "The Pretender"
  roman_restoration.0170.desc:0 "For too long we have allowed the feeble remnants of Justinian's Empire to cling to the dignity of a title they have long since smeared through an endless parade of incompetent, petty and decadent Kings.\n\nBoth Italy and Greece are already under our control, while they have been reduced to nothing more than a decaying Eastern despotism, too greedy and spiteful to recognize that its time has long since passed."
  roman_restoration.0170.a:0 "We will provide the needed encouragement."

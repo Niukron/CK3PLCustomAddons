@@ -26,9 +26,7 @@
  stress_threshold.1701.i.drunkard.effect:0 "$stress_threshold.1701.i.drunkard.gain$"
  stress_threshold.1701.j.hashishiyah.gain:0 "Hashish will sooth my troubled nerves..."
  stress_threshold.1701.j.hashishiyah.effect:0 "$stress_threshold.1701.j.hashishiyah.gain$"
- #NOTE: Discuss w/ Sean?
  stress_threshold.1701.k:0 "It's just mindless chatter, nothing to do with me."
-
  stress_threshold.1711.t:0 "Mental Break: Too Busy"
  stress_threshold.1711.desc.intro:0 "By [ROOT.GetCharacter.GetFaith.FateGodName], petitioners from the realm have been queuing up lately. This work feels #EMP endless#!. Yet another one steps forward, evidently a distressed merchant of some kind.\n\n"
  stress_threshold.1711.desc.greedy:0 ""Do you have any taxes for me? No? Then I don't much care.""
@@ -57,7 +55,6 @@
  stress_threshold.1711.h.hashishiyah.gain:0 "Hashish! This is too much for a sober mind."
  stress_threshold.1711.h.hashishiyah.effect:0 "$stress_threshold.1711.h.hashishiyah.gain$"
  stress_threshold.1711.i:0 "I am the [ROOT.GetCharacter.GetTitleAsNameNoTooltip], I can do this!"
-
  stress_threshold.1721.t:0 "Mental Break: Impostor!"
  stress_threshold.1721.desc.intro:1 "Recently, I feel like I am not worthy of the [ROOT.GetCharacter.GetPrimaryTitle.GetBaseNameNoTooltip]. Do other rulers doubt themselves as I doubt myself?\n\nI try to be a good, "
  stress_threshold.1721.desc.chaste:0 "chaste [ROOT.GetCharacter.GetTitleAsNameNoTooltip], but it feels like I am always tempted by the pleasures of the flesh. Those of my station should not feel these libidinous stirrings."
@@ -68,7 +65,7 @@
  stress_threshold.1721.desc.honest:0 "honest [ROOT.GetCharacter.GetTitleAsNameNoTooltip], but with every proclamation and law, I can see lies of omission and little errors twisting my meaning. Others of my station are so diligent and open, so why must I be cursed with this deceitful nature?"
  stress_threshold.1721.desc.craven:0 "noble [ROOT.GetCharacter.GetTitleAsNameNoTooltip], but I am simply too craven to act as bravely as others of my station, and it seems like my subjects notice constantly."
  stress_threshold.1721.desc.content:0 "noble [ROOT.GetCharacter.GetTitleAsNameNoTooltip], content with my lot and unburdened by needless ambition, but I feel that I act so much more jealous and prideful than others of my station."
- stress_threshold.1721.desc.cynical:0 "rational [ROOT.GetCharacter.GetTitleAsNameNoTooltip], but my subjects always seem to adore the philosophies of others and never my own musings."
+ stress_threshold.1721.desc.cynical_no_collide:0 "rational [ROOT.GetCharacter.GetTitleAsNameNoTooltip], but my subjects always seem to adore the philosophies of others and never my own musings."
  stress_threshold.1721.desc.paranoid:0 "cautious [ROOT.GetCharacter.GetTitleAsNameNoTooltip], but I can't predict everything. There are always more traitors to find, more plotters hiding in secret rooms. Other courts never seem to have this much treason, and I can only blame myself for inspiring it."
  stress_threshold.1721.desc.callous:0 "realistic [ROOT.GetCharacter.GetTitleAsNameNoTooltip], but my subjects take everything I do as mean-spirited, fussing about petty trivialities constantly. Others of my station don't seem to have problems controlling their inferiors."
  stress_threshold.1721.desc.compassionate:0 "compassionate [ROOT.GetCharacter.GetTitleAsNameNoTooltip], but others of my station seem to be so much more beloved than I. I just cannot connect with people as well as I would like."
@@ -89,7 +86,6 @@
  stress_threshold.1721.e.improvident.effect:0 "$stress_threshold.1721.e.improvident.gain$"
  stress_threshold.1721.f.contrite.gain:0 "I must confess my sins publicly."
  stress_threshold.1721.f.contrite.effect:0 "$stress_threshold.1721.f.contrite.gain$"
- #NOTE: Discuss w/ Sean?
  stress_threshold.1721.g.comfort_eater.gain:0 "We shall feast, feast till I feel better!"
  stress_threshold.1721.g.comfort_eater.effect:0 "Throw another feast! And another, and another!"
  stress_threshold.1721.h.inappetetic.gain:0 "Tell the cook to stop making my dinner. I don't want it."
@@ -104,7 +100,6 @@
  stress_threshold.1721.l.hashishiyah.effect:0 "$stress_threshold.1701.j.hashishiyah.gain$"
  stress_threshold.1721.m:0 "I'm just as good as the rest!"
  stress_threshold.1721.n:0 "Perhaps I am craving the rarest meat..."
-
  stress_threshold.1731.t:0 "Mental Break: No Time for Myself"
  stress_threshold.1731.desc.intro:1 "Ruling has been such exhausting work as of late. It is like no subject of [ROOT.GetCharacter.GetPrimaryTitle.GetNameNoTierNoTooltip] can wipe their arse without my express instruction!\n\nI was in the middle of planning a small get-away"
  stress_threshold.1731.desc.lustful:0 "to a local brothel, where I intend to remain till I am chafed and aching,"
@@ -134,7 +129,6 @@
  stress_threshold.1731.i.hashishiyah.gain:0 "Do we have hashish cakes for the ride?"
  stress_threshold.1731.i.hashishiyah.effect:1 "$stress_threshold.1731.i.hashishiyah.gain$"
  stress_threshold.1731.g:0 "#EMP Fine#!, I'll cancel my plans."
-
  stress_threshold.2301.t:0 "Mental Break: Growing Needs"
  stress_threshold.2301.desc.intro:0 "Every day seems to slip away from me recently, a never-ending train of greedy petitioners and difficult decisions. My chest tightens as another steps forward. My fingers itch and tingle at the tips, my eyes feel too small for my skull.\n\nI need to get away from this, just for a little while, I need to"
  stress_threshold.2301.desc.lustful:0 "feel the warmth of another human in my arms, just to connect with someone a little."
@@ -154,7 +148,6 @@
  stress_threshold.2301.e.hashishiyah.gain:0 "$stress_threshold.1701.j.hashishiyah.gain$"
  stress_threshold.2301.e.hashishiyah.effect:0 "$stress_threshold.1701.j.hashishiyah.gain$"
  stress_threshold.2301.f:0 "I hate this."
-
  stress_threshold.2311.t:0 "Mental Break: Haunted by the Past"
  stress_threshold.2311.desc.intro:0 "I sit brooding on my throne, my heart heavy with memory, mulling over things I did years and years ago."
  stress_threshold.2311.desc.generous:0 "Was I truly a generous [ROOT.GetCharacter.GetTitleAsNameNoTooltip]? Did I actually help people?"
@@ -190,7 +183,6 @@
  stress_threshold.2311.k.hashishiyah.gain:0 "$stress_threshold.1701.j.hashishiyah.gain$"
  stress_threshold.2311.k.hashishiyah.effect:0 "$stress_threshold.1701.j.hashishiyah.gain$"
  stress_threshold.2311.l:0 "I cannot make mistakes, I am a [ROOT.GetCharacter.GetTitleAsNameNoTooltip]!"
-
  stress_threshold.2321.t:0 "Mental Break: Befuddled by Court"
  stress_threshold.2321.desc.intro:0 "Everything I do, people take advantage of!"
  stress_threshold.2321.desc.impatient:0 "My life is a constant procession of long, rambling explanations that I have no time for!"
@@ -228,7 +220,6 @@
  stress_threshold.2321.h.drunkard.list:0 "[vassals|E] and [courtiers|E] without [GetTrait('gluttonous').GetName(GetNullCharacter)], [GetTrait('forgiving').GetName(GetNullCharacter)], or [GetTrait('compassionate').GetName(GetNullCharacter)]"
  stress_threshold.2321.i.hashishiyah.list:0 "$stress_threshold.2321.h.drunkard.list$"
  stress_threshold.2321.j:0 "I grit my teeth and force a smile."
-
  stress_threshold.2331.t:0 "Mental Break: Estranged Authority"
  stress_threshold.2331.desc.intro:0 "Of late, my courtiers seem to avoid me at all costs. I hear whispers that "
  stress_threshold.2331.desc.calm:0 "they consider my calm outlook disturbing, devoid of emotion"
@@ -259,7 +250,6 @@
  stress_threshold.2331.i.hashishiyah.gain:0 "$stress_threshold.1701.j.hashishiyah.gain$"
  stress_threshold.2331.i.hashishiyah.effect:0 "$stress_threshold.1701.j.hashishiyah.gain$"
  stress_threshold.2331.j:0 "I don't need love, just obedience."
-
  stress_threshold.2341.t:0 "Mental Break: Shirked Duty"
  stress_threshold.2341.desc.intro:0 "Damnation, I need time to myself too! So what if I don't come to court for a few days, or even a month? Ruling is my prerogative, and I will exercise it, or leave it, at my leisure.\n\nI am the [ROOT.GetCharacter.GetTitleAsNameNoTooltip],"
  stress_threshold.2341.desc.lazy:0 "and I require my rest!"
@@ -286,7 +276,6 @@
  stress_threshold.2341.g.hashishiyah.gain:0 "$stress_threshold.1701.j.hashishiyah.gain$"
  stress_threshold.2341.g.hashishiyah.effect:0 "$stress_threshold.1701.j.hashishiyah.gain$"
  stress_threshold.2341.h:0 "Damn your petulant hides!"
-
  stress_threshold.2351.t:0 "Mental Break: Improprietous Remarks"
  stress_threshold.2351.desc.intro:0 "I sit, paying only a little attention, as the peasant finishes their tale of woe. Frankly, I barely even registered what they were talking about. My mind is full to bursting with my own problems.\n\n"
  stress_threshold.2351.desc.content:0 ""Can't you just be #EMP content#! with what you have left?","
@@ -313,7 +302,6 @@
  stress_threshold.2351.h.hashishiyah.gain:0 "$stress_threshold.1701.j.hashishiyah.gain$"
  stress_threshold.2351.h.hashishiyah.effect:0 "$stress_threshold.1701.j.hashishiyah.gain$"
  stress_threshold.2351.i:0 "Apologies, now, please repeat your story..."
-
  stress_threshold.3401.t:0 "Mental Break: Shooting the Messenger"
  stress_threshold.3401.desc.intro:0 "My head feels like a thunderstorm trapped in an egg. I squirm, trying to get comfortable on my throne, as a messenger spins me some irrelevant sob-story about pirates, or bandits, or raiders, or some kind of commoner nonsense.\n\nThe pressure in my skull builds, demanding release somewhere, and, almost involuntary, my mouth opens to speak."
  stress_threshold.3401.desc.vengeful:0 ""Did you not throw an egg at me some years ago?"
@@ -339,7 +327,6 @@
  stress_threshold.3401.f.hashishiyah.gain:0 "And bring out some hashish cakes!"
  stress_threshold.3401.f.hashishiyah.effect:0 "$stress_threshold.3401.f.hashishiyah.gain$"
  stress_threshold.3401.g:0 "And bring me the head for a footstool!"
-
  stress_threshold.3411.t:0 "Mental Break: I am Unworthy!"
  stress_threshold.3411.desc.intro:0 "I can't do this. I just can't do this. I can't be [ROOT.GetCharacter.GetTitleAsNameNoTooltip|L] one moment longer! How does anyone ever #EMP manage#! this seething mass of stress? No matter how"
  stress_threshold.3411.desc.generous:0 "much I give away, no matter how generous I am to my subjects, some always seem to be poor, and some always seem to hate me."
@@ -379,11 +366,9 @@
  stress_threshold.3411.l:0 "That's it! I abdicate!"
  stress_threshold.3411.l.list:0 "Every [vassal|E] who does not hate you"
  stress_threshold.3411.l.tt:0 "All [claims|E] against your [titles|E] become [pressed|E]"
-
  stress_threshold.3421.t:0 "Mental Break: Domain of Debauchery"
  stress_threshold.3421.desc.intro:0 ""My liege", begs the servant,"won't you please do something? [burning_holding.GetNameNoTier] burns! You must send aid!".\n\n"
  stress_threshold.3421.desc.lustful:0 "I stretch, both my hands coming into contact with beautiful young flesh effortlessly. A chorus of moans behind me seem unbothered by the visitor."
- #Go full Denethor:
  stress_threshold.3421.desc.gluttonous:0 "I continue to shovel food into my mouth, only pausing my one-[ROOT.GetCharacter.GetWomanMan] feast after several awkward minutes pass and it becomes clear that the messenger is not leaving without an explicit command."
  stress_threshold.3421.desc.greedy:0 "I simply continue to count my coins, unperturbed. The gleaming piles of silver and gold ring me like the turrets of a tiny castle, sorted by size and purity, and comprise a significant portion of my wealth."
  stress_threshold.3421.desc.lazy:0 "My eyes remain shut. I swing gently in my cloth sling, alone in the tallest tower I own, save for the messenger and a [ROOT.GetCharacter.GetTitleAsNamePossessiveNoTooltip|L] ransom in soft pillows and blankets."
@@ -413,11 +398,7 @@
  stress_threshold.3421.h.hashishiyah.effect:0 "$stress_threshold.3421.h.hashishiyah.gain$"
  stress_threshold.3421.i:0 "Let them all #EMP burn#!."
  stress_threshold.3421.b.reclusive.list:0 "Every [vassal|E] with a heart"
-
-#Other
  jealousy_at_court_effect.confider.list:0 "All [courtiers|E] will consider [friend.GetFirstNameNoTooltip] a sycophant"
-
-#Character Modifiers
  encouraged_city_burn_modifier:0 "Let Them All Burn"
  encouraged_city_burn_modifier_desc:0 "This character let an entire holding burn almost to the ground."
  lashing_out_at_victims_modifier:0 "Lashing out at Victims"
@@ -478,8 +459,6 @@
  tragic_drunk_modifier_desc:0 "This character fears the return of sobriety more than anything."
  tragic_stoner_modifier:0 "Tragic Hashishiyah"
  tragic_stoner_modifier_desc:0 "$tragic_drunk_modifier_desc$"
-
-#Title Modifiers
  controlled_urban_fires_modifier:0 "Controlled Urban Fires"
  controlled_urban_fires_modifier_desc:0 "A huge fire has been narrowly averted in one of the holdings in this county."
  managed_urban_fires_modifier:0 "Managed Urban Fires"

@@ -35,8 +35,6 @@
  blind:1 "tripped and fell to [CHARACTER.GetHerHis] death"
  death_inbred:0 "died from complications due to inbreeding"
  death_physician_mistreatment:0 "died from complications of a failed treatment"
-
-
  UNKNOWN_DEATH_REASON:0 "died of unknown causes"
  death_murder:0 "was murdered"
  death_murder_killer:0 "was murdered by [TARGET_CHARACTER.GetUIName]"
@@ -54,6 +52,7 @@
  death_punishment:0 "was executed as punishment"
  death_punishment_killer:0 "was executed by [TARGET_CHARACTER.GetUIName] as punishment"
  death_disappearance:0 "disappeared without a trace"
+ death_disappearance_killer:0 "disappeared without a trace on [TARGET_CHARACTER.GetUINamePossessive] orders"
  death_dungeon:0 "died in captivity"
  death_dungeon_passive:0 "$death_dungeon$"
  death_drinking_passive:0 "drank [CHARACTER.GetHerselfHimself] to death"

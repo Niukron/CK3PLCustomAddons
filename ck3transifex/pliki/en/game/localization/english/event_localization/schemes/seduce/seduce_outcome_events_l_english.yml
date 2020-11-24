@@ -182,3 +182,7 @@
  seduce_outcome.8103.t: "Spurned and Exposed"
  seduce_outcome.8103.desc: "\"You disgust me, [owner.GetFirstNameNoTooltip]. I am your [owner.Custom2('RelationToMe', SCOPE.sC('target') )] for [ROOT.Char.GetFaith.HighGodNamePossessive] sake! I will bring your grotesque perversions to light, trust my word!\"\n\n[target.GetFirstName] [target.Custom('quirk_neg_present')] as [target.GetSheHe] makes [target.GetHerHis] disdain for my romantic advances clear."
  seduce_outcome.8103.a: "You will do this to your own [target.Custom2('RelationToMe', SCOPE.sC('owner') )]?!"
+ seduce_outcome.4100.desc: "While out on a walk, I spot [target.GetFirstName] beckoning to me at a distance. I give chase, and after catching [target.GetHerHim], we hide out of sight. We eagerly explore each other's bodies, and I'm swept away in a storm of fiery kisses and breathless sighs. Suddenly, [target.GetFirstNameNoTooltip] breaks our kiss by placing a finger on my lips.\n\n\"It's been fun,\" [target.GetSheHe] says in a lighthearted voice as [target.GetSheHe] pulls away, \"but I've grown tired of this game, it's time that "
+ seduce_outcome.4100.desc_married: "I resume the responsibility I have as [target_spouse.GetTitledFirstNamePossessive] [target_spouse.Custom2('RelationToMeShort', target)].\""
+ seduce_outcome.4100.desc_fallback: "I focus on the goals I've set for myself.\""
+ seduce_outcome.4100.a: "\"Wait, this wasn't how it was supposed to go!\""

@@ -117,8 +117,6 @@
  LOADING_TIP_116:0 "#T $game_concept_war_leaders$#!\n\n$game_concept_war_leaders_desc$"
  LOADING_TIP_117:0 "#T $game_concept_offensive_war_opinion$#!\n\n$game_concept_offensive_war_opinion_desc$"
  LOADING_TIP_118:0 "#T $game_concept_nominations$#!\n\n$game_concept_nominate_desc$"
- 
- 
  #LOADING_TIP_0:0 "Right-Click on Character Portraits to interact with them!"
  #LOADING_TIP_1:0 "You can hover over icons and highlighted text in Tooltips for even more information!"
  #LOADING_TIP_2:0 "Illegitimate bastards cannot pass your Dynasty on."
@@ -128,4 +126,3 @@
  #LOADING_TIP_6:0 "Your 'Domain' is the land you personally own. There is a limit to how much you can hold, so you need to rely on Vassals to expand further."
  #LOADING_TIP_7:0 "Your 'Realm' consists of both your own land and that of your Vassals."
  #LOADING_TIP_8:0 "'Powerful Vassals' expect a seat on your Council."
- 

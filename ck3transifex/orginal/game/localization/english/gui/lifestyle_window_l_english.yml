@@ -8,7 +8,7 @@
  CHARACTER_LIFESTYLE_OPEN_TOOLTIP:0 "#T [Lifestyle.GetNameNoTooltip]#!\n #I Click to open.#!"
  CHARACTER_LIFESTYLE_OPEN_TEXT:0 "Open"
  LIFESTYLE_POINTS_TO_USE_TEXT:0 "[perks|E] to Unlock: [Character.GetPerkPoints( Lifestyle.Self )]"
- LIFESTYLE_POINTS_ALREADY_USED_TEXT:0 "[Character.GetPerkPointsUsed( Lifestyle.Self )]/[Lifestyle.GetPerksInLifestyle]"
+ LIFESTYLE_POINTS_ALREADY_USED_TEXT:1 "[Character.GetPerkPointsUsed( Lifestyle.Self )]/[Lifestyle.GetPerksInLifestyle]\n[perks|E]"
  PERK_TOOLTIP_BASE:0 "#T [Perk.GetNameNoTooltip( Character.Self )]#!\n[Perk.GetEffectDescription( Character.Self )]"
  CHOOSE_PERK_TOOLTIP:0 "$PERK_TOOLTIP_BASE$\n[CharacterLifestyleWindow.CanSelectPerkDesc( Perk.Self )]\n #I Click to unlock#!"
  CHOOSE_PERK_UNLOCK_TEXT:0 "#I Click to unlock#!"
@@ -51,7 +51,6 @@
  LIFESTYLE_FOCUS_HEADER:0 "Lifestyle [focus|E]"
  LIFESTYLE_POINTS_TOOLTIP:0 "#T [Lifestyle.GetNameNoTooltip] Perks Available: [Character.GetPerkPoints( Lifestyle.Self )|+]#!"
  PERK_POINTS_ASSIGNED_TRIGGER:0 "You have no Perks to reset!"
- 
  DIPLOMACY_LIFESTYLE_PERK_POINTS_TRIGGER:0 "Diplomacy lifestyle perk points: $NUM|V0$"
  MARTIAL_LIFESTYLE_PERK_POINTS_TRIGGER:0 "Martial lifestyle perk points: $NUM|V0$"
  STEWARDSHIP_LIFESTYLE_PERK_POINTS_TRIGGER:0 "Stewardship lifestyle perk points: $NUM|V0$"

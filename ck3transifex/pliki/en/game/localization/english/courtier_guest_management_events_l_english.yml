@@ -1,6 +1,8 @@
 ﻿l_english:
- courtier_guest_management.0001.t: "Your [SCOPE.sC('liege').Custom2('RelationToMeShort', SCOPE.sC('child'))] [child.GetShortUINameNoTooltip], is About To Leave Court"
+ courtier_guest_management.0001.t: "Your [SCOPE.sC('liege').Custom2('RelationToMeShort', SCOPE.sC('child'))] [child.GetShortUINameNoTooltip] is About To Leave Court"
  courtier_guest_management.desc: "[child.GetTitledFirstName] has no reason to stay at court and will soon leave"
+ courtier_guest_management.0500.t: "Your [SCOPE.sC('host').Custom2('RelationToMeShort', SCOPE.sC('guest'))] [guest.GetShortUINameNoTooltip] is About To Leave Court"
+ courtier_guest_management.0500.desc: "[guest.GetTitledFirstName] has no reason to stay at court and will soon leave with [guest.GetHerHis] family"
  courtier_guest_management.0102.t: "My Last Chance"
  courtier_guest_management.0102.desc: "[courtier.GetTitledFirstName] has decided that [courtier.GetHerHis] time in [capital.GetNameNoTierNoTooltip] has come to an end. The servants have packed [courtier.GetHerHis] chests and [courtier.GetSheHe] has said [courtier.GetHerHis] farewells.\n\nWith [courtier.GetTitledFirstNameNoTooltip] goes [courtier.GetHerHis] claim on the [courtier_claim.GetName]. If I want to press it and make [courtier.GetHerHim] my vassal, this is my last chance to make [courtier.GetHerHim] stay."
  courtier_guest_management.0102.a: "Give me one year, and I will press your claim!"

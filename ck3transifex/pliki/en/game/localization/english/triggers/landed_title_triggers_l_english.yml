@@ -57,3 +57,4 @@
  HAS_ORDER_OF_SUCCESSION_TRIGGER: "Has order of succession"
  HAS_TITLE_LAW_FLAG_TRIGGER: "Has title law: $LAW$"
  IS_TITULAR_TRIGGER: "Is [titular_title|E]"
+ FORM_GERMANIA_CHRISTIAN_TRIGGER: "As a [CHARACTER.GetFaith.GetAdjective] ruler you can reform the $e_hre$ instead"

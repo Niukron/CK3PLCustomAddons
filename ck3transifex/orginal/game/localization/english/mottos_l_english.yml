@@ -37,8 +37,6 @@
  motto_break_your_x_upon_our_y:0 "Break Your $1$ Upon Our $2$"
  motto_by_the_x_and_the_y:0 "By $1$ and $2$"
  motto_with_the_x_i_y_z:0 "With $1$ I $2$ the $3$"
- 
- # Unique Pool (too cool to skip, but no good to randomize)
  motto_unique_pool:0 "$1$"
  motto_thus_should_law_be_followed:0 "Thus Should Law Be Followed"
  motto_from_near_and_far:0 "From Near and Far"
@@ -70,8 +68,6 @@
  motto_iron_gold:0 "By Iron, Not Gold"
  motto_hold_fast:0 "Hold Fast"
  motto_handsome_enough:0 "Good and Handsome Enough"
- 
- # Various specific godly things
  motto_various_godly_things:0 "$1$"
  motto_christ_protects_us:0 "Christ Protects Us"
  motto_christs_promises:0 "So We Can be Worthy of Christ's Promises"
@@ -84,8 +80,6 @@
  motto_salvation_through_christ:0 "Salvation Through Christ"
  motto_help_o_god:0 "Help, O God!"
  motto_sing_of_heavenly_things:0 "We Sing of Heavenly Things"
- 
- # Immaterial Nouns
  motto_goodness:0 "Goodness"
  motto_honor:0 "Honor"
  motto_truth:0 "Truth"
@@ -143,8 +137,6 @@
  motto_enlightenment:0 "Enlightenment"
  motto_compassion:0 "Compassion"
  motto_inspiration:0 "Inspiration"
- 
- # Immaterial Adjectives
  motto_honorable:0 "Honorable"
  motto_truthful:0 "Truthful"
  motto_triumphant:0 "Triumphant"
@@ -174,8 +166,6 @@
  motto_cunning:0 "Cunning"
  motto_brave:0 "Brave"
  motto_calm:0 "Calm"
- 
- # the Immaterial Adjectives
  motto_the_honorable:0 "the Honorable"
  motto_the_truthful:0 "the Truthful"
  motto_the_triumphant:0 "the Triumphant"
@@ -205,8 +195,6 @@
  motto_the_cunning:0 "the Cunning"
  motto_the_brave:0 "the Brave"
  motto_the_calm:0 "the Calm"
- 
- # Immaterial Adjectives + a or an
  motto_an_honorable:0 "an Honorable"
  motto_a_truthful:0 "a Truthful"
  motto_a_triumphant:0 "a Triumphant"
@@ -236,8 +224,6 @@
  motto_a_cunning:0 "a Cunning"
  motto_a_brave:0 "a Brave"
  motto_a_calm:0 "a Calm"
- 
- # Noble Act
  motto_defend:0 "Defend"
  motto_protect:0 "Protect"
  motto_avenge:0 "Avenge"
@@ -268,16 +254,12 @@
  motto_respect_verb:0 "Respect"
  motto_honor_verb:0 "Honor"
  motto_trust_verb:0 "Trust"
- 
- # Weapon
  motto_sword_word:0 "Sword"
  motto_axe:0 "Axe"
  motto_spear:0 "Spear"
  motto_bow:0 "Bow"
  motto_lance:0 "Lance"
  motto_hammer:0 "Hammer"
- 
- # the Weapon
  motto_the_sword_word:0 "the Sword"
  motto_the_axe:0 "the Axe"
  motto_the_spear:0 "the Spear"
@@ -285,15 +267,11 @@
  motto_the_lance:0 "the Lance"
  motto_the_hammer:0 "the Hammer"
  motto_the_pen:0 "the Pen"
- 
- # Appropriate Godname
  motto_god:0 "God"
  motto_the_perfected_ones:0 "the Perfected Ones"
  motto_the_divine:0 "the Divine"
  motto_the_gods:0 "the Gods"
  motto_custom_loc_god:0 "[CHARACTER.GetFaith.HighGodName]"
- 
- # Creature
  motto_wolf:0 "Wolf"
  motto_bear:0 "Bear"
  motto_eagle:0 "Eagle"
@@ -312,8 +290,6 @@
  motto_gazelle:0 "Gazelle"
  motto_hippopotamus:0 "Hippopotamus"
  motto_reindeer:0 "Reindeer"
- 
- # the Creature
  motto_the_wolf:0 "the Wolf"
  motto_the_bear:0 "the Bear"
  motto_the_eagle:0 "the Eagle"
@@ -332,8 +308,6 @@
  motto_the_gazelle:0 "the Gazelle"
  motto_the_hippopotamus:0 "the Hippopotamus"
  motto_the_reindeer:0 "the Reindeer"
- 
- # Annoying Action Verb
  motto_irritate:0 "Irritate"
  motto_irk:0 "Irk"
  motto_vex:0 "Vex"
@@ -344,8 +318,6 @@
  motto_defy:0 "Defy"
  motto_mock:0 "Mock"
  motto_face:0 "Face"
- 
- # Negative Nouns
  motto_envy:0 "Envy"
  motto_doubt:0 "Doubt"
  motto_malice:0 "Malice"
@@ -354,8 +326,6 @@
  motto_cruelty:0 "Cruelty"
  motto_greed:0 "Greed"
  motto_wrath:0 "Wrath"
- 
- # Negative Adjectives
  motto_envious:0 "Envious"
  motto_doubtful:0 "Doubtful"
  motto_malicious:0 "Malicious"
@@ -363,18 +333,13 @@
  motto_greedy:0 "Greedy"
  motto_wrathful:0 "Wrathful"
  motto_fearful:0 "Fearful"
- 
- # Scripted
  dynn_Briain_motto:0 "The Strong Hand From Above"
  dynn_Habsburg_motto:0 "A.E.I.O.U."
  dynn_Canossa_motto:0 "When the Dog Will End His Bone, House Canossa Will End"
  dynn_Hauteville_motto:0 "God's Hand Made Wonders, God's Hand Made Me"
  dynn_Renart_motto:0 "Cunning as the Fox"
  dynn_Tengil_motto:0 "All makt åt Tengil, vår befriare!"
- 	#Paraphrasing Alfred the Great:
  dynn_Wessex_motto:0 "What punishments may befall us when we do not cherish or transmit learning?"
- 
- # Scripted (Easter Egg)
  dynn_Oltner_motto:0 "Hungry Like the Duck"
  dynn_Tisander_motto:0 "We may Forgive, but never Forget"
  dynn_BjO_rk_motto:0 "More is More"
@@ -426,6 +391,10 @@
  dynn_Riedinger_motto:0 "Bravery in the Face of your Enemies, Inspire your People and Protect the ones you Love"
  dynn_Wendel_motto:0 "Saevitas Wendelicus"
  dynn_Daflos_motto:0 "Forward!"
- dynn_Collin_motto:0 "I do happy little accidents"
+ dynn_Collin_motto:0 "I do Happy Little Accidents"
  dynn_Harris_motto:0 "Holders of Quill and Sword"
- dynn_Cywinski_motto:0 "The bigger, the stronger"
+ dynn_Cywinski_motto:0 "The Bigger, the Stronger"
+ dynn_Kaltsogiannis_motto:0 "Once more, as years and time go by, once more they shall be ours"
+ dynn_Springmountain_motto:0 "The Springmountain Clan is Naught to Trifle With"
+ dynn_CederslA_tt_motto:0 "Plentiful shall the bowl of fruit be"
+ dynn_Borg_motto:0 "You only regret what you didn't attempt"

@@ -7,14 +7,12 @@
  yearly_saharan.0001.b:0 "You may continue to pass through, but that is all."
  yearly_saharan.0001.c:0 "[source_county.GetProvince.GetCounty.GetFaith.GetAdherentNamePluralNoTooltip] are barred from [target_county.GetNameNoTierNoTooltip], their goods #EMP forfeit#!!"
  yearly_saharan.0001.c.list:0 "All same-[realm|E] [counties|E] next to [target_county.GetNameNoTierNoTooltip]"
- 
  yearly_saharan.0003.t:0 "$yearly_saharan.0001.t$: Integration"
  yearly_saharan.0003.desc_initial:0 "The [source_county.GetProvince.GetCounty.GetFaith.GetAdherentNameNoTooltip] merchants that I allowed to settle in [target_county.GetNameNoTier] have been there for some years now,"
  yearly_saharan.0003.desc_current:0 "For some years, [source_county.GetProvince.GetCounty.GetFaith.GetAdherentNamePluralNoTooltip] from [source_county.GetNameNoTier] have been living in [target_county.GetNameNoTier],"
  yearly_saharan.0003.desc:0 "and it seems that they have integrated fairly well into the existing community.\n\nAs a result, trade is flooding through the area, revenues are at an all-time high, and even the peasants are familiar with the sound of clinking gold!"
  yearly_saharan.0003.a:0 "A lovely windfall!"
  yearly_saharan.0003.b:0 "Tax them into oblivion."
- 
  yearly_saharan.0004.t:0 "$yearly_saharan.0001.t$: Commercial Boom"
  yearly_saharan.0004.desc_initial:0 "$yearly_saharan.0003.desc_initial$"
  yearly_saharan.0004.desc_current:0 "$yearly_saharan.0003.desc_current$"
@@ -26,7 +24,6 @@
  yearly_saharan.0004.a.tt.outcome_3:0 "$yearly_saharan.0004.a.tt.outcome_1$"
  yearly_saharan.0004.b:0 "Do I hear the sound of the tax rate going up?"
  yearly_saharan.0004.c:0 "Of course, we'll have to charge some back-taxes..."
- 
  yearly_saharan.0005.t:0 "$yearly_saharan.0001.t$: Faith Change"
  yearly_saharan.0005.desc_initial:0 "$yearly_saharan.0003.desc_initial$"
  yearly_saharan.0005.desc_current:0 "$yearly_saharan.0003.desc_current$"
@@ -34,16 +31,12 @@
  yearly_saharan.0005.a:0 "Welcome to the light of [ROOT.GetCharacter.GetFaith.HighGodName]!"
  yearly_saharan.0005.b:0 "Huh. At least they're happy about it."
  yearly_saharan.0005.c:0 "Not while I'm the [ROOT.GetCharacter.GetTitleAsNameNoTooltip]!"
-
- #[Culture] Nomads Flock to [County]
  yearly_saharan.0021.t:0 "[nomad_leader.GetCulture.GetNameNoTooltip] Nomads Flock to [target_county.GetNameNoTierNoTooltip]"
  yearly_saharan.0021.desc:0 "Although I am a noble [ROOT.GetCharacter.GetTitleAsNameNoTooltip], there are places too remote for even my name to hold much sway. Places I can never truly hope to rule.\n\nEmerging from such places deep in the Sahara, nomadic tribes of [nomad_leader.GetCulture.GetCollectiveNounNoTooltip] have been pushing into [target_county.GetNameNoTier] of late, effortlessly occupying the gaps and territories that the local [target_county.GetProvince.GetCounty.GetCulture.GetNameNoTooltip] settlers leave.\n\nOne of their leaders has even come to me requesting permission to bring [nomad_leader.GetHerHis] wider confederation in to hold the area in my name."
  yearly_saharan.0021.a:0 "I'll even let you govern it!"
  yearly_saharan.0021.b:0 "[nomad_leader.GetCulture.GetNameNoTooltip] people are always welcome in my realm."
  yearly_saharan.0021.c:0 "Perhaps you would join me as a retainer instead?"
  yearly_saharan.0021.d:0 "Preposterous! Be gone!"
-
- #Slave Raid against [Realm] Escalates
  yearly_saharan.0031.t:0 "Slave Raids against [affected_sub_realm.GetNameNoTierNoTooltip] Escalate"
  yearly_saharan.0031.desc:0 "Slave raids, and the resultant human trafficking that they bring, are often brutal facts of life for those in or near the Sahel. The money such raiding brings in can be too lucrative to forgo, and many settlements raid each other sporadically.\n\nRecently, however, slavers from [slave_raider_county.GetNameNoTier] have been fervently targeting nearby [raided_county.GetNameNoTier], and several prominent merchants are planning a large attack, opposed by [raided_character_marshal.GetCouncilTitle] [raided_character_marshal.GetFirstName]."
  yearly_saharan.0031.a:0 "How profitable! Send soldiers to join them!!"
@@ -53,8 +46,6 @@
  yearly_saharan.0031.c:0 "This really does not concern me."
  yearly_saharan.0031.c.raided_hurt:0 "[raided_county.GetNameNoTierNoTooltip] is pillaged"
  yearly_saharan.0031.c.raiders_hurt:0 "Many [slave_raider_county.GetAdjectiveNoTooltip] raiders are hurt"
-
- #Marauding Slavers from [Realm]
  yearly_saharan.0032.t:0 "Marauding Slavers from [hostile_sub_realm.GetNameNoTierNoTooltip]"
  yearly_saharan.0032.desc:0 "Slave raiders from the Sahel are, unfortunately, a threat that many people in this land face. The lure of riches traded for shipping their fellow humans to the ends of the Earth is, for some, simply too strong.\n\nUsually, such raids are scattered and disjointed, but slavers from [slave_raider_county.GetNameNoTier] have started making concerted attacks against [raided_county.GetNameNoTier]. The marauders shackle entire villages, led by the soldiers of [slave_raider_county.GetHolder.GetTitledFirstName] [slave_raider_county.GetHolder.GetHerHim]self!"
  yearly_saharan.0032.a:0 "To arms against these scum!"
@@ -62,8 +53,6 @@
  yearly_saharan.0032.a.tt_fail:0 "[slave_raider_county.GetHolder.GetFirstNamePossessiveNoTooltip] raiders savage [raided_county.GetNameNoTierNoTooltip]"
  yearly_saharan.0032.b:0 "You know, they should really pay tax on this..."
  yearly_saharan.0032.c:0 "I couldn't care less."
-
- #Modifiers
  foreign_trader_enclaves_saharan_modifier:0 "Heathen Trader Enclaves"
  foreign_trader_enclaves_saharan_modifier_desc:0 "Heathen traders have made their residences here."
  respects_local_traditions_saharan_modifier:0 "Respects Local Traditions"

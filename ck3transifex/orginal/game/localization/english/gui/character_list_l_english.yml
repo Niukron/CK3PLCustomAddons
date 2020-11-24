@@ -28,10 +28,10 @@
  politics_filter_category:0 "Politics"
  membership_filter_category:0 "Groups"
  alliance_filter:0 "Alliances"
- alliance_filter_option_desc:0 "Only show Characters that will provide an alliance"
+ alliance_filter_option_desc:1 "Only show Characters that will provide an [alliance|E]"
  alliance_filter_option:0 "Alliance"
  no_alliance_filter_option:0 "No alliance"
- no_alliance_filter_option_desc:0 "Only show Characters that will not provide an alliance"
+ no_alliance_filter_option_desc:1 "Only show Characters that will not provide an [alliance|E]"
  prestige_filter:1 "Marriage Prestige"
  prestige_gain_filter_option_desc:0 "Only show Characters that will provide [prestige|E]"
  prestige_gain_filter_option:0 "Gain"
@@ -157,5 +157,4 @@
  CHARACTER_FINDER_NO_MATCH:0 "No matching Characters for current filter"
  special_filter_category:0 "Special"
  CHARACTER_LIST_CLEAR:0 "#T Clear Search#!"
-
  CULTURE_LISTS_WINDOW:0 "[Culture.GetNameNoTooltip]"

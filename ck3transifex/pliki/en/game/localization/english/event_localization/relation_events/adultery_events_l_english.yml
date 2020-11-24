@@ -86,7 +86,7 @@
  adultery.1003.a.tt: "#F It is a comfort to know.#!"
  adultery.1003.b: "I don't believe [mother.GetHerHim]!"
  adultery.1003.duel_success: "Discover the truth"
- adultery.1003.duel_success_tt: "If someone else is the father of [mother.GetFirstNamePossessiveNoTooltip] child, I will find evidence of  [mother.GetHerHis] unfaithfulness"
+ adultery.1003.duel_success_tt: "If someone else is the father of [mother.GetFirstNamePossessiveNoTooltip] child, I will find evidence of [mother.GetHerHis] unfaithfulness"
  adultery.1003.duel_failure: "Agents discovered"
  adultery.1004.default_reaction: "Tears well up in [mother.GetTitledFirstNamePossessive] eyes."
  adultery.1004.reaction_callous: "[mother.GetTitledFirstName] stares at me, [mother.GetHerHis] face unmoving."

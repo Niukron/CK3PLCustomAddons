@@ -39,4 +39,5 @@
  CHAR_CAN_ONLY_CREATE_ONE_FAITH: "You have already reformed or created a new [faith|E] as this character!"
  has_forced_defender: "You are a forced defender"
  has_pledged_attacker: "You are a pledged attacker"
+ they_have_pledged_as_attacker: "They are a pledged attacker in your faith's [GREAT_HOLY_WAR.GetName]"
  has_pledged_defender: "You are a pledged defender"

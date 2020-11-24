@@ -162,6 +162,7 @@
  stress_threshold.2202.t: "Boiling Anger"
  stress_threshold.2202.desc.liege: "The unprovoked anger expressed by my liege [stress_character.GetTitledFirstName] comes as a complete surprise."
  stress_threshold.2202.desc.vassal: "The unprovoked anger expressed by my vassal [stress_character.GetTitledFirstName] comes as a complete surprise."
+ stress_threshold.2202.desc.other_relationship: "The unprovoked anger expressed by my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('stress_character'))] [stress_character.GetTitledFirstName] comes as a complete surprise."
  stress_threshold.2202.desc: "[stress_character.GetSheHe|U] has been under a lot of stress lately, but"
  stress_threshold.2202.desc.rival: "when asked to explain [stress_character.GetHerselfHimself] [stress_character.GetSheHe] only doubled down on the insults."
  stress_threshold.2202.desc.other: "to behave like this..."

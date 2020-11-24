@@ -1,8 +1,5 @@
 ﻿l_english:
  court_chaplain_task.0201.opening: "[councillor.Custom2('AppropriateGreeting', ROOT.Char)]"
- court_chaplain_task.0201.county_complete: "The people of the [county.GetName] have finally been convinced to convert to the true faith!\n\nThere are practically no more heretics in the whole of [county.GetNameNoTier]!"
- court_chaplain_task.0201.a: "Brilliant work, [councillor.GetFirstNameNoTooltip]!"
- court_chaplain_task.0201.b: "Uh, which faith is that, now?"
  court_chaplain_task.0301.desc: "I have prowled through documents both ancient and... of less certain provenance. I finally have enough material to make the case that you are the rightful [ROOT.Char.GetLadyLord|U] of the [county.GetName]!\n\nAll that is missing is one little bribe..."
  court_chaplain_task.0301.a: "See it done!"
  court_chaplain_task.0301.b: "No, I cannot."

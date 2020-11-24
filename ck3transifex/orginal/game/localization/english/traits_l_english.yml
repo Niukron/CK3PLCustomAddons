@@ -1,11 +1,14 @@
 ﻿l_english:
 #Reasons
- ALREADY_CONTAINTS_TRAIT:0 "$CHARACTER_NAME$ with id '$CHARACTER_ID$' already has the trait $TRAIT_KEY$"
- CONTAINTS_OPPOSITE_TRAIT:0 "Trait $TRAIT_KEY$ can't be added because $CHARACTER_NAME$ with id '$CHARACTER_ID$' already has the opposite trait $OPOSITE_KEY$"
- IS_POTENTIAL_TRAIT_FALSE:0 "Trait $TRAIT_KEY$ can't be added because $CHARACTER_NAME$ with id '$CHARACTER_ID$' doesn't fit the is_potential trigger"
- TRAIT_AGE_NOT_IN_RANGE:0 "$CHARACTER_NAME$ with id '$CHARACTER_ID$' age '$CHARACTER_AGE$' doesn't fit the trait $TRAIT_KEY$ age range"
-
-#Education Traits
+ ALREADY_CONTAINTS_TRAIT:2 "@warning_icon!#X $CHARACTER_NAME$ already has the trait [TRAIT.GetName( CHARACTER.Self )]#!"
+ CONTAINTS_OPPOSITE_TRAIT:2 "@warning_icon!#X [TRAIT.GetName( CHARACTER.Self )] can't be added because $CHARACTER_NAME$ already has the opposite trait [TRAIT_2.GetName( CHARACTER.Self )]#!"
+ IS_POTENTIAL_TRAIT_FALSE:2 "@warning_icon!#X [TRAIT.GetName( CHARACTER.Self )] can't be added because $CHARACTER_NAME$ is blocked from possessing it#!"
+ TRAIT_AGE_NOT_IN_RANGE_TOO_YOUNG:0 "@warning_icon!#X [TRAIT.GetName( CHARACTER.Self )] can't be added because $CHARACTER_NAME$ is younger than $TRAIT_AGE|V$ #weak (is $CHARACTER_AGE|V$)#!#!"
+ TRAIT_AGE_NOT_IN_RANGE_TOO_OLD:0 "@warning_icon!#X [TRAIT.GetName( CHARACTER.Self )] can't be added because $CHARACTER_NAME$ is older than $TRAIT_AGE|V$ #weak (is $CHARACTER_AGE|V$)#!#!"
+ TRAIT_SEX_NOT_MATCHING:0 "@warning_icon!#X [TRAIT.GetName( CHARACTER.Self )] can't be added because $CHARACTER_NAME$ is not $TRAIT_SEX$#!"
+ ALREADY_HAS_TRAIT_IN_GROUP:0 "@warning_icon!#X [TRAIT.GetName( CHARACTER.Self )] can't be added because $CHARACTER_NAME$ already has the a trait in the [TRAIT_GROUP.GetName] group #weak ([TRAIT_2.GetName( CHARACTER.Self )])#!#!"
+ SEX_MALE:0 "Male"
+ SEX_FEMALE:0 "Female"
  trait_education_intrigue_1:0 "Amateurish Plotter"
  trait_education_intrigue_1_desc:0 "The Amateurish Plotter has had some education in the art of intrigue, but any knowledge in the art has eluded them."
  trait_education_intrigue_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has had some education in the art of intrigue, but any real knowledge in the art has eluded [ROOT.GetCharacter.GetHerHim]."
@@ -78,23 +81,18 @@
  trait_education_learning_4:0 "Mastermind Philosopher"
  trait_education_learning_4_desc:0 "The Mastermind Philosopher possesses an uncanny insight into all subjects of higher learning."
  trait_education_learning_4_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] possesses an uncanny insight into all subjects of higher learning."
-
-#Lifestyle Traits
  trait_diplomat:0 "Diplomat"
  trait_diplomat_desc:0 "The Diplomat navigates the perilous waters of social interactions deftly, and achieves their goals with dazzling charisma and conviction while mediating between the highest rulers of the land."
  trait_diplomat_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] navigates the perilous waters of social interactions deftly, and achieves [ROOT.GetCharacter.GetHerHis] goals with dazzling charisma and conviction while mediating between the highest rulers of the land."
-
  trait_family_first:0 "Family First"
  trait_family_first_neutral:0 "Family Hierarch"
  trait_family_first_male:0 "Patriarch"
  trait_family_first_female:0 "Matriarch"
  trait_family_first_desc:0 "A person who is truly dedicated to their family, and the prosperity of their House."
  trait_family_first_character_desc:0 "A [ROOT.Char.GetWomanMan] who is truly dedicated to [ROOT.Char.GetHerHis] family, and the prosperity of [ROOT.Char.GetHerHis] House."
-
  trait_august:0 "August"
  trait_august_desc:0 "They are honored as a true ruler, worthy of the empires of old!"
  trait_august_character_desc:0 "[ROOT.Char.GetSheHe|U] is honored as a true ruler, worthy of the empires of old!"
-
  trait_reveler_1:0 "Eager Reveler"
  trait_reveler_1_desc:0 "The Eager Reveler has sampled the intoxicating life of carousing and debauchery and is hungry for more."
  trait_reveler_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has sampled the intoxicating life of carousing and debauchery and is hungry for more."
@@ -122,47 +120,34 @@
  trait_hunter_3:0 "Master Hunter"
  trait_hunter_3_desc:0 "The Master Hunter lives for the kill."
  trait_hunter_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] lives for the kill."
-
  trait_strategist:0 "Strategist"
  trait_strategist_desc:0 "A dedicated student of the art of war, who can turn any situation to their advantage."
  trait_strategist_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a dedicated student of the art of war, capable of turning any situation to their advantage."
-
  trait_overseer:0 "Overseer"
  trait_overseer_desc:0 "The guidance, firmness of hand, and authority to ensure problems are solved properly."
- 
  trait_gallant:0 "Gallant"
  trait_gallant_desc:0 "True nobility comes not only from one's blood, but from actions tempered by a spirit like gleaming steel."
- 
  trait_architect:0 "Architect"
  trait_architect_desc:0 "The works of an experienced builder will stand for centuries."
- 
  trait_administrator:0 "Administrator"
  trait_administrator_desc:0 "To organize, administrate, and raise efficiency — the Administrator will get it done."
  trait_administrator_character_desc:0 "To organize, administrate, and raise efficiency — [ROOT.GetCharacter.GetFirstNameNoTooltip] will get it done."
-
  trait_avaricious:0 "Avaricious"
  trait_avaricious_desc:0 "Gold, gold, gold! Can there be any higher calling, any goal more noble, than the pursuit of wealth?"
- 
  trait_schemer:0 "Schemer"
  trait_schemer_desc:0 "To understand and manipulate the things that drive other people — and exploit them!"
  trait_schemer_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] lives to understand and manipulate the things that drive other people — and exploit them!"
- 
  trait_seducer:0 "Seducer"
  trait_seducer_female:0 "Seductress"
  trait_seducer_desc:0 "It is not difficult to desire. The true challenge is #EMP to be#! desired."
- 
  trait_torturer:0 "Torturer"
  trait_torturer_desc:0 "Inflicting pain. Holding someone's life in your hands. This is true power."
- 
  trait_whole_of_body:0 "Whole of Body"
  trait_whole_of_body_desc:0 "Know yourself, know your limitations, and know the full extent of your reach."
- 
  trait_scholar:0 "Scholar"
  trait_scholar_desc:0 "Philosophy, nature, and knowledge. Understanding the world is the only way to rule it."
- 
  trait_theologian:0 "Theologian"
  trait_theologian_desc:0 "Divinity holds the answer to every question, from what resides in the hearts of men, to the mysteries of life."
- 
  trait_mystic_female_1:0 "Wise Woman"
  trait_mystic_male_1:0 "Wise Man"
  trait_mystic_1_desc:0 "This character is known for their unconventional, but practical, approach to religion."
@@ -185,8 +170,6 @@
  lifestyle_herbalist:0 "Herbalist"
  lifestyle_herbalist_desc:0 "This character is well versed in herbs, botany, and medical practices related to plants."
  lifestyle_herbalist_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is well versed in herbs, botany, and medical practices related to plants."
-
-#Personality Traits
  trait_chaste:0 "Chaste"
  trait_chaste_desc:1 "This character dislikes intimate contact, avoiding the temptations of the flesh."
  trait_chaste_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] dislikes intimate contact, avoiding the temptations of the flesh."
@@ -307,15 +290,12 @@
  trait_bossy:0 "Bossy"
  trait_bossy_desc:1 "This child can often be seen ordering other children around. While they are concerned with getting things done the right way, getting things done #EMP their#! way is equally important."
  trait_bossy_character_desc:0 "[ROOT.Char.GetFirstNameNoTooltip] can often be seen ordering other children around. While [ROOT.Char.GetSheHe] is concerned with getting things done the right way, getting things done #EMP [ROOT.Char.GetHerHis]#! way is equally important."
-
-#Stress traits
  trait_drunkard:0 "Drunkard"
  trait_drunkard_desc:0 "This character has taken to the bottle, and is continuously looking for its bottom."
  trait_drunkard_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has taken to the bottle, and is continuously looking for its bottom."
  trait_hashishiyah:0 "Hashishiyah"
  trait_hashishiyah_desc:0 "This character is dependent on the consumption of hashish to deal with the stress of everyday life."
  trait_hashishiyah_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is dependent on the consumption of hashish to deal with the stress of everyday life."
-
  trait_rakish:0 "Rakish"
  trait_rakish_desc:0 "This character spends so much time in the brothel that it has become their second home."
  trait_rakish_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] spends so much time in the brothel that it has become [ROOT.GetCharacter.GetHerHis] second home."
@@ -352,8 +332,6 @@
  trait_athletic:0 "Athletic"
  trait_athletic_desc:0 "Regular exercise helps this character keep a level head and burn off stress."
  trait_athletic_character_desc:0 "Regular exercise helps [ROOT.GetCharacter.GetFirstNameNoTooltip] keep a level head and burn off stress."
-
-#Health traits
  trait_pregnant:0 "Pregnant"
  trait_pregnant_desc:0 "This character is with child."
  trait_pregnant_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is with child."
@@ -450,8 +428,6 @@
  trait_blind:0 "Blind"
  trait_blind_desc:0 "Through an #EMP accident#! or since birth, this character can see nothing."
  trait_blind_character_desc:0 "Through an #EMP accident#! or since birth, [ROOT.GetCharacter.GetFirstNameNoTooltip] can see nothing."
-
-#Physical Traits
  trait_beauty_bad_1:0 "Homely"
  trait_beauty_bad_1_desc:0 "This character is not pleasant to look at."
  trait_beauty_bad_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is not pleasant to look at."
@@ -573,15 +549,12 @@
  trait_bleeder:0 "Bleeder"
  trait_bleeder_desc:0 "Any kind of wound might prove fatal to this character since their sanguine humors are in a hurry to escape their body."
  trait_bleeder_character_desc:0 "Any kind of wound might prove fatal to [ROOT.GetCharacter.GetFirstNameNoTooltip] since [ROOT.GetCharacter.GetHerHis] sanguine humors are in a hurry to escape [ROOT.GetCharacter.GetHerHis] body."
-
-#Fame Traits
  trait_celibate:0 "Celibate"
  trait_celibate_desc:0 "This character has sworn themselves to celibacy."
  trait_celibate_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has sworn [ROOT.GetCharacter.GetHerselfHimself] to celibacy."
  trait_pilgrim:0 "Pilgrim"
  trait_pilgrim_desc:0 "This character has completed a pilgrimage to a holy site."
  trait_pilgrim_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has completed a pilgrimage to a holy site."
- 	#Christian version of Faith Warrior
  trait_crusader:0 "Crusader"
  trait_crusader_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has done [ROOT.GetCharacter.GetHerHis] Christian duty and participated in a Crusade."
  trait_excommunicated:0 "Excommunicated"
@@ -592,42 +565,33 @@
  trait_devoted_female:0 "Nun"
  trait_devoted_desc:0 "This character has dedicated their life to the service of a higher power."
  trait_devoted_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has dedicated [ROOT.GetCharacter.GetHerHis] life to the service of a higher power."
- 	#Child version of Devoted
  trait_devoted_child:0 "Promised to the Clergy"
  trait_devoted_child_desc:0 "This child is promised to the clergy, and will eventually dedicate their life to the service of a higher power."
  trait_devoted_child_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is promised to the clergy, and will eventually dedicate [ROOT.GetCharacter.GetHerHis] life to the service of a higher power."
- 	#Indian versions of Devoted
  trait_devoted_buddhism_male:0 "Bhikkhu"
  trait_devoted_buddhism_female:0 "Bhikkhuni"
  trait_devoted_hinduism_male:0 "Sanyasi"
  trait_devoted_hinduism_female:0 "Sanyasini"
  trait_devoted_jainism_male:0 "Muni"
  trait_devoted_jainism_female:0 "Aryika"
- 	#Muslim version of Faith Warrior
  trait_mujahid:0 "Mujahid"
  trait_mujahid_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has done [ROOT.GetCharacter.GetHerHis] Islamic duty and participated in a Jihad."
- 	#Muslim version of Pilgrim
  trait_hajji:0 "Hajji"
  trait_hajjah:0 "Hajjah"
  trait_hajjaj_desc:1 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has completed the Hajj, a pilgrimage to the House of Allah in Mecca."
- 	#Muslim male & female versions of Blood of the Prophet, respectively
  trait_sayyid:0 "Sayyid"
  trait_sayyida:0 "Sayyida"
  trait_sayyid_desc:1 "Coursing through the veins of this character is the Blood of the Prophet."
  trait_sayyid_character_desc:0 "Coursing through the veins of [ROOT.GetCharacter.GetFirstNameNoTooltip] is the Blood of the Prophet."
- 	#Zoroastrian version of Savior
  trait_saoshyant:0 "Saoshyant"
  trait_saoshyant_desc:0 "This character is here to deliver us all and perhaps bring about Frashokereti, the final renovation of the world."
  trait_saoshyant_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is here to deliver us all and perhaps bring about Frashokereti, the final renovation of the world."
- 	#Zoroastrian version of Divine Blood
  trait_saoshyant_descendant:0 "Saoshyant Descendant"
  trait_saoshyant_descendant_desc:0 "This character is a direct descendant of the Saoshyant."
  trait_saoshyant_descendant_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a direct descendant of the Saoshyant."
- 	#The Chakravarti
  trait_chakravarti:0 "Chakravarti"
  trait_chakravarti_desc:0 "This character has united the center of the world, and is the rightful ruler of its entirety."
  trait_chakravarti_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has united the center of the world, and is the rightful ruler of its entirety."
- 	#Greatest of Khans
  trait_greatest_of_khans:0 "Greatest of Khans"
  trait_greatest_of_khans_desc:0 "This character has been proclaimed the ruler of the universe itself, by right of conquest."
  trait_greatest_of_khans_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has been proclaimed the ruler of the universe itself, by right of conquest."
@@ -722,30 +686,21 @@
  trait_adventurer:0 "Adventurer"
  trait_adventurer_desc:0 "This character has lead a life of bravery and action as an adventurer."
  trait_adventurer_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has lead a life of bravery and action as an adventurer."
- 	# Female version of Child of Consort
  trait_child_of_concubine:1 "Child of Concubine"
  trait_child_of_concubine_desc:0 "This character was born of a concubine."
  trait_child_of_concubine_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] was born of a concubine."
- 	# Male version of Child of Concubine
  trait_child_of_consort:0 "Child of Consort"
  trait_child_of_consort_desc:0 "This character was fathered by a consort."
  trait_child_of_consort_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] was fathered by a consort."
- 	#Witch
  trait_witch:0 "Witch"
  trait_witch_desc:0 "This character dabbles in subjects many would consider occult."
  trait_witch_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] dabbles in subjects many would consider occult."
-
-#Revolting Leader Traits
-  #Peasnt Leaders
  trait_peasant_leader:0 "Peasant Leader"
  trait_peasant_leader_desc:1 "This character is a jumped up peasant who revolted against their betters."
  trait_peasant_leader_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a jumped up peasant who revolted against [ROOT.GetCharacter.GetHerHis] betters."
-  #Heretic Uprisings
  trait_heresiarch:1 "Heresiarch"
  trait_heresiarch_desc:1 "This character is the local leader of a heretical sect."
  trait_heresiarch_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is the local leader of a heretical sect."
-
-#Commander Traits
  trait_logistician:0 "Logistician"
  trait_logistician_desc:0 "If there is one thing the Logistician knows, it is how to make supplies last — and last well."
  trait_logistician_character_desc:0 "If there is one thing [ROOT.GetCharacter.GetFirstNameNoTooltip] knows, it is how to make supplies last — and last well."
@@ -794,27 +749,21 @@
  trait_organizer:0 "Organizer"
  trait_organizer_desc:0 "In capable hands, a well organized army can swiftly outmaneuver the enemy in any situation."
  trait_organizer_character_desc:0 "In capable hands, a well organized army can swiftly outmaneuver the enemy in any situation."
-
-# Commander Traits (cultural traditions)
  trait_sea_raider:0 "Sea Raider"
  trait_sea_raider_desc:0 "The Sea Raider has no fear of the harshness of the elements at sea, and employs a combination of daring and skillful navigation to strike without warning against unprotected coasts."
  trait_sea_raider_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has no fear of the harshness of the elements at sea, and employs a combination of daring and skillful navigation to strike without warning against unprotected coasts."
-
- #State traits
  trait_disinherited:0 "Disinherited"
  trait_disinherited_desc:0 "This character has been disinherited by the [dynast|E] and cannot inherit any title from any other Dynasty member."
  trait_disinherited_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has been disinherited by [ROOT.GetCharacter.GetHerHis] [dynast|E] and cannot inherit any title from any other Dynasty member."
  trait_denounced:0 "Denounced"
  trait_denounced_desc:0 "This character has been denounced by their [dynast|E] and can now be imprisoned by any other Dynasty member."
  trait_denounced_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has been denounced by [ROOT.GetCharacter.GetHerHis] [dynast|E] and can now be imprisoned by any other Dynasty member."
-
  genetic_desc:0 "This Trait is [congenital|E]"
  inheritable_desc:0 "Can be inherited"
  trait_crusader_king:0 "Crusader King"
  trait_crusader_king_male_desc:0 "A great warrior King who has carved his own kingdom out of the lands of the infidels."
  trait_crusader_king_female_desc:0 "A great warrior Queen who has carved her own kingdom out of the lands of the infidels."
  trait_crusader_king_fallback_desc:0 "A great warrior-monarch who has carved their kingdom out of the lands of infidels."
- 
  trait_augustus:0 "Augustus"
  trait_augustus_desc:0 "This character is the current ruler of the restored Roman Empire and commands the respect an office of such magnitude is due."
  trait_augustus_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is the current ruler of the restored Roman Empire and commands the respect an office of such magnitude is due."
@@ -826,8 +775,6 @@
  TRAIT_INHERITANCE_POSSIBLE_ONE:0 "#weak As at least one parent has this Trait, it #underline might#! get inherited.#!"
  TRAIT_INHERITANCE_POSSIBLE_BOTH:0 "#weak As both parents have this Trait, it #underline might#! get inherited.#!"
  TRAIT_INHERITANCE_UPGRADE_POSSIBLE:0 "#weak This Trait #underline might#! intensify, resulting in [TRAIT.GetName( CHARACTER.Self )].#!"
-
- # Crusader names
  trait_crusader_bon:0 "Kailash Guardian"
  trait_crusader_buddhism:0 "Atoner"
  trait_crusader_christianity:0 "Crusader"
@@ -842,14 +789,13 @@
  trait_crusader_baltic:0 "Hound of Dievas"
  trait_crusader_slavic:0 "Perun's Champion"
  trait_crusader_finno_ugric:0 "Ukko's Hammer"
+ trait_crusader_siberian:0 "Ulgen's Nimrod"
  trait_crusader_tengrism:0 "Skylord"
  trait_crusader_west_african:0 "Nyame's Shield"
  trait_crusader_west_african_bori:0 "Facilitator"
  trait_crusader_west_african_roog:0 "Takhar's Arbiter"
  trait_crusader_zoroastrianism:0 "Gond-i Shahanshah"
  trait_crusader_zunism:0 "Warrior of the Sun"
-
- # Crusader King names
  trait_crusader_king_bon_male:0 "Kailash King"
  trait_crusader_king_bon_female:0 "Kailash Queen"
  trait_crusader_king_buddhism:0 "High Aasaan"
@@ -868,6 +814,7 @@
  trait_crusader_king_slavic:0 "Perun's Chosen"
  trait_crusader_king_finno_ugric_male:0 "Bear King"
  trait_crusader_king_finno_ugric_female:0 "Bear Queen"
+ trait_crusader_king_siberian:0 "Ulgen's Chosen"
  trait_crusader_king_tengrism_male:0 "Sky-King"
  trait_crusader_king_tengrism_female:0 "Sky-Queen"
  trait_crusader_king_west_african:0 "Nyame's Chosen"
@@ -879,17 +826,9 @@
  trait_crusader_king_fallback_male:0 "Holy King"
  trait_crusader_king_fallback_female:0 "Holy Queen"
  trait_crusader_king_fallback_dead:0 "Holy Monarch"
-
- ##############
- #Trait Groups#
- ##############
-
- #Mental Groups
  trait_depressed:0 "Depressed"
- trait_lunatic:0 "Lunatics"
+ trait_lunatic:1 "Lunatic"
  trait_possessed:0 "Possessed"
-
-#Physical Groups
  trait_beauty_bad:0 "Homely Characters"
  trait_beauty_good:0 "Beautiful Characters"
  trait_intellect_bad:0 "Slow Thinkers"
@@ -897,23 +836,17 @@
  trait_physique_bad:0 "Fragile Characters"
  trait_physique_good:0 "Physical Specimens"
  trait_wounded:0 "Injured"
-
-#Education Groups
  trait_education_intrigue:0 "Students of Intrigue"
  trait_education_diplomacy:0 "Students of Diplomacy"
  trait_education_stewardship:0 "Students of Stewardship"
  trait_education_martial:0 "Students of Warfare"
  trait_education_learning:0 "Students of Knowledge"
  trait_education_martial_prowess:0 "Students of Knighthood"
-
-#Lifestyle Groups
  trait_lifestyle_reveler:0 "Revelers"
  trait_lifestyle_blademaster:0 "Blademasters"
  trait_lifestyle_hunter:0 "Hunters"
  trait_lifestyle_mystic:0 "Mystics"
  trait_lifestyle_physician:0 "Physicians"
  trait_lifestyle_herbalist:1 "Herbalist"
-
- # Fame Groups
  trait_kinslayer:0 "Kinslayers"
  #trait_child_of_concubine: "trait_child_of_concubine"

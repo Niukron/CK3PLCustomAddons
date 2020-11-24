@@ -62,7 +62,7 @@
  COUNCIL_WINDOW_CANT_REASSIGN_HEADER: "Can not assign a new [councillor|E]:"
  COUNCIL_WINDOW_CANT_REASSIGN_WARNING: "Can not assign a new [councillor|E]"
  COUNCIL_WINDOW_MAP_TASK_NAME: "[PotentialTaskLocationWindow.GetActiveTask.GetPositionName] Task"
- COUNCIL_WINDOW_MAP_INSTRUCTION: "#I Left-click on a location on the map to assign task\nRight-click to cancel#!"
+ COUNCIL_WINDOW_MAP_INSTRUCTION: "#I Click on a location on the map to assign task\nRight-click to cancel#!"
  COUNCIL_WINDOW_MAP_INSTRUCTION_TT: "#I Click to assign task here#!"
  COUNCIL_WINDOW_MAP_INSTRUCTION_CANCEL_TT: "#I Right-click to cancel#!"
  COUNCIL_WINDOW_MAP_COUNCILLOR_TYPE: "Your [PotentialTaskLocationWindow.GetActiveTask.GetPositionName]"

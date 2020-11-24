@@ -17,7 +17,7 @@
  WAR_RESULTS_MY_WAR_CHEST_SHARE:1 "Your war chest share"
  WAR_RESULTS_GAIN_NOTHING:1 "#weak Your Contribution was lower than the required $VALUE$, so you gain nothing#!"
  WAR_RESULTS_DISMISS:0 "So be it"
- #WAR_RESULTS_DISMISS_TOOLTIP:1 "" delete this
+ #WAR_RESULTS_DISMISS_TOOLTIP:1 ""
  WAR_RESULTS_INVALIDATED_DESC:0 "The war ended inconclusively because the [casus_belli|E] is longer valid\nNobody gains or loses anything"
  WAR_OVER_GREETING:0 "[TARGET_CHARACTER.Custom2('AppropriateGreeting', CHARACTER.Self)]\n[TARGET_CHARACTER.Custom2('AppropriateSupplimentaryGreeting', CHARACTER.Self)]"
  SECONDARY_WIN:0 "We won the war led by [CHARACTER.GetUIName] against [TARGET_CHARACTER.GetUIName]."

@@ -68,7 +68,7 @@
  vassal.2301.desc_intrigue: "especially in #EMP discreet#! matters."
  vassal.2301.desc_learning: "especially in academic matters."
  vassal.2301.desc_ending: "\n\n\"There are some projects I would like to undertake in the [develop_county.GetName], my liege. With your blessing, of course.\""
- vassal.2301.a: "Take the reigns, [skilled_vassal.GetFirstNameNoTooltip]!"
+ vassal.2301.a: "Take the reins, [skilled_vassal.GetFirstNameNoTooltip]!"
  vassal.2301.b_diplomacy: "No, #EMP you#! will defer to my diplomatic expertise instead."
  vassal.2301.b_martial: "Martial prowess? Hah! I'll make these modifications #EMP myself#!."
  vassal.2301.b_stewardship: "I can handle this administrative issue myself."

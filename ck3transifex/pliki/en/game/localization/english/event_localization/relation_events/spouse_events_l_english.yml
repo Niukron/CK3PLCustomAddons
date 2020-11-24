@@ -125,7 +125,7 @@
  spouse.2013.secret_about_other: "\n\n\"I have to tell you something,\" [first_spouse.GetSheHe] said. \"Something about [owner_of_secret.GetTitledFirstName].\" \nWhen [first_spouse.GetSheHe] leaned in and whispered in my ear, my eyes went wide."
  spouse.2013.a: "Truly? I would never have known!"
  spouse.2014.t: "A Threat?"
- spouse.2014.desc: "There is something off about the way [agent.GetTitledFirstName] acts around my [ROOT.Char.Custom2('RelationToMe' , SCOPE.sC('spouse'))]  when [agent.GetSheHe] thinks no one is looking. I keep seeing [agent.GetHerHim] cast sideways glances, wander in empty hallways, and pay close attention to [spouse.GetFirstNamePossessive] every movement.\n\nI worry [agent.GetSheHe] must be plotting something."
+ spouse.2014.desc: "There is something off about the way [agent.GetTitledFirstName] acts around my [ROOT.Char.Custom2('RelationToMe' , SCOPE.sC('spouse'))] when [agent.GetSheHe] thinks no one is looking. I keep seeing [agent.GetHerHim] cast sideways glances, wander in empty hallways, and pay close attention to [spouse.GetFirstNamePossessive] every movement.\n\nI worry [agent.GetSheHe] must be plotting something."
  spouse.2014.a: "My [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('spouse') )] must be warned!"
  spouse.2014.reveal_tt: "[spouse.GetTitledFirstName] will be warned that [agent.GetTitledFirstName] is up to something."
  spouse.2014.b: "I'm probably mistaken."

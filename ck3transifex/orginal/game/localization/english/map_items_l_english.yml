@@ -7,8 +7,6 @@
  lake_onega:0 "Onega"
  lake_ladoga:0 "Ladoga"
  lake_ilmen:0 "Lake Ilmen"
- 
- # MAJOR RIVERS
  river_thames:0 "The Thames"
  river_humber:0 "Humber"
  river_sognefjord:0 "Sognefjord"
@@ -59,8 +57,6 @@
  river_kaveri:0 "Kaveri"
  river_irrawaddy_delta:0 "Irrawaddy Delta"
  river_irrawaddy:0 "Irrawaddy"
- 
- # SEA ZONES
  sea_malaren:0 "Mälaren"
  sea_adriatic_sea:0 "Adriatic Sea"
  sea_strait_otranto:0 "Strait of Otranto"

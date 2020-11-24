@@ -32,6 +32,8 @@
  greeting_appropriate_family: "[ROOT.Char.Custom2('GreetingToFamily', second)]"
  greeting_appropriate_foreign_ruler: "[ROOT.Char.Custom2('GreetingToForeignRuler', second)]"
  greeting_appropriate_fallback: "[ROOT.Char.Custom2('GreetingToGeneric', second)]"
+ greeting_appropriate_positive_fallback: "[ROOT.Char.Custom2('GreetingToGenericPositive', second)]"
+ greeting_appropriate_negative_fallback: "[ROOT.Char.Custom2('GreetingToGenericNegative', second)]"
  greeting_appropriate_negative_liege: "[ROOT.Char.Custom2('GreetingToLiegeNegative', second)]"
  greeting_appropriate_negative_vassal: "[ROOT.Char.Custom2('GreetingToVassalNegative', second)]"
  greeting_appropriate_negative_family: "[ROOT.Char.Custom2('GreetingToFamilyNegative', second)]"

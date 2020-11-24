@@ -48,8 +48,7 @@
  feudal_levies_high_short:0 "High"
  feudal_levies_extortionate:0 "Massive $game_concept_levy$ Contribution"
  feudal_levies_extortionate_short:0 "Massive"
- 
- special_contract:0 "Special Contract"
+ special_contract:1 "[Concept( 'feudal_contract', 'Special Contract' )|B]"
  special_contract_none:0 "No Special Contract"
  special_contract_scutage:0 "Scutage Contract"
  special_contract_scutage_desc:1 "#flavor While subject to a $special_contract_scutage$, the [vassal|E] will pay #high [EmptyScope.ScriptValue('scutage_contract_tax_tooltip')|0]%#! more [tax|E] than what their $feudal_government_taxes$ [obligation|E] dictates, while at the same time providing #high [EmptyScope.ScriptValue('scutage_contract_levies_tooltip')|0]%#! fewer [levies|E] than what their $feudal_government_levies$ [obligation|E] dictates.#!"
@@ -61,42 +60,36 @@
  special_contract_scutage_short:0 "Scutage"
  special_contract_march_short:0 "March"
  special_contract_palatinate_short:0 "Palatinate"
- 
  religious_rights:0 "Religious Rights"
  religious_rights_none:0 "Religiously Unprotected"
  religious_rights_none_short:0 "Unprotected"
  religious_rights_protected:0 "Religiously Protected"
  religious_rights_protected_desc:2 "#emphasis #bold [vassal|E] Privileges:#!#!\nThe [liege|E] can not [demand_conversion|E] of the [vassal|E]\nThe [liege|E] can not use [convert_county|E] in the [vassals|E]' lands\n\n#flavor The [vassal|E] is granted a special protected status, with the realm officially recognizing their right to practice their own [faith|E].#!"
  religious_rights_protected_short:0 "Protected"
- 
  fortification_rights:0 "Fortification Rights"
  fortification_rights_none:0 "No $fortification_rights$"
  fortification_rights_none_short:0 "None"
  fortification_rights_granted:0 "$fortification_rights$ Granted"
  fortification_rights_granted_desc:0 "#flavor The [vassal] is granted the right to construct new castles and fortifications with the support of their [liege]. This support, in practice, means that the [vassal] pays #high [EmptyScope.ScriptValue('fortification_rights_contract_taxes_tooltip')|0]%#! less [tax] than what their $feudal_government_taxes$ [obligation] dictates.#!"
  fortification_rights_granted_short:0 "Granted"
- 
  succession_rights:0 "Succession Rights"
  succession_rights_default:0 "Default $succession_rights$"
  succession_rights_default_short:0 "Default"
  succession_rights_forced_partition:0 "Forced Partition"
  succession_rights_forced_partition_desc:0 "#emphasis #bold [vassal|E] Restrictions:#!#!\nThe [vassal|E] can not have any [succession_law|E] beyond Partition\nThe [vassal|E] switches their [succession_law|E] to Partition\nThe [vassal|E] pays #high [EmptyScope.ScriptValue('succession_rights_contract_law_cost_tooltip')|0]%#! more [prestige|E] to change [laws|E]\n\n#flavor The [vassal|E] is forced to never have any other form of succession but Partition for their [realm|E]. The administrative hurdle of this also increases the [vassals] [law] costs by #high [EmptyScope.ScriptValue('succession_rights_contract_law_cost_tooltip')|0]%.#!#!"
  succession_rights_forced_partition_short:0 "Forced Partition"
- 
  coinage_rights:0 "Coinage Rights"
  coinage_rights_none:0 "No $coinage_rights$"
  coinage_rights_none_short:0 "None"
  coinage_rights_granted:0 "$coinage_rights$ Granted"
  coinage_rights_granted_desc:0 "#flavor The [vassal] is granted the right to mint and use new coins, bolstering their [development|E] at the expense of that of their [liege].#!"
  coinage_rights_granted_short:0 "Granted"
- 
  war_declaration_rights:0 "War Declaration"
  war_declaration_rights_default:0 "Default $war_declaration_rights$"
  war_declaration_rights_default_short:0 "Default"
  war_declaration_rights_allowed:0 "Sanctioned $war_declaration_rights$"
- war_declaration_rights_allowed_desc:0 "#emphasis #bold [vassal|E] Privileges:#!#!\nThe [vassal|E] can declare [war|E] regardless of the [lieges|E] [crown_authority|E]\nThe [vassal|E] pays #high [EmptyScope.ScriptValue('war_declaration_rights_allowed_cost_reduction_tooltip')|0]%#! less for [casus_bellis|E] within the [realm|E]\n\n#flavor The [vassal] does not have to spend a [hook] if their [lieges] [crown_authority] prevents them from waging war. This special treatment also makes it easier for the [vassal] to declare wars inside the [realm|E], reducing the cost by #high [EmptyScope.ScriptValue('war_declaration_rights_allowed_cost_reduction_tooltip')|0]%#!.#!"
+ war_declaration_rights_allowed_desc:1 "#emphasis #bold [vassal|E] Privileges:#!#!\nThe [vassal|E] can declare [war|E] regardless of the [liege|E]'s [crown_authority|E]\nThe [vassal|E] pays #high [EmptyScope.ScriptValue('war_declaration_rights_allowed_cost_reduction_tooltip')|0]%#! less for [casus_bellis|E] within the [realm|E]\n\n#flavor The [vassal] does not have to spend a [hook] if their [lieges] [crown_authority] prevents them from waging war. This special treatment also makes it easier for the [vassal] to declare wars inside the [realm|E], reducing the cost by #high [EmptyScope.ScriptValue('war_declaration_rights_allowed_cost_reduction_tooltip')|0]%#!.#!"
  war_declaration_rights_allowed_short:0 "Sanctioned"
- 
  council_rights:0 "Council Rights"
  council_rights_none:0 "No $council_rights$"
  council_rights_none_desc:0 "#flavor The [vassal] is not granted any out-of-the-ordinary privileges when it comes to the [council].#!"
@@ -104,14 +97,12 @@
  council_rights_guaranteed:0 "$council_rights$ Guaranteed"
  council_rights_guaranteed_desc:0 "#emphasis #bold [vassal|E] Privilege:#!#!\nThe #high $force_onto_council$#! [interaction|E] can be used at will\n\n#flavor The [vassal] is granted special [council] privileges, and will expect a permanent seat on the [council]. Granting this privilege to too many [vassals] will eventually upset the [powerful_vassals] of the [realm|E].#!"
  council_rights_guaranteed_short:0 "Guaranteed"
- 
  title_revocation_rights:0 "Title Revocation"
  title_revocation_rights_default:0 "Default $title_revocation_rights$"
  title_revocation_rights_default_short:0 "Default"
  title_revocation_rights_protected:0 "Protected $title_revocation_rights$"
  title_revocation_rights_protected_desc:0 "#emphasis #bold [vassal|E] Privilege:#!#!\nThe [liege|E] cannot revoke the [vassals_possessive|E] [titles|E]\n\n#flavor The [vassal] is guaranteed ownership of their [titles], preventing the [liege|E] from revoking them – regardless of the [liege|E] having a [revoke_title_reason] or not.#!"
  title_revocation_rights_protected_short:0 "Protected"
- 
  clan_government:0 "Clan"
  clan_government_adjective:0 "Clan"
  clan_government_realm:0 "Clan"
@@ -122,25 +113,21 @@
  clan_government_levies_contribution_postfix:0 " (max [FixedPointToProgressbarValue(EmptyScope.ScriptValue('clan_government_levies_max_possible'))|1V])"
  clan_government_unclamped_contribution_label:0 "Based on [opinion|E] of me"
  clan_government_min_contribution_label:0 "[crown_authority|E] minimum"
-
  republic_government:0 "Republic"
  republic_government_adjective:0 "Republic"
  republic_government_realm:0 "Republic"
  republic_government_desc:0 "$game_concept_republic_desc$\n\n#F Towns are ruled by the privileged citizens of the burgher class, among whom one is chosen as mayor. While the mayor has significant influence, they depend on popularity to be re-elected.#!"
  republic_government_vassals_label:1 "Republic [obligations|E] are the same for all Republican [vassals|E]"
  republic_government_obligations:1 "Republic [obligations|E]"
-
  tribal_government:0 "Tribal"
  tribal_government_adjective:0 "Tribal"
  tribal_government_realm:0 "Tribe"
  tribal_government_desc:0 "$game_concept_tribal_desc$\n\n#F In the tribe, strength means everything. A tribal leader depends on respect and renown rather than coin to develop their realm and bolster their armies.#!"
-
  tribal_government_obligations:0 "From [liege|E] [prestige_level|E]"
  tribal_government_vassals_label:1 "Tribal [obligations|E] are based on [prestige_level|E] of [liege|E]"
  tribal_liege_inefficiency_plus_perk:0 "[liege|E] is [tribal|E] and has [GetPerk( 'detailed_ledgers_perk' ).GetName( GetPlayer )]"
  tribal_liege_inefficiency:0 "[liege|E] is [tribal|E]"
  has_detailed_ledgers_perk:0 "[liege|E] has [GetPerk( 'detailed_ledgers_perk' ).GetName( GetPlayer )]"
- 
  theocracy_government:0 "Theocracy"
  theocracy_government_adjective:0 "Theocratic"
  theocracy_government_realm:0 "Theocracy"
@@ -149,17 +136,14 @@
  theocracy_government_obligations:1 "Theocratic [obligations|E]"
  theocracy_government_vassal_contribution_wrong_faith:0 "@warning_icon!#X [liege|E] is of wrong [faith|E]#!"
  theocracy_government_vassal_contribution_piety_level:0 "[liege|E] is [GetPietyLevelName(liege.GetPietyLevel)|L]"
-
  holy_order_government:0 "Holy Order"
  holy_order_government_desc:0 "The holy warriors of the orders have dedicated their life to fighting infidels and serving their faith. They may hold castles given to them by pious landholders. The order leader is chosen within the order ranks."
  holy_order_government_adjective:0 "Holy Order"
  holy_order_government_realm:0 "Holy Order"
-
  mercenary_government:0 "Mercenary Company"
  mercenary_government_realm:0 "Mercenary Company"
  mercenary_government_desc:1 "Mercenary companies roam the lands in search of employment, and take up arms for the highest bidder. Loyalty is essential to a good reputation, but it only lasts until the end of their contract. The mercenary leader is chosen from within the company's ranks."
  mercenary_government_adjective:0 "Mercenary Company"
-
  create_cadet_branches_trigger:0 "Creation of [cadet_branches|E]"
  create_cadet_branches_rule:0 "Create [cadet_branches|E]"
  GOVERNMENT_RULE_INFO:0 "- Can $RULE|V$"
@@ -167,9 +151,6 @@
  GOVERNMENT_CLAN_NOT_ALLIED:0 "No [alliance|E] as Clan [vassal|E]"
  GOVERNMENT_CLAN_NOT_ALLIED_POWERFUL:0 "No [alliance|E] as powerful Clan [vassal|E]"
  government_can_raid_rule:0 "Allows the [raiding|E] of foreign [counties|E] for loot"
-
  SUPPLY_MULT_DIFERENT_GOVERNMENT:0 "[GOVERNMENT_TYPE.GetAdjective] Lands"
- 
  CONTRACT_LIEGE_SIGNATURE:0 "The Liege,\n[VassalContract.GetLiege.GetTitledFirstNameNoTooltip]\nof House [VassalContract.GetLiege.GetHouse.GetBaseNameNoTooltip]"
  CONTRACT_VASSAL_SIGNATURE:0 "The Vassal,\n[VassalContract.GetVassal.GetTitledFirstNameNoTooltip]\nof House [VassalContract.GetVassal.GetHouse.GetBaseNameNoTooltip]"
- 

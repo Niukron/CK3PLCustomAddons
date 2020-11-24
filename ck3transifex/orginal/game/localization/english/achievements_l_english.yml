@@ -4,8 +4,6 @@
  ACHIEVEMENT_GROUP_medium_achievements:0 "Medium"
  ACHIEVEMENT_GROUP_hard_achievements:0 "Hard"
  ACHIEVEMENT_GROUP_very_hard_achievements:0 "Very Hard"
- 
- #Achievement Titles
  ACHIEVEMENT_until_death_do_us_part_achievement:0 "Until Death Do Us Part"
  ACHIEVEMENT_way_of_life_achievement:0 "Way of Life"
  ACHIEVEMENT_a_legacy_to_last_the_ages_achievement:0 "A Legacy to Last the Ages"
@@ -62,8 +60,6 @@
  ACHIEVEMENT_moving_up_in_the_world_achievement:0 "Moving up in the World"
  ACHIEVEMENT_beacon_of_progress_achievement:0 "Beacon of Progress"
  ACHIEVEMENT_mother_of_us_all_achievement:0 "Mother of us All"
-
- #Unlocked Achievement Desc
  ACHIEVEMENT_DESC_until_death_do_us_part_achievement:1 "[marry|E] another [character|E]"
  ACHIEVEMENT_DESC_way_of_life_achievement:1 "Obtain #EMP every#! perk in a [lifestyle|E]"
  ACHIEVEMENT_DESC_a_legacy_to_last_the_ages_achievement:1 "Complete an entire [dynasty_perk|E] path"
@@ -73,7 +69,7 @@
  ACHIEVEMENT_DESC_not_so_feudal_system_achievement:1 "Use the [claim_throne|E] [scheme|E] successfully"
  ACHIEVEMENT_DESC_the_succession_is_safe_achievement:2 "Have ten living children"
  ACHIEVEMENT_DESC_almost_there_achievement:0 "As Álmos Árpád, form Hungary and convert to Christianity"
- ACHIEVEMENT_DESC_last_count_first_king_achievement:1 "Starting as Duke Nuño of Portucale in 1066, form Portugal"
+ ACHIEVEMENT_DESC_last_count_first_king_achievement:2 "As Duke Nuño of Portucale, form Portugal"
  ACHIEVEMENT_DESC_prolific_achievement:1 "Have one hundred living [dynasty|E] members"
  ACHIEVEMENT_DESC_a_name_known_throughout_the_world_achievement:2 "Have your [dynasty|E] reach the highest possible [dynasty_prestige_level|E]"
  ACHIEVEMENT_DESC_end_of_an_era_achievement:0 "Play until 1453"
@@ -120,8 +116,6 @@
  ACHIEVEMENT_DESC_moving_up_in_the_world_achievement:1 "Increase your [rank|E]"
  ACHIEVEMENT_DESC_beacon_of_progress_achievement:1 "Have your [culture|E] unlock all [innovations|E], excluding regional and culture-specific $game_concept_innovations$"
  ACHIEVEMENT_DESC_mother_of_us_all_achievement:1 "Starting as Magajiva Daura, reform an African pagan faith, and convert all [counties|E] in Africa to it"
-
- #Locked Achievement Desc
  ACHIEVEMENT_LOCKED_GENERIC:0 "Achievement locked"
  NOT_ACHIEVEMENT_DESC_until_death_do_us_part_achievement:0 "$ACHIEVEMENT_LOCKED_GENERIC$"
  NOT_ACHIEVEMENT_DESC_way_of_life_achievement:0 "$ACHIEVEMENT_LOCKED_GENERIC$"

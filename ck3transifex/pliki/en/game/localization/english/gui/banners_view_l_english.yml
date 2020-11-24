@@ -45,4 +45,4 @@
  BANNER_CANT_RAISE_NOT_IN_WAR: "@warning_icon!#X Not in war#!"
  CREATE_RALLY_POINT: "Create Rally Point"
  RALLY_POINT_CHOOSE_LOCATION: "Choose a Location on the Map"
- RALLY_POINT_MAP_INSTRUCTION: "#I Left-click to pick a location\nRight-click to cancel#!"
+ RALLY_POINT_MAP_INSTRUCTION: "#I Click to pick a location\nRight-click to cancel#!"

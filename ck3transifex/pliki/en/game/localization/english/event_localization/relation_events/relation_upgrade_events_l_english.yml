@@ -27,7 +27,7 @@
  relation_upgrade.0011.desc.rival: "While I lament about how poorly organized the tournament is, [source.Custom2('MyCharacterIntroduction', ROOT.Char)] suddenly walks up to me and pushes me straight into the horse' water troughs, prompting everyone around to burst into laughter!"
  relation_upgrade.0011.desc.friend: "While I'm waiting under the pavilion for something to happen, [source.Custom2('MyCharacterIntroduction', ROOT.Char)] comes up to my table and sits down. \"Some tourney, eh? Anyway, how have you been?\""
  relation_upgrade.0011.desc.lover: "While I'm waiting for the contestants to show up, [source.Custom2('MyCharacterIntroduction', ROOT.Char)] comes up to me and asks me to join [source.GetHerHim] for some \"[ROOT.Char.Custom('MartialTournamentAdjective')]\" of our own."
- relation_upgrade.0011.rival.accept: "How #EMP dare#! [source.GetSheHe] he!?"
+ relation_upgrade.0011.rival.accept: "How #EMP dare#! [source.GetSheHe]!?"
  relation_upgrade.0011.rival.accept.toast: "[rival.GetFirstNameNoTooltip] takes offense"
  relation_upgrade.0011.rival.decline: "I guess it #EMP was#! kind of funny..."
  relation_upgrade.0011.rival.decline.toast: "[rival.GetFirstNameNoTooltip] laughs it off"

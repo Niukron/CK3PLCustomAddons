@@ -14,8 +14,6 @@
  FACTION_SUCCESSFUL_IMPRISONMENT_RETALIATION:0 "[actor.GetTitledFirstName] has unjustly imprisoned [recipient.GetTitledFirstName], who was one of my fellow faction members."
  FACTION_IMPRISONMENT_RETALIATION_END:0 "\n\nSuch a brazen attack on the [retaliating_faction.GetName] can only been seen as an act of war, and unless we defend ourselves now we will surely be picked off one by one!"
  FACTION_IMPRISONMENT_RETALIATION_OPT:0 "To war!"
-
- # Independence Faction
  independence_faction:0 "$game_concept_independence_faction$"
  independence_faction_desc:0 "Members of the Independence [faction|E] seek independence from their [liege|E].\n\n#S Ultimatum#!\nAll Faction Members become [independent|E]\n[liege|E] loses [prestige|E]"
  independence_faction_short_effect_desc:0 "Wants Independence from their [liege|E]"
@@ -28,8 +26,6 @@
  FACTION_DEMAND_INDEPENDENCE_SEND_DEMAND_NOTIFICATION:0 "Independence!"
  FACTION_DEMAND_INDEPENDENCE_SEND_DEMAND_NOTIFICATION_DESC:0 "The moment has come! The unified voices of the [faction.GetName] agree that [faction_target.GetName] has lost any right of rule [faction_target.GetSheHe] might once have had. We shall be given our independence or take it by force!"
  faction_demand.0002.tt:0 "All Faction Members Gain Independence!"
-
- # Peasant Faction
  peasant_faction:0 "Peasant Faction"
  peasant_faction_desc:0 "The Peasant [faction|E] wants freedom for the people from foreign or infidel rule, and will strive to replace a liege who does not share the [culture|E] and [faith|E] of the commoners in the [counties|E]."
  peasant_faction_short_effect_desc:0 "Wants lower [county_control|E]"
@@ -41,8 +37,6 @@
  FACTION_DEMAND_PEASANT_REFUSE:0 "Never! A peasant's lot is to serve their lord!"
  FACTION_PEASANT_NAME:0 "Peasant Rabble"
  FACTION_PEASANT_TITLE_NAME:0 "Peasant Revolt"
-
- # Populist Faction
  populist_faction:0 "Populist Faction"
  populist_faction_desc:1 "The Populist [faction|E] wants freedom from foreign or infidel rule, and will seek independence from a liege who does not share their [culture|E] or [faith|E]."
  populist_faction_short_effect_desc:0 "Wants Independence from their [liege|E]"
@@ -56,8 +50,6 @@
  FACTION_DEMAND_POPULIST_REFUSE:0 "You want freedom? You shall have it in death!"
  FACTION_POPULIST_REVOLT_TITLE_NAME:0 "the Populist Uprising"
  FACTION_POPULIST_CREATED_TITLE_NAME:0 "[base_county.GetNameNoTierNoTooltip]"
-
- # Liberty Faction
  liberty_faction:0 "Liberty Faction"
  liberty_faction_desc:0 "The Liberty [faction|E] only seeks to lower [crown_authority|E], but members are otherwise loyal to the [realm|E]."
  liberty_faction_short_effect_desc:0 "Wants lower [crown_authority|E]"
@@ -73,8 +65,6 @@
  FACTION_DEMAND_LIBERTY_REFUSED_DESC:0 "[faction_target.Custom2('AppropriateGreetingNegative', ROOT.Char)]\n\nYour ridiculous attempt at intimidation will never succeed. I am your Liege! You miserable bunch of traitors shall learn your place on the battlefield!"
  FACTION_DEMAND_LIBERTY_SEND_DEMAND_NOTIFICATION:0 "Liberty or Death!"
  FACTION_DEMAND_LIBERTY_SEND_DEMAND_NOTIFICATION_DESC:0 "The moment has come! The lords of the [faction.GetName] agree that [faction_target.GetName] is a despot who must yield [faction_target.GetHerHis] tyrannic authority over us... at sword point, if need be."
-
- # Claimant faction
  claimant_faction:0 "Claimant Faction"
  claimant_faction_desc:0 "Members of the claimant [faction|E] supports a pretender targeting a title belonging to their [liege|E]."
  claimant_faction_short_effect_desc:0 "Wants the [ROOT.Faction.GetSpecialTitle.GetName]"
@@ -94,7 +84,6 @@
  FACTION_CLAIMANT_INVITE_ACCEPTED:1 "[faction_claimant.Custom2('AppropriateGreeting', ROOT.Char)]"
  FACTION_CLAIMANT_INVITE_ACCEPTED_DESC:0 "Finally! [faction_target.GetName] is nothing more than a jester acting a [faction_target.GetTitleAsNameNoTooltip], and I am sure the realm will rise to my cause. Those who aid me will not be forgotten."
  FACTION_CLAIMANT_INVITE_ACCEPTED_OPT:0 "It is only a matter of time..."
-
  FACTION_CLAIMANT_INVITE_REFUSED:1 "[faction_claimant.Custom2('AppropriateGreeting', ROOT.Char)]"
  FACTION_CLAIMANT_INVITE_REFUSED_ALLY_DESC:0 "My claim is just, this I know. But my alliance to [faction_target.GetTitledFirstName] prevents me from going to war. I will be with you in spirit."
  FACTION_CLAIMANT_INVITE_REFUSED_HOOK_DESC:0 "While my claim is just I... just can't join you. [faction_target.GetTitledFirstName] has this... #emphasis 'undeniable charm'#! that prevents me from ever lifting my hand against [faction_target.GetHerHim]. Yes, that's it. I wish you luck."
@@ -106,7 +95,6 @@
  FACTION_CLAIMANT_EVERY_FACTION_MEMBER:0 "Every Faction Member"
  FACTION_CLAMAINT_DYNAMIC_NAME:0 "Faction to Install [ROOT.Faction.GetSpecialCharacter.GetNameNoTooltip] on the [ROOT.Faction.GetSpecialTitle.GetAdjective] Throne"
  FACTION_POPULIST_DYNAMIC_NAME:0 "[ROOT.Var('faction_culture').Culture.GetNameNoTooltip] [ROOT.Var('faction_faith').Faith.GetAdjectiveNoTooltip] Populists"
-
  WARNING_I_HAVE_ALREADY_JOINED_A_FACTION:1 "@warning_icon!#X You have already joined a [faction|E]#!"
  WARNING_I_AM_ALREADY_AT_WAR_WITH_TARGET:1 "@warning_icon!#X You are already at war with [faction_target.GetTitledFirstName]#!"
  WARNING_I_AM_AT_WAR_WITH_FACTION_LEADER:1 "@warning_icon!#X You are at war with [faction_invite_from.GetTitledFirstName]#!"

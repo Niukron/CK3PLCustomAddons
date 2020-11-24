@@ -1,11 +1,9 @@
 ﻿l_english:
  WAR_DECLARED_OVERVIEW_DISMISS:0 "Rally the troops!"
- #WAR_DECLARED_OVERVIEW_DISMISS_TOOLTIP:1 "" delete this
+ #WAR_DECLARED_OVERVIEW_DISMISS_TOOLTIP:1 ""
  WAR_DECLARED_OVERVIEW_FLAVOR:0 "[WAR.Custom('WarDeclaredOpening')][WAR.Custom('WarDeclaredFlavor')]"
-
  war_declared_opening.neutral:0 "[ROOT.War.GetActiveCB.GetAttacker.Custom2('AppropriateGreeting',ROOT.War.GetActiveCB.GetDefender)]\n\n"
  war_declared_opening.negative:0 "[ROOT.War.GetActiveCB.GetAttacker.Custom2('AppropriateGreetingNegative',ROOT.War.GetActiveCB.GetDefender)]\n\n"
-
  war_declared_flavor.zealous:0 "Your wicked deeds have gone unpunished for far too long. That changes today, for I have come to deliver holy retribution upon you! [ROOT.War.GetActiveCB.GetAttacker.Custom('ZealousDoW')]"
  war_declared_flavor.zealous.mercifulgod:2 "[ROOT.Char.GetFaith.HighGodName] have mercy on you, for I shall grant you none!"
  war_declared_flavor.zealous.reincarnation:0 "May your next life be less wretched than this one."

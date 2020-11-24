@@ -46,8 +46,6 @@ l_english:
  concubines:0 "concubines"
  consort:0 "consort"
  consorts:0 "consorts"
-
- # Peasant Professions:
  peasant_profession_miller:0 "miller"
  peasant_profession_millers_wife:0 "miller's wife"
  peasant_profession_millers_husband:0 "miller's husband"

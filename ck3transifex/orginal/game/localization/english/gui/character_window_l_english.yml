@@ -16,8 +16,7 @@
  REGULAR_BETROTHAL:0 "[betrothal|E]"
  MATRILINEAL_BETROTHAL:0 "[matrilineal|E]"
  CONCUBINE_MARRIAGE:0 "[concubinage|E]"
-
- #HEIR:0 "" delete this
+ #HEIR:0 ""
  IMPRISONED_BY:0 "[Concept( 'jailor', 'Jailor @crime_icon!' )|E]"
  SKILLS:0 "[skills|E]"
  TRAITS:0 "[traits|E]"
@@ -39,14 +38,13 @@
  CV_CLAIMS_SINGULAR:10 "[GetDataModelSize(CharacterWindow.GetClaims)|V] [claim|E]"
  CV_CLAIMS_SHOW_TT:1 "#I Click to expand [claim|E] items#!"
  CV_CLAIMS_HIDE_TT:1 "#I Click to hide expanded [claim|E] items#!"
- SEXUALITY_TT:1 "#T Sexual Orientation: [Character.GetSexuality]#!"
+ SEXUALITY_TT:2 "#T Sexual Orientation: [Character.GetSexuality]#!\nSex: [Select_CString( Character.IsFemale, 'Female', 'Male' )]"
  HAS_STRONG_CLAIM_ON:0 "#T [TITLE.GetNameNoTooltip]#!\n@pressed_claim![pressed_claim|E]"
  HAS_WEAK_CLAIM_ON:0 "#T [TITLE.GetNameNoTooltip]#!\n@unpressed_claim![unpressed_claim|E]"
  HAS_IMPLICIT_CLAIM_ON:0 "#T [TITLE.GetNameNoTooltip]#!\n[implicit_claim|E]"
-
+ CHARACTER_TT_NAME_AGE:0 "[Character.GetUINameNotMeNoTooltip]#medium , [Character.GetAge]#!"
  COURTIERS:0 "Courtiers"
  CV_UNLANDED:0 "[unlanded|E]"
-
  CV_TAB_FAMILY:0 "Family"
  CV_TAB_RELATIONS:0 "Relationships"
  CV_TAB_COURT:0 "Court"
@@ -57,7 +55,6 @@
  CV_NO_COURT:0 "#weak Has no [court|E]#!"
  CV_NO_VASSALS:0 "#weak Has no [vassals|E]#!"
  CV_TT_INTERACT:0 "#T Interact with [Character.GetShortUINameNoTooltip]\n#!#I Can also Right-click any Portrait to interact#!"
-
  FAMILY:0 "Family"
  RELATIONS:0 "Relations"
  SECONDARY_SPOUSES:0 "Secondary Spouses"
@@ -78,7 +75,6 @@
  CV_HOOKS_HEADER:1 "Your [hooks|E]"
  CV_HOOKS_ON_CHARACTER_HEADER:1 "Your [hooks|E] on [CharacterWindow.GetCharacter.GetNameOrMe]"
  CV_TARGET_HOOKS_HEADER:1 "[CharacterWindow.GetCharacter.GetNamePossessiveOrMy|U] [hooks|E] on you"
- 
  HEALTH_INFO:0 "[health|E]: $STATE$"
  HEALTH_DYING:0 "#N Dying#!"
  HEALTH_NEAR_DEATH:0 "#N Near death#!"
@@ -104,7 +100,6 @@
  HEALTH_NEGATIVE_CAUSE:0 "#N -$CAUSE$#!"
  CV_ALLOW_MARRY_TT:0 "#T Allow Marriage#!\n#D Not implemented#!"
  CV_ALLOW_BATTLE_TT:0 "#T Allow Battle participation#!\n#D Not implemented#!"
-
  CHARACTER_WINDOW_NO_FOCUS:0 "No Focus"
  CHARACTER_WINDOW_CHOOSE_LIFESTYLE_FOCUS:0 "#I Click to choose Lifestyle#!"
  CHARACTER_WINDOW_CHOOSE_EDUCATION_FOCUS:0 "#I Click to choose Choose Education Focus#!"
@@ -116,18 +111,22 @@
  EDUCATION_FOCUS_ICON_HEADER_NO_FOCUS:0 "#T Education Focus: None#!"
  SKILL_ITEM_TOOLTIP:0 "[SkillItem.GetSkillBreakdownTooltip]\n\n#S Effects:#!\n[SkillItem.GetSkillEffects]"
  SKILL_NO_EFFECT:0 "No effects at this level"
-
- THEOCRACY_LESSEE_APPROVAL_ENDORSE:2 "#T Your [realm_priest|E] endorses you#!\n[taxes|E]: [gold_i][TARGET_CHARACTER.GetIncomeFromTheocraticLease|1+=]/month (out of possible [gold_i][TARGET_CHARACTER.GetMaxIncomeFromTheocraticLease|1+=]/month )\n[levies|E]: [soldier_i][TARGET_CHARACTER.GetLeviesFromTheocraticLease|V] (out of possible [soldier_i][TARGET_CHARACTER.GetMaxLeviesFromTheocraticLease|V] )\n\nSince [CHARACTER.GetShortUINamePossessive] [opinion|E] of you is $THRESHOLD|+=$ or greater, you gain Levies and Taxes from [CHARACTER.GetHerHis] [church_property|E]"
- THEOCRACY_LESSEE_APPROVAL_NO_ENDORSE:1 "#T Your [realm_priest|E] does #emphasis not#! endorse you#!\n#weak $NO_EFFECTS$#!\n\nSince [CHARACTER.GetShortUINamePossessive] [opinion|E] of you is $THRESHOLD|+=$ or less, you gain no Levies and Taxes from [CHARACTER.GetHerHis] [church_property|E]"
+ HOOK_FOR_MAX_OPINION_NONE:0 "no hook"
+ HOOK_FOR_MAX_OPINION_WEAK:0 "[hook|E]"
+ HOOK_FOR_MAX_OPINION_STRONG:0 "[strong_hook|E]"
+ HAS_LEASE_APPROVAL_FROM_HOOK:0 "you have a $TYPE$ on [CHARACTER.GetShortUIName]"
+ HAS_LEASE_APPROVAL_FROM_OPINION:0 "[CHARACTER.GetShortUINamePossessive] [opinion|E] of you is $THRESHOLD|+=$ or greater"
+ HAS_NO_LEASE_APPROVAL:0 "[CHARACTER.GetShortUINamePossessive] [opinion|E] of you is $THRESHOLD|+=$ or less"
+ HAS_NO_LEASE_APPROVAL_CAN_HOOK:0 "[CHARACTER.GetShortUINamePossessive] [opinion|E] of you is $THRESHOLD|+=$ or less and you do not have a $TYPE$ on [CHARACTER.GetHerHim]"
+ THEOCRACY_LESSEE_APPROVAL_ENDORSE:3 "#T Your [realm_priest|E] endorses you#!\n[taxes|E]: [gold_i][TARGET_CHARACTER.GetIncomeFromTheocraticLease|1+=]/month (out of possible [gold_i][TARGET_CHARACTER.GetMaxIncomeFromTheocraticLease|1+=]/month )\n[levies|E]: [soldier_i][TARGET_CHARACTER.GetLeviesFromTheocraticLease|V] (out of possible [soldier_i][TARGET_CHARACTER.GetMaxLeviesFromTheocraticLease|V] )\n\nSince $REASON$, you gain Levies and Taxes from [CHARACTER.GetHerHis] [church_property|E]"
+ THEOCRACY_LESSEE_APPROVAL_NO_ENDORSE:2 "#T Your [realm_priest|E] does #emphasis not#! endorse you#!\n#weak $NO_EFFECTS$#!\n\nSince $REASON$, you gain no Levies and Taxes from [CHARACTER.GetHerHis] [church_property|E]"
  THEOCRACY_LESSEE_BENEFITS_NO_ENDORSE_THRESHOLD:0 "I receive the following from titles leased to [CHARACTER.GetShortUINameNoTooltip]:\n[taxes|E]: [gold_i][TARGET_CHARACTER.GetIncomeFromTheocraticLease|1+=]/month\n[levies|E]: [soldier_i][TARGET_CHARACTER.GetLeviesFromTheocraticLease|V]"
  CV_THEOCRACY_LESSEE_TOOLTIP:0 "#T [church_property|E]#!\n[Character.GetNumTitlesFromTheocraticLease] Temples\n\n[taxes|E]: [gold_i][Character.GetIncomeFromTheocraticLease|1+=]/month\n[Character.GetIncomeBreakdownFromTheocraticLease]\n\n[levies|E]: [soldier_i][Character.GetLeviesFromTheocraticLease|V]\n[Character.GetLeviesBreakdownFromTheocraticLease]"
  CV_THEOCRACY_RELIGIOUS_HEAD_TOOLTIP:0 "#T $RELIGIOUS_HEAD$#!\n\n[taxes|E]: [gold_i][Character.GetIncomeAsReligiousHead|1+=]/month\n[Character.GetIncomeBreakdownAsReligiousHead]"
  THEOCRATIC_LEASE_BREAKDOWN_TO_OTHER:0 "To [CHARACTER.GetUIName]"
  THEOCRATIC_LEASE_BREAKDOWN_NOT_ENDORSED:0 "@warning_icon!#X [CHARACTER.GetShortUINameNoTooltip] does not endorse [TARGET_CHARACTER.GetShortUIName]#!"
-
  CLAIM_TITLE_HOLDER:0 "Current holder: [Claim.GetTitle.GetHolder.GetUIName]"
  CLAIM_TITLE_NOT_CREATED:0 "Title not yet created"
-
  CV_TOOLTIP_ME_BUTTON:1 "#T Go to player character#!"
  CV_TT_BASTARD:2 "#T Bastard\n#![Character.Custom('GetBastardTraitDesc')]"
  CV_TT_BASTARD_HIGHBORN:0 "[ROOT.Char.LocalPlayerString( 'You are', 'THIRD_IS' )] a [bastard|E], and thus not a legitimate member of House [ROOT.Char.GetHouse.GetBaseName]"
@@ -138,7 +137,6 @@
  TT_HOUSE_HEAD_DESC:0 "[CHARACTER.LocalPlayerString( 'You are', 'THIRD_IS' )] the [house_head|E] of House [CHARACTER.GetHouse.GetBaseName]"
  TT_DYNAST_DESC:0 "[CHARACTER.LocalPlayerString( 'You are', 'THIRD_IS' )] the [dynast|E] of Dynasty [CHARACTER.GetHouse.GetDynasty.GetName], in addition to being the [house_head|E] of House [CHARACTER.GetHouse.GetBaseName]"
  THIRD_IS:0 "[CHARACTER.GetUIName] is"
-
  CV_COURTIER_WANTS_TO_LEAVE_COURT:1 "[CHARACTER.GetShortUINameNoTooltip] might leave [TARGET_CHARACTER.GetShortUINamePossessive] [court|E]. [CHARACTER.GetSheHe|U] will stay if given a reason, such as employment as a $knight_culture_player$ or a [councillor|E]."
  CV_COURTIER_WILL_LEAVE_COURT:1 "[CHARACTER.GetShortUINameNoTooltip] will leave [TARGET_CHARACTER.GetShortUINamePossessive] [court|E] soon. [CHARACTER.GetSheHe|U] will only stay if given a reason, such as employment as a $knight_culture_player$ or a [councillor|E]."
  CHARACTER_WINDOW_CLAIM_TOOLTIP:1 "[Claim.GetTooltip]\n$COA_TOOLTIP_CLICK_INFO_GUI$"
@@ -155,13 +153,10 @@
  CHARACTER_WINDOW_GOTO_FIND_SPOUSE:0 "#T Next: Find [spouse|E]#!"
  CHARACTER_WINDOW_GOTO_NEXT_SPOUSE:0 "#T Next: [CHARACTER.GetUIName]#!"
  CHARACTER_WINDOW_GOTO_PREVIOUS_SPOUSE:0 "#T Previous: [CHARACTER.GetUIName]#!"
- 
  CV_CUSTOMIZE_PORTRAIT:0 "#I Click to open Barbershop#!"
-
  CV_CHILDREN_HEADING:0 "Children #weak ([GetDataModelSize(CharacterWindow.GetChildren)])#!"
  CV_SIBLINGS_HEADING:0 "Siblings #weak ([GetDataModelSize(CharacterWindow.GetSiblings)])#!"
  AI_PERSONALITY_TT:0 "#T Personality: [Character.GetAIPersonality]#!\n[Character.GetShortUINameNoTooltip] will act against you and others according to [Character.GetHerHis] Personality, which is primarily determined by [Character.GetHerHis] Personality [traits|E]"
  CHARACTER_RELATION_COMBINE:0 "$FIRST$ • $SECOND$"
-
  FAITH_CHARACTER_WINDOW:0 "[Faith.GetAdjectiveNoTooltip]"
  CULTURE_CHARACTER_WINDOW:0 "[Culture.GetNameNoTooltip]"

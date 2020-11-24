@@ -44,8 +44,6 @@
  fervor.1002.b:0 "Condemn [sinful_theocrat.GetHerHim] for [sinful_theocrat.GetHerHis] transgressions!"
  fervor.1002.c:0 "Defend [sinful_theocrat.GetHerHis] character publicly, even at risk to myself!"
  fervor.1002.d:0 "Maybe I should just stay silent about this..."
-
- #Exaltation Event Localization
  fervor.2002.t:0 "[ROOT.Char.GetFaith.GetAdjectiveNoTooltip] Exaltation"
  fervor.2002.desc.lustful:0 "[virtuous_theocrat.Custom('GetCouncilOrTitleName')] [virtuous_theocrat.GetFirstName] has become an inspiration for countless virtuous [virtuous_theocrat.GetWomenMen] and the object of desire for many more young [virtuous_theocrat.GetFaith.GetAdherentNamePlural]. \n\nTales of [virtuous_theocrat.GetHerHis] amorous conquests have traveled far and wide, leading many to consider [virtuous_theocrat.GetHerHim] a paragon of [ROOT.Char.GetFaith.FertilityGodNamePossessive] infinite love."
  fervor.2002.desc.chaste:0 "[virtuous_theocrat.Custom('GetCouncilOrTitleName')] [virtuous_theocrat.GetFirstName] has gained a spotless reputation for [virtuous_theocrat.GetHerHis] absolute rejection of any carnal pleasure.\n\n[virtuous_theocrat.GetHerHis|U] unwavering discipline has served as an example to follow for many young [virtuous_theocrat.GetFaith.GetAdherentNamePlural] trying to resist the debasing lure of lechery."

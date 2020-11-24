@@ -76,7 +76,7 @@
  hunt.4002.desc: "The noise from the others have faded away by the time [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('secret_sharer'))] [secret_sharer.GetTitledFirstName] and I stalk up on the [ROOT.Char.Custom('LocalAnimal')].\n\nWe are almost within striking distance when [secret_sharer.GetFirstNameNoTooltip] whispers to me. \"Now that we are finally by ourselves, there is something I have to let you know about [secret_owner.GetTitledFirstName]...\""
  hunt.4002.a: "No time for chit-chat, I'm getting that [ROOT.Char.Custom('LocalAnimal')]!"
  hunt.4002.b: "What? Tell me more..."
- hunt.4002.b.tt: "The [THIS.Char.Custom('LocalAnimal')] gets away."
+ hunt.4002.b.tt: "The [ROOT.Char.Custom('LocalAnimal')] gets away."
  hunt.4002.b.reveal: "I learn [secret_owner.GetFirstNamePossessiveNoTooltip] secret"
  hunt.4003.t: "$hunt_header$ Illegal Prey"
  hunt.4003.desc: "Poachers, here in the [land_owner.GetTitleTierName]'s woods? They huddle together as I ride up with my guards, making a poor job of hiding the dead [ROOT.Char.Custom('LocalAnimal')] behind them.\n\n\"We did not do this, your mercy.\" Their blades and bows belie their words."

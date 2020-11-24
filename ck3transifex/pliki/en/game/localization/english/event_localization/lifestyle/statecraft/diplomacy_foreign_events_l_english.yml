@@ -65,7 +65,7 @@
  diplomacy_foreign_special.1018.a.tt: "[foreign_guest.GetTitledFirstName] will arrive shortly"
  diplomacy_foreign_special.1019.t: "$diplomacy_foreign_special.1017.t$: A Warm Welcome"
  diplomacy_foreign_special.1019.start.desc: "The [foreign_guest.Custom('ComplimentAdjective')] [foreign_guest.GetTitledFirstName] is finally here! Tonight, we will have a feast to welcome our foreign guests.\n\n"
- diplomacy_foreign_special.1019.spouse.desc: "My [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('helper_spouse') )] [helper_spouse.GetFirstName] has been hard at work with the all the planning and preparations. [helper_spouse.GetSheHe|U] has asked me if I have any suggestions for the final touches."
+ diplomacy_foreign_special.1019.spouse.desc: "My [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('helper_spouse') )] [helper_spouse.GetFirstName] has been hard at work with all the planning and preparations. [helper_spouse.GetSheHe|U] has asked me if I have any suggestions for the final touches."
  diplomacy_foreign_special.1019.no_spouse.desc: "I have been hard at work with all the planning and preparations. Everything is almost ready and I have some time to add a final touch."
  diplomacy_foreign_special.1019.a: "I know about a few specialties from [foreign_guest_realm.GetNameNoTierNoTooltip]."
  diplomacy_foreign_special.1019.a.success.tt: "[foreign_guest.GetTitledFirstNameNoTooltip] feels right at home"

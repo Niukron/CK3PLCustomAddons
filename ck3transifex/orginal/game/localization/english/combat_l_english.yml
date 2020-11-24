@@ -14,23 +14,20 @@
  ATTACKER:0 "Attacker"
  DEFENDER:0 "Defender"
  ARMY:0 "Army"
- #ATTACKER_LEADER:0 "" Delete this
- #DEFENDER_LEADER:0 "" Delete this
+ #ATTACKER_LEADER:0 ""
+ #DEFENDER_LEADER:0 ""
  COMBAT_MODIFIER_HEADER:0 "$TYPE$: $VALUE|2+=%$"
  END_OF_COMBAT:0 "[battle|E] has ended"
  DEPLOYED:0 "Deployed: "
  DIED:0 "Died: "
- # Maneuver Combat Actions
  default_maneuver:0 "Battle Formations"
  ford_river:0 "Fording River"
  take_high_ground:0 "Taking High Ground"
  sleeping_camp:0 "Sleeping in Camp"
  rousing_speech:0 "Rousing Speech"
- # Skirmish Combat Actions
  default_skirmish:0 "Skirmish"
  cover:0 "Take Cover"
  extended_skirmish:0 "Extended Skirmish"
- # Melee Combat Actions
  default_melee:0 "Melee"
  desperate_stand:0 "Desperate Stand"
  lead_the_charge:0 "Lead the Charge"
@@ -40,14 +37,12 @@
  character_duel_response:0 "Duel Response"
  feigned_retreat:0 "Feigned Retreat"
  feigned_retreat_response:0 "Vulnerable Push"
- # Maneuver Combat Actions
  default_retreat:0 "Retreat"
  default_pursuit:0 "Pursuit"
  overextension:0 "Overextension"
  frenzied_pursuit:0 "Frenzied Pursuit"
  sacrificial_countercharge:0 "Sacrificial Countercharge"
  looting:0 "Looting Enemy Camp"
- # General Combat Actions
  frightened:0 "Frightened"
  COMBAT_PHASE_TOOLTIP:0 "[CombatWindow.GetPhaseTooltip]\n\n[CombatWindow.GetCombat.PhaseFrozenInfo]"
  COMBAT_EFFECT_DESCRIPTION:0 "[advantage|E] effect: $ADVANTAGE|0=+$\n"
@@ -78,7 +73,6 @@
  COMBAT_NO_RETREAT_TOO_EARLY:2 "Ordered retreat will be possible in the Late Battle Phase (in $DAYS|V$ days)"
  COMBAT_NO_RETREAT_PURSUIT:0 "@warning_icon! Can not retreat in pursuit phase"
  COMBAT_NO_RETREAT_LANDLESS:0 "@warning_icon! Can not retreat as landless commander"
- # New combat
  combat_phase_maneuver:0 "Maneuver"
  combat_phase_main:0 "Main"
  combat_phase_pursuit:0 "Pursuit"
@@ -86,7 +80,7 @@
  tooltip_combat_phase_main:1 "#T Current [combat_phase|E]: [main_phase|E]#!"
  tooltip_combat_phase_pursuit:1 "#T Current [combat_phase|E]: [aftermath|E]#!"
  COMBAT_WIDTH_BREAKDOWN_HEADER:0 "[combat_width|E]: $VALUE|V$"
- MEN_AT_ARMS_DESC:0 "$REGIMENT_TYPE|V$: $VALUE|0$"
+ MEN_AT_ARMS_DESC:1 "$MEN_AT_ARMS_TYPE|V$: $VALUE|0$"
  COUNTERED:0 "countered"
  PURSUING:0 "Pursuing"
  RETREATING:0 "Retreating"

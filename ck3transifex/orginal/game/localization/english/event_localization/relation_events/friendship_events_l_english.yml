@@ -6,11 +6,9 @@
  friendship.0001.a:0 "It is the way of things."
  friendship.0001.b:1 "But... Remember all the good times!"
  friendship.0001.b.tt:0 "[friend_in_question.GetSheHe|U] will give our relationship another chance"
-
  friendship.0002.t:0 "Drifting Apart"
  friendship.0002.desc:0 "Times and people change. Sometimes those who are the closest to us seem to become strangers.\n\nIt is clear that [first_friend.GetTitledFirstName] and I can no longer be called friends."
  friendship.0002.a:0 "It is the way of things."
-
  friendship.0003.t:0 "Something More"
  friendship.0003.desc:0 "[friend_as_potential_lover.GetTitledFirstName] is so important to me. I find myself thinking a lot about [friend_as_potential_lover.GetHerHim], and sometimes I almost cannot bear the distance between us.\n\nIs this a measure of the depth of our friendship, or something more?"
  friendship.0003.a:0 "I should write [friend_as_potential_lover.GetHerHim], [friend_as_potential_lover.GetSheHe] always advises well."
@@ -34,7 +32,6 @@
  friendship.0009.t:0 "What Could Have Been"
  friendship.0009.desc:0 "After [friend_as_potential_lover.GetHerHis] passing, I have spent many late evenings to myself, thinking of [friend_as_potential_lover.GetFirstName]. Loyal, friendly and warm to the end, I cannot help but think of what might have been, had [friend_as_potential_lover.GetSheHe] not been taken from me too soon."
  friendship.0009.a:0 "Rest in peace, my dear [friend_as_potential_lover.GetFirstName]"
- 
  friendship.0010.t:0 "Drifting Apart"
  friendship.0010.desc:0 "I never expected that confounded look on [best_friend.GetTitledFirstNamePossessive] face when I told [best_friend.GetHerHim] about my dreams. I thought [best_friend.GetSheHe] would always understand me, always have my back.\n\nYet, sometimes when we meet, I feel as if I am talking to a stranger."
  friendship.0010.a:0 "We must work on this, rebuild our friendship!"
@@ -43,19 +40,15 @@
  friendship.0010.a.failure:0 "My efforts are for naught"
  friendship.0010.a.success.message:0 "[best_friend.GetTitledFirstName] and I remain the best of friends."
  friendship.0010.a.failure.message:0 "I failed to repair my relationship with [best_friend.GetTitledFirstName]."
-
  friendship.0011.t:0 "Drifting Apart"
  friendship.0011.desc:0 "The end is slow and undramatic, but as inevitable as the passing of time. Once, I thought [other_best_friend.GetTitledFirstName] would be my closest friend forever, but today [other_best_friend.GetHerHis] strained apology comes as no surprise."
  friendship.0011.a:0 "We had some good times, but it is time to let go."
-
  friendship.0014.t:0 "A Betrayal"
  friendship.0014.desc:0 "After everything we have been through together, I still cannot believe [friend_to_rival.GetTitledFirstName] would do the things [friend_to_rival.GetSheHe] has done.\nIt is a betrayal of every friendly gesture we have shared. Indeed, a betrayal of our very friendship! We once shared bread, but now [friend_to_rival.GetSheHe] has made an enemy for life."
  friendship.0014.a:0 "[friend_to_rival.GetFirstName] will pay!"
-
  friendship.0015.opening:0 "[original_friend.Custom2('AppropriateGreeting', ROOT.Char)]"
  friendship.0015.desc:0 "I denounce the friendship you have so carelessly made a mockery of!\nFor all your promises and gestures to resolve in dishonor... Knowing you as I do now, I should not have been surprised.\n\nYou have brought this suffering upon yourself."
  friendship.0015.a:0 "You are the fool here, [original_friend.GetFirstName]."
-
  friendship.0018.t:0 "More Friends Than Time"
  friendship.0018.desc:0 "A [ROOT.GetCharacter.Custom('friendship_metaphor_with_tending')].\nWith so many friends spread to the winds, I barely have time to keep in touch by letter, much less give them the attention they deserve.\nPerhaps it would be easier for me if I were to let someone... drift away."
  friendship.0018.a:0 ""I am sorry to be writing with unfortunate news, [friend_1.GetTitledFirstName]...""
@@ -67,7 +60,6 @@
  friendship.0019.desc:0 "I have been awaiting [first_friend.GetTitledFirstNamePossessive] latest letter for a long time, but nothing has arrived. I have sent missives of my own, to no response.\nThe inevitable conclusion seems to be that [first_friend.GetSheHe] no longer considers me a friend worthy of the time and attention."
  friendship.0019.a_1:0 "I am one of the few who would have answered in your time of need, [first_friend.GetFirstName]."
  friendship.0019.a_2:0 "I haven't been the best of friend either, [first_friend.GetFirstName]."
- 
  friendship.1002.opening:0 "[sender.Custom2('AppropriateGreeting', ROOT.Char)]"
  friendship.1002.desc:0 "I present to you this gift as a gesture of appreciation for our lasting friendship."
  friendship.1002.a:0 "May our friendship blossom forever!"
@@ -78,11 +70,9 @@
  impromptu_venison_feast_modifier:0 "Impromptu Venison Feast"
  friendship.1004.desc:1 "As a gesture of appreciation for our lasting friendship, I would like to share something that you might find interesting.\n\nDo with this information as you please."
  friendship.1004.a:0 "How generous!"
- 
  friendship.1006.t:0 "Support"
  friendship.1006.desc:1 "Concerned for my current war, my friend [friend.GetTitledFirstName] has paid out of [friend.GetHerHis] own treasury to aid my efforts!"
  friendship.1006.a:0 "I couldn't be more thankful."
- 
  friendship.1007.t:0 "Treachery and Deviousness"
  friendship.1007.desc:0 "Incapable of dealing with [friend_at_war.GetHerHis] war on [friend_at_war.GetHerHis] own, [friend_at_war.GetTitledFirstName] has received aid by way of a large payment of gold from [friend_providing_gift.GetTitledFirstName]!"
  friendship.1007.a:0 "Dishonorable!"
@@ -98,7 +88,6 @@
  friendship.1009.a:0 "Welcome to my service, [courtier_on_offer.GetFirstName]!"
  friendship.1009.b:0 "You cannot be that good if [first_friend.GetTitledFirstName] can so easily spare you."
  friendship.1009.rejection_tooltip:0 "[courtier_on_offer.GetTitledFirstName] is sent back."
- 
  friendship.2001.t:0 "The Need to Tell"
  friendship.2001.desc:0 "My secrets are uncomfortable burdens I can never put down, but if I just shared them with someone they might be lighter to carry.\n\nI feel certain that [friend_receiving_confession.GetTitledFirstName] would understand me."
  friendship.2001.a:0 "Come closer, [friend_receiving_confession.GetFirstName], I have something to confess."
@@ -119,7 +108,6 @@
  friendship.2006.t:0 "A Secret Shared"
  friendship.2006.desc:0 "I was worried even [friend_receiving_confession.GetTitledFirstName] would not understand me when I shared my secret, but [friend_receiving_confession.GetSheHe] understood better than I could ever have imagined.\n\n"I know all to well how you feel, [ROOT.GetCharacter.GetFirstName]. Exactly how, actually...""
  friendship.2006.a:0 "I cannot believe how much we have in common, my [ROOT.GetCharacter.Custom2('RelationToMe', SCOPE.sC('friend_receiving_confession'))]."
- 
  friendship.2007.t:0 "A Kind Word"
  friendship.2007.desc:0 "My paths happen to have crossed with [talking_target.GetTitledFirstName], and to my surprise it seems as though [talking_target.GetSheHe] does not have a great impression of my friend, [friend_interceded_for.GetTitledFirstName]!\n\nPerhaps I should take this opportunity to change [talking_target.GetHerHis] mind."
  friendship.2007.a:0 "Let me tell you a story about [friend_interceded_for.GetFirstName]..."
@@ -127,23 +115,18 @@
  friendship.2007.utter_failure_tt:0 "I disastrously harm [friend_interceded_for.GetFirstNamePossessive] reputation"
  friendship.2007.failure_tt:0 "I make things even worse for [friend_interceded_for.GetFirstName]"
  friendship.2007.success_tt:0 "I improve [talking_target.GetFirstNamePossessive] opinion of [friend_interceded_for.GetFirstName]"
- 
  friendship.2009.t:0 "An Embarrassment"
  friendship.2009.desc:0 "Oh no. I do not know what happened, but the more I told [talking_target.GetTitledFirstName] about [friend_interceded_for.GetFirstName], the more [talking_target.GetHerHis] expression seemed to sour.\n\nIt has worsened things for [friend_interceded_for.GetFirstName] so much that [friend_interceded_for.GetSheHe] is wondering what I could possibly have said to [talking_target.GetFirstNameNoTooltip]!"
  friendship.2009.a:0 "I am so sorry, [friend_interceded_for.GetFirstName]."
- 
  friendship.2010.t:0 "An Embarrassment"
  friendship.2010.desc:0 "While spending some time with [talking_target.GetHerHim], my friend, [friend_doing_interceding.GetTitledFirstName], discovered that [talking_target.GetTitledFirstName] and I have a... tense relationship.\n\nHowever, while attempting to convince [talking_target.GetFirstName] of my virtues, [friend_doing_interceding.GetSheHe] seems to have made things far worse!"
  friendship.2010.a:0 "Oh no. [friend_doing_interceding.GetFirstNameNoTooltip]!"
- 
  friendship.2012.t:0 "Much Effort for Little Gain"
  friendship.2012.desc:0 "I tried to paint [friend_interceded_for.GetTitledFirstName] in the best possible light, but [talking_target.GetTitledFirstName] just glanced away whenever I mentioned [friend_interceded_for.GetHerHis] name.\n\nI suspect [talking_target.GetSheHe] was not very impressed."
  friendship.2012.a:0 "But [friend_interceded_for.GetFirstNameNoTooltip] is so great!"
- 
  friendship.2013.t:0 "A Reconsideration of Relations"
  friendship.2013.desc:0 "While spending an evening in the company of [friend_doing_interceding.GetTitledFirstName], [friend_doing_interceding.GetSheHe] shared several stories about [friend_interceded_for.GetTitledFirstName]. After hearing about [friend_interceded_for.GetHerHis] deeds for hours, I have to admit that I seem to have been a unfair in my judgement of [friend_interceded_for.GetHerHim]."
  friendship.2013.a:0 "[friend_interceded_for.GetFirstNameNoTooltip] might not be so bad."
- 
  friendship.2014.t:0 "Commendations"
  friendship.2014.desc:0 "While spending some time with [talking_target.GetHerHim], my friend, [friend_doing_interceding.GetTitledFirstName], discovered that [talking_target.GetTitledFirstName] and I have a... tense relationship.\n\n[friend_doing_interceding.GetFirstName] did not let that stand, however, and somehow convinced [talking_target.GetFirstName] that I am not as bad as [talking_target.GetSheHe] thinks!"
  friendship.2014.a:0 "I owe my friend great thanks!"

@@ -18,7 +18,6 @@
  false_conversion.0031.desc:0 "My liege, [ROOT.Char.GetLiege.GetTitledFirstName], has issued a general notice throughout [ROOT.Char.GetLiege.GetPrimaryTitle.GetNameNoTier] that they wish all to worship the divine openly, regardless of the nature of their faith. [ROOT.Char.GetLiege.GetSheHe|U] is offering amnesty to those who practice their religions in secret."
  false_conversion.0031.a:0 "At last, we emerge from the shadows!"
  false_conversion.0031.b:0 "We've heard lies of tolerance before..."
-
  event_false_convert_my_vassal.t:0 "Vassal Revealed Crypto-Faith"
  event_false_convert_my_liege.t:0 "Liege Revealed Crypto-Faith"
  event_false_convert_interface.desc:0 "[ROOT.Char.GetShortUIName] has renounced [ROOT.Char.GetHerHis] public faith for [ROOT.Char.GetFaith.GetName], revealing [ROOT.Char.GetHerHim]self as a crypto-religionist."
@@ -26,7 +25,6 @@
  event_false_converts_plus_counties.desc:0 "[ROOT.Var('num_false_converts_vassal').GetValue|V0] of my landed vassals recanted their public faith.\n\n[ROOT.Var('num_false_converts_landless').GetValue|V0] unlanded characters in my court recanted their public faith.\n\n[ROOT.Var('num_false_converts_counties').GetValue|V0] of my counties contained extensive crypto-religionist communities that have made their hidden faith public."
  event_false_converts_without_counties.desc:0 "[ROOT.Var('num_false_converts_vassal').GetValue|V0] of my landed vassals recanted their public faith.\n\n[ROOT.Var('num_false_converts_landless').GetValue|V0] unlanded characters in my court recanted their public faith."
  event_false_converts_counties_only.desc:0 "[ROOT.Var('num_false_converts_counties').GetValue|V0] counties in my realm contained extensive crypto-[ROOT.Char.GetFaith.GetAdherentNameNoTooltip] communities, and many of these have declared their faith alongside mine."
-
  false_convert_modifier:0 "Suspected False Converts"
  false_convert_modifier_desc:0 "Many communities in this county are thought to still practice their old faith in secret."
  relieved_cryptos_modifier:0 "Relieved Crypto-Religionists"

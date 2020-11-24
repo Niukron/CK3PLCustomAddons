@@ -11,11 +11,9 @@
  interaction_category_house_head:0 "House Head"
  interaction_category_prison:0 "Prison"
  interaction_category_uncategorized:0 "Uncategorized #D (DEBUG)#!"
-
  INTERACTION_SENDER:0 "Sender"
  INTERACTION_RECIPIENT:0 "Recipient"
  INTERACTION_SPOUSE:0 "Spouse"
  INTERACTION_CONCUBINE:0 "Concubine"
-
  INTERACTION_SHOW_ACCEPT_EFFECTS:0 "On Accept"
  INTERACTION_SHOW_DECLINE_EFFECTS:0 "On Decline"

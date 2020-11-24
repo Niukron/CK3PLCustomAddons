@@ -22,13 +22,11 @@
  dog_gender_he:0 "he"
  dog_gender_female:0 "female"
  dog_gender_male:0 "male"
-
  fur_color_brown:0 "brown"
  fur_color_gray:0 "gray"
  fur_color_orange:0 "orange"
  fur_color_black:0 "black"
  fur_color_white:0 "white"
- 
  cat_name:1 "[ROOT.Char.GetLocalizedText( 'story_cycle_cat_name' )]"
  cat_name_possessive:1 "[ROOT.Char.Custom( 'CatStoryName' )]'s"
  cat_name_gyb:0 "Gyb"
@@ -40,7 +38,6 @@
  cat_name_snow:0 "Snow"
  cat_name_shadow:0 "Shadow"
  cat_name_paws:0 "Paws"
-
  dog_name:1 "[ROOT.Char.GetLocalizedText( 'story_cycle_dog_name' )]"
  dog_name_possessive:2 "[ROOT.Char.Custom( 'DogStoryName' )]'s"
  dog_name_amiable:0 "Amiable"

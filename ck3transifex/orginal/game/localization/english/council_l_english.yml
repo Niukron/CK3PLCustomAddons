@@ -24,16 +24,14 @@
  COUNCILLOR_TASK_ALREADY_IN_PROCESS:0 "The task is already being executed"
  COUNCILLOR_TIMEOUT_FIRE:1 "@warning_icon!#X The [councillor|E] can not be fired until [DATE.GetString]#!"
  COUNCILLOR_TIMEOUT_REASSIGN:0 "@warning_icon!#X The [councillor|E] can not be reassigned until [DATE.GetString]#!"
- COUNCILLOR_ALREADY_CHANGED:0 "@warning_icon!#X The [councillor|E] has been already fired or assigned once#!"
+ COUNCILLOR_ALREADY_CHANGED:1 "@warning_icon!#X The [councillor|E] has already been fired or assigned once#!"
  COUNCILLOR_CAN_CHANGE_ONCE:0 "@warning_icon!#X Once appointed as [COUNCIL_POSITION_TYPE.GetName|V], [CHARACTER.GetShortUIName] cannot be fired or assigned another position#!"
  COUNCILLOR_CLICK_TO_HIRE:1 "Click to appoint a [ActiveCouncilTask.GetPositionName|E]"
  COUNCILLOR_BLANK_LIEGE:0 "Your [liege|E] has no [ActiveCouncilTask.GetPositionName|E]"
  COUNCILLOR_MISSING_SPOUSE:0 "You have no [available_spouse|E]"
  COUNCILLOR_LIEGE_MISSING_SPOUSE:1 "[CouncilWindow.GetCharacter.GetFirstName] has no [available_spouse|E]"
  COUNCILLOR_WILL_BE_ASSIGNED:0 "The [councillor|E] is about to be assigned"
-
  learn_on_the_job_modifier:0 "$learn_on_the_job_perk_name$"
-
  councillor_coregent:0 "Coregent"
  councillor_coregent_possessive:0 "Coregent's"
  councillor_chancellor:0 "Chancellor"
@@ -46,10 +44,6 @@
  councillor_spymaster_possessive:0 "Spymaster's"
  councillor_court_chaplain:0 "Court Chaplain"
  councillor_court_chaplain_possessive:0 "Court Chaplain's"
-
-#Flavor localization for Court Chaplains, sorted by Religion.
-
-#Fallback
  councillor_court_chaplain_theocrat_county:1 "Suffragan Bishop"
  councillor_court_chaplain_theocrat_county_possessive:1 "Suffragan Bishop's"
  councillor_court_chaplain_theocrat_duchy:1 "Bishop"
@@ -60,8 +54,6 @@
  councillor_court_chaplain_theocrat_empire_female:0 "Matriarch"
  councillor_court_chaplain_theocrat_empire_possessive:0 "Patriarch's"
  councillor_court_chaplain_theocrat_empire_female_possessive:0 "Matriarch's"
-
-#Christian
  councillor_court_chaplain_christian_county:1 "Suffragan Bishop"
  councillor_court_chaplain_christian_county_possessive:1 "Suffragan Bishop's"
  councillor_court_chaplain_christian_duchy:1 "Bishop"
@@ -72,8 +64,6 @@
  councillor_court_chaplain_christian_empire_female:0 "Matriarch"
  councillor_court_chaplain_christian_empire_possessive:0 "Patriarch's"
  councillor_court_chaplain_christian_empire_female_possessive:0 "Matriarch's"
-
- #Orthodox
  councillor_court_chaplain_orthodox_county:1 "Suffragan Bishop"
  councillor_court_chaplain_orthodox_county_possessive:1 "Suffragan Bishop's"
  councillor_court_chaplain_orthodox_duchy:1 "Bishop"
@@ -86,8 +76,6 @@
  councillor_court_chaplain_orthodox_empire_female:0 "Matriarch"
  councillor_court_chaplain_orthodox_empire_possessive:0 "Patriarch's"
  councillor_court_chaplain_orthodox_empire_female_possessive:0 "Matriarch's"
-
-#Islam
  councillor_court_chaplain_islam_county:0 "Court Imam"
  councillor_court_chaplain_islam_county_possessive:0 "Court Imam's"
  councillor_court_chaplain_islam_duchy:0 "Mufti"
@@ -96,16 +84,12 @@
  councillor_court_chaplain_islam_kingdom_possessive:0 "Allamah's"
  councillor_court_chaplain_islam_empire:0 "Grand Allamah"
  councillor_court_chaplain_islam_empire_possessive:0 "Grand Allamah's"
-
-#Shia
  councillor_court_chaplain_ismaili_county:0 "Qadi"
  councillor_court_chaplain_ismaili_county_possessive:0 "Qadi's"
  councillor_court_chaplain_ismaili_kingdom:0 "Ayatollah"
  councillor_court_chaplain_ismaili_kingdom_possessive:0 "Ayatollah's"
  councillor_court_chaplain_ismaili_empire:0 "Grand Ayatollah"
  councillor_court_chaplain_ismaili_empire_possessive:0 "Grand Ayatollah's"
-
-# Yazidi 
  councillor_court_chaplain_yazidi_county:0 "Peshimam"
  councillor_court_chaplain_yazidi_county_possessive:0 "Peshimam's"
  councillor_court_chaplain_yazidi_duchy:0 "Pîr"
@@ -114,12 +98,8 @@
  councillor_court_chaplain_yazidi_kingdom_possessive:0 "Sheikh's"
  councillor_court_chaplain_yazidi_empire:0 "Baba Sheikh"
  councillor_court_chaplain_yazidi_empire_possessive:0 "Baba Sheikh's"
-
-# Bon (Upadhyaya/Upadhyayani) (Purohit) (Banchenpo)
  councillor_court_chaplain_bon_religion_kingdom:0 "Banchenpo"
  councillor_court_chaplain_bon_religion_kingdom_possessive:0 "Banchenpo's"
-
-# Buddhism/Hinduism/Jainism (Upadhyaya/Upadhyayani) (Purohit) (Rajpurohit) (Marajpurohit)
  councillor_court_chaplain_buddhism_religion_county:0 "Upadhyaya"
  councillor_court_chaplain_buddhism_religion_county_female:0 "Upadhyayani"
  councillor_court_chaplain_buddhism_religion_county_possessive:0 "Upadhyaya's"
@@ -130,14 +110,10 @@
  councillor_court_chaplain_buddhism_religion_kingdom_possessive:0 "Rajpurohit's"
  councillor_court_chaplain_buddhism_religion_empire:0 "Marajpurohit"
  councillor_court_chaplain_buddhism_religion_empire_possessive:0 "Marajpurohit's"
-
-# Dualism (Didaskalos) (Ecclesiarch) (Patriarch/Matriarch)
  councillor_court_chaplain_dualism_religion_county:0 "Didaskalos"
  councillor_court_chaplain_dualism_religion_county_female:0 "Didaskalos"
  councillor_court_chaplain_dualism_religion_county_possessive:0 "Didaskalos'"
  councillor_court_chaplain_dualism_religion_county_female_possessive:0 "Didaskalos'"
-
-# Germanic (Godi) (Hofgodi) (Riksgodi) (Kjarrgodi)
  councillor_court_chaplain_germanic_religion_county:0 "Godi"
  councillor_court_chaplain_germanic_religion_county_female:0 "Gydja"
  councillor_court_chaplain_germanic_religion_county_possessive:0 "Godi's"
@@ -148,8 +124,6 @@
  councillor_court_chaplain_germanic_religion_kingdom_possessive:0 "Riksgoði's"
  councillor_court_chaplain_germanic_religion_empire:0 "Kjárrgoði"
  councillor_court_chaplain_germanic_religion_empire_possessive:0 "Kjárrgoði's"
-
-# Hellenism (Augur/Seeress) (Flamen/Vestal) (Pontifex) (Oracle/Sybil)
  councillor_court_chaplain_hellenism_religion_county:0 "Flamen"
  councillor_court_chaplain_hellenism_religion_county_female:0 "Vestal"
  councillor_court_chaplain_hellenism_religion_county_possessive:0 "Flamen's"
@@ -160,8 +134,6 @@
  councillor_court_chaplain_hellenism_religion_kingdom_female:0 "Sybil"
  councillor_court_chaplain_hellenism_religion_kingdom_possessive:0 "Oracle's"
  councillor_court_chaplain_hellenism_religion_kingdom_female_possessive:0 "Sybil's"
-
-# Judaism (Court Rabbi) (Kohen) (Rabban) (Nasi) (Gadol)
  councillor_court_chaplain_judaism_religion_county:0 "Kohen"
  councillor_court_chaplain_judaism_religion_county_possessive:0 "Kohen's"
  councillor_court_chaplain_judaism_religion_duchy:0 "Rabban"
@@ -170,12 +142,8 @@
  councillor_court_chaplain_judaism_religion_kingdom_possessive:0 "Nasi's"
  councillor_court_chaplain_judaism_religion_empire:0 "Gadol"
  councillor_court_chaplain_judaism_religion_empire_possessive:0 "Gadol's"
-
-# Magyarism (Court Shaman) (Táltos) (High Táltos) (Grand Táltos)
  councillor_court_chaplain_magyarism_religion_county:0 "Táltos"
  councillor_court_chaplain_magyarism_religion_county_possessive:0 "Táltos'"
-
-# Paganism (Court Shaman) (Shaman) (High Shaman)
  councillor_court_chaplain_paganism_religion_county:0 "Court Shaman"
  councillor_court_chaplain_paganism_religion_county_possessive:0 "Court Shaman's"
  councillor_court_chaplain_paganism_religion_duchy:1 "Shaman"
@@ -184,8 +152,6 @@
  councillor_court_chaplain_paganism_religion_kingdom_female:1 "$councillor_court_chaplain_paganism_religion_kingdom$"
  councillor_court_chaplain_paganism_religion_kingdom_possessive:1 "High Shaman's"
  councillor_court_chaplain_paganism_religion_kingdom_female_possessive:1 "$councillor_court_chaplain_paganism_religion_kingdom_possessive$"
-
-# Baltic (Court Seer) (Vaidilė/Vaidilutė)
  councillor_court_chaplain_baltic_religion_county:0 "Court Seer"
  councillor_court_chaplain_baltic_religion_county_female:0 "Court Seeress"
  councillor_court_chaplain_baltic_religion_county_possessive:0 "Court Seer's"
@@ -194,8 +160,6 @@
  councillor_court_chaplain_baltic_religion_duchy_female:0 "Vaidilutė"
  councillor_court_chaplain_baltic_religion_duchy_possessive:0 "Vaidilė's"
  councillor_court_chaplain_baltic_religion_duchy_female_possessive:0 "Vaidilutė"
-
-# Slavic (Court Seer) (Zhrets/Zhritsa) (Volkhv/Vedunya) (Grand Diviner)
  councillor_court_chaplain_slavic_religion_duchy:0 "Zhrets"
  councillor_court_chaplain_slavic_religion_duchy_female:0 "Zhritsa"
  councillor_court_chaplain_slavic_religion_duchy_possessive:0 "Zhrets'"
@@ -204,12 +168,8 @@
  councillor_court_chaplain_slavic_religion_kingdom_female:0 "Vedunya"
  councillor_court_chaplain_slavic_religion_kingdom_possessive:0 "Volkhv's"
  councillor_court_chaplain_slavic_religion_kingdom_female_possessive:0 "Vedunya's"
-
-# Finno-Ugric (Court Seer) (Noaidi) (High Noaidi) (Grand Diviner)
  councillor_court_chaplain_finno_ugric_religion_duchy:0 "Noaidi"
  councillor_court_chaplain_finno_ugric_religion_duchy_possessive:0 "Noaidi's"
-
-# Taoism (Libationer)
  councillor_court_chaplain_taoism_religion_county:0 "Court Priest"
  councillor_court_chaplain_taoism_religion_county_female:0 "Court Priestess"
  councillor_court_chaplain_taoism_religion_county_possessive:0 "Court Priest's"
@@ -218,28 +178,18 @@
  councillor_court_chaplain_taoism_religion_duchy_possessive:0 "Libationer's"
  councillor_court_chaplain_taoism_religion_kingdom:0 "High Libationer"
  councillor_court_chaplain_taoism_religion_kingdom_possessive:0 "High Libationer's"
-
-# Tengrism (Shaman)
  councillor_court_chaplain_tengrism_religion_duchy:0 "Shaman"
  councillor_court_chaplain_tengrism_religion_duchy_possessive:0 "Shaman's"
  councillor_court_chaplain_tengrism_religion_kingdom:0 "High Shaman"
  councillor_court_chaplain_tengrism_religion_kingdom_possessive:0 "High Shaman's"
-
-# West African (Shaman)
  councillor_court_chaplain_west_african_religion_duchy:0 "Hogon"
  councillor_court_chaplain_west_african_religion_duchy_possessive:0 "Hogon's"
-
-# West African Bori (Shaman)
  councillor_court_chaplain_west_african_bori_religion_duchy:0 "Adjingi"
  councillor_court_chaplain_west_african_bori_religion_duchy_female:0 "Magadja"
  councillor_court_chaplain_west_african_bori_religion_duchy_possessive:0 "Adjingi's"
  councillor_court_chaplain_west_african_bori_religion_duchy_female_possessive:0 "Magadja's"
-
-# West African Roog (Shaman)
  councillor_court_chaplain_west_african_roog_religion_duchy:0 "Saltigue"
  councillor_court_chaplain_west_african_roog_religion_duchy_possessive:0 "Saltigue's"
-
-# Zoroastrianism (Mobed)
  councillor_court_chaplain_zoroastrianism_religion_county:0 "Herbad"
  councillor_court_chaplain_zoroastrianism_religion_county_possessive:0 "Herbad's"
  councillor_court_chaplain_zoroastrianism_religion_duchy:0 "Mobed"
@@ -250,14 +200,10 @@
  councillor_court_chaplain_zoroastrianism_religion_kingdom_female:0 "Dastuyar"
  councillor_court_chaplain_zoroastrianism_religion_kingdom_possessive:0 "Dastur's"
  councillor_court_chaplain_zoroastrianism_religion_kingdom_female_possessive:0 "Dastuyar's"
-
-# Zunism (Court Seer) (Diviner) (Grand Diviner)
  councillor_court_chaplain_zunism_religion_duchy:0 "Diviner"
  councillor_court_chaplain_zunism_religion_duchy_possessive:0 "Diviner's"
  councillor_court_chaplain_zunism_religion_kingdom:0 "Grand Diviner"
  councillor_court_chaplain_zunism_religion_kingdom_possessive:0 "Grand Diviner's"
-
-#Flavor localizaton for Spouse Councilor, sorted by Cultures/Governments.
  councillor_spouse:0 "Spouse"
  councillor_spouse_prince_consort:0 "Prince Consort"
  councillor_spouse_husband:0 "Husband"
@@ -266,13 +212,11 @@
  councillor_spouse_duchess:0 "Duchess"
  councillor_spouse_countess:0 "Countess"
  councillor_spouse_baroness:0 "Baroness"
-
  councillor_spouse_emperor:0 "Emperor"
  councillor_spouse_king:0 "King"
  councillor_spouse_duke:0 "Duke"
  councillor_spouse_count:0 "Count"
  councillor_spouse_baron:0 "Baron"
-
  councillor_spouse_possessive:0 "Spouse's"
  councillor_spouse_prince_consort_possessive:0 "Prince Consort's"
  councillor_spouse_husband_possessive:0 "Husband's"
@@ -281,10 +225,8 @@
  councillor_spouse_duchess_possessive:0 "Duchess'"
  councillor_spouse_countess_possessive:0 "Countess'"
  councillor_spouse_baroness_possessive:0 "Baroness'"
-
  councillor_spouse_emperor_possessive:0 "Emperor's"
  councillor_spouse_king_possessive:0 "King's"
  councillor_spouse_duke_possessive:0 "Duke's"
  councillor_spouse_count_possessive:0 "Count's"
  councillor_spouse_baron_possessive:0 "Baron's"
- 

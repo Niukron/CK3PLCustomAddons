@@ -5,10 +5,6 @@
  intrigue_rigueint:0 "Rigueint"
  intrigue_9_14_20_18_9_7_21_5:0 "9 14 20 18 9 7 21 5"
  intrigue_lqwuljxh:0 "Lqwuljxh"
- #trust me
- 
-
- #Diplomacy
  diplomacy_lifestyle_name:0 "Diplomacy"
  diplomacy_lifestyle_desc:0 "Focus on understanding people and their motives, how to handle other realms, and how to win the unwavering loyalty of your subjects."
  diplomacy_lifestyle_highlight_desc:0 "Because of your Diplomacy [education|E], you gain #P [GetPlayer.Custom('GetEducationLifestylePercentageBoost')]#! more [experience|E] in this Lifestyle."
@@ -27,8 +23,6 @@
  diplomacy_majesty_focus_desc:0 "Regality flows from ritual, tradition and glory."
  diplomacy_majesty_focus_effect_desc:0 "Focusing on Majesty grants:"
  majesty_name:1 "August"
-
- #Martial
  martial_lifestyle_name:0 "Martial"
  martial_lifestyle_desc:0 "Focus on control of your realm, honorable conduct, and the strategies that will win your wars."
  martial_lifestyle_highlight_desc:0 "Because of your Martial [education|E], you gain #P [GetPlayer.Custom('GetEducationLifestylePercentageBoost')]#! more [experience|E] in this Lifestyle."
@@ -50,8 +44,6 @@
  martial_chivalry_focus_desc:0 "Victory comes not through blood or gold, but honor."
  martial_chivalry_focus_effect_desc:0 "Focusing on Chivalry grants:"
  chivalry_name:1 "Gallant"
- 
- #Intrigue
  intrigue_lifestyle_name:0 "Intrigue"
  intrigue_lifestyle_desc:0 "Focus on the manipulation of people, the nature of secrets, and the cunning plots that will bring your plans to fruition."
  intrigue_lifestyle_highlight_desc:0 "Because of your Intrigue [education|E], you gain #P [GetPlayer.Custom('GetEducationLifestylePercentageBoost')]#! more [experience|E] in this Lifestyle."
@@ -70,8 +62,6 @@
  intrigue_intimidation_focus_effect_desc:0 "Focusing on Intimidation grants:"
  intrigue_intimidation_focus_desc:0 "Threats, both overt and subtle, guide the path to true power."
  intimidation_name:0 "Torturer"
-
- #Stewardship
  stewardship_lifestyle_name:0 "Stewardship"
  stewardship_lifestyle_desc:0 "Focus on dealing justice, administrating the lands of your realm, and filling your coffers with gold."
  stewardship_lifestyle_highlight_desc:0 "Because of your Stewardship [education|E], you gain #P [GetPlayer.Custom('GetEducationLifestylePercentageBoost')]#! more [experience|E] in this Lifestyle."
@@ -91,8 +81,6 @@
  stewardship_wealth_focus_desc:0 "War, honor, and loyalty are all means to an end: gold!"
  stewardship_wealth_focus_effect_desc:0 "Focusing on Wealth grants:"
  wealth_name:1 "Avaricious"
- 
- #Learning
  learning_lifestyle_name:0 "Learning"
  learning_lifestyle_desc:0 "Focus on learning all that you can. The realm of knowledge and divinity lie within your grasp, as well as the secrets to life itself."
  learning_lifestyle_highlight_desc:0 "Because of your Learning [education|E], you gain #P [GetPlayer.Custom('GetEducationLifestylePercentageBoost')]#! more [experience|E] in this Lifestyle."
@@ -111,46 +99,37 @@
  learning_scholarship_focus_desc:0 "The knowledge of those who have come before, the knowledge of those still living, and the knowledge of perpetual truths."
  learning_scholarship_focus_effect_desc:0 "Focusing on Scholarship grants:"
  scholarship_name:1 "Scholar"
- 
  education_rank_1_percentage:0 "10%"
  education_rank_2_percentage:0 "20%"
  education_rank_3_percentage:0 "30%"
  education_rank_4_percentage:0 "40%"
-
- ### EDUCATION
  FOCUS_NO_AGE:1 "#X @warning_icon!A child of less than $AGE$ cannot have an [education_focus|E]#!"
  FOCUS_MAX_CHANGES:1 "#X @warning_icon!The [education_focus|E] can only be changed once#!"
- # Education Focuses
  education_diplomacy_modifier:0 "Diplomacy Education"
  education_martial_modifier:0 "Martial Education"
  education_stewardship_modifier:0 "Stewardship Education"
  education_intrigue_modifier:0 "Intrigue Education"
  education_learning_modifier:0 "Learning Education"
- #Diplomacy Education Focus
  education_diplomacy:0 "Diplomacy Education"
  education_diplomacy_desc:0 "The study of etiquette, communication and the practices of courtly life."
  education_diplomacy_tt.affinity:0 "\n\n#P [ROOT.Char.Custom('ChildhoodPersonalityTrait')] children often do well with Diplomacy Education.#!"
  education_diplomacy_tt.disaffinity:0 "\n\n#N [ROOT.Char.Custom('ChildhoodPersonalityTrait')] children might struggle with Diplomacy Education.#!"
  education_diplomacy_effect_desc:0 "Choosing this [education_focus|E] will also have the following effects:"
- #Martial Education Focus
  education_martial:0 "Martial Education"
  education_martial_desc:0 "The study of warfare and combat and the commanding of armies."
  education_martial_tt.affinity:0 "\n\n#P [ROOT.Char.Custom('ChildhoodPersonalityTrait')] children often do well with a Martial Education.#!"
  education_martial_tt.disaffinity:0 "\n\n#N [ROOT.Char.Custom('ChildhoodPersonalityTrait')] children might struggle with a Martial Education.#!"
  education_martial_effect_desc:0 "Choosing this [education_focus|E] will also have the following effects:"
- #Stewardship Education Focus
  education_stewardship:0 "Stewardship Education"
  education_stewardship_desc:0 "The study of administration, management and the flow of gold."
  education_stewardship_tt.affinity:0 "\n\n#P [ROOT.Char.Custom('ChildhoodPersonalityTrait')] children often do well with a Stewardship Education.#!"
  education_stewardship_tt.disaffinity:0 "\n\n#N [ROOT.Char.Custom('ChildhoodPersonalityTrait')] children might struggle with a Stewardship Education.#!"
  education_stewardship_effect_desc:0 "Choosing this [education_focus|E] will also have the following effects:"
- #Learning Education Focus
  education_learning:0 "Learning Education"
  education_learning_desc:0 "The study of scholarship, theology and the pursuit of knowledge."
  education_learning_tt.affinity:0 "\n\n#P [ROOT.Char.Custom('ChildhoodPersonalityTrait')] children often do well with a Learning Education.#!"
  education_learning_tt.disaffinity:0 "\n\n#N [ROOT.Char.Custom('ChildhoodPersonalityTrait')] children might struggle with a Learning Education.#!"
  education_learning_effect_desc:0 "Choosing this [education_focus|E] will also have the following effects:"
- #Intrigue Education Focus
  education_intrigue:0 "Intrigue Education"
  education_intrigue_desc:0 "The study of secrecy, shadows and careful planning."
  education_intrigue_tt.affinity:0 "\n\n#P [ROOT.Char.Custom('ChildhoodPersonalityTrait')] children often do well with a Intrigue Education.#!"

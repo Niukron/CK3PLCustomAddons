@@ -35,6 +35,8 @@
  SETTINGS_CATEGORY_GAME_PORTRAITS: "Portraits"
  SETTING_SHOW_DISTURBING_PORTRAIT_MODIFIERS: "Show graphic diseases and injuries"
  SETTING_SHOW_DISTURBING_PORTRAIT_MODIFIERS_TOOLTIP: "#T $SETTING_SHOW_DISTURBING_PORTRAIT_MODIFIERS$#!\nSets whether graphic injuries and diseases will be visible on character portraits."
+ SETTING_SHOW_NUDITY: "Show nudity"
+ SETTING_SHOW_NUDITY_TOOLTIP: "#T $SETTING_SHOW_NUDITY$#!\nSets whether characters can be shown nude."
  NEVER: "Never"
  MONTHLY: "Every month"
  HALFYEAR: "Every 6 months"

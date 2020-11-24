@@ -70,11 +70,9 @@
  seeing_dead_people_modifier_desc:0 "This character is haunted by visits from people long since dead"
  focused_on_mystical_animal_modifier:0 "Focused on Hunt"
  focused_on_mystical_animal_modifier_desc:0 "This character's mind is completely set on the hunt"
-
  the_great_khan_modifier:0 "The Great Khan"
  the_great_khan_modifier_desc:0 "This character has been proclaimed the Great Khan, the rightful successor to the Khan of Khans."
  trickster_modifier:0 "Trickster"
-
  alluring_confidence:0 "Alluring Confidence"
  confident_diplomat:0 "Confident Diplomat"
  confident_strategist:0 "Confident Strategist"

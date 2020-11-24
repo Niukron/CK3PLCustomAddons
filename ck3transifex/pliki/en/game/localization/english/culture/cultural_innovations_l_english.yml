@@ -179,3 +179,4 @@
  innovation_condottieri_desc: "Being both wealthy and centrally located, Italy has become a major center for mercenary companies to travel to when not on active campaign. Since they are already here, we should be able to negotiate a better rate for them than they would normally charge."
  innovation_deccan_unity: "Deccan Unity"
  innovation_deccan_unity_desc: "The influx of new beliefs and religions into our society has made it clear that our past focus on regionalism has been a mistake. We should band together with others of our faith and ensure a strong and enduring state that can stand up to external pressures."
+ students_of_knighthood: "Children completing their education with a [martial|E] [education_focus|E] gain a $trait_education_martial_prowess$ [trait|E]."

@@ -35,7 +35,7 @@
  martial_chivalry.0007.desc: "I thought that riding would make me feel better. That a little exertion would help me heal. As I fall through the air, the pain of my wounds leave me for a brief moment of weightlessness. It is the best I have felt for weeks.\n\nAs I smash to the ground, I no longer need to worry about the pain, or any other earthly concerns."
  martial_chivalry.0007.a: "What awaits beyond?"
  martial_chivalry.0010.t: "The Way of the [ROOT.Char.Custom('signature_weapon')|U]"
- martial_chivalry.0010.desc: "The endless clash of metal on metal, the chafing of armor, the sting of sweat... It is a dance that is as familiar as it is exhausting. To [ROOT.Char.Custom('SignatureWeaponAction')] my [ROOT.Char.Custom('signature_weapon')],  attack, dodge, defend, and repeat.\n\nMaybe it would do me good to practice my skills with another weapon."
+ martial_chivalry.0010.desc: "The endless clash of metal on metal, the chafing of armor, the sting of sweat... It is a dance that is as familiar as it is exhausting. To [ROOT.Char.Custom('SignatureWeaponAction')] my [ROOT.Char.Custom('signature_weapon')], attack, dodge, defend, and repeat.\n\nMaybe it would do me good to practice my skills with another weapon."
  martial_chivalry.0010.a: "Me and my trusted [ROOT.Char.Custom('signature_weapon')] will not part."
  martial_chivalry.0010.b: "Let's end the monotony, hand me another weapon!"
  martial_chivalry.0010.b.tt1: "You show them how it is done"

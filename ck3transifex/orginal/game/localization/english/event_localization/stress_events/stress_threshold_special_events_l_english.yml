@@ -21,7 +21,6 @@
  stress_threshold_special.1001.frozen_grief:0 "I must press on. It is what [deceased_character.GetSheHe] would have wanted."
  stress_threshold_special.1001.lunatic:0 "But [deceased_character.GetSheHe] isn't gone! [deceased_character.GetSheHe|U] is right here with me..."
  stress_threshold_special.1001.lunatic.flavor:0 "...and [deceased_character.GetSheHe] will stay with me, forever!"
-
  stress_threshold_special.2001.t:0 "Mental Break: Repressed Desires"
  stress_threshold_special.2001.beginning:0 "Oh how I miss the days of debauchery and lust that I used to have. It has been so long since I have lain with another... and it aches to sleep alone.\n\n"
  stress_threshold_special.2001.consort:0 "I know [ROOT.Char.Custom2('RelationToMe', target)] [target.GetFirstName] would welcome me back into [target.GetHerHis] bed with open arms. [target.GetSheHe|U] wants me, I know it... and oh, how I long for [target.GetHerHim]!"
@@ -31,4 +30,3 @@
  stress_threshold_special.2001.a:0 "Forget it. I can't resist anymore, I #EMP need#! this!"
  stress_threshold_special.2001.a.tt:0 "You lose the [perk|E] [GetPerk( 'restraint_perk' ).GetName( GetPlayer)|V]"
  stress_threshold_special.2001.b:0 "No... That is no longer who I am. I must tame these urges!"
-

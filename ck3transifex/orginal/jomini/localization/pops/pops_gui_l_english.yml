@@ -51,12 +51,11 @@
  POPS_existing-steam-to-account-connection:0 "Account is already connected to a steam account"
  POPS_third-party-exception:0 "Request timed out"
  POPS_not-authorized:0 "The email and password that you entered don't match"
-# These should "never" happen, we should have validated before we sent the data
+# These should "never"
  POPS_missing-required-account-details-keys:0 "You are missing required information"
  POPS_invalid-country-code:0 "Country code is invalid"
  POPS_invalid-language-code:0 "Language code is invalid"
  POPS_invalid-ISO-8601-format:0 "Date format is invalid"
-# These should also not happen, but are not related to validating our form
  POPS_parse-failure:0 "Client failure (Parse)"
  POPS_unsupported-account-details-keys:0 "Client Failure (Unsupported Keys)"
  POPS_invalid-script-code:0 "Client Failure (Invalid Script)"

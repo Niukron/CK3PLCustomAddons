@@ -10,8 +10,6 @@
  cox_comb:0 "coxcomb"
  strumpet:0 "strumpet"
  bedswerver:0 "bedswerver"
-
- #InsultAdjective
  insult_nickname_two_faced:0 "two-faced"
  cold_hearted:0 "cold-hearted"
  evil:0 "evil"
@@ -40,8 +38,6 @@
  loathsome:0 "loathsome"
  abhorrent:0 "abhorrent"
  vile:0 "vile"
-
- #InsultAdjectiveArticle
  insult_nickname_two_faced_article:0 "a two-faced"
  cold_hearted_article:0 "a cold-hearted"
  evil_article:0 "an evil"
@@ -70,8 +66,6 @@
  loathsome_article:0 "a loathsome"
  abhorrent_article:0 "an abhorrent"
  vile_article:0 "a vile"
-
- #InsultBehavior
  cold_hearted_behavior:0 "cold-heartedness"
  evil_behavior:0 "wickedness"
  obnoxious_behavior:0 "obnoxiousness"
@@ -87,8 +81,6 @@
  cocky_behavior:0 "cockiness"
  reclusive_behavior:0 "standoffishness"
  heartless_behavior:0 "heartlessness"
-
- #InsultSentence
  insult_sentence_arrogant:0 "you are a self-made man, worshiping your creator"
  insult_sentence_lustful:0 "I feel so miserable when I am not with you; it is almost like being in your company"
  insult_sentence_subtle:0 "you are as subtle as a street corner doxy"
@@ -96,8 +88,6 @@
  insult_sentence_beauty_bad:0 "I hear you love nature, in spite of what it did to you"
  insult_sentence_shiver:0 "you are a shiver, looking for a spine to run up"
  insult_sentence_evening:0 "I had a perfectly wonderful evening with good company, up until now"
-
- #PointOfRidicule
  foolishness:0 "foolishness"
  sensitive_soul:0 "sensitive soul"
  unrestrained_emotions:0 "unrestrained emotions"
@@ -119,15 +109,11 @@
  ghostly_pallor:0 "ghostly pallor"
  disgusting_wheezing:0 "disgusting wheezing"
  insistent_whining:0 "insistent whining"
-
- #InsultNounSexual
  whore:0 "whore"
  debaucher:0 "debaucher"
  harlot:0 "harlot"
  pig:0 "pig"
  skirt_chaser:0 "skirt chaser"
-
- # Female versions requested by other languages
  coward_female:0 "coward"
  boar_female:0 "boar"
  cox_comb_female:0 "coxcomb"
