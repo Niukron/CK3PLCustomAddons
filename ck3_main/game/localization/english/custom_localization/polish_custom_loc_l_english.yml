@@ -49,6 +49,9 @@ GetUINameNotMeNoTooltip_title_adj:0 "[ROOT.GetCharacter.GetTitledFirstNameNickna
 
 d_lower_silesia_adj:0 "Dolnego Śląska"
 
-TwinDaughtersSonsChildren_With_Num_relation_daughters:0 "dwie córki"
-TwinDaughtersSonsChildren_With_Num_relation_sons:0 "dwóch synów"
-TwinDaughtersSonsChildren_With_Num_relation_children:0 "dwójkę dzieci"
+TwinDaughtersSonsChildren_With_Num_relation_daughters:0 "dwie bliźniaczki"
+TwinDaughtersSonsChildren_With_Num_relation_sons:0 "dwóch bliźniaków"
+TwinDaughtersSonsChildren_With_Num_relation_children:0 "dwoje bliźniąt"
+
+
+
