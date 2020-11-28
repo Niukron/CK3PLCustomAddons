@@ -96,7 +96,7 @@ function Update-VersionOnGithub {
 	$isGitInstalled = $null -ne ( (Get-ItemProperty HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*) + (Get-ItemProperty HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*) | Where-Object { $null -ne $_.DisplayName -and $_.Displayname.Contains('Git') })
 	
 	if($isGitInstalled) {
-		
+		#TEST GIT
 	
 	
 	} else {
