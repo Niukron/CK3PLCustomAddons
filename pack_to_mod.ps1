@@ -7,11 +7,11 @@ $AUTO_CPY_TO_CK3_MOD_FOLDER = 0
 $ASK_TO_CPY_TO_MOD_FOLDER = 1
 
 # DEBUG MODE - nie pobiera danych z transifexa oraz nie kopiuje plików do folderu z grą.
-$DEBUG_MODE = 1
+$DEBUG_MODE = 0
 
 # Automatycznie podnoś wersję moda - ustawić na 0 w trybie dev
 
-$INCREMENT_BUILD_VERSION = 1
+$INCREMENT_BUILD_VERSION = 0
 
 $MOD_NAME_FOLDER = "CK3Spolszczenie"
 
@@ -33,7 +33,7 @@ $auto_version_increase_in_file = 0
 
 $GIT_FILES_URL = "https://github.com/Niukron/CK3PLCustomAddons/archive/main.zip"
 $version_on_github = Invoke-RestMethod https://raw.githubusercontent.com/Niukron/CK3PLCustomAddons/main/version
-
+$ask_to_version_update = 0
 
 
 function Start-Config {
@@ -91,19 +91,17 @@ Remote Steam ID: $REMOTE_FILE_ID_tmp `n`n"
 	} 
 }
 
-function Update-VersionOnGithub {
+<# function Update-VersionOnGithub {
 	Write-host "Aktualizacja wersji na githubie..."
 	$isGitInstalled = $null -ne ( (Get-ItemProperty HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*) + (Get-ItemProperty HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*) | Where-Object { $null -ne $_.DisplayName -and $_.Displayname.Contains('Git') })
 	
 	if($isGitInstalled) {
-		#TEST GIT
-	
-	
+		
 	} else {
 		Write-Host "Nie posiadasz zainstalowanego GITa. Pobierz git, aby automatyczne zaaktualizwoać pliki na githubie lub nie aktualizuj wersji w pliku version!!" -ForegroundColor red -BackgroundColor white
 	
 	}
-}
+} #>
 
 function Create-Mod {
 
@@ -149,7 +147,7 @@ remote_file_id="'+$REMOTE_FILE_ID+'"'
 	Copy-item "$PSScriptRoot\ck3_main\game\localization\*" -Recurse -Destination ($ModDir_YML + "\game\localization\") -Force
 	Copy-item "$PSScriptRoot\ck3_main\game\*" -Exclude "localization" -Recurse -Destination $ModDir -Force
 	
-	if($OLD_MOD_VERSION -ne $MOD_VERSION)
+	if(($OLD_MOD_VERSION -ne $MOD_VERSION) -And $ask_to_version_update)
 	{
 		if(!($auto_version_increase_in_file)) {
 			
@@ -158,14 +156,14 @@ remote_file_id="'+$REMOTE_FILE_ID+'"'
 			If ($intAnswer -eq 6) { 
 				Write-host "Aktualizacja wersji w pliku version..."
 				Set-Content -Path "$PSScriptRoot\version" -Value $MOD_VERSION
-
-				Update-VersionOnGithub
+				
+				#Update-VersionOnGithub
 			}
 		} else {
 			Write-host "Aktualizacja wersji w pliku version..."
 			Set-Content -Path "$PSScriptRoot\version" -Value $MOD_VERSION
 			
-			Update-VersionOnGithub
+			#Update-VersionOnGithub
 		}
 	}
 	if($AUTO_CPY_TO_CK3_MOD_FOLDER) {
