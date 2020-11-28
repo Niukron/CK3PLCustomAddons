@@ -3,5 +3,5 @@ tags={
 	"Translation"
 }
 name="Crusader Kings III Spolszczenie"
-supported_version="1.1.*"
+supported_version="1.*.*"
 remote_file_id=""
