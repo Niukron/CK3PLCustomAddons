@@ -97,7 +97,7 @@
  caucasian:0 "Zachodnio/Środkowoeuropejskie"
  northern_ruler_designer:0 "Północne"
  mediterranean_ruler_designer:0 "Śródziemnomorskie"
- RULER_DESIGNER_DECREASE_SKILL_TOOLTIP:0 "Decrease [RulerDesignerSkill.GetName] skill"
+ RULER_DESIGNER_DECREASE_SKILL_TOOLTIP:0 "Zmniejsz umiejętność: [RulerDesignerSkill.GetName]"
  RULER_DESIGNER_INCREASE_SKILL_TOOLTIP:0 "Increase [RulerDesignerSkill.GetName] skill"
  RULER_DESIGNER_GENERATE_SPOUSE_LABEL:0 "Po ślubie"
  RULER_DESIGNER_GENERATE_SPOUSE_TOOLTIP:0 "[SelectLocalization(RulerDesignerWindow.ShouldGenerateSpouse, 'RULER_DESIGNER_GENERATE_SPOUSE_TOOLTIP_MARRIED', 'RULER_DESIGNER_GENERATE_SPOUSE_TOOLTIP_UNMARRIED')]"

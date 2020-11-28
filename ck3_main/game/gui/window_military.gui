@@ -76,7 +76,9 @@ window = {
 							enabled = "[PlayerCanRaiseAnyRallyPoint]"
 
 							text = "RAISE_ALL"
-							size = {180 32}
+							### ZMIANA ###
+							size = {165 32}
+							#size = {180 32}
 
 							tooltip = "[GetPlayerRaiseAllTooltip]"
 							using = tooltip_se
@@ -94,7 +96,9 @@ window = {
 							enabled = "[PlayerCanRaiseAnyRaiderRallyPoint]"
 
 							text = "RAISE_ALL_RAIDERS"
-							size = {210 32}
+							### ZMIANA ###
+							size = {225 32}
+							#size = {210 32}
 
 							tooltip = "[GetPlayerRaiseAllRaidersTooltip]"
 							using = tooltip_se

@@ -525,7 +525,8 @@ window = {
 											text = "[FaithDoctrine.GetNameNoTooltip( GuiFaithDoctrineItem.GetFaith )]"
 											default_format = "#high"
 											multiline = yes
-											max_width = 101   ##### minimum in order to look good in german
+											### ZMIANA ###
+											max_width = 110   ##### minimum in order to look good in german
 										}
 
 										expand = {}
@@ -1097,7 +1098,10 @@ window = {
 ### RELIGION VIEW
 window = {
 	name = "religion_window"
-	size = { 550 80% }
+	
+	### ZMIANA ###
+	#size = { 550 80% }
+	size = { 600 80% }
 	position = { 605 75 }
 	movable = yes
 	datacontext = "[ReligionWindow.GetReligion]"
@@ -1146,7 +1150,11 @@ window = {
 
 		hbox = {
 			layoutpolicy_horizontal = expanding
+			
+			### ZMIANA ###
 			margin = { 15 0 }
+			
+			#margin = { 15 0 }
 			margin_bottom = 5
 			spacing = 20
 
@@ -1175,8 +1183,8 @@ window = {
 
 			### Only Selected religion faiths
 			hbox = {
-				spacing = 5
-
+				spacing = 2
+				
 				button_checkbox_label = {
 					onclick = "[ReligionWindow.OnShowOnlyReligionFaiths]"
 					tooltip = "[ReligionWindow.GetShowOnlyReligionFaithsTooltip]"

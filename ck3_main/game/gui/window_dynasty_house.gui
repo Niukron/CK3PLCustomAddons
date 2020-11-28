@@ -713,13 +713,17 @@ window = {
 
 				hbox = {
 					layoutpolicy_horizontal = expanding
+					### ZMIANA ###
+					#minimumsize = { 0 42 }
 					minimumsize = { 0 54 }
 
 					### DYNASTY TREE ###
 					button_standard_clean = {
 						tooltip = "DYNASTY_VIEW_TT_DYNASTY_TREE"
 						onclick = "[DefaultOnDynastyTreeCoatOfArmsClick( Dynasty.GetID )]"
-						size = { 300 42 }
+						### ZMIANA ###
+						size = { 310 42 }
+						#size = { 300 42 }
 
 						button_dynasty_tree = {
 							alwaystransparent = yes
@@ -732,6 +736,10 @@ window = {
 							text = "DYNASTY_VIEW_DYNASTY_TREE"
 							parentanchor = center
 							align = center
+							### ZMIANA ###
+							### DODANO ###
+							position = { 15 0 }
+							
 							default_format = "#clickable"
 						}
 
