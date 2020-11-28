@@ -127,7 +127,8 @@ tags={
 }
 name="'+$MOD_NAME+'"
 supported_version="'+$SUPPORTED_GAME_VERSIONS+'"
-remote_file_id="'+$REMOTE_FILE_ID+'"'
+remote_file_id="'+$REMOTE_FILE_ID+'"
+path="mod/'+$MOD_NAME_FOLDER+'"'
 
 	$ModDir = $MOD_FOLDER + '\' + $MOD_NAME_FOLDER
 	
