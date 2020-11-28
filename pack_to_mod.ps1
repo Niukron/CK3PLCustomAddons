@@ -7,7 +7,7 @@ $AUTO_CPY_TO_CK3_MOD_FOLDER = 0
 $ASK_TO_CPY_TO_MOD_FOLDER = 1
 
 # DEBUG MODE - nie pobiera danych z transifexa oraz nie kopiuje plików do folderu z grą.
-$DEBUG_MODE = 0
+$DEBUG_MODE = 1
 
 # Automatycznie podnoś wersję moda - ustawić na 0 w trybie dev
 
