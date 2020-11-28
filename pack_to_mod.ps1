@@ -7,7 +7,7 @@ $AUTO_CPY_TO_CK3_MOD_FOLDER = 0
 $ASK_TO_CPY_TO_MOD_FOLDER = 1
 
 # DEBUG MODE - nie pobiera danych z transifexa oraz nie kopiuje plików do folderu z grą.
-$DEBUG_MODE = 1
+$DEBUG_MODE = 0
 
 # Automatycznie podnoś wersję moda - ustawić na 0 w trybie dev
 
@@ -155,13 +155,13 @@ remote_file_id="'+$REMOTE_FILE_ID+'"'
 			$intAnswer = $mContinue.popup("Nadpisać wersję w pliku?", 0,"Nowa wersja", 4) 
 			If ($intAnswer -eq 6) { 
 				Write-host "Aktualizacja wersji w pliku version..."
-				Set-Content -Path "$PSScriptRoot\version" -Value $MOD_VERSION
+				Set-Content -NoNewline -Path "$PSScriptRoot\version" -Value $MOD_VERSION
 				
 				#Update-VersionOnGithub
 			}
 		} else {
 			Write-host "Aktualizacja wersji w pliku version..."
-			Set-Content -Path "$PSScriptRoot\version" -Value $MOD_VERSION
+			Set-Content -NoNewline -Path "$PSScriptRoot\version" -Value $MOD_VERSION
 			
 			#Update-VersionOnGithub
 		}
