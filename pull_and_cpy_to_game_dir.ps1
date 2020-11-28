@@ -18,6 +18,9 @@ $CK3_PL_ADDONS = "$PSScriptRoot\ck3_main\*"
 $version_on_github = Invoke-RestMethod https://raw.githubusercontent.com/Niukron/CK3PLCustomAddons/main/version
 $version_local = Get-Content -Path "$PSScriptRoot\version"
 
+Read-Host -Prompt "Używać skryptu pack_to_mod.ps1, ten skrypt jest już nie potrzebny. Jeśli chcesz kontynuować - kliknij enter"
+
+
 if($version_on_github -ne $version_local) {
 	Write-Host "Na githubie znajdują się nowsze pliki. Pobierz ponownie pliki, aby posiadać aktualne zmiany w custom_loc i skryptach." -ForegroundColor red -BackgroundColor white
 	Write-Host "Kliknij enter, jeśli mimo to chcesz kontynuować. Zamknij okno jeśli chcesz przerwać wykonywanie skryptu..." -ForegroundColor red -BackgroundColor white
