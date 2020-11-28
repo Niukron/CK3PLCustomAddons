@@ -91,6 +91,20 @@ Remote Steam ID: $REMOTE_FILE_ID_tmp `n`n"
 	} 
 }
 
+function Update-VersionOnGithub {
+	Write-host "Aktualizacja wersji na githubie..."
+	$isGitInstalled = $null -ne ( (Get-ItemProperty HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*) + (Get-ItemProperty HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*) | Where-Object { $null -ne $_.DisplayName -and $_.Displayname.Contains('Git') })
+	
+	if($isGitInstalled) {
+		
+	
+	
+	} else {
+		Write-Host "Nie posiadasz zainstalowanego GITa. Pobierz git, aby automatyczne zaaktualizwoać pliki na githubie lub nie aktualizuj wersji w pliku version!!" -ForegroundColor red -BackgroundColor white
+	
+	}
+}
+
 function Create-Mod {
 
 
@@ -138,16 +152,20 @@ remote_file_id="'+$REMOTE_FILE_ID+'"'
 	if($OLD_MOD_VERSION -ne $MOD_VERSION)
 	{
 		if(!($auto_version_increase_in_file)) {
+			
 			$mContinue = new-object -comobject wscript.shell 
 			$intAnswer = $mContinue.popup("Nadpisać wersję w pliku?", 0,"Nowa wersja", 4) 
 			If ($intAnswer -eq 6) { 
 				Write-host "Aktualizacja wersji w pliku version..."
 				Set-Content -Path "$PSScriptRoot\version" -Value $MOD_VERSION
-				
+
+				Update-VersionOnGithub
 			}
 		} else {
 			Write-host "Aktualizacja wersji w pliku version..."
 			Set-Content -Path "$PSScriptRoot\version" -Value $MOD_VERSION
+			
+			Update-VersionOnGithub
 		}
 	}
 	if($AUTO_CPY_TO_CK3_MOD_FOLDER) {
@@ -177,13 +195,19 @@ function Check-Version {
 			
 			$parentScriptDir = (get-item $PSScriptRoot).Parent.FullName
 			Invoke-WebRequest -Uri $GIT_FILES_URL -OutFile "$parentScriptDir\update.zip"
-			$ExtractShell = New-Object -ComObject Shell.Application 
+			Write-Host "Wypakowywanie do $parentScriptDir"
+			$ExtractShell = New-Object -ComObject Shell.Application 	
 			$Files = $ExtractShell.Namespace("$parentScriptDir\update.zip").Items() 
 			$ExtractShell.NameSpace($parentScriptDir).CopyHere($Files) 
-			Write-Host "Wypakowywanie do $parentScriptDir"
-			Start-Process $parentScriptDir
-			Write-Host "Aby zatwierdzić zmiany proszę włączyć skrypt ponownie!"
-			Read-Host -Prompt "Kliknij enter, aby wyjść"
+			Write-Host "Kopiowanie plików..."
+			#Start-Process $parentScriptDir
+			Copy-Item "$parentScriptDir\CK3PLCustomAddons-main\*" -Recurse -Force -Destination ($PSScriptRoot + "\")
+			Remove-Item -Path "$parentScriptDir\update.zip" -force
+			Remove-Item -Path "$parentScriptDir\CK3PLCustomAddons-main" -recurse -force
+			
+			Write-Host "Skrypt zostanie uruchomiony ponownie!"
+			Read-Host -Prompt "Kliknij enter, aby uruchomić ponownie skrypt"
+			& ($PSScriptRoot+"\pack_to_mod.ps1")
 			exit
 		} else {
 			Write-Host "Działasz na starszych plikach!"
@@ -200,14 +224,5 @@ Check-Version
 
 Start-Config
 
-# Struktura plików 
-
-
-
-
-
 Read-Host -Prompt "Kliknij enter, aby wyjść"
 
-
-
-# Sprawdzić poprawność
