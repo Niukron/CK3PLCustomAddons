@@ -724,7 +724,10 @@ window = {
 
 							button_standard_clean = {
 								name = "all_governments"
+								### ZMIANA ##
+								#size = { 60 33 }
 								size = { 70 33 }
+
 								default_format = "#low"
 
 								text = "MRW_GOVERNMENT_FILTER_ALL"
