@@ -18,7 +18,7 @@ $MOD_NAME_FOLDER = "CK3Spolszczenie"
 $MOD_NAME = "Crusader Kings III Spolszczenie"
 $MOD_VERSION = Get-Content -Path "$PSScriptRoot\version"
 $SUPPORTED_GAME_VERSIONS = "1.2.*"
-$REMOTE_FILE_ID = "" # STEAM ID - sharedfiles/filedetails/?id=[TO]
+$REMOTE_FILE_ID = "2302141098" # STEAM ID - sharedfiles/filedetails/?id=[TO]
 $PIC = "" # thumbnail.png z folderu 
 
 $TRANSIFEX_COMPILED_FILES = "$PSScriptRoot\ck3transifex\Spolszczenie_CK3\*"
