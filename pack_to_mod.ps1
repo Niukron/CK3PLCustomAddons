@@ -143,10 +143,15 @@ path="mod/'+$MOD_NAME_FOLDER+'"'
 	
 	$ModDir_YML = ($ModDir + '\localization\replace\')			
 	Copy-item -Force -Recurse $TRANSIFEX_COMPILED_FILES -Destination $ModDir_YML
+	
 	Copy-item "$PSScriptRoot\ck3_main\clausewitz\*" -Recurse -Force -Destination ($ModDir_YML + "\clausewitz\")
 	if(Test-Path "$PSScriptRoot\ck3_main\jomini") { Copy-item "$PSScriptRoot\ck3_main\jomini\*" -Recurse -Force -Destination ($ModDir_YML + "\jomini\") }
 	Copy-item "$PSScriptRoot\ck3_main\game\localization\*" -Recurse -Destination ($ModDir_YML + "\game\localization\") -Force
 	Copy-item "$PSScriptRoot\ck3_main\game\*" -Exclude "localization" -Recurse -Destination $ModDir -Force
+	
+	Copy-item -Force -Recurse ($ModDir + '\localization\replace\game\localization\english') -Destination $ModDir_YML
+	Copy-item -Force ($ModDir + '\localization\replace\game\localization\languages.yml') -Destination ($ModDir + '\localization\')
+	Remove-Item -Path ($ModDir + '\localization\replace\game') –recurse -force
 	
 	if(($OLD_MOD_VERSION -ne $MOD_VERSION) -And $ask_to_version_update)
 	{
