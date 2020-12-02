@@ -26,6 +26,7 @@ $CK3_PL_ADDONS = "$PSScriptRoot\ck3_main\*"
 $MOD_FOLDER = "$PSScriptRoot\ck3_files_to_release\"
 
 $str_article_to_find_2 = '_article:0 "the "'
+$str_article_to_find = '_article:0 "the"'
 $str_article_to_replace = '_article:0 ""'
 
 $OLD_MOD_VERSION = $MOD_VERSION
@@ -116,6 +117,7 @@ function Create-Mod {
 	
 	Get-ChildItem $TRANSIFEX_COMPILED_FILES -Recurse -Filter "*.yml" | ForEach-Object { 
 			(Get-Content $_.FullName) -replace $str_article_to_find_2, $str_article_to_replace  | Set-Content -Encoding UTF8 $_.FullName
+			(Get-Content $_.FullName) -replace $str_article_to_find, $str_article_to_replace  | Set-Content -Encoding UTF8 $_.FullName
 			Write-Host "Usuwanie przedimka 'the' z pliku: " $_.Name
 	}
 	
