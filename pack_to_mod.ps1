@@ -132,12 +132,20 @@ supported_version="'+$SUPPORTED_GAME_VERSIONS+'"
 remote_file_id="'+$REMOTE_FILE_ID+'"
 path="mod/'+$MOD_NAME_FOLDER+'"'
 
+$MOD_FILE_STRUCTURE_desc = 'version="'+$MOD_VERSION+'"
+tags={
+	"Translation"
+}
+name="'+$MOD_NAME+'"
+supported_version="'+$SUPPORTED_GAME_VERSIONS+'"
+remote_file_id="'+$REMOTE_FILE_ID+'"'
+
 	$ModDir = $MOD_FOLDER + '\' + $MOD_NAME_FOLDER
 	
 	$t = New-Item -Path $MOD_FOLDER -Name $MOD_NAME_FOLDER -ItemType "directory"
 	
 	$t = New-Item -Path $MOD_FOLDER -Name ($MOD_NAME_FOLDER + '.mod') -ItemType "file" -Value $MOD_FILE_STRUCTURE 
-	#$t = New-Item -Path $ModDir -Name 'descriptor.mod' -ItemType "file" -Value $MOD_FILE_STRUCTURE
+	$t = New-Item -Path $ModDir -Name 'descriptor.mod' -ItemType "file" -Value $MOD_FILE_STRUCTURE_desc
 	
 	$t = New-Item -Path $ModDir -Name 'localization' -ItemType "directory"
 	
