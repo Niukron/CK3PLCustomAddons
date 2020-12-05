@@ -1,4 +1,14 @@
 ﻿l_english:
+
+
+ education_learning_loc_acc:0 "wiedzę"
+ education_stewardship_loc_acc:0 "zarządzanie"
+ education_martial_loc_acc:0 "działania wojenne"
+ education_intrigue_loc_acc:0 "intrygę"
+ education_diplomacy_loc_acc:0 "dyplomację"
+
+
+
 # Dla CREATE_FAITH_WINDOW_TITLE = "Utwórz nową wiarę.." użycie SCOPE.Custom('GetReligion_adj_fem_acc')
 GetReligion_adj_fem_acc_chrzescijanska:0 "chrześcijańską"
 GetReligion_adj_fem_acc_baltycka:0 "bałtycką"
