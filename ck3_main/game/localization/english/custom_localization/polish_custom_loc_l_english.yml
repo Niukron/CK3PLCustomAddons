@@ -1,6 +1,17 @@
 ﻿l_english:
 
-
+ education_learning_loc_ins:0 "wiedzą"
+ education_stewardship_loc_ins:0 "zarządzaniem"
+ education_martial_loc_ins:0 "działaniami wojennymi"
+ education_intrigue_loc_ins:0 "intrygą"
+ education_diplomacy_loc_ins:0 "dyplomacją"
+ 
+ education_learning_loc_gen:0 "wiedzy"
+ education_stewardship_loc_gen:0 "zarządzania"
+ education_martial_loc_gen:0 "działań wojennych"
+ education_intrigue_loc_gen:0 "intrygi"
+ education_diplomacy_loc_gen:0 "dyplomacji"
+ 
  education_learning_loc_acc:0 "wiedzę"
  education_stewardship_loc_acc:0 "zarządzanie"
  education_martial_loc_acc:0 "działania wojenne"
