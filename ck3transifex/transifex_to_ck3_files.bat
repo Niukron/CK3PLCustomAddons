@@ -162,10 +162,11 @@ del /s /f /q jomini
 mkdir jomini
 del /s /f /q clausewitz
 mkdir clausewitz
+del abcd.txt
 cd ../
 echo "Copying new localisation"
 xcopy /s temp\\ck3 "%project_folder%"
 echo "Cleaning up temp directory."
 rd /s /q temp
 echo "Temp directory cleaned up, goodbye, have a nice day! :smile:
-::pause
+pause
