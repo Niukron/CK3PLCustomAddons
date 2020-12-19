@@ -1,0 +1,1 @@
+0 18 * * 0,1,2,3,4,6 /usr/bin/pwsh /home/sammy/CK3SpolszczenieSkrypty/autorelease.ps1
