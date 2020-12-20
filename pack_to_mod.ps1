@@ -11,12 +11,18 @@ $DEBUG_MODE = 0
 
 # Automatycznie podnoś wersję moda - ustawić na 0 w trybie dev
 
-$INCREMENT_BUILD_VERSION = 0
+$INCREMENT_BUILD_VERSION = 1
 
 $MOD_NAME_FOLDER = "CK3Spolszczenie"
 
 $MOD_NAME = "Crusader Kings III Spolszczenie"
-$MOD_VERSION = Get-Content -Path "$PSScriptRoot\version"
+$SCRIPT_VERSION = Get-Content -Path "$PSScriptRoot\version"
+$MOD_VERSION = "0.0.0"
+
+$github_latest_release_info = Invoke-RestMethod https://api.github.com/repos/Niukron/Crusader-Kings-3-Spolszczenie/releases/latest
+$out = $github_latest_release_info.tag_name -match "v(\d+\.)?(\d+\.)?(\*|\d+)"
+$MOD_VERSION = $matches[1]+$matches[2]+$matches[3]
+
 $SUPPORTED_GAME_VERSIONS = "1.2.*"
 $REMOTE_FILE_ID = "2302141098" # STEAM ID - sharedfiles/filedetails/?id=[TO]
 $PIC = "" # thumbnail.png z folderu 
@@ -120,6 +126,9 @@ function Create-Mod {
 			(Get-Content $_.FullName) -replace $str_article_to_find, $str_article_to_replace  | Set-Content -Encoding UTF8 $_.FullName
 			Write-Host "Usuwanie przedimka 'the' z pliku: " $_.Name
 	}
+	Write-Host "Dodawanie wersji do pliku common_l_english.yml"
+	
+	
 	
 	Write-Host "Kopiowanie plików spolszczenia do moda"
 	
@@ -163,7 +172,19 @@ remote_file_id="'+$REMOTE_FILE_ID+'"'
 	Copy-item -Force ($ModDir + '\localization\replace\game\localization\languages.yml') -Destination ($ModDir + '\localization\')
 	Remove-Item -Path ($ModDir + '\localization\replace\game') –recurse -force
 	
-	if(($OLD_MOD_VERSION -ne $MOD_VERSION) -And $ask_to_version_update)
+	$daily = ""
+	
+	if((get-date).dayofweek -ne "Friday") {
+		$daily = "-daily"
+	}
+	
+	$version_search_string = '\[GetGameVersionInfo\]'
+	$version_replace_string = '[GetGameVersionInfo]\nWersja spolszczenia: #bold v'+$MOD_VERSION+$daily+'#!'
+	$common_l = $ModDir_YML+'\english\gui\common_l_english.yml'
+	
+	(Get-Content $common_l) -replace $version_search_string, $version_replace_string  | Set-Content -Encoding UTF8 $common_l
+	
+	<# if(($OLD_MOD_VERSION -ne $MOD_VERSION) -And $ask_to_version_update)
 	{
 		if(!($auto_version_increase_in_file)) {
 			
@@ -181,15 +202,16 @@ remote_file_id="'+$REMOTE_FILE_ID+'"'
 			
 			#Update-VersionOnGithub
 		}
-	}
+	} #>
+	
 	if($AUTO_CPY_TO_CK3_MOD_FOLDER) {
-		Write-Host "Kopiowanie moda do $MOD_FOLDER"
+		Write-Host "Kopiowanie moda do $CK3_MOD_FOLDER"
 		Copy-item -Force -Recurse ($MOD_FOLDER + "\*") -Destination $CK3_MOD_FOLDER
 	} elseif($ASK_TO_CPY_TO_MOD_FOLDER) {
 			$mAskObj = new-object -comobject wscript.shell 
 			$intAnswerCpy = $mAskObj.popup("Skopiować moda do folderu z modami?", 0,"Skopiować?", 4) 
 			if($intAnswerCpy -eq 6) { 
-				Write-Host "Kopiowanie moda do $MOD_FOLDER"
+				Write-Host "Kopiowanie moda do $CK3_MOD_FOLDER"
 				Copy-item -Force -Recurse ($MOD_FOLDER + "\*") -Destination $CK3_MOD_FOLDER
 			}
 	} else {
@@ -199,7 +221,7 @@ remote_file_id="'+$REMOTE_FILE_ID+'"'
 }
 
 function Check-Version {
-	if($version_on_github -ne $MOD_VERSION) {
+	if($version_on_github -ne $SCRIPT_VERSION) {
 		Write-Host "Na githubie znajdują się nowsze pliki. Pobierz ponownie pliki, aby posiadać aktualne zmiany w custom_loc i skryptach." -ForegroundColor red -BackgroundColor white
 		$mAskObj = new-object -comobject wscript.shell 
 		$intAnswerCpy = $mAskObj.popup("Zaktualizować pliki automatycznie?", 0,"Update", 4) 
@@ -230,8 +252,11 @@ function Check-Version {
 }
 
 Write-Host "Podaj dane potrzebne do wygenerowania plików.
-Domyślne wartości są podane w nawiasach kwadratowych.
-Wersja moda generowana jest automatycznie. Jeśli chcesz to wyłączyć zmień zmienną w skrypcie.`n"
+Domyślne wartości są podane w nawiasach kwadratowych. 
+Wersja moda generowana jest automatycznie. Jeśli chcesz to wyłączyć zmień zmienną w skrypcie.
+
+Wersja moda jest pobierana z najnowszego wydania na githubie, a nowa wersja jest automatycznie podnoszona..
+"
 
 
 Check-Version
