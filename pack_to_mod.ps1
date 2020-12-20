@@ -1,4 +1,14 @@
-﻿$USERPROFILE = $env:USERPROFILE
+﻿
+
+# Pomija wszystkie zapytania i skrypt wykonuje się automatycznie kopiując pliki do folderu mod w grze
+$SKIP_ALL = 0
+# 1 - skrypt zamknie się automatycznie po wykonaniu.
+$AUTO_EXIT = 0
+# 1 - skrypt automatycznie pobierze nową wersję z githuba
+$AUTO_UPDATE = 0
+
+
+$USERPROFILE = $env:USERPROFILE
 
 # Domyślny folder z modami
 $CK3_MOD_FOLDER = "$USERPROFILE\Documents\Paradox Interactive\Crusader Kings III\mod\"
@@ -8,9 +18,11 @@ $ASK_TO_CPY_TO_MOD_FOLDER = 1
 
 # DEBUG MODE - nie pobiera danych z transifexa oraz nie kopiuje plików do folderu z grą.
 $DEBUG_MODE = 0
+# 0 - nie uruchamia parsera
+$PARSE_FILES = 1
+
 
 # Automatycznie podnoś wersję moda - ustawić na 0 w trybie dev
-
 $INCREMENT_BUILD_VERSION = 1
 
 $MOD_NAME_FOLDER = "CK3Spolszczenie"
@@ -25,7 +37,7 @@ $MOD_VERSION = $matches[1]+$matches[2]+$matches[3]
 
 $SUPPORTED_GAME_VERSIONS = "1.2.*"
 $REMOTE_FILE_ID = "2302141098" # STEAM ID - sharedfiles/filedetails/?id=[TO]
-$PIC = "" # thumbnail.png z folderu 
+
 
 $TRANSIFEX_COMPILED_FILES = "$PSScriptRoot\ck3transifex\Spolszczenie_CK3\*"
 $CK3_PL_ADDONS = "$PSScriptRoot\ck3_main\*"
@@ -42,6 +54,9 @@ $GIT_FILES_URL = "https://github.com/Niukron/CK3PLCustomAddons/archive/main.zip"
 $version_on_github = Invoke-RestMethod https://raw.githubusercontent.com/Niukron/CK3PLCustomAddons/main/version
 $ask_to_version_update = 0
 
+$script_folder = $PSScriptRoot
+
+
 
 function Start-Config {
 
@@ -49,77 +64,112 @@ function Start-Config {
 	$MOD_VERSION_tmp = $MOD_VERSION
 	$SUPPORTED_GAME_VERSIONS_tmp = $SUPPORTED_GAME_VERSIONS
 	$REMOTE_FILE_ID_tmp = $REMOTE_FILE_ID
-
-	$MName = Read-Host -Prompt "Nazwa moda [$MOD_NAME]"
-	if (!([string]::IsNullOrWhiteSpace($MName))) {
-		$MOD_NAME_tmp = $MName
+	if($INCREMENT_BUILD_VERSION -And $SKIP_ALL) {
+			$version = [Version]$MOD_VERSION_tmp
+			$MOD_VERSION = (New-Object -TypeName 'System.Version' -ArgumentList @($version.Major, $version.Minor, ($version.Build+1))).ToString()
 	}
-	if($INCREMENT_BUILD_VERSION) {
-		$version = [Version]$MOD_VERSION_tmp
-		$NEW_MOD_VERSION = (New-Object -TypeName 'System.Version' -ArgumentList @($version.Major, $version.Minor, ($version.Build+1))).ToString()
-	} else {
-		$NEW_MOD_VERSION = $MOD_VERSION_tmp
+	if(!$SKIP_ALL) {
+		
+		$MName = Read-Host -Prompt "Nazwa moda [$MOD_NAME]"
+		if (!([string]::IsNullOrWhiteSpace($MName))) {
+			$MOD_NAME_tmp = $MName
+		}
+		if($INCREMENT_BUILD_VERSION) {
+			$version = [Version]$MOD_VERSION_tmp
+			$NEW_MOD_VERSION = (New-Object -TypeName 'System.Version' -ArgumentList @($version.Major, $version.Minor, ($version.Build+1))).ToString()
+		} else {
+			$NEW_MOD_VERSION = $MOD_VERSION_tmp
+		}
+		$MVersion = Read-Host -Prompt "Aktualna wersja ($MOD_VERSION). Nowa wersja [$NEW_MOD_VERSION]"
+		if (!([string]::IsNullOrWhiteSpace($MVersion))) {
+			$MOD_VERSION_tmp = $MVersion
+		} else {
+			$MOD_VERSION_tmp = $NEW_MOD_VERSION	
+		}
+		$MSupportVersion = Read-Host -Prompt "Wspierane wersje gry [$SUPPORTED_GAME_VERSIONS]"
+		if (!([string]::IsNullOrWhiteSpace($MSupportVersion))) {
+			$SUPPORTED_GAME_VERSIONS_tmp = $MSupportVersion
+		}
+		$MRemoteFileID = Read-Host -Prompt "REMOTE FILE ID (steam id pliku sharedfiles/filedetails/?id=[TO]) [$REMOTE_FILE_ID]"
+		if (!([string]::IsNullOrWhiteSpace($MRemoteFileID))) {
+			$REMOTE_FILE_ID_tmp = $MRemoteFileID
+		}
 	}
-	$MVersion = Read-Host -Prompt "Aktualna wersja ($MOD_VERSION). Nowa wersja [$NEW_MOD_VERSION]"
-	if (!([string]::IsNullOrWhiteSpace($MVersion))) {
-		$MOD_VERSION_tmp = $MVersion
-	} else {
-		$MOD_VERSION_tmp = $NEW_MOD_VERSION	
-	}
-	$MSupportVersion = Read-Host -Prompt "Wspierane wersje gry [$SUPPORTED_GAME_VERSIONS]"
-	if (!([string]::IsNullOrWhiteSpace($MSupportVersion))) {
-		$SUPPORTED_GAME_VERSIONS_tmp = $MSupportVersion
-	}
-	$MRemoteFileID = Read-Host -Prompt "REMOTE FILE ID (steam id pliku sharedfiles/filedetails/?id=[TO]) [$REMOTE_FILE_ID]"
-	if (!([string]::IsNullOrWhiteSpace($MRemoteFileID))) {
-		$REMOTE_FILE_ID_tmp = $MRemoteFileID
-	}
-
-	Write-Host "`n
+	
+	if(!$SKIP_ALL) {
+		Write-Host "`n
 Nazwa moda: $MOD_NAME_tmp
 Wersja moda: $MOD_VERSION_tmp
 Wspierane wersje gry: $SUPPORTED_GAME_VERSIONS_tmp
 Remote Steam ID: $REMOTE_FILE_ID_tmp `n`n"
-
-	$mContinue = new-object -comobject wscript.shell 
-	$intAnswer = $mContinue.popup("Sprawdź poprawność. Kontynuować?", 0,"Ustawienia", 4) 
-	If ($intAnswer -eq 6) { 
-		Write-host "Zaakceptowano ustawienia..."
-		$OLD_MOD_VERSION = $MOD_VERSION
-		$MOD_NAME = $MOD_NAME_tmp
-		$MOD_VERSION = $MOD_VERSION_tmp
-		$SUPPORTED_GAME_VERSIONS = $SUPPORTED_GAME_VERSIONS_tmp
-		$REMOTE_FILE_ID = $REMOTE_FILE_ID_tmp
-			
-		Create-Mod
-	} else { 
-		Write-Host "Korekta ustawień..."
-		Start-Config
-	} 
-}
-
-<# function Update-VersionOnGithub {
-	Write-host "Aktualizacja wersji na githubie..."
-	$isGitInstalled = $null -ne ( (Get-ItemProperty HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*) + (Get-ItemProperty HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*) | Where-Object { $null -ne $_.DisplayName -and $_.Displayname.Contains('Git') })
-	
-	if($isGitInstalled) {
-		
+		$mContinue = new-object -comobject wscript.shell 
+		$intAnswer = $mContinue.popup("Sprawdź poprawność. Kontynuować?", 0,"Ustawienia", 4) 
+		If ($intAnswer -eq 6) { 
+			Write-host "Zaakceptowano ustawienia..."
+			$OLD_MOD_VERSION = $MOD_VERSION
+			$MOD_NAME = $MOD_NAME_tmp
+			$MOD_VERSION = $MOD_VERSION_tmp
+			$SUPPORTED_GAME_VERSIONS = $SUPPORTED_GAME_VERSIONS_tmp
+			$REMOTE_FILE_ID = $REMOTE_FILE_ID_tmp
+				
+			Create-Mod
+		} else { 
+			Write-Host "Korekta ustawień..."
+			Start-Config
+		} 
 	} else {
-		Write-Host "Nie posiadasz zainstalowanego GITa. Pobierz git, aby automatyczne zaaktualizwoać pliki na githubie lub nie aktualizuj wersji w pliku version!!" -ForegroundColor red -BackgroundColor white
-	
+		Write-Host "`n
+Nazwa moda: $MOD_NAME
+Wersja moda: $MOD_VERSION
+Wspierane wersje gry: $SUPPORTED_GAME_VERSIONS
+Remote Steam ID: $REMOTE_FILE_ID `n`n"
+
+		Create-Mod
 	}
-} #>
+}
 
 function Create-Mod {
 
 
 	Write-Host "Czyszczenie poprzedniej paczki"
 	Remove-Item -Path $MOD_FOLDER –recurse -force
+	Remove-Item -Path $TRANSIFEX_COMPILED_FILES –recurse -force
+	Write-Host "Czyszczenie folderów tymczasowych"
+	if(!$PARSE_FILES) {
+		Remove-Item -Path "$PSScriptRoot\ck3transifex\temp" –recurse -force
+	}
+
 
 	Write-Host "Pobieranie danych z transifexa"
+	Set-Location "$PSScriptRoot\ck3transifex\"
 	if(!$DEBUG_MODE) { 
-		Start-Process "$PSScriptRoot\ck3transifex\pull_translations_from_transifex.bat" -WorkingDirectory "$PSScriptRoot\ck3transifex\"  -Wait 
+		./tx.exe pull --all --force --parallel
 	}
+	$dls = Get-Location
+	if($PARSE_FILES)
+	{
+		Write-Host "Parsowanie plików lokalizacyjnych..."
+		Get-ChildItem -Path "$dls\pliki\pl\" -Recurse -Directory -Force -ErrorAction SilentlyContinue | Select-Object FullName | ForEach-Object {
+			$pl_name = $_.FullName
+			$en_name = $_.FullName -replace "\\pl\\","\en\"
+			$supply = $en_name -replace "\\pliki\\en\\", "\temp\supply\"
+			java -jar "tools\LocaleParser\bin\LocaleParser-0.1.11-SNAPSHOT.jar" "folder_supply" "$pl_name" "$en_name" "$supply" yaml
+		}				
+			Write-Host "Kompilowanie plików lokalizacyjnych..."
+			Get-ChildItem -Path "$dls\temp\supply\" -Recurse -Directory -Force -ErrorAction SilentlyContinue | Select-Object FullName | ForEach-Object {
+			$o_name = $_.FullName
+			$dest = $o_name -replace "\\temp\\supply\\", "\temp\ck3\"
+			java -jar "tools\LocaleParser\bin\LocaleParser-0.1.11-SNAPSHOT.jar" "folder_to_eu4" "$o_name" "$dest" "empty"
+		}	
+	}
+	Write-Host "Kopiowanie gotowych plików z transifexa do folderu tymczasowego..."
+	Copy-item -Force -Recurse "temp/ck3/*" -Destination "Spolszczenie_CK3/"
+	Remove-Item -Path "$PSScriptRoot\ck3transifex\temp" –recurse -force
+	
+	
+	
+	Set-Location $script_folder
+	
 	
 	Get-ChildItem $TRANSIFEX_COMPILED_FILES -Recurse -Filter "*.yml" | ForEach-Object { 
 			(Get-Content $_.FullName) -replace $str_article_to_find_2, $str_article_to_replace  | Set-Content -Encoding UTF8 $_.FullName
@@ -184,27 +234,8 @@ remote_file_id="'+$REMOTE_FILE_ID+'"'
 	
 	(Get-Content $common_l) -replace $version_search_string, $version_replace_string  | Set-Content -Encoding UTF8 $common_l
 	
-	<# if(($OLD_MOD_VERSION -ne $MOD_VERSION) -And $ask_to_version_update)
-	{
-		if(!($auto_version_increase_in_file)) {
-			
-			$mContinue = new-object -comobject wscript.shell 
-			$intAnswer = $mContinue.popup("Nadpisać wersję w pliku?", 0,"Nowa wersja", 4) 
-			If ($intAnswer -eq 6) { 
-				Write-host "Aktualizacja wersji w pliku version..."
-				Set-Content -NoNewline -Path "$PSScriptRoot\version" -Value $MOD_VERSION
-				
-				#Update-VersionOnGithub
-			}
-		} else {
-			Write-host "Aktualizacja wersji w pliku version..."
-			Set-Content -NoNewline -Path "$PSScriptRoot\version" -Value $MOD_VERSION
-			
-			#Update-VersionOnGithub
-		}
-	} #>
 	
-	if($AUTO_CPY_TO_CK3_MOD_FOLDER) {
+	if($AUTO_CPY_TO_CK3_MOD_FOLDER -Or $SKIP_ALL) {
 		Write-Host "Kopiowanie moda do $CK3_MOD_FOLDER"
 		Copy-item -Force -Recurse ($MOD_FOLDER + "\*") -Destination $CK3_MOD_FOLDER
 	} elseif($ASK_TO_CPY_TO_MOD_FOLDER) {
@@ -219,13 +250,30 @@ remote_file_id="'+$REMOTE_FILE_ID+'"'
 	}
 	
 }
+function Sleep-WithBar($seconds) {
+    $doneDT = (Get-Date).AddSeconds($seconds)
+    while($doneDT -gt (Get-Date)) {
+        $secondsLeft = $doneDT.Subtract((Get-Date)).TotalSeconds
+        $percent = ($seconds - $secondsLeft) / $seconds * 100
+        Write-Progress -Activity "Ponowne uruchamianie skryptu.." -Status " " -SecondsRemaining $secondsLeft -PercentComplete $percent
+        [System.Threading.Thread]::Sleep(500)
+    } 
+    Write-Progress -Activity "Ponowne uruchamianie skryptu.." -Status " " -SecondsRemaining 0 -Completed
+}
 
 function Check-Version {
+	
+	
+	
+	
 	if($version_on_github -ne $SCRIPT_VERSION) {
 		Write-Host "Na githubie znajdują się nowsze pliki. Pobierz ponownie pliki, aby posiadać aktualne zmiany w custom_loc i skryptach." -ForegroundColor red -BackgroundColor white
-		$mAskObj = new-object -comobject wscript.shell 
-		$intAnswerCpy = $mAskObj.popup("Zaktualizować pliki automatycznie?", 0,"Update", 4) 
-		if($intAnswerCpy -eq 6) { 
+		
+		if(!$AUTO_UPDATE) {
+			$mAskObj = new-object -comobject wscript.shell 
+			$intAnswerCpy = $mAskObj.popup("Zaktualizować pliki automatycznie?", 0,"Update", 4) 
+		}
+		if($intAnswerCpy -eq 6 -Or $AUTO_UPDATE) { 
 			Write-Host "Aktualizacja plików..."
 			Write-Host "Pobieranie plików z github..."
 			
@@ -242,7 +290,12 @@ function Check-Version {
 			Remove-Item -Path "$parentScriptDir\CK3PLCustomAddons-main" -recurse -force
 			
 			Write-Host "Skrypt zostanie uruchomiony ponownie!"
-			Read-Host -Prompt "Kliknij enter, aby uruchomić ponownie skrypt"
+			if(!$AUTO_UPDATE) {
+			
+				Read-Host -Prompt "Kliknij enter, aby uruchomić ponownie skrypt"
+			} else {
+				Sleep-WithBar(10)
+			}
 			& ($PSScriptRoot+"\pack_to_mod.ps1")
 			exit
 		} else {
@@ -256,12 +309,16 @@ Domyślne wartości są podane w nawiasach kwadratowych.
 Wersja moda generowana jest automatycznie. Jeśli chcesz to wyłączyć zmień zmienną w skrypcie.
 
 Wersja moda jest pobierana z najnowszego wydania na githubie, a nowa wersja jest automatycznie podnoszona..
+
 "
+
+Write-Host "Jeśli chcesz, aby skrypt wykonywał się automatycznie pomijając pytania zmień opcję SKIP_ALL w skrypcie na 1
+
+" -ForegroundColor yellow
 
 
 Check-Version
-
 Start-Config
-
-Read-Host -Prompt "Kliknij enter, aby wyjść"
-
+if(!$AUTO_EXIT) {
+	Read-Host -Prompt "Kliknij enter, aby wyjść"
+}
