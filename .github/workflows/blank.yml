@@ -1,0 +1,6 @@
+- uses: dev-drprasad/delete-older-releases@v0.1.0
+  with:
+    repo: Niukron/Crusader-Kings-3-Spolszczenie
+    keep_latest: 5
+  env:
+    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
