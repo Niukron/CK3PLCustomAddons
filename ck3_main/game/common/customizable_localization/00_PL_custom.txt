@@ -3217,6 +3217,17 @@ TitleRankAdjConcept = {
 TitleAdj = {
 
 	type = landed_title
+	
+	text = {
+		trigger = {			
+			OR = {
+				this = title:k_east_francia
+				this = title:k_france
+			}
+		}
+		
+		localization_key = title_francia
+	}
 
 	text = {
 
