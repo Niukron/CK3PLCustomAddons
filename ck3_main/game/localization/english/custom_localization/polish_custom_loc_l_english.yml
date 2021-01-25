@@ -294,6 +294,8 @@ relation_acquaintance_male_vocative:0 "znajomy"
  b_vaticano_adj:0 "Watykanu"
  b_santiago_adj:0 "Santiago"
  b_canterbury_adj:0 "Canterbury"
+ 
+ d_wielkopolska_adj:0 "Wielkopolski"
 
  TwinDaughtersSonsChildren_With_Num_relation_daughters:0 "dwie bliźniaczki"
  TwinDaughtersSonsChildren_With_Num_relation_sons:0 "dwóch bliźniaków"
