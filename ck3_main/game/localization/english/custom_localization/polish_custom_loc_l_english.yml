@@ -311,8 +311,8 @@ relation_acquaintance_male_vocative:0 "znajomy"
  game_concept_kingdom_pos:0 "[Concept( 'kingdom', 'królestwa' )|E]"
  game_concept_empire_pos:0 "[Concept( 'empire', 'imperium' )|E]"
  
- title_adj:0 "#T [ROOT.Title.GetTierAsNameNoTooltip|U] [Select_CString(EqualTo_string(ROOT.Title.GetNameNoTierNoTooltip,ROOT.Title.GetHolder.GetHouse.GetBaseNameNoTooltip), Concatenate('dynastii ', ROOT.Title.GetHolder.GetHouse.GetBaseNameNoTooltip), ROOT.Title.GetAdjectiveNoTooltip)]#!"
- title_adj_fallback:0 "#T [ROOT.Title.GetNameNoTooltip|U]#!"
+ title_adj:0 "[ROOT.Title.GetTierAsNameNoTooltip|U] [Select_CString(EqualTo_string(ROOT.Title.GetNameNoTierNoTooltip,ROOT.Title.GetHolder.GetHouse.GetBaseNameNoTooltip), Concatenate('dynastii ', ROOT.Title.GetHolder.GetHouse.GetBaseNameNoTooltip), ROOT.Title.GetAdjectiveNoTooltip)]"
+ title_adj_fallback:0 "[ROOT.Title.GetNameNoTooltip|U]"
  
 
 
