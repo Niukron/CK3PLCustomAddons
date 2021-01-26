@@ -3226,7 +3226,7 @@ TitleAdj = {
 			}
 		}
 		
-		localization_key = title_francia
+		localization_key = title_francia_notooltip
 	}
 
 	text = {
@@ -3291,12 +3291,12 @@ TitleAdj = {
 			}
 		}
 
-		localization_key = title_adj
+		localization_key = title_adj_all_notooltip
 	}
 
 	text = {
 
-		localization_key = title_adj_fallback
+		localization_key = title_adj_fallback_notooltip
 		fallback = yes
 
 	}
