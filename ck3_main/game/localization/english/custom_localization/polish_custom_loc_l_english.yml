@@ -339,5 +339,8 @@ relation_acquaintance_male_vocative:0 "znajomy"
  CURRENT_SPEED_TEXT_8:0 "normalną"
  CURRENT_SPEED_TEXT_9:0 "szybką"
  CURRENT_SPEED_TEXT_10:0 "najszybszą"
+ 
+ cv_realm_gov_type_barony:0 "([ROOT.Char.GetGovernment.GetName|l])"
+ cv_realm_gov_type:0 "[ROOT.Char.GetGovernment.GetAdjective]"
 
 
