@@ -318,6 +318,11 @@ relation_acquaintance_male_vocative:0 "znajomy"
  title_adj_fallback:0 "[ROOT.Title.GetNameNoTooltip|U]"
  character_window_title:0 "[Title.Custom('TitleAdj')|U]"
  
-
+ #Prędkość gry
+ CURRENT_SPEED_TEXT_6:0 "najwolniejszą"
+ CURRENT_SPEED_TEXT_7:0 "wolną"
+ CURRENT_SPEED_TEXT_8:0 "normalną"
+ CURRENT_SPEED_TEXT_9:0 "szybką"
+ CURRENT_SPEED_TEXT_10:0 "najszybszą"
 
 
