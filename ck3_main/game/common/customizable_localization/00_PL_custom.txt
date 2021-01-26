@@ -3214,7 +3214,7 @@ TitleRankAdjConcept = {
 
 
 
-TitleAdj = {
+TitleAdjNoTooltip = {
 
 	type = landed_title
 	
