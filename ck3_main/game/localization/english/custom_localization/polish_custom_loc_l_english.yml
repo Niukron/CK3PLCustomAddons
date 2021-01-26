@@ -342,7 +342,7 @@ relation_acquaintance_male_vocative:0 "znajomy"
  title_adj_all_notooltip:0 "[ROOT.Title.GetTierAsNameNoTooltip|U] [Select_CString(EqualTo_string(ROOT.Title.GetNameNoTierNoTooltip,ROOT.Title.GetHolder.GetHouse.GetBaseNameNoTooltip), Concatenate('dynastii ', ROOT.Title.GetHolder.GetHouse.GetBaseNameNoTooltip), ROOT.Title.GetAdjectiveNoTooltip)] #D \n[ROOT.Title.GetNameNoTooltip|U]#!"
  title_francia_notooltip:0 "[Select_CString(EqualTo_string(ROOT.Title.GetNameNoTierNoTooltip, '$k_france$'), '$kingdom$ $k_france_adj$', ROOT.Title.GetNameNoTierNoTooltip )] #D \n[ROOT.Title.GetNameNoTooltip|U]#!"
  title_adj_fallback_notooltip:0 "[ROOT.Title.GetNameNoTooltip|U]"
- title_adj_notooltip:0 "[Title.Custom('TitleAdj')|U]"
+ title_adj_notooltip:0 "[Title.Custom('TitleAdjNoTooltip')|U]"
  
  title_adj_all:0 "[ROOT.Title.GetTierAsName|U] [Select_CString(EqualTo_string(ROOT.Title.GetNameNoTierNoTooltip,ROOT.Title.GetHolder.GetHouse.GetBaseNameNoTooltip), Concatenate('dynastii ', ROOT.Title.GetHolder.GetHouse.GetBaseNameNoTooltip), ROOT.Title.GetAdjective)] #D \n[ROOT.Title.GetNameNoTooltip|U]#!"
  title_francia:0 "[Select_CString(EqualTo_string(ROOT.Title.GetNameNoTierNoTooltip, '$k_france$'), '$kingdom$ $k_france_adj$', ROOT.Title.GetNameNoTier )] #D \n[ROOT.Title.GetNameNoTooltip|U]#!"
