@@ -3305,5 +3305,23 @@ TitleAdj = {
 }
 
 
+RealmTierType = {
+	type = character
+
+	text = {
+		trigger = {
+			primary_title.tier = tier_barony
+		}
+		localization_key = cv_realm_gov_type_barony
+	}
+
+    text = {
+		fallback = yes
+		localization_key = cv_realm_gov_type
+	}
+
+}
+
+
 
 
