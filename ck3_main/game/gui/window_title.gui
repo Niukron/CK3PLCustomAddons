@@ -570,7 +570,7 @@ window = {
 					text_single = {
 						layoutpolicy_horizontal = expanding
 						### ZMIANA ###
-						text = "[Title.GetName]"
+						text = "title_adj"
 					}
 				}
 
