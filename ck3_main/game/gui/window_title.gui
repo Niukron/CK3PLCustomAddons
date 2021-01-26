@@ -128,7 +128,7 @@ window = {
 									### ZMIANA ###
 									text_single = {
 										#text = "[TitleViewWindow.GetTitle.GetNameNoTooltip|U]"
-										text = "[TitleViewWindow.GetTitle.Custom('TitleAdj')|U]"
+										text = "title_adj_notooltip"
 										default_format = "#high"
 										max_width = 325
 										#using = Font_Size_Big
@@ -453,7 +453,7 @@ window = {
 															layoutpolicy_horizontal = expanding
 															### ZMIANA ###
 															#text = "[Title.GetNameNoTooltip|U]"
-															text = "[Title.Custom('TitleAdj')|U]"
+															text = "title_adj_notooltip"
 															default_format = "#high"
 															margin = { 10 0 }
 															max_width = 1000
@@ -570,8 +570,7 @@ window = {
 					text_single = {
 						layoutpolicy_horizontal = expanding
 						### ZMIANA ###
-						#text = "[Title.GetName]"
-						text = "[Title.Custom('TitleAdj')]"
+						text = "[Title.GetName]"
 					}
 				}
 
