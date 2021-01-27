@@ -3231,7 +3231,8 @@ TitleAdjNoTooltip = {
 
 	text = {
 
-		trigger = {			
+		trigger = {
+			tier > tier_barony
 			NOR = { 
 
 					this = title:k_papal_state
@@ -3323,7 +3324,8 @@ TitleAdj = {
 
 	text = {
 
-		trigger = {			
+		trigger = {
+			tier > tier_barony
 			NOR = { 
 
 					this = title:k_papal_state
