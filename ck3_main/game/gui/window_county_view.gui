@@ -874,7 +874,9 @@ window = {
 						ignoreinvisible = yes
 
 						text_label_left = {
-							text = "[HoldingView.GetHoldingDesc]"
+							### ZMIANA ###
+							#text = "[HoldingView.GetHoldingDesc]"
+							text = "[HoldingView.GetProvince.Custom('HoldingTypeAdj')]"
 						}
 					}
 
