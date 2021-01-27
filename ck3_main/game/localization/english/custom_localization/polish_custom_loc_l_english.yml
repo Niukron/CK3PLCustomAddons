@@ -323,7 +323,7 @@ relation_acquaintance_male_vocative:0 "znajomy"
  c_kevrola_adj:0 "Kiewroły"
  d_biarmia_adj:0 "Biarmii"
  d_east_franconia_adj:0 "Wschodniej Frankonii"
- d_west_franconia:0 "Zachodniej Frankonii"
+ d_west_franconia_adj:0 "Zachodniej Frankonii"
 
  TwinDaughtersSonsChildren_With_Num_relation_daughters:0 "dwie bliźniaczki"
  TwinDaughtersSonsChildren_With_Num_relation_sons:0 "dwóch bliźniaków"
