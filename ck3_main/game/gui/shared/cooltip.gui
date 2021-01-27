@@ -756,7 +756,9 @@ types GameTooltipTypes
 						text_single = {
 							name = "character_title"
 							layoutpolicy_horizontal = expanding
-							text = "[Character.GetPrimaryTitle.GetNameNoTooltip|U]"
+							### ZMIANA ###
+							#text = "[Character.GetPrimaryTitle.GetNameNoTooltip|U]"
+							text = "[Character.GetPrimaryTitle.Custom('TitleAdjNoTooltip')|U]"
 							default_format = "#medium"
 							using = Font_Size_Medium
 						}
@@ -2584,7 +2586,9 @@ template LandedTitleTooltipTextLink {
 template LandedTitleTooltipNoClickInfo {
 	object_tooltip_pop_out = {
 		blockoverride "title_text" {
-			text = "[Title.GetNameNoTooltip]"
+			### ZMIANA ###
+			#text = "[Title.GetNameNoTooltip]"
+			text = "title_adj_notooltip"
 		}
 
 		blockoverride "concept_link" {
