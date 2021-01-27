@@ -83,7 +83,9 @@ window = {
 
 					text_single = {
 						layoutpolicy_horizontal = expanding
-						text = "[HoldingView.GetCountyTitle.GetNameNoTooltip]"
+						### ZMIANA ###
+						#text = "[HoldingView.GetCountyTitle.GetNameNoTooltip]"
+						text = "[HoldingView.GetCountyTitle.Custom('TitleAdjNoTooltip')]"
 						margin_bottom = 4
 						using = Font_Size_Big
 						font = TitleFont
