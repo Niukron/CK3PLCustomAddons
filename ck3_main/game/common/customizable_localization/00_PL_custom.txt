@@ -3408,6 +3408,13 @@ RealmTierType = {
 		}
 		localization_key = cv_realm_gov_type_barony
 	}
+	
+	text = {
+		trigger = {
+			is_alive = no
+		}
+		localization_key = cv_realm_gov_type_dead
+	}
 
     text = {
 		fallback = yes
