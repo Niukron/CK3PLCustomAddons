@@ -1849,7 +1849,9 @@ window = {
 
 										text_single = {
 											layoutpolicy_horizontal = expanding
-											text = "[GUITrackItem.GetBuildingTypeText]"
+											### ZMIANA ###
+											#text = "[GUITrackItem.GetBuildingTypeText]"
+											text = "holding_view_building_type_concept"
 										}
 
 										building_in_vassal_warning_hbox = {
