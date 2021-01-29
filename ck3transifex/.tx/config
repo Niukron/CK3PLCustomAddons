@@ -3605,3 +3605,10 @@ minimum_perc = 0
 source_file = pliki/en/clausewitz/localization/text_utils/cw_text_utils_l_english.yml
 source_lang = en
 type = YAML_GENERIC
+
+[spolszczeniev2.polish_b_adj_custom_loc_l_englishyml_custompl]
+file_filter = custom_text/<lang>/polish_b_adj_custom_loc_l_english.yml
+minimum_perc = 0
+source_file = custom_text/en/polish_b_adj_custom_loc_l_english.yml
+source_lang = en
+type = YAML_GENERIC
