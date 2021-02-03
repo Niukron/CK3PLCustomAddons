@@ -1,4 +1,4 @@
-﻿
+﻿$PSDefaultParameterValues['Out-File:Encoding'] = 'utf8'
 
 # Pomija wszystkie zapytania i skrypt wykonuje się automatycznie kopiując pliki do folderu mod w grze
 $SKIP_ALL = 0
@@ -160,7 +160,8 @@ function Create-Mod {
 			$o_name = $_.FullName
 			$dest = $o_name -replace "\\temp\\supply\\", "\temp\ck3\"
 			java -jar "tools\LocaleParser\bin\LocaleParser-0.1.11-SNAPSHOT.jar" "folder_to_eu4" "$o_name" "$dest" "empty"
-		}	
+		}
+		java -jar "tools/LocaleParser/bin/LocaleParser-0.1.11-SNAPSHOT.jar" "folder_to_eu4" "$dls\custom_text\pl\" "$PSScriptRoot\ck3_main\game\localization\english\custom_localization\" "empty"		
 	}
 	Write-Host "Kopiowanie gotowych plików z transifexa do folderu tymczasowego..."
 	Copy-item -Force -Recurse "temp/ck3/*" -Destination "Spolszczenie_CK3/"
@@ -176,6 +177,14 @@ function Create-Mod {
 			(Get-Content $_.FullName) -replace $str_article_to_find, $str_article_to_replace  | Set-Content -Encoding UTF8 $_.FullName
 			Write-Host "Usuwanie przedimka 'the' z pliku: " $_.Name
 	}
+	
+	
+	# USUWANIE PUSTYCH STRINGÓW Z CUSTOM LOC _adj
+	$custom_path = "$PSScriptRoot\ck3_main\game\localization\english\custom_localization\polish_b_adj_custom_loc_l_english.yml"
+	(Get-Content $custom_path) -replace  ' [a-z|_|0-9|-]*:0 ""', '' | Set-Content -Encoding UTF8 $custom_path
+	(gc $custom_path) | ? {$_.trim() -ne "" } | Set-Content -Encoding UTF8 $custom_path
+	
+	
 	Write-Host "Dodawanie wersji do pliku common_l_english.yml"
 	
 	

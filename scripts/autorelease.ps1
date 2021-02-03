@@ -1,7 +1,12 @@
 
+# Skrypt przygotowany dla DEBIAN 10
+
+
+
 #DEBUG OPTIONS
 $TX_PULL = 1
 $PARSE_FILES = 1
+$RELEASE_DEBUG = 0
 
 $github_latest_release_info = Invoke-RestMethod https://api.github.com/repos/Niukron/Crusader-Kings-3-Spolszczenie/releases/latest
 Set-Location -Path /home/sammy/CK3SpolszczenieSkrypty/
@@ -50,31 +55,39 @@ $version_on_github = Invoke-RestMethod https://raw.githubusercontent.com/Niukron
 $ask_to_version_update = 0
 
 function Github-Release {
-	Write-Host "Kopiowanie plików moda do folderu repozytorium..."
-	Copy-item -Force -Recurse "/home/sammy/CK3SpolszczenieSkrypty/CK3PLCustomAddons/ck3_files_to_release/*" -Destination "/home/sammy/CK3SpolszczenieSkrypty/Crusader-Kings-3-Spolszczenie/"
-	Set-Location -Path /home/sammy/CK3SpolszczenieSkrypty/Crusader-Kings-3-Spolszczenie/
-	$comment = "Update v$MOD_VERSION-daily"
-	git commit -a -m $comment
-	git push -f https://5b953ce83317938f4da109203dd16b036bf5f334@github.com/Niukron/Crusader-Kings-3-Spolszczenie.git --all
-	Write-Host "Tworzenie paczki release..."
 	
-	
-	$tag_version = "v"+$MOD_VERSION+"-daily"
+		Write-Host "Kopiowanie plików moda do folderu repozytorium..."
+		Copy-item -Force -Recurse "/home/sammy/CK3SpolszczenieSkrypty/CK3PLCustomAddons/ck3_files_to_release/*" -Destination "/home/sammy/CK3SpolszczenieSkrypty/Crusader-Kings-3-Spolszczenie/"
+		Set-Location -Path /home/sammy/CK3SpolszczenieSkrypty/Crusader-Kings-3-Spolszczenie/
+	if(!$RELEASE_DEBUG) {
+		git add .
+		$comment = "Update v$MOD_VERSION-daily"
+		git commit -a -m $comment
+		#UZUPEŁNIĆ TOKEN
+		git push -f https://TOKEN@github.com/Niukron/Crusader-Kings-3-Spolszczenie.git --all
+		Write-Host "Tworzenie paczki release..."
+		
+		
+		$tag_version = "v"+$MOD_VERSION+"-daily"
 
-	$postParams = '{"tag_name":"'+$tag_version+'","name":"Crusader Kings III Spolszczenie", "body":"**UWAGA: Jest to codzienna aktualizacja, która nie jest dogłębnie sprawdzana pod kątem zawartości błędów.\r\n*Aby doświadczyć stabilnej rozgrywki, proszę zaczekać na cotygodniową aktualizację, która wydawana jest w każdy piątek około godziny 18:00***"}'
-	
-	Invoke-WebRequest -Uri https://api.github.com/repos/Niukron/Crusader-Kings-3-Spolszczenie/releases?access_token=5b953ce83317938f4da109203dd16b036bf5f334 -Method POST -ContentType 'application/json; charset=utf-8' -Body $postParams 
-	
-	Write-Host "Wersja $tag_version została wydana..."
-	
+		$postParams = '{"tag_name":"'+$tag_version+'","name":"Crusader Kings III Spolszczenie", "body":"**UWAGA: Jest to codzienna aktualizacja, która nie jest dogłębnie sprawdzana pod kątem zawartości błędów.\r\n*Aby doświadczyć stabilnej rozgrywki, proszę zaczekać na cotygodniową aktualizację, która wydawana jest w każdy piątek około godziny 18:00***"}'
+		#UZUPEŁNIĆ TOKEN
+		Invoke-WebRequest -Uri https://api.github.com/repos/Niukron/Crusader-Kings-3-Spolszczenie/releases?access_token=TOKEN -Method POST -ContentType 'application/json; charset=utf-8' -Body $postParams 
+		
+		Write-Host "Wersja $tag_version została wydana..."
+	} else {
+		Write-Host "Pominięto wydanie, tryb debugowania włączony"
+	}
 }
 
 function Start-Config {
 	
 	Set-Location -Path /home/sammy/CK3SpolszczenieSkrypty/CK3PLCustomAddons/
-	git pull 
+	git reset --hard
+	git pull
 	Set-Location -Path /home/sammy/CK3SpolszczenieSkrypty/Crusader-Kings-3-Spolszczenie/
-	git pull 
+	git reset --hard
+	git pull
 	Set-Location -Path /home/sammy/CK3SpolszczenieSkrypty/CK3PLCustomAddons/
 	$github_latest_release_info = Invoke-RestMethod https://api.github.com/repos/Niukron/Crusader-Kings-3-Spolszczenie/releases/latest
 	$github_latest_release_info.tag_name -match "v(\d+\.)?(\d+\.)?(\*|\d+)"
@@ -103,8 +116,8 @@ function Create-Mod {
 		Set-Location /home/sammy/CK3SpolszczenieSkrypty/CK3PLCustomAddons/ck3transifex/
 		if($TX_PULL) {
 			Write-Host "Pobieranie danych z transifexa"
-			tx pull --all --force --parallel
-		}
+			/usr/local/bin/tx pull --all --force --parallel
+		} 
 		if($PARSE_FILES)
 		{
 			Write-Host "Parsowanie plików lokalizacyjnych..."
@@ -112,14 +125,16 @@ function Create-Mod {
 				$pl_name = $_.FullName
 				$en_name = $_.FullName -replace "/pl/","/en/"
 				$supply = $en_name -replace "/home/sammy/CK3SpolszczenieSkrypty/CK3PLCustomAddons/ck3transifex/pliki/en/", "temp/supply/"
-				java -jar "tools/LocaleParser/bin/LocaleParser-0.1.11-SNAPSHOT.jar" "folder_supply" "$pl_name" "$en_name" "$supply" yaml
-			}				
+				/home/sammy/.linuxbrew/Cellar/adoptopenjdk/1.8.0.242/bin/java -jar "tools/LocaleParser/bin/LocaleParser-0.1.11-SNAPSHOT.jar" "folder_supply" "$pl_name" "$en_name" "$supply" yaml
+				/home/sammy/.linuxbrew/Cellar/adoptopenjdk/1.8.0.242/bin/java -jar "tools/LocaleParser/bin/LocaleParser-0.1.11-SNAPSHOT.jar" "folder_supply" "$pl_name" "$en_name" "$supply" yaml
+			}
 			Write-Host "Kompilowanie plików lokalizacyjnych..."
 			Get-ChildItem -Path /home/sammy/CK3SpolszczenieSkrypty/CK3PLCustomAddons/ck3transifex/temp/supply/ -Recurse -Directory -Force -ErrorAction SilentlyContinue | Select-Object FullName | ForEach-Object {
 				$o_name = $_.FullName
 				$dest = $o_name -replace "/home/sammy/CK3SpolszczenieSkrypty/CK3PLCustomAddons/ck3transifex/temp/supply/", "temp/ck3/"
-				java -jar "tools/LocaleParser/bin/LocaleParser-0.1.11-SNAPSHOT.jar" "folder_to_eu4" "$o_name" "$dest" "empty"
-			}	
+				/home/sammy/.linuxbrew/Cellar/adoptopenjdk/1.8.0.242/bin/java -jar "tools/LocaleParser/bin/LocaleParser-0.1.11-SNAPSHOT.jar" "folder_to_eu4" "$o_name" "$dest" "empty"
+			}
+			/home/sammy/.linuxbrew/Cellar/adoptopenjdk/1.8.0.242/bin/java -jar "tools/LocaleParser/bin/LocaleParser-0.1.11-SNAPSHOT.jar" "folder_to_eu4" "/home/sammy/CK3SpolszczenieSkrypty/CK3PLCustomAddons/ck3transifex/custom_text/pl/" "/home/sammy/CK3SpolszczenieSkrypty/CK3PLCustomAddons/ck3_main/game/localization/english/custom_localization/" "empty"
 		}
 		Write-Host "Kopiowanie gotowych plików z transifexa do folderu tymczasowego..."
 		Copy-item -Force -Recurse "/home/sammy/CK3SpolszczenieSkrypty/CK3PLCustomAddons/ck3transifex/temp/ck3/*" -Destination "/home/sammy/CK3SpolszczenieSkrypty/CK3PLCustomAddons/ck3transifex/Spolszczenie_CK3/"
@@ -135,6 +150,12 @@ function Create-Mod {
 			(Get-Content $_.FullName) -replace $str_article_to_find, $str_article_to_replace  | Set-Content -Encoding utf8BOM $_.FullName
 			Write-Host "Usuwanie przedimka 'the' z pliku: " $_.Name
 	}
+	
+	# USUWANIE PUSTYCH STRINGÓW Z CUSTOM LOC _adj
+	$custom_path = '/home/sammy/CK3SpolszczenieSkrypty/CK3PLCustomAddons/ck3_main/game/localization/english/custom_localization/polish_b_adj_custom_loc_l_english.yml'
+	(Get-Content $custom_path) -replace  ' [a-z|_|0-9|-]*:0 ""', '' | Set-Content -Encoding utf8BOM $custom_path
+	(gc $custom_path) | ? {$_.trim() -ne "" } | Set-Content -Encoding utf8BOM $custom_path
+	
 	
 	Write-Host "Kopiowanie plików spolszczenia do moda"
 	
@@ -177,6 +198,18 @@ remote_file_id="'+$REMOTE_FILE_ID+'"'
 	Copy-item -Force -Recurse ($ModDir + '/localization/replace/game/localization/english') -Destination $ModDir_YML
 	Copy-item -Force ($ModDir + '/localization/replace/game/localization/languages.yml') -Destination ($ModDir + '/localization/')
 	Remove-Item -Path ($ModDir + '/localization/replace/game') –recurse -force
+	
+	$daily = ""
+	
+	if((get-date).dayofweek -ne "Friday") {
+		$daily = "-daily"
+	}
+	
+	$version_search_string = '\[GetGameVersionInfo\]'
+	$version_replace_string = '[GetGameVersionInfo]\nWersja spolszczenia: #bold v'+$MOD_VERSION+$daily+'#!'
+	$common_l = $ModDir_YML+'/english/gui/common_l_english.yml'
+	
+	(Get-Content $common_l) -replace $version_search_string, $version_replace_string  | Set-Content -Encoding utf8BOM $common_l
 	
 	Github-Release
 }
