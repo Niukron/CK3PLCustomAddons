@@ -283,14 +283,6 @@ relation_acquaintance_male_vocative:0 "znajomy"
 
  #Dodając _adj do tytułu można dodać odmianę jeśli nie istnieje.
  
- #Baronie
- 
- b_cologne_adj:0 "Kolonii"
- b_jerusalem_adj:0 "Jerozolimy"
- b_vaticano_adj:0 "Watykanu"
- b_santiago_adj:0 "Santiago"
- b_canterbury_adj:0 "Canterbury"
- 
  #Księstwa i hrabstwa
  
  d_wielkopolska_adj:0 "Wielkopolski"
@@ -324,6 +316,7 @@ relation_acquaintance_male_vocative:0 "znajomy"
  d_biarmia_adj:0 "Biarmii"
  d_east_franconia_adj:0 "Wschodniej Frankonii"
  d_west_franconia_adj:0 "Zachodniej Frankonii"
+ c_branicevo_adj:0 "Braniczewa"
 
  TwinDaughtersSonsChildren_With_Num_relation_daughters:0 "dwie bliźniaczki"
  TwinDaughtersSonsChildren_With_Num_relation_sons:0 "dwóch bliźniaków"
