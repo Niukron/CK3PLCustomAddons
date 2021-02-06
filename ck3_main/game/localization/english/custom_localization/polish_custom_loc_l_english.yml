@@ -354,6 +354,8 @@ relation_acquaintance_male_vocative:0 "znajomy"
  c_constanta_adj:0 "Konstancy"
  c_west_kiilt_adj:0 "Zachodniego Kiiltu"
  c_east_kiilt_adj:0 "Wschodniego Kiiltu"
+ c_modrus_adj:0 "Modruša"
+ c_pozega_adj:0 "Požegi"
 
  TwinDaughtersSonsChildren_With_Num_relation_daughters:0 "dwie bliźniaczki"
  TwinDaughtersSonsChildren_With_Num_relation_sons:0 "dwóch bliźniaków"
