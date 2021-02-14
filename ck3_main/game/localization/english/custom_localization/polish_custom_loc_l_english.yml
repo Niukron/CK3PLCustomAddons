@@ -424,6 +424,12 @@ relation_acquaintance_male_vocative:0 "znajomy"
  CustomLoc_PL_Bogowie:0 "Bogowie"
  CustomLoc_PL_Inne:0 "[CHARACTER.GetFaith.HighGodName]"
  
+ CustomLoc_PL_Boga:0 "Boga"
+ CustomLoc_PL_Doskonalych:0 "Doskonałych"
+ CustomLoc_PL_Niebiosa2:0 "Niebiosa"
+ CustomLoc_PL_Bogow:0 "Bogów"
+ CustomLoc_PL_Inne2:0 "[CHARACTER.GetFaith.HighGodName]"
+ 
  CustomLoc_PL_Cie:0 "cie"
  CustomLoc_PL_Brak:0 ""
 
