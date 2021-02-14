@@ -416,6 +416,15 @@ relation_acquaintance_male_vocative:0 "znajomy"
  
  siege_name_adj:0 "[siege|E] [SiegeWindow.GetSiege.GetProvince.GetTitle.GetAdjectiveNoTooltip|V]"
  
+ #Dewizy
  
+ CustomLoc_PL_Boze:0 "Boże"
+ CustomLoc_PL_Doskonali:0 "Doskonali"
+ CustomLoc_PL_Niebiosa:0 "Niebiosa"
+ CustomLoc_PL_Bogowie:0 "Bogowie"
+ CustomLoc_PL_Inne:0 "[CHARACTER.GetFaith.HighGodName]"
+ 
+ CustomLoc_PL_Cie:0 "cie"
+ CustomLoc_PL_Brak:0 ""
 
 
