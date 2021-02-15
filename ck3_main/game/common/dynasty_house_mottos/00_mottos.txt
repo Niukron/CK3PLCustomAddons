@@ -166,7 +166,7 @@ god_x_me = {
 
 in_my_x_god_y_me = { # In My Defense, God Defend Me
 	insert = noun_immaterial_msc
-	insert = noble_act
+	insert = noble_act_me
 	trigger = {
 		NOT = { has_trait = cynical }
 	}
