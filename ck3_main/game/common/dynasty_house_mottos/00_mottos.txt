@@ -53,8 +53,8 @@ break_your_x_upon_our_y = { # Break your Axe upon our Honor
 }
 
 by_the_x_and_the_y = { # By the Axe and Spear
-	insert = weapon
-	insert = weapon
+	insert = weapon_narz
+	insert = weapon_narz
 	weight = {
 		value = 300
 	}
