@@ -106,6 +106,60 @@ weapon_bier = {
 	}
 }
 
+weapon_your = {
+	sword_word_your = {
+		weight = {
+			value = 3000
+			if = {
+				limit = { NOT = { has_government = tribal_government } }
+				multiply = 5
+			}
+		}
+	}
+	axe_your = {
+		weight = {
+			value = 3000
+			if = {
+				limit = { has_government = tribal_government }
+				multiply = 5
+			}
+		}
+	}
+	spear_your = {
+		weight = {
+			value = 3000
+		}
+	}
+	hammer_your = {
+		weight = {
+			value = 3000
+		}
+	}
+	bow_your = {
+		weight = {
+			value = 3000
+			if = {
+				limit = {
+					OR = {
+						has_culture_group = culture_group:mongolic_group
+						has_culture_group = culture_group:turkic_group
+					}
+				}
+				multiply = 5
+			}
+		}
+	}
+	lance_your = {
+		weight = {
+			value = 1000
+			if = {
+				limit = { NOT = { has_government = tribal_government } }
+				multiply = 3
+			}
+		}
+	}
+}
+
 weapon_mian = {
 	sword_word_mian = {
 		weight = {
