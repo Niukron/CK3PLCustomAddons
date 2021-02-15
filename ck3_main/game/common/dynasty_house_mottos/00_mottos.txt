@@ -193,7 +193,7 @@ i_x = { # I Serve
 }
 
 x_me = { # Serve Me
-	insert = noble_act
+	insert = noble_act_me
 	weight = {
 		value = 200
 	}
