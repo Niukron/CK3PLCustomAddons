@@ -40,7 +40,7 @@ for_our_foes_x_for_our_friends_y = { # For our Foes, the Sword - for our Friends
 }
 
 break_your_x_upon_our_y = { # Break your Axe upon our Honor
-	insert = weapon
+	insert = weapon_your
 	insert = noun_immaterial_mian
 	weight = {
 		value = 400
