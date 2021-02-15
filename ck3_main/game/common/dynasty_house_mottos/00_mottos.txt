@@ -20,7 +20,7 @@ x_under_y_king = { # Wisdom under a Strong King
 
 x_through_y = { # Conquest through the Sword
 	insert = noun_immaterial
-	insert = the_weapon
+	insert = weapon_bier
 	weight = {
 		value = 600
 	}
