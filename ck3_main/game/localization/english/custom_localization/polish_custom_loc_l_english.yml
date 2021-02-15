@@ -447,6 +447,13 @@ relation_acquaintance_male_vocative:0 "znajomy"
  motto_lance_bier:0 "Lancę"
  motto_hammer_bier:0 "Młot"
  
+ motto_sword_word_your:0 "Twój miecz"
+ motto_axe_your:0 "Twój topór"
+ motto_spear_your:0 "Twoją włócznię"
+ motto_bow_your:0 "Twój łuk"
+ motto_lance_your:0 "Twoją lancę"
+ motto_hammer_your:0 "Twój młot"
+ 
  motto_sword_word_mian:0 "Miecz jest silniejszy"
  motto_axe_mian:0 "Topór jest silniejszy"
  motto_spear_mian:0 "Włócznia jest silniejsza"
