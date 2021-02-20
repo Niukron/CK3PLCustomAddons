@@ -1,4 +1,4 @@
-﻿VenomousCreature_adj = {
+﻿VenomousCreatureAdj = {
 	type = character
 
 	text = {
