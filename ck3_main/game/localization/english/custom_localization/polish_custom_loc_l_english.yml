@@ -724,6 +724,20 @@ relation_acquaintance_male_vocative:0 "znajomy"
  venomous_creature_snake_adj:0 "węża"
  venomous_creature_beaked_mammal_adj:0 "dziobaka australijskiego"
  
+ venomous_creature_rare_spider_adj1:0 "zabójczego pająka"
+ venomous_creature_deathstalker_adj1:0 "żółtego skorpiona"
+ venomous_creature_red_scorpion_adj1:0 "czerwonego skorpiona"
+ venomous_creature_fat_tail_adj1:0 "gruboogoniastego skorpiona"
+ venomous_creature_mamba_adj1:0 "mambę"
+ venomous_creature_daboia_adj1:0 "diaboię"
+ venomous_creature_king_cobra_adj1:0 "kobrę królewską"
+ venomous_creature_saw_scale_adj1:0 "żmiję skalistą"
+ venomous_creature_boomslang_adj1:0 "zaskrońca"
+ venomous_creature_krait_ad1:0 "niemrawca indyjskiego"
+ venomous_creature_viper_adj1:0 "żmiję"
+ venomous_creature_snake_adj1:0 "węża"
+ venomous_creature_beaked_mammal_adj1:0 "dziobaka australijskiego"
+ 
  #Odmiana kultur
  
  #Narzędnik
