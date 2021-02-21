@@ -738,7 +738,7 @@
  venomous_creature_snake_adj1:0 "węża"
  venomous_creature_beaked_mammal_adj1:0 "dziobaka australijskiego"
  
- #Odmiana kultur
+ #Odmiana kultur - Działa tylko ze scope dotyczącymi postaci
  
  #Narzędnik
  bedouin_narz:0 "beduińską"
