@@ -1307,3 +1307,649 @@
  asturleonese_mian_m:0 "asturleoński"
  galician_mian_m:0 "galicyjski"
  
+ #Odmiana bóstw - celownik
+ 
+ #Chrześcijaństwo
+ christianity_high_god_cel:0 "Bogu"
+ christianity_creator_god_cel:0 "$christianity_high_god_cel$"
+ christianity_health_god_cel:0 "Jezusowi"
+ christianity_fertility_god_cel:0 "$christianity_high_god_cel$"
+ christianity_wealth_god_cel:0 "$christianity_high_god_cel$"
+ christianity_household_god_cel:0 "$christianity_health_god_cel$"
+ christianity_fate_god_cel:0 "$christianity_high_god_cel$"
+ christianity_knowledge_god_cel:0 "$christianity_high_god_cel$"
+ christianity_war_god_cel:0 "$christianity_high_god_cel$"
+ christianity_trickster_god_cel:0 "Losowi"
+ christianity_night_god_cel:0 "$christianity_high_god_cel$"
+ christianity_water_god_cel:0 "$christianity_health_god_cel$"
+ christianity_witch_god_cel:0 "Rogatemu Bogu"
+ 
+ #Katolicyzm i prawosławie
+ west_christian_fertility_god_name_cel:0 "św. Brygidzie"
+ west_christian_wealth_god_name_cel:0 "św. Mateuszowi"
+ west_christian_household_god_name_cel:0 "św. Józefowi"
+ west_christian_knowledge_god_name_cel:0 "św. Katarzynie"
+ west_christian_war_god_name_cel:0 "św. Jerzemu"
+ west_christian_water_god_name_cel:0 "św. Mikołajowi"
+ 
+ #Koptyzm i ryt ormiański
+ east_christian_health_god_name_cel:0 "św. Samuelowi"
+ east_christian_fertility_god_name_cel:0 "św. Małgorzacie"
+ east_christian_wealth_god_name_cel:0 "św. Mateuszowi"
+ east_christian_household_god_name_cel:0 "św. Józefowi"
+ east_christian_knowledge_god_name_cel:0 "św. Markowi"
+ east_christian_war_god_name_cel:0 "św. Maurycemu"
+ 
+ #Ryt iroszkocki
+ insular_celtic_fertility_god_name_cel:0 "św. Brygidzie"
+ insular_celtic_wealth_god_name_cel:0 "św. Kolumbie"
+ insular_celtic_household_god_name_cel:0 "św. Kiaranowi"
+ insular_celtic_fate_god_name_cel:0 "św. Rodanowi"
+ insular_celtic_knowledge_god_name_cel:0 "św. Finianowi"
+ insular_celtic_war_god_name_cel:0 "św. Kanizjuszowi"
+ insular_celtic_trickster_god_name_cel:0 "św. Patrykowi"
+ insular_celtic_water_god_name_cel:0 "św. Brendanowi"
+ 
+ #Akańska
+ akom_high_god_name_cel:0 "Njame"
+ akom_health_god_name_cel:0 "Asase Jaa"
+ akom_fertility_god_name_cel:0 "Esi Ketewaa"
+ akom_wealth_god_name_cel:0 "Akonediemu"
+ akom_knowledge_god_name_cel:0 "Anansiemu"
+ akom_war_god_name_cel:0 "Adade Kofiemu"
+ akom_night_god_name_cel:0 "Bia"
+ akom_water_god_name_cel:0 "Tano"
+ 
+ #Bałtycka
+ baltic_high_god_name_cel:0 "Deiwasowi"
+ baltic_creator_god_name_cel:0 "$baltic_high_god_name_cel$"
+ baltic_health_god_name_cel:0 "Saulė"
+ baltic_fertility_god_name_cel:0 "$baltic_health_god_name_cel$"
+ baltic_wealth_god_name_cel:0 "Dalii"
+ baltic_household_god_name_cel:0 "Matce Gabii"
+ baltic_fate_god_name_cel:0 "Laimie"
+ baltic_knowledge_god_name_cel:0 "Diewasowi Senelisowi"
+ baltic_war_god_name_cel:0 "Perkunowi"
+ baltic_trickster_god_name_cel:0 "Kaukasowi"
+ baltic_night_god_name_cel:0 "Mēnessowi"
+ baltic_water_god_name_cel:0 "Bangpūtysowi"
+ baltic_witchgod_name_cel:0 "Diewasowi Senelisowi"
+ 
+ #Tybetańska/Bon
+ bon_high_god_name_cel:0 "Sangpo Bumtriemu"
+ bon_creator_god_name_cel:0 "$bon_high_god_name_cel$"
+ bon_health_god_name_cel:0 "Tsewang Rigzinowi"
+ bon_fertility_god_name_cel:0 "Satrig Ersangowi"
+ bon_wealth_god_name_cel:0 "Zamba Lha"
+ bon_household_god_name_cel:0 "Tonpa Szenrabowi"
+ bon_fate_god_name_cel:0 "le"
+ bon_knowledge_god_name_cel:0 "Shenlha Odkarowi"
+ bon_war_god_name_cel:0 "Jesze Łalmo"
+ bon_trickster_god_name_cel:0 "Gialpo Peharowi"
+ bon_night_god_name_cel:0 "Düza Minkarowi"
+ bon_water_god_name_cel:0 "Kunzang Akorowi"
+ bon_witchgod_name_cel:0 "Sidpie Gyalmo"
+ 
+ #Buddyzm
+ buddhism_high_god_name_cel:0 "Siddharcie"
+ buddhism_creator_god_name_cel:0 "Tathagatagarbhie"
+ buddhism_health_god_name_cel:0 "Wirudhace"
+ buddhism_fertility_god_name_cel:0 "$buddhism_health_god_name_cel$"
+ buddhism_wealth_god_name_cel:0 "Wajśrawanie"
+ buddhism_household_god_name_cel:0 "Dhratarasztrze"
+ buddhism_fate_god_name_cel:0 "kammie"
+ buddhism_knowledge_god_name_cel:0 "Wirupakszy"
+ buddhism_war_god_name_cel:0 "$buddhism_household_god_name$"
+ buddhism_trickster_god_name_cel:0 "Marze"
+ buddhism_night_god_name_cel:0 "$buddhism_knowledge_god_name_cel$"
+ buddhism_water_god_name_cel:0 "$buddhism_wealth_god_name_cel$"
+ buddhism_witchgod_name_cel:0 "$buddhism_trickster_god_name_cel$"
+ 
+ #Wadżrajana
+ vajrayana_creator_god_name_cel:0 "Adibuddzie"
+ vajrayana_health_god_name_cel:0 "Hajagriwie"
+ vajrayana_fertility_god_name_cel:0 "Jamantace"
+ vajrayana_wealth_god_name_cel:0 "Wessawanie"
+ vajrayana_household_god_name_cel:0 "Śridewi"
+ vajrayana_knowledge_god_name_cel:0 "Brahmie"
+ vajrayana_war_god_name_cel:0 "Pranie Atmie"
+ vajrayana_night_god_name_cel:0 "Mahakali"
+ vajrayana_water_god_name_cel:0 "Wasudharze"
+ 
+ #Lamaizm/Nang Cz'os
+ lamaism_creator_god_name_cel:0 "Dangpö Sanggyé"
+ lamaism_health_god_name_cel:0 "Hajagriwie"
+ lamaism_fertility_god_name_cel:0 "Dordzie Judrönmie"
+ lamaism_wealth_god_name_cel:0 "Namtöse"
+ lamaism_household_god_name_cel:0 "Palden Lhamo"
+ lamaism_knowledge_god_name_cel:0 "Brahmie"
+ lamaism_war_god_name_cel:0 "Begce"
+ lamaism_night_god_name_cel:0 "Nakpo Cienpo"
+ lamaism_water_god_name_cel:0 "Norgjunmie"
+ lamaism_witchgod_name_cel:0 "Szindże"
+ 
+ #Tanizm
+ tani_high_god_name_cel:0 "Donyi-Polo"
+ tani_creator_god_name_cel:0 "Sediemu"
+ tani_health_god_name_cel:0 "$tani_high_god_name_cel$"
+ tani_fertility_god_name_cel:0 "$tani_high_god_name_cel$"
+ tani_wealth_god_name_cel:0 "$tani_high_god_name_cel$"
+ tani_household_god_name_cel:0 "Abotaniemu"
+ tani_fate_god_name_cel:0 "$tani_high_god_name_cel$"
+ tani_knowledge_god_name_cel:0 "$tani_high_god_name_cel$"
+ tani_war_god_name_cel:0 "$tani_high_god_name_cel$"
+ tani_trickster_god_name_cel:0 "$tani_household_god_name_cel$"
+ tani_night_god_name_cel:0 "$tani_high_god_name_cel$"
+ tani_water_god_name_cel:0 "$tani_high_god_name_cel$"
+ tani_witchgod_name_cel:0 "Szindże"
+ 
+ #Sedyzm
+ sedism_high_god_name_cel:0 "Donyi-Polo"
+ sedism_health_god_name_cel:0 "$sedism_high_god_name_cel$"
+ sedism_wealth_god_name_cel:0 "$sedism_high_god_name_cel$"
+ sedism_war_god_name_cel:0 "$tani_household_god_name_cel$"
+ 
+ #Dualizm
+ dualism_high_god_name_cel:0 "Bogu"
+ dualism_creator_god_name_cel:0 "$dualism_witchgod_name_cel$"
+ dualism_health_god_name_cel:0 "$dualism_high_god_name_cel$"
+ dualism_fertility_god_name_cel:0 "$dualism_high_god_name_cel$"
+ dualism_wealth_god_name_cel:0 "$dualism_high_god_name_cel$"
+ dualism_household_god_name_cel:0 "$dualism_high_god_name_cel$"
+ dualism_fate_god_name_cel:0 "Losowi"
+ dualism_knowledge_god_name_cel:0 "$dualism_high_god_name_cel$"
+ dualism_war_god_name_cel:0 "$dualism_high_god_name_cel$"
+ dualism_trickster_god_name_cel:0 "$christianity_trickster_god_cel$"
+ dualism_night_god_name_cel:0 "$dualism_high_god_name_cel$"
+ dualism_water_god_name_cel:0 "$dualism_high_god_name_cel$"
+ dualism_witchgod_name_cel:0 "Demiurgowi"
+ 
+ #Manicheizm
+ manicheanism_high_god_name_cel:0 "Ojcu Wielkości"
+ manicheanism_creator_god_name_cel:0 "Matce Życia"
+ manicheanism_health_god_name_cel:0 "Żywemu Duchowi"
+ manicheanism_fertility_god_name_cel:0 "$manicheanism_creator_god_name_cel$"
+ manicheanism_wealth_god_name_cel:0 "Wielkiemu Budowniczemu"
+ manicheanism_household_god_name_cel:0 "Królowi Chwały"
+ manicheanism_knowledge_god_name_cel:0 "Wielkiemu Nousowi"
+ manicheanism_war_god_name_cel:0 "Adamasowi Światła"
+ manicheanism_night_god_name_cel:0 "$manicheanism_high_god_name_cel$"
+ manicheanism_water_god_name_cel:0 "Ābowi"
+ manicheanism_witchgod_name_cel:0 "Księciu Ciemności"
+ 
+ #Mandaizm
+ mandeaism_high_god_name_cel:0 "Pierwszemu Światłu"
+ mandeaism_creator_god_name_cel:0 "$mandeaism_witchgod_name_cel$"
+ mandeaism_health_god_name_cel:0 "$mandeaism_high_god_name_cel$"
+ mandeaism_fertility_god_name_cel:0 "$mandeaism_high_god_name_cel$"
+ mandeaism_wealth_god_name_cel:0 "$mandeaism_high_god_name_cel$"
+ mandeaism_household_god_name_cel:0 "$mandeaism_high_god_name_cel$"
+ mandeaism_knowledge_god_name_cel:0 "Janowi Chrzcicielowi"
+ mandeaism_war_god_name_cel:0 "$mandeaism_high_god_name_cel$"
+ mandeaism_night_god_name_cel:0 "$mandeaism_high_god_name_cel$"
+ mandeaism_water_god_name_cel:0 "Jardanowi"
+ mandeaism_witchgod_name_cel:0 "Ptahilowi"
+ 
+ #Sabeizm
+ sabianism_creator_god_name_cel:0 "Szatanowi"
+ 
+ #Walentynianizm
+ valentinianism_high_god_name_cel:0 "Bythosowi"
+ valentinianism_creator_god_name_cel:0 "Sofii"
+ valentinianism_health_god_name_cel:0 "Zoê"
+ valentinianism_fertility_god_name_cel:0 "Agapie"
+ valentinianism_wealth_god_name_cel:0 "Thelêtosowi"
+ valentinianism_household_god_name_cel:0 "Patrikosowi"
+ valentinianism_knowledge_god_name_cel:0 "Synesisowi"
+ valentinianism_war_god_name_cel:0 "Akinêtosowi"
+ valentinianism_trickster_god_name_cel:0 "$valentinianism_creator_god_name_cel$"
+ valentinianism_night_god_name_cel:0 "Ennoji"
+ valentinianism_water_god_name_cel:0 "$valentinianism_creator_god_name_cel$"
+ valentinianism_witchgod_name_cel:0 "Sofii"
+ 
+ #Setianizm
+ sethianism_high_god_name_cel:0 "Barbelo"
+ sethianism_creator_god_name_cel:0 "$sethianism_high_god_name_cel$"
+ sethianism_health_god_name_cel:0 "$sethianism_high_god_name_cel$"
+ sethianism_fertility_god_name_cel:0 "$sethianism_high_god_name_cel$"
+ sethianism_wealth_god_name_cel:0 "$sethianism_high_god_name_cel$"
+ sethianism_household_god_name_cel:0 "$sethianism_high_god_name_cel$"
+ sethianism_knowledge_god_name_cel:0 "$valentinianism_creator_god_name_cel$"
+ sethianism_war_god_name_cel:0 "$sethianism_high_god_name_cel$"
+ sethianism_night_god_name_cel:0 "$sethianism_high_god_name_cel$"
+ sethianism_water_god_name_cel:0 "$sethianism_high_god_name_cel$"
+ sethianism_witchgod_name_cel:0 "Jaldabaotowi"
+ 
+ #Pryscylianizm
+ priscillianism_high_god_name_cel:0 "Bóstwu"
+ 
+ #Kainizm
+ cainitism_knowledge_god_name_cel:0 "Judaszowi"
+ 
+ #Ugrofińska
+ finno_ugric_high_god_name_cel:0 "Ukko"
+ finno_ugric_creator_god_name_cel:0 "$finno_ugric_high_god_name_cel$"
+ finno_ugric_health_god_name_cel:0 "Akce" #Bogini
+ finno_ugric_fertility_god_name_cel:0 "Lempo"
+ finno_ugric_wealth_god_name_cel:0 "Äkräsowi"
+ finno_ugric_household_god_name_cel:0 "$finno_ugric_health_god_name_cel$"
+ finno_ugric_fate_god_name_cel:0 "Raako"
+ finno_ugric_knowledge_god_name_cel:0 "Väinämöinenowi"
+ finno_ugric_war_god_name_cel:0 "Perkele"
+ finno_ugric_trickster_god_name_cel:0 "Menninkäinenowi"
+ finno_ugric_night_god_name_cel:0 "Kuu"
+ finno_ugric_water_god_name_cel:0 "Ahto"
+ finno_ugric_witchgod_name_cel:0 "Paholainenowi"
+ 
+ #Germańska
+ germanic_high_god_name_cel:0 "Odynowi"
+ germanic_creator_god_name_cel:0 "Ymirowi"
+ germanic_health_god_name_cel:0 "Eir" #Bogini
+ germanic_fertility_god_name_cel:0 "Freji" #Bogini
+ germanic_wealth_god_name_cel:0 "Njörðrowi"
+ germanic_household_god_name_cel:0 "Frigg" #Bogini
+ germanic_fate_god_name_cel:0 "Nornom" #Boginie
+ germanic_knowledge_god_name_cel:0 "$germanic_high_god_name_cel$"
+ germanic_war_god_name_cel:0 "Týrowi"
+ germanic_trickster_god_name_cel:0 "$germanic_witchgod_name_cel$"
+ germanic_night_god_name_cel:0 "Nótt" #Bogini
+ germanic_water_god_name_cel:0 "$germanic_wealth_god_name_cel$"
+ germanic_witchgod_name_cel:0 "Lokiemu"
+ 
+ #Hellenizm
+ hellenism_high_god_name_cel:0 "Zeusowi"
+ hellenism_creator_god_name_cel:0 "Gai" #Bogini
+ hellenism_health_god_name_cel:0 "Asklepiosowi"
+ hellenism_fertility_god_name_cel:0 "Demeter" #Bogini
+ hellenism_wealth_god_name_cel:0 "Hadesowi"
+ hellenism_household_god_name_cel:0 "Weście" #Bogini
+ hellenism_fate_god_name_cel:0 "Mojrom" #Boginie
+ hellenism_knowledge_god_name_cel:0 "Atenie" #Bogini
+ hellenism_war_god_name_cel:0 "Aresowi"
+ hellenism_trickster_god_name_cel:0 "Hermesowi"
+ hellenism_night_god_name_cel:0 "Nyks" #Bogini
+ hellenism_water_god_name_cel:0 "Posejdonowi"
+ hellenism_witchgod_name_cel:0 "Hekate" #Bogini
+ 
+ #Hinduizm
+ hinduism_high_god_name_cel:0 "Brahmanowi"
+ hinduism_creator_god_name_cel:0 "Brahmie"
+ hinduism_health_god_name_cel:0 "Gandze" #Bogini
+ hinduism_fertility_god_name_cel:0 "Gajatri" #Bogini
+ hinduism_wealth_god_name_cel:0 "Kuberze"
+ hinduism_household_god_name_cel:0 "Santośi Maa" #Bogini
+ hinduism_fate_god_name_cel:0 "karmie"
+ hinduism_knowledge_god_name_cel:0 "Saraswati" #Bogini
+ hinduism_war_god_name_cel:0 "Kali" #Bogini
+ hinduism_trickster_god_name_cel:0 "Krysznie"
+ hinduism_night_god_name_cel:0 "Nindrze"
+ hinduism_water_god_name_cel:0 "Jamiemu"
+ hinduism_witchgod_name_cel:0 "$hinduism_war_god_name_cel$" #Bogini
+ 
+ #Wisznuizm
+ vaishnavism_high_god_name_cel:0 "Wisznu"
+ vaishnavism_wealth_god_name_cel:0 "Lakszmi" #Bogini
+ vaishnavism_knowledge_god_name_cel:0 "Hajagriwie"
+ vaishnavism_war_god_name_cel:0 "Dźagannathowi"
+ vaishnavism_trickster_god_name_cel:0 "Krysznie"
+ 
+ #Śiwaizm
+ shaivism_high_god_name_cel:0 "Śiwie"
+ shaivism_health_god_name_cel:0 "Wajtheeswaranowi"
+ shaivism_fertility_god_name_cel:0 "Parwati" #Bogini
+ shaivism_wealth_god_name_cel:0 "Bhajrawie"
+ shaivism_household_god_name_cel:0 "Muniśwararowi"
+ shaivism_knowledge_god_name_cel:0 "Dakszinamurtiemu"
+ shaivism_war_god_name_cel:0 "Wirabhadrze"
+ 
+ #Smartyzm
+ smartism_health_god_name_cel:0 "Wisznu"
+ smartism_household_god_name_cel:0 "Śiwie"
+ smartism_knowledge_god_name_cel:0 "Ganeśi"
+ smartism_war_god_name_cel:0 "Dewi" #Bogini
+ 
+ #Krysznaizm
+ krishnaism_high_god_name_cel:0 "Krysznie"
+ 
+ #Islam
+ islam_high_god_name_cel:0 "Allahowi"
+ islam_creator_god_name_cel:0 "$islam_high_god_name_cel$"
+ islam_health_god_name_cel:0 "$islam_high_god_name_cel$"
+ islam_fertility_god_name_cel:0 "$islam_high_god_name_cel$"
+ islam_wealth_god_name_cel:0 "$islam_high_god_name_cel$"
+ islam_household_god_name_cel:0 "$islam_high_god_name_cel$"
+ islam_fate_god_name_cel:0 "$islam_high_god_name_cel$"
+ islam_knowledge_god_name_cel:0 "$islam_high_god_name_cel$"
+ islam_war_god_name_cel:0 "$islam_high_god_name_cel$"
+ islam_trickster_god_name_cel:0 "Iblisowi"
+ islam_night_god_name_cel:0 "$islam_high_god_name_cel$"
+ islam_water_god_name_cel:0 "$islam_high_god_name_cel$"
+ islam_witchgod_name_cel:0 "$islam_trickster_god_name_cel$"
+ 
+ #Dźinizm
+ jainism_high_god_name_cel:0 "Tirthankarom"
+ jainism_creator_god_name_cel:0 "Dźiwie"
+ jainism_health_god_name_cel:0 "Bhagiracie"
+ jainism_fertility_god_name_cel:0 "Susimie"
+ jainism_wealth_god_name_cel:0 "Sarwanubhutiemu"
+ jainism_household_god_name_cel:0 "Neminacie"
+ jainism_fate_god_name_cel:0 "karmie"
+ jainism_knowledge_god_name_cel:0 "Riszabhanacie"
+ jainism_war_god_name_cel:0 "Kunthunathowi"
+ jainism_trickster_god_name_cel:0 "$jainism_fate_god_name_cel$"
+ jainism_night_god_name_cel:0 "Suparśwanacie"
+ jainism_water_god_name_cel:0 "Bhagiracie"
+ jainism_witchgod_name_cel:0 "Dewom"
+ 
+ #Judaizm
+ judaism_high_god_name_cel:0 "Panu"
+ judaism_creator_god_name_cel:0 "$judaism_high_god_name_cel$"
+ judaism_health_god_name_cel:0 "$judaism_high_god_name_cel$"
+ judaism_fertility_god_name_cel:0 "$judaism_high_god_name_cel$"
+ judaism_wealth_god_name_cel:0 "$judaism_high_god_name_cel$"
+ judaism_household_god_name_cel:0 "$judaism_high_god_name_cel$"
+ judaism_fate_god_name_cel:0 "$judaism_high_god_name_cel$"
+ judaism_knowledge_god_name_cel:0 "$judaism_high_god_name_cel$"
+ judaism_war_god_name_cel:0 "$judaism_high_god_name_cel$"
+ judaism_trickster_god_name_cel:0 "Losowi"
+ judaism_night_god_name_cel:0 "$judaism_high_god_name_cel$"
+ judaism_water_god_name_cel:0 "$judaism_high_god_name_cel$"
+ judaism_witchgod_name_cel:0 "Razjelowi"
+ 
+ #Kuszytyzm
+ kushitism_high_god_name_cel:0 "Wepwawetowi"
+ kushitism_creator_god_name_cel:0 "Ogdoadzie"
+ kushitism_health_god_name_cel:0 "Hece"
+ kushitism_fertility_god_name_cel:0 "Minowi"
+ kushitism_wealth_god_name_cel:0 "Nepriemu"
+ kushitism_household_god_name_cel:0 "Nechbet" #Bogini
+ kushitism_fate_god_name_cel:0 "Szajowi"
+ kushitism_knowledge_god_name_cel:0 "Arensnufisowi"
+ kushitism_war_god_name_cel:0 "$kushitism_high_god_name_cel$"
+ kushitism_trickster_god_name_cel:0 "Apofisowi"
+ kushitism_night_god_name_cel:0 "Aah"
+ kushitism_water_god_name_cel:0 "Tefnut" #Bogini
+ kushitism_witchgod_name_cel:0 "$kushitism_health_god_name_cel$"
+ 
+ #Madziarska
+ magyar_high_god_name_cel:0 "Istenowi"
+ magyar_creator_god_name_cel:0 "$magyar_high_god_name_cel$"
+ magyar_health_god_name_cel:0 "$magyar_high_god_name_cel$"
+ magyar_fertility_god_name_cel:0 "Boldogasszony" #Bogini
+ magyar_wealth_god_name_cel:0 "$magyar_high_god_name_cel$"
+ magyar_household_god_name_cel:0 "$magyar_high_god_name_cel$"
+ magyar_fate_god_name_cel:0 "$magyar_high_god_name_cel$"
+ magyar_knowledge_god_name_cel:0 "$magyar_high_god_name_cel$"
+ magyar_war_god_name_cel:0 "Hadúrowi"
+ magyar_trickster_god_name_cel:0 "Losowi"
+ magyar_night_god_name_cel:0 "Hold Atyi"
+ magyar_water_god_name_cel:0 "Su Acie"
+ magyar_witchgod_name_cel:0 "Szélanyi" #Bogini
+ 
+ #Mundhumizm
+ mundhumism_high_god_name_cel:0 "Tagerze Ningwaphumie" #Bogini
+ mundhumism_creator_god_name_cel:0 "Porokmiemu Yambhamibie"
+ mundhumism_health_god_name_cel:0 "Jumie Sammang" #Bogini
+ mundhumism_fertility_god_name_cel:0 "Muhikmangowi"
+ mundhumism_wealth_god_name_cel:0 "Thebie Sammangowi"
+ mundhumism_household_god_name_cel:0 "Birupakshyi"
+ mundhumism_fate_god_name_cel:0 "karmie"
+ mundhumism_knowledge_god_name_cel:0 "Nisammangowi"
+ mundhumism_war_god_name_cel:0 "Mukkumowi"
+ mundhumism_trickster_god_name_cel:0 "$mundhumism_war_god_name_cel$"
+ mundhumism_night_god_name_cel:0 "$mundhumism_health_god_name_cel$"
+ mundhumism_water_god_name_cel:0 "$mundhumism_health_god_name_cel$"
+ mundhumism_witchgod_name_cel:0 "$hinduism_war_god_name_cel$"
+ 
+ #Jumaizm
+ yumaism_high_god_name_cel:0 "$mundhumism_health_god_name_cel$"
+ yumaism_creator_god_name_cel:0 "$mundhumism_health_god_name_cel$"
+ yumaism_wealth_god_name_cel:0 "$mundhumism_health_god_name_cel$"
+ yumaism_household_god_name_cel:0 "$mundhumism_health_god_name_cel$"
+ yumaism_war_god_name_cel:0 "Ćandiemu"
+ yumaism_water_god_name_cel:0 "Kausikiemu"
+ 
+ #Pogańska
+ paganism_high_god_name_cel:0 "Matce Ziemi"
+ paganism_creator_god_name_cel:0 "$paganism_high_god_name_cel$"
+ paganism_health_god_name_cel:0 "$paganism_high_god_name_cel$"
+ paganism_fertility_god_name_cel:0 "$paganism_high_god_name_cel$"
+ paganism_wealth_god_name_cel:0 "$paganism_high_god_name_cel$"
+ paganism_household_god_name_cel:0 "$paganism_high_god_name_cel$"
+ paganism_fate_god_name_cel:0 "losowi"
+ paganism_knowledge_god_name_cel:0 "$paganism_high_god_name_cel$"
+ paganism_war_god_name_cel:0 "$paganism_high_god_name_cel$"
+ paganism_trickster_god_name_cel:0 "Ojcowi Niebo"
+ paganism_night_god_name_cel:0 "$paganism_trickster_god_name_cel$"
+ paganism_water_god_name_cel:0 "$paganism_high_god_name_cel$"
+ paganism_witchgod_name_cel:0 "Cieniowi"
+ 
+ #Hsexje
+ qiangic_high_god_name_cel:0 "Mubyaseiowi"
+ qiangic_creator_god_name_cel:0 "$qiangic_high_god_name_cel$"
+ qiangic_health_god_name_cel:0 "Sibeahse"
+ qiangic_fertility_god_name_cel:0 "Ixihse"
+ qiangic_wealth_god_name_cel:0 "Zziguhse"
+ qiangic_household_god_name_cel:0 "Jishse"
+ qiangic_fate_god_name_cel:0 "leassowi"
+ qiangic_knowledge_god_name_cel:0 "Abba Sei"
+ qiangic_war_god_name_cel:0 "Gvugvuahse"
+ qiangic_trickster_god_name_cel:0 "Abbie Mullahowi"
+ qiangic_night_god_name_cel:0 "Xishueahse"
+ qiangic_water_god_name_cel:0 "Dsehse"
+ qiangic_witchgod_name_cel:0 "Dulowi"
+ 
+ #Melieizm
+ tangut_high_god_name_cel:0 "Mewnowi"
+ tangut_creator_god_name_cel:0 "$tangut_high_god_name_cel$"
+ tangut_health_god_name_cel:0 "$tangut_high_god_name_cel$"
+ tangut_fertility_god_name_cel:0 "Vieiowi"
+ tangut_wealth_god_name_cel:0 "$tangut_high_god_name_cel$"
+ tangut_household_god_name_cel:0 "$tangut_high_god_name_cel$"
+ tangut_fate_god_name_cel:0 "$tangut_high_god_name_cel$"
+ tangut_knowledge_god_name_cel:0 "$tangut_high_god_name_cel$"
+ tangut_war_god_name_cel:0 "$tangut_high_god_name_cel$"
+ tangut_trickster_god_name_cel:0 "$tangut_fertility_god_name_cel$"
+ tangut_night_god_name_cel:0 "$tangut_high_god_name_cel$"
+ tangut_water_god_name_cel:0 "$tangut_fertility_god_name_cel$"
+ 
+ #Syberyjska
+ siberian_high_god_name_cel:0 "Numi-Turumowi"
+ siberian_creator_god_name_cel:0 "$siberian_high_god_name_cel$"
+ siberian_health_god_name_cel:0 "As-Ikiemu"
+ siberian_fertility_god_name_cel:0 "Kalteszowi"
+ siberian_wealth_god_name_cel:0 "Duchom Szczęścia"
+ siberian_household_god_name_cel:0 "Mir-Susne-Humowi"
+ siberian_fate_god_name_cel:0 "$siberian_fertility_god_name_cel$"
+ siberian_knowledge_god_name_cel:0 "Sorni-Ikiemu"
+ siberian_war_god_name_cel:0 "Łowcy"
+ siberian_trickster_god_name_cel:0 "Heini-Ikiemu"
+ siberian_night_god_name_cel:0 "$siberian_fertility_god_name_cel$"
+ siberian_water_god_name_cel:0 "Kassum-Imowi"
+ siberian_witchgod_name_cel:0 "Kaltesz-Eekwie"
+ 
+ siberian_witchgodname_the_cold_downstream:0 "Kaltesz-Eekwa" #Z jakieś powodu w grze nie ma stringa
+ 
+ #Słowiańska
+ slavic_high_god_name_cel:0 "Rodowi"
+ slavic_creator_god_name_cel:0 "Świętowitowi"
+ slavic_health_god_name_cel:0 "Jarowitowi"
+ slavic_fertility_god_name_cel:0 "Mokoszy" #Bogini
+ slavic_wealth_god_name_cel:0 "Dadźbogowi"
+ slavic_household_god_name_cel:0 "Rodzanicy"
+ slavic_fate_god_name_cel:0 "Sudowi"
+ slavic_knowledge_god_name_cel:0 "Welesowi"
+ slavic_war_god_name_cel:0 "Swarogowi"
+ slavic_trickster_god_name_cel:0 "Czarnobogowi"
+ slavic_night_god_name_cel:0 "Chors Jutrobogowi"
+ slavic_water_god_name_cel:0 "Kupale"
+ slavic_witchgod_name_cel:0 "Welesowi"
+ 
+ #Taoizm
+ taoism_high_god_name_cel:0 "Dao"
+ taoism_creator_god_name_cel:0 "Yuanshi Tianzunowi - Niebiańskiemu Czcigodnemu Pierwotnego Początku"
+ taoism_health_god_name_cel:0 "Li Tieguaiowi"
+ taoism_fertility_god_name_cel:0 "$taoism_health_god_name_cel$"
+ taoism_wealth_god_name_cel:0 "Lü Dongbinowi"
+ taoism_household_god_name_cel:0 "$taoism_knowledge_god_name_cel$"
+ taoism_fate_god_name_cel:0 "$taoism_high_god_name$"
+ taoism_knowledge_god_name_cel:0 "Laoziemu"
+ taoism_war_god_name_cel:0 "Zhongli Quanowi"
+ taoism_trickster_god_name_cel:0 "losowi"
+ taoism_night_god_name_cel:0 "Ho Hsien-ku" #Bogini
+ taoism_water_god_name_cel:0 "Shui-kuanowi"
+ taoism_witchgod_name_cel:0 "Daode Tianzunowi"
+ 
+ #Tengryzm
+ tengrism_high_god_name_cel:0 "Tengriemu"
+ tengrism_creator_god_name_cel:0 "Ulganowi"
+ tengrism_health_god_name_cel:0 "Karszit Chanowi"
+ tengrism_fertility_god_name_cel:0 "Jaszył Chanowi"
+ tengrism_wealth_god_name_cel:0 "Burcza Chanowi"
+ tengrism_household_god_name_cel:0 "$tengrism_high_god_name_cel$"
+ tengrism_fate_god_name_cel:0 "$paganism_fate_god_name_cel$"
+ tengrism_knowledge_god_name_cel:0 "$tengrism_creator_god_name_cel$"
+ tengrism_war_god_name_cel:0 "$tengrism_high_god_name_cel$"
+ tengrism_trickster_god_name_cel:0 "losowi"
+ tengrism_night_god_name_cel:0 "$tengrism_high_god_name_cel$"
+ tengrism_water_god_name_cel:0 "$tengrism_high_god_name_cel$"
+ tengrism_witchgod_name_cel:0 "Irsziemu"
+
+ #Waaqizm
+ waaqism_high_god_name_cel:0 "Waaqowi"
+ waaqism_creator_god_name_cel:0 "$waaqism_high_god_name_cel$"
+ waaqism_health_god_name_cel:0 "Bucur Bacayrowi"
+ waaqism_fertility_god_name_cel:0 "Ayanlee"
+ waaqism_wealth_god_name_cel:0 "$waaqism_fertility_god_name_cel$"
+ waaqism_household_god_name_cel:0 "Huurowi"
+ waaqism_fate_god_name_cel:0 "Nidarowi"
+ waaqism_knowledge_god_name_cel:0 "Biriirowi inie Barqo"
+ waaqism_war_god_name_cel:0 "Wiilwaalowi"
+ waaqism_trickster_god_name_cel:0 "Qori Ismarisowi"
+ waaqism_night_god_name_cel:0 "Dhegdheer" #Bogini
+ 
+ #Zachodnioafrykańska
+ west_african_high_god_name_cel:0 "Ammie"
+ dogon_creator_god_name_cel:0 "$west_african_high_god_name_cel$"
+ dogon_health_god_name_cel:0 "$west_african_high_god_name_cel$"
+ dogon_fertility_god_name_cel:0 "$west_african_high_god_name_cel$"
+ dogon_wealth_god_name_cel:0 "$west_african_high_god_name_cel$"
+ dogon_household_god_name_cel:0 "$west_african_high_god_name_cel$"
+ dogon_fate_god_name_cel:0 "$paganism_fate_god_name_cel$"
+ dogon_knowledge_god_name_cel:0 "$west_african_high_god_name_cel$"
+ dogon_war_god_name_cel:0 "$west_african_high_god_name_cel$"
+ dogon_trickster_god_name_cel:0 "Szakalowi"
+ dogon_night_god_name_cel:0 "$west_african_high_god_name_cel$"
+ dogon_water_god_name_cel:0 "Nommo"
+ dogon_witchgod_name_cel:0 "Szakalowi"
+ 
+ #Bidaizm
+ bidu_high_god_name_cel:0 "Bidzie"
+ bidu_creator_god_name_cel:0 "$bidu_high_god_name_cel$"
+ bidu_health_god_name_cel:0 "$bidu_high_god_name_cel$"
+ bidu_fertility_god_name_cel:0 "$bidu_high_god_name_cel$"
+ bidu_wealth_god_name_cel:0 "$bidu_high_god_name_cel$"
+ bidu_household_god_name_cel:0 "$bidu_high_god_name_cel$"
+ bidu_fate_god_name_cel:0 "losowi"
+ bidu_knowledge_god_name_cel:0 "$bidu_high_god_name_cel$"
+ bidu_war_god_name_cel:0 "$bidu_high_god_name_cel$"
+ bidu_trickster_god_name_cel:0 "Szakalowi"
+ bidu_night_god_name_cel:0 "$bidu_high_god_name_cel$"
+ bidu_water_god_name_cel:0 "$bidu_high_god_name_cel$"
+ 
+ #Hausa/Bori
+ west_african_bori_high_god_name_cel:0 "Booriiemu"
+ bori_creator_god_name_cel:0 "$west_african_bori_high_god_name_cel$"
+ bori_health_god_name_cel:0 "duchom drzew"
+ bori_fertility_god_name_cel:0 "$bori_health_god_name_cel$"
+ bori_wealth_god_name_cel:0 "duchom skał"
+ bori_household_god_name_cel:0 "Alledżenu"
+ bori_fate_god_name_cel:0 "$bori_household_god_name_cel$"
+ bori_knowledge_god_name_cel:0 "$bori_household_god_name_cel$"
+ bori_war_god_name_cel:0 "duchom buszu"
+ bori_trickster_god_name_cel:0 "duchom buszu"
+ bori_night_god_name_cel:0 "duchom wiatru"
+ bori_water_god_name_cel:0 "duchom wody"
+ bori_witchgod_name_cel:0 "Cieniowi"
+ 
+ #Joruba/Orisza
+ yoruba_high_god_name_cel:0 "Ọlọrunowi"
+ yoruba_creator_god_name_cel:0 "Olodumare"
+ yoruba_health_god_name_cel:0 "Obaluaje"
+ yoruba_fertility_god_name_cel:0 "Oronsen" #Bogini
+ yoruba_wealth_god_name_cel:0 "Oshosi"
+ yoruba_household_god_name_cel:0 "Ọbie"
+ yoruba_knowledge_god_name_cel:0 "Ọrunmili"
+ yoruba_fate_god_name_cel:0 "Eszu"
+ yoruba_war_god_name_cel:0 "Ogunowi"
+ yoruba_trickster_god_name_cel:0 "Ajogunowi"
+ yoruba_night_god_name_cel:0 "Ọja" #Bogini
+ yoruba_water_god_name_cel:0 "Olokunowi"
+ 
+ #Rog/Senegambijska
+ west_african_roog_high_god_name_cel:0 "Rogowi"
+ roog_sene_creator_god_name_cel:0 "$west_african_roog_high_god_name_cel$"
+ roog_sene_health_god_name_cel:0 "pangolowi"
+ roog_sene_fertility_god_name_cel:0 "$roog_sene_health_god_name_cel$"
+ roog_sene_wealth_god_name_cel:0 "Tiurachowi"
+ roog_sene_household_god_name_cel:0 "$roog_sene_health_god_name_cel$"
+ roog_sene_fate_god_name_cel:0 "$roog_sene_health_god_name_cel$"
+ roog_sene_knowledge_god_name_cel:0 "$roog_sene_health_god_name_cel$"
+ roog_sene_war_god_name_cel:0 "Tacharowi"
+ roog_sene_trickster_god_name_cel:0 "$roog_sene_health_god_name_cel$"
+ roog_sene_night_god_name_cel:0 "$roog_sene_health_god_name_cel$"
+ roog_sene_water_god_name_cel:0 "Mendissowi"
+ roog_sene_witchgod_name_cel:0 "Cieniowi"
+ 
+ #Jezydyzm
+ yazidi_high_god_name_cel:0 "Melek Tausowi"
+ yazidi_creator_god_name_cel:0 "Xwedê"
+ yazidi_health_god_name_cel:0 "Dadra'ilowi"
+ yazidi_fertility_god_name_cel:0 "$yazidi_health_god_name_cel$"
+ yazidi_wealth_god_name_cel:0 "Szemna'ilowi"
+ yazidi_household_god_name_cel:0 "$yazidi_health_god_name_cel$"
+ yazidi_knowledge_god_name_cel:0 "Azaz'ilowi"
+ yazidi_fate_god_name_cel:0 "$yazidi_high_god_name_cel$"
+ yazidi_war_god_name_cel:0 "Mika'ilowi"
+ yazidi_trickster_god_name_cel:0 "Iblisowi"
+ yazidi_night_god_name_cel:0 "$yazidi_knowledge_god_name_cel$" 
+ yazidi_water_god_name_cel:0 "Azraf'ilowi"
+ yazidi_witchgod_name_cel:0 "$yazidi_trickster_god_name_cel$"
+ 
+ #Zaratusztrianizm
+ zoroastrianism_high_god_name_cel:0 "Ahurze Mazdzie"
+ zoroastrianism_creator_god_name_cel:0 "$zoroastrianism_high_god_name_cel$"
+ zoroastrianism_health_god_name_cel:0 "$zoroastrianism_high_god_name_cel$"
+ zoroastrianism_fertility_god_name_cel:0 "$zoroastrianism_high_god_name_cel$"
+ zoroastrianism_wealth_god_name_cel:0 "$zoroastrianism_high_god_name_cel$"
+ zoroastrianism_household_god_name_cel:0 "$zoroastrianism_high_god_name_cel$"
+ zoroastrianism_fate_god_name_cel:0 "$paganism_fate_god_name_cel$"
+ zoroastrianism_knowledge_god_name_cel:0 "$zoroastrianism_high_god_name_cel$"
+ zoroastrianism_war_god_name_cel:0 "$zoroastrianism_high_god_name_cel$"
+ zoroastrianism_trickster_god_name_cel:0 "Losowi"
+ zoroastrianism_night_god_name_cel:0 "$zoroastrianism_high_god_name_cel$"
+ zoroastrianism_water_god_name_cel:0 "$zoroastrianism_high_god_name_cel$"
+ zoroastrianism_witchgod_name_cel:0 "Arymanowi"
+ 
+ #Zurwanizm
+ zurvanism_high_god_name_cel:0 "Zurwanowi"
+ zurvanism_creator_god_name_cel:0 "$zurvanism_high_god_name_cel$"
+ 
+ #Arewordik
+ urartuism_high_god_name_cel:0 "Aramazdowi"
+ 
+ #Zunizm
+ zunism_high_god_name_cel:0 "Zunowi"
+ zunism_creator_god_name_cel:0 "$zunism_high_god_name_cel$"
+ zunism_health_god_name_cel:0 "$zunism_high_god_name_cel$"
+ zunism_fertility_god_name_cel:0 "$zunism_high_god_name_cel$"
+ zunism_wealth_god_name_cel:0 "$zunism_high_god_name_cel$"
+ zunism_household_god_name_cel:0 "$zunism_high_god_name_cel$"
+ zunism_fate_god_name_cel:0 "$paganism_fate_god_name_cel$"
+ zunism_knowledge_god_name_cel:0 "$zunism_high_god_name_cel$"
+ zunism_war_god_name_cel:0 "$zunism_high_god_name_cel$"
+ zunism_trickster_god_name_cel:0 "Losowi"
+ zunism_night_god_name_cel:0 "$zunism_high_god_name_cel$"
+ zunism_water_god_name_cel:0 "$zunism_high_god_name_cel$"
+ zunism_witchgod_name_cel:0 "Zmierzchowi"
+ 
