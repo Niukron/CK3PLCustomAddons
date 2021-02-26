@@ -1,4 +1,4 @@
-### Relacje postaci
+﻿### Relacje postaci
 
 # UWAGA tam, gdzie jest RelationToMe podmieniamy odpowiadający mu Custom. Nie możemy zastąpić np. RelationToMe na RelationToMeShortVocative ponieważ zdefiniowany jest inny zestaw postaci!
 
