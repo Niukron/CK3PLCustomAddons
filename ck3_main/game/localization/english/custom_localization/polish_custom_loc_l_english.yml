@@ -1958,3 +1958,7 @@
  MyShe:0 "moja"
  MyHe:0 "mój"
  
+ 
+ character_window_spouse_gender:0 "[Select_CString( CharacterWindow.GetSpouse.IsFemale, Concept('spouse', 'Małżonka'), spouse )|E]"
+ character_window_betrothed_gender:0 "[Select_CString( CharacterWindow.GetSpouse.IsFemale, Concept('betrothed', 'Zaręczona'), Concept('betrothed', 'Zaręczony') )|E]"
+ 
