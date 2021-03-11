@@ -2004,3 +2004,7 @@
  ghw_jihad_adj:0 "Dżihadzie"
  ghw_purification_adj:0 "Wielkim oczyszczeniu"
  
+ #GetShockedExpressionFemale
+ 
+ shocked_expression_shocked_female:0 "wstrząśnięta"
+ shocked_expression_appalled_female:0 "zbulwersowana"
