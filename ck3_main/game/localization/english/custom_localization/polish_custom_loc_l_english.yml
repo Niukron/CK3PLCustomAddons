@@ -296,6 +296,7 @@
  d_biarmia_adj:0 "Biarmii"
  d_east_franconia_adj:0 "Wschodniej Frankonii"
  d_west_franconia_adj:0 "Zachodniej Frankonii"
+ cn_island_adj:0 "Islandii"
  
  c_gorlitz_adj:0 "Zgorzelca"
  c_przemkow_adj:0 "Przemkowa"
@@ -413,6 +414,13 @@
  c_jihlava_adj:0 "Igławy"
  c_doudleby_adj:0 "Doudleb"
  c_chania_adj:0 "Chanii"
+ c_pudozh_adj:0 "Pudożu"
+ c_povenets_adj:0 "Powieńca
+ c_onega_BJA_adj:0 "Onegi"
+ c_shenkursk_adj:0 "Szenkurska"
+ c_velsk_adj:0 "Wielska"
+ c_kholmogory_adj:0 "Chołmogor"
+ c_roslavl_adj:0 "Rosławia"
 
 
  TwinDaughtersSonsChildren_With_Num_relation_daughters:0 "dwie bliźniaczki"
