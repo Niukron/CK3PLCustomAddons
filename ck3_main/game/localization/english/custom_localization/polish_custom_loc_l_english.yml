@@ -421,6 +421,11 @@
  c_velsk_adj:0 "Wielska"
  c_kholmogory_adj:0 "Chołmogor"
  c_roslavl_adj:0 "Rosławia"
+ c_rounala_adj:0 "Rounali"
+ c_karasjohka_adj:0 "Kárášjohki"
+ c_siggevara_adj:0 "Siggevary"
+ c_peaccam_adj:0 "Peäccamu"
+ c_biton_adj:0 "Bitonu"
 
 
  TwinDaughtersSonsChildren_With_Num_relation_daughters:0 "dwie bliźniaczki"
