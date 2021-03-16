@@ -12,6 +12,7 @@
  heresy.0010.b:0 "You know, they do have some good points..."
  heresy.0010.notification.title:0 "New Religious Movement"
  heresy.0010.notification:0 "[heretic_ruler.GetFullName] has founded a new [heretic_faith.GetAdjective] movement!"
+
  heresy.0011.notification.heresy:1 "[convert_ruler.Custom2('HierarchicalStatus', me)] Embraces Heresy: [convert_ruler.GetShortUINameNoTooltip]"
  heresy.0011.notification.same_faith:1 "[convert_ruler.Custom2('HierarchicalStatus', me)] Embraces the True Faith: [convert_ruler.GetShortUINameNoTooltip]"
  heresy.0011.notification.other:1 "[convert_ruler.Custom2('HierarchicalStatus', me)] Changes Faith: [convert_ruler.GetShortUINameNoTooltip]"

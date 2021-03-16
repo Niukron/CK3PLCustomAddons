@@ -29,3 +29,7 @@
  dynast_end_dynasty_wars_interaction_desc: "$dynasty_interaction_header$Demand that [recipient.GetShortUINameNoTooltip] immediately ends all their offensive wars against any other members of our [dynasty|E]"
  dynast_end_dynasty_wars_interaction_notification: "Ended Dynasty War"
  recipient_secondary_legitimize_bastard_interaction: "Bastard"
+ send_to_varangian_guard_interaction: "Send to the Varangian Guard #weak (Dynasty)#!"
+ send_to_varangian_guard_interaction_desc: "$dynasty_interaction_header$Send [recipient.GetShortUINameNoTooltip] away to gain glory and fortune in the Varangian Guard. Who knows, it might even help build character!"
+ send_to_varangian_guard_interaction_toast: "[recipient.GetFirstName] left for the Varangian Guard"
+ send_to_varangian_guard_interaction_toast_desc: "Fame and glory awaits!"

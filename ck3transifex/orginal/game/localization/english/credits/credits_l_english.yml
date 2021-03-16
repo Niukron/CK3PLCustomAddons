@@ -1,6 +1,7 @@
 ﻿l_english:
  HEADER_CRUSADER_KINGS_3:1 "#credits_title CRUSADER KINGS III#!"
  TITLE_CREATIVE_DIRECTOR:1 "#credits_subheader Creative Director#!"
+
  HEADER_PROJECT_LEADS:1 "#credits_header PROJECT LEADS#!"
  TITLE_PROJECT_LEAD_GAME_DIRECTOR:1 "#credits_subheader Game Director#!"
  TITLE_PROJECT_LEAD_SENIOR_PRODUCER:0 "#credits_subheader Senior Producer#!"
@@ -10,6 +11,7 @@
  TITLE_PROJECT_LEAD_ART_LEAD:1 "#credits_subheader Art Lead#!"
  TITLE_PROJECT_LEAD_CONTENT_DESIGN_LEAD:1 "#credits_subheader Content Design Lead#!"
  TITLE_PROJECT_LEAD_ADDITIONAL_PRODUCERS:0 "#credits_subheader Additional Producers#!"
+
  HEADER_DESIGN:1 "#credits_header DESIGN#!"
  TITLE_GAME_DESIGN:1 "#credits_subheader Game Design#!"
  TITLE_ADDITIONAL_DESIGN:1 "#credits_subheader Additional Design#!"
@@ -17,11 +19,13 @@
  TITLE_CONTENT_DESIGN:1 "#credits_subheader Content Design#!"
  TITLE_EXTERNAL_CONTENT_DESIGN:1 "#credits_subheader External Content Design#!"
  TITLE_ADDITIONAL_CONTENT_DESIGN:1 "#credits_subheader Additional Content Design#!"
+
  HEADER_PROGRAMMING:1 "#credits_header PROGRAMMING#!"
  TITLE_PROGRAMMERS:1 "#credits_subheader Programmers#!"
  TITLE_LEAD_AI_PROGRAMMERS:1 "#credits_subheader Lead AI Programmers#!"
  TITLE_AI_PROGRAMMERS:1 "#credits_subheader AI Programmers#!"
  TITLE_ADDITIONAL_PROGRAMMERS:1 "#credits_subheader Additional Programmers#!"
+
  HEADER_ART:1 "#credits_header ART#!"
  TITLE_ART_DIRECTOR:1 "#credits_subheader Art Director#!"
  TITLE_ADDITIONAL_ART_DIRECTION:0 "#credits_subheader Additional Art Direction#!"
@@ -35,20 +39,24 @@
  TITLE_ANIMATION:1 "#credits_subheader Animation#!"
  TITLE_TECH_ART:0 "#credits_subheader Tech Art#!"
  TITLE_VFX:1 "#credits_subheader VFX#!"
+
  HEADER_FREELANCE_ART:0 "#credits_header FREELANCE ART#!"
  TITLE_LOADING_SCREEN_ILLUSTRATIONS:0 "#credits_subheader Loading Screen Illustrations#!"
  TITLE_ILLUSTRATIONS:0 "#credits_subheader Illustrations#!"
  TITLE_COAT_OF_ARMS:0 "#credits_subheader Coat Of Arms#!"
+
  HEADER_AUDIO:1 "#credits_header AUDIO#!"
  TITLE_AUDIO_DIRECTOR:1 "#credits_subheader Audio Director#!"
  TITLE_LEAD_AUDIO_DESIGN:1 "#credits_subheader Lead Audio Design#!"
  TITLE_AUDIO_DESIGN:1 "#credits_subheader Audio Design#!"
+
  HEADER_MUSIC:1 "#credits_header MUSIC#!"
  TITLE_HEAD_OF_MUSIC:1 "#credits_subheader Head of Music#!"
  TITLE_MUSIC_COMPOSER_AND_PRODUCER:1 "#credits_subheader Music Composer and Producer#!"
  TITLE_ADDITIONAL_MUSIC:1 "#credits_subheader Additional Music#!"
  TITLE_MUSICIANS:1 "#credits_subheader Musicians#!"
  TITLE_KALABALIK:1 "#credits_subheader Kalabalik#!"
+
  HEADER_QA:1 "#credits_header QA#!"
  TITLE_EMBEDDED_QA_TESTERS:1 "#credits_subheader Embedded QA Testers#!"
  TITLE_QA_MANAGER:3 "#credits_subheader Embedded QA Manager#!"
@@ -56,6 +64,7 @@
  TITLE_PROJECT_COORDINATOR:1 "#credits_subheader Project Coordinator#!"
  TITLE_QA_TESTERS:1 "#credits_subheader QA Testers#!"
  TITLE_TEST_AUTOMATION_ENGINEER:1 "#credits_subheader Test Automation Engineer#!"
+
  HEADER_PRODUCT_AND_MARKETING:1 "#credits_header PRODUCT & MARKETING#!"
  TITLE_PRODUCT_MANAGER:1 "#credits_subheader Product Manager#!"
  TITLE_PRODUCT_MARKETING_MANAGER:1 "#credits_subheader Product Marketing Manager#!"
@@ -72,6 +81,7 @@
  TITLE_COMPATIBILITY_TESTING:1 "#credits_subheader Compatibility Testing#!"
  HEADER_PRODUCTION_HEIRS:1 "#credits_header PRODUCTION HEIRS#!"
  HEADER_SPECIAL_MENTION:1 "#credits_header SPECIAL MENTION#!"
+
  HEADER_PARADOX_DEVELOPMENT_STUDIO:1 "#credits_header PARADOX DEVELOPMENT STUDIO#!"
  TITLE_COO:0 "#credits_subheader COO#!"
  TITLE_EVP_CREATIVE_DIRECTION:1 "#credits_subheader EVP Creative Direction#!"
@@ -116,6 +126,7 @@
  TITLE_QA_EMBEDDED:0 "#credits_subheader QA Embedded#!"
  TITLE_QA_TEAM_LEAD:1 "#credits_subheader QA Team Lead#!"
  TITLE_QA_PROJECT_COORDINATOR:0 "#credits_subheader QA Project Coordinator#!"
+
  HEADER_PARADOX_INTERACTIVE:1 "#credits_header PARADOX INTERACTIVE#!"
  HEADER_MANAGEMENT:1 "#credits_header MANAGEMENT#!"
  TITLE_CHIEF_EXECUTIVE_OFFICER:1 "#credits_subheader Chief Executive Officer#!"
@@ -197,6 +208,7 @@
  HEADER_EXPERIMENT_TEAM:0 "#credits_header EXPERIMENT TEAM#!"
  TITLE_PRODUCT_MANAGER_EXPERIMENT:1 "#credits_subheader Product Manager Experiment#!"
  TITLE_JUNIOR_USER_ACQUISITION_MANAGER_MOBILE:1 "#credits_subheader Junior User Acquisition Manager Mobile#!"
+
  HEADER_EXTERNAL_ART_PARTNERS:0 "#credits_header EXTERNAL ART PARTNERS#!"
  TITLE_3D_ART:0 "#credits_subheader 3D Art#!"
  HEADER_EXTERNAL_TECHNOLOGY_PARTNERS:0 "#credits_header EXTERNAL TECHNOLOGY PARTNERS#!"
@@ -228,6 +240,12 @@
  TITLE_LOCALIZATION_TOOLS:0 "#credits_subheader Localization Tools#!"
  TITLE_SPANISH:0 "#credits_subheader Spanish#!"
  HEADER_BETA_TESTERS:0 "#credits_header BETA TESTERS#!"
+
  HEADER_LICENSES:1 "#credits_header LICENSES#!"
  TITLE_LICENCE_NOTIFICATION_HEADER:1 "#credits_subheader License Notification Header#!"
+
  HEADER_SPECIAL_THANKS:0 "#credits_header Special thanks to all our forum members, partners, and supporters — you mean the world to us!#!"
+
+
+ HEADER_CRUSADER_KINGS_3_NORTHERN_LORDS:1 "#credits_title CRUSADER KINGS III: NORTHERN LORDS#!"
+ TITLE_VIKING_CHOIR:1 "#credits_subheader Viking Choir#!"

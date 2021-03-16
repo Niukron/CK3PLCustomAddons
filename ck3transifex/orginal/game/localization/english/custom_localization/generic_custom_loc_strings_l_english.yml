@@ -42,10 +42,13 @@ l_english:
  gender_male:0 "male"
  gender_man:0 "man"
  gender_woman:0 "woman"
+ gender_person:0 "person"
  concubine:0 "concubine"
  concubines:0 "concubines"
  consort:0 "consort"
  consorts:0 "consorts"
+
+ 
  peasant_profession_miller:0 "miller"
  peasant_profession_millers_wife:0 "miller's wife"
  peasant_profession_millers_husband:0 "miller's husband"

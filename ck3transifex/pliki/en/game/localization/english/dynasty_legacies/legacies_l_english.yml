@@ -48,3 +48,5 @@
  kin_legacy_3_name: "Constant Care"
  kin_legacy_4_name: "Close Bonds"
  kin_legacy_5_name: "Graceful Aging"
+ erudition_legacy_2_modifier_name: "[GetDynastyPerk('erudition_legacy_2').GetName]"
+ erudition_legacy_4_modifier_name: "[GetDynastyPerk('erudition_legacy_4').GetName]"

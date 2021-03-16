@@ -28,6 +28,7 @@
  spouse.0009.desc:0 "Despite my expressions of affection for [spouse.GetFirstName], I have been met with a cold, suspicious response. Apparently I've been spending too much time with our friend, [friend_in_common.GetTitledFirstName]."
  spouse.0009.a:0 "How dare [spouse.GetSheHe]?"
  spouse.0009.has_lover_tooltip:1 "[spouse.GetFirstNameNoTooltip] cannot possibly know. Can [spouse.GetSheHe]?"
+ 
  spouse.1001.t:0 "The Time We Spend Together"
  spouse.1001.desc:0 "I may not hold my [ROOT.Char.Custom2('RelationToMe' , SCOPE.sC('spouse') )] close to my heart, but the more time I spend with [spouse.GetFirstName], the more I start to understand [spouse.GetHerHim]."
  spouse.1001.a:0 "Perhaps I can even come to love [spouse.GetHerHim], in time."
@@ -147,6 +148,7 @@
  spouse.3001.vengeful:0 "I admit, I am just a [ROOT.Char.GetWomanMan] and I have my faults, but [spouse.GetFirstName] is flawed in the extreme! [spouse.GetSheHe|U] remembers every mistake I have ever made, and even worse, keeps punishing me for them."
  spouse.3001.desc.end:0 "\n\nYou would think [spouse.GetSheHe] was doing [spouse.GetHerHis] best to make my life a never-ending torment!"
  spouse.3001.a:0 "Why do you hate me so?!"
+
  spouse.3002.t:0 "Opportunity for Comeuppance"
  spouse.3002.desc:0 "During a visit I seem to have gotten [told_of_character.GetTitledFirstNamePossessive] attention, however briefly. This could be an opportune moment to tell [told_of_character.GetHerHim] what [told_of_character.GetSheHe] should really be thinking about my [ROOT.Char.Custom2('RelationToMe' , SCOPE.sC('spouse') )] [spouse.GetFirstName]."
  spouse.3002.a:1 "Let me tell you a few things, [told_of_character.GetFirstNameNoTooltip]."
@@ -157,6 +159,7 @@
  spouse.3002.a.bad:0 "Words of Dishonor"
  spouse.3002.a.bad_tt:0 "#F [told_of_character.GetFirstNameNoTooltip] is insulted that I would speak of my [THIS.Char.Custom2('RelationToMe', SCOPE.sC('spouse'))] this way#!"
  spouse.3002.b:0 "I cannot go behind my [ROOT.Char.Custom2(''RelationToMe'Possessive' , SCOPE.sC('spouse') )] back like this."
+
  spouse.3003.t:0 "A Worrying Conversation"
  spouse.3003.opening:0 "During a recent visit I spent some time speaking with [spouse.GetTitledFirstNamePossessive] [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('spouse') )], [initial_spouse.GetTitledFirstName]."
  spouse.3003.exceptional:0 "\n\nI have previously held [spouse.GetFirstName] in quite high regard, but what [initial_spouse.GetSheHe] told me has nothing short of horrified me!"

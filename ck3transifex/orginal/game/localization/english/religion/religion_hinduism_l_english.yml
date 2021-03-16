@@ -48,6 +48,7 @@
  hinduism_negative_afterlife:0 "Naraka"
  hinduism_death_name:0 "Yama"
  hinduism_death_name_possessive:0 "Yama's"
+
  hinduism_creator_god_name:0 "Brahma"
  hinduism_creator_god_name_possessive:0 "Brahma's"
  hinduism_health_god_name:0 "Ganga"
@@ -70,6 +71,8 @@
  hinduism_night_god_name_possessive:0 "Nindra's"
  hinduism_water_god_name:0 "Yami"
  hinduism_water_god_name_possessive:0 "Yami's"
+
+ 
  vaishnavism:0 "Vaishnavism"
  vaishnavism_adj:1 "Vaishnavite"
  vaishnavism_adherent:0 "Vaishnava"
@@ -77,6 +80,7 @@
  vaishnavism_desc:0 "In Vaishnavism, Vishnu is the Supreme Lord, and the most important devas are his many incarnated avatars, such as Rama and Krishna. Each of these various incarnations work to restore balance to the universe."
  vaishnavism_high_god_name:0 "Vishnu"
  vaishnavism_high_god_name_possessive:0 "Vishnu's"
+
  vaishnavism_wealth_god_name:0 "Lakishmi"
  vaishnavism_wealth_god_name_possessive:0 "Lakishmi's"
  vaishnavism_knowledge_god_name:0 "Hayagriva"
@@ -85,6 +89,8 @@
  vaishnavism_war_god_name_possessive:0 "Jagganath"
  vaishnavism_trickster_god_name:0 "Krishna"
  vaishnavism_trickster_god_name_possessive:0 "Krishna"
+
+ 
  shaivism:0 "Shaivism"
  shaivism_adj:1 "Shaivite"
  shaivism_adherent:0 "Shaivite"
@@ -92,6 +98,7 @@
  shaivism_desc:0 "Shaivites worship Shiva, the creator and destroyer of worlds, as the Supreme Being that exists in all things. In the same fashion as Shiva works to maintain balance and preserve the universe, the faithful must strive to bring balance into their lives."
  shaivism_high_god_name:0 "Shiva"
  shaivism_high_god_name_possessive:0 "Shiva's"
+
  shaivism_health_god_name:0 "Vaitheeswaran"
  shaivism_health_god_name_possessive:0 "Vaitheeswaran's"
  shaivism_fertility_god_name:0 "Parvati"
@@ -104,6 +111,8 @@
  shaivism_knowledge_god_name_possessive:0 "Dakshinamoorthy's"
  shaivism_war_god_name:0 "Vīrabhadra"
  shaivism_war_god_name_possessive:0 "Vīrabhadra"
+
+ 
  srikula_shaktism:0 "Srikula Shaktism"
  srikula_shaktism_adj:0 "Srikula"
  srikula_shaktism_adherent:0 "Srikulaite"
@@ -116,16 +125,21 @@
  shaktism_good_god_kali:0 "Kali"
  shaktism_good_god_kali_possessive:0 "Kali's"
  shaktism_good_god_chandi:0 "Chandi"
+
+ 
  kalikula_shaktism:0 "Kalikula Shaktism"
  kalikula_shaktism_adj:0 "Kalikula"
  kalikula_shaktism_adherent:0 "Kalikulaite"
  kalikula_shaktism_adherent_plural:0 "Kalikulaites"
  kalikula_shaktism_desc:0 "Shaktism believes in the Great Goddess as the Supreme Being from which springs all existence. The Kalikula worship Kali as the one who can give guidance, good rebirth and ultimately moksha."
+
+ 
  smartism:1 "Smartism"
  smartism_adj:1 "Smarta"
  smartism_adherent:1 "Smarta"
  smartism_adherent_plural:1 "Smartas"
  smartism_desc:0 "The Smarta tradition rejects the worship of individual gods. Brahman is one and eternal, and Vishnu, Devi, Shiva, Ganesh and Surya are worshiped as equal avatars of the Supreme Being. Any individual worship is a step towards achieving understanding and unity with Brahman."
+
  smartism_health_god_name:0 "Vishnu"
  smartism_health_god_name_possessive:0 "Vishnu's"
  smartism_household_god_name:0 "Shiva"
@@ -134,6 +148,8 @@
  smartism_knowledge_god_name_possessive:0 "Ganesha's"
  smartism_war_god_name:0 "Devi"
  smartism_war_god_name_possessive:0 "Devi's"
+
+ 
  krishnaism:0 "Krishnaism"
  krishnaism_adj:0 "Krishnaite"
  krishnaism_adherent:0 "Krishnaite"
@@ -141,6 +157,8 @@
  krishnaism_desc:0 "Krishna is the authentic form of the Supreme Being, and Vishnu is his avatar when he takes form as the omnipotent. Through his divine avatars, he is present in all things."
  krishnaism_high_god_name:0 "Krishna"
  krishnaism_high_god_name_possessive:0 "Krishna's"
+
+ 
  advaitism:0 "Advaita Vedanta"
  advaitism_adj:0 "Advaita"
  advaitism_adherent:0 "Advaita Vedantin"

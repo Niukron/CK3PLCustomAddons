@@ -55,7 +55,7 @@
  TRUCE_GRANT_INDEPENDENCE_ROOT: "[ROOT.Char.GetUINameNotMe|U] was granted independence"
  REALM_WINDOW_DIPLOMACY_TOOLTIP_RAID_ON: "#T Raided by [CHARACTER.GetUIName]#!\nHostile until [DATE.GetString|V]"
  REALM_WINDOW_DIPLOMACY_TOOLTIP_RAID_BY: "#T Raiding [CHARACTER.GetUIName]#!\nHostile until [DATE.GetString|V]"
- REALM_WINDOW_SIZE: "[realm_size|E]: [Character.RealmSize|V]"
+ REALM_WINDOW_SIZE: "Realm Size: [Character.RealmSize|V]"
  REALM_WINDOW_SIZE_TT: "#T [realm_size|E]: [Character.RealmSize|V] [counties|E]\n#!Counties in [Character.GetShortUINamePossessive] [domain|E]: [Character.NumberOfDirectlyHeldCounties|V]\nCounties in [vassal|E] Realms: [Subtract_int32(Character.RealmSize, Character.NumberOfDirectlyHeldCounties)|V] "
  DIFFERENT_CULTURE_THAN_LIEGE: "Different Culture than Liege"
  DIFFERENT_RELIGION_THAN_LIEGE: "Different Religion than Liege"

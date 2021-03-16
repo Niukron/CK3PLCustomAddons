@@ -100,17 +100,17 @@
  PRESTIGE_LEVEL_LABEL_3:1 "@prestige_level_3_icon! [GetModifier( 'prestige_level_3' ).GetNameWithTooltip|L]"
  PRESTIGE_LEVEL_LABEL_4:1 "@prestige_level_4_icon! [GetModifier( 'prestige_level_4' ).GetNameWithTooltip|L]"
  PRESTIGE_LEVEL_LABEL_5:1 "@prestige_level_5_icon! [GetModifier( 'prestige_level_5' ).GetNameWithTooltip|L]"
- #DYNASTY_PRESTIGE_LEVEL_LABEL_0:0 ""
- #DYNASTY_PRESTIGE_LEVEL_LABEL_1:0 ""
- #DYNASTY_PRESTIGE_LEVEL_LABEL_2:0 ""
- #DYNASTY_PRESTIGE_LEVEL_LABEL_3:0 ""
- #DYNASTY_PRESTIGE_LEVEL_LABEL_4:0 ""
- #DYNASTY_PRESTIGE_LEVEL_LABEL_5:0 ""
- #DYNASTY_PRESTIGE_LEVEL_LABEL_6:0 ""
- #DYNASTY_PRESTIGE_LEVEL_LABEL_7:0 ""
- #DYNASTY_PRESTIGE_LEVEL_LABEL_8:0 ""
- #DYNASTY_PRESTIGE_LEVEL_LABEL_9:0 ""
- #DYNASTY_PRESTIGE_LEVEL_LABEL_10:0 ""
+ #DYNASTY_PRESTIGE_LEVEL_LABEL_0:0 "" Delete this
+ #DYNASTY_PRESTIGE_LEVEL_LABEL_1:0 "" Delete this
+ #DYNASTY_PRESTIGE_LEVEL_LABEL_2:0 "" Delete this
+ #DYNASTY_PRESTIGE_LEVEL_LABEL_3:0 "" Delete this
+ #DYNASTY_PRESTIGE_LEVEL_LABEL_4:0 "" Delete this
+ #DYNASTY_PRESTIGE_LEVEL_LABEL_5:0 "" Delete this
+ #DYNASTY_PRESTIGE_LEVEL_LABEL_6:0 "" Delete this
+ #DYNASTY_PRESTIGE_LEVEL_LABEL_7:0 "" Delete this
+ #DYNASTY_PRESTIGE_LEVEL_LABEL_8:0 "" Delete this
+ #DYNASTY_PRESTIGE_LEVEL_LABEL_9:0 "" Delete this
+ #DYNASTY_PRESTIGE_LEVEL_LABEL_10:0 "" Delete this
  PIETY_PROGRESS_TOOLTIP:0 "Progress: $VALUE|0V$/$MAX|0$ towards the next [piety_level|E]"
  PRESTIGE_PROGRESS_TOOLTIP:0 "Progress: $VALUE|0V$/$MAX|0$ towards the next [prestige_level|E]"
  DYNASTY_PRESTIGE_PROGRESS_TOOLTIP:0 "Progress: $VALUE|0V$/$MAX|0$ towards the next [dynasty_prestige_level|E]"
@@ -150,7 +150,7 @@
  GO_BACK_VIEW_HISTORY:0 "#T Show previous view#!\n$VIEW_NAME$"
  I_CAN_ENFORCE_DEMANDS:1 "#I You can enforce your demands#!"
  TOGGLE_OUTLINER:0 "#T Toggle Outliner#!"
- PLAYER_STRESS_TOOLTIP:1 "#T [stress_level|E]: [GetPlayer.GetStressLevel|V]/[GetDefine('NCharacter', 'MAX_STRESS_LEVEL')|V]\n#![AddTextIfNotEmpty('#S Effects:#!\n', GetPlayer.StressLevelEffect )]\n[AddTextIf(Not(StringIsEmpty(GetPlayer.StressLevelEffect)), '\n')]#S [stress|E]: [stress_i][GetPlayer.GetStress|V]/[GetMaxStress|V]#!\n[GetPlayer.StressProgressDesc]"
+ PLAYER_STRESS_TOOLTIP:2 "#T [stress_level|E]: [GetPlayer.GetStressLevel|V]/[GetDefine('NCharacter', 'MAX_STRESS_LEVEL')|V]\n#![ConcatIfNeitherEmpty('#S Effects:#!\n', GetPlayer.StressLevelEffect )]\n[AddTextIf(Not(StringIsEmpty(GetPlayer.StressLevelEffect)), '\n')]#S [stress|E]: [stress_i][GetPlayer.GetStress|V]/[GetMaxStress|V]#!\n[GetPlayer.StressProgressDesc]"
  STRESS_LEVEL_PROGRESS:0 "Next level at [stress_i]$NEXT|V$"
  STRESS_LEVEL_PROGRESS_MAX:1 "#X @warning_icon! You are already at maximum Stress Level. At [stress_i]$NEXT|V$ you will suffer a mental breakdown and lose [stress_loss_i][GetDefine('NCharacter', 'STRESS_PER_LEVEL')|P]#!"
  OBSERVER_MODE_ON:0 "#T Leave this Character's perspective#!"
@@ -173,6 +173,7 @@
  VALUE_BREAKDOWN_NO_EXPENSES:0 "No Expenses"
  INGAME_MENU_TT:0 "#T In-game Menu#!"
  MORE_POPOUT_TT:0 "#T More...#!"
+ 
  DE_JURE_DUCHIES_HEADER:0 "Showing: [duchies|E], [de_jure|E]"
  DE_JURE_KINGDOMS_HEADER:0 "Showing: [kingdoms|E], [de_jure|E]"
  DE_JURE_EMPIRES_HEADER:0 "Showing: [empires|E], [de_jure|E]"

@@ -27,6 +27,8 @@
  game_concept_de_jure:0 "De Jure"
  game_concept_de_jure_desc:1 "Most [titles|E] of are considered part of a higher-Tier Title $game_concept_de_jure$ ('by law').\n\nFor example, a [ruler|E] may be [king|E] of England, but their [realm|E] does not yet contain all the lands that are legally considered to be part of England.\n\nThe [holder|E] of a [duchy|E], [kingdom|E], or [empire|E] always has a [casus_belli|E] to seize control of its $game_concept_de_jure$ constituent titles.\n\n[vassals|E] will also decide who their [rightful_liege|E] is based on what Title their [primary_title|E] is De Jure a part of."
  game_concept_de_jure_drift:0 "De Jure Drift"
+ game_concept_de_jure_drift_drifted:0 "Drifted"
+ game_concept_de_jure_drift_drift:0 "Drift"
  game_concept_de_jure_drift_desc:1 "$game_concept_de_jure_drift_desc_part_1$\n\n$game_concept_de_jure_drift_desc_part_2$"
  game_concept_de_jure_drift_desc_part_1:0 "A slow process by which a [title|E]'s [de_jure|E] [liege|E] can change. It occurs naturally when a [duchy|E] or [kingdom|E] is completely controlled by a [ruler|E] who does not hold the territory's de jure liege title.\n\nThis process can be sped up by assigning your [chancellor|E] to the appropriate [councillor_task|E] #weak ($task_integrate_title$)#!. Duchies can only $game_concept_de_jure_drift$ into Kingdoms, and Kingdoms can only Drift into [empires|E].\n\nLetting titles De Jure Drift into your [primary_title|E] is a good way to get rid of the [rightful_liege|E] penalty."
  game_concept_de_jure_drift_desc_part_2:0 "#weak Example: The Duchy of $d_northumberland$ is de jure part of $k_england$, but the territory of the duchy is entirely within $k_scotland$. Since the King of $k_scotland$ does not also hold $k_england$, the duchy will start to $game_concept_de_jure_drift$ toward becoming a part of $k_scotland$.#!"
@@ -108,7 +110,7 @@
  game_concept_primary_heirs:0 "Primary Heirs"
  game_concept_primary_heir_desc:0 "The $game_concept_primary_heir$ is the character who will inherit the [primary_title|E] of a [ruler|E] on [succession|E]. This is usually — but not always — the same character as the [player_heir|E]."
  game_concept_player_heir:0 "Player Heir"
- #game_concept_player_heirs:0 ""
+ #game_concept_player_heirs:0 "" delete this
  game_concept_player_heir_desc:1 "The $game_concept_player_heir$ is the [heir|E] that a player will keep playing as on [succession|E].\n\nThe $game_concept_player_heir$ is usually the same as the [primary_heir|E], but if the [succession_law|E] of your [primary_title|E] dictates that it should go to a character outside of your [dynasty|E], you will instead keep playing as the dynastic heir to your second highest-tier title (or third, fourth, etc.).\n\nThis situation is common when your $game_concept_player_heir$ is voted out under an elective succession law."
  game_concept_title_heir:0 "Title Heir"
  game_concept_title_heirs:0 "Title Heirs"
@@ -362,7 +364,7 @@
  game_concept_piety_experience_desc:0 "Each point of Devotion a character gets increases their progress towards the next [piety_level|E]. When a character gains [piety|E] they also gain an equal amount of Devotion."
  game_concept_piety_level:0 "Level of Devotion"
  game_concept_piety_levels:1 "Level(s) of Devotion"
- game_concept_piety_level_desc:2 "A Character's $game_concept_piety_level$ is a measure how virtuous and devout they are, as well as their standing with other members of their [faith|E].\n\nEvery time a Character gains [piety|E], they also progress toward the next Level of Devotion.\n\nThe Levels are:\n$EFFECT_LIST_BULLET$[GetModifier( 'piety_level_1' ).GetNameWithTooltip|L]\n$EFFECT_LIST_BULLET$[GetModifier( 'piety_level_2' ).GetNameWithTooltip|L]\n$EFFECT_LIST_BULLET$[GetModifier( 'piety_level_3' ).GetNameWithTooltip|L]\n$EFFECT_LIST_BULLET$[GetModifier( 'piety_level_4' ).GetNameWithTooltip|L]\n$EFFECT_LIST_BULLET$[GetModifier( 'piety_level_5' ).GetNameWithTooltip|L]"
+ game_concept_piety_level_desc:3 "A Character's $game_concept_piety_level$ is a measure how virtuous and devout they are, as well as their standing with other members of their [faith|E].\n\nEvery time a Character gains [piety|E], they also progress toward the next Level of Devotion.\n\nThe Levels are:\n$EFFECT_LIST_BULLET$[GetModifier( 'piety_level_0' ).GetNameWithTooltip|L]\n$EFFECT_LIST_BULLET$[GetModifier( 'piety_level_1' ).GetNameWithTooltip|L]\n$EFFECT_LIST_BULLET$[GetModifier( 'piety_level_2' ).GetNameWithTooltip|L]\n$EFFECT_LIST_BULLET$[GetModifier( 'piety_level_3' ).GetNameWithTooltip|L]\n$EFFECT_LIST_BULLET$[GetModifier( 'piety_level_4' ).GetNameWithTooltip|L]\n$EFFECT_LIST_BULLET$[GetModifier( 'piety_level_5' ).GetNameWithTooltip|L]"
  game_concept_prestige:0 "Prestige"
  game_concept_prestige_i:0 "@prestige_icon!"
  game_concept_prestige_desc:0 "$game_concept_prestige$ represents a Character's fame and social standing.\n\nPrestige can be spent on various worldly matters depending on [government_form|E], [doctrines|E], et cetera.\n\nEvery time a Character gains Prestige, they also progress toward the next [prestige_level|E]."
@@ -370,7 +372,7 @@
  game_concept_prestige_experience_desc:0 "Each point of Fame a character gets increases their progress towards the next [prestige_level|E]. When a character gains [prestige|E] they also gain an equal amount of Fame."
  game_concept_prestige_level:0 "Level of Fame"
  game_concept_prestige_levels:0 "Levels of Fame"
- game_concept_prestige_level_desc:1 "A Character's $game_concept_prestige_level$ measures their general reputation, and how well perceived they are by everyone.\n\nEach time a Character gains [prestige|E], they also progress towards the next $game_concept_prestige_level$.\n\nThe Levels are:\n$EFFECT_LIST_BULLET$[GetModifier( 'prestige_level_1' ).GetNameWithTooltip|L]\n$EFFECT_LIST_BULLET$[GetModifier( 'prestige_level_2' ).GetNameWithTooltip|L]\n$EFFECT_LIST_BULLET$[GetModifier( 'prestige_level_3' ).GetNameWithTooltip|L]\n$EFFECT_LIST_BULLET$[GetModifier( 'prestige_level_4' ).GetNameWithTooltip|L]\n$EFFECT_LIST_BULLET$[GetModifier( 'prestige_level_5' ).GetNameWithTooltip|L]"
+ game_concept_prestige_level_desc:2 "A Character's $game_concept_prestige_level$ measures their general reputation, and how well perceived they are by everyone.\n\nEach time a Character gains [prestige|E], they also progress towards the next $game_concept_prestige_level$.\n\nThe Levels are:\n$EFFECT_LIST_BULLET$[GetModifier( 'prestige_level_0' ).GetNameWithTooltip|L]\n$EFFECT_LIST_BULLET$[GetModifier( 'prestige_level_1' ).GetNameWithTooltip|L]\n$EFFECT_LIST_BULLET$[GetModifier( 'prestige_level_2' ).GetNameWithTooltip|L]\n$EFFECT_LIST_BULLET$[GetModifier( 'prestige_level_3' ).GetNameWithTooltip|L]\n$EFFECT_LIST_BULLET$[GetModifier( 'prestige_level_4' ).GetNameWithTooltip|L]\n$EFFECT_LIST_BULLET$[GetModifier( 'prestige_level_5' ).GetNameWithTooltip|L]"
  game_concept_dynast:1 "Dynasty Head"
  game_concept_dynast_desc:2 "A $game_concept_dynast$ is the head of an entire [dynasty|E] and all of its [houses|E]. The Dynasty Head wields certain unique powers over the members of the Dynasty, known as [dynast_interactions|E]."
  game_concept_dynasty:0 "Dynasty"
@@ -621,7 +623,7 @@
  game_concept_prowess:0 "Prowess"
  game_concept_prowess_i:0 "@skill_prowess_icon!"
  game_concept_prowess_skill:0 "Prowess Skill"
- game_concept_prowess_skill_desc:2 "$game_concept_prowess$ is a secondary [skill|E] that reflects the Character's aptitude in personal combat.\n\nA high Prowess Skill means they are more likely to survive and perform well both as [knights|E] in [battles|E] and in duels.\n\nEach point of Prowess gives a Knight:\n$BULLET_WITH_TAB$[damage|E]: #V [GetDefine('NCombat', 'KNIGHT_DAMAGE_PER_PROWESS')]#!\n$BULLET_WITH_TAB$[toughness|E]: #V [GetDefine('NCombat', 'KNIGHT_TOUGHNESS_PER_PROWESS')]#!\n\n$PROWESS_MUSCLE_INFO$"
+ game_concept_prowess_skill_desc:3 "$game_concept_prowess$ is a secondary [skill|E] that reflects the Character's aptitude in personal combat.\n\nA high Prowess Skill means they are more likely to survive and perform well both as [knights|E] in [battles|E] and in [single_combat_duel_plural|E].\n\nEach point of Prowess gives a Knight:\n$BULLET_WITH_TAB$[damage|E]: #V [GetDefine('NCombat', 'KNIGHT_DAMAGE_PER_PROWESS')]#!\n$BULLET_WITH_TAB$[toughness|E]: #V [GetDefine('NCombat', 'KNIGHT_TOUGHNESS_PER_PROWESS')]#!\n\n$PROWESS_MUSCLE_INFO$"
  game_concept_lifestyle:0 "Lifestyle"
  game_concept_lifestyles:0 "Lifestyles"
  game_concept_lifestyle_desc:2 "[adult|E] [rulers|E] may choose a $game_concept_lifestyle$, which will in turn allow them to select a [focus|E] and start gaining [perks|E].\n\nEach $game_concept_lifestyle$ has its own type of [experience|E], which is used to purchase $game_concept_perks$. For example, Experience in the [intrigue_lifestyle|E] is necessary to gain $game_concept_perks$ such as [GetPerk( 'dreadful_perk' ).GetName( GetPlayer )] or [GetPerk( 'like_weed_in_a_garden_perk' ).GetName( GetPlayer )].\n\nThe $game_concept_lifestyles$ are:\n$BULLET_WITH_TAB$ [diplomacy_lifestyle|E]\n$BULLET_WITH_TAB$ [stewardship_lifestyle|E]\n$BULLET_WITH_TAB$ [martial_lifestyle|E]\n$BULLET_WITH_TAB$ [intrigue_lifestyle|E]\n$BULLET_WITH_TAB$ [learning_lifestyle|E]"
@@ -671,6 +673,7 @@
  game_concept_tribal:0 "Tribal"
  game_concept_tribal_government:0 "Tribal Government"
  game_concept_tribal_desc:0 "Tribal realms have stunted county [development|E], cannot advance past Tribal Era [innovations|E], cannot construct new [holdings|E], and are usually unable to change their [succession_law|E].\n\nHowever, they can make use of [prestige|E] rather than [gold|E] to build their realms and hire [men_at_arms|E], and have access to more [casus_belli|E] compared to [feudal|E] Realms. Non-Tribal armies suffer a [supply_limit|E] penalty in hostile Tribal territory."
+
  game_concept_clan:0 "Clan"
  game_concept_clan_government:0 "Clan Government"
  game_concept_clan_desc:0 "Clans are a [government_form|E] in which the amount of [levies|E] and [taxes|E] given to a [liege|E] by their [vassals|E] is determined by their [opinion|E] of said Liege. However, the Liege's [crown_authority|E] can increase the minimum amount they must provide regardless of Opinion."
@@ -680,6 +683,7 @@
  game_concept_theocratic_government:0 "Theocratic Government"
  game_concept_theocracy_government:0 "Theocratic Government"
  game_concept_theocracy_desc:0 "$game_concept_theocracy$ is an unplayable [government_form|E] available for some [faiths|E] depending on [doctrines|E]. They are usually lead by a [head_of_faith|E] or a [landed|E] [realm_priest|E]. A Bishop might also become an [independent|E] Theocratic ruler in their own right."
+ 
  game_concept_republic:0 "Republic"
  game_concept_republics:0 "Republics"
  game_concept_republican:0 "Republican"
@@ -706,6 +710,7 @@
  game_concept_fortification_building:0 "Fortification Building"
  game_concept_fortification_buildings:0 "Fortification Buildings"
  game_concept_fortification_building_desc:0 "$game_concept_fortification_buildings$ are [buildings|E] whose primary function is to either increase their holding's [fort_level|E] or provide bonus [advantage|E] for defenders."
+
  game_concept_battle:0 "Battle"
  game_concept_battles:0 "Battles"
  game_concept_battle_desc:1 "$game_concept_battles$ start when two opposing [armies|E] enter the same [barony|E].\n\nAt the start of a $game_concept_battle$, one side usually starts with [advantage|E] dependent on factors like [terrain|E], [commander|E] and [commander_traits|E].\n\nArmies take [casualties|E] based on the amount of [damage|E] sustained. The $game_concept_battle$ enters its [aftermath|E] when no [soldiers|E] remain for one side.\n\nThe winner of a $game_concept_battle$ is awarded [war_score|E] dependent on the magnitude of the victory."
@@ -824,6 +829,7 @@
  game_concept_criminals:0 "Criminals"
  game_concept_crime_i:0 "@crime_icon!"
  game_concept_crime_desc:2 "$game_concept_crimes$ are actions that society views as objectionable enough to be worthy of punishment.\n\nCrimes may be secular (such as a [vassal|E] [revolting|E] against their [liege|E]) or religious (any kind of [shunned|E] behavior that is made illegal by [doctrine|E]). Secular crimes can only be punished by the character(s) who were harmed by the offense, but any [ruler|E] can punish their subjects for religious Crimes.\n\nAll crimes give Rulers a valid reason to [imprison|E] $game_concept_criminals$, and, depending on the severity of the Crime, to [revoke|E] their [titles|E], [banish|E], [torture|E], or [execute|E] them. Each Crime can only be punished by a Ruler once, though some Crimes will give the Criminal a negative [fame_trait|E] that they will carry to their grave.\n\nSometimes characters get away with Crimes, which are then [secrets|E] that can be uncovered by other characters and used for [blackmail|E]."
+
  game_concept_shunned:0 "Shunned"
  game_concept_shunned_desc:1 "Many [faiths|E] have [doctrines|E] which designate certain behaviors as Shunned. Depending on the specific Doctrine, these behaviors may also be considered [criminal|E].\n\nCharacters who are caught practicing behaviors that are Shunned by their Faith lose a [piety_level|E] and gain a corresponding [fame_trait|E]; this Trait will be disliked by everyone whose Faith considers that behavior to be either Shunned or Criminal.\n\nExamples of Shunned behaviors include:\n$EFFECT_LIST_BULLET$[GetTrait('fornicator').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$[GetTrait('adulterer').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$[GetTrait('deviant').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$[GetTrait('sodomite').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$[GetTrait('kinslayer_3').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$[GetTrait('witch').GetName( GetNullCharacter )]"
  game_concept_refuse_conversion_crime:0 "Refuse Conversion"
@@ -1109,7 +1115,7 @@
  game_concept_breeding_desc:2 "By arranging [marriages|E] between characters with good [congenital|E] [traits|E], it is possible to breed children with the same Traits. Lucky offspring might even get a reinforced version of such Traits.\n\nHowever, the same is true of bad Congenital Traits like [GetTrait('beauty_bad_2').GetName( GetNullCharacter )].\n\nIt might be tempting to arrange marriages between closely related characters in order to produce better Traits in your children, but this also carries the risk of [inbreeding|E] defects."
  game_concept_inbreeding:0 "Inbreeding"
  game_concept_inbred:0 "Inbred"
- game_concept_inbreeding_desc:0 "The children of two closely related characters risk being born with a [congenital|E] defect, the most serious of which is the [GetTrait('inbred').GetName( GetNullCharacter )] [trait|E].\n\nThis is rare in the first generation, but successive Inbreeding increases the risk.\n\nGenerations of inbreeding can, however, also result in the beneficial [GetTrait('pure_blooded').GetName( GetNullCharacter )] Trait, which makes offspring immune to birth defects due to all flaws having been [bred|E] out of the bloodline."
+ game_concept_inbreeding_desc:1 "The [children|E] of two closely related [characters|E] risk being born with a [congenital|E] defect, the most serious of which is the [GetTrait('inbred').GetName( GetNullCharacter )] [trait|E].\n\nThis is rare in the first generation, but successive $game_concept_inbreeding$ increases the risk.\n\nGenerations of $game_concept_inbreeding$ can, however, also result in the beneficial [GetTrait('pure_blooded').GetName( GetNullCharacter )] $game_concept_trait$, which (if both parents share it) makes offspring immune to birth defects due to all flaws having been [bred|E] out of the bloodline."
  game_concept_cadet_branching:0 "Cadet Branching"
  game_concept_cadet_branch:0 "Cadet Branch"
  game_concept_cadet_branches:0 "Cadet Branches"
@@ -1134,6 +1140,7 @@
  game_concept_completely_controls:0 "Completely Controls"
  game_concept_completely_control:0 "Completely Control"
  game_concept_completely_controlled:0 "Completely Controlled"
+
  game_concept_complete_control:0 "Complete Control"
  game_concept_complete_control_desc:2 "This condition is fulfilled when all [de_jure|E] vassal [titles|E] of the targeted title are held by either the [ruler|E] or by their [vassals|E] and none of its Counties are [occupied|E] by hostile [armies|E]."
  game_concept_complete_control_region:0 "Complete Control"
@@ -1181,6 +1188,7 @@
  game_concept_papal_recipient_desc:1 "If the main target of the [great_holy_war|E] is already held or claimed by a member of the aggressor faith, they will be considered the rightful recipient of the title being fought over, unless the main [Concept( 'war_contribution', 'Contributor' )|E] decides to give precedence to their [beneficiary|E]."
  game_concept_end_date:0 "End Date"
  game_concept_end_date_desc:0 "1453 AD is the End Date, and upon reaching it the game will end."
+ 
  game_concept_realm_size:0 "Realm Size"
  game_concept_realm_size_desc:1 "A character's $game_concept_realm_size$ is the number of [counties|E] owned by them and their [vassals|E]."
  game_concept_voter_strength:0 "Voter Strength"
@@ -1195,13 +1203,17 @@
  game_concept_mental_breaks:0 "Mental Breaks"
  game_concept_mental_break_desc:0 "When [stress|e] overwhelms a character they will experience a Mental Break — a personal crisis in which they feel that they must do something to lower their Stress, no matter the cost.\n\nCharacters suffering from a Mental Break will have several ways that they can deal with the situation, though many of them will have negative consequences.\n\nAt low [stress_levels|E] these consequences are minor and easily managed. As Stress Level increases however, so do these consequences, eventually leading to insanity and even death."
  stress_icon_tooltip:0 "$game_concept_mental_break_desc$"
+
  game_concept_court_physician_desc:0 "The Court Physician is responsible for the health and well-being of the [court|E] they are in.\n\nThey will treat disease and suture wounds, alleviating the negative effects of traits such as [GetTrait('pneumonic').GetName( GetNullCharacter )] and [GetTrait('wounded_1').GetName( GetNullCharacter )].\n\nEach [ruler|E] can employ one Court Physician."
  game_concept_court_physician:0 "Court Physician"
  game_concept_court_physicians:0 "Court Physicians"
+ 
  game_concept_clergy_opinion:0 "Clergy Opinion"
  game_concept_clergy_opinion_desc:0 "This type of [opinion|E] only affects [clergy|E] of your own [faith|E]."
+ 
  game_concept_secular_opinion:0 "Secular Opinion"
  game_concept_secular_opinion_desc:0 "This type of [opinion|E] affects all characters that are #emphasis not#! [clergy|E]."
+
  game_concept_title_allegiance:0 "Title Allegiance"
  game_concept_title_allegiance_desc:0 "[vassals|E] can owe Allegiance to a specific [title|E] rather than the person of their [liege|E]. This can only happen if the Title has its own [succession_law|E]. On [succession|E], such Vassals will become vassals of the new Title [holder|E]."
  game_concept_nominate:0 "Nominate"
@@ -1238,9 +1250,11 @@
  game_concept_incest:0 "Incest"
  game_concept_incestuous:0 "Incestuous"
  game_concept_incest_desc:0 "Incest refers to sexual activity between close relatives.\nWhat relations are incestuous is determined by the $doctrine_consanguinity_name$ [doctrine|E] of a character's [faith|E]."
+
  game_concept_relation:0 "Special Relation"
  game_concept_relations:0 "Special Relations"
  game_concept_relation_desc:3 "$game_concept_relations$ are relationships a character has which are not bound by family or [vassalage|E]. These $game_concept_relations$ fall into several different categories, may carry [character_modifiers|E] for the character involved, and determine what things can happen between them.\n\nStandard Relations:\n$EFFECT_LIST_BULLET$ [friend|E]\n$EFFECT_LIST_BULLET$ [lover|E]\n$EFFECT_LIST_BULLET$ [rival|E]\n$EFFECT_LIST_BULLET$ [guardian|E]\n$EFFECT_LIST_BULLET$ [ward|E]\n$EFFECT_LIST_BULLET$ [mentor|E]\n$EFFECT_LIST_BULLET$ [student|E]\n\nUpgraded Relations:\n$EFFECT_LIST_BULLET$ [best_friend|E]\n$EFFECT_LIST_BULLET$ [soulmate|E]\n$EFFECT_LIST_BULLET$ [nemesis|E]\n\nChildhood Relations:\n$EFFECT_LIST_BULLET$ [bully|E]\n$EFFECT_LIST_BULLET$ [victim|E]\n$EFFECT_LIST_BULLET$ [crush|E]"
+ 
  game_concept_lover:0 "Lover"
  game_concept_lovers:0 "Lovers"
  game_concept_lover_possessive:0 "Lover's"
@@ -1251,91 +1265,114 @@
  game_concept_soulmate_possessive:0 "Soulmate's"
  game_concept_soulmates_possessive:0 "Soulmates'"
  game_concept_soulmate_desc:0 "A $game_concept_soulmate$ is a $game_concept_relation$ indicating a deep, profound, romantic love. It is a stronger $game_concept_relation$ than a [lover|E]. A $game_concept_character$ can only have one $game_concept_soulmate$."
+
  game_concept_friend:0 "Friend"
  game_concept_friends:0 "Friends"
  game_concept_friend_possessive:0 "Friend's"
  game_concept_friends_possessive:0 "Friends'"
  game_concept_friend_desc:2 "A $game_concept_friend$ is a $game_concept_relation$ indicating close friendship and support, and can be had by both [children|E] and [adults|E].\n\n$game_concept_friends$ with a deep connection might become [best_friends|E]."
+
  game_concept_best_friend:0 "Best Friend"
  game_concept_best_friends:0 "Best Friends"
  game_concept_best_friend_possessive:0 "Best Friend's"
  game_concept_best_friends_possessive:0 "Best Friends'"
  game_concept_best_friend_desc:2 "A $game_concept_best_friend$ is a $game_concept_relation$ indicating lifelong dedication and support. It is a stronger $game_concept_relation$ than a [friend|E]. A [character|E] can only have one $game_concept_best_friend$."
+
  game_concept_rival:0 "Rival"
  game_concept_rivals:0 "Rivals"
  game_concept_rival_possessive:0 "Rival's"
  game_concept_rivals_possessive:0 "Rivals'"
  game_concept_rival_desc:2 "A $game_concept_rival$ is a $game_concept_relation$ indicating life-long resentment, if not hatred.\n\n$game_concept_rivals$ who truly despise each other might become [nemeses|E]."
+
  game_concept_nemesis:0 "Nemesis"
  game_concept_nemeses:0 "Nemeses"
  game_concept_nemesis_possessive:0 "Nemesis'"
  game_concept_nemeses_possessive:0 "Nemeses'"
  game_concept_nemesis_desc:1 "A $game_concept_nemesis$ is a $game_concept_relation$ indicating utter (and mutual) contempt and hatred. It is a stronger $game_concept_relation$ than a [rival|E]. A character can only have one $game_concept_nemesis$."
+
  game_concept_guardian:0 "Guardian"
  game_concept_guardians:0 "Guardians"
  game_concept_guardian_possessive:0 "Guardian's"
  game_concept_guardians_possessive:0 "Guardians'"
  game_concept_guardianship:0 "guardianship"
  game_concept_guardian_desc:1 "A $game_concept_guardian$ is a [character|E] assigned to [educate|E] a [child|E] (called their [ward|E]).\n\n$game_concept_guardians$ tend to pass on their personality [traits|E] to their $game_concept_wards$, as well as their [culture|E] and/or [faith|E], if so specified in the $game_concept_education_focus$.\n\nThe $game_concept_guardian$ can reside in a different [court|E]. Entrusting a [close_family_member|E] to the mercy of another [ruler|E] in this way will increase their [opinion|E] of you."
+
  game_concept_ward:0 "Ward"
  game_concept_wards:0 "Wards"
  game_concept_ward_possessive:0 "Ward's"
  game_concept_wards_possessive:0 "Wards'"
  game_concept_ward_desc:0 "A $game_concept_ward$ is a [child|E] being [educated|E] by a [guardian|E]. Each $game_concept_guardian$ can handle up to two $game_concept_wards$."
+
  game_concept_mentor:0 "Mentor"
  game_concept_mentors:0 "Mentors"
  game_concept_mentor_possessive:0 "Mentor's"
  game_concept_mentors_possessive:0 "Mentors'"
  game_concept_mentor_desc:0 "$game_concept_mentors$ are [characters|E] that help to improve the [skills|E] of their [student|E]. They can be gained through events when your [lifestyle|E] [focus|E] is set to a particular $game_concept_skill$."
+
  game_concept_student:0 "Student"
  game_concept_students:0 "Students"
  game_concept_student_possessive:0 "Student's"
  game_concept_students_possessive:0 "Students'"
  game_concept_student_desc:0 "$game_concept_students$ are [characters|E] benefiting from the advice of a [mentor|E], who is helping them to advance one of their [skills|E]. $game_concept_mentors$ are gained through events when your [lifestyle|E] [focus|E] is set to a $game_concept_skill$ they excel at."
+
  game_concept_bully:0 "Bully"
  game_concept_bullies:0 "Bullies"
  game_concept_bully_possessive:0 "Bully's"
  game_concept_bullies_possessive:0 "Bullies'"
  game_concept_bully_desc:0 "A $game_concept_bully$ is a cruel [child|E] who picks on another $game_concept_child$ (their [victim|E]), for fun, profit, or just boredom. Upon reaching [adulthood|E], a $game_concept_bully$ may become a [rival|E], or they may grow out of their childish hate."
+
  game_concept_victim:0 "Victim"
  game_concept_victims:0 "Victims"
  game_concept_victim_possessive:0 "Victim's"
  game_concept_victims_possessive:0 "Victims'"
  game_concept_victim_desc:0 "A $game_concept_victim$ is a [child|E] who is currently being harassed by another $game_concept_child$, often for reasons unclear to anyone but their [bully|E]. Upon reaching [adulthood|E], they may become [rivals|E] with their $game_concept_bully$, or learn to put the struggles of youth behind them."
+
  game_concept_crush:0 "Crush"
  game_concept_crushes:0 "Crushes"
  game_concept_crush_possessive:0 "Crush's"
  game_concept_crushes_possessive:0 "Crushes'"
  game_concept_crush_desc:0 "A $game_concept_crush$ is another [child|E] that this $game_concept_child$ is developing their first (rather painfully-awkward) feelings for. Upon reaching [adulthood|E], if the $game_concept_crush$ is mutual, it may blossom into becoming [lovers|E], or the [character|E] may move on with their life."
+
  game_concept_modifier:0 "Modifier"
  game_concept_modifiers:0 "Modifiers"
  game_concept_modifier_desc:0 "A $game_concept_modifier$ is an effect that changes a value over a longer period of time. It may for example change the value of a character's [skills|E], or the [success_chance|E] of a [scheme|E].\n\nModifiers typically appear for Characters, Schemes or [counties|E]."
+
  game_concept_character_modifier:0 "Character Modifier"
  game_concept_character_modifiers:0 "Character Modifiers"
  game_concept_character_modifier_desc:2 "[modifiers|E] held by a Character, affecting their personality, [skills|E], and even [income|E]. Unlike [traits|E], $game_concept_character_modifiers$ tend to represent temporary effects."
+
  game_concept_critical_failure:0 "Critical Failure"
  game_concept_critically_fail:0 "Critically Fail"
  game_concept_critical_failure_desc:0 "Some [schemes|E] have the possibility of $game_concept_critical_failure$ during execution.\n\nThe possible outcomes vary, but might have the opposite of the intended effect, or prevent a Character from attempting the same Scheme against the same target for some time."
+
  game_concept_espionage:1 "$task_find_secrets$"
  game_concept_espionage_desc:1 "$game_concept_espionage$ is a [councillor_task|E] performed by the [spymaster|E].\n\nIt targets a [ruler|E]'s [court|E], and tries to uncover [secrets|E] about the characters there."
+
  game_concept_disrupt_schemes:0 "$task_disrupt_schemes$"
  game_concept_disrupt_schemes_desc:1 "$game_concept_disrupt_schemes$ is a [councillor_task|E] performed by the [spymaster|E].\n\nIt increases a ruler's [scheme_discovery_chance|E] and slows down hostile Spymaster actions of others, such as [espionage|E]."
+
  game_concept_increase_control:0 "$task_increase_control$"
  game_concept_increase_control_desc:0 "$game_concept_increase_control$ is a [councillor_task|E] performed by the [marshal|E].\n\nIt targets a [county|E], where it increases [control|E], and removes [county_corruption|E] over time."
+
  game_concept_collect_taxes:0 "$task_collect_taxes$"
  game_concept_collect_taxes_desc:0 "$game_concept_collect_taxes$ is a [councillor_task|E] performed by the [steward|E].\n\nIt increases all taxes in a character's personal [domain|E]."
+
  game_concept_promote_culture:0 "$task_promote_culture$"
  game_concept_promote_culture_desc:1 "$game_concept_promote_culture$ is a [councillor_task|E] performed by the [steward|E].\n\nIt changes the [culture|E] of a [county|E] to match its ruler's $game_concept_culture$."
+
  game_concept_theocratic_vassal:0 "Theocratic Vassal"
  game_concept_theocratic_vassals:0 "Theocratic Vassals"
  game_concept_theocratic_vassal_desc:0 "Vassals who have the [theocratic_government|E] form.\n\nHow they function is determined by a [faith|E]'s [doctrines|E]."
+
  game_concept_ducal_conquest_casus_belli:0 "Ducal Conquest Casus Belli"
  game_concept_ducal_conquest:0 "Ducal Conquest"
  game_concept_ducal_conquest_casus_belli_desc:0 "A [casus_belli|E] that allows the seizure of [counties|E] required to create an [uncreated_title|E] of [duchy|E] rank."
+
  game_concept_vassalize_casus_belli:0 "Forced Vassalization Casus Belli"
  game_concept_vassalization_casus_belli:0 "Forced Vassalization"
  game_concept_vassalized_casus_belli:0 "Forcefully Vassalized"
  game_concept_vassalize_casus_belli_desc:1 "A [casus_belli|E] allowing for the forceful [vassalization|E] of a neighboring independent [ruler|E] of lower rank. Unlocked by the [GetPerk( 'forced_vassalage_perk' ).GetName( GetPlayer )] [perk|E].\n\nYou can Vassalize any Ruler that does not have more than #V [EmptyScope.ScriptValue('vassalize_default_size')|0]#! [counties|E] in their [realm|E].\n\nThis limit is increased by #P +[EmptyScope.ScriptValue('vassalize_growth_per_innovation')|0]#! for each of the following innovations:$MODIFIER_NEWLINE_WITH_BULLET$#V $innovation_casus_belli$#!$MODIFIER_NEWLINE_WITH_BULLET$#V $innovation_chronicle_writing$#!$MODIFIER_NEWLINE_WITH_BULLET$#V $innovation_divine_right$#!$MODIFIER_NEWLINE_WITH_BULLET$#V $innovation_rightful_ownership$#!"
+
  game_concept_title_creation:0 "Title Creation"
  game_concept_create:0 "Create"
  game_concept_created:0 "Created"
@@ -1343,151 +1380,206 @@
  game_concept_created_title:0 "Created Title"
  game_concept_uncreated_title:0 "Uncreated Title"
  game_concept_title_creation_desc:2 "A [ruler|E] who controls the majority of a not-yet-created [titlepossessive|E] [de_jure|E] land will be able to create its associated Title. Creating a Title costs [gold|E], but gives [prestige|E].\n\nOnly [duchy|E], [kingdom|E] or [empire|E] tier Titles can be created.\n\nThe Issues widget contains a list of all Titles which you can currently create."
+
  game_concept_foreign_affairs:0 "$task_foreign_affairs$"
  game_concept_foreign_affairs_desc:0 "A [councillor_task|E] performed by the [chancellor|E].\nFor an [independent|E] [ruler|E], it increases the opinion other independent rulers have of them. For a vassal, it increases the opinion that other vassals of the same [liege|E] has of them."
+
  game_concept_domestic_affairs:0 "$task_domestic_affairs$"
  game_concept_domestic_affairs_desc:0 "A [councillor_task|E] performed by the [chancellor|E], which increases the opinion [vassals|E] in the [realm|E] have towards the [liege|E]."
+
  game_concept_fabricate_claim:0 "$task_fabricate_claim$"
  game_concept_fabricate_claim_short:0 "Fabricate Claim"
  game_concept_fabricated_claims_short:0 "Fabricated Claims"
  game_concept_fabricate_claim_desc:0 "A [councillor_task|E] performed by the [court_chaplain|E].\nTargets a [county|E], and builds progress over time. At 100% Progress, a [claim|E] can be fabricated for a cost of [gold|E]."
+
  game_concept_religious_relations:0 "$task_religious_relations$"
  game_concept_religious_relations_desc:0 "A [councillor_task|E] performed by the [court_chaplain|E].\nIncreases same-[faith|E] [theocratic|E] rulers' opinion of the character, and increases monthly [piety|E] gain."
+
  game_concept_interaction:0 "Interaction"
  game_concept_interactions:0 "Interactions"
  game_concept_character_interaction:0 "Character Interaction"
  game_concept_interaction_desc:0 "Actions taken by one character towards another. They can have a wide range of purposes and effects.\n\nSome interactions require the target character's approval, while some can be performed without it.\n\nUsually they are accessed by right-clicking on a character to access the Interaction Menu for the target character, but sometimes they are available through special interfaces."
+
  game_concept_offer_vassalization:0 "Offer Vassalization"
  game_concept_offer_vassalization_interaction:0 "Offer Vassalization Interaction"
  game_concept_offer_vassalization_desc:0 "An interaction offering [vassalage|E] to an [independent|E] [ruler|E] of lower [title_rank|E], peacefully adding them to the realm."
+
  game_concept_extort_subjects_decision:0 "Extort Subjects Decision"
  game_concept_extort_subjects:0 "Extort Subjects"
  game_concept_extort_subjects_decision_desc:0 "A [decision|E] offering different opportunities to demand extra [gold|E] from subjects, at a different cost..."
+
  game_concept_sell_titles_decision:0 "Sell Titles Decision"
  game_concept_sell_titles:0 "Sell Titles"
  game_concept_sell_titles_decision_desc:0 "A [decision|E] allowing for the sale of minor titles. Grants [gold|E] in exchange for [prestige|E]."
+
  game_concept_embrace_celibacy:0 "Embrace Celibacy"
  game_concept_embrace_celibacy_decision:0 "Embrace Celibacy Decision"
  game_concept_embrace_celibacy_desc:0 "A [decision|E] that allows a character to gain the [GetTrait('celibate').GetName( GetPlayer )] [trait|E] at will."
+
  game_concept_abandon_celibacy:0 "Abandon Celibacy"
  game_concept_abandon_celibacy_decision:0 "Abandon Celibacy Decision"
  game_concept_abandon_celibacy_desc:0 "A [decision|E] that allows a character to lose the [GetTrait('celibate').GetName( GetPlayer )] [trait|E] at will."
+ 
  game_concept_convert_county:0 "$task_conversion$"
  game_concept_convert_county_desc:0 "A [councillor_task|E] performed by the [court_chaplain|E] which targets a [county|E] of a different faith than the [liege|E].\nProgress increases each month, and at 100%, the majority of the Target County has changed from their previous Faith to the Liege's Faith.\n\nConversion speed is affected by many factors, including the [councillor|E]'s [learning_skill|E] and the [fervor|E] of the two Faiths."
+
  game_concept_commission_epic:0 "$commission_epic_decision$"
  game_concept_commission_epic_decision:0 "$commission_epic_decision$ Decision"
  game_concept_commission_epic_desc:0 "A [decision|E] that lets a character trade [gold|E] for [prestige|E], by commissioning a family epic."
+
  game_concept_exceptional_epic:0 "Exceptional Epic"
  game_concept_exceptional_epic_desc:0 "A Family Epic written through the $commission_epic_decision$ Decision has a chance of being an Exceptional Epic, which confers greater bonuses than a normal epic.\n\nThe chance of the Epic being Exceptional can be affected by event choices."
+
  game_concept_demand_payment:0 "Demand Payment"
  game_concept_demand_payment_decision:0 "Demand Payment Interaction"
  game_concept_demand_payment_desc:0 "A Diplomatic Interaction that allows a character to demand payment of [gold|E] in exchange for any [hooks|E] they have."
+
  game_concept_claim_throne:0 "Claim Throne"
  game_concept_claim_the_throne:0 "claim the throne"
  game_concept_claim_throne_interaction:1 "Claim Throne Scheme"
  game_concept_claim_throne_desc:1 "A Hostile [scheme|E] that allows a character to gain a [claim|E] against their direct [liege|E]'s [primary_title|E]."
+
  game_concept_independence_faction:0 "Independence Faction"
  game_concept_independence_factions:0 "Independence Factions"
  game_concept_faction_independence:0 "Independence"
  game_concept_independence_faction_desc:1 "The $game_concept_independence_faction$ seeks independence for all its members. If successful, they will go [independent|E] from their [liege|E]."
+
  game_concept_liberty_faction:0 "$liberty_faction$"
  game_concept_faction_liberty:0 "Liberty"
+ game_concept_liberty_factions:0 "Liberty Factions"
  game_concept_liberty_faction_desc:1 "The $game_concept_liberty_faction$ seeks to lower the [crown_authority|E] and, if applicable, their own [feudal_contracts|E]. If successful, their [liege|E] will be unable to change the Crown Authority of the [realm|E] for some time."
+
  game_concept_claimant_faction:0 "$claimant_faction$"
+ game_concept_claimant_factions:0 "Claimant Factions"
  game_concept_claimant_faction_desc:1 "The $game_concept_claimant_faction$ seeks to install a particular [claimant|E] on the throne of a [title|E] held by their [liege|E]. If successful, the Liege will have to relinquish the Title to the Claimant and the [vassal|E] structure will be updated accordingly. All [faction|E] members will gain a [hook|E] on the Claimant."
+
  game_concept_peasant_faction:0 "$peasant_faction$"
  game_concept_peasant_faction_desc:2 "The $game_concept_peasant_faction$ is populated by [counties|E] with low [county_opinion|E]. Unlike other [factions|E], this one will always revolt even if [faction_military_power|E] is low, as peasants are generally both optimistic and illiterate... Successful Peasant Revolts will significantly lower Control in your [realm|E]."
+
  game_concept_popular_faction:0 "$populist_faction$"
  game_concept_popular_faction_desc:0 "The $game_concept_popular_faction$ is populated by [counties|E] with low [county_opinion|E] that share a common element, such as [culture|E] or [faith|E]. They seek to break free, and choose a new [ruler|E] based on their Culture or Faith. This type of uprising is typically very dangerous."
+
  game_concept_buy_claim:0 "$buy_claim_interaction$"
  game_concept_buy_claim_interaction:0 "$buy_claim_interaction$ Interaction"
  game_concept_buy_claim_desc:2 "An Interaction that allows a character to buy [unpressed_claims|E] in exchange for [piety|E].\n\n$EFFECT_LIST_BULLET$A [vassal|E] may not buy a claim on any [liege|E]'s [title|E], and a Liege may not buy a claim on any Vassal's Title\n$EFFECT_LIST_BULLET$A [king|E] or [emperor|E] may not buy claims on Kingdom Titles, and Emperors may not buy claims on other Empires\n$EFFECT_LIST_BULLET$No one may buy a claim on their [head_of_faith|E]"
+
  game_concept_develop_county:0 "$task_develop_county$"
  game_concept_develop_county_desc:0 "A [councillor_task|E] performed by the [steward|E]. It targets a [county|E], where it speeds up [development_growth|E] and reduces the construction time for [buildings|E]."
+ 
  game_concept_hostile_army:0 "Hostile"
  game_concept_hostile_army_desc:0 "A $game_concept_hostile_army$ [army|E] can be engaged just as if you were at [war|E] with the owner, though no [war_score|E] will be given.\n\nHostility is caused by you having conflicting interests, including:\n$BULLET_WITH_TAB$Enemies of your [liege|E]\n$BULLET_WITH_TAB$[vassals|E] of your enemies\n$BULLET_WITH_TAB$Rulers #emphasis attacking#! the same enemy"
+
  game_concept_war_leaders:0 "War Leaders"
  game_concept_war_leader:0 "War Leader"
  game_concept_war_leaders_desc:0 "The primary attacker and the primary defender of a [war|E]. Usually this is the character who instigated the war, and the [top_liege|E] of the character who holds the [war_target|E].\n\nThere are a variety of [casus_belli|E] for many different kinds of war, some with different characters as the $game_concept_war_leaders$."
+
  game_concept_offensive_war_opinion:0 "Offensive War Opinion"
  game_concept_offensive_war_opinion_short:0 "Offensive War"
  game_concept_offensive_war_opinion_desc:0 "Being the main attacker in a war will gradually cause your [vassals|E] to dislike you after [GetDefine('NCharacterOpinion', 'OFFENSIVE_WAR_PENALTY_GRACE_PERIOD')] months. [civil_wars|E] and [great_holy_wars|E] are excluded from this. Once no longer in such a war, the penalty will slowly decay."
+ 
  game_concept_at_peace_opinion:0 "At Peace Opinion"
  game_concept_at_peace_opinion_short:0 "At Peace"
  game_concept_at_peace_opinion_desc:1 "Characters who have the [GetFaithDoctrine('tenet_warmonger').GetBaseName] [core_tenet|E] as part of their [faith|E] will have the '$game_concept_at_peace_opinion$' instead of the [offensive_war_opinion|E] penalty.\n\nIf you are at peace for too long, your [vassals|E] will think less of you #weak (if they share your Faith).#!"
+
  game_concept_character:0 "Character"
  game_concept_characters:0 "Characters"
  game_concept_character_possessive:0 "Character's"
  game_concept_characters_possessive:0 "Characters'"
  game_concept_character_desc:0 "Characters are either [noble|E] or [lowborn|E], [landed|E] or [unlanded|E], each with their own set of [skills|E] and [traits|E], goals and aspirations. They come in the form of [rulers|E], [courtiers|E] and [guests|E]. As long as they are within [diplomatic_range|E], they can be interacted with."
+
  game_concept_highlighted_text:0 "Highlighted Text"
  game_concept_highlighted_text_desc:0 "This information is here for you, whenever you are unsure about a game concept.\n\n#TUT You can even move your cursor into #EMP this#! tooltip for even more information! [highlighted_text_example|E]#!"
  game_concept_highlighted_text_example:0 "Neat!"
  game_concept_highlighted_text_example_desc:0 "Good job!"
- #game_concept_camera:0 ""
- #game_concept_camera_desc:2 ""
+
+ #game_concept_camera:0 "" Delete this
+ #game_concept_camera_desc:2 "" Delete this
+ 
  game_concept_detail_zoom:1 "$ZOOM_LEVEL_DETAILS$"
  game_concept_detail_zoom_desc:1 "$ZOOM_LEVEL_DETAILS_TOOLTIP$"
  game_concept_political_zoom:0 "$ZOOM_LEVEL_POLITICAL$"
  game_concept_political_zoom_desc:0 "$ZOOM_LEVEL_POLITICAL_TOOLTIP$"
  game_concept_paper_zoom:0 "$ZOOM_LEVEL_PAPER_MAP$"
  game_concept_paper_zoom_desc:0 "$ZOOM_LEVEL_PAPER_MAP_TOOLTIP$"
- #game_concept_world_realms_zoom:0 ""
- #game_concept_world_realms_zoom_desc:0 ""
+ #game_concept_world_realms_zoom:0 ""  Delete this
+ #game_concept_world_realms_zoom_desc:0 ""  Delete this
+
  game_concept_tutorial_education_trait:0 "Education Trait"
  game_concept_tutorial_education_trait_i:0 "@tutorial_education_trait_icon!"
  game_concept_tutorial_education_trait_desc:0 "Petty King Murchad (your [character|E]) followed a [martial|E] [education|E]. Upon reaching adulthood, he received the trait Skilled Tactician."
+
  game_concept_organized:0 "Organized"
  game_concept_organized_desc:0 "An Organized [faith|E] has a religious hierarchy. Worship and practices are more organized and scriptures are formalized.\n\n[GetFaithDoctrine('unreformed_faith_doctrine').GetBaseName] [GetReligionFamily('rf_pagan').GetName] Faiths can become Organized by reforming, while other Faiths are always considered Organized."
+
  game_concept_flowery_war:0 "Raid for Captives"
  game_concept_flowery_wars:0 "Raids for Captives"
  game_concept_flowery_warring:0 "Raiding for Captives"
  game_concept_flowery_war_desc:1 "This is a special type of [war|E], started by a [ruler|E] whose [faith|E] practices human sacrifice. The primary goal of $game_concept_flowery_warring$ is to do battle and capture [prisoners|E] for sacrifice, with either side able to get enough [war_score|E] through combat to win without ever having to [siege|E].\n\nAt the end of the $game_concept_war$, if the victor (including the defender) follows a $game_concept_faith$ practicing human sacrifice, then they will take several $game_concept_prisoners$ from the [court|E] of the loser. If both main combatants in a $game_concept_flowery_war$ follow the same faith, then the war is considered sacred, meaning that the loser still receives (reduced) [piety|E] even in defeat.\n\nYou cannot conduct or continue a $game_concept_flowery_war$ if you have any $game_concept_prisoners$ obtained through winning a $game_concept_flowery_war$ in your [dungeon|E]."
+
  game_concept_partition_share:0 "Partition Share"
  game_concept_partition_share_desc:1 "Under any [succession_law|E] with multiple [realm_heirs|E], a [character_possessive|E] $game_concept_partition_share$ is which [titles|E] that particular $game_concept_heir$ will inherit upon [succession|E]. Usually, this means dividing between the children of a [ruler|E], or, rarely, their siblings.\n\nTypically, depending on what type of $game_concept_succession$ is in place, $game_concept_titles$ may be divided evenly between separate [realms|E], evenly within the same $game_concept_realm$, or given mostly to the main $game_concept_heir$ while dividing the remainder evenly between any other $game_concept_heirs$."
+
  game_concept_banish_reason:0 "Banishment Reason"
  game_concept_banish_reasons:0 "Banishment Reasons"
  game_concept_banish_reason_desc:0 "A $game_concept_banish_reason$ gives a [liege|E] the opportunity to freely [banish|E] any subject they have in their [dungeon|E]. They are most often gained from the subject being a [criminal|E]."
+
  game_concept_imprisonment_reason:0 "Imprisonment Reason"
  game_concept_imprisonment_reasons:0 "Imprisonment Reasons"
  game_concept_imprisonment_reason_desc:0 "A $game_concept_imprisonment_reason$ gives a [liege|E] the opportunity to freely [imprison|E] a subject. They are most often gained from the subject being a [criminal|E]."
+
  game_concept_revoke_title_reason:0 "Title Revocation Reason"
  game_concept_revoke_title_reasons:0 "Title Revocation Reasons"
  game_concept_revoke_title_reason_desc:0 "A $game_concept_revoke_title_reason$ gives a [liege|E] the opportunity to freely [revoke|E] a [title|E] from a subject. They are most often gained from the subject being a [criminal|E]."
+
  game_concept_execute_reason:0 "Execution Reason"
  game_concept_execute_reasons:0 "Execution Reasons"
  game_concept_execute_reason_desc:1 "A $game_concept_execute_reason$ gives a [liege|E] the opportunity to freely [execute|E] a subject they have in their [dungeon|E]. They are most often gained from the subject being a [criminal|E]."
+
  game_concept_movement_lock:0 "Movement Lock"
  game_concept_movement_locked:0 "Movement Locked"
  game_concept_movement_locked_desc:0 "After an [army|E] has completed more than half of a given move order, it will not be possible to change it until they arrive at their destination."
+ 
  game_concept_extramarital_sex:0 "Extramarital Sex"
  game_concept_extramarital_sex_sleeping_with:0 "sleeping with"
  game_concept_extramarital_sex_desc:1 "If they are discovered, two characters engaged in extramarital sex will suffer consequences depending on their [faith|E]'s [doctrines|E].\n\n$EFFECT_LIST_BULLET$Each character will become known as either a [GetTrait('fornicator').GetName( GetNullCharacter )] or an [GetTrait('adulterer').GetName( GetNullCharacter )], depending on their own marital status\n$EFFECT_LIST_BULLET$If a man and a woman sleep together, it may result in a [bastard|E] pregnancy\n$EFFECT_LIST_BULLET$If the characters are of the same gender, consequences are determined by their [faith|E]'s $doctrine_homosexuality_name$ [doctrine|E]\n$EFFECT_LIST_BULLET$Any sexually transmitted [diseases|E] held by one character may infect the other"
+
  game_concept_romance:0 "$courting$"
  game_concept_romance_court:0 "Court"
  game_concept_romance_desc:1 "The $game_concept_romance$ is a type of [personal_scheme|E] where the [scheme_owner|E] seeks to improve their [prestige|E] and to potentially find a [soulmate|E] by choosing another character to court in a proper and noble fashion."
+
  game_concept_fabricate_hook:0 "Fabricate Hook"
  game_concept_fabricate_hook_scheme:0 "Fabricate Hook Scheme"
  game_concept_fabricate_a_hook:0 "fabricate a hook"
  game_concept_fabricate_hook_desc:0 "A [scheme|E] where a character attempts to forge or manipulate their way into gaining a [hook|E] on the target."
+
  game_concept_titular_title:0 "Titular Title"
  game_concept_titular_title_desc:0 "A $game_concept_titular_title$ is a [title|E] that has no [de_jure|E] land on the map. Non-Titular Titles can become Titular through [de_jure_drift|E].\n\n[mercenary|E], [head_of_faith|E] and [holy_order|E] Titles are often Titular."
+
  game_concept_pilgrimage:0 "Pilgrimage"
+ game_concept_pilgrimages:0 "Pilgrimages"
  game_concept_pilgrimage_desc:0 "Characters of most [faiths|E] can [decide|E] to go on a $game_concept_pilgrimage$ to a [holy_site|E].\n\nSuch a journey may be filled with both opportunity and peril, but upon reaching their destination characters will earn [piety|E] and may receive other rewards."
+
  game_concept_faith_righteous:0 "Righteous"
  game_concept_faith_righteous_desc:0 "This [faith|E] is considered legitimate.\nIntermarriage is common.\n\n#S Effects:\n#![GetHostilityDescription( '(int32)0' )]"
+
  game_concept_faith_astray:0 "Astray"
  game_concept_faith_astray_desc:0 "This [faith|E] differs in a way that is not particularly significant.\nIntermarriage may still happen.\n\n#S Effects:\n#![GetHostilityDescription( '(int32)1' )]"
+
  game_concept_faith_hostile:0 "Hostile"
  game_concept_faith_hostile_desc:0 "This [faith|E] deviates significantly.\nIntermarriage may still happen, [holy_wars|E] can be waged.\n\n#S Effects:\n#![GetHostilityDescription( '(int32)2' )]"
+
  game_concept_faith_evil:0 "Evil"
  game_concept_faith_evil_desc:0 "This [faith|E] is considered anathema.\nIntermarriage rarely happens, [holy_wars|E] can be waged.\n\n#S Effects:\n#![GetHostilityDescription( '(int32)3' )]"
+
  game_concept_faith_hostility:0 "Faith Hostility"
  game_concept_faith_hostility_desc:1 "All [faiths|E] have a relation towards each other $game_concept_faith$ that is determined by how closely related they are.\n\nCloseness is decided by several factors, such as if they share [religion|E], [religious_family|E], or if the Faith has special [doctrines|E].\n\nIf two Faiths are far apart, they are often able to [holy_war|E] each other.\n\nThe following relations exist: [faith_righteous|L], [faith_astray|L], [faith_hostile|L], and [faith_evil|L]."
+ 
  game_concept_command_modifier:0 "Command Modifier"
  game_concept_command_modifier_desc:0 "This [modifier|E] is only active for [commanders|E].\n\nIf a character with a Command Modifier commands an [army|E], it will get this effect."
  game_concept_command_modifier_i:0 "@command_modifier_icon!"
+
  #game_concept_pic: "@test_flower!"
+
  game_concept_nickname:0 "Nickname"
  game_concept_epithet:0 "Epithet"
  game_concept_cognomen:0 "Cognomen"
@@ -1495,41 +1587,84 @@
  game_concept_epithets:0 "Epithets"
  game_concept_cognomens:0 "Cognomens"
  game_concept_nickname_desc:1 "$game_concept_nicknames$, $game_concept_epithets$, and $game_concept_cognomens$ are all secondary names either taken by or attributed to [characters|E] (e.g. Charles 'the Bald'). $game_concept_nicknames$ are purely aesthetic, though the circumstances surrounding their acquisition are often dramatic or noteworthy affairs.\n\nBad $game_concept_nicknames$ will sometimes be overridden by good ones (such as William 'the Bastard' becoming William 'the Conqueror')."
+
  game_concept_main_phase:0 "Main Phase"
  game_concept_main_phase_desc:0 "In the Main Phase of a [battle|E], [soldiers|E] and [knights|E] from the two sides fight each other.\n\nThe Main Phase ends when all troops of one side have become [casualties|E] or one side has decided to [retreat|E].\n\nAfter the Main Phase the combat enters the [aftermath|E]."
+
  game_concept_personality_trait:0 "Personality Trait"
  game_concept_personality_traits:0 "Personality Traits"
  game_concept_personality_trait_desc:1 "A $game_concept_personality_trait$ is a [trait|E] that determine a person's world-view and what actions they are most likely to take. They also affect the [opinion|E] others. One might both lose and gain new traits during one's lifetime. Acting against your own Personality causes [stress|E]."
+
  game_concept_lifestyle_trait:0 "Lifestyle Trait"
  game_concept_lifestyle_trait_desc:1 "A $game_concept_lifestyle_trait$ is the result from picking certain [lifestyle|E] perks, [decisions|E], or [interactions|E].\n\nSome Lifestyle traits are upgradeable as the character improves their mastery of the skill. The levels range between 1-3, and the stars on the trait icon indicate the current level."
+
  game_concept_physical_trait:0 "Physical Trait"
  game_concept_physical_trait_desc:1 "A $game_concept_physical_trait$ is a descriptor of a physical [trait|E] tied to their appearance or behavior, and the level of intellect a character has. Many physical features affect how [attracted|E] others are to them.\n\nThey are often [congenital|E], thus gained at birth and permanent."
+
  game_concept_fame_trait:0 "Fame Trait"
  game_concept_fame_trait_desc:1 "A $game_concept_fame_trait$ is a special [trait|E] gained from specific circumstances and affects others' [opinion|E] of them. One can gain these traits as the results of accomplishing a positive deed, or when one's dark [secrets|E] are exposed. Others are the result of one's circumstances at birth."
+
  game_concept_health_trait:0 "Health Trait"
  game_concept_health_trait_desc:1 "A $game_concept_health_trait$ is a [trait|E] that directly affects one's physical and mental [health|E], such as [diseases|E]. Temporary traits that affect one's bodily capabilities, such as pregnancies and wounds also falls under this category."
+
  game_concept_modifier_contribution:0 "Contribution"
  game_concept_modifier_contributions:0 "Contributions"
  game_concept_modifier_contributes:0 "Contributes"
  game_concept_modifier_contribution_desc:0 "A [modifier|E] may change the $game_concept_modifier_contribution$ of your [vassals|E] [obligations|E]. This is not the same as [modifier_base_contribution|E].\n\nIf you have a [vassal] that pays you #V 1#! [gold|E] per month, and you gain a [modifier] that increases $game_concept_modifier_contribution$ by #V 10%#!, then the [vassal] instead pays you #V 1.1#! [gold]."
+ 
  game_concept_modifier_base_contribution:0 "Base Contribution"
  game_concept_modifier_base_contributions:0 "Base Contributions"
  game_concept_modifier_base_contributes:0 "Base Contributes"
  game_concept_modifier_base_contribution_desc:0 "A [modifier|E] may change the $game_concept_modifier_base_contribution$ of your [vassals|E] [obligations|E]. This is not the same as [modifier_contribution|E].\n\nIf you have a [vassal] that has a total [income|E] of #V 10#! [gold|E] and pays you #V 1#! [gold] per month, and you gain a [modifier] that increases $game_concept_modifier_base_contribution$ by #V 10%#!, then the [vassal] instead pays you #V 2#! [gold]."
+ 
  game_concept_maneuver:0 "Maneuver"
  game_concept_maneuver_desc:0 "The $game_concept_maneuver$ phase occurs at the start of a [battle|E] and indicates the time it takes before the [main_phase|E] begins, and [armies|E] engage each other in combat."
+ 
  game_concept_combat_phase:0 "Battle Phase"
  game_concept_combat_phase_desc:0 "A $game_concept_combat_phase$ is one part of a [battle|E]. Battles have three distinct phases; [maneuver|E], [main_phase|E], and [aftermath|E]."
+
  game_concept_unreformed_pagan_combat_bonus:1 "Unreformed Pagan Combat Advantage"
  game_concept_unreformed_pagan_combat_bonus_desc:1 "[GetFaithDoctrine('unreformed_faith_doctrine').GetBaseName] [GetReligionFamily('rf_pagan').GetName] [faiths|E] get a [battle|E] [advantage|E] in [counties|E] of their faith."
+ 
  game_concept_personality:0 "Personality"
  game_concept_personality_desc:0 "Characters will act against you and others according to their Personality, which is primarily determined by their Personality [traits|E]."
+ 
  game_concept_gift:0 "Gift"
+ game_concept_send_gift:0 "Send Gift"
  game_concept_gift_desc:0 "Sending a Gift to another character will increase their [opinion|E] of you in exchange for [gold|E][gold_i].\n\nThe greedier the recipient, the more Gold you will have to send, and the more Opinion you will get.\n\nThe higher your [diplomacy|E], the more Opinion you will get."
+
  game_concept_vote_strength:0 "Vote Strength"
+
  game_concept_hostage:0 "Hostage"
  game_concept_hostages:0 "Hostages"
  game_concept_hostage_desc:0 "A $game_concept_hostage$ is a [prisoner|E] who provides [war_score|E] when captured during a [war|E].\n\nFor a person to be deemed a hostage, they have to be third in line or higher to inherit their war leader's primary title.\n\nHostages are released when the war ends, unlike [prisoners_of_war|E]."
  game_concept_prisoner_of_war:0 "Prisoner of War"
  game_concept_prisoners_of_war:0 "Prisoners of War"
  game_concept_prisoner_of_war_desc:0 "A $game_concept_prisoner_of_war$ is a [prisoner|E] who's captured during a [war|E], but not of importance to provide the captors with [war_score|E].\n\n[hostages|E] are released when the war ends, unlike prisoners of war, but can still be ransomed for release."
+
+ game_concept_single_combat_fight:0 "Single Combat"
+ game_concept_single_combat_duel:0 "Duel"
+ game_concept_single_combat_fight_plural:0 "Single Combats"
+ game_concept_single_combat_duel_plural:0 "Duels"
+ game_concept_single_combat_fight_sudden_death:0 "Sudden Death"
+ game_concept_single_combat_fight_desc:0 "In a $game_concept_single_combat_fight$, two [characters|E] fight, either to the [character_death_death|E] or to first blood. Each round, both $game_concept_characters$ select one randomly rolled option from a list, trading blows until one $game_concept_character$ gets a solid strike in, with the options available depending on your [prowess|E] and [traits|E].\n\nSome options may give special effects, and most will increase your [single_combat_success_chance|E] and [single_combat_injury_chance|E]. As $game_concept_single_combat_duel_plural$ go on, they grow more dangerous and uncertain, and it becomes easier to win or hurt yourself. After several rounds, $game_concept_single_combat_duel_plural$ enter sudden death, ending immediately with the higher $game_concept_prowess$ combatant winning.\n\nWhen fighting $game_concept_single_combat_duel_plural$, you may gain temporary [single_combat_prowess_bonus|E] or [single_combat_prowess_malus|E] [character_modifiers|E], increasing or reducing your $game_concept_prowess$ until the $game_concept_single_combat_duel$ ends."
+ game_concept_single_combat_success_chance:0 "Likelihood of Success"
+ game_concept_single_combat_success_chance_skill:0 "Duel Success"
+ game_concept_single_combat_success_chance_desc:0 "When fighting a $game_concept_single_combat_fight$, your $game_concept_single_combat_success_chance$ is how well you are doing in the $game_concept_single_combat_duel$. To win, you must get your $game_concept_single_combat_success_chance$ far above your opponent's.\n\nAs rounds go on, it becomes easier to win, meaning you need less lead over your opponent.\n\nThe counterpart to $game_concept_single_combat_success_chance$ is [single_combat_injury_chance|E]."
+ game_concept_single_combat_injury_chance:0 "Risk of Injury"
+ game_concept_single_combat_injury_chance_injure:0 "Injure"
+ game_concept_single_combat_injury_chance_injury_risk:0 "Injury Risk"
+ game_concept_single_combat_injury_chance_desc:0 "[characters|E] in $game_concept_single_combat_fight_plural$ run the risk of hurting themselves, either by accidentally opening their guard to their opponent, or simply injuring themselves with their own weapon. As they fight, they also build $game_concept_single_combat_injury_chance$.\n\n$game_concept_single_combat_duel_plural$ that go on longer make it easier to hurt yourself.\n\nThe counterpart to $game_concept_single_combat_injury_chance$ is [single_combat_success_chance|E]."
+ game_concept_single_combat_prowess_bonus:0 "Duel Edge Bonus"
+ game_concept_single_combat_prowess_bonus_desc:0 "As [characters|E] $game_concept_single_combat_duel$, they may gain temporary advantage, such as by leveraging [terrain|E] or special [traits|E]. This increases their [prowess|E] for the duration of the current bout, and is lost immediately after.\n\nThe opposite of $game_concept_single_combat_prowess_bonus$ is [single_combat_prowess_malus|E]."
+ game_concept_single_combat_prowess_malus:0 "Duel Edge Malus"
+ game_concept_single_combat_prowess_malus_desc:1 "As [characters|E] $game_concept_single_combat_duel$, they may be afflicted with temporary disadvantage, often due to their opponent severely hurting or intimidating them. This decreases their [prowess|E] for the duration of the current bout, but is regained immediately after.\n\nThe opposite of $game_concept_single_combat_prowess_malus$ is [single_combat_prowess_bonus|E]."
+
+ game_concept_elope_scheme:0 "$elope$"
+ game_concept_elope_schemes:0 "Elope Schemes"
+ game_concept_elope:0 "Elope"
+ game_concept_elope_scheme_desc:0 "The $elope$ is a [personal_scheme|E] where the [scheme_target|E] moves to the [scheme_owner|E]'s court to marry them.\nA multitude of factors determines the [success_chance|E] of the Scheme, including [rank|E] and opinion.\nOnly [lovers|E] can elope."
+
+ game_concept_de_jure_partition:0 "De Jure Partition"
+ game_concept_de_jure_partitioned:0 "De Jure Partitioned"
+ game_concept_de_jure_partition_desc:0 "[realms|E] that have been $game_concept_de_jure_partitioned$ have been split into two same-[title_tier|E] [titles|E], but can still be reunited easily.\n\nEither $game_concept_title$ can [de_jure_drift_drift|E] [completely_controlled|E] [duchies|E] from the other $game_concept_title$ into its [de_jure|E] instantly via [decision|E].\n\nIf either $game_concept_title$ is ever destroyed or loses the last of its $game_concept_de_jure$ [counties|E], then the remaining $game_concept_title$ absorbs all of its $game_concept_de_jure$."

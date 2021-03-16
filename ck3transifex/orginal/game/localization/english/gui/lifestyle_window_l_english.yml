@@ -51,6 +51,7 @@
  LIFESTYLE_FOCUS_HEADER:0 "Lifestyle [focus|E]"
  LIFESTYLE_POINTS_TOOLTIP:0 "#T [Lifestyle.GetNameNoTooltip] Perks Available: [Character.GetPerkPoints( Lifestyle.Self )|+]#!"
  PERK_POINTS_ASSIGNED_TRIGGER:0 "You have no Perks to reset!"
+ 
  DIPLOMACY_LIFESTYLE_PERK_POINTS_TRIGGER:0 "Diplomacy lifestyle perk points: $NUM|V0$"
  MARTIAL_LIFESTYLE_PERK_POINTS_TRIGGER:0 "Martial lifestyle perk points: $NUM|V0$"
  STEWARDSHIP_LIFESTYLE_PERK_POINTS_TRIGGER:0 "Stewardship lifestyle perk points: $NUM|V0$"

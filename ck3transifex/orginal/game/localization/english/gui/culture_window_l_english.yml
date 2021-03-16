@@ -5,7 +5,7 @@
  CULTURE_RELATION_FOREIGN_CULTURE:0 "Foreign [culture|E],"
  CULTURE_WINDOW_ERA_JOINED:0 "$JOINED$–"
  CULTURE_WINDOW_ERA_JOINED_LEFT:0 "$JOINED$–$LEFT$"
- CULTURE_WINDOW_ERA_LEFT:0 ""
+ CULTURE_WINDOW_ERA_LEFT:0 "" 
  CULTURE_WINDOW_ERA_DISCOVERED_BY:0 "Discovered by [CULTURE.GetName]"
  CULTURE_WINDOW_CULTURE_HEAD_TITLE:0 "[culture_head|E]: [Character.GetUIName|U]"
  CULTURE_WINDOW_HEAD_FASCINATION:0 "[fascination|E]: [CultureWindow.GetCulture.GetFascination.GetName]"
@@ -61,3 +61,4 @@
  CULTURE_COOLTIP_HEAD:0 "[cultural_head|E]: [Culture.GetCultureHead.GetUIName|U]"
  CULTURE_COOLTIP_NO_HEAD:0 "[cultural_head|E]: None"
  CULTURE_COOLTIP_CLICK:0 "#I Click to view [Culture.GetNameNoTooltip]#!"
+ 

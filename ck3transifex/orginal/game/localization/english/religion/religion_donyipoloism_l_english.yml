@@ -1,5 +1,5 @@
 ﻿l_english:
- #Tanism
+ 
  tani_religion:0 "Tanism"
  tani_religion_adj:0 "Tani"
  tani_religion_adherent:0 "Tanist"
@@ -24,8 +24,8 @@
  tani_good_god_abotani:0 "Abotani"
  tani_house_of_worship:0 "gangging"
  tani_house_of_worship_plural:0 "ganggings"
- tani_religious_symbol:0 "Donyi"
- tani_religious_text:0 "Donyi-Polo"
+ tani_religious_symbol:0 "Donyi" 
+ tani_religious_text:0 "Donyi-Polo" 
  tani_religious_head_title:0 "Abu Miri"
  tani_religious_head_title_name:0 "Abu Miriate"
  tani_devotee_male:0 "ome"
@@ -41,6 +41,7 @@
  tani_bishop_plural:0 "miri"
  tani_divine_realm:0 "Gangging Siring"
  tani_positive_afterlife:0 "Gangging Siring"
+
  tani_creator_god_name:0 "Sedi"
  tani_creator_god_name_possessive:0 "Sedi's"
  tani_health_god_name:0 "$tani_high_god_name$"
@@ -63,24 +64,31 @@
  tani_night_god_name_possessive:0 "$tani_high_god_name_possessive$"
  tani_water_god_name:0 "$tani_high_god_name$"
  tani_water_god_name_possessive:0 "$tani_high_god_name_possessive$"
+
+ 
  donyipoloism:0 "Donyi-Poloism"
  donyipoloism_adj:0 "Donyi-Poloist"
  donyipoloism_adherent:0 "Donyi-Polo Ome"
  donyipoloism_adherent_plural:0 "Donyi-Polo Ome"
  donyipoloism_desc:0 "Donyi-Poloism is that main form of the Tani Lhoba religion that worships the dual Sun-Moon deities that are the eyes of the creator god Sedi as the Supreme Being."
+ 
  donyipoloism_old:0 "Old Donyi-Poloism"
  donyipoloism_old_adj:0 "Old Donyi-Poloist"
  donyipoloism_old_adherent:0 "Old Donyi-Polo Ome"
  donyipoloism_old_adherent_plural:0 "Old Donyi-Polo Ome"
+
+ 
  sedism:0 "Sedism"
  sedism_adj:0 "Sedist"
  sedism_adherent:0 "Sedi Ome"
  sedism_adherent_plural:0 "Sedi Ome"
  sedism_desc:0 "Sedism is a form of the Tani Lhoba religion that worships the creator god Sedi as the Supreme Being."
+ 
  sedism_old:0 "Old Sedism"
  sedism_old_adj:0 "Old Sedist"
  sedism_old_adherent:0 "Old Sedi Ome"
  sedism_old_adherent_plural:0 "Old Sedi Ome"
+ 
  sedism_high_god_name:0 "Donyi-Polo"
  sedism_high_god_name_possessive:0 "Donyi-Polo's"
  sedism_high_god_shehe:0 "He"

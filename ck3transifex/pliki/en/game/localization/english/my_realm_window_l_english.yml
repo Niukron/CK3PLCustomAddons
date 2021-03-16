@@ -85,7 +85,7 @@
  MY_REALM_WINDOW_HOLDING_LEVY: "@soldier_icon! [Holding.GetMaxLevySize|0]"
  MY_REALM_WINDOW_COUNTY_CONTROL: "[control|E]: $VALUE|%/0$"
  MY_REALM_WINDOW_COUNTY_CONTROL_COLORED: "#X [control|E]: $VALUE|%/0$#!"
- MY_REALM_WINDOW_CURRENT_CONSTRUCTION: "Constructing new $BULDING$"
+ MY_REALM_WINDOW_CURRENT_CONSTRUCTION: "Finishing new $BULDING$ in [DATE.GetTimeDiffFromNow]"
  MY_REALM_WINDOW_DEVELOPMENT: "[development|E]: [County.GetDevelopmentLevel]"
  MY_REALM_WINDOW_CONTROL_TOOLTIP: "#T County Control: [CountyGroup.GetCapitalProvince.GetCounty.GetControlLevelOutOfMax]#!\n[CountyGroup.GetCapitalProvince.GetCounty.GetCountyControlEffectsDesc]\n\n[CountyGroup.GetCapitalProvince.GetCounty.GetCountyControlIncreaseDesc]"
  MY_REALM_WINDOW_CONSTRUCT_HOLDING: "Can construct new Holding"

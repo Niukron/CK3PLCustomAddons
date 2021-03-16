@@ -1,7 +1,7 @@
 ﻿l_english:
  SW_TT_TIMER:1 "#T Next [siege|E] Event: #V $DAYS$#!#!\nEvery $TOTAL$, a new Siege Event occurs"
  SW_TT_TIMER_FROZEN:0 "No [siege|E] Event will occur.\n"
- #SW_TT_CLOSE:1 ""
+ #SW_TT_CLOSE:1 "" delete this
  SW_TT_GARRISON:0 "#T [garrison|E]: #V [Siege.GetDefenderMen|0] [soldiers|E]#!#! \nThe besieger needs to have more Soldiers than the Garrison for the [siege|E] to progress"
  SW_TT_RECENT_ACTION:0 ""
  SW_TT_ACTION:1 "#high $NAME$#!\n$EFFECT$"

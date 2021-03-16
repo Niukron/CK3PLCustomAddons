@@ -53,6 +53,8 @@
  RESET_REACTIVE_ADVICE_CONFIRMATION_TEXT: "Are you sure you want to Reset Reactive Advice?"
  SETTING_ADVANCED_SHADERS: "Advanced Shader Effects"
  SETTING_ADVANCED_SHADERS_TOOLTIP: "#T Advanced Shader Effects\n#!This option will enable advanced shader effects.\n\nTurning it off may increase performance at the cost of making some effects (e.g. terrain and water) look worse"
+ SETTING_WINTER_PARTICLE_EFFECTS: "Winter Particle Effects"
+ SETTING_WINTER_PARTICLE_EFFECTS_TOOLTIP: "#T $SETTING_WINTER_PARTICLE_EFFECTS$#!\nDetermines whether particle effects are shown or not when Winter is active in some areas of the map.\n\nTurning it off may increase performance"
  BASED_ON_ZOOM_LEVEL: "Dynamic"
  ALWAYS_HIDE: "Always Hide"
  ALWAYS_SHOW: "Always Show"

@@ -1,11 +1,10 @@
 ﻿l_english:
  childhood_education.0004.t: "The Fickleness of Youth"
  childhood_education.0004.opening: "My ward, [ward.GetTitledFirstName], has changed [ward.GetHerHis] focus of study.\n\n"
- childhood_education.0004.desc1: "To think that [ward.GetSheHe] now aspire to delve into the art of [ward.Custom('education_focus_child')], a field of study which I excel at... It warms my heart!"
+ childhood_education.0004.desc1: "To think that [ward.GetSheHe] now aspires to delve into the art of [ward.Custom('education_focus_child')], a field of study which I excel at... It warms my heart!"
  childhood_education.0004.desc2: "To think that [ward.GetSheHe] would abandon our joint interest for the art of [ROOT.Char.Custom('education_focus')]!"
  childhood_education.0004.desc_fallback: "[ward.GetSheHe|U] now pursues knowledge in the art of [ward.Custom('education_focus_child')]."
  childhood_education.0004.a: "[ward.GetTitledFirstNameNoTooltip] is now studying [ward.Custom('education_focus_child')]!"
- childhood_education.0004.b: "[ward.GetTitledFirstNameNoTooltip] is now studying [ward.Custom('education_focus_child')]..."
  childhood_education.1011.t: "It Is Who I Am"
  childhood_education.1011.desc: "[guardian.GetTitledFirstName] has taught me so much about the ways of [guardian.GetHerHis] people— of #EMP our#! people, for not only do I profess to the [guardian.GetFaith.GetAdjective] faith, I see myself as fully [guardian.GetCulture.GetName]."
  childhood_education.1011.a: "It is the only way I wish to live."

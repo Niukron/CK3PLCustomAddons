@@ -18,6 +18,7 @@
  HOLY_WAR_DUCHY_NAME:0 "[holy_war|E] for [duchy|E]"
  HOLY_WAR_KINGDOM_NAME:0 "[holy_war|E] for [kingdom|E]"
  declared_major_religious_war_flag_tt:0 "You may only attempt one major religious war per lifetime"
+ great_holy_war_cooldown:0 "Your [faith|E] already waged a [great_holy_war|E] within the past 30 years"
  DEBUG_WAR_NAME:1 "#D (DEBUG)#! [ATTACKER.GetPrimaryTitle.GetPrefix]-[DEFENDER.GetPrimaryTitle.GetAdjective] Debug War for the [TITLE.GetBaseName]"
  debug_war_invalidated_desc:0 "#D (DEBUG)#! Debug War invalidated"
  DEBUG_WAR_NAME_FALLBACK:0 "#D (DEBUG)#! Debug War"
@@ -64,6 +65,7 @@
  peasant_war_victory_desc:0 "All rebellious [counties|E] lose [SCOPE.ScriptValue('peasant_war_victory_county_control_loss')|N0] [control|E]."
  peasant_war_white_peace_desc:0 "The [peasant_faction|E] is disbanded."
  peasant_war_defeat_desc:0 "The [peasant_faction|E] is disbanded and [attacker.GetShortUIName] is imprisoned. All rebelling [counties|E] have their [county_opinion|E] forcibly increased."
+
  POPULIST_WAR_NAME:0 "[ATTACKER.GetCulture.GetNameNoTooltip] [ATTACKER.GetFaith.GetAdjectiveNoTooltip] Uprising"
  CLAIMANT_WAR_NAME:2 "War for [CLAIMANT.GetTitledFirstNamePossessive] Claim on the [TITLE.GetBaseName]"
  depose_war:0 "Depose"
@@ -77,11 +79,13 @@
  claim_cb_defeat_desc_attacker_claimant:1 "[defender.GetShortUIName|U] keeps the contested [title|E]. You lose your [claim|E]."
  claim_cb_defeat_desc_attacker:1 "[defender.GetShortUIName|U] keeps the contested [title|E]. [claimant.GetShortUIName|U] loses [claimant.GetHerHis] [claim|E]."
  claim_cb_defeat_desc:1 "[defender.GetShortUIName|U] keeps the contested [title|E]. [attacker.GetShortUIName|U] loses [attacker.GetHerHis] [claim|E]."
+
  CB_CLAIM_COST_TARGET_TITLES:0 "Claimed Titles"
  CB_CLAIM_COST_GENDER_PREFERENCES:0 "Gender Preferences"
  CB_CLAIM_COST_CLAIMANT_DIFFERENT_DYNASTY:0 "Claimant of Different Dynasty"
  CB_CLAIM_COST_CLAIMANT_DIFFERENT_HOUSE:0 "Claimant of Different House"
  CB_CLAIM_COST_CLAIMANT_DIFFERENT_RELIGION:0 "Claimant of Different [religion|E]"
+ 
  CB_COST_DEFENDER_IS_CHILD:0 "Child Defender"
  CB_COST_ATTACKER_IS_CHILD:0 "You are a Child"
  CB_COST_SAME_DYNASTY:0 "Defender of Same Dynasty"
@@ -93,6 +97,7 @@
  CB_ATTACKER_BELLUM_JUSTUM:0 "[GetPerk( 'bellum_justum_perk' ).GetName( GetPlayer )]"
  CB_ATTACKER_DYNASTY_WARFARE:0 "[GetDynastyPerk( 'warfare_legacy_2' ).GetName]"
  CB_ATTACKER_VASSAL_CONTRACT:0 "$war_declaration_rights_allowed$"
+ CB_ATTACKER_HOF_HUMSACD:0 "Sacrificed your [head_of_faith|E]"
  CB_GAME_RULE_NO_COST:0 "Game Rule — No Cost"
  CB_BASE_COST:0 "Base"
  CB_SAME_FAITH_COST:0 "Defender is of your [faith|E]"
@@ -106,6 +111,7 @@
  CB_COST_RULES_EMPIRE:0 "Rules an Empire"
  CB_SIZE_OF_TARGET_REALM_COST:0 "Size of Target Realm"
  CB_VASSALIZING_KING:0 "Vassalizing a Kingdom"
+
  independence_faction_war:0 "Independence Faction"
  independence_war_victory_desc_local_player_attacker_alone:0 "[attacker.GetShortUIName|U] gain independence from [defender.GetShortUIName]."
  independence_war_victory_desc_local_player_defender_attacker_alone:0 "[attacker.GetShortUIName|U] gains independence from [defender.GetShortUIName]."
@@ -155,6 +161,7 @@
  individual_county_de_jure_cb_defeat_desc_defender:0 "You keep the contested [county|E]. [attacker.GetShortUIName|U] must pay you war reparations."
  individual_county_de_jure_cb_defeat_desc_attacker:0 "[defender.GetShortUIName|U] keeps the contested [county|E]. You must pay [defender.GetHerHim] war reparations."
  individual_county_de_jure_cb_defeat_desc:0 "[defender.GetShortUIName|U] keeps the contested [county|E], and [attacker.GetShortUIName] must pay [defender.GetHerHim] war reparations."
+
  minor_religious_war:0 "Minor [holy_war_holy|E]"
  religious_war:1 "[holy_war_holy|E]"
  major_religious_war:0 "Major [holy_war_holy|E]"
@@ -164,6 +171,7 @@
  EXCOMMUNICATION_WAR_NAME:0 "Excommunication War against [DEFENDER.GetShortUINameNotMe]"
  GREAT_HOLY_WAR_WAR_NAME:0 "[ATTACKER.GetFaith.Custom('GHWName')] for [TITLE.GetName]"
  GREAT_HOLY_WAR_WAR_CB_NAME:0 "[ATTACKER.GetFaith.Custom('GHWName')] for [kingdom|E]"
+
  populist_war:0 "Rebellion"
  populist_war_victory_desc:0 "Rebelling [counties|E] become an independent realm with [attacker.GetShortUIName] as its ruler."
  populist_war_white_peace_desc:1 "Rebelling [counties|E] and [vassals|E] remain part of the realm."
@@ -183,6 +191,7 @@
  refused_liege_demand_war_white_peace_desc:0 "[attacker.GetShortUIName|U] and [defender.GetShortUIName] establish a truce. [defender.GetShortUIName|U] gets a [revoke_title_reason|E] against [attacker.GetShortUIName]."
  refused_liege_demand_war_defeat_desc_defender:0 "You [imprison|E] [attacker.GetShortUIName]."
  refused_liege_demand_war_defeat_desc:0 "[defender.GetShortUIName|U] [imprisons|E] [attacker.GetShortUIName]."
+
  imperial_reconquest_cb:0 "Imperial Reconquest"
  IMPERIAL_RECONQUEST_NAME:0 "Seize All Imperial Provinces"
  IMPERIAL_RECONQUEST_WAR_NAME:1 "$ORDER$ [ATTACKER.GetPrimaryTitle.GetPrefix]-[DEFENDER.GetPrimaryTitle.GetAdjective] Imperial Reconquest"
@@ -190,6 +199,7 @@
  IMPERIAL_RECONQUEST_SPECIFIC_NAME:0 "Restore Imperial Province of [TITLE.GetNameNoTier]"
  IMPERIAL_RECONQUEST_WAR_SPECIFIC_NAME:1 "$ORDER$ [ATTACKER.GetPrimaryTitle.GetPrefix]-[DEFENDER.GetPrimaryTitle.GetAdjective] Imperial Reconquest"
  IMPERIAL_RECONQUEST_WAR_SPECIFIC_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+
  dismantle_holy_pretender_cb:0 "Dismantle Pretender"
  DISMANTLE_EMPIRE_NAME:0 "Shift all [de_jure|E]"
  DISMANTLE_EMPIRE_WAR_NAME:1 "$ORDER$ [ATTACKER.GetPrimaryTitle.GetPrefix]-[DEFENDER.GetPrimaryTitle.GetAdjective] Imperial War of Legitimacy"
@@ -200,10 +210,13 @@
  DISMANTLE_EMPIRE_WAR_SPECIFIC_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
  dismantle_holy_pretender_cb_victory_desc:1 "The $e_hre$ is destroyed. All [de_jure|E] $e_hre_adj$ vassal titles become a de jure part of $e_roman_empire_article$$e_roman_empire$ instead."
  dismantle_holy_pretender_cb_defeat_desc:1 "The $e_hre$ remains intact. The $e_roman_empire$ must pay war reparations."
+
  dismantle_byz_pretender_cb:0 "Dismantle Pretender"
  dismantle_byz_pretender_cb_victory_desc:1 "The $e_byzantium$ is destroyed. All [de_jure|E] $e_byzantium_adj$ vassal titles become a de jure part of $e_roman_empire_article$$e_roman_empire$ instead."
  dismantle_byz_pretender_cb_defeat_desc:1 "The $e_byzantium$ remains intact. The $e_roman_empire$ must pay war reparations."
+
  all_vassals_of_defender:0 "All vassals of [defender.GetShortUIName]"
+ 
  vassalization_cb:0 "Vassalization"
  VASSALIZATION_CB_NAME:2 "[vassalization_casus_belli|E] of [DEFENDER.GetShortUIName]"
  VASSALIZATION_CB_SPECIFIC_NAME:0 "Vassalize [DEFENDER.GetShortUIName]"
@@ -215,6 +228,8 @@
  vassalization_cb_white_peace_desc_defender:0 "You remain independent."
  vassalization_cb_white_peace_desc:0 "[defender.GetShortUIName|U] remains independent."
  vassalization_cb_defeat_desc_attacker:0 "[defender.GetShortUIName|U] remains independent. All [factions|E] against you increase their [discontent|E]."
+
+ 
  CONQUEST_CB_TITLE:3 "You will seize all territory within [defender.GetShortUINamePossessive] [realm|E] that is part of the [THIS.GetLandedTitle.GetBaseName]"
  duchy_conquest_cb:0 "Duchy Conquest"
  county_conquest_cb:0 "County Conquest"
@@ -232,17 +247,20 @@
  ducal_conquest_cb_defeat_desc_defender:1 "You keep the contested [titles|E]."
  ducal_conquest_cb_defeat_desc_attacker:1 "[defender.GetShortUIName|U] keeps the contested title. All [factions|E] against you increase their [discontent|E]."
  ducal_conquest_cb_defeat_desc:1 "[defender.GetShortUIName|U] keeps the contested [titles|E]."
+
  CONQUEST_COUNTY_CB_NAME:1 "Conquer [county|E]"
  CONQUEST_DUCHY_CB_NAME:1 "Conquer [duchy|E]"
  CONQUEST_CB_SPECIFIC_NAME:1 "Conquer the [TITLE.GetBaseName]"
  CONQUEST_CB_NAME:0 "Conquer the [TITLE.GetBaseName]"
  CONQUEST_WAR_NAME:2 "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Conquest of the [TITLE.GetBaseName]"
  CONQUEST_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+ 
  ducal_conquest_cb:0 "Ducal Conquest"
  DUCAL_CONQUEST_CB_NAME:1 "[ducal_conquest|E] of [county|E]"
  DUCAL_CONQUEST_CB_SPECIFIC_NAME:1 "Ducal Conquest of the [TITLE.GetBaseName]"
  DUCAL_CONQUEST_WAR_NAME:2 "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjectiveNoTooltip] Ducal Conquest of the [TITLE.GetBaseNameNoTooltip]"
  DUCAL_CONQUEST_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+ 
  tribal_subjugation_cb:0 "Subjugation"
  SUBJUGATION_CB_NAME:0 "Subjugate [DEFENDER.GetShortUIName]"
  SUBJUGATION_CB_SPECIFIC_NAME:0 "Subjugate [DEFENDER.GetShortUIName]"
@@ -254,6 +272,7 @@
  tribal_subjugation_cb_white_peace_desc_defender:0 "You keep all your [titles|E] and remain independent."
  tribal_subjugation_cb_white_peace_desc:0 "[defender.GetShortUIName|U] keeps all [defender.GetHerHis] titles and remains independent."
  tribal_subjugation_cb_defeat_desc_attacker:0 "[defender.GetShortUIName|U] remains independent. All [factions|E] against you increase their [discontent|E]."
+
  ireland_laudabiliter_conquest_cb:0 "Laudabiliter Conquest"
  LAUDABILITER_CONQUEST_CB_NAME:1 "Laudably Conquer [county|E]"
  LAUDABILITER_CONQUEST_CB_SPECIFIC_NAME:1 "Conquer the [TITLE.GetBaseName]"
@@ -267,6 +286,7 @@
  ireland_laudabiliter_conquest_cb_defeat_desc_defender:0 "You keep all contested titles."
  ireland_laudabiliter_conquest_cb_defeat_desc_attacker:0 "[defender.GetShortUIName|U] keeps all contested titles. All [factions|E] against you increase their [discontent|E]."
  ireland_laudabiliter_conquest_cb_defeat_desc:0 "[defender.GetShortUIName|U] keeps all contested titles."
+
  invasion_war:0 "Invasion"
  clan_invasion_war:0 "Clan Invasion"
  INVASION_CB_NAME:1 "Invade [kingdom|E]"
@@ -301,11 +321,13 @@
  launch_hungarian_migration_scripted_effect.tt.territory_outside_pannonia.non_mogyer_vassals:0 "Non-$mogyer$ [vassals|E] outside of $k_hungary$ become [independent|E]"
  launch_hungarian_migration_scripted_effect.tt.territory_outside_pannonia.mogyer_vassals:0 "$mogyer$ [vassals|E] outside of $k_hungary$ are assigned [titles|E] from your spare conquered $game_concept_titles$ within $k_hungary$"
  launch_hungarian_migration_scripted_effect.tt.territory_outside_pannonia.former_territories:0 "Lands ruled by $mogyer$ [vassals|E] outside of $k_hungary$ are forfeited to local warlords"
+
  tribal_raid_cb:0 "Raid"
  TRIBAL_RAID_CB_NAME:0 "Raid [DEFENDER.GetPrimaryTitle.GetNameNoTier]"
  TRIBAL_RAID_CB_SPECIFIC_NAME:0 "Raid [DEFENDER.GetPrimaryTitle.GetNameNoTier]"
  TRIBAL_RAID_WAR_NAME:1 "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Raid of [DEFENDER.GetPrimaryTitle.GetNameNoTier]"
  TRIBAL_RAID_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+ 
  flowery_war_cb:0 "Raid for Captives"
  FLOWERY_WAR_CB_NAME:0 "[flowery_war|E] against [DEFENDER.GetPrimaryTitle.GetNameNoTier]"
  FLOWERY_WAR_CB_SPECIFIC_NAME:1 "Raid for Captives against the [DEFENDER.GetPrimaryTitle.GetBaseNameNoTier]"
@@ -313,10 +335,13 @@
  FLOWERY_WAR_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
  flowery_war_cb_prisoners.tt_attacker:1 "Between three and five of [defender.GetShortUINamePossessive] [courtiers|E] will be taken prisoner, depending on [defender.GetHerHis] tier."
  flowery_war_cb_prisoners.tt_defender:1 "Between three and five of [attacker.GetShortUINamePossessive] [courtiers|E] will be taken prisoner, depending on [attacker.GetHerHis] tier."
+
  CASUS_BELLI_CLAIM_NO_CLAIMS_TO_PUSH:1 "No [claims|E] to press"
  CASUS_BELLI_CLAIM_NO_VALID_TITLE_TARGETS:0 "No valid titles to target"
+
  tst_generic_war_lost_message.t:1 "You have lost a war"
  tst_generic_war_lost_message.tt:1 "[attacker.GetShortUINameNoTooltip] has beaten you in the [current_war.GetName]."
+
  norman_conquest_cb:0 "Invasion"
  norman_conquest_cb_defeat_desc:0 "[defender.GetShortUIName|U] keeps the Kingdom of England. [attacker.GetShortUIName|U] loses [attacker.GetHerHis] [claim|E] to it."
  norman_conquest_cb_defeat_desc_defender:0 "You keep the Kingdom of England. [attacker.GetShortUIName|U] loses [attacker.GetHerHis] [claim|E] to it."
@@ -327,6 +352,7 @@
  norman_conquest_cb_victory_desc_defender:0 "[attacker.GetShortUIName|U] seizes the Kingdom of England, all of your held titles, and all vassal titles in southern England."
  norman_conquest_cb_victory_desc_attacker:0 "You seize the Kingdom of England and personally take all titles in southern England."
  norman_conquest_cb_victory_desc:0 "[attacker.GetShortUIName|U] seizes the Kingdom of England and personally takes all titles in southern England."
+
  norwegian_invasion_cb:0 "Invasion"
  norwegian_invasion_cb_defeat_desc:0 "[defender.GetShortUIName|U] keeps the Kingdom of England. [attacker.GetShortUIName|U] loses [attacker.GetHerHis] [claim|E] to it."
  norwegian_invasion_cb_defeat_desc_defender:0 "You keep the Kingdom of England. [attacker.GetShortUIName|U] loses [attacker.GetHerHis] [claim|E] to it."
@@ -338,6 +364,7 @@
  norwegian_invasion_cb_victory_desc_attacker:0 "You seize the Kingdom of England and personally take all titles in northern England."
  norwegian_invasion_cb_victory_desc:0 "[attacker.GetShortUIName|U] seizes the Kingdom of England and personally takes all titles in northern England."
  norwegian_invasion_cb_victory_with_tostig_desc:0 "If alive and in [attacker.GetShortUINamePossessive] court, [tostig.GetShortUIName] is given the [northumberland.GetName], the [york.GetName], and the [lancaster.GetName]."
+
  sons_of_lothbrok_invasion_cb:0 "Invasion"
  sons_of_lothbrok_invasion_cb_victory_desc_attacker:0 "You seize all of [defender.GetShortUINamePossessive] titles within the target kingdom."
  sons_of_lothbrok_invasion_cb_victory_desc_defender:0 "[attacker.GetShortUIName|U] seizes all of your titles within the target kingdom."
@@ -348,10 +375,12 @@
  sons_of_lothbrok_invasion_cb_defeat_desc_attacker:1 "[defender.GetShortUIName|U] keeps [defender.GetHerHis] titles. You lose [prestige|E] and pay reparations to [defender.GetShortUIName|U]."
  sons_of_lothbrok_invasion_cb_defeat_desc_defender:0 "You keep your titles. [attacker.GetShortUIName|U] loses [prestige|E] and pays reparations to you."
  sons_of_lothbrok_invasion_cb_defeat_desc:0 "[defender.GetShortUIName|U] keeps [defender.GetHerHis] titles. [attacker.GetShortUIName|U] loses [prestige|E] and pays reparations to [defender.GetShortUIName|U]."
+ 
  religious_war_victory_desc:1 "Within the target [title|E], all titles held by [defender.GetFaith.GetAdjective] rulers are seized, and any [attacker.GetFaith.GetAdjective] rulers are vassalized by [attacker.GetShortUIName]."
  religious_war_white_peace_desc:1 "No [titles|E] change hands."
  religious_war_defeat_desc:2 "No [titles|E] change hands."
  major_religious_war_warning_desc:1 "\n\n#X You may only attempt one [holy_war|E] against a [kingdom|E]-tier [title|E] per lifetime#!"
+
  excommunication_war_victory_desc_defender:0 "You are [deposed|E]."
  excommunication_war_victory_desc:0 "[defender.GetShortUIName|U] is [deposed|E]."
  excommunication_war_white_peace_desc:0 "[defender.GetShortUIName|U] keeps [defender.GetHerHis] titles."
@@ -359,15 +388,25 @@
  excommunication_war_defeat_desc_attacker:0 "[defender.GetShortUIName|U] keeps [defender.GetHerHis] titles. You lose [piety|E] and opinion with your [head_of_faith|E]."
  excommunication_war_defeat_desc_defender:0 "You keep your titles and gain [piety|E]."
  excommunication_war_defeat_desc:0 "[defender.GetShortUIName|U] keeps [defender.GetHerHis] titles and gains [piety|E]."
+
  flowery_war_cb_victory_desc:0 "Characters and county inhabitants of [defender.GetShortUINamePossessive] realm are sacrificed by [attacker.GetShortUIName]."
  flowery_war_cb_white_peace_desc:0 "No sacrifice is made."
  flowery_war_cb_defeat_desc:0 "No sacrifice is made."
+
  directed_great_holy_war:0 "Great Holy War"
  undirected_great_holy_war:0 "Great Holy War"
+ 
  great_holy_war_directed_victory_desc:0 "The main contributor gets the target kingdom. [titles|E] in the target kingdom are handed out to the beneficiaries"
  great_holy_war_victory_desc:0 "[titles|E] in the target kingdom are handed out to the beneficiaries. [gold|E] and [piety|E] is spread among all participants."
  great_holy_war_defeat_desc:0 "No titles change hands. The defenders divide [piety|E] won."
+
  debug_war_victory_desc:0 "Attacker takes the target titles."
  debug_war_white_peace_desc:0 "Defender keeps the target titles."
+ 
  hungarian_migration_cb:0 "$HUNGARIAN_INVASION_CB_NAME$"
+
  religious_war_victory_desc_doctrine_pluralism:0 "Within the target [title|E], all titles held by rulers are vassalized by [attacker.GetShortUIName]."
+
+ enemy_gained_new_ally:0 "[this_character.GetTitledFirstName] Formed New Alliance"
+ enemy_gained_new_ally_tt:0 "[other_character.GetTitledFirstName] might join the [this_war.GetName] as an enemy"
+ PREVIOUS_VARANGIAN_ADVENTURES_COST:0 "Previous adventures"

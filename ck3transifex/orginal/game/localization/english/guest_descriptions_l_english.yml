@@ -12,6 +12,7 @@
  guest_description.stewardship.desc:0 "Steward (#V [ROOT.Char.GetSkill( 'stewardship' )]#! [stewardship|E])"
  guest_description.intrigue.desc:0 "Schemer (#V [ROOT.Char.GetSkill( 'intrigue' )]#! [intrigue|E])"
  guest_description.learning_start.desc:0 "Physician"
+
  guest_description.learning_physician_trait_1.desc:0 "(#V [ROOT.Char.GetSkill( 'learning' )]#! [learning|e], [GetTrait('physician_1').GetName( ROOT.Char )])"
  guest_description.learning_physician_trait_2.desc:0 "(#V [ROOT.Char.GetSkill( 'learning' )]#! [learning|e], [GetTrait('physician_2').GetName( ROOT.Char )])"
  guest_description.learning_physician_trait_3.desc:0 "(#V [ROOT.Char.GetSkill( 'learning' )]#! [learning|e], [GetTrait('physician_3').GetName( ROOT.Char )])"
@@ -42,3 +43,5 @@
  guest_description.vassal_trusting.desc:0 "([GetTrait('trusting').GetName( ROOT.Char )])"
  guest_description.vassal_stewardship.desc:0 "(#V [ROOT.Char.GetSkill( 'stewardship' )]#! [stewardship|E])"
  guest_description.vassal_martial.desc:0 "(#V [ROOT.Char.GetSkill( 'martial' )]#! [martial|E])"
+
+

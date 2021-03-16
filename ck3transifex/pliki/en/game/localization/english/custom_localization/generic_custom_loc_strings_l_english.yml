@@ -41,6 +41,7 @@
  gender_male: "male"
  gender_man: "man"
  gender_woman: "woman"
+ gender_person: "person"
  concubine: "concubine"
  concubines: "concubines"
  consort: "consort"

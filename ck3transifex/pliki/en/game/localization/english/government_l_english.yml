@@ -48,7 +48,7 @@
  feudal_levies_high_short: "High"
  feudal_levies_extortionate: "Massive $game_concept_levy$ Contribution"
  feudal_levies_extortionate_short: "Massive"
- special_contract: "[Concept( 'feudal_contract', 'Special Contract' )|B]"
+ special_contract: "[Concept( 'feudal_contract', 'Special Contract' )|B|color_black|U]"
  special_contract_none: "No Special Contract"
  special_contract_scutage: "Scutage Contract"
  special_contract_scutage_desc: "#flavor While subject to a $special_contract_scutage$, the [vassal|E] will pay #high [EmptyScope.ScriptValue('scutage_contract_tax_tooltip')|0]%#! more [tax|E] than what their $feudal_government_taxes$ [obligation|E] dictates, while at the same time providing #high [EmptyScope.ScriptValue('scutage_contract_levies_tooltip')|0]%#! fewer [levies|E] than what their $feudal_government_levies$ [obligation|E] dictates.#!"

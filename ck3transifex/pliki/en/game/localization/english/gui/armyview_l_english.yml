@@ -36,7 +36,7 @@
  DISBAND_GATHERING_ARMY: "Disband Gathering Army"
  DISBAND_GATHERING_ARMY_DISABLED: "\n$DESC$"
  STOP_GATHERING: "Stop Gathering"
- DISBAND_RETURN_HOME_TIME: "@warning_icon!#X [levies|E] will take up to $TIME$ to return home, making it take longer to raise them again.#!"
+ DISBAND_RETURN_HOME_TIME: "@warning_icon!#X [soldiers|E] will take up to $TIME$ to return home, making it take longer to raise them again.#!"
  CANNOT_SPLIT_ARMY_NOT_OWNER: "@warning_icon!#X Cannot split Army belonging to someone else#!"
  CANNOT_SPLIT_ARMY_WHILE_IN_COMBAT: "@warning_icon!#X Cannot split Army while in [battle|E]#!"
  CANNOT_SPLIT_ARMY_WHILE_MOVEMENT_LOCKED: "@warning_icon!#X Cannot split Army while movement is locked#!"

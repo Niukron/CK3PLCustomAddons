@@ -1,5 +1,5 @@
 ﻿l_english:
- #
+ 
  great_holy_war.0011.christian.t:0 "Crusader Kings"
  great_holy_war.0011.muslim.t:0 "Renewed Jihad"
  great_holy_war.0011.pagans.t:0 "The Wrath of the Old Gods"
@@ -59,9 +59,12 @@
  great_holy_war.0003.a.hooked:0 "I do not have much of a choice, I gather?"
  great_holy_war.0023.c:0 "I am already doing my part fighting the [target_character.Custom('GetUnbelieverNamePlural')]!"
  great_holy_war.0023.d:0 "This is not my war."
+ great_holy_war.0024.dead.recipient.title:0 "[ghw_claimant.GetFirstNameNoTooltip] Died"
  great_holy_war.0024.dead.recipient.replaced:0 "[ghw_claimant.GetTitledFirstName] is now the new Rightful Candidate of this [the_faith.GHWName]."
- great_holy_war.0024.dead.recipient.open:0 "[former_beneficiary.GetTitledFirstName] died, leaving [target_kingdom.GetNameNoTier] to be claimed by the holiest warrior."
+ great_holy_war.0024.dead.recipient.open:1 "[former_recipient.GetTitledFirstName] died, leaving [target_kingdom.GetNameNoTier] to be claimed by the holiest warrior."
+ great_holy_war.0028.dead.beneficiary_title:0 "Dead Beneficiary"
  great_holy_war.0028.dead.beneficiary:0 "With the passing of my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('former_beneficiary'))] [former_beneficiary.GetFirstName], I must choose a new beneficiary for the ongoing [ROOT.Char.GetFaith.GHWName]."
+ great_holy_war.0029.invalid.beneficiary_title:0 "Invalid Beneficiary"
  great_holy_war.0029.converted.beneficiary:0 "The unfortunate conversion of my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('former_beneficiary'))] [former_beneficiary.GetFirstName] has made [former_beneficiary.GetHerHim] unfit to receive any land from the [ROOT.Char.GetFaith.GHWName]."
  great_holy_war.0030.incapable.beneficiary:0 "Unfortunately, my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('former_beneficiary'))] [former_beneficiary.GetFirstName] is no longer in a condition to be my beneficiary. Or anything else, really."
  great_holy_war.0030.excommunicated.beneficiary:0 "My [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('former_beneficiary'))] [former_beneficiary.GetFirstName] has been excommunicated, and as such [former_beneficiary.GetSheHe] no longer fit to be my beneficiary in the ongoing [ROOT.Char.GetFaith.GHWName]."
@@ -74,6 +77,7 @@
  great_holy_war.0040.b:0 "I will make a generous contribution."
  great_holy_war.0040.c:0 "I can spare a few coins for this endeavor."
  great_holy_war.0040.d:0 "I will seriously consider it."
+
  great_holy_war.0050.title:0 "[the_faith.GHWName] for [target_kingdom.GetNameNoTierNoTooltip]"
  great_holy_war.0050.base.desc:0 "[the_faith.GetAdjectiveNoTooltip] rulers, invigorated by a call to arms of [ghw_sponsor.GetTitledFirstName], have started to gather a large host of zealots to wage a [the_faith.GHWName] against all enemies of the [the_faith.ReligiousSymbol] in [target_kingdom.GetNameNoTierNoTooltip]. More and more fanatics are drawn in every day in what will soon be a mighty army of the [the_faith.ReligiousSymbol] assembled to bring war upon our lands."
  great_holy_war.0050.defender.desc:0 "\n\nIt falls upon me to organize my fellow [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] rulers in the region and prepare for the incoming tide of [ghw_sponsor.Custom('GetUnbelieverNamePlural')] before it's too late."

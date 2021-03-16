@@ -1,5 +1,5 @@
 ﻿l_english:
- # LAKES
+ 
  lake_hjalmaren:0 "Hjälmaren"
  lake_vattern:0 "Vättern"
  lake_vanern:0 "Vänern"
@@ -7,6 +7,8 @@
  lake_onega:0 "Onega"
  lake_ladoga:0 "Ladoga"
  lake_ilmen:0 "Lake Ilmen"
+ 
+ 
  river_thames:0 "The Thames"
  river_humber:0 "Humber"
  river_sognefjord:0 "Sognefjord"
@@ -57,6 +59,8 @@
  river_kaveri:0 "Kaveri"
  river_irrawaddy_delta:0 "Irrawaddy Delta"
  river_irrawaddy:0 "Irrawaddy"
+ 
+ 
  sea_malaren:0 "Mälaren"
  sea_adriatic_sea:0 "Adriatic Sea"
  sea_strait_otranto:0 "Strait of Otranto"

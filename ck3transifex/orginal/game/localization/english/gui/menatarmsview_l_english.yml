@@ -14,6 +14,7 @@
  MAA_HOME_BANNER:0 "Home Rally Point:"
  MAA_DESTROY:0 "Destroy"
  MAA_ARMY:0 "In Army: [Regiment.GetArmy.GetName]"
+ 
  MAA_DESTROY_CONFIRMATION_TITLE:0 "Destroy [REGIMENT.GetNameNoTooltip]"
  MAA_DESTROY_CONFIRMATION_TEXT:0 "Regiment [REGIMENT.GetNameNoTooltip] will be destroyed."
  MAA_DESTROY_CONFIRMATION_ACCEPT:0 "Destroy"
@@ -30,6 +31,8 @@
  MAA_SIZE_CHANGE:0 "@soldier_icon! +[Regiment.GetMAAType.GetStackSize]"
  MAA_REINFORCING:1 "Reinforcing"
  REGIMENT_CURRENT_SIZE:0 "Size [Regiment.GetMAAChunkCount]/[Regiment.CalcMaxMAAChunkCount]"
+
+ 
  MAA_TT_BUY_TITLE:0 "#T Add $COUNT$ Soldiers#!"
  MAA_TT_SELL_TITLE:0 "#T Remove $COUNT$ Soldiers#!"
  MAA_TT_DESTROY_TITLE:0 "#T Destroy Regiment#!"
@@ -45,3 +48,4 @@
  CREATE_MAA_HEADER:1 "#T Create [MEN_AT_ARMS_TYPE.GetNameNoTooltip|V] Regiment#!"
  CANT_CREATE_MAA_AT_CAP:0 "@warning_icon!#X At [men_at_arms|E] Regiment Limit#!"
  CREATE_MAA_TOOLTIP:0 "#T Create New [men_at_arms|E] [regiment|E]#!\n[MilitaryItem.GetMaACanBeCreatedTooltip]"
+ 

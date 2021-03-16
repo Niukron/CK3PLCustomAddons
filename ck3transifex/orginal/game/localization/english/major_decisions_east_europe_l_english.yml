@@ -3,14 +3,20 @@
  east_europe.0001.t:1 "The West Slavs United"
  east_europe.0001.desc:0 "The old tribes stand united once more. I have brought us together, just like Samo did centuries ago. His empire died with him, but I am certain [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] has a prosperous future ahead. This is just the beginning!"
  east_europe.0001.a:0 "Glory to [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]!"
+
  east_europe.0002.desc:0 "Just like Samo united the Wendish tribes centuries ago, [western_slav_uniter.Custom2('MyCharacterIntroduction', ROOT.Char)] has gathered the West Slavic peoples under one banner. Will this union stand the test of time, or crumble just like Samo's empire? Only [ROOT.Char.GetFaith.FateGodName] knows."
+
  east_europe.0005.t:0 "The South Slavs United"
  east_europe.0005.desc:0 "I have united the tribes of old under one banner. Together, we are stronger than ever before. We will not be conquered! We will not be erased!"
+
  east_europe.0006.desc:0 "[southern_slav_uniter.Custom2('MyCharacterIntroduction', ROOT.Char)|U] has gathered the South Slavic peoples under one banner. Will this union stand the test of time, or will old feuds and customs tear it apart? Only [ROOT.Char.GetFaith.FateGodName] knows."
+
  east_europe.0010.t:0 "The Birth of Slavia"
  east_europe.0010.desc:0 "I have done the impossible — on this day, all Slavs stand united under one banner. My new empire stretches from the heart of Europe in the west to the frozen tundras in the East!\n\nOnly a few heroes in history have ever accomplished such a feat! Now I am one of them, and my name will live on forever."
  east_europe.0010.a:0 "Glory to Slavia!"
+
  east_europe.00011.desc:0 "[slav_uniter.Custom2('MyCharacterIntroduction', ROOT.Char)|U] has accomplished the impossible – [slav_uniter.GetSheHe] has united all the Slavic peoples under one banner. Will this vast empire continue to prosper, or will old feuds and customs tear it apart? Only [ROOT.Char.GetFaith.FateGodName] knows."
+
  east_europe.0015.t:0 "Defenders of [defender_of_highgod.GetFaith.HighGodName]"
  east_europe.0015.desc:0 "The Hall of Heroes has been constructed in..."
  east_europe.0015.a:0 "... [target_list_member_a.GetNameNoTierNoTooltip]."
@@ -18,9 +24,14 @@
  east_europe.0015.c:0 "... [target_list_member_c.GetNameNoTierNoTooltip]."
  east_europe.0015.d:0 "... [target_list_member_d.GetNameNoTierNoTooltip]."
  east_europe.0015.tooltip:0 "The holding gains the [special_building|E] [GetBuilding('hall_of_heroes_01').GetName]"
+
  east_europe.0016.desc:1 "Under my leadership, the clans have united to raise a great war hall in [holy_site.GetNameNoTierNoTooltip]. Within its thick stone walls, we prepare for war...\n\nFor generations, foreign scavengers have had their eyes on our lands. Let them come, I say! Let them test their might against our brave [defender_of_highgod.GetFaith.GetAdjectiveNoTooltip] heroes! Let their blood soak into the earth and color the rivers red!"
  east_europe.0016.a:1 "Hail [defender_of_highgod.GetFaith.WarGodName]!"
+
  east_europe.0017.desc:1 "[defender_of_highgod.Custom2('MyCharacterIntroduction', ROOT.Char)|U] has united the clans in [defender_of_highgod.GetHerHis] realm in defense against foreign invaders. A great hall of war has been built in [holy_site.GetNameNoTierNoTooltip] where the proud [defender_of_highgod.GetFaith.GetAdjectiveNoTooltip] heroes have already gathered."
+
+
+
  east_europe.0030.t:0 "New Beginning"
  east_europe.0030.desc:0 "By allowing experienced traders, farmers, and artisans from the Western and Southern realms, [scoped_ruler.GetPrimaryTitle.GetNameNoTierNoTooltip] will soon become a thriving center of commerce and finally shed its tribal roots.\n\nHopefully, these new Christian settlers will also help quell the last disgruntled pagan holdouts amidst my subjects and solidify [scoped_ruler.GetPrimaryTitle.GetNameNoTierNoTooltip] as a proper [scoped_ruler.GetFaith.GetAdjective] realm."
  east_europe.0030.a:0 "You are all welcome!"
@@ -29,12 +40,14 @@
  east_europe.0031.desc.others:1 "[scoped_ruler.GetTitledFirstName] has decided to welcome foreign settlers from the [scoped_ruler.GetFaith.GetReligion.GetAdjectiveNoTooltip] realms neighboring [scoped_ruler.GetPrimaryTitle.GetNameNoTierNoTooltip].\n\n[scoped_ruler.GetSheHe|U] hopes that these new arrivals will help populate [scoped_ruler.GetHerHis] land faster and increase commerce with [scoped_ruler.GetHerHis] allies."
  east_europe.0031.a:0 "Well, I don't trust them!"
  east_europe.0031.b:0 "I see..."
+
  east_europe.0032.t:0 "The Old Rites"
  east_europe.0032.desc:1 "My predecessors embraced [old_faith.GetNameNoTooltip] in a misguided attempt at dragging [scoped_ruler.GetPrimaryTitle.GetNameNoTierNoTooltip] into the modern era, but it has only brought us rebellion, penury, and strife.\n\nWith the immense temporal and ecclesiastic sway I now hold over my realm, I shall right this wrong and return us to true faith of $magyar_pagan$.\n\nYet, this is a watershed moment, and though a return to the Old Ways is sorely needed, perhaps their exact interpretation could be altered a little?"
  east_europe.0032.a:1 "We return to the Old Ways, unsullied."
  east_europe.0032.b:0 "Perhaps- perhaps we can keep a few of the new teachings..."
  east_europe.0032.c:0 "Skulls for [ROOT.Char.GetFaith.WarGodName]!"
  east_europe.0032.d:0 "Our dogged faith to old traditions, of any kind, is a weakness."
+
  east_europe.0034.t:0 "The [scoped_ruler.GetFaith.GetAdherentNameNoTooltip] Revival"
  east_europe.0034.desc.vassals:0 "After amassing near limitless strength within the realm,"
  east_europe.0034.desc.outsiders:0 "After amassing near limitless strength within [scoped_ruler.GetPrimaryTitle.GetNameNoTierNoTooltip],"
@@ -47,6 +60,8 @@
  east_europe.0034.b:0 "Perhaps the wind blows towards [scoped_ruler.GetFaith.HighGodName]..."
  east_europe.0034.c:0 "What vile paganism is this!?"
  east_europe.0034.d:0 "Neither my business nor my problem."
+
+
  east_europe.0101.t:0 "First [founder.GetTitleAsNameNoTooltip] of All Bosnia"
  east_europe.0101.desc:0 "Mountainous Bosnia has, for centuries, been tossed between every warring power in the Balkans. Fellow Slavs from the north and south, the Carpathian horse-lords of the moment, emperors from Bulgaria or Constantinople, even the merchant-princes of the Adriatic.\n\nFrom today, no more.\n\nWith my coronation, Bosnia is a kingdom all of its own, and strength and glory await!"
  east_europe.0101.a:0 "My legacy shall be remembered for centuries!"
@@ -57,11 +72,13 @@
  east_europe.0102.a:0 "A pathetic upstart, at best."
  east_europe.0102.b:0 "Hail [founder.GetShortUINameNoTooltip]!"
  east_europe.0102.c:0 "We'll see how long this lasts..."
+
  east_europe.0111.t.setup:0 "Heretics Amongst Us"
  east_europe.0111.tt.announce_failure:0 "Your attempt to accuse the $bosnian_church$ of heresy fails!"
  east_europe.0111.tt.cancellation_cooldown:0 "The $bosnian_church$ cannot be accused of heresy again for [EmptyScope.ScriptValue('accuse_the_krstjani_of_heresy_cancellation_cooldown_value')|0] years"
  east_europe.0111.tt.regular_cooldown:0 "The $bosnian_church$ cannot be accused of heresy again for [EmptyScope.ScriptValue('accuse_the_krstjani_of_heresy_failure_cooldown_value')|0] years"
  east_europe.0111.tt.critical_cooldown:0 "The $bosnian_church$ cannot be accused of heresy again for [EmptyScope.ScriptValue('accuse_the_krstjani_of_heresy_critical_failure_cooldown_value')|0] years"
+ 
  east_europe.0111.t:0 "$east_europe.0111.t.setup$: Writing [hof.GetTitledFirstNameNoTooltip]"
  east_europe.0111.desc:0 "Who can say how long these so-called [heretic.GetFaith.GetAdherentNamePluralNoTooltip] have gone unnoticed? A decade? A century? Since the visit of blessed Saint Martin?\n\nHowever long this heresy has been allowed to fester in the wilds of Bosnia, the leniency of our ancestors has born ill-fruit, and I cannot stand it! Seeing such a [heretic.Custom('InsultNoun')] as [heretic.GetTitledFirstName] flaunting [accuser.GetFaith.HighGodName] openly!\n\nThe world ignorantly assumes that they are basically good, if rural, [accuser.GetFaith.GetAdherentNamePluralNoTooltip]. Perhaps, with a few creative words to [hof.GetTitledFirstName], this need not be so..."
  east_europe.0111.a:0 "Bring me quill and parchment!"
@@ -179,6 +196,7 @@
  east_europe.0124.desc.fallback:0 "Changing circumstances beyond our control have stymied any chance of success for the inquisition into [heretic.GetPrimaryTitle.GetNameNoTierNoTooltip]."
  east_europe.0124.desc.outro:0 "\n\nFor now, the [absolute_faith.ReligiousHeadTitleName] has dropped the case, insisting that it has more pressing matters to attend to."
  east_europe.0124.a:0 "Well, that's settled, at least."
+
  east_europe.0141.t:0 "Last Gasp of the Great Migrations"
  east_europe.0141.desc:0 "Life on the steppe can be harsh at the best of times. Recently, though, it has grown even harsher, with many other jealous nomad tribes seeking to persecute us for our success. Pechenegs, Khazars, and more travel from far abroad to harass our confederation.\n\nIn centuries past, whole peoples left this life for the fertile fields and weak kingdoms of Europe.\n\nToday, I have decided to emulate the success of these nomads of old, and carve out a new home for the $mogyer_collective_noun$ in distant Pannonia, uprooting my entire realm in the process.\n\nSoon, we shall cross the Carpathians as one, and open a new chapter for our people."
  east_europe.0141.a:0 "To Pannonia!"

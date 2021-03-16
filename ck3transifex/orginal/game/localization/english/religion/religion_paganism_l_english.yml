@@ -1,12 +1,13 @@
 ﻿
 l_english:
 
- #Generic Pagan/Common Pagan Localization
+ 
  paganism_religion:0 "Paganism"
  paganism_religion_adj:0 "Pagan"
  paganism_religion_adherent:0 "Pagan"
  paganism_religion_adherent_plural:0 "Pagans"
  paganism_religion_desc:0 "Commonly defined by a reverence for nature, ancestor worship, and a belief in spirits, many native faiths are considered to be various forms of paganism."
+
  paganism_high_god_name:0 "Mother Earth"
  paganism_high_god_name_possessive:0 "Mother Earth's"
  paganism_high_god_name_alternate:0 "Gaia"
@@ -25,6 +26,8 @@ l_english:
  paganism_death_deity_name_possessive:0 "death's"
  paganism_death_deity_herhis:0 "its"
  paganism_mother_earth_father_sky:0 "Mother Earth and Father Sky"
+ 
+
  paganism_creator_god_name:0 "$paganism_high_god_name$"
  paganism_creator_god_name_possessive:0 "$paganism_high_god_name_possessive$"
  paganism_health_god_name:0 "$paganism_high_god_name$"
@@ -47,6 +50,7 @@ l_english:
  paganism_night_god_name_possessive:0 "$paganism_trickster_god_name_possessive$"
  paganism_water_god_name:0 "$paganism_high_god_name$"
  paganism_water_god_name_possessive:0 "$paganism_high_god_name_possessive$"
+
  paganism_house_of_worship:0 "temple"
  paganism_house_of_worship_plural:0 "temples"
  paganism_religious_symbol:0 "triquetra"
@@ -61,15 +65,20 @@ l_english:
  paganism_divine_realm:0 "the Heavens"
  paganism_afterlife:0 "the underworld"
  witchgodname_paganism_the_shadow:0 "the Shadow"
+
+
  pagan:0 "Paganism"
  pagan_adj:0 "Pagan"
  pagan_adherent:0 "Pagan"
  pagan_adherent_plural:0 "Pagans"
+
+ 
  germanic_religion:1 "Norse"
  germanic_religion_adj:1 "Norse"
  germanic_religion_adherent:1 "Norse"
  germanic_religion_adherent_plural:1 "Norse"
  germanic_religion_desc:1 "The native faith of the Scandinavian region, Norse paganism revolves around reverence of gods known as the Æsir. Adherents are expected to live — and preferably die — in an honorable fashion."
+
  germanic_high_god_name:0 "Odin"
  germanic_high_god_name_possessive:0 "Odin's"
  germanic_high_god_she_he:0 "He"
@@ -104,6 +113,7 @@ l_english:
  germanic_bishop_female_plural:0 "hofgoðar"
  germanic_bishop_neuter:0 "hofgoði"
  germanic_bishop_neuter_plural:0 "hofgoðar"
+
  germanic_creator_god_name:0 "Ymir"
  germanic_creator_god_name_possessive:0 "Ymir's"
  germanic_health_god_name:0 "Eir"
@@ -126,19 +136,24 @@ l_english:
  germanic_night_god_name_possessive:0 "Nótt's"
  germanic_water_god_name:0 "$germanic_wealth_god_name$"
  germanic_water_god_name_possessive:0 "$germanic_wealth_god_name_possessive$"
+
  norse_pagan:0 "Ásatrú"
  norse_pagan_adj:0 "Ásatrú"
  norse_pagan_adherent:0 "Ásatrúan"
  norse_pagan_adherent_plural:0 "Ásatrúans"
+
  norse_pagan_old:0 "Old Ásatrú"
  norse_pagan_old_adj:0 "Old Ásatrú"
  norse_pagan_old_adherent:0 "Old Ásatrúan"
  norse_pagan_old_adherent_plural:0 "Old Ásatrúans"
+
+ 
  baltic_religion:1 "Baltic"
  baltic_religion_adj:1 "Baltic"
  baltic_religion_adherent:1 "Balt"
  baltic_religion_adherent_plural:1 "Balts"
  baltic_religion_desc:1 "As adherents of "the abode of inner peace", Baltic pagans focus on living in harmony with the natural world around them while preserving the traditions and stories of their ancestors."
+
  baltic_high_god_name:0 "Dievas"
  baltic_high_god_name_possessive:0 "Dievas'"
  baltic_high_god_she_he:0 "He"
@@ -164,6 +179,7 @@ l_english:
  baltic_priest_female:0 "vaidilutė"
  baltic_priest_female_plural:0 "vaidilutės"
  witchgodname_baltic_dievas_senelis:0 "Dievas Senelis"
+
  baltic_creator_god_name:0 "$baltic_high_god_name$"
  baltic_creator_god_name_possessive:0 "$baltic_high_god_name_possessive$"
  baltic_health_god_name:0 "Saulė"
@@ -186,14 +202,18 @@ l_english:
  baltic_night_god_name_possessive:0 "Mēness'"
  baltic_water_god_name:0 "Bangpūtys"
  baltic_water_god_name_possessive:0 "Bangpūtys'"
+
  baltic_pagan:0 "Vidilism"
  baltic_pagan_adj:0 "Vidilist"
  baltic_pagan_adherent:0 "Vidilist"
  baltic_pagan_adherent_plural:0 "Vidilists"
+
  baltic_pagan_old:0 "Old Vidilism"
  baltic_pagan_old_adj:0 "Old Vidilist"
  baltic_pagan_old_adherent:0 "Old Vidilist"
  baltic_pagan_old_adherent_plural:0 "Old Vidilists"
+
+ 
  slavic_religion:1 "Slavic"
  slavic_religion_adj:1 "Slavic"
  slavic_religion_adherent:1 "Slav"
@@ -223,6 +243,7 @@ l_english:
  slavic_priest_alternate_plural:0 "veche"
  slavic_positive_afterlife:0 "Vyraj"
  slavic_negative_afterlive:0 "Nawia"
+
  slavic_creator_god_name:1 "Deivos"
  slavic_creator_god_name_possessive:1 "Devois'"
  slavic_health_god_name:0 "Zhibog"
@@ -245,19 +266,24 @@ l_english:
  slavic_night_god_name_possessive:0 "Xors Jutrobog's"
  slavic_water_god_name:0 "Kupala"
  slavic_water_god_name_possessive:0 "Kupala's"
+
  slavic_pagan:1 "Slovianska Pravda"
  slavic_pagan_adj:2 "Slovianskan"
  slavic_pagan_adherent:2 "Slovianskan"
  slavic_pagan_adherent_plural:2 "Slovianskans"
+
  slavic_pagan_old:1 "Old Slovianska Pravda"
  slavic_pagan_old_adj:2 "Old Slovianskan"
  slavic_pagan_old_adherent:2 "Old Slovianskan"
  slavic_pagan_old_adherent_plural:2 "Old Slovianskans"
+
+ 
  finno_ugric_religion:1 "Finno-Ugric"
  finno_ugric_religion_adj:1 "Finno-Ugric"
  finno_ugric_religion_adherent:1 "Finno-Ugrian"
  finno_ugric_religion_adherent_plural:1 "Finno-Ugrians"
  finno_ugric_religion_desc:1 "The veneration of nature and a profound respect for one's ancestors and their traditions are what define Finno-Ugric paganism. Held in high regard amongst adherents is "sisu," a Finnish concept of stoic determination, grit, bravery, and resilience."
+
  finno_ugric_high_god_name:0 "Ukko"
  finno_ugric_high_god_name_possessive:0 "Ukko's"
  finno_ugric_high_god_name_alternate:0 "Old Man"
@@ -279,6 +305,7 @@ l_english:
  finno_ugric_religious_text:0 "great epics"
  finno_ugric_afterlife:0 "Tuonela"
  finno_ugric_witgodname_vainamoinen:0 "Väinämöinen"
+
  finno_ugric_creator_god_name:0 "$finno_ugric_high_god_name$"
  finno_ugric_creator_god_name_possessive:0 "$finno_ugric_high_god_name_possessive$"
  finno_ugric_health_god_name:0 "Akka"
@@ -301,19 +328,25 @@ l_english:
  finno_ugric_night_god_name_possessive:0 "Kuu's"
  finno_ugric_water_god_name:0 "Ahto"
  finno_ugric_water_god_name_possessive:0 "Ahto's"
+
  finnish_pagan:1 "Ukonusko"
  finnish_pagan_adj:1 "Ukonusko"
  finnish_pagan_adherent:1 "Ukonusko"
  finnish_pagan_adherent_plural:1 "Ukonuskos"
+
  finnish_pagan_old:1 "Old Ukonusko"
  finnish_pagan_old_adj:1 "Old Ukonusko"
  finnish_pagan_old_adherent:1 "Old Ukonusko"
  finnish_pagan_old_adherent_plural:1 "Old Ukonuskos"
+
+
+ 
  west_african_religion:2 "Mandé"
  west_african_religion_adj:2 "Mandé"
  west_african_religion_adherent:2 "Mandé"
  west_african_religion_adherent_plural:2 "Mandé"
  west_african_religion_desc:2 "The native faiths of the Mandé people focus on venerating both the great spirits of the land as well as the honoring the spirits of the dead."
+
  west_african_high_god_name:0 "Amma"
  west_african_high_god_name_possessive:0 "Amma"
  west_african_high_god_name_alternate:0 "Supreme Being"
@@ -331,6 +364,7 @@ l_english:
  west_african_priest:0 "hogon"
  west_african_priest_plural:0 "hogons"
  west_african_divine_realm:0 "Ardyenne"
+
  dogon_creator_god_name:0 "$west_african_high_god_name$"
  dogon_creator_god_name_possessive:0 "$west_african_high_god_name_possessive$"
  dogon_health_god_name:0 "$west_african_high_god_name$"
@@ -353,15 +387,19 @@ l_english:
  dogon_night_god_name_possessive:0 "$west_african_high_god_name_possessive$"
  dogon_water_god_name:0 "the Nummo"
  dogon_water_god_name_possessive:0 "the Nummo's"
+
  west_african_pagan:0 "Siguism"
  west_african_pagan_adj:0 "Siguic"
  west_african_pagan_adherent:0 "Siguist"
  west_african_pagan_adherent_plural:0 "Siguists"
  west_african_pagan_desc:0 "Emphasizing harmony and balance, adherents of this native Mandé faith revere the twin offpsring of Amma, known together as the Nummo, who were seen as two parts of one complete, perfect being."
+
  west_african_pagan_old:0 "Old Siguism"
  west_african_pagan_old_adj:0 "Old Siguic"
  west_african_pagan_old_adherent:0 "Old Siguist"
  west_african_pagan_old_adherent_plural:0 "Old Siguists"
+
+ 
  bidu_high_god_name:0 "Bidu"
  bidu_high_god_name_possessive:0 "Bidu's"
  bidu_high_god_name_alternate:0 "The Great Serpent"
@@ -388,20 +426,25 @@ l_english:
  bidu_night_god_name_possessive:0 "$bidu_high_god_name_possessive$"
  bidu_water_god_name:0 "$bidu_high_god_name$"
  bidu_water_god_name_possessive:0 "$bidu_high_god_name_possessive$"
+
  west_african_bidu_pagan:0 "Bidaism"
  west_african_bidu_pagan_adj:0 "Bidaic"
  west_african_bidu_pagan_adherent:0 "Bidaist"
  west_african_bidu_pagan_adherent_plural:0 "Bidaists"
  west_african_bidu_pagan_desc:0 "Adherents of this native Mandé faith worship the serpent-god Bidu, a capricious entity who demands regular sacrifices but rewards followers with blessings and bountiful harvests."
+
  west_african_bidu_pagan_old:0 "Old Bidaism"
  west_african_bidu_pagan_old_adj:0 "Old Bidaic"
  west_african_bidu_pagan_old_adherent:0 "Old Bidaist"
  west_african_bidu_pagan_old_adherent_plural:0 "Old Bidaists"
+
+ 
  west_african_bori_religion:1 "Hausa"
  west_african_bori_religion_adj:1 "Hausan"
  west_african_bori_religion_adherent:1 "Hausan"
  west_african_bori_religion_adherent_plural:1 "Hausans"
  west_african_bori_religion_desc:0 "Venerating the spiritual force that resides in all physical things, the priestesses of this faith serve as intermediaries between mankind and the spirits of the world."
+
  west_african_bori_high_god_name:0 "Boorii"
  west_african_bori_high_god_name_possessive:0 "Boorii"
  west_african_bori_high_god_name_alternate:0 "the spirits"
@@ -424,6 +467,7 @@ l_english:
  west_african_bori_priest_female_plural:0 "magadjas"
  west_african_bori_divine_realm:0 "Jangare"
  witchgodname_west_african_bori_the_shadow:0 "the Shadow"
+
  bori_creator_god_name:0 "$west_african_bori_high_god_name$"
  bori_creator_god_name_possessive:0 "$west_african_bori_high_god_name_possessive$"
  bori_health_god_name:0 "the tree spirits"
@@ -446,19 +490,24 @@ l_english:
  bori_night_god_name_possessive:0 "the wind spirits'"
  bori_water_god_name:0 "the water spirits"
  bori_water_god_name_possessive:0 "the water spirits'"
+
  west_african_bori_pagan:0 "Bori"
  west_african_bori_pagan_adj:0 "Bori"
  west_african_bori_pagan_adherent:0 "Bori"
  west_african_bori_pagan_adherent_plural:0 "Boris"
+
  west_african_bori_pagan_old:0 "Old Bori"
  west_african_bori_pagan_old_adj:0 "Old Bori"
  west_african_bori_pagan_old_adherent:0 "Old Bori"
  west_african_bori_pagan_old_adherent_plural:0 "Old Boris"
+
+ 
  west_african_roog_religion:1 "Senegambia"
  west_african_roog_religion_adj:1 "Senegambian"
  west_african_roog_religion_adherent:1 "Senegambian"
  west_african_roog_religion_adherent_plural:1 "Senegambians"
  west_african_roog_religion_desc:0 "The Serer people's traditions outline the way of the Divine, the path to living a spiritually fulfilling life in honor of one's ancestors and the creator of the universe, Roog."
+
  west_african_roog_high_god_name:0 "Roog"
  west_african_roog_high_god_name_possessive:0 "Roog's"
  west_african_roog_high_god_name_shehe:0 "they"
@@ -477,6 +526,7 @@ l_english:
  west_african_roog_priest:0 "saltigue"
  west_african_roog_priest_plural:0 "saltigues"
  west_african_roog_afterlife:0 "Jaaniiw"
+
  roog_sene_creator_god_name:0 "$west_african_roog_high_god_name$"
  roog_sene_creator_god_name_possessive:0 "$west_african_roog_high_god_name_possessive$"
  roog_sene_health_god_name:0 "the pangool"
@@ -499,19 +549,24 @@ l_english:
  roog_sene_night_god_name_possessive:0 "$roog_sene_health_god_name_possessive$"
  roog_sene_water_god_name:0 "Mendiss"
  roog_sene_water_god_name_possessive:0 "Mendiss'"
+
  west_african_roog_pagan:0 "Roog Sene"
  west_african_roog_pagan_adj:0 "Roogan"
  west_african_roog_pagan_adherent:0 "Roogan"
  west_african_roog_pagan_adherent_plural:0 "Roogans"
+
  west_african_roog_pagan_old:0 "Old Roog Sene"
  west_african_roog_pagan_old_adj:0 "Old Roogan"
  west_african_roog_pagan_old_adherent:0 "Old Roogan"
  west_african_roog_pagan_old_adherent_plural:0 "Old Roogans"
+
+ 
  waaqism_religion:1 "Oromo-Somali"
  waaqism_religion_adj:1 "Oromo-Somali"
  waaqism_religion_adherent:1 "Oromo-Somali"
  waaqism_religion_adherent_plural:1 "Oromo-Somalis"
  waaqism_religion_desc:0 "The world is ruled by many deities, but they are all subject to the highest one, Waaq, the god of the sky. Rain and life is brought down to us from above."
+
  waaqism_high_god_name:0 "Waaq"
  waaqism_high_god_name_possessive:0 "Waaq's"
  waaqism_high_god_name_alternate:0 "Eebo"
@@ -534,6 +589,7 @@ l_english:
  waaqism_night_god_name_possessive:0 "Dhegdheer's"
  waaqism_devil_name:0 "Habbad ina Kamas"
  waaqism_devil_name_possessive:0 "Habbad ina Kamas'"
+
  waaqism_house_of_worship:0 "taalo"
  waaqism_house_of_worship_plural:0 "taalos"
  waaqism_religious_symbol:0 "odaa tree"
@@ -545,19 +601,24 @@ l_english:
  waaqism_high_priest_plural:0 "high waddads"
  waaqism_divine_realm:0 "the sky"
  waaqism_afterlife:0 "the shade of the sycamore"
+
  waaqism_pagan:0 "Waaqism"
  waaqism_pagan_adj:0 "Waaqi"
  waaqism_pagan_adherent:0 "Waaqist"
  waaqism_pagan_adherent_plural:0 "Waaqists"
+
  waaqism_pagan_old:0 "Old Waaqism"
  waaqism_pagan_old_adj:0 "Old Waaqi"
  waaqism_pagan_old_adherent:0 "Old Waaqist"
  waaqism_pagan_old_adherent_plural:0 "Old Waaqists"
+
+ 
  akom_religion:1 "Akan"
  akom_religion_adj:1 "Akan"
  akom_religion_adherent:1 "Akan"
  akom_religion_adherent_plural:1 "Akans"
  akom_religion_desc:0 "The various faiths of the Akan peoples worship the children of the creator and mother Earth."
+ 
  akom_high_god_name:0 "Nyame"
  akom_high_god_name_possessive:0 "Nyame's"
  akom_high_god_name_alternate:0 "the Creator"
@@ -576,6 +637,7 @@ l_english:
  akom_night_god_name_possessive:0 "Bia's"
  akom_water_god_name:0 "Tano"
  akom_water_god_name_possessive:0 "Tano's"
+
  akom_the_abosom:0 "the Abosom"
  akom_the_nsamanfo:0 "the Nsamanfo"
  akom_gye_nyame:0 "Gye Nyame"
@@ -584,19 +646,24 @@ l_english:
  akom_high_priest_plural:0 "High Shaman"
  akom_divine_realm:0 "the Sky"
  akom_afterlife:0 "among the Nsamanfo"
+
  akom_pagan:0 "Akom"
  akom_pagan_adj:0 "Akom"
  akom_pagan_adherent:0 "Akomist"
  akom_pagan_adherent_plural:0 "Akomists"
+
  akom_pagan_old:0 "Old Akom"
  akom_pagan_old_adj:0 "Old Akom"
  akom_pagan_old_adherent:0 "Old Akomist"
  akom_pagan_old_adherent_plural:0 "Old Akanists"
+
+ 
  west_african_orisha_religion:1 "Yoruba"
  west_african_orisha_religion_adj:1 "Yoruba"
  west_african_orisha_religion_adherent:2 "Yoruba"
  west_african_orisha_religion_adherent_plural:2 "Yoruba"
  west_african_orisha_religion_desc:1 "Though he created the universe, the high god of the Yoruba pantheon remains distant from mortal affairs. Practitioners instead pray to the òrìṣà, innumerable spirits sent by the higher divinities to guide humanity along their chosen path."
+ 
  yoruba_high_god_name:0 "Ọlọrun"
  yoruba_high_god_name_possessive:0 "Ọlọrun's"
  yoruba_high_god_name_alternate:0 "The Absolute Sovereign"
@@ -611,6 +678,7 @@ l_english:
  yoruba_divine_realm:0 "Heaven"
  yoruba_afterlife:0 "$yoruba_divine_realm$"
  witchgodname_yoruba_heka:0 "$yoruba_night_god_name$"
+
  yoruba_creator_god_name:0 "Olodumare"
  yoruba_creator_god_name_possessive:0 "Olodumare's"
  yoruba_health_god_name:0 "Obaluaye"
@@ -633,6 +701,7 @@ l_english:
  yoruba_night_god_name_possessive:0 "Ọya's"
  yoruba_water_god_name:0 "Olokun"
  yoruba_water_god_name_possessive:0 "Olokun's"
+
  west_african_orisha_pagan:0 "Orisa"
  west_african_orisha_pagan_adj:0 "Orisan"
  west_african_orisha_pagan_adherent:0 "Orisan"
@@ -641,11 +710,15 @@ l_english:
  west_african_orisha_pagan_old_adj:0 "Old Orisan"
  west_african_orisha_pagan_old_adherent:0 "Old Orisan"
  west_african_orisha_pagan_old_adherent_plural:0 "Old Orisans"
+
+ 
  kushitism_religion:1 "Kordofan"
  kushitism_religion_adj:1 "Kordofanian"
  kushitism_religion_adherent:1 "Kordofanian"
  kushitism_religion_adherent_plural:1 "Kordofanians"
  kushitism_religion_desc:0 "Veneration of the ancient gods remains strong here, as does the veneration of the boundary between life and death."
+
+
  kushitism_high_god_name:0 "Wepwawet"
  kushitism_high_god_name_possessive:0 "Wepwawet's"
  kushitism_high_god_name_alternate:0 "the Opener of the Way"
@@ -659,6 +732,7 @@ l_english:
  kushitism_devil_name:0 "Apep"
  kushitism_devil_name_possessive:0 "Apep's"
  witchgodname_kushitism_heka:0 "$kushitism_health_god_name$"
+
  kushitism_creator_god_name:0 "the Ḫmnyw"
  kushitism_creator_god_name_possessive:0 "the Ḫmnyw's"
  kushitism_health_god_name:0 "Heka"
@@ -681,19 +755,25 @@ l_english:
  kushitism_night_god_name_possessive:0 "Iah's"
  kushitism_water_god_name:0 "Tefnut"
  kushitism_water_god_name_possessive:0 "Tefnut's"
+
+
  kushitism_pagan:0 "Kushitism"
  kushitism_pagan_adj:0 "Kushite"
  kushitism_pagan_adherent:0 "Kushitist"
  kushitism_pagan_adherent_plural:1 "Kushitists"
+
  kushitism_pagan_old:0 "Old Kushitism"
  kushitism_pagan_old_adj:0 "Old Kushite"
  kushitism_pagan_old_adherent:0 "Old Kushitist"
  kushitism_pagan_old_adherent_plural:0 "Old Kushitists"
+
+ 
  tengrism_religion:2 "Steppe"
  tengrism_religion_adj:2 "Steppe"
  tengrism_religion_adherent:2 "Steppe Adherent"
  tengrism_religion_adherent_plural:2 "Steppe Adherents"
  tengrism_religion_desc:0 "Tengrists view their existence as sustained by Tengri, the eternal blue sky, and Eje, the fertile earth mother. Adherents are expected to keep the world in balance by living an upright, respectful life; deceitfulness and subversiveness are highly stigmatized."
+
  tengrism_high_god_name:0 "Tengri"
  tengrism_high_god_name_possessive:0 "Tengri's"
  tengrism_high_god_name_alternate:0 "Heavenly Father"
@@ -715,6 +795,7 @@ l_english:
  tengrism_divine_realm:0 "Eternal Blue Sky"
  tengrism_afterlife_negative:0 "Tamag"
  witchgodname_tengrism_the_irshi:0 "the Irshi"
+
  tengrism_creator_god_name:0 "Ülgen"
  tengrism_creator_god_name_possessive:0 "Ülgen's"
  tengrism_health_god_name:0 "Karshyt Han"
@@ -737,19 +818,24 @@ l_english:
  tengrism_night_god_name_possessive:0 "$tengrism_high_god_name_possessive$"
  tengrism_water_god_name:0 "$tengrism_high_god_name$"
  tengrism_water_god_name_possessive:0 "$tengrism_high_god_name_possessive$"
+
  tengri_pagan:1 "Tengriism"
  tengri_pagan_adj:0 "Tengri"
  tengri_pagan_adherent:1 "Tengriist"
  tengri_pagan_adherent_plural:1 "Tengriists"
+
  tengri_pagan_old:1 "Old Tengriism"
  tengri_pagan_old_adj:1 "Old Tengri"
  tengri_pagan_old_adherent:1 "Old Tengriist"
  tengri_pagan_old_adherent_plural:1 "Old Tengriists"
+
+ 
  magyar_religion:2 "Uralic"
  magyar_religion_adj:2 "Uralic"
  magyar_religion_adherent:2 "Uralic"
  magyar_religion_adherent_plural:2 "Uralics"
  magyar_religion_desc:1 "In the native $mogyer$ faith each Táltos, or priest, is chosen by the gods prior to their birth. Endowed with superhuman strength, wisdom, and powers, $mogyer_collective_noun$ entrust these Táltos with protecting their communities and leading them to prosperity."
+
  magyar_high_god_name:0 "Isten"
  magyar_high_god_name_possessive:0 "Isten's"
  magyar_good_god_arany:0 "Arany Atyácska"
@@ -774,6 +860,7 @@ l_english:
  magyar_divine_realm:0 "Menny"
  magyar_afterlife:0 "Pokol"
  witchgod_magyar_szelanya:0 "Szélanya"
+
  magyar_creator_god_name:0 "$magyar_high_god_name$"
  magyar_creator_god_name_possessive:0 "$magyar_high_god_name_possessive$"
  magyar_health_god_name:0 "$magyar_high_god_name$"
@@ -796,19 +883,24 @@ l_english:
  magyar_night_god_name_possessive:0 "Hold Atya's"
  magyar_water_god_name:0 "Su Ata"
  magyar_water_god_name_possessive:0 "Su Ata's"
+
  magyar_pagan:1 "Táltosism"
  magyar_pagan_adj:1 "Táltosist"
  magyar_pagan_adherent:1 "Táltosist"
  magyar_pagan_adherent_plural:1 "Táltosists"
+
  magyar_pagan_old:1 "Old $magyar_pagan$"
  magyar_pagan_old_adj:1 "Old $magyar_pagan_adj$"
  magyar_pagan_old_adherent:1 "Old $magyar_pagan_adherent$"
  magyar_pagan_old_adherent_plural:1 "Old $magyar_pagan_adherent_plural$"
+
+ 
  bon_religion:1 "Tibetan"
  bon_religion_adj:1 "Tibetan"
  bon_religion_adherent:1 "Tibetan"
  bon_religion_adherent_plural:1 "Tibetans"
  bon_religion_desc:1 "Bön is an ancient shamanistic religion indigenous to the region of Tibet. It is characterized by meditation, mystical rituals, and a strong belief in animistic spiritualism."
+
  bon_high_god_name:0 "Sangpo Bumtri"
  bon_high_god_name_possessive:0 "Sangpo Bumtri's"
  bon_high_god_name_alternate:0 "The Ultimate Cause"
@@ -827,6 +919,7 @@ l_english:
  bon_death_deity_name:0 "$bon_devil_name$"
  bon_death_deity_possessive_name:0 "$bon_devil_name_possessive$"
  witchgodname_bon_sidpa_gyalmo:0 "Sidpa Gyalmo"
+ 
  bon_devotee_male:1 "Gelongma"
  bon_devotee_male_plural:1 "Gelongmas"
  bon_devotee_female:0 "$bon_devotee_male$"
@@ -839,6 +932,7 @@ l_english:
  bon_priest_female_plural:0 "$bon_priest_male_plural$"
  bon_priest_neuter:0 "$bon_priest_male$"
  bon_priest_neuter_plural:0 "$bon_priest_male_plural$"
+
  bon_creator_god_name:0 "$bon_high_god_name$"
  bon_creator_god_name_possessive:0 "$bon_high_god_name_possessive$"
  bon_health_god_name:0 "Tsewang Rigzin"
@@ -861,28 +955,34 @@ l_english:
  bon_night_god_name_possessive:0 "Düza Minkar's"
  bon_water_god_name:0 "Kunzang Akor"
  bon_water_god_name_possessive:0 "Kunzang Akor's"
+
  bon:0 "Gyur Bön"
- #^lit. "transformed Bon"
+ #^lit. "transformed Bon" (bsgyur bon)
  bon_adj:0 "Gyur Bönpo"
  bon_adherent:0 "Gyur Bönpo"
  bon_adherent_plural:0 "Gyur Bönpos"
  bon_desc:0 "Gyur Bön or 'transformed Bön' is a spiritual tradition founded by Shenchen Luga that evolved alongside the Buddhist traditions of Tibet, growing out of the esoteric movements that predominated the Era of Fragmentation."
+
  old_bon:0 "Khyarwé Bön"
- #^lit. "erring Bon"
+ #^lit. "erring Bon" ('khyar ba'i bon)
  old_bon_adj:0 "Khyarwé Bönpo"
  old_bon_adherent:0 "Khyarwé Bönpo"
  old_bon_adherent_plural:0 "Khyarwé Bonpos"
  old_bon_desc:0 "Khyarwé Bön or 'erring Bön' is the indigenous faith of the Tibetan region. Exact beliefs varied from place to place but ritualism, sacrificial offerings, and animistic beliefs were common among believers."
+
  old_bon_old:0 "Old Khyarwé Bön"
  old_bon_old_adj:0 "Old Khyarwé Bönpo"
  old_bon_old_adherent:0 "Old Khyarwé Bönpo"
  old_bon_old_adherent_plural:0 "Old Khyarwé Bonpos"
  old_bon_old_desc:0 "Khyarwé Bön or 'erring Bön' is the indigenous faith of the Tibetan region. Exact beliefs varied from place to place but ritualism, sacrificial offerings, and animistic beliefs were common among believers."
+
+ 
  zunism_religion:1 "Zunbil"
  zunism_religion_adj:1 "Zunbil"
  zunism_religion_adherent:1 "Zunbil"
  zunism_religion_adherent_plural:1 "Zunbils"
  zunism_religion_desc:0 "Established by the Zunbil dynasty, Zunists revere and praise the sun for bestowing its bounty upon the surface of the earth."
+
  zunism_high_god_name:0 "Zun"
  zunism_high_god_name_possessive:0 "Zun's"
  zunism_high_god_name_alternate:0 "The Sun"
@@ -898,6 +998,7 @@ l_english:
  witchgodherhis_its:0 "its"
  witchgodshehe_it:0 "it"
  witchgodherhim_it:0 "it"
+
  zunism_creator_god_name:0 "$zunism_high_god_name$"
  zunism_creator_god_name_possessive:0 "$zunism_high_god_name_possessive$"
  zunism_health_god_name:0 "$zunism_high_god_name$"
@@ -920,19 +1021,24 @@ l_english:
  zunism_night_god_name_possessive:0 "$zunism_high_god_name_possessive$"
  zunism_water_god_name:0 "$zunism_high_god_name$"
  zunism_water_god_name_possessive:0 "$zunism_high_god_name_possessive$"
+
  zun_pagan:0 "Zunism"
  zun_pagan_adj:0 "Zunist"
  zun_pagan_adherent:0 "Zunist"
  zun_pagan_adherent_plural:0 "Zunists"
+
  zun_pagan_old:0 "Old Zunism"
  zun_pagan_old_adj:0 "Old Zunist"
  zun_pagan_old_adherent:0 "Old Zunist"
  zun_pagan_old_adherent_plural:0 "Old Zunist"
+
+ 
  hellenism_religion:2 "Greco-Roman"
  hellenism_religion_adj:2 "Greco-Roman"
  hellenism_religion_adherent:2 "Greco-Roman"
  hellenism_religion_adherent_plural:2 "Greco-Romans"
  hellenism_religion_desc:0 "Hellenists worship the ancient Greek and Roman gods, said to reside on Mount Olympus. Each god has their own aspects and is venerated by their worshipers in their own way."
+
  hellenism_high_god_name:0 "Zeus"
  hellenism_high_god_name_possessive:0 "Zeus'"
  hellenism_high_god_name_alternate:0 "The Thunderer"
@@ -964,6 +1070,7 @@ l_english:
  hellenism_religious_head_title:0 "High Priest"
  hellenism_divine_realm:0 "Olympus"
  hellenism_witchgodname_hekate:0 "Hekate"
+
  hellenism_creator_god_name:0 "Gaia"
  hellenism_creator_god_name_possessive:0 "Gaia's"
  hellenism_health_god_name:0 "Asclepius"
@@ -986,35 +1093,40 @@ l_english:
  hellenism_night_god_name_possessive:0 "Nyx's"
  hellenism_water_god_name:0 "Poseidon"
  hellenism_water_god_name_possessive:0 "Poseidon's"
+
  hellenic_pagan:0 "Hellenism"
  hellenic_pagan_adj:0 "Hellenic"
  hellenic_pagan_adherent:0 "Hellenist"
  hellenic_pagan_adherent_plural:0 "Hellenists"
+
  hellenic_pagan_old:0 "Old Hellenism"
  hellenic_pagan_old_adj:0 "Old Hellenic"
  hellenic_pagan_old_adherent:0 "Old Hellenist"
  hellenic_pagan_old_adherent_plural:0 "Old Hellenists"
+ 
+ 
  siberian_religion:0 "Siberian"
  siberian_religion_adj:0 "Siberian"
  siberian_religion_adherent:0 "Siberian"
  siberian_religion_adherent_plural:0 "Siberians"
  siberian_religion_desc:0 "Siberians believe in a horizontal world where men and beasts all live in clans, linked together through alliance or vengeance. Hunting is a core part of the equilibrium between taking and giving life, and with death all souls travel downstream to reincarnate in the clan they lived in previously."
+ 
  siberian_high_god_name:1 "Numi-Turum"
  siberian_high_god_name_possessive:1 "Numi-Turum's"
  siberian_high_god_name_alternate:1 "Kors-Turum"
  siberian_high_god_name_alternate_possessive:1 "Kors-Turum's"
- siberian_good_god_forest_father:0 "forest-father"
- siberian_good_god_river_mother:0 "river-mother"
- siberian_good_god_mountain_master:0 "mountain-master"
- siberian_good_god_earth_mother:0 "earth-mother"
- siberian_good_god_house_master:0 "house-master"
+ siberian_good_god_forest_father:0 "forest-father" 
+ siberian_good_god_river_mother:0 "river-mother" 
+ siberian_good_god_mountain_master:0 "mountain-master" 
+ siberian_good_god_earth_mother:0 "earth-mother" 
+ siberian_good_god_house_master:0 "house-master" 
  siberian_devil_name:1 "Kul-Atur"
  siberian_devil_name_possessive:1 "Kul-Atur's"
  siberian_evil_god_lost_shades:0 "the lost shades"
- siberian_death_deity_name:1 "Kin-Ort"
+ siberian_death_deity_name:1 "Kin-Ort" 
  siberian_death_deity_name_possessive:1 "Kin-Ort's"
  siberian_religious_symbol:0 "bear"
- siberian_religious_text:0 "songs of the woods"
+ siberian_religious_text:0 "songs of the woods" 
  siberian_divine_realm:1 "the Highest Heaven"
  siberian_afterlife_negative:1 "Kul"
  siberian_witchgodname:1 "Kaltesh-Eekva"
@@ -1032,7 +1144,7 @@ l_english:
  siberian_fate_god_name_possessive:1 "$siberian_fertility_god_name_possessive$"
  siberian_knowledge_god_name:1 "Sorni-Iki"
  siberian_knowledge_god_name_possessive:1 "Sorni-Iki's"
- siberian_war_god_name:1 "the Hunter"
+ siberian_war_god_name:1 "the Hunter" 
  siberian_war_god_name_possessive:1 "the Hunter's"
  siberian_trickster_god_name:1 "Heini-Iki"
  siberian_trickster_god_name_possessive:1 "Heini-Iki's"
@@ -1040,14 +1152,17 @@ l_english:
  siberian_night_god_name_possessive:1 "$siberian_fertility_god_name_possessive$"
  siberian_water_god_name:1 "Kassum-Im"
  siberian_water_god_name_possessive:1 "Kassum-Im's"
+ 
  siberian_priest_male:0 "shaman"
  siberian_priest_male_plural:0 "shamans"
  siberian_priest_female:0 "shamaness"
  siberian_priest_female_plural:0 "shamanesses"
+
  siberian_pagan:1 "Turumism"
  siberian_pagan_adj:1 "Turumic"
  siberian_pagan_adherent:1 "Turumist"
  siberian_pagan_adherent_plural:1 "Turumists"
+
  siberian_pagan_old:1 "Old Turumism"
  siberian_pagan_old_adj:1 "Old Turumic"
  siberian_pagan_old_adherent:1 "Old Turumist"

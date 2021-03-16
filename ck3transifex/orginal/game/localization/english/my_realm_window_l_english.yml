@@ -1,8 +1,10 @@
 ﻿l_english:
  MY_REALM_WINDOW_TITLE:0 "My Realm"
+
  MY_REALM_WINDOW_DOMAIN_TAB:0 "Domain"
  MY_REALM_WINDOW_VASSALS_TAB:0 "Vassals"
  MY_REALM_WINDOW_SUCCESSION_TAB:0 "Succession"
+
  MY_REALM_WINDOW_MY_LIEGE:1 "My [liege|E]"
  MY_REALM_WINDOW_MY_OBLIGATIONS:1 "$VASSAL_CONTRACT_MY_OBLIGATIONS_TITLE$: [VassalContract.GetShortObligationLevelNameWithHighlightFor( 'feudal_government_taxes' )]\n$VASSAL_CONTRACT_MY_OBLIGATIONS_TITLE_LEVIES$: [VassalContract.GetShortObligationLevelNameWithHighlightFor( 'feudal_government_levies' )]"
  MY_REALM_WINDOW_OBLIGATION_DEFAULT:0 "$NAME$"
@@ -10,6 +12,7 @@
  MY_REALM_WINDOW_TAX_TO_LIEGE:0 "Tax: [MyRealmWindow.GetCachedTaxToLiege|=1]/month"
  MY_REALM_WINDOW_LEVIES_TO_LIEGE:0 "Levies: [MyRealmWindow.GetCachedLeviesToLiege]"
  MY_REALM_WINDOW_TYPE:1 "[GetPlayer.GetGovernment.GetName] [Character.GetPrimaryTitle.GetRankConcept]"
+
  MY_REALM_WINDOW_VASSALS:0 "Vassals"
  MY_REALM_WINDOW_SUCCESSION:0 "Succession"
  MY_REALM_WINDOW_CURRENT_SUCCESSION:0 "Realm [succession_law|E]"
@@ -17,6 +20,7 @@
  MY_REALM_WINDOW_VASSALS_TT:0 "Show realm vassals"
  MY_REALM_WINDOW_SUCCESSION_TT:0 "Show realm succession"
  MY_REALM_WINDOW_CHANGE_SUCCESSION_TT:0 "Select a new succession law"
+
  MY_REALM_WINDOW_CONTRIBUTION_TO_THEOCRATIC_LIEGE:0 "In addition to this, the [realm_priest|E] gives [taxes|E] and [levies|E] from [church_property|E] depending on their [opinion|E] of their [liege|E]"
  MRW_TT_TAXES_TO_MY_LIEGE:1 "#T [taxes|E] you pay your [liege|E]#!"
  MRW_TT_LEVIES_TO_MY_LIEGE:1 "#T [levies|E] you provide your [liege|E]#!"
@@ -24,10 +28,12 @@
  MRW_TT_LEVIES_TO_ME:1 "#T [levies|E] given to you by your [vassal|E]#!"
  MRW_TT_NOT_RIGHTFUL_LIEGE:2 "@warning_icon!#X [levies|E] and [tax|E] are reduced as [Select_CString(Character.GetLiege.IsLocalPlayer, 'you', Character.GetLiege.GetUIName)] [Select_CString(Character.GetLiege.IsLocalPlayer, 'are', 'is')] not [Character.GetShortUINamePossessive] [rightful_liege|E]#!\n\n[Select_CString(Character.IsLocalPlayer, 'You', Character.GetUIName)] [Select_CString(Character.IsLocalPlayer, 'want', 'wants')] [Select_CString(Character.IsLocalPlayer, 'your', Character.GetHerHis)] [liege|E] to hold the [Character.GetPrimaryTitle.GetDeJureLiege.GetName], since [Select_CString(Character.IsLocalPlayer, 'your', Character.GetHerHis)] [primary_title|E] ([Character.GetPrimaryTitle.GetName]) is [de_jure|E] part of that [Character.GetPrimaryTitle.GetDeJureLiege.GetRankConcept]."
  MRW_TITLE_ALLEGIANCE:1 "#T [title_allegiance|E]#!\n[Character.GetShortUIName] has allegiance towards the [Title.GetName] rather than you!"
+ 
  MRW_GOVERNMENT_FILTER_ALL:0 "All"
  MRW_GOVERNMENT_FILTER_ALL_TT:0 "#T Show All [vassals|E]#!"
  MRW_GOVERNMENT_FILTER:0 "[GovernmentType.GetNameNoTooltip] ([GovernmentTypeHeader.GetVassalsCount|V])"
  MRW_GOVERNMENT_FILTER_TT:0 "#T Show [GovernmentType.GetName] [vassals|E]#!"
+
  FEUDAL_CONTRACT:0 "Feudal Contract"
  VASSAL_CONTRACT_OBLIGATIONS_TITLE:2 "Feudal Tax Level"
  VASSAL_CONTRACT_MY_OBLIGATIONS_TITLE:2 "Your $VASSAL_CONTRACT_OBLIGATIONS_TITLE$"
@@ -44,6 +50,7 @@
  VASSAL_CONTRACT_OBLIGATION_PREVIEW_TOOLTIP_CURRENT:0 "#weak Current Obligation Level#!"
  VASSAL_CONTRIBUTION_NON_RIGHTFUL_LIEGE:0 "Not [rightful_liege|E]"
  VASSAL_CONTRIBUTION_AT_WAR_WITH_LIEGE:0 "At [war|E] with [liege|E]"
+
  MRW_YOUR_PLAYER_HEIR:1 "When you die, you will play as your [player_heir|E]"
  MRW_INHERITED_TITLES:0 "Inherited [titles|E]"
  MY_REALM_WINDOW_NO_HEIR_FLAVOR:1 "@warning_icon! #X You have no heir. The game will end after you die#!"
@@ -85,7 +92,7 @@
  MY_REALM_WINDOW_HOLDING_LEVY:0 "@soldier_icon! [Holding.GetMaxLevySize|0]"
  MY_REALM_WINDOW_COUNTY_CONTROL:0 "[control|E]: $VALUE|%/0$"
  MY_REALM_WINDOW_COUNTY_CONTROL_COLORED:0 "#X [control|E]: $VALUE|%/0$#!"
- MY_REALM_WINDOW_CURRENT_CONSTRUCTION:0 "Constructing new $BULDING$"
+ MY_REALM_WINDOW_CURRENT_CONSTRUCTION:1 "Finishing new $BULDING$ in [DATE.GetTimeDiffFromNow]"
  MY_REALM_WINDOW_DEVELOPMENT:0 "[development|E]: [County.GetDevelopmentLevel]"
  MY_REALM_WINDOW_CONTROL_TOOLTIP:0 "#T County Control: [CountyGroup.GetCapitalProvince.GetCounty.GetControlLevelOutOfMax]#!\n[CountyGroup.GetCapitalProvince.GetCounty.GetCountyControlEffectsDesc]\n\n[CountyGroup.GetCapitalProvince.GetCounty.GetCountyControlIncreaseDesc]"
  MY_REALM_WINDOW_CONSTRUCT_HOLDING:0 "Can construct new Holding"

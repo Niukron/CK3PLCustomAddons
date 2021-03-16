@@ -76,7 +76,7 @@
  ACHIEVEMENT_DESC_turning_to_diamonds_achievement: "Reach the highest possible [stress_level|E]"
  ACHIEVEMENT_DESC_reconquista_achievement: "Starting as an Iberian Christian, convert all of Iberia to Christianity"
  ACHIEVEMENT_DESC_seven_holy_cities_achievement: "As a Hindu ruler, hold all seven Hindu [holy_sites|E] at the same time"
- ACHIEVEMENT_DESC_frankokratia_achievement: "As a French Catholic, hold and [completely_control|E] the [kingdom|E] of Thessalonika without holding or being vassalized to the Byzantine Empire"
+ ACHIEVEMENT_DESC_frankokratia_achievement: "As a French Catholic, hold and [completely_control|E] the [kingdom|E] of $k_thessalonika$ without holding or being vassalized to the Byzantine Empire"
  ACHIEVEMENT_DESC_celebrity_achievement: "Reach the highest possible [prestige_level|E]"
  ACHIEVEMENT_DESC_saint_achievement: "Reach the highest possible [piety_level|E]"
  ACHIEVEMENT_DESC_keeping_it_in_the_family_achievement: "Have a [child|E] with the Inbred [trait|E]. $rd_character_blocked_from_achievement$"

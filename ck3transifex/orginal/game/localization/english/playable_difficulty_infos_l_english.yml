@@ -1,5 +1,6 @@
 ﻿l_english:
  PLAYABLE_DIFFICULTY_INFO_SEPARATOR:0 "$COMMA$"
+
  pdi_at_war:0 "At [war|E]"
  pdi_no_player_heir:0 "No [player_heir|E]"
  pdi_primary_heir_of_wrong_dynasty:0 "[primary_heir|E] is of wrong [dynasty|E]"

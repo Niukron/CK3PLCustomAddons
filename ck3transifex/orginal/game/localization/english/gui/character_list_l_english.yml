@@ -157,4 +157,5 @@
  CHARACTER_FINDER_NO_MATCH:0 "No matching Characters for current filter"
  special_filter_category:0 "Special"
  CHARACTER_LIST_CLEAR:0 "#T Clear Search#!"
+
  CULTURE_LISTS_WINDOW:0 "[Culture.GetNameNoTooltip]"

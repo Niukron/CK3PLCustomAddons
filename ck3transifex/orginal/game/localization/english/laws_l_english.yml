@@ -13,6 +13,7 @@
  CLICK_TO_PASS_LAW:0 "\n#I Click to pass [Law.GetNameNoTooltip|V]#!"
  LAW_COST:1 "\n#S Cost:#! [GuiLaw.GetShortCostString|L]"
  LAW_TITLE_ALLEGIANCE_OPINION:0 "$EFFECT_LIST_BULLET$Vassals Swearing [title_allegiance|E] [opinion|E]: $VALUE|+=$"
+
  crown_authority:0 "[crown_authority|E]"
  crown_authority_0:0 "Autonomous Vassals"
  crown_authority_0_effects_not_in_prev:0 "#weak Vassals provide [levies|E] and [taxes|E], but are otherwise free to do as they wish#!"
@@ -30,6 +31,7 @@
  I_LACK_LAW_ALLOWING_TITLE_REVOCATION_CROWN:1 "You do not have Limited [crown_authority|E] or better"
  I_LACK_LAW_ALLOWING_VASSAL_RETRACTION_CROWN:1 "You do not have Limited [crown_authority|E] or better"
  I_LACK_LAW_ALLOWING_SUCCESSION_LAW_CHANGE:2 "You do not have High [crown_authority|E]"
+ I_LACK_TRIBAL_LAW_ALLOWING_SUCCESSION_LAW_CHANGE:0 "You do not have Limited [tribal_authority|E]"
  I_LACK_LAW_ALLOWING_PARTITION_SUCCESSION_LAW_CHANGE:1 "You do not have Limited [crown_authority|E]"
  I_LACK_LAW_ALLOWING_DESIGNATE_HEIR:0 "You do not have Absolute [crown_authority|E]"
  MY_DYNASTY_MEMBER_LEADS_THE_ELECTION:1 "A member of your [dynasty|E] ([CHARACTER.GetPrimaryTitle.GetHeir.GetShortUIName|V]) is leading the election for your [primary_title|E]"

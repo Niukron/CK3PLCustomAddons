@@ -149,6 +149,7 @@
  treacherous_invader_opinion: "Treacherous Invader"
  attempted_arrest_opinion: "Attempted Arrest"
  attempted_imprisonment_opinion: "Attempted Imprisonment"
+ treachery_opinion: "Traitor"
  treasonous_revoke_refusal: "Refused Revocation of [title|E]"
  treasonous_imprison_refusal: "Refused Imprisonment of [vassal|E]"
  rebellious_vassal_opinion: "Rebellious Vassal"

@@ -54,6 +54,7 @@
  debug_launch_natural_crusade_interaction: "Launch natural Crusade"
  slay_character_interaction: "Have someone #difficulty_hard Slay#! them!"
  give_bubonic_plague_interaction: "Bestow #difficulty_easy B#!#P u#!#difficulty_easy b#!#P o#!#difficulty_easy n#!#P i#!#difficulty_easy c P#!#P l#!#difficulty_easy a#!#P g#!#difficulty_easy u#!#P e#!"
+ start_bout_interaction: "Start Single Combat"
  debug_murder_scheme_message: "A Murder scheme was started"
  debug_abduct_scheme_message: "An Abduct scheme was started"
  ai_diplomacy_stance_trigger: "AI diplomacy stance"

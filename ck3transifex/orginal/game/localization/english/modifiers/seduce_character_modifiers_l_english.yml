@@ -35,6 +35,7 @@
  seduce_obvisouly_courted_modifier_desc:0 "The whole court knows that someone is on the path of love."
  seduce_figting_modifier:0 "Excelled in a Fight"
  seduce_figting_modifier_desc:1 "Raw knuckles and split lips; nothing slows this character down!"
+
  seduce_bold_start_modifier:0 "Emboldened by Seduction Attempt"
  seduce_bold_start_modifier_desc:0 "Feeling brave after making bold advances during a romantic meeting."
  seduce_gentle_start_modifier:0 "Mellowed by Seduction Attempt"

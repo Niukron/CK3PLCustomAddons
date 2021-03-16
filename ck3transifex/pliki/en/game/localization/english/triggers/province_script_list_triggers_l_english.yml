@@ -11,6 +11,7 @@
  any_realm_county_count_greater_or_equal: "Any [realm|E] [county|E] equal or greater than:"
  any_realm_county_count_less_or_equal: "Any [realm|E] [county|E] equal or lesser than:"
  any_realm_county_count_equal: "Any [realm|E] [county|E] equal to:"
+ any_sub_realm_county: "Any Sub Realm County:"
  county_opinion: "County Opinion: $OPINION|=V$"
  county_control_rate: "County Control Rate"
  num_county_followers: "Number of County Followers: $NUM|V0$"

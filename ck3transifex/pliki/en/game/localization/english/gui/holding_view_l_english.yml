@@ -3,7 +3,7 @@
  HOLDING_TAX_VALUE: "@gold_icon! [Holding.GetIncome|2]"
  HOLDING_LOOT: "[raid_loot|E]:"
  HOLDING_LOOT_VALUE: "@gold_icon! [Holding.GetProvince.GetRaidLoot|0V]"
- HOLDING_FORT_LEVEL: "[fort_level|E]:"
+ HOLDING_FORT_LEVEL: "[fort_level|E]"
  HOLDING_GARRISON: "[garrison|E]:"
  HOLDING_EMPTY: "No [holding|E]"
  HOLDING_CONSTRUCTING: "Constructing [HOLDING_TYPE.GetName] [holding|E]"

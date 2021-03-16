@@ -1,9 +1,5 @@
 ﻿l_english:
- ################################################
- # Standard loc keys, used in all English texts #
- ################################################
-
- #ComplimentAdjective
+ 
  compliment_fair:0 "fair"
  compliment_handsome:0 "handsome"
  compliment_impressive:0 "impressive"
@@ -17,6 +13,8 @@
  compliment_sensible:0 "sensible"
  compliment_serene:0 "serene"
  compliment_fallback:0 "amicable"
+
+ 
  compliment_fair_article:0 "a fair"
  compliment_handsome_article:0 "a handsome"
  compliment_impressive_article:0 "an impressive"
@@ -30,7 +28,11 @@
  compliment_sensible_article:0 "a sensible"
  compliment_serene_article:0 "a serene"
  compliment_fallback_article:0 "an amicable"
+
+ 
  compliment_sentence_comfortable:0 "I am never as comfortable as when I am in your company"
+ 
+ 
  formal_compliment_great:0 "great"
  formal_compliment_venerable:0 "venerable"
  formal_compliment_pious:0 "pious"
@@ -45,6 +47,9 @@
  formal_compliment_affable:0 "affable"
  formal_compliment_amiable:0 "amiable"
  formal_compliment_dignified:0 "dignified"
+
+
+ 
  compliment_brave:0 "brave"
  compliment_kind_hearted:0 "kind-hearted"
  compliment_heroic:0 "heroic"
@@ -78,6 +83,8 @@
  compliment_stag:0 "stag"
  compliment_delightful:0 "delightful"
  compliment_vixen:0 "vixen"
+
+ 
  compliment_impressive_female:0 "impressive"
  compliment_benign_female:0 "benign"
  compliment_implacable_female:0 "implacable"
@@ -89,6 +96,8 @@
  compliment_sensible_female:0 "sensible"
  compliment_serene_female:0 "serene"
  compliment_fallback_female:0 "amicable"
+
+ 
  compliment_impressive_article_female:0 "an impressive"
  compliment_benevolent_article_female:0 "a benevolent"
  compliment_implacable_article_female:0 "an implacable"
@@ -100,6 +109,8 @@
  compliment_sensible_article_female:0 "a sensible"
  compliment_serene_article_female:0 "a serene"
  compliment_fallback_article_female:0 "an amicable"
+ 
+ 
  formal_compliment_great_female:0 "great"
  formal_compliment_venerable_female:0 "venerable"
  formal_compliment_pious_female:0 "pious"
@@ -110,6 +121,8 @@
  formal_compliment_affable_female:0 "affable"
  formal_compliment_amiable_female:0 "amiable"
  formal_compliment_dignified_female:0 "dignified"
+
+ 
  compliment_brave_female:0 "brave"
  compliment_kind_hearted_female:0 "kind-hearted"
  compliment_heroic_female:0 "heroic"

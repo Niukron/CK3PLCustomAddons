@@ -30,6 +30,7 @@
  I_LACK_LAW_ALLOWING_TITLE_REVOCATION_CROWN: "You do not have Limited [crown_authority|E] or better"
  I_LACK_LAW_ALLOWING_VASSAL_RETRACTION_CROWN: "You do not have Limited [crown_authority|E] or better"
  I_LACK_LAW_ALLOWING_SUCCESSION_LAW_CHANGE: "You do not have High [crown_authority|E]"
+ I_LACK_TRIBAL_LAW_ALLOWING_SUCCESSION_LAW_CHANGE: "You do not have Limited [tribal_authority|E]"
  I_LACK_LAW_ALLOWING_PARTITION_SUCCESSION_LAW_CHANGE: "You do not have Limited [crown_authority|E]"
  I_LACK_LAW_ALLOWING_DESIGNATE_HEIR: "You do not have Absolute [crown_authority|E]"
  MY_DYNASTY_MEMBER_LEADS_THE_ELECTION: "A member of your [dynasty|E] ([CHARACTER.GetPrimaryTitle.GetHeir.GetShortUIName|V]) is leading the election for your [primary_title|E]"

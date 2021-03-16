@@ -132,5 +132,5 @@
  TEMPORAL_HEAD_CREATED: "You will gain the [head_of_faith|E] title."
  TEMPORAL_HEAD_NOT_CREATED: "The [head_of_faith|E] title will not be created.\nIt can be created later once you have [EmptyScope.ScriptValue( 'holy_sites_to_create_temporal_head_of_faith' )|0V] [holy_sites|E]."
  FAITH_CREATION_ADDS_TEMPORAL_HEAD_TEXT: "Institute [temporal_head_of_faith|E]\n[SelectLocalization( GreaterThanOrEqualTo_int32( GetPlayer.GetNumberOfControlledHolySites, FixedPointToInt( EmptyScope.ScriptValue( 'holy_sites_to_create_temporal_head_of_faith' ) ) ), 'TEMPORAL_HEAD_CREATED', 'TEMPORAL_HEAD_NOT_CREATED' )]"
- CREATE_TEMPORAL_HEAD_OF_FAITH_TITLE: "Create [head_of_faith|E] [title|E]"
- RECREATE_TEMPORAL_HEAD_OF_FAITH_TITLE: "Recreate [head_of_faith|E] [title|E]"
+ CREATE_TEMPORAL_HEAD_OF_FAITH_TITLE: "Create Head of Faith Title"
+ RECREATE_TEMPORAL_HEAD_OF_FAITH_TITLE: "Recreate Head of Faith Title"

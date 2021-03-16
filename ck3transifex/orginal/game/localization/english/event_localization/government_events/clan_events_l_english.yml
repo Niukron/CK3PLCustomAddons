@@ -3,9 +3,11 @@
  clan.1001.desc:0 "[vassal.Custom2('MyCharacterIntroduction', ROOT.Char)|U] and [vassal.GetHerHis] [vassal_child.Custom('GetDaughterSon')] [vassal_child.GetTitledFirstName] approach me.\n\n"The lack of an alliance between us is shameful, my [ROOT.Char.GetLadyLord]. Let [child.GetTitledFirstName] marry my [vassal_child.Custom('GetDaughterSon')] and set things right!""
  clan.1001.a:0 "You are right – they will marry!"
  clan.1001.b:0 "It will not happen."
+
  clan.1002.desc:0 ""[ROOT.Char.GetTitledFirstNameNoTooltip] what is the meaning of this?!"\n\n[vassal.Custom2('MyCharacterIntroduction', ROOT.Char)|U] storms into the room, [vassal.GetHerHis] [vassal_child.Custom('GetDaughterSon')] [vassal_child.GetTitledFirstName] in tow.\n\n"Why have you broken the betrothal between your [child.Custom('GetDaughterSon')] and [vassal_child.GetTitledFirstNameNoTooltip]?""
  clan.1002.a:0 "It was a mistake, I promise!"
  clan.1002.b:0 "It's none of your business."
+
  clan.1011.t:0 "Without an Alliance"
  clan.1011.desc_opening:0 ""I cannot help but notice the nepotism you treat [allied_vassal.Custom2('YourCharacterIntroduction', ROOT.Char)] with, my liege."\n\n[vassal.Custom2('MyCharacterIntroduction', ROOT.Char)|U] has sought me out, looking to settle what [vassal.GetSheHe] perceives as a slight; me not having an alliance with [vassal.GetHerHim].\n\n"A concession from you would sooth my temper. Say..."
  clan.1011.desc_army:0 "the expertise of your [councillor.GetCouncilTitle] [councillor.GetTitledFirstName] for a few years!""
@@ -20,6 +22,7 @@
  clan.1011.prowess:0 "Then let us fight, and I'll teach you."
  clan.1011.fallback:0 "Take this and leave me alone."
  clan.1011.b:0 "You will get no such thing."
+
  clan.1101.t:0 "Balance of Power"
  clan.1101.desc:0 "[vassal.Custom2('MyCharacterIntroduction', ROOT.Char)|U] has come to me with a complaint. "Your family members have too much power in the [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip]. No matter how hard vassals such as myself work, we will never even come close to them!\n\nI implore you to remedy this injustice. After all, even the appearance of nepotism can breed resentment among your vassals...""
  clan.1101.a:0 "I hear your concerns, and will take them under advisement."
@@ -29,6 +32,7 @@
  clan.1101.c:0 "Oh, I'll give you something to breed resentment..."
  clan.1101.d:0 "It's not my fault you weren't born into my family!"
  clan.1101.d.custom:0 "Every [vassal|E] who is not a [dynasty|E] member"
+
  clan.1201.t:0 "Unrepresented"
  clan.1201.desc:0 "A [culture.GetNameNoTooltip] [petitioner.GetWomanMan] from [target_title.GetNameNoTier] has come to petition me for increased representation in my government.\n\n"My [ROOT.Char.GetLadyLord], we are your loyal subjects, yet we have no say in how our communities are governed. Would it be so much to ask for one of our own people to have a place in your administration?""
  clan.1201.a:0 "Very well. You shall rule [target_title.GetNameNoTierNoTooltip] from this point forward!"

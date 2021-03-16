@@ -45,7 +45,7 @@
  martial_authority.2054.toast.no_return: "My right-hand [right_hand_person.GetWomanMan] has been freed from prison, but has not returned to my service."
  martial_authority.2055.message: "My Right-Hand [right_hand_person.GetWomanMan] Left My Service"
  martial_authority.2055.message.incapable: "My Right-Hand [right_hand_person.GetWomanMan] Has Become Incapable"
- martial_authority.2056.message: "My Right-Hand [right_hand_person.GetWomanMan] Died"
+ martial_authority.2056.message: "My Right-Hand [ROOT.Char.GetWomanMan|U] Died"
  martial_authority.2056.message.death: "I Killed My Right-Hand [right_hand_person.GetWomanMan]"
  martial_authority_special.1100.t: "Incognito"
  martial_authority_special.1100.start.desc: "Tonight, I have stripped myself of every symbol signifying my rank to walk anonymously among my soldiers. It is a quiet evening, so when the argument breaks out, the words reach me loud and clear.\n\n"

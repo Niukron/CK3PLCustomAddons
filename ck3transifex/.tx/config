@@ -169,6 +169,13 @@ source_file = pliki/en/game/localization/english/opinions/peasant_affair_opinion
 source_lang = en
 type = YAML_GENERIC
 
+[spolszczeniev2.poetry_opinions_l_englishyml]
+file_filter = pliki/<lang>/game/localization/english/opinions/poetry_opinions_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/opinions/poetry_opinions_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
 [spolszczeniev2.prison_opinions_l_englishyml]
 file_filter = pliki/<lang>/game/localization/english/opinions/prison_opinions_l_english.yml
 minimum_perc = 0
@@ -386,6 +393,13 @@ source_file = pliki/en/game/localization/english/custom_localization/appropriate
 source_lang = en
 type = YAML_GENERIC
 
+[spolszczeniev2.body_part_custom_loc_l_englishyml]
+file_filter = pliki/<lang>/game/localization/english/custom_localization/body_part_custom_loc_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/custom_localization/body_part_custom_loc_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
 [spolszczeniev2.building_custom_loc_l_englishyml]
 file_filter = pliki/<lang>/game/localization/english/custom_localization/building_custom_loc_l_english.yml
 minimum_perc = 0
@@ -554,6 +568,13 @@ source_file = pliki/en/game/localization/english/custom_localization/pet_custom_
 source_lang = en
 type = YAML_GENERIC
 
+[spolszczeniev2.poetry_loc_l_englishyml]
+file_filter = pliki/<lang>/game/localization/english/custom_localization/poetry_loc_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/custom_localization/poetry_loc_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
 [spolszczeniev2.prison_custom_loc_l_englishyml]
 file_filter = pliki/<lang>/game/localization/english/custom_localization/prison_custom_loc_l_english.yml
 minimum_perc = 0
@@ -593,6 +614,13 @@ type = YAML_GENERIC
 file_filter = pliki/<lang>/game/localization/english/custom_localization/signature_weapon_custom_loc_l_english.yml
 minimum_perc = 0
 source_file = pliki/en/game/localization/english/custom_localization/signature_weapon_custom_loc_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[spolszczeniev2.single_combat_custom_loc_l_englishyml]
+file_filter = pliki/<lang>/game/localization/english/custom_localization/single_combat_custom_loc_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/custom_localization/single_combat_custom_loc_l_english.yml
 source_lang = en
 type = YAML_GENERIC
 
@@ -1555,6 +1583,13 @@ source_file = pliki/en/game/localization/english/modifiers/sibling_modifiers_l_e
 source_lang = en
 type = YAML_GENERIC
 
+[spolszczeniev2.single_combat_modifiers_l_englishyml]
+file_filter = pliki/<lang>/game/localization/english/modifiers/single_combat_modifiers_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/modifiers/single_combat_modifiers_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
 [spolszczeniev2.story_cycle_murders_at_court_modifiers_l_englishyml]
 file_filter = pliki/<lang>/game/localization/english/modifiers/story_cycle_murders_at_court_modifiers_l_english.yml
 minimum_perc = 0
@@ -2318,6 +2353,13 @@ source_file = pliki/en/game/localization/english/settings_l_english.yml
 source_lang = en
 type = YAML_GENERIC
 
+[spolszczeniev2.single_combat_events_l_englishyml]
+file_filter = pliki/<lang>/game/localization/english/single_combat_events_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/single_combat_events_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
 [spolszczeniev2.succession_law_change_window_l_englishyml]
 file_filter = pliki/<lang>/game/localization/english/succession_law_change_window_l_english.yml
 minimum_perc = 0
@@ -3018,6 +3060,13 @@ source_file = pliki/en/game/localization/english/event_localization/relation_eve
 source_lang = en
 type = YAML_GENERIC
 
+[spolszczeniev2.faith_conversion_events_l_englishyml]
+file_filter = pliki/<lang>/game/localization/english/event_localization/religion_events/faith_conversion_events_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/event_localization/religion_events/faith_conversion_events_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
 [spolszczeniev2.faith_creation_events_l_englishyml]
 file_filter = pliki/<lang>/game/localization/english/event_localization/religion_events/faith_creation_events_l_english.yml
 minimum_perc = 0
@@ -3326,6 +3375,13 @@ source_file = pliki/en/game/localization/english/event_localization/trait_specif
 source_lang = en
 type = YAML_GENERIC
 
+[spolszczeniev2.trait_specific_interaction_events_l_englishyml]
+file_filter = pliki/<lang>/game/localization/english/event_localization/trait_specific_events/trait_specific_interaction_events_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/event_localization/trait_specific_events/trait_specific_interaction_events_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
 [spolszczeniev2.trait_specific_ongoing_events_l_englishyml]
 file_filter = pliki/<lang>/game/localization/english/event_localization/trait_specific_events/trait_specific_ongoing_events_l_english.yml
 minimum_perc = 0
@@ -3430,10 +3486,6 @@ minimum_perc = 0
 source_file = pliki/en/game/localization/english/event_localization/yearly_events/yearly_events_sahara_l_english.yml
 source_lang = en
 type = YAML_GENERIC
-
-
-
-
 
 [spolszczeniev2.loadsave_l_englishjominiyml]
 file_filter = pliki/<lang>/jomini/localization/loadsave_l_english.yml
@@ -3554,9 +3606,6 @@ source_file = pliki/en/jomini/localization/jomini/script_system/script_system_l_
 source_lang = en
 type = YAML_GENERIC
 
-
-
-
 [spolszczeniev2.cw_date_l_englishclausewitzyml]
 file_filter = pliki/<lang>/clausewitz/localization/cw_date_l_english.yml
 minimum_perc = 0
@@ -3612,3 +3661,151 @@ minimum_perc = 0
 source_file = custom_text/en/polish_b_adj_custom_loc_l_english.yml
 source_lang = en
 type = YAML_GENERIC
+
+[spolszczeniev2.dlc_fp1_achievements_l_englishyml]
+file_filter = pliki/<lang>/game/localization/english/dlc/fp1/dlc_fp1_achievements_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/fp1/dlc_fp1_achievements_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[spolszczeniev2.dlc_fp1_cultural_innovations_l_englishyml]
+file_filter = pliki/<lang>/game/localization/english/dlc/fp1/dlc_fp1_cultural_innovations_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/fp1/dlc_fp1_cultural_innovations_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[spolszczeniev2.dlc_fp1_custom_loc_l_englishyml]
+file_filter = pliki/<lang>/game/localization/english/dlc/fp1/dlc_fp1_custom_loc_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/fp1/dlc_fp1_custom_loc_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[spolszczeniev2.dlc_fp1_decisions_l_englishyml]
+file_filter = pliki/<lang>/game/localization/english/dlc/fp1/dlc_fp1_decisions_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/fp1/dlc_fp1_decisions_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[spolszczeniev2.dlc_fp1_game_concepts_l_englishyml]
+file_filter = pliki/<lang>/game/localization/english/dlc/fp1/dlc_fp1_game_concepts_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/fp1/dlc_fp1_game_concepts_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[spolszczeniev2.dlc_fp1_governments_l_englishyml]
+file_filter = pliki/<lang>/game/localization/english/dlc/fp1/dlc_fp1_governments_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/fp1/dlc_fp1_governments_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[spolszczeniev2.dlc_fp1_important_actions_l_englishyml]
+file_filter = pliki/<lang>/game/localization/english/dlc/fp1/dlc_fp1_important_actions_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/fp1/dlc_fp1_important_actions_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[spolszczeniev2.dlc_fp1_interactions_l_englishyml]
+file_filter = pliki/<lang>/game/localization/english/dlc/fp1/dlc_fp1_interactions_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/fp1/dlc_fp1_interactions_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[spolszczeniev2.dlc_fp1_jomsviking_events_l_englishyml]
+file_filter = pliki/<lang>/game/localization/english/dlc/fp1/dlc_fp1_jomsviking_events_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/fp1/dlc_fp1_jomsviking_events_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[spolszczeniev2.dlc_fp1_legacies_l_englishyml]
+file_filter = pliki/<lang>/game/localization/english/dlc/fp1/dlc_fp1_legacies_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/fp1/dlc_fp1_legacies_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[spolszczeniev2.dlc_fp1_major_decisions_events_l_englishyml]
+file_filter = pliki/<lang>/game/localization/english/dlc/fp1/dlc_fp1_major_decisions_events_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/fp1/dlc_fp1_major_decisions_events_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[spolszczeniev2.dlc_fp1_modifiers_l_englishyml]
+file_filter = pliki/<lang>/game/localization/english/dlc/fp1/dlc_fp1_modifiers_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/fp1/dlc_fp1_modifiers_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[spolszczeniev2.dlc_fp1_opinions_l_englishyml]
+file_filter = pliki/<lang>/game/localization/english/dlc/fp1/dlc_fp1_opinions_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/fp1/dlc_fp1_opinions_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[spolszczeniev2.dlc_fp1_other_decisions_events_l_englishyml]
+file_filter = pliki/<lang>/game/localization/english/dlc/fp1/dlc_fp1_other_decisions_events_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/fp1/dlc_fp1_other_decisions_events_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[spolszczeniev2.dlc_fp1_regiment_l_englishyml]
+file_filter = pliki/<lang>/game/localization/english/dlc/fp1/dlc_fp1_regiment_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/fp1/dlc_fp1_regiment_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[spolszczeniev2.dlc_fp1_shieldmaiden_events_l_englishyml]
+file_filter = pliki/<lang>/game/localization/english/dlc/fp1/dlc_fp1_shieldmaiden_events_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/fp1/dlc_fp1_shieldmaiden_events_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[spolszczeniev2.dlc_fp1_trade_events_l_englishyml]
+file_filter = pliki/<lang>/game/localization/english/dlc/fp1/dlc_fp1_trade_events_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/fp1/dlc_fp1_trade_events_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[spolszczeniev2.dlc_fp1_trial_by_combat_events_l_englishyml]
+file_filter = pliki/<lang>/game/localization/english/dlc/fp1/dlc_fp1_trial_by_combat_events_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/fp1/dlc_fp1_trial_by_combat_events_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[spolszczeniev2.dlc_fp1_wars_l_englishyml]
+file_filter = pliki/<lang>/game/localization/english/dlc/fp1/dlc_fp1_wars_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/fp1/dlc_fp1_wars_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[spolszczeniev2.dlc_fp1_yearly_events_l_englishyml]
+file_filter = pliki/<lang>/game/localization/english/dlc/fp1/dlc_fp1_yearly_events_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/fp1/dlc_fp1_yearly_events_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[spolszczeniev2.dlc_fp1_yearly_events_oltner_l_englishyml]
+file_filter = pliki/<lang>/game/localization/english/dlc/fp1/dlc_fp1_yearly_events_oltner_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/fp1/dlc_fp1_yearly_events_oltner_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
