@@ -22,11 +22,15 @@
  book_the_norse_sagas:0 "the Norse Saga"
  book_family_history:0 "my family history"
  book_ancient_myths:0 "the ancient myths"
+
+ 
  world_deadline_6000_years:0 "the world will end six thousand years after its creation"
  world_deadline_432000_age:0 "this age will end after four hundred and thirty-two thousand years"
  world_deadline_1000_age:0 "this age will end after one thousand years"
  world_deadline_21000_age:0 "this age will end after twenty-one thousand years"
  world_deadline_3000_period:0 "this, the last period, will last three thousand years"
+
+ 
  virtue_choice_brave:0 "brave"
  virtue_choice_just:0 "just"
  virtue_choice_temperate:0 "temperate"

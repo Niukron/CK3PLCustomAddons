@@ -1,9 +1,10 @@
 ﻿l_english:
- # General 
+ 
  SETTING_VALUE_NONE:1 "$VALUE$"
  SETTING_VALUE_TOTAL_PERCENTAGE:0 "$VALUE|%/0$"
  SETTING_VALUE_PERCENTAGE:0 "$VALUE|%0$"
  SETTING_VALUE_SECONDS:1 "$VALUE$ seconds"
+ 
  SETTING_RENDERER:0 "Renderer"
  SETTING_VSYNC:0 "VSync"
  SETTING_VSYNC_TOOLTIP:3 "#T $SETTING_VSYNC$\n#!Makes the game and your monitor have the same frame rate, reducing screen tearing.\n\nTurning it off may increase performance."
@@ -69,9 +70,11 @@
  OPTION_CAP_120:0 "120"
  OPTION_CAP_144:0 "144"
  OPTION_CAP_165:0 "165"
+ 
  SETTING_ANIMATION_SPEED:0 "Animation speed"
  SETTING_GUI_SCALING:0 "GUI Scaling"
  SETTING_GUI_SCALING_TOOLTIP:3 "#T $SETTING_GUI_SCALING$\n#!Sets the scale of the entire user interface. Useful for higher screen resolutions.\n\n#X Setting it too high will make interfaces not properly fit inside the screen!#!"
+ 
  SETTING_MOUSE_PANNING:0 "Screen Edge Scrolling"
  SETTING_MOUSE_PANNING_TOOLTIP:3 "#T $SETTING_MOUSE_PANNING$\n#!Sets if the map should scroll if the mouse cursor is at the edge of the screen or window."
  SETTING_SCROLL_SPEED:0 "Scroll speed"
@@ -88,6 +91,7 @@
  GAMEPAD:0 "Gamepad"
  SETTING_MULTISAMPLING_DISABLED:0 "Disabled"
  SETTING_ANISOTROPIC_FILTERING_DISABLED:0 "Disabled"
+ 
  SETTING_CAMERA_TILT:0 "Camera tilt"
  SETTING_CAMERA_STRATEGY:0 "Camera type"
  SETTING_CENTERED_ZOOM_IN:0 "Centered zoom-in"
@@ -95,6 +99,7 @@
  CAMERA_TABLETOP:0 "Table top"
  CAMERA_FPS:0 "First person"
  CAMERA_WASD:0 "WASD-style"
+ 
  SETTING_Music:0 "Music"
  SETTING_Ambient:0 "Ambient"
  SETTING_Effects:0 "Effects"
@@ -105,6 +110,7 @@
  SETTING_SFX_TOOLTIP:0 "#T SFX Volume\n#!Sets the volume of sound effects such as combat."
  SETTING_UI_TOOLTIP:0 "#T Interface Volume\n#!Sets the volume of the user interface."
  SETTING_AUDIO_DEBUG_LOG_LEVEL: "Debug Log Level"
+ 
  SETTING_AUTOSAVE_TOOLTIP:3 "#T $SETTING_AUTOSAVE$\n#!Sets how often the game will save automatically."
  SETTING_AUTOSAVE_TO_CLOUD_TOOLTIP:0 "Determines whether Autosaves are saved to the cloud or not."
  SETTING_CAMERA_FACE_NORTH_TOOLTIP:0 "Determines whether the Camera will always face North or not."

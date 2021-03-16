@@ -67,26 +67,32 @@
  scandinavian_elective_succession_law:1 "Scandinavian Elective"
  scandinavian_elective_succession_law_subname:0 "Thing"
  scandinavian_elective_succession_law_effects:2 "The [ruler|E] and all [de_jure|E] [vassals|E] (except Barons) can nominate a [title_heir|E] amongst the ruler's [extended_family|E] and any available [claimants|E]. [voting_power|E] in this [succession_law|E] is influenced by the [elector|E]'s total [domain|E] [county_development|E] and [capital|E] [county_opinion|E]."
+
  feudal_elective_candidates:0 "Close Family, Claimants, and Electors"
  feudal_elective_candidates_tooltip:0 "In order to be a valid Candidate under Feudal Elective, a character must fulfill one of the following conditions:\n$EFFECT_LIST_BULLET$Be a legitimate [close_family|E] member of the current ruler, who is not in line to inherit a Theocracy or Republic\n$EFFECT_LIST_BULLET$Be a [claimant|E] to the title, who is not in line to inherit a Theocracy or Republic\n$EFFECT_LIST_BULLET$Be a valid Feudal [elector|E] to the title"
  feudal_elective_electors:0 "Ruler and Vassals"
  feudal_elective_electors_tooltip:0 "In order to be a valid [elector|E] under Feudal Elective, a vassal must fulfill all the following conditions:\n$EFFECT_LIST_BULLET$Be a [de_jure|E] vassal of the title\n$EFFECT_LIST_BULLET$Be a direct vassal of the title\n$EFFECT_LIST_BULLET$Be only one or two [ranks|E] below the title"
+
  princely_elective_candidates:0 "$feudal_elective_candidates$"
  princely_elective_candidates_tooltip:0 "In order to be a valid Candidate under Princely Elective, a character must fulfill one of the following conditions:\n$EFFECT_LIST_BULLET$Be a legitimate [close_family|E] member of the current ruler, who is not in line to inherit a Theocracy or Republic\n$EFFECT_LIST_BULLET$Be a [claimant|E] to the title, who is not in line to inherit a Theocracy or Republic\n$EFFECT_LIST_BULLET$Be a valid Feudal [elector|E] to the title"
  princely_elective_electors:0 "Prince-Electors"
  princely_elective_electors_tooltip:0 "In order to be a valid [elector|E] under Princely Elective, a ruler must hold one of the following titles:\n$EFFECT_LIST_BULLET$The Holy Roman Empire\n$EFFECT_LIST_BULLET$County of Cologne\n$EFFECT_LIST_BULLET$County of Mainz\n$EFFECT_LIST_BULLET$County of Trier\n$EFFECT_LIST_BULLET$Duchy of Bohemia\n$EFFECT_LIST_BULLET$Duchy of East Franconia\n$EFFECT_LIST_BULLET$Duchy of Ostfalen\n$EFFECT_LIST_BULLET$Duchy of Ostmark"
+
  gaelic_elective_candidates:0 "Dynasty Members"
  gaelic_elective_candidates_tooltip:0 "All legitimate members of the current ruler's [dynasty|E] who are not in line to inherit a Theocracy or Republic are valid candidates under Tanistry."
  gaelic_elective_electors:0 "$feudal_elective_electors$"
  gaelic_elective_electors_tooltip:0 "In order to be a valid [elector|E] under Tanistry, a vassal must fulfill all the following conditions:\n$EFFECT_LIST_BULLET$Be a [de_jure|E] vassal of the title\n$EFFECT_LIST_BULLET$Be only one or two [ranks|E] below the title"
+
  saxon_elective_candidates:0 "Children, Claimants, and Vassals"
  saxon_elective_candidates_tooltip:0 "In order to be a valid Candidate under the Witenagemot, a character must fulfill one of the following conditions:\n$EFFECT_LIST_BULLET$Be a legitimate child of the current ruler, who is not in line to inherit a Theocracy or Republic\n$EFFECT_LIST_BULLET$Be a [claimant|E] to the title, who is not in line to inherit a Theocracy or Republic\n$EFFECT_LIST_BULLET$Be a [powerful_vassal_powerful|E] [de_jure] Feudal Vassal of the title"
  saxon_elective_electors:0 "$feudal_elective_electors$"
  saxon_elective_electors_tooltip:0 "In order to be a valid [elector|E] under the Witenagemot, a vassal must fulfill all the following conditions:\n$EFFECT_LIST_BULLET$Be a [de_jure|E] vassal of the title\n$EFFECT_LIST_BULLET$Be a direct vassal of the title\n$EFFECT_LIST_BULLET$Be Adult\n$EFFECT_LIST_BULLET$NOT be Incapable"
+
  scandinavian_elective_candidates:0 "Extended Family and Claimants"
  scandinavian_elective_candidates_tooltip:0 "In order to be a valid Candidate under the Thing, a character must fulfill one of the following conditions:\n$EFFECT_LIST_BULLET$Be a legitimate member of the ruler's [extended_family|E], who is not in line to inherit a Theocracy or Republic\n$EFFECT_LIST_BULLET$Be a [claimant|E] to the title, who is not in line to inherit a Theocracy or Republic"
  scandinavian_elective_electors:0 "$feudal_elective_electors$"
  scandinavian_elective_electors_tooltip:0 "In order to be a valid [elector|E] under the Thing, a vassal must fulfill all the following conditions:\n$EFFECT_LIST_BULLET$Be a direct vassal of the title\n$EFFECT_LIST_BULLET$NOT be a Baron"
+
  succession_laws_must_have_organised_government_tooltip:0 "I do not have a [feudal|E] or [clan|E] [government|E]"
  succession_laws_must_not_be_forced_partition:0 "I am not forced to Partition [succession|E] by my [feudal_contract|E]"
  succession_laws_must_have_valid_tanistry_culture:0 "You do #bold not#! belong to either the $goidelic_group$ or $brythonic_group$ [culture_group|E]."

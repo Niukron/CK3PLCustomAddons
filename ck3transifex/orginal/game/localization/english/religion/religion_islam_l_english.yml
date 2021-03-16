@@ -1,6 +1,6 @@
 ﻿l_english:
 
- #Common Islam Localization
+ 
  islam_religion:0 "Islam"
  islam_religion_adj:0 "Muslim"
  islam_religion_adherent:0 "Muslim"
@@ -37,6 +37,7 @@
  islam_positive_afterlife:0 "heaven"
  islam_negative_afterlife:0 "hell"
  christianity_witchgodname_iblis:0 "Iblis"
+
  islam_creator_god_name:0 "$islam_high_god_name$"
  islam_creator_god_name_possessive:0 "$islam_high_god_name_possessive$"
  islam_health_god_name:0 "$islam_high_god_name$"
@@ -59,20 +60,28 @@
  islam_night_god_name_possessive:0 "$islam_high_god_name_possessive$"
  islam_water_god_name:0 "$islam_high_god_name$"
  islam_water_god_name_possessive:0 "$islam_high_god_name_possessive$"
+
+ 
  islam_shia_priest:0 "mullah"
  islam_shia_priest_plural:0 "mullahs"
  islam_shia_religious_head_title:0 "Imam"
  islam_shia_religious_head_title_name:0 "Imamate"
+
+ 
  ashari:0 "Ash'arism"
  ashari_adj:0 "Ash'ari"
  ashari_adherent:0 "Ash'ari"
  ashari_adherent_plural:0 "Ash'aris"
  ashari_desc:0 "An orthodox school of theology that holds that Allah has created every moment in time, but that humans have free will to choose between good — what God has commanded — and evil — what God forbids."
+
+ 
  muwalladi:0 "Muwalladism"
  muwalladi_adj:0 "Muwalladi"
  muwalladi_adherent:0 "Muwalladi"
  muwalladi_adherent_plural:0 "Muwalladis"
  muwalladi_desc:1 "Far from the center of the Arabic world, Iberian Muslims adapted to the realities of ruling over a region with large Christian and Jewish populations that had strange, foreign traditions."
+
+ 
  masmudi:1 "Almohadism"
  masmudi_adj:1 "Almohadi"
  masmudi_adherent:1 "Almohadi"
@@ -80,41 +89,57 @@
  masmudi_desc:2 "A reformist branch of Sunni Islam that originated with the Berber tribes in northern Africa, the Almohadi movement saw themselves as unitarians and preached a doctrine of purified monotheism."
  masmudi_religious_head_title:0 "Mahdi"
  masmudi_religious_head_title_name:0 "caliphate"
+
+ 
  mutazila:0 "Mu'tazilism"
  mutazila_adj:0 "Mu'tazili"
  mutazila_adherent:0 "Mu'tazilite"
  mutazila_adherent_plural:0 "Mu'tazilites"
  mutazila_desc:0 "A rationalist school of theology that asserts that the Quran is #EMP not#! eternally co-existing with God, as God must have preceded his own word."
+
+ 
  maturidi:0 "Maturidism"
  maturidi_adj:0 "Maturidi"
  maturidi_adherent:0 "Maturidism"
  maturidi_adherent_plural:0 "Maturidi"
  maturidi_desc:0 "A rationalist theology which espouses that ethics have an objective existence, as derived from the eternal qualities of God, and that humans must therefore pursue ethical choices."
+ 
+ 
  quranist:0 "Quranism"
  quranist_adj:0 "Quranist"
  quranist_adherent:0 "Quranist"
  quranist_adherent_plural:0 "Quranists"
  quranist_desc:0 "A literalist interpretation of Islam that emphasizes that the Quran as the only source of divine wisdom, and should be followed to the letter, ignoring hadith and fatwas."
+
+ 
  ismaili:0 "Isma'ilism"
  ismaili_adj:0 "Isma'ili"
  ismaili_adherent:0 "Isma'ili"
  ismaili_adherent_plural:0 "Isma'ilis"
  ismaili_desc:0 "A Shia faith that considers the line of true Imams — those imbued with divine knowledge and infallibility — to run through Isma'il bin Jafar. They are also known as Seveners, as Isma'il was the seventh Imam after Muhammad."
+
+ 
  qarmatian:0 "Qarmatianism"
  qarmatian_adj:0 "Qarmatian"
  qarmatian_adherent:0 "Qarmatian"
  qarmatian_adherent_plural:0 "Qarmatians"
  qarmatian_desc:0 "A branch of Isma'ilism that incorporated elements of Zoroastrianism. The number of Imams was preordained by God to be seven, and there could therefore be no more Imams before the seventh Imam — Muhammad ibn Isma'il — returned to guide the faithful."
+
+ 
  nizari:0 "Nizarism"
  nizari_adj:0 "Nizari"
  nizari_adherent:0 "Nizari"
  nizari_adherent_plural:0 "Nizaris"
  nizari_desc:0 "A rationalist faith that emphasizes reasoning in interpretation of the Quran and hadiths. Being Imam is hereditary, and they trace the line of succession to Ali."
+ 
+ 
  zayidi:0 "Zayidism"
  zayidi_adj:0 "Zayidi"
  zayidi_adherent:0 "Zayidi"
  zayidi_adherent_plural:0 "Zayidis"
  zayidi_desc:0 "A true Imam is not infallible, but defined by their struggle against corruption and evil. Zayidis are therefore defined by their belief that Zayd ibn Ali was the rightful successor to the Imamate, due to his rebellion against the Umayyads."
+
+ 
  imami:0 "Imamism"
  imami_adj:0 "Imami"
  imami_adherent:0 "Imami"
@@ -122,16 +147,21 @@
  imami_desc:0 "Imamis believe that Twelve Imams were prophesied to lead the Ummah, and that the twelth Imam, Imam Zaman, is waiting to return to lead Muslims into the Day of Judgement."
  islam_ayatollah:0 "ayatollah"
  islam_ayatollah_plural:0 "ayatollahs"
+
+ 
  ghulat:1 "Ikhtilafism"
  ghulat_adj:1 "Ikhtilafi"
  ghulat_adherent:1 "Ikhtilafi"
  ghulat_adherent_plural:1 "Ikhtilafis"
  ghulat_desc:1 "Ikhtilafis believe in the divine nature of the infallible Imams, starting with Ali. God has not only appointed and inspired them, but partially inhabits them to guide their acts, and by extension all of the Ummah."
+
  alawite:0 "Alawism"
  alawite_adj:0 "Alawite"
  alawite_adherent:0 "Alawi"
  alawite_adherent_plural:0 "Alawis"
  alawite_desc:0 "Alawite religious teachings are secretive, and the Quran is only one of their sacred texts. In addition to the belief in the succession of Imams through Ali, Alawis also believe in reincarnation, and that all beings were stars cast out of heaven who must now re-earn their place by living successive good and faithful lives."
+
+ 
  alevi:0 "Alevism"
  alevi_adj:0 "Alevi"
  alevi_adherent:0 "Alevi"
@@ -140,27 +170,37 @@
  alevi_house_of_worship:0 "cemvi"
  alevi_house_of_worship_plural:0 "cemvis"
  alevi_religious_text:0 "Buyruks"
+
+ 
  druze:0 "Druze"
  druze_adj:0 "Druze"
  druze_adherent:0 "Druze"
  druze_adherent_plural:1 "Druze"
  druze_desc:0 "Hailing from the Mountain of Druze, the Druze faith follows many of the principles of Isma'ilism, but also includes gnostic beliefs in an esoteric theology focused on the Truth of existence."
  druze_religious_text:0 "Epistles of Wisdom"
+
+ 
  ibadi:1 "Ibadism"
  ibadi_adj:0 "Ibadi"
  ibadi_adherent:0 "Ibadi"
  ibadi_adherent_plural:0 "Ibadis"
  ibadi_desc:0 "The Ibadi do not believe that it is necessary for the entirety of Islam to be governed by a Caliph or an Imam, if there is no suitable candidate. They are therefore Muhakkima, recognizing neither the line of Ali or the successors of Abu Bakr as worthy leaders."
+
+ 
  azariqa:1 "Azraqism"
  azariqa_adj:0 "Azariqa"
  azariqa_adherent:0 "Azariqa"
  azariqa_adherent_plural:0 "Azariqas"
  azariqa_desc:0 "Recognizing no worthy successor to Muhammad, the Azariqas consider it their right and duty to struggle against any leader who does not uphold the values of their faith. Indeed, any difference in interpretation of faith would mark one as an infidel."
+
+ 
  najdat:0 "Najdatism"
  najdat_adj:0 "Najdat"
  najdat_adherent:0 "Najdati"
  najdat_adherent_plural:0 "Najdatis"
  najdat_desc:0 "Adherents of the Najdati branch of the Khawarij firmly believe in the establishment of Muslim leadership through the consensus of the faithful. The leader is not infallible, but through the community they are chosen by God."
+ 
+ 
  sufri:0 "Sufrism"
  sufri_adj:0 "Sufri"
  sufri_adherent:0 "Sufri"

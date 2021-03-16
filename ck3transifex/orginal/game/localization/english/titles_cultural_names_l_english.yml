@@ -1,6 +1,7 @@
 ﻿l_english:
  cn_konstantiniyye:0 "Konstantiniyye"
  cn_konstantiniyye_adj:0 "Konstantiniyyian"
+ 
  cn_bratislava:0 "Bratislava"
  cn_bratislava_adj:0 "Bratislavan"
  cn_pressburg:0 "Pressburg"
@@ -41,10 +42,13 @@
  cn_koknese_adj:0 "Koknesian"
  cn_gerzika:0 "Gerzika"
  cn_gerzika_adj:0 "Gerzikan"
+ 
  cn_gardinas:0 "Gardinas"
  cn_gardinas_adj:0 "Gardinasian"
  cn_krolewiec:0 "Królewiec"
  cn_krolewiec_adj:0 "Królewiecian"
+ 
+ 
  cn_alba:0 "Alba"
  cn_alba_adj:0 "Alban"
  cn_pictland:0 "Pictland"
@@ -92,6 +96,8 @@
  cn_east_seaxe_adj:0 "East Saxon"
  cn_middle_seaxe:0 "Middle Seaxe"
  cn_middle_seaxe_adj:0 "Middle Saxon"
+ cn_south_seaxe:0 "South Seaxe"
+ cn_south_seaxe_adj:0 "South Saxon"
  cn_llundein:0 "Llundein"
  cn_llundein_adj:0 "Llundein"
  cn_londinium:0 "Londinium"
@@ -177,6 +183,8 @@
  cn_monmouth:0 "Monmouth"
  cn_brecknockshire:0 "Brecknockshire"
  cn_brecknock:0 "Brecknock"
+
+ 
  cn_szczecin:0 "Szczecin"
  cn_szczecin_adj:0 "Szczecinian"
  cn_wkryujscie:0 "Wkryujście"
@@ -221,6 +229,8 @@
  cn_butow_adj:0 "Bütow"
  cn_rummelsburg:0 "Rummelsburg"
  cn_rummelsburg_adj:0 "Rummelsburgian"
+ 
+ 
  cn_braniewo:0 "Braniewo"
  cn_braniewo_adj:0 "Braniewan"
  cn_holstin:0 "Holstin"
@@ -255,8 +265,12 @@
  cn_elbing_adj:0 "Elbingan"
  cn_brodnica_strasburg:0 "Strasburg"
  cn_brodnica_strasburg_adj:0 "Strasburgian"
+ 
+ 
  cn_merano:0 "Merano"
  cn_merano_adj:0 "Merano"
+ 
+ 
  cn_lebus:0 "Lebus"
  cn_lebus_adj:0 "Lebuser"
  cn_oderfrankfurt:0 "Oderfrankfurt"
@@ -271,6 +285,8 @@
  cn_barsc_adj:0 "Baršćan"
  cn_blota:0 "Błota"
  cn_blota_adj:0 "Błotan"
+ 
+ 
  cn_grosspolen:0 "Großpolen"
  cn_grosspolen_adj:0 "Großpolener"
  cn_posen:0 "Posen"
@@ -305,6 +321,8 @@
  cn_flatow_adj:0 "Flatower"
  cn_znin:0 "Znin"
  cn_znin_adj:0 "Zniner"
+ 
+ 
  cn_hrodna:0 "Hrodna"
  cn_hrodna_adj:0 "Hrodnan"
  cn_gardariki:0 "Garðariki"
@@ -579,6 +597,8 @@
  cn_sarskoye_gorodishche_adj:0 "Gorodishchy"
  cn_obra_osh:0 "Obran Osh"
  cn_obra_osh_adj:0 "Obran Oshan"
+
+ 
  cn_zaporizhia:0 "Zaporizhia"
  cn_zaporizhia_adj:0 "Zaporizhian"
  cn_dzikie_pola:0 "Dzikie Pola"
@@ -593,7 +613,9 @@
  cn_jedysan_adj:0 "Jedysani"
  cn_edisan:0 "Edisan"
  cn_edisan_adj:0 "Edisani"
- #Many of those are fictional flavour names to avoid "too russian sounding"
+ 
+ 
+ #Many of those are fictional flavour names to avoid "too russian sounding" names for some settlements when held by volga-finnic or turkic mostly
  cn_sirevel_e:0 "Sirevel'e"
  cn_sirevel_e_adj:0 "Sirevel'ean"
  cn_tumolaj:0 "Tumoläj"
@@ -662,6 +684,8 @@
  cn_baklana_adj:0 "Baklanan"
  cn_chelab:0 "Chelab"
  cn_chelab_adj:0 "Chelabi"
+ 
+ 
  cn_kuznetsk:0 "Kuznetsk"
  cn_udinsk:0 "Udinsk"
  cn_irkutsk:0 "Irkutsk"
@@ -675,6 +699,8 @@
  cn_eulkhe:0 "Eülkhe"
  cn_lena:0 "Lena"
  cn_angar:0 "Angar"
+ 
+ 
  cn_nordreyjar_article:0 ""
  cn_nordreyjar:0 "Norðreyjar"
  cn_nordreyjar_adj:1 "Norðreyjer"
@@ -708,6 +734,8 @@
  cn_hjaltland_adj:0 "Hjaltlander"
  cn_orkneyjar:0 "Orkneyjar"
  cn_orkneyjar_adj:0 "Orkneyjer"
+ 
+ 
  cn_raseborg:0 "Raseborg"
  cn_raseborg_adj:0 "Raseborger"
  cn_veckelax:0 "Veckelax"
@@ -748,6 +776,8 @@
  cn_serdovol_adj:0 "Serdovolian"
  cn_onegaborg:0 "Onegaborg"
  cn_onegaborg_adj:0 "Onegaborger"
+ 
+ 
  cn_enkoping:0 "Enkøping"
  cn_enkoping_adj:0 "Enkøpinger"
  cn_enkobing:0 "Enkøbing"
@@ -776,6 +806,8 @@
  cn_skaenninge_adj:0 "Skænningeer"
  cn_vexjo:0 "Vexjø"
  cn_vexjo_adj:0 "Vexjøan"
+ 
+ 
  cn_lapland:0 "Lapland"
  cn_lapland_adj:0 "Lappish"
  cn_lappland:0 "Lappland"
@@ -868,6 +900,8 @@
  cn_ponoy_adj:0 "Ponoian"
  cn_sosnovka:0 "Sosnovka"
  cn_sosnovka_adj:0 "Sosnovkan"
+ 
+ 
  cn_noregr:0 "Noregr"
  cn_noregr_adj:0 "Norwegian"
  cn_alfheimar:0 "Álfheimar"
@@ -889,6 +923,8 @@
  cn_b_vardo:0 "Varðey"
  cn_finnmork:0 "Finnmörk"
  cn_island:0 "Ísland"
+
+ 
  cn_katanes:0 "Katanes"
  cn_katanes_adj:0 "Katanesian"
  cn_c_katanes:0 "Katanes"
@@ -933,6 +969,8 @@
  cn_ros_adj:0 "Rosian"
  cn_husavik:0 "Húsavík"
  cn_husavik_adj:0 "Húsavíki"
+ 
+ 
  cn_nastved:0 "Nästved"
  cn_nastved_adj:0 "Nästveder"
  cn_naestved:0 "Næstved"
@@ -951,6 +989,8 @@
  cn_abenra_adj:0 "Åbenrån"
  cn_apenrade:0 "Apenrade"
  cn_apenrade_adj:0 "Apenrader"
+ 
+ 
  cn_bamborg:0 "Bamborg"
  cn_bamborg_adj:0 "Bamborger"
  cn_djuraby:0 "Djuraby"
@@ -1005,8 +1045,8 @@
  cn_carraig_fhearghais_adj:0 "Carraig Fhearghaisian"
  cn_kerlingfjord:0 "Kerlingfjord"
  cn_kerlingfjord_adj:0 "Kerlingfjorder"
- cn_kerlingfrjordr:1 "Kerlingafjörðr"
- cn_kerlingfrjordr_adj:1 "Kerlingafirðer"
+ cn_kerlingfrjordr:2 "Kerlíngafjörðr"
+ cn_kerlingfrjordr_adj:2 "Kerlíngafirðer"
  cn_dun_dealgan:0 "Dún Dealgan"
  cn_dun_dealgan_adj:0 "Dún Dealganian"
  cn_ard_mhacha:0 "Ard Mhacha"
@@ -1073,6 +1113,8 @@
  cn_corcaigh_adj:0 "Corcaighian"
  cn_amwythig:0 "Amwythig"
  cn_amwythig_adj:0 "Amwythigian"
+ 
+ 
  cn_kibris:0 "Kıbrıs"
  cn_kibris_adj:0 "Kıbrısi"
  cn_lefkosa:0 "Lefkoşa"
@@ -1087,6 +1129,8 @@
  cn_kyrenia_adj:0 "Kyrenian"
  cn_girne:0 "Girne"
  cn_girne_adj:0 "Girnean"
+ 
+ 
  cn_iznik:0 "İznik"
  cn_iznik_adj:0 "İzniki"
  cn_aydincik:0 "Aydıncıḳ"
@@ -1525,6 +1569,8 @@
  cn_koyulhisar_adj:0 "Koyulhisari"
  cn_sadak:0 "Sadak"
  cn_sadak_adj:0 "Sadaki"
+ 
+ 
  cn_hayastan:0 "Hayastan"
  cn_hayastan_adj:0 "Hayastani"
  cn_malatya:0 "Malatya"
@@ -1577,6 +1623,8 @@
  cn_ani_adj:0 "Anıan"
  cn_erivan:0 "Erivan"
  cn_erivan_adj:0 "Erivani"
+ 
+ 
  cn_sardenya_i_corsega:0 "Sardenya i Còrsega"
  cn_sardenya_i_corsega_adj:0 "Corso-Sardenyian"
  cn_sardhnia_kai_thn_korsikn:0 "Sardhnia kai thn Korsikn"
@@ -1585,6 +1633,8 @@
  cn_sardegna_e_corsica_adj:0 "Corso-Sardegni"
  cn_ravenna:0 "Ravenna"
  cn_ravenna_adj:0 "Ravennan"
+ 
+ 
  cn_reval:0 "Reval"
  cn_reval_adj:0 "Revalian"
  cn_laanemaa:0 "Läänemaa"
@@ -1601,6 +1651,8 @@
  cn_arensburg_adj:0 "Arensburger"
  cn_moon:0 "Moon"
  cn_moon_adj:0 "Mooner"
+ 
+ 
  cn_dobeln:0 "Dobeln"
  cn_dobeln_adj:0 "Dobelner"
  cn_wolmar:0 "Wolmar"
@@ -1631,6 +1683,8 @@
  cn_ragnita_adj:0 "Ragnitan"
  cn_ragaine:0 "Ragaine"
  cn_ragaine_adj:0 "Ragainean"
+ 
+ 
  cn_qocho:0 "Qocho"
  cn_qocho_adj:0 "Qochoan"
  cn_xinjiang:0 "Xinjiang"
@@ -1665,6 +1719,8 @@
  cn_kaer_jiaozhen_adj:0 "Kaer Jiaozheni"
  cn_jumi:0 "Jumi"
  cn_jumi_adj:0 "Jumian"
+ 
+ 
  cn_gwened:0 "Gwened"
  cn_gwened_adj:0 "Gwenedian"
  cn_guened:0 "Guened"
@@ -1681,10 +1737,16 @@
  cn_sant_malou_adj:0 "Sant-Maloùan"
  cn_roazhon:0 "Roazhon"
  cn_roazhon_adj:0 "Roazhonian"
+ 
+ 
  cn_carthaginensis:0 "Carthaginensis"
  cn_carthaginensis_adj:0 "Carthaginensisian"
+ 
+ 
  cn_iskandarun:0 "Iskandarun"
  cn_iskandarun_adj:0 "Iskandarunian"
+ 
+ 
  cn_oppeln:0 "Oppeln"
  cn_oppeln_adj:0 "Oppelner"
  cn_kluczbork:0 "Kluczbork"
@@ -1761,8 +1823,11 @@
  cn_sandelswalde_adj:0 "Sandelswalder"
  cn_guben:0 "Guben"
  cn_guben_adj:0 "Gubener"
+ 
  cn_lingchu:0 "Lingchu"
  cn_lingchu_adj:0 "Lingchun"
+
+ 
  cn_zara:0 "Zara"
  cn_zara_adj:0 "Zaran"
  cn_dalmatia:0 "Dalmatia"
@@ -1787,6 +1852,8 @@
  cn_pannonia_adj:0 "Pannonian"
  cn_andautonia:0 "Andautonia"
  cn_andautonia_adj:0 "Andautonian"
+ 
+ 
  cn_veletia:0 "Veletia"
  cn_veletia_adj:0 "Veletian"
  cn_obotritia:0 "Obotritia"
@@ -1857,6 +1924,8 @@
  cn_turguo_adj:0 "Turguoan"
  cn_zemrje:0 "Zemrje"
  cn_zemrje_adj:0 "Zemrjean"
+ 
+ 
  cn_ucramund:0 "Ucramund"
  cn_ucramund_adj:0 "Ucramunder"
  cn_pyritz:0 "Pyritz"
@@ -1899,6 +1968,8 @@
  cn_berent_adj:0 "Berenter"
  cn_konitz:0 "Konitz"
  cn_konitz_adj:0 "Konitzer"
+ 
+ 
  cn_elblag:0 "Elbląg"
  cn_elblag_adj:0 "Elblągian"
  cn_elbingas:0 "Elbingas"
@@ -1955,6 +2026,8 @@
  cn_rastembork_adj:0 "Rastemborkian"
  cn_kentsynas:0 "Kentsynas"
  cn_kentsynas_adj:0 "Kentsynasian"
+ 
+ 
  cn_kulmas:0 "Kulmas"
  cn_kulmas_adj:0 "Kulmasian"
  cn_kulm:0 "Kulm"
@@ -2003,6 +2076,8 @@
  cn_ungura_adj:0 "Unguran"
  cn_angirburg:0 "Angirburg"
  cn_angirburg_adj:0 "Angirburger"
+
+ 
  cn_karpoyul:0 "Karpoyül"
  cn_karpoyul_adj:0 "Karpoyül"
  cn_tsongonpo:0 "Tsongönpo"
@@ -2237,12 +2312,17 @@
  cn_dahaleteng_adj:0 "Dahaleteng"
  cn_jianshe:0 "Jianshe"
  cn_jianshe_adj:0 "Jianshe"
+ 
+ 
  cn_aix_la_chapelle:0 "Aix-la-Chapelle"
  cn_aix_la_chapelle_adj:0 "Aixian"
  cn_aquisgrana:0 "Aquisgrana"
  cn_aquisgrana_adj:0 "Aquisgranan"
+ 
  cn_great_liao:0 "Great Liao"
  cn_great_liao_adj:0 "Liao"
+ 
+ 
  cn_nitra:0 "Nitra"
  cn_nitra_adj:0 "Nitran"
  cn_bojnice:0 "Bojnice"
@@ -2303,6 +2383,8 @@
  cn_kosice_adj:0 "Košicean"
  cn_turna:0 "Turňa"
  cn_turna_adj:0 "Turňan"
+ 
+ 
  cn_balaton:0 "Balaton"
  cn_balaton_adj:0 "Balatonian"
  cn_blatnozero:0 "Blatnozero"
@@ -2345,6 +2427,8 @@
  cn_monoster_adj:0 "Monosterian"
  cn_siget:0 "Siget"
  cn_siget_adj:0 "Sigetian"
+ 
+ 
  cn_milcenia:0 "Milcenia"
  cn_milcenia_adj:0 "Milcenian"
  cn_drjezdzany:0 "Drježdźany"
@@ -2367,6 +2451,8 @@
  cn_veligrad_adj:0 "Veligradian"
  cn_brizania:0 "Brizania"
  cn_brizania_adj:0 "Brizanian"
+ 
+ 
  cn_klodzko:0 "Kłodzko"
  cn_klodzko_adj:0 "Kłodzkoan"
  cn_trencsen:0 "Trencsén"
@@ -2383,3 +2469,17 @@
  cn_poprad_HUN_adj:0 "Poprádian"
  cn_kesmark:0 "Késmárk"
  cn_kesmark_adj:0 "Késmárkian"
+ 
+ 
+ cn_ui_maine:0 "Uí Mháine"
+ cn_ui_maine_adj:0 "Uí Mháinean"
+ cn_vasterbotten:0 "Västerbotten"
+ cn_vasterbotten_adj:0 "Västerbottener"
+ cn_kola:0 "Kola"
+ cn_kola_adj:0 "Kolan"
+ cn_kuola:0 "Kuola"
+ cn_kuola_adj:0 "Kuolan"
+ cn_ruija:0 "Ruija"
+ cn_ruija_adj:0 "Ruijan"
+ cn_leporie:0 "Leporie"
+ cn_leporie_adj:0 "Leporiean"

@@ -9,3 +9,4 @@
  ADULT_HOUSE_MEMBERS_COUNT_AT_LEAST: "At least $COUNT$ adult [house|E] members:"
  DYNASTY_PRESTIGE_LEVEL_TRIGGER: "[dynasty_prestige_level|E]: $NUM|V0$"
  HAS_DYNASTY_TRIGGER: "Is a member of a [dynasty|E]"
+ DYNASTY_NUM_UNLOCKED_PERKS: "Number of unlocked perks: $NUM|V0$"

@@ -130,3 +130,4 @@
  MV_LEVY_TT:0 "#T [levies|E]\n#!#I Click to [Select_CString( MilitaryView.AreLeviesShown, 'hide', 'show' )] details for your levies#!"
  STRENGTH_COMPARISON_TOTAL_STRENGTH:0 "@soldier_icon! [GuiMilitaryStrength.GetTargetTotal|0]"
  STRENGTH_COMPARISON_ALLIES:1 "[ally_i|E] [GuiMilitaryStrength.GetTargetAlliesCount]"
+ 

@@ -80,6 +80,8 @@ java -jar "tools\\LocaleParser\\bin\\LocaleParser-%parser_version%-SNAPSHOT.jar"
 ::clausewitz
 java -jar "tools\\LocaleParser\\bin\\LocaleParser-%parser_version%-SNAPSHOT.jar" "folder_supply" "pliki\\%language%\\clausewitz\\localization" "pliki\\en\\clausewitz\\localization" "temp\\supply\\clausewitz\\localization" yaml
 java -jar "tools\\LocaleParser\\bin\\LocaleParser-%parser_version%-SNAPSHOT.jar" "folder_supply" "pliki\\%language%\\clausewitz\\localization\\text_utils" "pliki\\en\\clausewitz\\localization\\text_utils" "temp\\supply\\clausewitz\\localization\\text_utils" yaml
+::dlc
+java -jar "tools\\LocaleParser\\bin\\LocaleParser-%parser_version%-SNAPSHOT.jar" "folder_supply" "pliki\\%language%\\game\\localization\\english\\dlc\\fp1" "pliki\\en\\game\\localization\\english\\dlc\\fp1" "temp\\supply\\game\\localization\\english\\dlc\\fp1" yaml
 
 echo "Starting compiling latest translations to desired language - in this case - polish."
 ::game
@@ -152,6 +154,9 @@ java -jar "tools\\LocaleParser\\bin\\LocaleParser-%parser_version%-SNAPSHOT.jar"
 ::clausewitz
 java -jar "tools\\LocaleParser\\bin\\LocaleParser-%parser_version%-SNAPSHOT.jar" "folder_to_eu4" "temp\\supply\\clausewitz\\localization" "temp\\ck3\\clausewitz\\localization" "%charset%"
 java -jar "tools\\LocaleParser\\bin\\LocaleParser-%parser_version%-SNAPSHOT.jar" "folder_to_eu4" "temp\\supply\\clausewitz\\localization\\text_utils" "temp\\ck3\\clausewitz\\localization\\text_utils" "%charset%"
+::dlc
+
+java -jar "tools\\LocaleParser\\bin\\LocaleParser-%parser_version%-SNAPSHOT.jar" "folder_to_eu4" "temp\\supply\\game\\localization\\english\\dlc\\fp1" "temp\\ck3\\game\\localization\\english\\dlc\\fp1" "%charset%"
 
 
 cd "%project_folder%"
@@ -167,5 +172,6 @@ cd ../
 echo "Copying new localisation"
 xcopy /s temp\\ck3 "%project_folder%"
 echo "Cleaning up temp directory."
-::rd /s /q temp
+rd /s /q temp
 echo "Temp directory cleaned up, goodbye, have a nice day! :smile:
+pause

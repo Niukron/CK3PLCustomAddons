@@ -14,6 +14,8 @@
  bonus_religious_relations_opinion:0 "Admires My Councillor"
  court_chaplain_upsetting_claim_fabrication_opinion:0 "Undermining Vassal Balance"
  court_chaplain_vassal_claim_target_upset_modifier:0 "Claim Fabrication Discovered"
+
  spouse_held_local_tourney_opinion:0 "Spouse Held Local Tourney"
  spouse_martial_display_of_force_opinion:0 "Display of Force"
+
  spouse_coerced_gift_opinion:0 "Coerced Gift"

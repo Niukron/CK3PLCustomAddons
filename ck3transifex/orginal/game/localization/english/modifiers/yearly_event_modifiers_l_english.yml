@@ -22,14 +22,20 @@
  yearly_pious_liege_modifier_desc:0 "Religious vassals can trust that this liege will act according to their religious teachings"
  yearly_befriending_fellow_vassals_modifier:0 "Befriending Fellow Vassals"
  yearly_befriending_fellow_vassals_modifier_desc:0 "This character is putting in effort to build relationships with other vassals of their liege"
+ 
  yearly_reduced_theocracy_tax_modifier:0 "Reduced Theocratic Tax"
  yearly_reduced_theocracy_levies_modifier:0 "Praying for Peace"
+
  yearly_0011_friends_in_high_places:0 "Friends in High Places"
  yearly_0011_friends_in_high_places_desc:0 "This character has made friends in rather high places..."
+
  cagots_separated_modifier:0 "Cagots Secernated"
  cagots_separated_modifier_desc:1 "The local Cagots are sequestered in their own cagoteries, separated from normal people."
+ 
  cagots_left_in_peace_modifier:0 "Cagots Left in Peace"
  cagots_left_in_peace_modifier_desc:0 "The rest of the population wishes more had been done about the Cagots..."
+
  lunatic_accepting_of_others_modifier:0 "Overactive Imagination"
  lunatic_accepting_of_others_modifier_desc:0 "This character is dreaming of a world where everyone lives their lives in peace."
+
  all_work_no_play_persian_modifier:0 "All Work, No Play"

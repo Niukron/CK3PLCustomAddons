@@ -8,3 +8,4 @@
  EVENT_OPTION_HAS_HAPPENED:0 "#S Has Happened\n#!"
  EVENT_NOTHING_HAPPENS:1 "#F No immediate effects...#!"
  EVENT_OPTION_AI_CHANCE:1 "#Weak AI weight: $VALUE$#!"
+ 

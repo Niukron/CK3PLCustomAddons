@@ -140,6 +140,7 @@
  RULER_DESIGNER_FINALIZE_OVERWRITE_BODY: "Finalize your created character, once you submit you cannot undo this change, are you sure you are ready to submit?"
  RULER_DESIGNER_FINALIZE_OVERWRITE_ACCEPT: "Submit"
  CANNOT_ENTER_RULER_DESIGNER_GAME_STARTED: "@warning_icon!#X Game has started#!"
+ RULER_DESIGNER_CLIPPING_NOTE: "Extreme features may interfere with headwear and clothing"
  skin_color: "Skin Color"
  gene_height: "Height"
  gene_bs_body_type: "Body Fat"

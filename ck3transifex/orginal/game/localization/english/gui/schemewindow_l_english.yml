@@ -72,9 +72,9 @@
  SCHEME_ITEM_PROGRESS_TOOLTIP:1 "#T [Scheme.GetProgressDescription]#!\nThe [scheme|E] has a [Scheme.GetProgressChance|%] chance of progressing each month based on its Power and Resistance.\n\n[Scheme.GetPowerDescription]\n\n[Scheme.GetResistanceDescription]"
  SCHEME_SUCCESS_FROM_AGENTS:0 "From [agents|E]: $VALUE|+%/0=$"
  SCHEME_SUCCESS_MINIMUM:0 "#weak Minimum Chance:#! $VALUE|+%/0$"
- SCHEME_BASE_SECRECY:0 "Base: $VALUE|Z0$"
+ SCHEME_BASE_SECRECY:1 "Base: $VALUE|Z0%/$"
  SCHEME_SECRECY_TRIGGER:0 "[secrecy|E]: $VALUE|+%/0$"
- SCHEME_SECRECY_FROM_SUCCESS:0 "From [success_chance|E]: $VALUE|+=$"
+ SCHEME_SECRECY_FROM_SUCCESS:1 "From [success_chance|E]: $VALUE|+=0/%$"
  SCHEME_SECRECY_MINIMUM:0 "#weak Minimum Secrecy:#! $VALUE|+%/0$"
  SCHEME_WINDOW_SUCCESS_TOOLTIP:0 "#T [success_chance|E]: [Scheme.GetSuccessChance|V%/] #! #weak (max [Scheme.GetSchemeType.MaxSuccess]%)#! \n[Scheme.GetSuccessChanceDescription]"
  SCHEME_WINDOW_SUCCESS_DISCOVERED_TOOLTIP:0 "#T [success_chance|E]: [Scheme.GetSuccessChance|V%/] #! #weak (max [Scheme.GetSchemeType.MaxSuccess]%)#! \n#weak Unknown Factors#!"
@@ -167,7 +167,9 @@
  SCHEME_SEDUCE_SPOUSE_STRONG_HOOK_PENALTY:0 "[target.GetTitledFirstName] is loyal to [target.GetHerHis] [target.Custom2('RelationToMeShort', target.GetPrimarySpouse)]: $VALUE|+0=-+$"
  SEDUCE_COURTIER_GUEST_PERK_BONUS:0 "[GetPerk( 'home_advantage_perk' ).GetName( GetPlayer )]: $VALUE|+0=-+$"
  SEDUCE_PERK_BONUS:0 "[GetPerk( 'smooth_operator_perk' ).GetName( GetPlayer )]: $VALUE|+0=-+$"
+ LEGACY_PERK_BONUS:0 "[GetDynastyPerk('fp1_adventure_legacy_2').GetName]: $VALUE|+0=-+$"
  TEMPTATION_FOCUS_BONUS:0 "[GetFocus('intrigue_temptation_focus').GetName]: $VALUE|+0=-+$"
+
  SCHEME_SEDUCE_WRONG_GENDER:0 "I am not attracted to [target.GetWomenMen]: $VALUE|0=-+$"
  SCHEME_SEDUCE_TABOO_INCEST:0 "Incest is taboo: $VALUE|0=-+$"
  SCHEME_SEDUCE_UNWILLING_INCEST:0 "You are [family|E]: $VALUE|0=-+$"
@@ -242,6 +244,7 @@
  SCHEME_TRAIT_CYNICAL:1 "[GetTrait('cynical').GetName( owner.Self )]: $VALUE|+0=$"
  SCHEME_TRAIT_TRUSTING:1 "[GetTrait('trusting').GetName( owner.Self )]: $VALUE|+0=$"
  SCHEME_TRAIT_EXCOMMUNICATED:1 "[GetTrait('excommunicated').GetName( owner.Self )]: $VALUE|+0=$"
+
  OPEN_SCHEMES_TAB:0 "Schemes"
  OPEN_HOOKS_AND_SECRETS_TAB:0 "Hooks and Secrets"
  INTRIGUE_WINDOW_MY_HOOKS_TITLE:1 "[hooks|E] You Hold"
@@ -279,8 +282,11 @@
  INTRIGUE_WINDOW_SECRET_BLACKMAIL_CANT_BLACKMAIL:0 "@warning_icon! #X No [secret|E] can be used for blackmail at the moment#!"
  INTRIGUE_WINDOW_SECRET_BLACKMAIL_TT:0 "#T Blackmail#!\n\n[SelectLocalization( IntrigueWindowSecretGroup.CanBlackmail, 'blackmail_interaction_desc', 'INTRIGUE_WINDOW_SECRET_BLACKMAIL_CANT_BLACKMAIL' )]"
  INTRIGUE_WINDOW_SECRET_EXPOSE_DESC:3 "@warning_icon! #X You can #bold not#! expose [TARGET_CHARACTER.GetUINamePossessive] [SECRET.GetName] [secret|E]#!"
+
  is_forced_into_scheme_trigger:0 "Is forced into participating in a scheme"
  SCHEME_TYPE_TRIGGER:0 "Scheme is of the $SCHEME_NAME|V$-kind"
  SCHEME_NUMBER_OF_EXPOSED_AGENTS_TRIGGER:0 "Exposed Agents in [scheme|E]: $COMPARATOR$ $NUM|V0$"
  SCHEME_POWER_RESISTANCE_RATIO_TRIGGER:0 "The Scheme's power resistance ratio is: $COMPARATOR$ $NUM|V0$"
  SCHEME_MONTHLY_PROGRESS_TRIGGER:0 "Scheme Monthly Progress is: $COMPARATOR$ $NUM|V0$"
+
+ 

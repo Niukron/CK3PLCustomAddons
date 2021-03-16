@@ -82,6 +82,8 @@
  stewardship_duty_improved_paths_modifier:0 "Improved Paths"
  stewardship_duty_development_plans_modifier:0 "Development Plans"
  stewardship_duty_affirmed_rule_modifier:0 "Affirmed Rule"
+
+
  stewardship_domain_special_1500_excellent_quality_assessment:0 "Excellent Quality Assessment"
  stewardship_domain_special_1500_high_quality_assessment:0 "High Quality Assessment"
  stewardship_domain_special_1500_mediocre_quality_assessment:0 "Mediocre Quality Assessment"
@@ -91,6 +93,7 @@
  stewardship_domain_special_1500_guild_services:0 "Discounted Guild Services"
  stewardship_domain_special_1500_encouraged_travellers:0 "Encouraged Travelers"
  stewardship_domain_special_1500_avoided_by_merchants:0 "Avoided By Merchants"
+
  stewardship_domain_county_worked_to_death_modifier:0 "Worked to Death"
  stewardship_domain_county_worked_to_death_modifier_desc:0 "At least it got the job done! Where's the gratitude for that?!"
  stewardship_domain_personal_ownership_modifier:0 "Personal Landholdings"
@@ -99,11 +102,16 @@
  stewardship_domain_crown_lands_modifier:0 "Organized Inns"
  stewardship_domain_pecuniary_oversight_modifier:0 "Pecuniary Oversight"
  stewardship_domain_expanded_public_works_modifier:0 "Expanded Public Works"
+
+ 
  county_extorted_modifier:0 "County Extorted"
  county_extorted_modifier_desc:0 "This County has been utterly extorted by its holder."
+
  extorted_theocratic_vassals_modifier:0 "Extorted Theocratic Vassals"
  extorted_theocratic_vassals_modifier_desc:0 "This character has extorted their realm's religious authorities to the best of their abilities."
+
  extorted_vassals_modifier:0 "Extorted Vassals"
  extorted_vassals_modifier_desc:0 "This character has extorted their vassals to the best of their abilities."
+
  extorted_courtiers_modifier:0 "Extorted Courtiers"
  extorted_courtiers_modifier_desc:0 "This character has extorted their courtiers to the best of their abilities."

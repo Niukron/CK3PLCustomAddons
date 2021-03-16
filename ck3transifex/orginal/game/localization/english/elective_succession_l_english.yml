@@ -1,5 +1,5 @@
 ﻿l_english:
-#Feudal Elective AI behavior
+
  tooltip_feudal_elector_vote_myself:0 "I like power: $VALUE|=+0$"
  tooltip_feudal_elector_vote_not_myself:0 "I do not like power: $VALUE|=+0$"
  tooltip_feudal_elector_vote_myself_heir:0 "I am the rightful heir: $VALUE|=+0$"
@@ -119,6 +119,8 @@
  tooltip_feudal_elector_vote_anti_tanist:0 "Familial Concerns: $VALUE|=+0$"
  tooltip_gaelic_vote_strength_current_dynast:0 "Current [dynast|E]: $VALUE|=+0$"
  tooltip_gaelic_vote_strength_current_house_head:0 "Current [house_head|E]: $VALUE|=+0$"
+
+
  tooltip_imperial_vote_strength_emperor_influence:0 "Imperial Dignity: $VALUE|=+0$"
  tooltip_imperial_vote_strength_emperor_unpurpled:0 "[ROOT.Char.GetSheHe|U] was not [GetTrait('born_in_the_purple').GetName( Root.Char )]: $VALUE|=+0$"
  tooltip_imperial_vote_strength_emperor_deformed:0 "[ROOT.Char.GetSheHe|U] is deformed: $VALUE|=+0$"
@@ -144,6 +146,8 @@
  tooltip_imperial_vote_strength_spouse:0 "[ROOT.Char.GetSheHe|U] is the [ROOT.Char.GetTitleTierName]: $VALUE|=+0$"
  tooltip_imperial_vote_strength_greek_intrigue:0 "[ROOT.Char.GetSheHe|U] is a cunning politician with high [intrigue|E]: $VALUE|=+0$"
  tooltip_imperial_vote_strength_roman_diplomacy:0 "[ROOT.Char.GetSheHe|U] is a manipulative demagogue with high [diplomacy|E]: $VALUE|=+0$"
+
+
  tooltip_feudal_elector_vote_rome_child:0 "Rome is not to be ruled by a child: $VALUE|=+0$"
  tooltip_feudal_elector_vote_despot:0 "[candidate.GetSheHe|U] is the Despot: $VALUE|=+0$"
  tooltip_feudal_elector_vote_commander_martial:0 "[candidate.GetSheHe|U] is a brilliant General: $VALUE|=+0$"
@@ -156,11 +160,15 @@
  tooltip_feudal_vote_strength_powerful_vassal:0 "Influential Vassal: $VALUE|=+0$"
  tooltip_elective_current_ruler:0 "Current Ruler: $VALUE|=+0$"
  tooltip_feudal_vote_strength_parliament:0 "Parliamentary Support"
+ 
+ 
  tooltip_saxon_elector_vote_stewardship:0 "[candidate.GetSheHe|U] is a considerate ruler with high [stewardship|E]: $VALUE|=+0$"
  tooltip_saxon_elector_vote_military_strength:0 "[holder.GetTitledFirstName] lacks levies: $VALUE|=+0$"
  tooltip_saxon_elector_vote_candidate_unlanded:0 "[candidate.GetTitledFirstName|U] is totally [unlanded|E]: $VALUE|=+0$"
  tooltip_saxon_elector_vote_candidate_count_magnate:0 "[candidate.GetTitledFirstName|U] is a mere [count|E]: $VALUE|=+0$"
  tooltip_saxon_elector_vote_candidate_king_magnate:0 "[candidate.GetTitledFirstName|U] is a mighty [king|E]: $VALUE|=+0$"
+
+ 
  tooltip_scandinavian_elective_domain_size:0 "[domain|E] Size: $VALUE|=+0$"
  tooltip_scandinavian_elective_development:1 "Total [development|E], modified by [faith|E] and [culture_group|E]: $VALUE|=+0$"
  tooltip_scandinavian_elective_capital_opinion:0 "Capital [county_opinion|E]: $VALUE|=+0$"

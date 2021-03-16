@@ -4,6 +4,7 @@
  TITLE_CLAN_TIERED_NAME:0 "the $NAME$ $TIER|U$"
  TITLE_CLAN_TIERED_WITH_UNDERLYING_NAME:0 "the $NAME$ $TIER|U$ #F ($TIER|U$ of $BASE_NAME$) #!"
  TITLE_TIER_AS_NAME:0 "$TIER|U$"
+ 
  LOTHARINGIA:0 "$k_lotharingia$"
  LOTHARINGIA_adj:0 "$k_lotharingia_adj$"
  WEST_FRANCIA:0 "West Francia"
@@ -16,6 +17,8 @@
  GERMANY_adj:0 "German"
  NEUSTRIA:0 "Neustria"
  NEUSTRIA_adj:0 "Neustrian"
+
+ 
  b_Warka:0 "Warka"
  b_Xanten:0 "Xanten"
  b_Xauen:0 "Xauen"
@@ -3015,7 +3018,7 @@
  b_durkheim:0 "Dürkheim"
  b_durlach:0 "Durlach"
  b_durmberg:0 "Dürmberg"
- b_durne:0 "Durne"
+ b_durne:0 "Dürn"
  b_durness:0 "Durness"
  b_durrah:0 "Durrah"
  b_durrow:0 "Durrow"
@@ -10540,7 +10543,7 @@
  b_vakovo:0 "Vakovo"
  b_vaksala:0 "Vaksala"
  b_val:0 "Vál"
- b_val_camonica:0 "Val Camonica"
+ b_val_camonica:1 "Riva"
  b_valaam:0 "Valaam"
  b_valabhi:0 "Valabhi"
  b_valania:0 "Valania"
@@ -12029,8 +12032,8 @@
  c_comminges_adj:0 "Commingian"
  c_como:0 "Como"
  c_como_adj:0 "Coman"
- c_connacht:0 "Connacht"
- c_connacht_adj:0 "Connachtian"
+ c_connacht:1 "Hy Many"
+ c_connacht_adj:1 "Hy Manyan"
  c_consenza:0 "Consenza"
  c_consenza_adj:0 "Catanzaron"
  c_constanta:0 "Constanta"
@@ -12197,7 +12200,7 @@
  c_duqm_adj:0 "Duqmian"
  c_durham:0 "Durham"
  c_durham_adj:0 "Durhamian"
- c_durne:0 "Durne"
+ c_durne:0 "Dürn"
  c_durne_adj:0 "Durner"
  c_dvaraka:0 "Dvaraka"
  c_dvaraka_adj:0 "Dvarakan"
@@ -14087,8 +14090,8 @@
  c_sundgau_adj:0 "Sundgauer"
  c_surrey:0 "Surrey"
  c_surrey_adj:0 "Surreyan"
- c_sussex:0 "Sussex"
- c_sussex_adj:0 "Sussexian"
+ c_sussex:2 "Sussex"
+ c_sussex_adj:2 "Sussexian"
  c_sutherland:0 "Sutherland"
  c_suvarnagram:0 "Suvarnagram"
  c_suvarnagram_adj:0 "Suvarnagraman"
@@ -14807,8 +14810,8 @@
  d_bohemia:0 "Bohemia"
  d_bohemia_adj:0 "Bohemian"
  d_bordeaux:0 "Bordeaux"
- d_bosna:1 "Bosnia"
- d_bosna_adj:0 "Bosnian"
+ d_bosna:2 "Upper Bosnia"
+ d_bosna_adj:1 "Upper Bosnian"
  d_bosnia:0 "Bosnia"
  d_bosnia_adj:0 "Bosnian"
  d_bourbon:0 "Bourbon"
@@ -14954,6 +14957,7 @@
  d_dyrrachion:0 "Dyrrachion"
  d_dyrrachion_adj:0 "Dyrrachian"
  d_east_franconia:0 "East Franconia"
+ d_east_franconia_adj:0 "East Franconian"
  d_edessa:0 "Edessa"
  d_edessa_adj:0 "Edessan"
  d_el-arish:0 "El-Arish"
@@ -15774,6 +15778,7 @@
  d_west_african_pagan_reformed:0 "West African Church"
  d_west_african_pagan_reformed_adj:0 "West African"
  d_west_franconia:0 "West Franconia"
+ d_west_franconia_adj:0 "West Franconian"
  d_western_isles_article:0 "the "
  d_western_isles:1 "Isles"
  d_western_isles_adj:0 "Islander"
@@ -15817,6 +15822,8 @@
  d_zun_warriors_adj:0 "Zun"
  e_abyssinia:0 "Abyssinia"
  e_abyssinia_adj:0 "Abyssinian"
+ e_albia:0 "Albia"
+ e_albia_adj:0 "Albian"
  e_arabia:0 "Arabian Empire"
  e_arabia_adj:0 "Arabian"
  e_armenia:0 "Greater Armenia"
@@ -15868,6 +15875,9 @@
  e_mongol_empire_article:0 "the "
  e_mongol_empire:0 "Mongol Empire"
  e_mongol_empire_adj:0 "Mongol"
+ e_north_sea_article:0 "the "
+ e_north_sea:0 "North Sea"
+ e_north_sea_adj:0 "Northern"
  e_persia_article:0 "the "
  e_persia:0 "Persian Empire"
  e_persia_adj:0 "Persian"
@@ -15991,6 +16001,8 @@
  k_danelaw_article:0 "the "
  k_danelaw:0 "Danelaw"
  k_danelaw_adj:0 "Danelawan"
+ k_daneland:0 "Daneland"
+ k_daneland_adj:0 "Anglo-Norse"
  k_daylam:0 "Daylam"
  k_delhi:0 "Delhi"
  k_denmark:0 "Denmark"
@@ -16027,7 +16039,7 @@
  k_germany_adj:0 "German"
  k_germany_pre:0 "Germano"
  k_east_francia:0 "East Francia"
- k_east_francia_adj:0 "Franconian"
+ k_east_francia_adj:1 "East Franconian"
  k_germiyan:0 "Germiyan"
  k_gondwana:0 "Gondwana"
  k_gujarat:0 "Gujarat"
@@ -16077,6 +16089,7 @@
  k_makran:0 "Makran"
  k_mali:0 "Mali"
  k_malwa:0 "Malwa"
+ k_mann_the_isles:0 "Mann and the Isles"
  k_marinid:0 "Marinid"
  k_mauretania:0 "Mauretania"
  k_mauretania_adj:0 "Mauritanian"
@@ -16353,6 +16366,7 @@
  d_samaritan_adj:0 "Samaritan"
  d_kabarism:0 "Kabarist High Priesthood"
  d_kabarism_adj:0 "Kabarist"
+ 
  d_mazdayasna:0 "Mazdayan High Priesthood"
  d_mazdayasna_adj:0 "Mazdayan"
  d_zurvanism:0 "Zurvanite High Priesthood"
@@ -16367,6 +16381,7 @@
  d_khurramism_adj:0 "Khurramite"
  d_urartuism:1 "Arewordik High Priesthood"
  d_urartuism_adj:1 "Arewordi"
+ 
  c_dinawar:0 "Dinawar"
  c_dinawar_adj:0 "Dinawarian"
  b_andarab_d:0 "Andarab"
@@ -16551,6 +16566,7 @@
  c_al-haditha_adj:0 "al-Hadithani"
  b_al-haditha-furat:0 "al-Haditha-Furat"
  b_ana:0 "Ana"
+ 
  b_priluk:0 "Priluk"
  c_hradyzk:0 "Hradyzk"
  c_hradyzk_adj:0 "Hradyzkian"
@@ -16651,6 +16667,7 @@
  b_pikalyovo:0 "Pikalyovo"
  b_makariev:0 "Makariev"
  d_ryazan_adj:0 "Muromo-Ryazanski"
+ 
  e_caspian-pontic_steppe:0 "Khazaria"
  e_caspian-pontic_steppe_adj:0 "Khazar"
  k_pontic_steppe:0 "Zaporizhia"
@@ -16821,6 +16838,8 @@
  b_beryslav:0 "Beryslav"
  b_kuzeytorg:0 "Kuzeytorg"
  b_guryev:0 "Atyrau"
+
+ 
  d_patriarchate_in_the_east_article:0 "the "
  d_patriarchate_in_the_east:0 "Patriarchate of the East"
  d_patriarchate_in_the_east_adj:0 "Patriarchal"
@@ -16833,6 +16852,8 @@
  d_conversos_article:0 "the "
  d_conversos:0 "Conversos Papacy"
  d_conversos_adj:0 "Converso"
+ 
+ 
  b_abbadan:0 "Abbadan"
  b_adruh:0 "Adruh"
  b_aila:0 "Aila"
@@ -16980,6 +17001,8 @@
  d_palmyra_adj:0 "Palmyran"
  d_urdunn:0 "Urdunn"
  d_urdunn_adj:0 "Urdunnian"
+ 
+ 
  e_volga-ural:0 "Volga-Ural"
  e_volga-ural_adj:0 "Volga-Uralian"
  k_mordvinia:0 "Mordvinia"
@@ -17271,6 +17294,8 @@
  b_chelabinsk:0 "Chelabinsk"
  b_troizk:0 "Troizk"
  b_baklanska:0 "Baklanska"
+ 
+ 
  b_abu_ghalib:0 "Abu Ghalib"
  b_ahnas:0 "Ahnas"
  b_ain_al-gharbi:0 "Ain Al-Gharbi"
@@ -17384,6 +17409,8 @@
  d_delta_adj:0 "Deltan"
  d_eastern_desert:0 "Eastern Desert"
  d_eastern_desert_adj:0 "Eastern"
+ 
+ 
  k_nikaea:0 "Nikaea"
  k_nikaea_adj:0 "Nikaean"
  k_pontus:0 "Pontus"
@@ -17602,6 +17629,8 @@
  b_kyzistra:0 "Kyzistra"
  b_arasaxa:0 "Arasaxa"
  b_soli_CYP:0 "Soli"
+ 
+ 
  d_chaldia:0 "Chaldia"
  d_chaldia_adj:0 "Chaldian"
  d_vaspurakan:0 "Vaspurakan"
@@ -17751,6 +17780,8 @@
  b_nakorzan:0 "Nakorzan"
  b_barzand:0 "Barzand"
  b_gher:0 "Gher"
+ 
+ 
  k_bjarmaland:0 "Bjarmaland"
  d_biarmia:0 "Biarmia"
  d_chudia:0 "Chudia"
@@ -17818,8 +17849,10 @@
  b_verkola:0 "Verkola"
  b_osmova:0 "Osmova"
  b_ostrov_BJA:0 "Ostrov"
+ 
  c_cykma:0 "Cykma"
  c_cykma_adj:0 "Cykman"
+ 
  b_ad-dathina:0 "Ad-Dathina"
  b_ahwan:0 "Ahwan"
  b_ainun:0 "Ainun"
@@ -18315,6 +18348,8 @@
  d_yamama_adj:0 "Yamaman"
  k_yemen:0 "Yemen"
  k_yemen_adj:0 "Yemeni"
+ 
+ 
  e_siberia:0 "Siberia"
  e_siberia_adj:0 "Siberian"
  k_siberia:0 "WIP Siberia"
@@ -18323,6 +18358,7 @@
  k_yugra_adj:0 "Yugran"
  k_sibir:0 "Sibir"
  k_sibir_adj:0 "Sibirian"
+ 
  d_siberia:0 "Siberia"
  d_siberia_adj:0 "Siberian"
  d_ostyaki:0 "Ostyaki"
@@ -18345,6 +18381,7 @@
  d_EAST_adj:0 "WIP_EAST"
  d_lanikaz:0 "Lanikaz"
  d_lanikaz_adj:0 "Lanikazi"
+ 
  c_siberia:0 "Siberia"
  c_siberia_adj:0 "Siberian"
  c_laia:0 "Laia"
@@ -18407,6 +18444,7 @@
  c_kainsk_adj:0 "Kainskian"
  c_pavlodar:0 "Pavlodar"
  c_pavlodar_adj:0 "Pavlodarian"
+ 
  b_kharom-vosh:0 "Kharom Vosh"
  b_khanty-mansiisk:0 "Khanty-Mansiisk"
  b_tselym-balyn:0 "Tselym-Balyn"
@@ -18505,16 +18543,20 @@
  b_koksengrisor:0 "Koksengrisor"
  b_ertis:0 "Ertis"
  b_karaoba:0 "Karaoba"
+ 
+ 
  e_turkestan:0 "Turkestan"
  e_turkestan_adj:0 "Turkestani"
  e_kara_khitai:0 "Kara Khitai"
  e_kara_khitai_adj:0 "Kara Khitan"
+ 
  k_oghuz_il:0 "Oghuz il"
  k_oghuz_il_adj:0 "Oghuz"
  k_syr_darya:0 "Syr Darya"
  k_syr_darya_adj:0 "Syr Daryan"
  k_zhetysu:0 "Zhetysu"
  k_zhetysu_adj:0 "Zhetysian"
+ 
  d_transcaspiana:0 "Transcaspiana"
  d_transcaspiana_adj:0 "Transcaspian"
  d_aral_il:0 "Aral il"
@@ -18533,6 +18575,7 @@
  d_alakol_adj:0 "Alakoli"
  d_ili-alatau:0 "Ili-Alatau"
  d_ili-alatau_adj:0 "Ili-Alatan"
+ 
  c_garabogazkol:0 "Garabogazkol"
  c_garabogazkol_adj:0 "Garabogazkoli"
  c_kaskelen:0 "Kaskelen"
@@ -18617,6 +18660,7 @@
  c_cherik_adj:0 "Cheriki"
  c_nasrabad:0 "Nasrabad"
  c_nasrabad_adj:0 "Nasrabadi"
+ 
  b_akkityk:0 "Akkityk"
  b_aktau:0 "Aktau"
  b_uzgend_KARA:0 "Uzgend"
@@ -18758,14 +18802,17 @@
  b_nasrabad:0 "Nasrabad"
  b_arslanbob:0 "Arslanbob"
  b_sarybulak:0 "Sarybulak"
+ 
  e_mongolia:0 "Mongolia"
  e_mongolia_adj:0 "Mongol"
+ 
  k_kirghiz-yugra:0 "WIP"
  k_kirghiz-yugra_adj:0 "WIP"
  k_kimek:0 "Kimek"
  k_kimek_adj:0 "Kimek"
  k_kipchak:0 "Kipchak"
  k_kipchak_adj:0 "Kipchak"
+ 
  d_cuman_WIP:0 "WIP"
  d_cuman_WIP_adj:0 "WIP"
  d_pecheneg:0 "Pecheneg"
@@ -18792,6 +18839,7 @@
  d_betpa_adj:0 "Betpan"
  d_semey:0 "Semey"
  d_semey_adj:0 "Semeyni"
+ 
  c_cuman_WIP:0 "WIP"
  c_cuman_WIP_adj:0 "WIP"
  c_mugodzhar_hills:0 "Mugodzhar Hills"
@@ -18862,6 +18910,7 @@
  c_arkat_adj:0 "Arkati"
  c_kalbin:0 "Kalbin"
  c_kalbin_adj:0 "Kalbini"
+ 
  b_santas:0 "Santas"
  b_barbastau:0 "Barbastau"
  b_chubar_KAZ:0 "Chubar"
@@ -19007,6 +19056,8 @@
  b_erementau:0 "Erementau"
  b_karkaraly:0 "Karkaraly"
  b_tokumbay:0 "Tokumbay"
+ 
+ 
  c_qasr_ibrim:0 "Qasr Ibrim"
  c_qasr_ibrim_adj:0 "Qasr Ibrim"
  b_qasr_ibrim:0 "Qasr Ibrim"
@@ -19166,6 +19217,8 @@
  c_wolqayt_adj:0 "Wolqaytian"
  b_wolqayt:0 "Wolqayt"
  b_wad_abu_nahl:0 "Wad Abu Nahl"
+ 
+ 
  k_ob:0 "Ob"
  k_ob_adj:0 "Obian"
  d_salair:0 "Salair"
@@ -19420,6 +19473,8 @@
  b_boro_burgasu:0 "Boro Burgasu"
  b_suchatu:0 "Suchatu"
  b_alak-nor:0 "Alak-Nor"
+ 
+ 
  k_anbiya:0 "Anbiya"
  k_anbiya_adj:0 "Anbiyan"
  k_sahara:0 "Sahara"
@@ -19561,12 +19616,15 @@
  b_hamadat_tinghert:0 "Hamadat Tinghert"
  e_white_horde_article:0 "the "
  e_white_horde:0 "White Horde"
+ 
+ 
  e_uyghur_khanate_article:0 "the "
  e_uyghur_khanate:0 "Uyghur Khanate"
  e_uyghur_khanate_adj:0 "Uyghur"
  e_kirghiz_khanate_article:0 "the "
  e_kirghiz_khanate:0 "Kirghiz Khanate"
  e_kirghiz_khanate_adj:0 "Kirghiz"
+ 
  k_tuva:0 "Tuva"
  k_tuva_adj:0 "Tuvan"
  k_khakassia:0 "Khakassia"
@@ -19575,6 +19633,7 @@
  k_buryatia_adj:0 "Buryatian"
  k_angara:0 "Angara"
  k_angara_adj:0 "Angaran"
+ 
  d_ogrash:0 "Ögräsh"
  d_ogrash_adj:0 "Ögräshi"
  d_selenga_valley:0 "Selenga Valley"
@@ -19615,7 +19674,7 @@
  d_tsagaanbaigal_adj:0 "Tsagaanbaigalian"
  d_khovd:0 "Khovd"
  d_khovd_adj:0 "Khovdian"
- d_lena:0 "Eülge"
+ d_lena:0 "Eülge" 
  d_lena_adj:0 "Eülgean"
  d_angara:0 "Angara"
  d_angara_adj:0 "Angaran"
@@ -19623,6 +19682,7 @@
  d_yenisei_kan_adj:0 "Yenisei-Kanish"
  d_chuna_valley:0 "Üd Valley"
  d_chuna_valley_adj:0 "Üdan"
+ 
  c_otuken_adj:0 "Ötükeni"
  c_tavan_bogd:0 "Tavan Bogd"
  c_tavan_bogd_adj:0 "Tavan Bogdian"
@@ -19632,7 +19692,7 @@
  c_karabalgasun_adj:0 "Karabalgasuni"
  c_mumo:0 "Mumo"
  c_mumo_adj:0 "Mumoni"
- c_ulaanbaatar:0 "Örgöö"
+ c_ulaanbaatar:0 "Örgöö" 
  c_ulaanbaatar_adj:0 "Örgööni"
  c_khentii:0 "Khentii"
  c_khentii_adj:0 "Khentiian"
@@ -19736,13 +19796,13 @@
  c_ulan_ude_adj:0 "Ulan-Udean"
  c_chikoy:0 "Chikoy"
  c_chikoy_adj:0 "Chikoyian"
- c_krasnoyarsk:0 "Kyzyl Char"
+ c_krasnoyarsk:0 "Kyzyl Char" 
  c_krasnoyarsk_adj:0 "Kyzyl Chari"
  c_mana:0 "Mana"
  c_mana_adj:0 "Manan"
  c_shishina:0 "Shishina"
  c_shishina_adj:0 "Shishinan"
- c_kansk:0 "Kankhot"
+ c_kansk:0 "Kankhot" 
  c_kansk_adj:0 "Kankhotian"
  c_tagul:0 "Tagul"
  c_tagul_adj:0 "Tagulian"
@@ -19758,7 +19818,7 @@
  c_ilga_adj:0 "Ilgan"
  c_olkhon:0 "Olkhon"
  c_olkhon_adj:0 "Olkhonian"
- c_irkutsk:0 "Erhüü"
+ c_irkutsk:0 "Erhüü" 
  c_irkuts_adjk:0 "Erhüüi"
  c_chuya:0 "Chuya"
  c_chuya_adj:0 "Chuyan"
@@ -19798,6 +19858,7 @@
  c_kantegir_adj:0 "Kantegiri"
  c_uul_chors:0 "Uul Chors"
  c_uul_chors_adj:0 "Uul Chorian"
+ 
  b_khuiten:0 "Khüiten"
  b_khoton:0 "Khoton"
  b_dayan:0 "Dayan"
@@ -19818,7 +19879,7 @@
  b_khanjargalant:0 "Khanjargalant"
  b_erdenet:0 "Erdenet"
  b_ishgent:0 "Ishgent"
- b_ulaanbaatar:0 "Örgöö"
+ b_ulaanbaatar:0 "Örgöö" 
  b_moltsog_els:0 "Moltsog Els"
  b_hustai:0 "Hustai"
  b_orkhontuul:0 "Orkhontuul"
@@ -19952,7 +20013,7 @@
  b_bolsho_kyzylkul:0 "Bolsho Kyzylkul"
  b_amyl:0 "Amyl"
  b_borus:0 "Borus"
- b_kuznetsk:0 "Kuzna"
+ b_kuznetsk:0 "Kuzna" 
  b_kuztom:0 "Kuztom"
  b_kuzalatau:0 "Kuzalatau"
  b_kondoma_MON:0 "Kondoma"
@@ -20024,7 +20085,7 @@
  b_chikan:0 "Chikan"
  b_kutukan_ondort:0 "Kutukan Öndört"
  b_ichikta:0 "Ichikta"
- b_krasnoyarsk:0 "Kyzyl Char"
+ b_krasnoyarsk:0 "Kyzyl Char" 
  b_kem_MON:0 "Kem'"
  b_kemchug:0 "Kemchug"
  b_stolby:0 "Stolby"
@@ -20033,7 +20094,7 @@
  b_shishina:0 "Shishina"
  b_taseya:0 "Taseya"
  b_nemkina:0 "Nemkina"
- b_kansk:0 "Kankhot"
+ b_kansk:0 "Kankhot" 
  b_biriusa:0 "Biriusa"
  b_khoidkhiliin:0 "Khoidkhiliin"
  b_tagul:0 "Tagul"
@@ -20043,7 +20104,7 @@
  b_chuna:0 "Üd"
  b_tsartsanmod:0 "Tsartsanmod"
  b_biryusa:0 "Biryusa"
- b_bratsk:0 "Bura"
+ b_bratsk:0 "Bura" 
  b_khereeoi:0 "Khereeoi"
  b_tsasengiin:0 "Tsasengiin"
  b_bugyntalbar:0 "Bugyntalbar"
@@ -20068,9 +20129,11 @@
  b_olkhon:0 "Olkhon"
  b_bugulde:0 "Bugulde"
  b_manzurka:0 "Manzurka"
- b_irkutsk:0 "Erhüü"
+ b_irkutsk:0 "Erhüü" 
  b_osa_MON:0 "Osa"
  b_KUDA_MON:0 "Kuda"
+ 
+ 
  k_xia:0 "Xia"
  k_xia_adj:0 "Xia"
  d_xia:0 "Xia"
@@ -20243,10 +20306,16 @@
  b_haltang:0 "Haltang"
  b_takoerpasitao:0 "Takoerpasitao"
  b_anxi_old:0 "Anxi"
+ 
+ 
  e_tibet:0 "Tibet"
  e_tibet_adj:0 "Tibetan"
+ 
+ 
  k_sakya_trizin:0 "Sakya Trizin"
  k_sakya_trizin_adj:0 "Sakya Trizin"
+ 
+ 
  k_u:1 "Ü"
  k_u_adj:1 "Ü"
  d_yarlung:0 "Yarlung"
@@ -20340,6 +20409,8 @@
  c_garco_adj:0 "Garco"
  b_garco:0 "Garco"
  b_cozhedangma:0 "Cozhêdangma"
+ 
+ 
  k_tsang:0 "Tsang"
  k_tsang_adj:0 "Tsang"
  d_xigaze:0 "Xigazê"
@@ -20423,6 +20494,8 @@
  c_xainza_adj:0 "Xainza"
  b_xainza:0 "Xainza"
  b_shyungme:0 "Shyungme"
+ 
+ 
  k_guge:1 "Gugé"
  k_guge_adj:2 "Gugén"
  d_ngari:1 "Guge"
@@ -20507,6 +20580,8 @@
  b_coqen:0 "Coqên"
  b_qulho:0 "Qulho"
  b_gyesarco:0 "Gyesarco"
+ 
+ 
  k_maryul:1 "Maryül"
  k_maryul_adj:1 "Maryül"
  d_ladakh:0 "Ladakh"
@@ -20590,6 +20665,8 @@
  b_memar:0 "Memar"
  b_bandag:0 "Bandag"
  b_bairab:0 "Bairab"
+ 
+ 
  k_kham:0 "Kham"
  k_kham_adj:0 "Kham"
  d_qamdo:0 "Qamdo"
@@ -20743,6 +20820,8 @@
  c_gyaitang_adj:0 "Gyaitang"
  b_gyaitang:0 "Gyaitang"
  b_takchongrong:0 "Takchongrong"
+ 
+ 
  k_lhomon:0 "Lhomon"
  k_lhomon_adj:0 "Lhomon"
  d_bumthang:0 "Bumthang"
@@ -20845,6 +20924,8 @@
  b_tezu:0 "Tezu"
  b_kibithu:0 "Kibithu"
  b_hawai:0 "Hawai"
+ 
+ 
  k_himalaya:0 "Himalaya"
  k_himalaya_adj:0 "Himalaya"
  d_kurmanchal:0 "Kurmanchal"
@@ -20928,6 +21009,8 @@
  c_khotang_adj:0 "Khotang"
  b_khotang:0 "Khotang"
  b_bhojpur_tibet:0 "Bhojpur"
+ 
+ 
  k_amdo:0 "Amdo"
  k_amdo_adj:0 "Amdo"
  d_xining:0 "Xining"
@@ -21070,6 +21153,8 @@
  c_ngoring_adj:0 "Ngoring"
  b_ngoring:0 "Ngoring"
  b_mato:0 "Matö"
+ 
+ 
  k_gyalrong:0 "Gyalrong"
  k_gyalrong_adj:0 "Gyalrong"
  d_gyalrong:0 "Gyalrong"
@@ -21179,6 +21264,8 @@
  c_sertar_adj:0 "Sêrtar"
  b_sertar:0 "Sêrtar"
  b_larung:0 "Larung"
+ 
+ 
  e_black_horde_article:0 "the "
  e_black_horde:0 "Black Horde"
  e_aarlud_khanate_article:0 "the "
@@ -21187,6 +21274,7 @@
  e_togskol_khanate:0 "Tögsköl Khanate"
  e_baruun_khanate_article:0 "the "
  e_baruun_khanate:0 "Baruun Khanate"
+ 
  b_boksanbanya:0 "Boksánbánya"
  b_nagylak:0 "Nagylak"
  b_batorkeszi:0 "Bátorkeszi"
@@ -21197,6 +21285,7 @@
  b_laposbanya:0 "Láposbánya"
  b_rodopi:0 "Rodopi"
  b_valamara:0 "Valamara"
+ 
  c_tingri:0 "Tingri"
  c_tingri_adj:0 "Tingrian"
  b_tingri:0 "Tingri"
@@ -21205,6 +21294,8 @@
  b_kamru_2:0 "Kamru"
  b_bangdag:0 "Bangdag"
  b_mila_tibet:0 "Mila"
+ 
+ 
  c_surparaka:0 "Surparaka"
  c_surparaka_adj:0 "Surparakan"
  c_panaji:0 "Panaji"
@@ -21249,6 +21340,7 @@
  c_atavi_adj:0 "Atavian"
  c_mahakantara:0 "Mahakantara"
  c_mahakantara_adj:0 "Mahakantaran"
+ 
  b_ankai:0 "Ankai"
  b_elapura:0 "Elapura"
  b_suraparaka:0 "Suraparaka"
@@ -21328,6 +21420,8 @@
  b_lanjika:0 "Lanjika"
  b_mungeli:0 "Mungeli"
  b_pondugala:0 "Pondugala"
+ 
+ 
  k_kashmir:0 "Kashmir"
  k_kashmir_adj:0 "Kashmiri"
  d_pamir:0 "Pamir"
@@ -21411,10 +21505,12 @@
  b_allai:0 "Allai"
  b_waihind:0 "Waihind"
  b_muji:0 "Muji"
- b_badakhshan_TARIM:0 "Badakhshan"
+ b_badakhshan_TARIM:1 "Rangkul"
  b_brahmapura:0 "Brahmapura"
  b_sadhaura:0 "Sadhaura"
  b_kongque:0 "Kongque"
+ 
+ 
  c_manikpur:0 "Mānikpur"
  c_manikpur_adj:0 "Mānikpurian"
  c_charaideo:0 "Charaideo"
@@ -21461,6 +21557,8 @@
  b_kotivarsa:0 "Kotivarsa"
  b_campa2:0 "Campa"
  b_banjar:0 "Banjar"
+ 
+ 
  k_pagan:0 "Pagan"
  k_pagan_adj:0 "Paganian"
  d_pagan:0 "Pagan"
@@ -21519,6 +21617,7 @@
  c_dagon_adj:0 "Dagonian"
  c_kusumi:0 "Kusumi"
  c_kusumi_adj:0 "Kusumian"
+ 
  b_pagan:0 "Pagan"
  b_popa:0 "Mount Popa"
  b_myitche:0 "Myitche"
@@ -21594,6 +21693,8 @@
  b_myaungmya:0 "Myaungmya"
  b_negrais:0 "Negrais"
  b_thaungdut:0 "Thaungdut"
+ 
+ 
  b_agaw_meder:0 "Agaw-Meder"
  b_ajere:0 "Ajere"
  b_akrijit:0 "Akrijit"
@@ -22055,6 +22156,7 @@
  k_mali_adj:0 "Malian"
  k_takrur:0 "Takrūr"
  k_takrur_adj:0 "Takrūri"
+ 
  e_kanem_bornu:0 "Kanem-Bornu"
  e_kanem_bornu_adj:0 "Kanem-Bornuan"
  e_guinea:0 "Guinea"
@@ -23319,6 +23421,8 @@
  b_villars:0 "Villars"
  b_karnaphuli:0 "Karnaphuli"
  d_yungdrung_bon:0 "Eternal Bön"
+ 
+ 
  d_pommerania:1 "Pomerania"
  d_pommerania_adj:1 "Pomeranian"
  b_pila:1 "Piła"
@@ -23331,6 +23435,8 @@
  c_slupsk:1 "Słupsk"
  c_slupsk_adj:1 "Słupskian"
  b_slupsk:1 "Słupsk"
+ 
+ 
  c_stettin:1 "Szczecin"
  c_stettin_adj:1 "Szczecinian"
  c_kolobrzeg:1 "Wolin"
@@ -23347,6 +23453,7 @@
  c_danzig_adj:1 "Gdańskian"
  c_berent:1 "Świecie"
  c_berent_adj:0 "Świeciean"
+ 
  b_swinoujscie:1 "Wolin"
  b_kolobrzeg:1 "Kamień"
  b_lobez:1 "Nowogard"
@@ -23369,6 +23476,8 @@
  b_kostschin:1 "Kostrzyn"
  b_landsberg:1 "Santok"
  b_arnswalde:1 "Stargard"
+ 
+ 
  d_masuria:0 "Masuria"
  d_masuria_adj:0 "Masurian"
  c_malbork:1 "Pomesania"
@@ -23389,6 +23498,7 @@
  c_konigsberg_adj:0 "Sambian"
  c_allenstein:1 "Galindia"
  c_allenstein_adj:0 "Galindian"
+ 
  b_elblag:1 "Truso"
  b_marienburg:1 "Malbork"
  b_wislana:1 "Weiksla"
@@ -23416,6 +23526,7 @@
  b_labiau:1 "Kaup"
  b_paterswalde:1 "Tapiau"
  b_kulm:1 "Chełmno"
+ 
  c_sevede:0 "Sevede"
  c_sevede_adj:0 "Sevedian"
  c_dalabergslagen:0 "Dalabergslagen"
@@ -23434,6 +23545,8 @@
  b_grebo2:0 "Grebo"
  b_lima:0 "Lima"
  b_orsa:0 "Orsa"
+ 
+ 
  k_zhangzhung:0 "Zhangzhung"
  k_zhangzhung_adj:0 "Zhangzhung"
  k_sumpa:0 "Sumpa"
@@ -23498,3 +23611,85 @@
  b_gangyu:0 "Gangyu"
  b_namarche:0 "Namarché"
  b_tarok:0 "Tarok"
+ 
+ 
+ c_ennis:0 "Ennis"
+ c_ennis_adj:0 "Ennisian"
+ c_mayo:0 "Mayo"
+ c_mayo_adj:0 "Mayoan"
+ b_adragh:0 "Adragh"
+ b_da_chainoc:0 "Da Chainoc"
+ b_cruachu:0 "Cruachu"
+ b_kilmallock:0 "Kilmallock"
+ b_kincora:0 "Kincora"
+ 
+ b_belvedere:0 "Belvedere"
+ b_catanzaro:0 "Catanzaro"
+ b_policastro:0 "Policastro"
+ b_ariano:0 "Ariano"
+ b_agnone:0 "Agnone"
+ b_asciano:0 "Asciano"
+ b_tirano:0 "Tirano"
+ b_chiari:0 "Chiari"
+ b_mondovi:0 "Mondovi"
+ b_santhia:0 "Santhia"
+ b_portogruaro:0 "Portogruaro"
+ b_malamacco:0 "Malamacco"
+ 
+ d_lower_bosna:0 "Lower Bosnia"
+ d_lower_bosna_adj:0 "Lower Bosnian"
+ c_zelengora:0 "Zelengora"
+ c_zelengora_adj:0 "Zelengoran"
+ c_zlatibor:0 "Zlatibor"
+ c_zlatibor_adj:0 "Zlatiborian"
+ c_durmitor:0 "Durmitor"
+ c_durmitor_adj:0 "Durmitorian"
+ 
+ d_vuovdisamieana:0 "Vuovdisámieana"
+ d_vuovdisamieana_adj:0 "Vuovdisámi"
+ 
+ c_nordrland:1 "Norðrland"
+ c_nordrland_adj:1 "Norðrlander"
+ c_sudurland:1 "Suðrland"
+ c_sudurland_adj:1 "Suðrlander"
+ 
+ c_pite:0 "Pite"
+ c_pite_adj:0 "Pitean"
+ c_kittila:0 "Kittila"
+ c_kittila_adj:0 "Kittilan"
+ c_aviovara:0 "Aviovara"
+ c_aviovara_adj:0 "Aviovaran"
+ c_suondavara:0 "Suondavara"
+ c_suondavara_adj:0 "Suondavaran"
+ c_skolt:0 "Skolt"
+ c_skolt_adj:0 "Skoltean"
+ c_inari:0 "Inari"
+ c_inari_adj:0 "Inariean"
+ c_ter:0 "Ter"
+ c_ter_adj:0 "Terean"
+ c_kintus:0 "Kintuš"
+ c_kintus_adj:0 "Kintušean"
+ c_torne:0 "Torne"
+ c_torne_adj:0 "Tornean"
+ 
+ b_ski:0 "Ski"
+ b_uddevalla:0 "Uddevalla"
+ b_olafsvik:0 "Ólafsvík"
+ b_hofn:0 "Höfn"
+ b_vopnafjordur:0 "Vopnafjörður"
+ b_klaustur:0 "Klaustur"
+ b_glenelg:0 "Glenelg"
+ b_assynt:0 "Assynt"
+ b_wigton:0 "Wigton"
+ b_ume:0 "Ume"
+ b_vettanen:0 "Vettänen"
+ b_ylikainuu:0 "Ylikainuu"
+ b_kangos:0 "Kangos"
+ b_roavvenjarga:0 "Roavvenjárga"
+ b_kuusama:0 "Kuusama"
+ b_kaddlhutt:0 "Käddlhutt"
+ b_suenekele:0 "Suenekele"
+ b_skolt:0 "Skolt"
+ b_peliza:0 "Peliza"
+ b_varsiga:0 "Varsiga"
+ b_cascarena:0 "Cascarena"

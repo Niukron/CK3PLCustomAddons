@@ -4,6 +4,7 @@
  positive_desc_debug:0 "good"
  negative_desc_debug:0 "bad"
  test_case_desc_in_event:1 "My [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('other'))] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('other'))], [other.GetTitledFirstName]."
+
  positive_desc_loyal:0 "loyal"
  positive_desc_faithful:0 "faithful"
  positive_desc_principled:0 "principled"
@@ -78,6 +79,7 @@
  positive_desc_venerable:0 "venerable"
  positive_desc_youthful:0 "youthful"
  positive_desc_compliment_adjective:1 "[second.Custom('ComplimentAdjective')]"
+
  negative_desc_traitorous:0 "traitorous"
  negative_desc_subversive:0 "subversive"
  negative_desc_useless:0 "useless"

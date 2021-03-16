@@ -1,7 +1,5 @@
 ﻿l_english:
- #TODO
- #REMOVE CULTURES THAT ARE EXCLUSIVE TO 769
- #Altaic group	##SPLIT intO MONGOLIC & TURKIC
+ 
  #altaic_group:0 "Altaic"
  #altaic_group_collective_noun:0 "Altaics"
  #turkish:0 "Turkish"
@@ -36,6 +34,7 @@
  #khitan_collective_noun:0 "Khitans"
  #jurchen:0 "Jurchen"
  #jurchen_collective_noun:0 "Jurchens"
+ 
  arabic_group:0 "Arabic"
  arabic_group_collective_noun:1 "Arabs"
  bedouin:0 "Bedouin"
@@ -50,6 +49,7 @@
  andalusian_collective_noun:1 "Andalusians"
  yemeni:0 "Yemeni"
  yemeni_collective_noun:0 "Yemenis"
+ 
  berber_group:0 "Berber"
  berber_group_collective_noun:0 "Berbers"
  baranis:0 "Baranis"
@@ -58,6 +58,7 @@
  butr_collective_noun:1 "Butrs"
  zaghawa:0 "Zaghawa"
  zaghawa_collective_noun:0 "Zaghawas"
+ 
  byzantine_group:0 "Byzantine"
  byzantine_group_collective_noun:1 "Byzantines"
  armenian:0 "Armenian"
@@ -70,6 +71,7 @@
  georgian_collective_noun:1 "Georgians"
  assyrian:0 "Assyrian"
  assyrian_collective_noun:1 "Assyrians"
+ 
  baltic_group:0 "Baltic"
  baltic_group_collective_noun:1 "Baltics"
  latgalian:0 "Latgalian"
@@ -78,6 +80,7 @@
  lithuanian_collective_noun:1 "Lithuanians"
  prussian:0 "Prussian"
  prussian_collective_noun:1 "Prussians"
+ 
  balto_finnic_group:0 "Balto-Finnic"
  balto_finnic_group_collective_noun:1 "Balto-Finnics"
  finnish:0 "Finnish"
@@ -90,6 +93,7 @@
  karelian_collective_noun:1 "Karelians"
  vepsian:0 "Vepsian"
  vepsian_collective_noun:1 "Vepsians"
+ 
  celtic_group:0 "Celtic"
  celtic_group_collective_noun:0 "Celts"
  goidelic_group:0 "Goidelic"
@@ -98,6 +102,7 @@
  irish_collective_noun:0 "Irish"
  gaelic:0 "Gaelic"
  gaelic_collective_noun:0 "Gaels"
+ 
  brythonic_group:0 "Brythonic"
  brythonic_group_collective_noun:0 "Brythons"
  pictish:0 "Pictish"
@@ -110,6 +115,7 @@
  cornish_collective_noun:0 "Cornish"
  cumbrian:0 "Cumbrian"
  cumbrian_collective_noun:0 "Cumbrians"
+ 
  central_germanic_group:0 "Central Germanic"
  central_germanic_group_collective_noun:1 "Central Germanics"
  german:0 "German"
@@ -126,6 +132,7 @@
  swabian_collective_noun:0 "Swabians"
  bavarian:0 "Bavarian"
  bavarian_collective_noun:0 "Bavarians"
+ 
  dravidian_group:0 "Dravidian"
  dravidian_group_collective_noun:0 "Dravidians"
  tamil:0 "Tamil"
@@ -134,6 +141,7 @@
  telugu_collective_noun:1 "Telugus"
  kannada:0 "Kannada"
  kannada_collective_noun:1 "Kannadans"
+ 
  somalian_group:0 "Horn African"
  somalian_group_collective_noun:0 "Horn Africans"
  somali:0 "Somali"
@@ -142,6 +150,7 @@
  beja_collective_noun:0 "Bejas"
  afar:0 "Afar"
  afar_collective_noun:0 "Afars"
+ 
  east_african_group:0 "East African"
  east_african_group_collective_noun:1 "East Africans"
  ethiopian:0 "Ethiopian"
@@ -152,6 +161,7 @@
  welayta_collective_noun:0 "Welaytas"
  daju:0 "Daju"
  daju_collective_noun:0 "Dajus"
+ 
  central_african_group:0 "Central African"
  central_african_group_collective_noun:0 "Central Africans"
  kanuri:0 "Kanuri"
@@ -162,6 +172,7 @@
  sao_collective_noun:0 "Saos"
  nupe:0 "Nupe"
  nupe_collective_noun:0 "Nupes"
+ 
  yoruba_group:0 "Yoruba"
  yoruba_group_collective_noun:0 "Yorubas"
  ewe:0 "Ewe"
@@ -172,6 +183,7 @@
  edo_collective_noun:0 "Edos"
  igbo:0 "Igbo"
  igbo_collective_noun:0 "Igbos"
+ 
  sahelian_group:0 "Sahelian"
  sahelian_group_collective_noun:0 "Sahelians"
  soninke:0 "Soninke"
@@ -186,6 +198,7 @@
  gaw_collective_noun:0 "Qaws"
  songhai:0 "Songhai"
  songhai_collective_noun:0 "Songhais"
+ 
  west_african_group:1 "Guinean Uplander"
  west_african_group_collective_noun:1 "Guinean Uplanders"
  mande:0 "Mandé"
@@ -202,6 +215,7 @@
  mel_collective_noun:0 "Mels"
  senufo:0 "Senufo"
  senufo_collective_noun:0 "Senufos"
+ 
  senegambian_group:0 "Senegambian"
  senegambian_group_collective_noun:0 "Senegambians"
  pulaar:0 "Pulaar"
@@ -210,6 +224,7 @@
  serer_collective_noun:0 "Sereris"
  wolof:0 "Wolof"
  wolof_collective_noun:0 "Wolofs"
+ 
  akan_group:0 "Akan"
  akan_group_collective_noun:0 "Akans"
  akan:0 "Akan"
@@ -218,8 +233,9 @@
  guan_collective_noun:0 "Guans"
  kru:0 "Kru"
  kru_collective_noun:0 "Krus"
+ 
  east_slavic_group:0 "East Slavic"
- east_slavic_group_collective_noun:0 "East Slavics"
+ east_slavic_group_collective_noun:1 "East Slavs"
  russian:0 "Russian"
  russian_collective_noun:1 "Russians"
  ilmenian:0 "Ilmenian"
@@ -228,6 +244,7 @@
  severian_collective_noun:1 "Severians"
  volhynian:0 "Volhynian"
  volhynian_collective_noun:1 "Volhynians"
+ 
  iberian_group:0 "Iberian"
  iberian_group_collective_noun:1 "Iberians"
  basque:0 "Basque"
@@ -240,6 +257,7 @@
  portuguese_collective_noun:0 "Portuguese"
  visigothic:0 "Visigothic"
  visigothic_collective_noun:1 "Visigoths"
+ 
  indo_aryan_group:0 "Indo-Aryan"
  indo_aryan_group_collective_noun:0 "Indo-Aryans"
  bengali:0 "Bengali"
@@ -266,6 +284,7 @@
  nepali_collective_noun:1 "Nepalese"
  kashmiri:0 "Kashmiri"
  kashmiri_collective_noun:0 "Kashmiris"
+ 
  iranian_group:0 "Iranian"
  iranian_group_collective_noun:0 "Iranians"
  persian:0 "Persian"
@@ -288,12 +307,14 @@
  khwarezmian_collective_noun:0 "Khwarezmians"
  tajik:0 "Tajik"
  tajik_collective_noun:0 "Tajiks"
+ 
  israelite_group:0 "Israelite"
  israelite_group_collective_noun:0 "Israelites"
  ashkenazi:0 "Ashkenazi"
  ashkenazi_collective_noun:1 "Ashkenazis"
  sephardi:0 "Sephardi"
  sephardi_collective_noun:1 "Sephardis"
+ 
  latin_group:0 "Latin"
  latin_group_collective_noun:0 "Latins"
  italian:0 "Italian"
@@ -306,6 +327,7 @@
  sicilian_collective_noun:0 "Sicilians"
  cisalpine:0 "Cisalpine"
  cisalpine_collective_noun:1 "Cisalpinians"
+ 
  frankish_group:0 "Frankish"
  frankish_group_collective_noun:0 "Franks"
  frankish:0 "Frankish"
@@ -316,12 +338,14 @@
  norman_collective_noun:1 "Normans"
  occitan:0 "Occitan"
  occitan_collective_noun:1 "Occitans"
+ 
  magyar_group:2 "Magyar"
  magyar_group_collective_noun:0 "Magyars"
  mogyer:0 "Mogyër"
  mogyer_collective_noun:0 "Mogyërs"
  hungarian:0 "Hungarian"
  hungarian_collective_noun:1 "Hungarians"
+ 
  north_germanic_group:0 "North Germanic"
  north_germanic_group_collective_noun:0 "North Germanics"
  norse:0 "Norse"
@@ -332,6 +356,7 @@
  norwegian_collective_noun:1 "Norwegians"
  danish:0 "Danish"
  danish_collective_noun:1 "Danes"
+ 
  south_slavic_group:0 "South Slavic"
  south_slavic_group_collective_noun:0 "South Slavs"
  bosnian:0 "Bosnian"
@@ -344,6 +369,7 @@
  vlach_collective_noun:1 "Vlachs"
  bulgarian:0 "Bulgarian"
  bulgarian_collective_noun:1 "Bulgarians"
+ 
  ugro_permian_group:0 "Ugro-Permian"
  ugro_permian_group_collective_noun:1 "Ugro-Permians"
  #"Komi"
@@ -354,6 +380,7 @@
  khanty_collective_noun:1 "Ostyaks"
  samoyed:0 "Bjarmian"
  samoyed_collective_noun:1 "Bjarmians"
+ 
  volga_finnic_group:0 "Volga-Finnic"
  volga_finnic_group_collective_noun:1 "Volga-Finns"
  mordvin:0 "Mordvin"
@@ -366,6 +393,7 @@
  meshchera_collective_noun:1 "Meshcheras"
  muroma:0 "Muroma"
  muroma_collective_noun:1 "Muromas"
+ 
  west_germanic_group:0 "West Germanic"
  west_germanic_group_collective_noun:0 "West Germanics"
  english:0 "English"
@@ -380,6 +408,7 @@
  dutch_collective_noun:2 "Dutch"
  scottish:1 "Scots"
  scottish_collective_noun:1 "Scots"
+ 
  west_slavic_group:0 "West Slavic"
  west_slavic_group_collective_noun:0 "West Slavs"
  pommeranian:1 "Pomeranian"
@@ -394,6 +423,7 @@
  polabian_collective_noun:1 "Polabians"
  outremer:0 "Outremer"
  outremer_collective_noun:1 "Outremers"
+ 
  tibetan_group:0 "Tibetan"
  tibetan_group_collective_noun:0 "Tibetans"
  bodpa:0 "Bodpa"
@@ -412,12 +442,14 @@
  lhomon_collective_noun:0 "Lhomons"
  qiang:0 "Qiang"
  qiang_collective_noun:0 "Qiangs"
+ 
  chinese_group:0 "Chinese"
  chinese_group_collective_noun:0 "Chinese"
  han:0 "Han"
  han_collective_noun:0 "Han"
  maghrebi:0 "Maghrebi"
  maghrebi_collective_noun:1 "Maghrebis"
+ 
  mongolic_group:0 "Mongolic"
  mongolic_group_collective_noun:0 "Mongolics"
  mongol:0 "Mongol"
@@ -436,6 +468,7 @@
  tuyuhun_collective_noun:0 "Tuyuhuns"
  jurchen:0 "Jurchen"
  jurchen_collective_noun:1 "Jurchens"
+ 
  turkic_group:0 "Turkic"
  turkic_group_collective_noun:0 "Turkics"
  turkish:1 "Oghuz"
@@ -474,14 +507,17 @@
  shatuo_collective_noun:0 "Shatuos"
  ongud:0 "Öngüd"
  ongud_collective_noun:0 "Öngüds"
+ 
  qiangic_group:0 "Qiangic"
  qiangic_group_collective_noun:0 "Qiangic"
+ 
  burman_group:0 "Burman"
  burman_group_collective_noun:0 "Burmans"
  burmese:0 "Burmese"
  burmese_collective_noun:0 "Burmese"
  mon:0 "Mon"
  mon_collective_noun:0 "Mons"
+ 
  aragonese:0 "Aragonese"
  aragonese_collective_noun:0 "Aragonese"
  asturleonese:0 "Asturleonese"

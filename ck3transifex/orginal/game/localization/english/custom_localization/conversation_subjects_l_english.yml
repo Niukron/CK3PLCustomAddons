@@ -52,6 +52,7 @@ l_english:
  my_favorite_food:0 "my favorite food"
  my_ambitions:0 "my ambitions"
  myself:0 "myself"
+
  conversation_subject_weather:0 "the weather"
  conversation_subject_fighting_techniques:0 "how to bring down a foe of any kind"
  education_conversation_subject_charm:0 "the nature of charm and charisma"

@@ -4,6 +4,8 @@
  ACHIEVEMENT_GROUP_medium_achievements:0 "Medium"
  ACHIEVEMENT_GROUP_hard_achievements:0 "Hard"
  ACHIEVEMENT_GROUP_very_hard_achievements:0 "Very Hard"
+ 
+ 
  ACHIEVEMENT_until_death_do_us_part_achievement:0 "Until Death Do Us Part"
  ACHIEVEMENT_way_of_life_achievement:0 "Way of Life"
  ACHIEVEMENT_a_legacy_to_last_the_ages_achievement:0 "A Legacy to Last the Ages"
@@ -60,6 +62,8 @@
  ACHIEVEMENT_moving_up_in_the_world_achievement:0 "Moving up in the World"
  ACHIEVEMENT_beacon_of_progress_achievement:0 "Beacon of Progress"
  ACHIEVEMENT_mother_of_us_all_achievement:0 "Mother of us All"
+
+ 
  ACHIEVEMENT_DESC_until_death_do_us_part_achievement:1 "[marry|E] another [character|E]"
  ACHIEVEMENT_DESC_way_of_life_achievement:1 "Obtain #EMP every#! perk in a [lifestyle|E]"
  ACHIEVEMENT_DESC_a_legacy_to_last_the_ages_achievement:1 "Complete an entire [dynasty_perk|E] path"
@@ -67,7 +71,7 @@
  ACHIEVEMENT_DESC_dreadful_ruler_achievement:1 "Have the maximum amount of [dread|E]"
  ACHIEVEMENT_DESC_stressful_situation_achievement:1 "Suffer from a [mental_break|E]"
  ACHIEVEMENT_DESC_not_so_feudal_system_achievement:1 "Use the [claim_throne|E] [scheme|E] successfully"
- ACHIEVEMENT_DESC_the_succession_is_safe_achievement:2 "Have ten living children"
+ ACHIEVEMENT_DESC_the_succession_is_safe_achievement:3 "Have ten living children. $rd_character_blocked_from_achievement$"
  ACHIEVEMENT_DESC_almost_there_achievement:0 "As Álmos Árpád, form Hungary and convert to Christianity"
  ACHIEVEMENT_DESC_last_count_first_king_achievement:2 "As Duke Nuño of Portucale, form Portugal"
  ACHIEVEMENT_DESC_prolific_achievement:1 "Have one hundred living [dynasty|E] members"
@@ -76,10 +80,10 @@
  ACHIEVEMENT_DESC_turning_to_diamonds_achievement:1 "Reach the highest possible [stress_level|E]"
  ACHIEVEMENT_DESC_reconquista_achievement:0 "Starting as an Iberian Christian, convert all of Iberia to Christianity"
  ACHIEVEMENT_DESC_seven_holy_cities_achievement:1 "As a Hindu ruler, hold all seven Hindu [holy_sites|E] at the same time"
- ACHIEVEMENT_DESC_frankokratia_achievement:1 "As a French Catholic, hold and [completely_control|E] the [kingdom|E] of Thessalonika without holding or being vassalized to the Byzantine Empire"
+ ACHIEVEMENT_DESC_frankokratia_achievement:2 "As a French Catholic, hold and [completely_control|E] the [kingdom|E] of $k_thessalonika$ without holding or being vassalized to the Byzantine Empire"
  ACHIEVEMENT_DESC_celebrity_achievement:1 "Reach the highest possible [prestige_level|E]"
  ACHIEVEMENT_DESC_saint_achievement:1 "Reach the highest possible [piety_level|E]"
- ACHIEVEMENT_DESC_keeping_it_in_the_family_achievement:1 "Have a [child|E] with the Inbred [trait|E]"
+ ACHIEVEMENT_DESC_keeping_it_in_the_family_achievement:2 "Have a [child|E] with the Inbred [trait|E]. $rd_character_blocked_from_achievement$"
  ACHIEVEMENT_DESC_non_nobis_domine_achievement:1 "Found a [holy_order|E]"
  ACHIEVEMENT_DESC_trapped_in_the_web_achievement:1 "Have [strong_hooks|E] on three [direct_vassals|E]"
  ACHIEVEMENT_DESC_followed_by_shadows_achievement:1 "Know ten [secrets|E] simultaneously"
@@ -98,7 +102,7 @@
  ACHIEVEMENT_DESC_going_places_achievement:2 "As Hæsteinn of Montaigu in 867, hold any [kingdom|E] [title_tier|E] [title|E]"
  ACHIEVEMENT_DESC_land_of_the_rus_achievement:1 "Starting as Rurik the Troublemaker in 867, lead your [dynasty|E] to rule the [empire|E] of Russia"
  ACHIEVEMENT_DESC_above_god_achievement:1 "Have a [strong_hook|E] on your [head_of_faith|E]"
- ACHIEVEMENT_DESC_paragon_of_virtue_achievement:1 "Have three or more [virtuous|E] [traits|E]"
+ ACHIEVEMENT_DESC_paragon_of_virtue_achievement:1 "Have three or more [virtuous|E] [traits|E]. $rd_character_blocked_from_achievement$"
  ACHIEVEMENT_DESC_the_things_love_does_for_us_achievement:1 "Have a [lover|E] save you from a [murder|E] attempt"
  ACHIEVEMENT_DESC_fine_print_achievement:1 "Use a hook to modify a [feudal_contract|E]"
  ACHIEVEMENT_DESC_know_your_place_achievement:1 "Defeat a [faction|E] in a [war|E]"
@@ -110,12 +114,14 @@
  ACHIEVEMENT_DESC_for_the_faith_achievement:1 "Take part in a successful [great_holy_war|E], on either side"
  ACHIEVEMENT_DESC_bad_blood_achievement:1 "Go to [war|E] with one of your siblings over a [claim|E]"
  ACHIEVEMENT_DESC_seductive_achievement:1 "As any one [character|E], successfully [seduce|E] ten people"
- ACHIEVEMENT_DESC_the_emperors_new_clothes_achievement:1 "While holding any [empire|E] [title|E], be naked"
+ ACHIEVEMENT_DESC_the_emperors_new_clothes_achievement:1 "While holding any [empire|E] [title|E], be naked. $rd_character_blocked_from_achievement$"
  ACHIEVEMENT_DESC_a_perfect_circle_achievement:1 "Have only two distinct parents, grandparents, and great grandparents, counting absent ancestors as individual [characters|E]"
  ACHIEVEMENT_DESC_carolingian_consolidation_achievement:1 "Starting as a Karling, be the only [independent|E] Karling to hold a [landed|E] [title|E]"
  ACHIEVEMENT_DESC_moving_up_in_the_world_achievement:1 "Increase your [rank|E]"
  ACHIEVEMENT_DESC_beacon_of_progress_achievement:1 "Have your [culture|E] unlock all [innovations|E], excluding regional and culture-specific $game_concept_innovations$"
  ACHIEVEMENT_DESC_mother_of_us_all_achievement:1 "Starting as Magajiva Daura, reform an African pagan faith, and convert all [counties|E] in Africa to it"
+
+ 
  ACHIEVEMENT_LOCKED_GENERIC:0 "Achievement locked"
  NOT_ACHIEVEMENT_DESC_until_death_do_us_part_achievement:0 "$ACHIEVEMENT_LOCKED_GENERIC$"
  NOT_ACHIEVEMENT_DESC_way_of_life_achievement:0 "$ACHIEVEMENT_LOCKED_GENERIC$"
@@ -173,3 +179,5 @@
  NOT_ACHIEVEMENT_DESC_moving_up_in_the_world_achievement:0 "$ACHIEVEMENT_LOCKED_GENERIC$"
  NOT_ACHIEVEMENT_DESC_beacon_of_progress_achievement:0 "$ACHIEVEMENT_LOCKED_GENERIC$"
  NOT_ACHIEVEMENT_DESC_mother_of_us_all_achievement:0 "$ACHIEVEMENT_LOCKED_GENERIC$"
+
+ rd_character_blocked_from_achievement:0 "May not be available for characters created in the Ruler Designer"

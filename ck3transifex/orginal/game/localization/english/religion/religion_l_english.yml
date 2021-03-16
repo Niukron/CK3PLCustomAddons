@@ -1,9 +1,11 @@
 ﻿l_english:
  RELIGION_LOC_PLACEHOLDER:0 "#D PLACEHOLDER!#!"
+
  FAITH_HOSTILITY_EVIL:1 "[faith_evil|L]"
  FAITH_HOSTILITY_HOSTILE:1 "[faith_hostile|L]"
  FAITH_HOSTILITY_ASTRAY:1 "[faith_astray|L]"
  FAITH_HOSTILITY_RIGHTEOUS:1 "[faith_righteous|L]"
+
  FAITH_DESCRIPTION:0 "#T [faith|E]: [FAITH.GetTextIcon][FAITH.GetNameNoTooltip]#!\n[religion|E]: [FAITH.GetReligion.GetName] #weak ([FAITH.GetReligion.GetFamily.GetName])#!\n[fervor|E]: #V [FAITH.GetFervor|0]%#!"
  FAITH_DESCRIPTION_HOSTILITY:0 "I consider them $HOSTILITY_CATEGORY|V$"
  FAITH_AND_RELIGION:0 "[FAITH.GetTextIcon][FAITH.GetName] - [FAITH.GetReligion.GetName]"
@@ -24,13 +26,17 @@
  FERVOR_GAIN_FROM_HOLY_SITES:0 "From [holy_sites|E]"
  PIETY_HEAD_OF_FAITH:0 "[head_of_faith|E]"
  FERVOR_GAIN_SIZE_MODIFIER:0 "Size of [faith|E]"
+
  FAITH_DOCTRINE_GENERAL_TOOLTIP:1 "[FaithDoctrine.GetEffectsDescription( GetPlayer.GetFaith )]\n\n[FaithDoctrine.GetDescription( GetPlayer.GetFaith )|F]"
+
  HOLY_SITE_CHARACTER_MODIFIER_NAME:0 "[holy_site|E]: $NAME$"
+ 
  PIETY_TEXT_ICON:0 "@piety_icon!"
  PIETY_TEXT_ICON_christian:0 "@piety_icon_christian!"
  PIETY_TEXT_ICON_islam:0 "@piety_icon_islam!"
  PIETY_TEXT_ICON_pagan:0 "@piety_icon_pagan!"
  PIETY_TEXT_ICON_eastern:0 "@piety_icon_eastern!"
+
  faith_conversion_cost_reformed_converting_to_unreformed:1 "Converting from an [organized|E] Faith to an unreformed Faith"
  faith_conversion_cost_feudal_converting_to_unreformed:0 "Feudal Ruler converting to unreformed Faith"
  faith_conversion_cost_clan_converting_to_unreformed:0 "Clan Ruler converting to unreformed Faith"
@@ -49,10 +55,15 @@
  faith_conversion_cost_dead_religion:0 "Converting to a dead [religion|E]"
  faith_conversion_cost_other_religion_family:0 "Converting to a different [religious_family|E]"
  faith_conversion_cost_inside_religion_family:0 "Converting to a different [religion|E]"
+ faith_conversion_cost_sacrificed_hof:0 "Sacrificed [head_of_faith|E] of tolerated [faith|E]"
  faith_conversion_cost_unreformed_to_organized:0 "[GetFaithDoctrine('unreformed_faith_doctrine').GetBaseName] [faith|E] converting to an [organized|E] [faith]"
+
  MINIMUM_FAITH_CONVERSION_PIETY_COST:0 "Minimum Cost: [GetLocalPlayerPietyTextIcon]$VALUE|V$"
+
  faith_conversion_cost_fervor_difference:0 "Difference in [fervor|E]"
  faith_creation_cost_fervor_impact:0 "From current [fervor|E]"
+
+ 
  holy_site_jerusalem_name:0 "Jerusalem"
  holy_site_jerusalem_effect_name:0 "From [holy_site|E] #weak ($holy_site_jerusalem_name$)#!"
  holy_site_jerusalem_effects:0 "County Conversion Speed: #P +20%#!"
@@ -105,6 +116,8 @@
  holy_site_ragusa_effect_name:0 "From [holy_site|E] #weak ($holy_site_ragusa_name$)#!"
  holy_site_esztergom_name:0 "Esztergom"
  holy_site_esztergom_effect_name:0 "From [holy_site|E] #weak ($holy_site_esztergom_name$)#!"
+
+ 
  holy_site_mecca_name:0 "Mecca"
  holy_site_mecca_effect_name:0 "From [holy_site|E] #weak ($holy_site_mecca_name$)#!"
  holy_site_medina_name:0 "Medina"
@@ -148,12 +161,16 @@
  holy_site_zozan_effect_name:0 "From [holy_site|E] #weak ($holy_site_zozan_name$)#!"
  holy_site_kufa_name:0 "Kufa"
  holy_site_kufa_effect_name:0 "From [holy_site|E] #weak ($holy_site_kufa_name$)#!"
+
+ 
  holy_site_semien_name:0 "Semien"
  holy_site_semien_effect_name:0 "From [holy_site|E] #weak ($holy_site_semien_name$)#!"
  holy_site_sufed_name:0 "Sufed"
  holy_site_sufed_effect_name:0 "From [holy_site|E] #weak ($holy_site_sufed_name$)#!"
  holy_site_gerizim_name:0 "Mount Gerizim"
  holy_site_gerizim_effect_name:0 "From [holy_site|E] #weak ($holy_site_gerizim_name$)#!"
+
+ 
  holy_site_khozistan_name:0 "Khozistan"
  holy_site_khozistan_effect_name:0 "From [holy_site|E] #weak ($holy_site_khozistan_name$)#!"
  holy_site_udabhanda_name:0 "Udabhanda"
@@ -166,6 +183,9 @@
  holy_site_ahvaz_effect_name:0 "From [holy_site|E] #weak ($holy_site_ahvaz_name$)#!"
  holy_site_samarkand_name:0 "Samarkand"
  holy_site_samarkand_effect_name:0 "From [holy_site|E] #weak ($holy_site_samarkand_name$)#!"
+
+
+ 
  holy_site_bodh_gaya_name:0 "Bodh Gaya"
  holy_site_bodh_gaya_effect_name:0 "From [holy_site|E] #weak ($holy_site_bodh_gaya_name$)#!"
  holy_site_kusinagara_name:1 "Lumbini"
@@ -186,6 +206,8 @@
  holy_site_atamasthana_effect_name:0 "From [holy_site|E] #weak ($holy_site_atamasthana_name$)#!"
  holy_site_amaravati_name:0 "Amaravati"
  holy_site_amaravati_effect_name:0 "From [holy_site|E] #weak ($holy_site_amaravati_name$)#!"
+
+ 
  holy_site_varanasi_name:0 "Varanasi"
  holy_site_varanasi_effect_name:0 "From [holy_site|E] #weak ($holy_site_varanasi_name$)#!"
  holy_site_ayodhya_name:0 "Ayodhya"
@@ -200,6 +222,8 @@
  holy_site_ujjayini_effect_name:0 "From [holy_site|E] #weak ($holy_site_ujjayini_name$)#!"
  holy_site_dwarka_name:0 "Dwarka"
  holy_site_dwarka_effect_name:0 "From [holy_site|E] #weak ($holy_site_dwarka_name$)#!"
+
+ 
  holy_site_palitana_name:0 "Palitana"
  holy_site_palitana_effect_name:0 "From [holy_site|E] #weak ($holy_site_palitana_name$)#!"
  holy_site_shikharj_name:0 "Shikharj"
@@ -210,6 +234,8 @@
  holy_site_ellora_effect_name:0 "From [holy_site|E] #weak ($holy_site_ellora_name$)#!"
  holy_site_sittannavasal_name:0 "Sittannavasal"
  holy_site_sittannavasal_effect_name:0 "From [holy_site|E] #weak ($holy_site_sittannavasal_name$)#!"
+ 
+ 
  holy_site_itanagar_name:0 "Itanagar"
  holy_site_itanagar_effect_name:0 "From [holy_site|E] #weak ($holy_site_itanagar_name$)#!"
  holy_site_pemako_name:0 "Pemako"
@@ -218,6 +244,8 @@
  holy_site_rima_effect_name:0 "From [holy_site|E] #weak ($holy_site_rima_name$)#!"
  holy_site_tezu_name:0 "Tezu"
  holy_site_tezu_effect_name:0 "From [holy_site|E] #weak ($holy_site_tezu_name$)#!"
+ 
+ 
  holy_site_kathmandu_name:0 "Kathmandu"
  holy_site_kathmandu_effect_name:0 "From [holy_site|E] #weak ($holy_site_kathmandu_name$)#!"
  holy_site_ilam_name:0 "Ilam"
@@ -226,6 +254,8 @@
  holy_site_garwhal_effect_name:0 "From [holy_site|E] #weak ($holy_site_garwhal_name$)#!"
  holy_site_jumla_name:0 "Jumla"
  holy_site_jumla_effect_name:0 "From [holy_site|E] #weak ($holy_site_jumla_name$)#!"
+ 
+ 
  holy_site_maowun_name:0 "Maowün"
  holy_site_maowun_effect_name:0 "From [holy_site|E] #weak ($holy_site_maowun_name$)#!"
  holy_site_ngawa_name:0 "Ngawa"
@@ -242,6 +272,8 @@
  holy_site_yijinai_effect_name:0 "From [holy_site|E] #weak ($holy_site_yijinai_name$)#!"
  holy_site_alxa_name:0 "Alxa"
  holy_site_alxa_effect_name:0 "From [holy_site|E] #weak ($holy_site_alxa_name$)#!"
+
+ 
  holy_site_yazd_name:0 "Yazd"
  holy_site_yazd_effect_name:0 "From [holy_site|E] #weak ($holy_site_yazd_name$)#!"
  holy_site_nok_kundi_name:0 "Nok Kundi"
@@ -252,6 +284,8 @@
  holy_site_takht-e_soleyman_effect_name:0 "From [holy_site|E] #weak ($holy_site_takht-e_soleyman_name$)#!"
  holy_site_ushi-darena_name:0 "Ushi-darena"
  holy_site_ushi-darena_effect_name:0 "From [holy_site|E] #weak ($holy_site_ushi-darena_name$)#!"
+
+ 
  holy_site_uppsala_name:0 "Uppsala"
  holy_site_uppsala_effect_name:0 "From [holy_site|E] #weak ($holy_site_uppsala_name$)#!"
  holy_site_lejre_name:0 "Lejre"
@@ -262,6 +296,12 @@
  holy_site_zeeland_effect_name:0 "From [holy_site|E] #weak ($holy_site_zeeland_name$)#!"
  holy_site_ranaheim_name:0 "Ranaheim"
  holy_site_ranaheim_effect_name:0 "From [holy_site|E] #weak ($holy_site_ranaheim_name$)#!"
+ holy_site_jorvik_name:0 "Jorvik"
+ holy_site_jorvik_effect_name:0 "From [holy_site|E] #weak ($holy_site_jorvik_name$)#!"
+ holy_site_konugardr_name:0 "$cn_konugardr_NORSE$"
+ holy_site_konugardr_effect_name:0 "From [holy_site|E] #weak ($holy_site_konugardr_name$)#!"
+
+ 
  holy_site_raivola_name:0 "Raivola"
  holy_site_raivola_effect_name:0 "From [holy_site|E] #weak ($holy_site_raivola_name$)#!"
  holy_site_hiiumaa_name:0 "Hiiumaa"
@@ -270,6 +310,8 @@
  holy_site_akkel_effect_name:0 "From [holy_site|E] #weak ($holy_site_akkel_name$)#!"
  holy_site_perm_name:0 "Perm"
  holy_site_perm_effect_name:0 "From [holy_site|E] #weak ($holy_site_perm_name$)#!"
+
+ 
  holy_site_kiev_name:0 "Kiev"
  holy_site_kiev_effect_name:0 "From [holy_site|E] #weak ($holy_site_kiev_name$)#!"
  holy_site_novgorod_name:0 "Novgorod"
@@ -278,6 +320,8 @@
  holy_site_barlad_effect_name:0 "From [holy_site|E] #weak ($holy_site_barlad_name$)#!"
  holy_site_plock_name:0 "Plock"
  holy_site_plock_effect_name:0 "From [holy_site|E] #weak ($holy_site_plock_name$)#!"
+
+ 
  holy_site_pokaini_name:0 "Pokaini"
  holy_site_pokaini_effect_name:0 "From [holy_site|E] #weak ($holy_site_pokaini_name$)#!"
  holy_site_torun_name:0 "Toruń"
@@ -286,6 +330,8 @@
  holy_site_braslau_effect_name:0 "From [holy_site|E] #weak ($holy_site_braslau_name$)#!"
  holy_site_rugen_name:0 "Rügen"
  holy_site_rugen_effect_name:0 "From [holy_site|E] #weak ($holy_site_rugen_name$)#!"
+
+ 
  holy_site_pest_name:0 "Pest"
  holy_site_pest_effect_name:0 "From [holy_site|E] #weak ($holy_site_pest_name$)#!"
  holy_site_crimea_name:0 "Crimea"
@@ -296,6 +342,8 @@
  holy_site_sarysyn_effect_name:0 "From [holy_site|E] #weak ($holy_site_sarysyn_name$)#!"
  holy_site_poszony_name:0 "Poszony"
  holy_site_poszony_effect_name:0 "From [holy_site|E] #weak ($holy_site_poszony_name$)#!"
+
+ 
  holy_site_kerch_name:0 "Kerch"
  holy_site_kerch_effect_name:0 "From [holy_site|E] #weak ($holy_site_kerch_name$)#!"
  holy_site_kara_khorum_name:0 "Karakorum"
@@ -308,6 +356,8 @@
  holy_site_preslav_effect_name:0 "From [holy_site|E] #weak ($holy_site_preslav_name$)#!"
  holy_site_tavan_bogd_name:0 "Tavan Bogd"
  holy_site_tavan_bogd_effect_name:0 "From [holy_site|E] #weak ($holy_site_tavan_bogd_name$)#!"
+
+ 
  holy_site_tyumen_name:0 "Tyumen"
  holy_site_tyumen_effect_name:0 "From [holy_site|E] #weak ($holy_site_tyumen_name$)#!"
  holy_site_surgut_name:0 "Surgut"
@@ -316,18 +366,24 @@
  holy_site_ob_effect_name:0 "From [holy_site|E] #weak ($holy_site_ob_name$)#!"
  holy_site_olkhon_name:0 "Olkhon"
  holy_site_olkhon_effect_name:0 "From [holy_site|E] #weak ($holy_site_olkhon_name$)#!"
+ 
+ 
  holy_site_athens_name:0 "Athens"
  holy_site_athens_effect_name:0 "From [holy_site|E] #weak ($holy_site_athens_name$)#!"
  holy_site_sparta_name:0 "Sparta"
  holy_site_sparta_effect_name:0 "From [holy_site|E] #weak ($holy_site_sparta_name$)#!"
  holy_site_carthage_name:0 "Carthage"
  holy_site_carthage_effect_name:0 "From [holy_site|E] #weak ($holy_site_carthage_name$)#!"
+
+ 
  holy_site_kabul_name:0 "Kabul"
  holy_site_kabul_effect_name:0 "From [holy_site|E] #weak ($holy_site_kabul_name$)#!"
  holy_site_multan_name:0 "Multan"
  holy_site_multan_effect_name:0 "From [holy_site|E] #weak ($holy_site_multan_name$)#!"
  holy_site_bost_name:0 "Bost"
  holy_site_bost_effect_name:0 "From [holy_site|E] #weak ($holy_site_bost_name$)#!"
+
+ 
  holy_site_khotan_name:1 "Khotan"
  holy_site_khotan_effect_name:1 "From [holy_site|E] #weak ($holy_site_khotan_name$)#!"
  holy_site_balkh_name:1 "Balkh"
@@ -338,8 +394,12 @@
  holy_site_purang_effect_name:0 "From [holy_site|E] #weak ($holy_site_purang_name$)#!"
  holy_site_gilgit_name:0 "Gilgit"
  holy_site_gilgit_effect_name:0 "From [holy_site|E] #weak ($holy_site_gilgit_name$)#!"
+
+ 
  holy_site_suzhou_name:0 "Suzhou"
  holy_site_suzhou_effect_name:0 "From [holy_site|E] #weak ($holy_site_suzhou_name$)#!"
+
+ 
  holy_site_awkar_name:0 "Awkar"
  holy_site_awkar_effect_name:0 "From [holy_site|E] #weak ($holy_site_awkar_name$)#!"
  holy_site_jenne_name:0 "Jenne"
@@ -350,6 +410,8 @@
  holy_site_kukiya_effect_name:0 "From [holy_site|E] #weak ($holy_site_kukiya_name$)#!"
  holy_site_wadan_name:0 "Wadan"
  holy_site_wadan_effect_name:0 "From [holy_site|E] #weak ($holy_site_wadan_name$)#!"
+
+ 
  holy_site_daura_name:0 "Daura"
  holy_site_daura_effect_name:0 "From [holy_site|E] #weak ($holy_site_daura_name$)#!"
  holy_site_garumele_name:0 "Garumele"
@@ -360,6 +422,8 @@
  holy_site_el_fasher_effect_name:0 "From [holy_site|E] #weak ($holy_site_el_fasher_name$)#!"
  holy_site_wandala_name:0 "Wandala"
  holy_site_wandala_effect_name:0 "From [holy_site|E] #weak ($holy_site_wandala_name$)#!"
+
+ 
  holy_site_kisi_name:0 "Kisi"
  holy_site_kisi_effect_name:0 "From [holy_site|E] #weak ($holy_site_kisi_name$)#!"
  holy_site_sherbro_name:0 "Sherbro"
@@ -368,6 +432,8 @@
  holy_site_kayor_effect_name:0 "From [holy_site|E] #weak ($holy_site_kayor_name$)#!"
  holy_site_kasa_name:0 "Kasa"
  holy_site_kasa_effect_name:0 "From [holy_site|E] #weak ($holy_site_kasa_name$)#!"
+
+ 
  holy_site_bono_name:0 "Bono"
  holy_site_bono_effect_name:0 "From [holy_site|E] #weak ($holy_site_bono_name$)#!"
  holy_site_kumasi_name:0 "Kumasi"
@@ -376,6 +442,8 @@
  holy_site_ife_effect_name:0 "From [holy_site|E] #weak ($holy_site_ife_name$)#!"
  holy_site_nikki_name:0 "Nikki"
  holy_site_nikki_effect_name:0 "From [holy_site|E] #weak ($holy_site_nikki_name$)#!"
+
+ 
  holy_site_aswan_name:0 "Aswan"
  holy_site_aswan_effect_name:0 "From [holy_site|E] #weak ($holy_site_aswan_name$)#!"
  holy_site_wadi_el_milk_name:0 "Wadi el-Milk"
@@ -385,6 +453,8 @@
  holy_site_naqis_effect_name:0 "From [holy_site|E] #weak ($holy_site_naqis_name$)#!"
  holy_site_sennar_name:0 "Sennar"
  holy_site_sennar_effect_name:0 "From [holy_site|E] #weak ($holy_site_sennar_name$)#!"
+
+ 
  holy_site_danakil_name:0 "Danakil"
  holy_site_danakil_effect_name:0 "From [holy_site|E] #weak ($holy_site_danakil_name$)#!"
  holy_site_kaffa_name:0 "Kaffa"
@@ -395,12 +465,16 @@
  holy_site_makhir_effect_name:0 "From [holy_site|E] #weak ($holy_site_makhir_name$)#!"
  holy_site_mogadishu_name:0 "Mogadishu"
  holy_site_mogadishu_effect_name:0 "From [holy_site|E] #weak ($holy_site_mogadishu_name$)#!"
+
  rf_abrahamic:0 "Abrahamic"
  rf_pagan:0 "Pagan"
  rf_eastern:0 "Eastern"
+
  sinful_theocrat_exposed_title:0 "Sinful [sinful_theocrat.Custom('GetActualBishopTitle')] Exposed"
  virtuous_theocrat_celebrated_title:0 "Virtuous [virtuous_theocrat.Custom('GetActualBishopTitle')] Celebrated"
+
  doctrine_parameter_number_of_spouses:0 "Rulers, if allowed by [gender_law|E], can have up to $VALUE|V0$ spouses"
+ 
  doctrine_parameter_number_of_spouses_1:0 "Characters can only have one [spouse|E]"
  doctrine_parameter_marriage_event:0 "Rulers get a significant bonus when they marry for the first time"
  doctrine_parameter_spouse_piety_loss:0 "Having too few [spouses|E] will incur a [piety|E] penalty"
@@ -430,6 +504,7 @@
  doctrine_parameter_increased_dynasty_prestige_birth_mult:0 "[prestige|E] from [dynasty_prestige_level|E] for newborns: $VALUE|+=%0$"
  doctrine_parameter_increased_dynasty_prestige_marriage_mult:0 "[prestige|E] from [dynasty_prestige_level|E] when getting [married|E]: $VALUE|+=%0$"
  doctrine_parameter_increased_dynasty_prestige_long_reign_mult:0 "Maximum [long_reign|E] opinion bonus: $VALUE|+=%0$"
+ 
  doctrine_homosexuality_name:1 "Same-Sex Relations"
  doctrine_homosexuality_crime_name:1 "Criminal"
  doctrine_homosexuality_crime_desc:0 "The sinful desires of sodomites are a danger to society itself, so they shall be punished and locked away for their transgressions."
@@ -440,6 +515,7 @@
  doctrine_parameter_homosexuality_illegal:0 "Men with the [GetTrait('sodomite').GetName( GetDummyMale )] [trait|E] are [criminals|E]"
  doctrine_parameter_homosexuality_shunned:0 "Men with the [GetTrait('sodomite').GetName( GetDummyMale )] [trait|E] are [shunned|E]"
  doctrine_parameter_homosexuality_accepted:0 "Same-sex relationships are fully accepted"
+ 
  doctrine_deviancy_name:0 "Deviancy"
  doctrine_deviancy_crime_name:0 "Criminal"
  doctrine_deviancy_crime_desc:0 "It is clear that there is only one proper way to love another. Any deviations from that form are sinful and should be punished."
@@ -450,6 +526,7 @@
  doctrine_parameter_deviancy_illegal:0 "Characters with the [GetTrait('deviant').GetName( GetPlayer )] [trait|E] are [criminals|E]"
  doctrine_parameter_deviancy_shunned:0 "Characters with the [GetTrait('deviant').GetName( GetPlayer )] [trait|E] are [shunned|E]"
  doctrine_parameter_deviancy_accepted:0 "Characters with the [GetTrait('deviant').GetName( GetPlayer )] [trait|E] are fully accepted"
+ 
  doctrine_witchcraft_name:0 "Witchcraft"
  doctrine_witchcraft_crime_name:0 "Criminal"
  doctrine_witchcraft_crime_desc:0 "Only the divine have the right to work miracles on this earth. Any who make profane attempts to do the same shall be punished for their hubris and arrogance."
@@ -460,6 +537,7 @@
  doctrine_parameter_witchcraft_illegal:0 "Characters with the [GetTrait('witch').GetName( GetPlayer )] [trait|E] are [criminals|E]"
  doctrine_parameter_witchcraft_shunned:0 "Characters with the [GetTrait('witch').GetName( GetPlayer )] [trait|E] are [shunned|E]"
  doctrine_parameter_witchcraft_accepted:0 "Characters with the [GetTrait('witch').GetName( GetPlayer )] [trait|E] are fully accepted"
+ 
  doctrine_head_of_faith_name:0 "Head of Faith"
  doctrine_head_of_faith_desc:0 "The [head_of_faith|E] is the leader of a [faith|E]"
  doctrine_no_head_name:0 "None"
@@ -475,6 +553,7 @@
  doctrine_parameter_temporal_head_of_faith:0 "The position of [head_of_faith|E] is given to the founder of the [faith|E] and is passed on to their [primary_heir|E] when they die"
  doctrine_parameter_temporal_head_of_faith_directed_holy_wars:1 "If the Faith has [great_holy_wars|E], the Head of Faith is allowed to direct the war and choose who the war target will be"
  doctrine_temporal_head_desc:0 "The spiritual and the physical are intrinsically bound together, whole and inseparable. It is foolish to have two different leaders for one realm."
+ 
  doctrine_marriage_type_name:0 "Marriage Type"
  doctrine_monogamy_name:0 "Monogamous"
  doctrine_monogamy_desc:0 "Marriage is a sacred bond between two individuals. Attempting to form such a bond with multiple people at once is sacrilege."
@@ -482,6 +561,7 @@
  doctrine_polygamy_desc:0 "Since marriage is a holy union, having multiple marriages is clearly more holy than having just a single marriage — so long as each marriage is holy in and of itself."
  doctrine_concubines_name:0 "Consorts & Concubines"
  doctrine_concubines_desc:0 "Marriage is a sacred bond, but as long as their spouse takes priority one may be permitted to have concubines or consorts to engage with as well."
+ 
  hostility_group_name:0 "Hostility Group"
  abrahamic_hostility_doctrine_name:0 "Abrahamic"
  abrahamic_hostility_doctrine_desc:0 "The following religions are Abrahamic:\n[GetReligionFamily('rf_abrahamic').GetReligions]"
@@ -489,17 +569,21 @@
  pagan_hostility_doctrine_desc:0 "The following religions are Pagan:\n[GetReligionFamily('rf_pagan').GetReligions]"
  eastern_hostility_doctrine_name:0 "Eastern"
  eastern_hostility_doctrine_desc:0 "The following religions are Eastern:\n[GetReligionFamily('rf_eastern').GetReligions]"
+ 
  special_tolerance_name:0 "Special Tolerance"
  special_doctrine_ecumenical_christian_name:0 "Ecumenism"
  special_doctrine_ecumenical_christian_desc:0 "Our religious leaders have historically been engaged in inter-faith dialogs to increase cooperation amongst the different Christian denominations."
+
  special_doctrine_full_tolerance_name:0 "Full Tolerance"
  full_tolerance_name:0 "$special_doctrine_full_tolerance_name$"
  doctrine_parameter_hostility_override_special_doctrine_full_tolerance:0 "All [faiths|E] are considered to be [GetHostilityLevelName( FAITH_DOCTRINE_PARAMETER.GetIntValue )|V]"
  special_doctrine_full_tolerance_desc:0 "Everyone is free to chose their own faith. Our differences do not divide us, they make us stronger."
+ 
  nudity_doctrine_name:0 "View on Nudity"
  special_doctrine_naked_priests_name:0 "Naked Priests"
  special_doctrine_naked_priests_desc:0 "Our priests know that clothes entrap the spirit and prevent us from achieving true enlightenment. Only by shedding our garbs can we awaken our souls and experience [ROOT.Faith.HighGodNamePossessive] love."
  doctrine_parameter_naked_priests_active:0 "Priests and zealous characters do not wear clothes."
+
  doctrine_gender_name:0 "View on Gender"
  doctrine_gender_male_dominated_name:0 "Male Dominated"
  doctrine_gender_male_dominated_desc:0 "Men are stronger and better equipped to lead us in this harsh and unforgiving world, so we shall entrust them with governing our society."
@@ -507,6 +591,7 @@
  doctrine_gender_equal_desc:0 "It is foolish to deny skilled people a role in government purely because of their gender. We shall allow all who are able to govern our society."
  doctrine_gender_female_dominated_name:0 "Female Dominated"
  doctrine_gender_female_dominated_desc:0 "Women have proven time and time again that only they have the wisdom and prudence necessary to properly govern our society."
+ 
  doctrine_divorce_name:0 "Divorce"
  doctrine_divorce_disallowed_name:0 "Disallowed"
  doctrine_divorce_disallowed_desc:0 "The vows of marriage are final and binding. Only death may do us part."
@@ -517,6 +602,7 @@
  doctrine_parameter_divorce_disallowed:0 "Characters are never allowed to [divorce|E] their [spouse|E]"
  doctrine_parameter_divorce_approval:0 "Characters are allowed to [divorce|E] their [spouse|E] if their Spiritual [head_of_faith|E] approves (or [house_head|E] if no Spiritual Head of Faith exists)"
  doctrine_parameter_divorce_allowed:1 "Characters are always allowed to [divorce|E] their [spouse|E] by spending [piety|E]"
+ 
  doctrine_bastardry_name:0 "Bastardry"
  doctrine_bastardry_none_name:0 "No Bastards"
  doctrine_bastardry_none_desc:0 "Blood determines lineage, not marriage. Children born out of wedlock are just as legitimate as any other."
@@ -527,6 +613,7 @@
  doctrine_parameter_bastards_none:0 "There is no such thing as a [bastard|E]. All children are equally [legitimate|E]"
  doctrine_parameter_bastards_legitimize:0 "[bastards|E] can be legitimized if their [house_head|E] or [dynast|E] approves"
  doctrine_parameter_bastards_always:0 "[bastards|E] can never be legitimized"
+ 
  doctrine_adultery_men_name:0 "Male Adultery"
  doctrine_adultery_men_crime_name:0 "Criminal"
  doctrine_adultery_men_crime_desc:0 "It is a crime for men to engage in intercourse outside of marriage, and they shall be punished accordingly."
@@ -537,6 +624,7 @@
  doctrine_parameter_adultery_male_crime:0 "Men with the [GetTrait('adulterer').GetName( GetDummyMale )] or [GetTrait('fornicator').GetName( GetDummyMale )] [trait|E] are [criminals|E]"
  doctrine_parameter_adultery_male_shunned:0 "Men with the [GetTrait('adulterer').GetName( GetDummyMale )] or [GetTrait('fornicator').GetName( GetDummyMale )] [trait|E] are [shunned|E]"
  doctrine_parameter_adultery_male_accepted:0 "Men with the [GetTrait('adulterer').GetName( GetDummyMale )] or [GetTrait('fornicator').GetName( GetDummyMale )] [trait|E] are fully accepted"
+ 
  doctrine_adultery_women_name:0 "Female Adultery"
  doctrine_adultery_women_crime_name:0 "Criminal"
  doctrine_adultery_women_crime_desc:0 "It is a crime for women to engage in intercourse outside of marriage, and they shall be punished accordingly."
@@ -547,12 +635,15 @@
  doctrine_parameter_adultery_female_crime:0 "Women with the [GetTrait('adulterer').GetName( GetDummyFemale )] or [GetTrait('fornicator').GetName( GetDummyFemale )] [trait|E] are [criminals|E]"
  doctrine_parameter_adultery_female_shunned:0 "Women with the [GetTrait('adulterer').GetName( GetDummyFemale )] or [GetTrait('fornicator').GetName( GetDummyFemale )] [trait|E] are [shunned|E]"
  doctrine_parameter_adultery_female_accepted:0 "Women with the [GetTrait('adulterer').GetName( GetDummyFemale )] or [GetTrait('fornicator').GetName( GetDummyFemale )] [trait|E] are fully accepted"
+ 
  doctrine_kinslaying_name:0 "Kinslaying"
  doctrine_kinslaying_any_dynasty_member_crime_name:0 "Dynastic is Criminal"
  doctrine_kinslaying_any_dynasty_member_crime_desc:0 "All kin are bound by blood, and to kill even a distant relative is a grievous crime against the entire dynasty. Such transgressions will not be forgotten."
  doctrine_parameter_kinslaying_any_dynasty_member_crime:0 "[kinslayers|E] with the [GetTrait('kinslayer_1').GetName( GetPlayer )] [trait|E] or worse are [criminals|E] in the eyes of their [dynasty|E]"
  doctrine_parameter_kinslaying_extended_family_crime:0 "[kinslayers|E] with the [GetTrait('kinslayer_2').GetName( GetPlayer )] [trait|E] or worse are [criminals|E] in the eyes of their [dynasty|E]"
  doctrine_parameter_kinslaying_close_kin_crime:0 "[kinslayers|E] with the [GetTrait('kinslayer_3').GetName( GetPlayer )] [trait|E] are [criminals|E] in the eyes of their [dynasty|E]"
+ 
+
  doctrine_parameter_kinslaying_shunned:0 "[kinslayers|E] are [shunned|E]"
  doctrine_parameter_kinslaying_accepted:0 "Characters who kill kin are not seen as [kinslayers|E]"
  doctrine_kinslaying_extended_family_crime_name:0 "Familial is Criminal"
@@ -564,6 +655,7 @@
  doctrine_kinslaying_accepted_name:0 "Accepted"
  doctrine_kinslaying_accepted_desc:0 "The murder of one's family is no different from any other murder, and shall be treated in the same way."
  kinslayer_crime_dynasty:0 "Kinslayer"
+ 
  doctrine_consanguinity_name:0 "Consanguinity"
  doctrine_consanguinity_restricted_name:0 "Close-kin Taboo"
  doctrine_consanguinity_restricted_desc:0 "It is a sin against [ROOT.Faith.HighGodName] to permit two relatives to marry each other or engage in sexual relationships."
@@ -581,9 +673,11 @@
  doctrine_consanguinity_unrestricted_desc:0 "It is natural and healthy for family members to love each other, and those who say that love should be restricted to non-sexual relationships are fools."
  doctrine_parameter_consanguinity_unrestricted_marriage:0 "Marriage between all family members is allowed"
  doctrine_parameter_consanguinity_unrestricted_incest:0 "Sexual relations between any family members will not give the incest [secret|E]"
+ 
  doctrine_parameter_allows_cousin_marriage:0 ""
  doctrine_parameter_allows_aunt_nephew_and_uncle_niece_marriage:0 ""
  doctrine_parameter_allows_unrestricted_marriage:0 ""
+ 
  doctrine_pluralism_name:0 "Religious Attitude"
  doctrine_parameter_hostility_towards_us_mult:0 "Adherents of other [faiths|E] will have opinion penalties of $VALUE|%V0$"
  doctrine_pluralism_fundamentalist_name:0 "Fundamentalist"
@@ -601,6 +695,7 @@
  doctrine_parameter_pluralism_pluralistic_faction_join_chance:1 "Counties of other [faiths|E] are #P less likely#! to join [factions|E]"
  doctrine_parameter_pluralism_pluralistic_resistant_to_heresy:0 "#P Reduced danger#! from heresies when at low [fervor|E]"
  doctrine_parameter_pluralism_pluralistic_holy_wars_preserve_vassals:0 "Winning a [holy_war|E] will vassalize infidel [rulers|E] in the target area instead of seizing their land"
+ 
  doctrine_theocracy_name:0 "Clerical Tradition"
  doctrine_theocracy_temporal_name:0 "Theocratic"
  doctrine_theocracy_temporal_desc:0 "Only sanctioned [ROOT.Faith.PriestNeuterPlural] can be entrusted with upholding our faith's doctrines and, by extension, with managing and caring for our sacred places."
@@ -608,8 +703,10 @@
  doctrine_theocracy_lay_clergy_name:0 "Lay Clergy"
  doctrine_theocracy_lay_clergy_desc:0 "Any devoted follower is more than capable of understanding, following, and preaching the doctrines of our faith."
  doctrine_parameter_theocracy_temple_ownership:0 "Secular [rulers|E] directly control their own Temple [holdings|E] and get all associated benefits."
+ 
  doctrine_parameter_lay_clergy:0 ""
  doctrine_parameter_allowed_holding_type_church_holding:0 ""
+ 
  doctrine_clerical_function_name:0 "Clerical Function"
  doctrine_clerical_function_taxation_name:1 "Control"
  doctrine_clerical_function_taxation_desc:1 "The [ROOT.Faith.AltPriestTermPlural] derives its authority from [ROOT.Faith.HighGodName] [ROOT.Faith.HighGodHerselfHimself], and that still applies here on Earth."
@@ -618,6 +715,7 @@
  doctrine_clerical_function_recruitment_name:0 "Recruitment"
  doctrine_clerical_function_recruitment_desc:1 "Our [ROOT.Faith.PriestNeuterPlural] can take up arms and defend our faith. The responsibility to lead as an example grants them extra strength in combat."
  doctrine_parameter_clergy_can_fight:0 "Members of the [clergy|E] can serve as [commanders|E] or $knight_culture_player_plural$"
+ 
  doctrine_clerical_gender_name:0 "Clerical Gender"
  doctrine_clerical_gender_male_only_name:0 "Only Men"
  doctrine_clerical_gender_male_only_desc:0 "Only men can shoulder the great responsibility of serving as [ROOT.Faith.PriestMalePlural] of our faith."
@@ -628,6 +726,7 @@
  doctrine_clerical_gender_either_name:0 "Either"
  doctrine_clerical_gender_either_desc:0 "Anyone who has felt the call of the divine should be able to serve as a [ROOT.Faith.PriestNeuterPlural], no matter their gender."
  doctrine_parameter_clergy_can_be_either_gender:0 "Gender has no influence on who can be granted Temple [holdings|E] or serve as [court_chaplains|E]"
+ 
  doctrine_clerical_marriage_name:0 "Clerical Marriage"
  doctrine_clerical_marriage_allowed_name:0 "Allowed"
  doctrine_clerical_marriage_allowed_desc:0 "Marriage is a holy institution, and [ROOT.Faith.PriestNeuterPlural] should be able to take part in it just like any other faithful adherent."
@@ -635,6 +734,7 @@
  doctrine_clerical_marriage_disallowed_name:0 "Disallowed"
  doctrine_clerical_marriage_disallowed_desc:0 "Becoming a [ROOT.Faith.PriestNeuter] means devoting one's life to [ROOT.Faith.HighGodName]. It is inherently unfaithful to consider taking a mortal spouse in addition to that."
  doctrine_parameter_clergy_can_marry_disabled:0 "Members of the [clergy|E] are forbidden from [marrying|E]"
+ 
  doctrine_clerical_succession_name:0 "Clerical Appointment"
  doctrine_clerical_succession_temporal_appointment_name:0 "Temporal, Revocable"
  doctrine_clerical_succession_temporal_appointment_desc:1 "[ROOT.Faith.BishopNeuterPlural|U] are ultimately servants of the realm, and so should be able to be hired and fired by their liege with only small restrictions."
@@ -648,45 +748,58 @@
  doctrine_parameter_clerical_appointment_head_of_faith:1 "The [head_of_faith|E] or clergy appoints all [realm_priests|E] or [court_chaplains|E]"
  doctrine_parameter_clerical_appointment_fixed_disabled:1 "The [realm_priest|E] or [court_chaplain|E] can be fired and replaced by a new appointee"
  doctrine_parameter_clerical_appointment_fixed:0 "The [realm_priest|E] or [court_chaplain|E] have their seat for life"
+
  unreformed_faith_doctrine_name:0 "Unreformed"
  unreformed_faith_name:0 "$unreformed_faith_doctrine_name$"
  unreformed_faith_doctrine_desc:1 "An Unreformed Faith lacks an organized clergy and established canonical doctrines; different communities can nominally follow the same faith while having wildly different religious practices and beliefs."
  doctrine_parameter_unreformed:1 "Prevents Tribal [rulers|E] from changing [government|E] type \n$EFFECT_LIST_BULLET$Grants the [unreformed_pagan_combat_bonus|E]"
  doctrine_parameter_hostility_override_tenet_unreformed_syncretism:1 "Non-Pagan [faiths|E] with the $tenet_unreformed_syncretism_name$ tenet are considered [GetHostilityLevelName( FAITH_DOCTRINE_PARAMETER.GetIntValue )|V] instead of $hostility_evil_tooltippable$"
+ 
  heresy_hostility_name:0 "View on Heresy"
  heresy_hostility_doctrine_name:0 "Heresy"
  heresy_hostility_doctrine_desc:0 "Beware the false prophet who would twist and subvert the Faith for their own ends. Those who would do so are heretics and should be destroyed."
+
  divine_destiny_name:0 "Divine Destiny"
  divine_destiny_doctrine_name:0 "Rightful Rulers of the World"
  divine_destiny_doctrine_desc:0 "We are those who will usher in an era of peace and prosperity for all peoples. We are the rightful rulers of the world."
  doctrine_parameter_divine_destiny_holy_war_cost_reduction:0 "Holy War [piety|e] Cost: #P -50%#!"
+ 
  special_doctrine_is_christian_faith_name:0 "Teachings of Jesus"
  is_christian_faith_name:0 "$special_doctrine_is_christian_faith_name$"
  special_doctrine_is_christian_faith_desc:0 "There are those in the world who adhere to the teachings of Jesus without acknowledging his divinity. Though blasphemous, we should still show compassion to these misguided souls, as they may one day become converts to the true faith."
  doctrine_parameter_hostility_override_tenet_christian_syncretism:2 "Non-Christian [faiths|E] with the $tenet_christian_syncretism_name$ tenet are considered [GetHostilityLevelName( FAITH_DOCTRINE_PARAMETER.GetIntValue )|V] instead of $hostility_evil_tooltippable$"
+
  special_doctrine_is_islamic_faith_name:0 "Teachings of the Prophet"
  is_islamic_faith_name:0 "$special_doctrine_is_islamic_faith_name$"
  special_doctrine_is_islamic_faith_desc:0 "Although they do not follow all of the laws of the Prophet, there are some in this world who are more guided by the will of Allah than they know. With time, these half-converts may even give up their evil ways and become true members of the Ummah!"
  doctrine_parameter_hostility_override_tenet_islamic_syncretism:2 "Non-Islamic [faiths|E] with the $tenet_islamic_syncretism_name$ tenet are considered [GetHostilityLevelName( FAITH_DOCTRINE_PARAMETER.GetIntValue )|V] instead of $hostility_evil_tooltippable$"
+
  special_doctrine_is_jewish_faith_name:0 "Teachings of Moses"
  is_jewish_faith_name:0 "$special_doctrine_is_jewish_faith_name$"
  special_doctrine_is_jewish_faith_desc:0 "Not all among the gentility dwell in sin. There are those who respect God's chosen people, and these deserve a measure of our respect in turn."
  doctrine_parameter_hostility_override_tenet_jewish_syncretism:2 "Non-Jewish [faiths|E] with the $tenet_jewish_syncretism_name$ tenet are considered [GetHostilityLevelName( FAITH_DOCTRINE_PARAMETER.GetIntValue )|V] instead of $hostility_evil_tooltippable$"
+
  TOO_FEW_SPOUSES_PIETY:0 "Too Few Spouses"
+
  CRUSADER_STATE_CRUSADER_TITLE_NAME:1 "Crusader [target_kingdom.GetNameNoTierNoTooltip]"
  CRUSADER_STATE_FAITH_TITLE_NAME:1 "[title_recipient.GetFaith.GetAdjective|U] [target_kingdom.GetNameNoTierNoTooltip|U]"
+
  religion_the_gods:0 "the gods"
  religion_the_spirits:0 "the spirits"
  religion_natural_order:0 "the natural order"
  pantheon_term_has:0 "has"
  pantheon_term_have:0 "have"
+
  FAITH_CREATION_DUCHY_OR_HIGHER_FIRST_NOT:1 "Your highest held [title|E] is #bold not#! a Duchy or higher"
+ 
  FAITH_HOSTILITY_OPINION:0 "$BULLET_WITH_TAB$ Character [opinion|E]: $VALUE|=+$"
  FAITH_HOSTILITY_COUNTY_OPINION:1 "$BULLET_WITH_TAB$ Maximum [county_opinion|E] penalty: $VALUE|=+$"
  FAITH_HOSTILITY_NO_USURP:0 "$BULLET_WITH_TAB$ #bold Cannot#! [usurp|E] their [titles|E]"
  FAITH_HOSTILITY_GHW:0 "$BULLET_WITH_TAB$ Can start [great_holy_wars|E] against them"
  FAITH_HOSTILITY_USURP:0 "$BULLET_WITH_TAB$ Can [usurp|E] their [titles|E]"
  FAITH_HOSTILITY_HOLY_ORDER:0 "$BULLET_WITH_TAB$ Can use [holy_orders|E] against them"
+ 
+ 
  religionname_creator_name:0 "#D creator#!"
  religionname_creator_namepossessive:0 "#D creator's#!"
  religionname_creator_sheheit:0 "#D she/he/it#!"
@@ -742,6 +855,7 @@
  religionname_watergod_sheheit:0 "#D she/he/it#!"
  religionname_watergod_herhisits:0 "#D her/his/its#!"
  religionname_watergod_herhim:0 "#D her/him#!"
+ 
  take_vows_active_name:0 "Take Vows decision"
  hostility_righteous_tooltippable:0 "[GetHostilityLevelName( '(int32)0' )|V]"
  hostility_astray_tooltippable:0 "[GetHostilityLevelName( '(int32)1' )|V]"

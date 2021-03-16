@@ -3,7 +3,7 @@
  parent_meddling_decrease_tt: "My [parent.Custom('MotherFather')] is pleased that I follow [parent.GetHerHis] advice"
  parent.1001.t: "[parent.Custom('MotherFather')|U]ly Advice"
  parent.1001.desc: "My [parent.Custom('MotherFather')] has many things to say about the $knight_culture_player_plural_no_tooltip_lowercase$ of my realm, commenting on everything from how they train, to what they should be preparing for in the field.\n\nEven the $knight_culture_player_plural_no_tooltip$ admit that what [parent.GetSheHe] says makes much sense, too."
- parent.1001.a: "\"So how #EMP should#! the be organized, [parent.Custom('MotherFather')]?\""
+ parent.1001.a: "\"So how #EMP should#! the $knight_culture_player_plural_no_tooltip_lowercase$ be organized, [parent.Custom('MotherFather')]?\""
  parent.1001.b: "I alone decide how they fight!"
  parent.1002.desc: "My [parent.Custom('MotherFather')] is a wise [parent.GetWomanMan], deeply understanding of people's needs and desires.\n\n[parent.GetSheHe|U] often offers me guidance when dealing with others."
  parent.1002.a: "I need all the advice I can get, to be honest."

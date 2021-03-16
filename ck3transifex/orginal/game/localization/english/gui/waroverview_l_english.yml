@@ -51,3 +51,4 @@
  WAR_OVERVIEW_SHOW_ALLIES:0 "#T Toggle [allies|E]#!"
  WAR_OVERVIEW_TOTAL_SOLDIERS:0 "Total [soldiers|E]"
  WAR_PARTICIPANT_SOLDIERS:2 "[soldiers|E]: [soldier_i]$SOLDIERS$\n$knight_culture_player_plural$: [knight_i]$KNIGHTS$"
+ 

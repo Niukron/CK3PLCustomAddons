@@ -1,5 +1,6 @@
 ﻿l_english:
  FOUNDER_BASED_NAME_POSTFIX:0 "id"
+ 
  dynnp__:0 "'"
  dynnp_a:0 "a "
  dynnp_a_:0 "a' "
@@ -56,6 +57,8 @@
  dynnp_do:0 "do "
  dynnp_dei:0 "dei "
  dynnp_dell_:0 "dell' "
+
+ 
  dynn_a__Chruiteir:0 "a' Chruiteir"
  dynn_A__Mhaoirne:0 "A' Mhaoirne"
  dynn_a__Phearsain:0 "a' Phearsain"
@@ -6939,6 +6942,8 @@
  dynn_Urulchiq:0 "Urulchiq"
  dynn_Ural:0 "Ural"
  dynn_BO_gU_n:0 "Bögün"
+
+ 
  dynnpat_pre_ab:0 "ab "
  dynnpat_pre_ach:0 "ach "
  dynnpat_pre_ap:0 "ap "
@@ -6970,6 +6975,7 @@
  dynnpat_pre_vch:0 "vch "
  dynnpat_pre_verch:0 "verch "
  dynnpat_pre_zk:0 "zk "
+ 
  dynnpat_suf_az:0 "az"
  dynnpat_suf_dokht:0 "dokht"
  dynnpat_suf_enc:0 "enc"
@@ -7009,10 +7015,13 @@
  dynnpat_suf_zde:0 "zde"
  dynnpat_suf_dukht:0 "dukht"
  dynnpat_suf_zk:0 "zk"
+ 
  dynnpat_pre_vow_ab:0 "ab "
  dynnpat_pre_vow_mab:0 "mab "
  dynnpat_pre_vow_mag:0 "mag "
  dynnpat_pre_vow_nig:0 "nig "
+ 
+ 
  dynn_Yaghlakar:0 "Yaghlakar"
  dynn_Ediz:0 "Ediz"
  dynn_Uzur:0 "Uzur"
@@ -7024,24 +7033,30 @@
  dynn_Hosa:0 "Hosa"
  dynn_Yughur:0 "Yughur"
  dynn_Idiqut:0 "Idiqut"
+ 
  dynn_GU_naydin:0 "Günaydin"
  dynn_KiliC_li:0 "Kiliçli"
  dynn_Tiele:0 "Tiele"
+ 
  dynn_Sarakid:0 "Sarakid"
  dynn_Hasabid:0 "Hasabid"
  dynn_Tatvid:0 "Tatvid"
  dynn_Yurakid:0 "Yurakid"
+ 
  dynn_Ahkebeaivi:0 "Ahkebeaivi"
  dynn_Ahkemiella:0 "Ahkemiella"
  dynn_GA_ivvaS_:0 "Gáivvaš"
+ 
  dynn_Kirjala:0 "Kirjala"
  dynn_Lagoda:0 "Lagoda"
  dynn_Vuoksi:0 "Vuoksi"
+ 
  dynn_Sheksna:0 "Sheksna"
  dynn_Suda:0 "Suda"
  dynn_Syas:0 "Syas"
  dynn_Vasin:0 "Vasin"
  dynn_Onega:0 "Onega"
+ 
  dynn_Pattensen:0 "Pattensen"
  dynn_Schneider:0 "Schneider"
  dynn_Theodericing:0 "Theodericing"
@@ -7050,6 +7065,7 @@
  dynn_Smeldiging:0 "Smeldiging"
  dynn_Unwanid:0 "Unwanid"
  dynn_Hessing:0 "Hessing"
+ 
  dynn_Yeldarid:0 "Yeldarid"
  dynn_Feruxid:0 "Feruxid"
  dynn_Qalat:0 "Qalat"
@@ -7057,19 +7073,23 @@
  dynn_Kalmati:0 "Kalmati"
  dynn_Mugheri:0 "Mugheri"
  dynn_Nutkani:0 "Nutkani"
+ 
  dynn_Arundell:0 "Arundell"
  dynn_Killigrew:0 "Killigrew"
  dynn_Boscawen:0 "Boscawen"
  dynn_Rashleigh:0 "Rashleigh"
  dynn_Vyvyan:0 "Vyvyan"
  dynn_Trelawne:0 "Trelawne"
+ 
  dynn_Wledig:0 "Wledig"
  dynn_Edern:0 "Edern"
  dynn_Ogledd:0 "Ogledd"
  dynn_Llaennog:0 "Llaennog"
  dynn_Gwallog:0 "Gwallog"
  dynn_Rhegen:0 "Rhegen"
+ 
  dynn_Dotawo:0 "Dotawo"
+ 
  dynn_al_Ibadi:0 "al-Ibadi"
  dynn_Banu_Khattab:0 "Banu Khattab"
  dynn_Awellimid:0 "Awellimid"
@@ -7092,12 +7112,14 @@
  dynn_Atissid:0 "Atissid"
  dynn_Amayadid:0 "Amayadid"
  dynn_Banu_Rand:0 "Banu Rand"
+ 
  dynn_Kunkuna:0 "Kunkuna"
  dynn_Teda:0 "Teda"
  dynn_Tabir:0 "Tabir"
  dynn_Ajawa:0 "Ajawa"
  dynn_Duguwa:0 "Duguwa"
  dynn_Sayfawa:0 "Sayfawa"
+ 
  dynn_Zakhawa:0 "Zakhawa"
  dynn_Tomaghra:0 "Tomaghra"
  dynn_Tubu:0 "Tubu"
@@ -7106,11 +7128,13 @@
  dynn_Bideyat:0 "Bideyat"
  dynn_Toubou:0 "Toubou"
  dynn_Sao:0 "Sao"
+ 
  dynn_Keshmiti:0 "Keshmiti"
  dynn_Uduyid:0 "Uduyid"
  dynn_Uvas:0 "Uvas"
  dynn_Khaad:0 "Khaad"
  dynn_Khalka:0 "Khalka"
+ 
  dynn_Yrkhu:0 "Yrkhu"
  dynn_Irgit:0 "Irgit"
  dynn_Khori_Tumed:0 "Khori-Tumed"
@@ -7134,6 +7158,7 @@
  dynn_Khora:0 "Khora"
  dynn_Tayanid:0 "Tayanid"
  dynn_Baataran:0 "Baataran"
+ 
  dynn_Koshut:0 "Koshut"
  dynn_O_lO_t:0 "Ölöt"
  dynn_Torghut:0 "Torghut"
@@ -7156,6 +7181,7 @@
  dynn_Kolyokod:0 "Kolyokod"
  dynn_O_mO_red:0 "Ömöred"
  dynn_MU_renig:0 "Mürenig"
+ 
  dynn_GU_chU_gU_d:0 "Güchügüd"
  dynn_Betegin:0 "Betegin"
  dynn_Buku:0 "Buku"
@@ -7180,6 +7206,7 @@
  dynn_EgU_ir:0 "Egüir"
  dynn_Ijigiak:0 "Ijigiak"
  dynn_Jamanig:0 "Jamanig"
+ 
  dynn_Jirkin:0 "Jirkin"
  dynn_Konkant:0 "Konkant"
  dynn_Sukait:0 "Sukait"
@@ -7204,6 +7231,7 @@
  dynn_Gurdugusid:0 "Gurdugusid"
  dynn_Esorig:0 "Esorig"
  dynn_NO_O_gemir:0 "Nöögemir"
+ 
  dynn_Tuva:0 "Tuva"
  dynn_Karagas:0 "Karagas"
  dynn_Khakas:0 "Khakas"
@@ -7346,6 +7374,7 @@
  dynn_O__Braonain:0 "O' Braonain"
  dynn_Maqpon:0 "Maqpon"
  dynn_Vuppadeva:0 "Vuppadeva"
+ 
  dynn_Pagan:0 "Pagan"
  dynn_Sale:0 "Sale"
  dynn_Nyaung_U:0 "Nyaung-U"
@@ -7418,6 +7447,7 @@
  dynn_Minhlagyi:0 "Minhlagyi"
  dynn_Thumondari:0 "Thumondari"
  dynn_Thupyinnya:0 "Thupyinnya"
+ 
  dynn_A_lvarez:0 "Álvarez"
  dynn_AbI_n:0 "Abín"
  dynn_Abrego:0 "Abrego"
@@ -7608,6 +7638,7 @@
  dynn_XixO_n:0 "Xixón"
  dynn_YA_N_ez:0 "Yáñez"
  dynn_Zalaca:0 "Zalaca"
+ 
  dynn_Ajaccio:0 "Ajaccio"
  dynn_A_ldara:0 "Àldara"
  dynn_Aleria:0 "Aleria"
@@ -7708,6 +7739,7 @@
  dynn_Useddus:0 "Useddus"
  dynn_Cagliari:0 "Cagliari"
  dynn_Gallaura:0 "Gallaura"
+ 
  dynn_Abash:0 "Abash"
  dynn_Agish:0 "Agish"
  dynn_Baran:0 "Baran"
@@ -7723,6 +7755,7 @@
  dynn_Tenish:0 "Tenish"
  dynn_Vanyut:0 "Vanyut"
  dynn_Yaku:0 "Yaku"
+ 
  dynn_Eddi:0 "Eddi"
  dynn_Danakil:0 "Danakil"
  dynn_Nri:0 "Nri"
@@ -8071,6 +8104,7 @@
  dynn_Chanaid:0 "Chanaid"
  dynn_Pan_Guazhou:0 "Pan"
  dynn_Yedid:0 "Yedid"
+
  dynn_Adro:0 "Adro"
  dynn_Arik:0 "Arik"
  dynn_Ba:0 "Ba"
@@ -8131,6 +8165,8 @@
  dynn_Nyel:0 "Nyel"
  dynn_Pelrin:0 "Pelrin"
  dynn_Zhebu:0 "Zhebu"
+ 
+ 
  dynn_ChakdU__Nyarong:0 "Chakdü Nyarong"
  dynn_ChE_:0 "Ché"
  dynn_DE_pa_TO_npo:0 "Dépa Tönpo"
@@ -8208,6 +8244,8 @@
  dynn_Yenki:0 "Yenki"
  dynn_Kuchar:0 "Kuchar"
  dynn_sogdian_Mi:0 "Mi"
+ 
+ 
  dynn_Qiniq:0 "Qiniq"
  dynn_Yazir:0 "Yazir"
  dynn_Tutirqa:0 "Tutirqa"
@@ -8228,6 +8266,8 @@
  dynn_Farighunid:0 "Farighunid"
  dynn_Khujistanid:0 "Khujistanid"
  dynn_wasifid:0 "Wasifid"
+ 
+ 
  dynn_as_Sabbah:0 "as-Sabbah"
  dynn_Tabarestani:0 "Tabarestani"
  dynn_Mazandarani:0 "Mazandarani"
@@ -8245,6 +8285,7 @@
  dynn_Daqiqi:0 "Daqiqi"
  dynn_Bahramid:0 "Bahramid"
  dynn_Chaghanid:0 "Chaghanid"
+ 
  dynn_Adid:0 "Adīd"
  dynn_asSamh:0 "as-Samh"
  dynn_Awfid:0 "Awfid"
@@ -8264,6 +8305,7 @@
  dynn_Tehlawa:0 "Tehlāwa"
  dynn_Warjilanid:0 "Warjilānid"
  dynn_Zegbid:0 "Zegbid"
+ 
  dynn_al-Umari:0 "al-Umari"
  dynn_Almada:0 "Almada"
  dynn_Abdal_Qays:0 "Abd al-Qays"
@@ -8300,6 +8342,8 @@
  dynn_Bali:0 "Bali"
  dynn_Juhavna:0 "Juhavna"
  dynn_sajid:0 "Sajid"
+
+ 
  dynn_Adaloaldidi:0 "Adaloaldidi"
  dynn_Adelchisidi:0 "Adelchisidi"
  dynn_Adelferidi:0 "Adelferidi"
@@ -8541,6 +8585,7 @@
  dynn_Addobati:0 "Addobati"
  dynn_Querini:0 "Querini"
  dynn_Wicheraming:0 "Wicheraming"
+ 
  dynn_Vrsovid:0 "Vršovid"
  dynn_z_Loun:0 "z Loun"
  dynn_Mutinid:0 "Mutinid"
@@ -8555,6 +8600,7 @@
  dynn_Smolenicky:0 "Smolenicky"
  dynn_Kojatid:0 "Kojatid"
  dynn_Rajhradsky:0 "Rajhradsky"
+ 
  dynn_Ogiso:0 "Ogiso"
  dynn_Itseriki:0 "Itseriki"
  dynn_Edo:0 "Edo"
@@ -8643,9 +8689,12 @@
  dynn_Ouse:0 "Ouse"
  dynn_Aeti:0 "Aeti"
  dynn_Bayei:0 "Bayei"
+ 
  dynn_Milonid:0 "Milonid"
  dynn_Saulx:0 "Saulx"
  dynn_La_Chatre:0 "La Châtre"
+ 
+ 
  dynn_Sosso:0 "Sosso"
  dynn_Diawara:0 "Diawara"
  dynn_Kalom:0 "Kalom"
@@ -8822,6 +8871,8 @@
  dynn_Koita:0 "Koita"
  dynn_Diao:0 "Diao"
  dynn_DramE_:0 "Dramé"
+ 
+ 
  dynn_KopC_iansky:0 "Kopčianský"
  dynn_Jasenovsky:0 "Jasenovský"
  dynn_Detvansky:0 "Detvanský"
@@ -8915,6 +8966,8 @@
  dynn_Wadensten:0 "Wadensten"
  dynn_Collin:0 "Collin"
  dynn_Daflos:0 "Daflos"
+
+ 
  dynn_BA_dA_rA_u:0 "Bădărău"
  dynn_BA_lA_ceanu:0 "Bălăceanu"
  dynn_Bosie:0 "Bosie"
@@ -8976,6 +9029,8 @@
  dynn_UrlA_T_eni:0 "Urlățeni"
  dynn_VidraS_cu:0 "Vidrașcu"
  dynn_Yarka:0 "Yarka"
+
+ 
  dynn_Abdena:0 "Abdena"
  dynn_Allena:0 "Allena"
  dynn_Andringa:0 "Andringa"
@@ -9055,8 +9110,12 @@
  dynn_Hallum:0 "Hallum"
  dynn_Johanneson:0 "Johanneson"
  dynn_Goodfellow:0 "Goodfellow"
+ 
+ 
  dynn_Medvjedich:0 "Medvjedich"
  dynn_Dniprich:0 "Dniprich"
+ 
+ 
  dynn_Barta:0 "Barta"
  dynn_Galinda:0 "Galinda"
  dynn_Sasna:0 "Sasna"
@@ -9080,6 +9139,8 @@
  dynn_WA_rmi:0 "Wārmi"
  dynn_Pomesania:0 "Pomesania"
  dynn_Skallawa:0 "Skallawa"
+ 
+ 
  dynn_Vanema:0 "Vanema"
  dynn_Ventava:0 "Ventava"
  dynn_Bandava:0 "Bandava"
@@ -9099,6 +9160,8 @@
  dynn_Dzelves:0 "Dzelvas"
  dynn_Krona:0 "Kroņa"
  dynn_Adazi:0 "Ādaži"
+ 
+ 
  dynn_Jio:0 "Jio"
  dynn_Simo:0 "Simo"
  dynn_Rahna:0 "Rahna"
@@ -9117,6 +9180,8 @@
  dynn_Pajersvi:0 "Pajersvi"
  dynn_Kielit:0 "Kielit"
  dynn_Kemeloe:0 "Kemeloe"
+ 
+ 
  dynn_Laanemaa:0 "Läänemaa"
  dynn_Soontagana:0 "Soontagana"
  dynn_Harju:0 "Harju"
@@ -9127,6 +9192,8 @@
  dynn_Jogentagana:0 "Jogentagana"
  dynn_Leole:0 "Leole"
  dynn_Alistegunde:0 "Alistegunde"
+ 
+ 
  dynn_Kovoda:0 "Kovoda"
  dynn_Soute:0 "Soute"
  dynn_Maselke:0 "Maselke"
@@ -9138,6 +9205,8 @@
  dynn_Vango:0 "Vango"
  dynn_Kumo:0 "Kumo"
  dynn_Kuyto:0 "Kuyto"
+ 
+ 
  dynn_Vaga:0 "Vaga"
  dynn_Kodmin:0 "Kodmin"
  dynn_Yaga:0 "Yaga"
@@ -9160,6 +9229,8 @@
  dynn_Ulsui:0 "Ulsui"
  dynn_Ussa:0 "Ussa"
  dynn_Velva:0 "Velva"
+ 
+ 
  dynn_Mac_Uerb:0 "mac Uerb"
  dynn_Hen:0 "Hen"
  dynn_Bili:0 "Bili"
@@ -9173,6 +9244,8 @@
  dynn_Mac_Boanta:0 "mac Boanta"
  dynn_Mac_Oengusa:0 "mac Oengusa"
  dynn_Fortriu:0 "Fortriu"
+ 
+ 
  dynn_Cadell:0 "Cadell"
  dynn_Rhodri:0 "Rhodri"
  dynn_Llywarch:0 "Llywarch"
@@ -9188,6 +9261,8 @@
  dynn_Avon:0 "Avon"
  dynn_Den_Bal:0 "Den Bal"
  dynn_Descajor:0 "Descajor"
+ 
+ 
  dynn_Mallerslange:0 "Mallerslange"
  dynn_Winander:0 "Winander"
  dynn_Ulles:0 "Ulles"
@@ -9197,6 +9272,8 @@
  dynn_Bwr:0 "Bwr"
  dynn_Penuchel:0 "Penuchel"
  dynn_Eden:0 "Eden"
+ 
+ 
  dynn_Athaulf:0 "Athaulf"
  dynn_Sigireik:0 "Sigireik"
  dynn_Gaisalaik:0 "Gaisalaik"
@@ -9214,6 +9291,8 @@
  dynn_Sisibaud:0 "Sisibaud"
  dynn_Kindila:0 "Kindila"
  dynn_Wanbs:0 "Wanbs"
+ 
+ 
  dynn_Landulfid:0 "Landulfid"
  dynn_Atenulfing:0 "Atenulfing"
  dynn_Hunding:0 "Hunding"
@@ -9229,6 +9308,8 @@
  dynn_Alahisid:0 "Alahisid"
  dynn_Raginperting:0 "Raginperting"
  dynn_Liutperting:0 "Liutperting"
+ 
+ 
  dynn_Bhurgari:0 "Bhurgari"
  dynn_Dehwar:0 "Dehwar"
  dynn_Gabol:0 "Gabol"
@@ -9239,6 +9320,8 @@
  dynn_Sarmastani:0 "Sarmastani"
  dynn_Talpur:0 "Talpur"
  dynn_Wahocha:0 "Wahocha"
+ 
+ 
  dynn_Kuluio:0 "Kuluio"
  dynn_Dvinid:0 "Dvinid"
  dynn_Onegin:0 "Onegin"
@@ -9253,6 +9336,8 @@
  dynn_Pusko:0 "Pusko"
  dynn_Kudmi:0 "Kudmi"
  dynn_Ukhta:0 "Ukhta"
+ 
+ 
  dynn_Oborin:0 "Oborin"
  dynn_Ketkso:0 "Ketkso"
  dynn_Vakhad:0 "Vakhad"
@@ -9287,6 +9372,8 @@
  dynn_Lokhto:0 "Lokhto"
  dynn_Lakhsentur:0 "Lakhsentur"
  dynn_Tuman:0 "Tuman"
+ 
+ 
  dynn_Karakhazar:0 "Karakhazar"
  dynn_Akkhazar:0 "Akkhazar"
  dynn_Alpid:0 "Alpid"
@@ -9311,6 +9398,8 @@
  dynn_Yanyol:0 "Yanyol"
  dynn_Onkunes:0 "Onkunes"
  dynn_Karayagac:0 "Karayagac"
+ 
+ 
  dynn_Silkid:0 "Silkid"
  dynn_Esegel:0 "Esegel"
  dynn_Izgil:0 "Izgil"
@@ -9332,6 +9421,8 @@
  dynn_Izgar:0 "Izgar"
  dynn_Sulcha:0 "Sulcha"
  dynn_Karmal:0 "Karmal"
+ 
+ 
  dynn_Chany:0 "Chany"
  dynn_Kozhur:0 "Kozhur"
  dynn_Sartlan:0 "Sartlan"
@@ -9345,6 +9436,8 @@
  dynn_Jyngyld:0 "Jyngyld"
  dynn_Tuzdysor:0 "Tuzdysor"
  dynn_Oynak:0 "Oynak"
+ 
+ 
  dynn_Jiegu:0 "Jiegu"
  dynn_Gekun:0 "Gekun"
  dynn_Kokun:0 "Kokun"
@@ -9366,6 +9459,8 @@
  dynn_Elegesh:0 "Elegesh"
  dynn_Tarlak:0 "Tarlak"
  dynn_Arjan:0 "Arjan"
+ 
+ 
  dynn_Olberlik:0 "Olberlik"
  dynn_Ayyub:0 "Ayyub"
  dynn_El_Borili:0 "El Borili"
@@ -9422,6 +9517,8 @@
  dynn_Bayundur:0 "Bayundur"
  dynn_Nilkar:0 "Nilkar"
  dynn_Ajlad:0 "Ajlad"
+ 
+ 
  dynn_Geluolu:0 "Geluolu"
  dynn_Khololo:0 "Khololo"
  dynn_Harluut:0 "Harluut"
@@ -9438,6 +9535,8 @@
  dynn_Sebeg:0 "Sebeg"
  dynn_Tashlyk:0 "Tashlyk"
  dynn_Azes:0 "Azes"
+ 
+ 
  dynn_Inzeri:0 "Inzeri"
  dynn_Bielak:0 "Bielak"
  dynn_Yurzen:0 "Yurzen"
@@ -9451,10 +9550,14 @@
  dynn_Byank:0 "Byank"
  dynn_Yinz:0 "Yinz"
  dynn_Yumel:0 "Yumel"
+ 
+ 
  dynn_Aidar:0 "Aidar"
  dynn_Borovon:0 "Borovon"
  dynn_Derkul:0 "Derkul"
  dynn_Valo:0 "Valo"
+ 
+ 
  dynn_Kotoro:0 "Kotoro"
  dynn_Solono:0 "Solono"
  dynn_Tebsa:0 "Tebsa"
@@ -9474,6 +9577,8 @@
  dynn_Khabal:0 "Khabal"
  dynn_Ingar:0 "Ingar"
  dynn_Yubil:0 "Yubil"
+ 
+ 
  dynn_Okain:0 "Okain"
  dynn_Tesha:0 "Tesha"
  dynn_Seres:0 "Seres"
@@ -9495,6 +9600,8 @@
  dynn_Susha:0 "Susha"
  dynn_Voronor:0 "Voronor"
  dynn_Uupa:0 "Uupa"
+ 
+ 
  dynn_Cheremis:0 "Cheremis"
  dynn_Cirmes:0 "Cirmes"
  dynn_Kokshag:0 "Kokshag"
@@ -9517,6 +9624,8 @@
  dynn_Vongus:0 "Vongus"
  dynn_Kundysh:0 "Kundysh"
  dynn_Veltuk:0 "Veltuk"
+ 
+ 
  dynn_Paraiyar:0 "Paraiyar"
  dynn_Vishwakarma:0 "Vishwakarma"
  dynn_Aachari:0 "Aachari"
@@ -9618,6 +9727,8 @@
  dynn_Takkaloma:0 "Takkaloma"
  dynn_Mamallapuram:0 "Mamallapuram"
  dynn_Kanchipuram:0 "Kanchipuram"
+ 
+ 
  dynn_Nara:0 "Nara"
  dynn_Naidu:0 "Naidu"
  dynn_Agarwal:0 "Agarwal"
@@ -9661,6 +9772,8 @@
  dynn_Vanga:0 "Vanga"
  dynn_Velama:0 "Velama"
  dynn_Yadav:0 "Yadav"
+ 
+ 
  dynn_Angadi:0 "Angadi"
  dynn_Bhat:0 "Bhat"
  dynn_Bhatt:0 "Bhatt"
@@ -9690,6 +9803,8 @@
  dynn_Sagar:0 "Sagar"
  dynn_Taradavadi:0 "Taradavadi"
  dynn_Kalyani:0 "Kalyani"
+ 
+ 
  dynn_Banerjee:0 "Banerjee"
  dynn_Bagchi:0 "Bagchi"
  dynn_Bhaduri:0 "Bhaduri"
@@ -9761,6 +9876,8 @@
  dynn_Sahoo:0 "Sahoo"
  dynn_Tagore:0 "Tagore"
  dynn_Thapa:0 "Thapa"
+ 
+ 
  dynn_Ahuja:0 "Ahuja"
  dynn_Arora:0 "Arora"
  dynn_Bansal:0 "Bansal"
@@ -9816,6 +9933,8 @@
  dynn_Varadarajan:0 "Varadarajan"
  dynn_Varma:0 "Varma"
  dynn_Vinda:0 "Vinda"
+ 
+ 
  dynn_Chadhari:0 "Chadhari"
  dynn_Dani:0 "Dani"
  dynn_Dave:0 "Dave"
@@ -9833,6 +9952,8 @@
  dynn_Thakkar:0 "Thakkar"
  dynn_Upadhyay:0 "Upadhyay"
  dynn_Vidhani:0 "Vidhani"
+ 
+ 
  dynn_Ahluwalia:0 "Ahluwalia"
  dynn_Anwer:0 "Anwer"
  dynn_Ashiq:0 "Ashiq"
@@ -9870,6 +9991,8 @@
  dynn_Sidhu:0 "Sidhu"
  dynn_Uppal:0 "Uppal"
  dynn_Walia:0 "Walia"
+ 
+ 
  dynn_Aavhad:0 "Aavhad"
  dynn_Deshmukh:0 "Deshmukh"
  dynn_Deshpande:0 "Deshpande"
@@ -9884,6 +10007,9 @@
  dynn_Sachdev:0 "Sachdev"
  dynn_Shinde:0 "Shinde"
  dynn_Verma:0 "Verma"
+ 
+ 
+ 
  dynn_Shaikh:0 "Shaikh"
  dynn_Kichlu:0 "Kichlu"
  dynn_Sopuri:0 "Sopuri"
@@ -9908,6 +10034,8 @@
  dynn_Tarangarwani:0 "Tarangarwani"
  dynn_Kakarwani:0 "Kakarwani"
  dynn_Parwani:0 "Parwani"
+ 
+ 
  dynn_Amarasekara:0 "Amarasekara"
  dynn_Amarashinghe:0 "Amarashinghe"
  dynn_Bandara:0 "Bandara"
@@ -9938,9 +10066,11 @@
  dynn_Thirimanne:0 "Thirimanne"
  dynn_Weerasekara:0 "Weerasekara"
  dynn_Weerasinghe:0 "Weerasinghe"
+ 
  dynn_lohmander:0 "Lohmander"
  dynn_Riedinger:0 "Riédinger"
  dynn_Bird:0 "Bird"
+ 
  dynn_AragonE_s:0 "Aragonés"
  dynn_Bosa:0 "Bosa"
  dynn_Farisid:0 "Farisid"
@@ -9976,6 +10106,7 @@
  dynn_Xueyantuo:0 "Xueyantuo"
  dynn_Zhuye:0 "Zhuye"
  dynn_Zuera:0 "Zuera"
+ 
  dynn_Viggoed:0 "Viggoed"
  dynn_Sombio:0 "Sombio"
  dynn_SuA_digil:0 "Suádigil"
@@ -9983,6 +10114,12 @@
  dynn_Redari:0 "Redari"
  dynn_Tolgag:0 "Tolgag"
  dynn_Sokortal:0 "Sokortal"
+ 
  dynn_Lutici:0 "Lutici"
  dynn_Deols:0 "Déols"
  dynn_Dragosovic:0 "Dragosević"
+
+ dynn_skolti:0 "Skolti"
+ dynn_suontile:0 "Suontile"
+ dynn_vuovi:0 "Vuovi"
+ dynn_kittali:0 "Kittali"

@@ -1,5 +1,5 @@
 ﻿l_english:
- #Positive or Negative selection
+ 
  quirk_present_positive:0 "[second.Custom('quirk_pos_present')]"
  quirk_present_negative:0 "[second.Custom('quirk_neg_present')]"
  quirk_standalone_positive:0 "[second.Custom('quirk_pos_standalone')]"
@@ -14,7 +14,11 @@
  quirk_adjective_negative:0 "[second.Custom('quirk_neg_adjective')]"
  quirk_personal_positive_present:0 "[ROOT.Char.Custom('quirk_pos_personal_present')]"
  quirk_personal_negative_present:0 "[ROOT.Char.Custom('quirk_neg_personal_present')]"
+
+ 
  #Example: "While awaiting a response, she QUIRK." "She QUIRK while telling me."
+
+ 
  arrogant_quirk:0 "brushes off [ROOT.GetCharacter.GetHerHis] [ROOT.GetCharacter.Custom('GetClothingArticle')]"
  shy_quirk:0 "blushes"
  greedy_quirk:0 "tosses a coin"
@@ -55,6 +59,9 @@
  horse_quirk:0 "neighs and paws at the ground"
  fallback_quirk:0 "picks [ROOT.GetCharacter.GetHerHis] nose"
  fallback_2_quirk:0 "sticks [ROOT.GetCharacter.GetHerHis] tongue out"
+
+
+ 
  arrogant_neg_quirk:0 "tilts [ROOT.GetCharacter.GetHerHis] head back"
  shy_neg_quirk:0 "averts [ROOT.GetCharacter.GetHerHis] eyes"
  impatient_neg_quirk:0 "taps [ROOT.GetCharacter.GetHerHis] foot"
@@ -92,7 +99,12 @@
  vengeful_neg_quirk:0 "shoots daggers from [ROOT.GetCharacter.GetHerHis] eyes"
  forgiving_neg_quirk:0 "looks uncertain"
  forgiving_2_neg_quirk:0 "hesitates"
+
+
+ 
  #Example: "While awaiting a response, I QUIRK." "I QUIRK while telling her."
+
+ 
  arrogant_quirk_personal:0 "brush my [ROOT.GetCharacter.Custom('GetClothingArticle')]"
  shy_quirk_personal:0 "blush"
  greedy_quirk_personal:0 "toss a coin"
@@ -133,6 +145,8 @@
  horse_quirk_personal:0 "neigh and paw at the ground"
  fallback_quirk_personal:0 "pick my nose"
  fallback_2_quirk_personal:0 "stick my tongue out"
+
+ 
  arrogant_neg_quirk_personal:0 "look down my nose"
  shy_neg_quirk_personal:0 "avert my eyes"
  impatient_neg_quirk_personal:0 "tap my foot"
@@ -169,7 +183,12 @@
  vengeful_neg_quirk_personal:0 "shoot daggers from my eyes"
  forgiving_neg_quirk_personal:0 "feel uncertain"
  forgiving_2_neg_quirk_personal:0 "hesitate"
- #Example: ""Blah blah,"
+
+
+ 
+ #Example: ""Blah blah," another character says. STANDALONE.
+
+ 
  arrogant_quirk_standalone:0 "[ROOT.GetCharacter.GetSheHe|U] straightens [ROOT.GetCharacter.GetHerHis] back"
  shy_quirk_standalone:0 "[ROOT.GetCharacter.GetSheHe|U] blushes"
  greedy_quirk_standalone:0 "[ROOT.GetCharacter.GetSheHe|U] tosses a coin into the air"
@@ -209,6 +228,8 @@
  horse_quirk_standalone:0 "[ROOT.GetCharacter.GetSheHe|U] neighs and paws at the ground"
  fallback_quirk_standalone:0 "[ROOT.GetCharacter.GetSheHe|U] picks [ROOT.GetCharacter.GetHerHis] nose, as usual"
  fallback_2_quirk_standalone:0 "[ROOT.GetCharacter.GetSheHe|U] sticks [ROOT.GetCharacter.GetHerHis] tongue out"
+
+ 
  arrogant_neg_quirk_standalone:0 "[ROOT.GetCharacter.GetSheHe|U] looks down [ROOT.GetCharacter.GetHerHis] nose"
  shy_neg_quirk_standalone:0 "[ROOT.GetCharacter.GetSheHe|U] averts [ROOT.GetCharacter.GetHerHis] eyes"
  impatient_neg_quirk_standalone:0 "[ROOT.GetCharacter.GetSheHe|U] taps [ROOT.GetCharacter.GetHerHis] foot"
@@ -243,7 +264,11 @@
  vengeful_neg_quirk_standalone:0 "[ROOT.GetCharacter.GetSheHe|U] shoots daggers from [ROOT.GetCharacter.GetHerHis] eyes"
  forgiving_neg_quirk_standalone:0 "[ROOT.GetCharacter.GetSheHe|U] looks uncertain"
  forgiving_2_neg_quirk_standalone:0 "[ROOT.GetCharacter.GetSheHe|U] seem to hesitate"
+
+ 
  #Example: "I look at her PP." or "He is PP right now."
+
+ 
  arrogant_quirk_pp:0 "straightening [ROOT.GetCharacter.GetHerHis] back"
  shy_quirk_pp:0 "blushing"
  greedy_quirk_pp:0 "tossing a coin"
@@ -283,6 +308,8 @@
  horse_quirk_pp:0 "neighing"
  fallback_quirk_pp:0 "picking [ROOT.GetCharacter.GetHerHis] nose"
  fallback_2_quirk_pp:0 "sticking [ROOT.GetCharacter.GetHerHis] tongue out"
+
+ 
  arrogant_neg_quirk_pp:0 "rolling [ROOT.GetCharacter.GetHerHis] eyes"
  shy_neg_quirk_pp:0 "averting [ROOT.GetCharacter.GetHerHis] eyes"
  impatient_neg_quirk_pp:0 "tapping [ROOT.GetCharacter.GetHerHis] foot"
@@ -319,7 +346,12 @@
  vengeful_2_neg_quirk_pp:0 "looking indignant"
  forgiving_neg_quirk_pp:0 "seeming uncertain"
  forgiving_2_neg_quirk_pp:0 "hesitating"
+
+
+ 
  #Example: "I say, PP." or "I am PP right now."
+
+ 
  arrogant_quirk_personal_pp:0 "straightening my back"
  shy_quirk_personal_pp:0 "blushing"
  greedy_quirk_personal_pp:0 "tossing a coin"
@@ -359,6 +391,8 @@
  horse_quirk_personal_pp:0 "neighing"
  fallback_quirk_personal_pp:0 "picking my nose"
  fallback_2_quirk_personal_pp:0 "sticking my tongue out"
+
+ 
  arrogant_neg_quirk_personal_pp:0 "looking down my nose"
  shy_neg_quirk_personal_pp:0 "averting my eyes"
  greedy_neg_quirk_personal_pp:0 "furrowing my brow"
@@ -396,7 +430,13 @@
  vengeful_2_neg_quirk_personal_pp:0 "looking indignant"
  forgiving_neg_quirk_personal_pp:0 "feeling uncertain"
  forgiving_2_neg_quirk_personal_pp:0 "hesitating"
+
+
+
+ 
  #Example: ""Blah blah," he said with his usual NOUN"
+
+ 
  arrogant_quirk_noun_1:0 "confidence"
  shy_quirk_noun_1:0 "shyness"
  impatient_quirk_noun_1:0 "restlessness"
@@ -440,6 +480,8 @@
  consumption_quirk_noun_1:0 "wheeze"
  horse_quirk_noun_1:0 "snorting"
  fallback_quirk_noun_1:0 "blandness"
+
+ 
  arrogant_neg_quirk_noun_1:0 "arrogance"
  shy_neg_quirk_noun_1:0 "eye-averting"
  impatient_neg_quirk_noun_1:0 "stressfulness"
@@ -474,7 +516,12 @@
  vengeful_neg_quirk_noun_1:0 "fury"
  vengeful_2_neg_quirk_noun_1:0 "indignation"
  forgiving_neg_quirk_noun_1:0 "weakness"
+
+
+ 
  #Example: "He smiles ADVERB."
+
+ 
  arrogant_quirk_adverb_1:0 "confidently"
  shy_quirk_adverb_1:0 "shyly"
  shy_2_quirk_adverb_1:0 "politely"
@@ -534,6 +581,8 @@
  consumption_quirk_adverb_1:0 "thinly"
  horse_quirk_adverb_1:0 "equinely"
  fallback_quirk_adverb_1:0 "neutrally"
+
+ 
  arrogant_neg_quirk_adverb_1:0 "arrogantly"
  shy_neg_quirk_adverb_1:0 "awkwardly"
  impatient_neg_quirk_adverb_1:0 "impatiently"
@@ -567,7 +616,12 @@
  sadistic_neg_quirk_adverb_1:0 "ruthlessly"
  vengeful_neg_quirk_adverb_1:0 "ferally"
  forgiving_neg_quirk_adverb_1:0 "weakly"
+
+
+ 
  #Example: "As always, she seemed very ADJECTIVE."
+
+ 
  arrogant_quirk_adjective_1:0 "confident"
  shy_quirk_adjective_1:0 "shy"
  impatient_quirk_adjective_1:0 "restless"
@@ -624,6 +678,8 @@
  consumption_quirk_adjective_1:0 "out of breath"
  horse_quirk_adjective_1:0 "equine"
  fallback_quirk_adjective_1:0 "neutral"
+
+ 
  arrogant_neg_quirk_adjective_1:0 "nonchalant"
  arrogant_2_neg_quirk_adjective_1:0 "aloof"
  shy_neg_quirk_adjective_1:0 "apprehensive"

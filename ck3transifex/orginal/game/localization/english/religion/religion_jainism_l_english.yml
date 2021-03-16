@@ -45,6 +45,7 @@
  witchgod_shehe_they:0 "they"
  witchgod_herhis_their:0 "their"
  witchgod_herhim_them:0 "them"
+
  jainism_creator_god_name:0 "Jiva"
  jainism_creator_god_name_possessive:0 "Jiva's"
  jainism_health_god_name:0 "Bhagiratha"
@@ -67,11 +68,15 @@
  jainism_night_god_name_possessive:0 "Suparśvanātha's"
  jainism_water_god_name:0 "Bhagiratha"
  jainism_water_god_name_possessive:0 "Bhagiratha's"
+
+ 
  digambara:0 "Digambara"
  digambara_adj:0 "Digambara"
  digambara_adherent:0 "Digambara"
  digambara_adherent_plural:0 "Digambaras"
  digambara_desc:0 "Kevala Jnana frees the body from all physical needs. However, the soul can only be freed when completely naked, which is why Digambara monks must live without clothes."
+
+ 
  svetambara:0 "Svetambara"
  svetambara_adj:0 "Svetambara"
  svetambara_adherent:0 "Svetambara"
@@ -81,8 +86,11 @@
  svetambara_devotee_male_plural:0 "sadhus"
  svetambara_devotee_female:0 "sadhvis"
  svetambara_devotee_female_plural:0 "sadhvis"
+
+ 
  yapaniya:0 "Yapaniya"
  yapaniya_adj:0 "Yapaniya"
  yapaniya_adherent:0 "Yapaniya"
  yapaniya_adherent_plural:0 "Yapaniyas"
  yapaniya_desc:0 "An offshoot of Svetambara, the Yapaniya believe that moksha is attainable through death, but that it is important to enable the freeing of the soul as much as possible in life, through acts such as nakedness."
+ 

@@ -1,6 +1,8 @@
 ﻿l_english:
 
  diplomacy_lifestyle_rank_up_indication:1 "I might gain a [diplomacy_lifestyle|E] [perk|E]"
+ 
+ 
  diplomacy_generic.0012.t:0 "Social Manipulation"
  diplomacy_generic.0012.start.desc:0 "The first time it happened, I barely even gave it a moment's thought, but [disobedient_subject.Custom2('MyCharacterIntroduction', ROOT.Char)] has grown bolder. [disobedient_subject.GetHerHis|U] challenges no longer pass unnoticed"
  diplomacy_generic.0012.council.desc:0 "at the council table."
@@ -22,10 +24,12 @@
  threat_option.tt:2 "You guess [disobedient_subject.GetFirstName] is cowardly or wants to keep the peace"
  diplomacy_generic.0012.h:0 ""How dare you challenge your #EMP [ROOT.Char.GetTitleAsName]#!!?""
  diplomacy_generic.0012.tt:0 "Not very diplomatic, but effective nonetheless..."
+ 
  diplomacy_generic.0012.good_outcome.desc:1 "You manipulate [disobedient_subject.GetTitledFirstNameNoTooltip]"
  diplomacy_generic.0012.bad_outcome.desc:0 "[disobedient_subject.GetTitledFirstNameNoTooltip] is not fooled"
  diplomacy_generic.0012.terrible_outcome.desc:1 "[disobedient_subject.GetTitledFirstNameNoTooltip] outwits you"
  diplomacy_generic.0012.failure.desc:1 "You failed to manipulate [disobedient_subject.GetTitledFirstName]"
+
  diplomacy_generic.0013.t:0 "Puppet on a String"
  diplomacy_generic.0013.make_invisible.desc:0 "It seems as if my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('suppressor'))] [suppressor.GetTitledFirstName] has lost interest in my opinion. When I speak up, [suppressor.GetSheHe] interrupts me or shifts [suppressor.GetHerHis] attention to something else. But sometimes, it appears [suppressor.GetSheHe] does listen, for [suppressor.GetSheHe] repeats my ideas and claims them as [suppressor.GetHerHis] own..."
  diplomacy_generic.0013.ridicule.desc:0 "What do I have to do to be taken seriously by my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('suppressor'))]? Whenever I speak, [suppressor.GetTitledFirstName] interrupts me to mock my ideas or my "[disobedient_subject.Custom('PointOfRidicule')].""
@@ -38,6 +42,7 @@
  diplomacy_generic.0013.a.success.tt:1 "You successfully manipulate [suppressor.GetTitledFirstNameNoTooltip]"
  diplomacy_generic.0013.a.failure.tt:1 "You are manipulated by [suppressor.GetTitledFirstNameNoTooltip]"
  diplomacy_generic.0013.b:0 "Perhaps I deserve this treatment..."
+
  diplomacy_generic.0014.t:1 "$diplomacy_generic.0012.t$: Master of Suppression"
  diplomacy_generic.0014.make_invisible.desc:0 "Whenever [disobedient_subject.GetTitledFirstName] have raised [disobedient_subject.GetHerHis] voice to speak, I have yawned, turned my attention somewhere else, or outright interrupted [disobedient_subject.GetHerHim]. As the others began to follow my example, [disobedient_subject.GetTitledFirstNameNoTooltip] grew more and more hesitant."
  diplomacy_generic.0014.ridicule.desc:0 "My constant snide comments about [disobedient_subject.GetTitledFirstNamePossessive] [disobedient_subject.Custom('PointOfRidicule')] really seems to have gotten to [disobedient_subject.GetHerHim]! Since the others began to follow my example, [disobedient_subject.GetTitledFirstNameNoTooltip] has grown more and more hesitant."
@@ -49,6 +54,7 @@
  diplomacy_generic.0014.end.desc:0 "Now [disobedient_subject.GetSheHe] remains quiet, eyes cast low."
  diplomacy_generic.0014.a.cruel:0 "[disobedient_subject.GetSheHe|U] will think twice before challenging me again!"
  diplomacy_generic.0014.a.compassionate:0 "Cruel, perhaps, but it had to be done."
+
  diplomacy_generic.0015.t:1 "$diplomacy_generic.0012.t$: From Puppeteer to Puppet"
  diplomacy_generic.0015.make_invisible.desc:0 "When [disobedient_subject.GetTitledFirstName] raised [disobedient_subject.GetHerHis] voice to speak, I yawned and turned my attention to my papers. I expected the others to follow my lead, but instead they engaged in the conversation. When I finally swallowed my pride to join in, [disobedient_subject.GetFirstName] already had the upper hand and my words were soon forgotten."
  diplomacy_generic.0015.ridicule.desc:0 "As it turns out, [disobedient_subject.GetTitledFirstNamePossessive] wit is far sharper than I had anticipated. As I commented on [disobedient_subject.GetHerHis] [disobedient_subject.Custom('PointOfRidicule')], [disobedient_subject.GetSheHe] immediately turned the situation around and made me look petty for answering to a genuine problem with a snide remark."

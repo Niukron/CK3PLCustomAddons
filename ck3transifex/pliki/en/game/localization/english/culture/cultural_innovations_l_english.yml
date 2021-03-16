@@ -59,6 +59,8 @@
  innovation_currency_01_desc: "Bartering is slow and inefficient; adopting an officially-recognized currency like cowrie shells or metal nuggets will bolster trade and increase the spread of ideas within our realm."
  innovation_ledger: "Ledger"
  innovation_ledger_desc: "As our lands grow, we need a better way to keep track of what we own. Maintaining a ledger of our possessions will ensure that we always know what resources we have at our disposal."
+ innovation_viking_tradition: "Viking Tactics"
+ innovation_viking_tradition_desc: "The people of the north have a long tradition of trade, but also of piracy. Few are prepared to fight a threat that appears without warning from the banks of a river, and the viking warriors are masters of such warfare."
  innovation_longboats: "Longships"
  innovation_longboats_desc: "Our longships are formidable seafaring vessels which can travel almost anywhere and even brave rough weather, giving us exceptional mobility on the seas."
  innovation_war_camels: "War Camels"

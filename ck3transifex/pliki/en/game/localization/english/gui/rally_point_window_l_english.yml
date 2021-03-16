@@ -16,7 +16,7 @@
  RP_LEVIES_ENTRY: "[levies|E]: [ArmyComposition.GetMaxNumberOfLevies|V]"
  RP_MAA_ENTRY: "[men_at_arms|E]: [ArmyComposition.GetMaxNumberOfMAA|V]"
  RP_TIME_TO_RAISE: "Time to raise: $VALUE|V$"
- RP_TIME_TO_RAISE_DELAY: "The time to raise includes a delay of $VALUE$ due to [levies|E] returning home from recently disbanding"
+ RP_TIME_TO_RAISE_DELAY: "The time to raise includes a delay of $VALUE$ due to [soldiers|E] returning home from recently disbanding"
  RP_RAISE_TOOLTIP_HEADER: "#T $RP_RAISE$#!\nRaise all [armies|E] that are the closest to this particular [rally_point|E].\n#weak If you only have one Rally Point, all Armies will be raised here.#!"
  RP_RAISE_RAID_TOOLTIP_HEADER: "#T $RP_RAISE_RAID$#!\nRaise all [armies|E] that are the closest to this particular [rally_point|E] as [raiders|E].\n#weak If you only have one Rally Point, all Armies will be raised here.#!"
  RP_RAISE_ALL_TOOLTIP_HEADER: "#T $RP_RAISE_ALL$#!\nRaise #emphasis all#! your [armies|E] here, regardless of which [rally_point|E] is the closest."

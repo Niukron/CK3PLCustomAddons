@@ -9,7 +9,7 @@
  DEVELOPMENT_RATE_TRIGGER: "Development Rate: $NUM|V0$"
  HAS_COUNTY_MODIFIER_TRIGGER: "Has county modifier: $MODIFIER$"
  IS_COASTAL_TRIGGER: "Is coastal"
- IS_COASTAL_COUNTY_TRIGGER: "Is coastal country"
+ IS_COASTAL_COUNTY_TRIGGER: "Is coastal [county|E]"
  HAS_REALM_LAW_FLAG_TRIGGER: "$FLAG|V$ is allowed under current Realm Law"
  IS_CAPITAL_BARONY_TRIGGER: "Barony is capital"
  IS_HOLY_SITE_TRIGGER: "Is a holy site"
