@@ -178,7 +178,11 @@ function Create-Mod {
 			Write-Host "Usuwanie przedimka 'the' z pliku: " $_.Name
 	}
 	
-	
+	$health_events_l_english_path = "$PSScriptRoot\ck3transifex\Spolszczenie_CK3\game\localization\english\event_localization\health_events_l_english.yml"
+	(Get-Content $health_events_l_english_path) -replace 'disease_ill_article:0 "a"', 'disease_ill_article:0 ""' | Set-Content -Encoding UTF8 $health_events_l_english_path
+	(Get-Content $health_events_l_english_path) -replace 'disease_ill_article:0 " "', 'disease_ill_article:0 ""' | Set-Content -Encoding UTF8 $health_events_l_english_path
+	 
+	 
 	# USUWANIE PUSTYCH STRINGÓW Z CUSTOM LOC _adj
 	$custom_path = "$PSScriptRoot\ck3_main\game\localization\english\custom_localization\polish_b_adj_custom_loc_l_english.yml"
 	(Get-Content $custom_path) -replace  ' [a-z|_|0-9|-]*:0 ""', '' | Set-Content -Encoding UTF8 $custom_path
