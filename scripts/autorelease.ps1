@@ -1,8 +1,4 @@
 
-# Skrypt przygotowany dla DEBIAN 10
-
-
-
 #DEBUG OPTIONS
 $TX_PULL = 1
 $PARSE_FILES = 1
@@ -63,16 +59,15 @@ function Github-Release {
 		git add .
 		$comment = "Update v$MOD_VERSION-daily"
 		git commit -a -m $comment
-		#UZUPEŁNIĆ TOKEN
-		git push -f https://TOKEN@github.com/Niukron/Crusader-Kings-3-Spolszczenie.git --all
+		git push -f https://ACCES_TOKEN_GITHUB@github.com/Niukron/Crusader-Kings-3-Spolszczenie.git --all
 		Write-Host "Tworzenie paczki release..."
 		
 		
 		$tag_version = "v"+$MOD_VERSION+"-daily"
 
 		$postParams = '{"tag_name":"'+$tag_version+'","name":"Crusader Kings III Spolszczenie", "body":"**UWAGA: Jest to codzienna aktualizacja, która nie jest dogłębnie sprawdzana pod kątem zawartości błędów.\r\n*Aby doświadczyć stabilnej rozgrywki, proszę zaczekać na cotygodniową aktualizację, która wydawana jest w każdy piątek około godziny 18:00***"}'
-		#UZUPEŁNIĆ TOKEN
-		Invoke-WebRequest -Uri https://api.github.com/repos/Niukron/Crusader-Kings-3-Spolszczenie/releases?access_token=TOKEN -Method POST -ContentType 'application/json; charset=utf-8' -Body $postParams 
+		
+		Invoke-WebRequest -Uri https://api.github.com/repos/Niukron/Crusader-Kings-3-Spolszczenie/releases?access_token=ACCES_TOKEN_GITHUB -Method POST -ContentType 'application/json; charset=utf-8' -Body $postParams 
 		
 		Write-Host "Wersja $tag_version została wydana..."
 	} else {
@@ -82,19 +77,27 @@ function Github-Release {
 
 function Start-Config {
 	
-	Set-Location -Path /home/sammy/CK3SpolszczenieSkrypty/CK3PLCustomAddons/
-	git reset --hard
-	git pull
+	Set-Location -Path /home/sammy/CK3SpolszczenieSkrypty/
+	Remove-Item -Path ./CK3PLCustomAddons/ –recurse -force
+	git clone https://github.com/Niukron/CK3PLCustomAddons.git
 	Set-Location -Path /home/sammy/CK3SpolszczenieSkrypty/Crusader-Kings-3-Spolszczenie/
 	git reset --hard
 	git pull
 	Set-Location -Path /home/sammy/CK3SpolszczenieSkrypty/CK3PLCustomAddons/
 	$github_latest_release_info = Invoke-RestMethod https://api.github.com/repos/Niukron/Crusader-Kings-3-Spolszczenie/releases/latest
+	#Anti santroy version doting .. 
+	$github_latest_release_info.tag_name -replace 'v\.', 'v'
+	
 	$github_latest_release_info.tag_name -match "v(\d+\.)?(\d+\.)?(\*|\d+)"
 	$version = $matches[1]+$matches[2]+$matches[3]
 	
 	$version = [Version]$version
 	$MOD_VERSION = (New-Object -TypeName 'System.Version' -ArgumentList @($version.Major, $version.Minor, ($version.Build+1))).ToString()
+	#EHH kurła na kij usuwacie takie foldery z repo
+
+	
+	New-Item -ItemType Directory -Path "/home/sammy/CK3SpolszczenieSkrypty/CK3PLCustomAddons/ck3transifex/Spolszczenie_CK3"
+	New-Item -ItemType Directory -Path "/home/sammy/CK3SpolszczenieSkrypty/CK3PLCustomAddons/ck3_files_to_release"
 	
 	Create-Mod
 }
@@ -151,6 +154,13 @@ function Create-Mod {
 			Write-Host "Usuwanie przedimka 'the' z pliku: " $_.Name
 	}
 	
+	
+	Write-Host 'Usuwanie disease_ill_article:0 "a" z pliku: health_events_l_english.yml '
+	$health_events_l_english_path = "/home/sammy/CK3SpolszczenieSkrypty/CK3PLCustomAddons/ck3transifex/Spolszczenie_CK3/game/localization/english/event_localization/health_events_l_english.yml"
+	(Get-Content $health_events_l_english_path) -replace 'disease_ill_article:0 "a"', 'disease_ill_article:0 ""' | Set-Content -Encoding utf8BOM $health_events_l_english_path
+	(Get-Content $health_events_l_english_path) -replace 'disease_ill_article:0 " "', 'disease_ill_article:0 ""' | Set-Content -Encoding utf8BOM $health_events_l_english_path
+
+	
 	# USUWANIE PUSTYCH STRINGÓW Z CUSTOM LOC _adj
 	$custom_path = '/home/sammy/CK3SpolszczenieSkrypty/CK3PLCustomAddons/ck3_main/game/localization/english/custom_localization/polish_b_adj_custom_loc_l_english.yml'
 	(Get-Content $custom_path) -replace  ' [a-z|_|0-9|-]*:0 ""', '' | Set-Content -Encoding utf8BOM $custom_path
@@ -198,6 +208,8 @@ remote_file_id="'+$REMOTE_FILE_ID+'"'
 	Copy-item -Force -Recurse ($ModDir + '/localization/replace/game/localization/english') -Destination $ModDir_YML
 	Copy-item -Force ($ModDir + '/localization/replace/game/localization/languages.yml') -Destination ($ModDir + '/localization/')
 	Remove-Item -Path ($ModDir + '/localization/replace/game') –recurse -force
+	
+	
 	
 	$daily = ""
 	

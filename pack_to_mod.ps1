@@ -139,7 +139,18 @@ function Create-Mod {
 		Remove-Item -Path "$PSScriptRoot\ck3transifex\temp" –recurse -force
 	}
 
-
+	# Z repo zniknęły następujące foldery przez działalność gita, więc trzeba je utworzyć
+	
+	if (-Not (Test-Path "$PSScriptRoot\ck3transifex\Spolszczenie_CK3"))
+	{
+		New-Item -ItemType Directory -Path "$PSScriptRoot\ck3transifex\Spolszczenie_CK3"
+	}
+	
+	if (-Not (Test-Path "$PSScriptRoot\ck3_files_to_release"))
+	{
+		New-Item -ItemType Directory -Path "$PSScriptRoot\ck3_files_to_release\"
+	}
+	
 	Write-Host "Pobieranie danych z transifexa"
 	Set-Location "$PSScriptRoot\ck3transifex\"
 	if(!$DEBUG_MODE) { 
