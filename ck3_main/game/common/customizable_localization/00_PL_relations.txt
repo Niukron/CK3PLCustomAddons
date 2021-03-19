@@ -7471,6 +7471,17 @@ MySheOrMyHeRelationList = {
 			scope:second = {
 				is_courtier_of = root
 				is_female = yes
+				has_relation_soulmate = root
+			}
+		}
+	}
+
+	text = {
+		localization_key = MyHe #relation_courtier_female
+		trigger = {
+			scope:second = {
+				is_courtier_of = root
+				is_female = yes
 			}
 		}
 	}
