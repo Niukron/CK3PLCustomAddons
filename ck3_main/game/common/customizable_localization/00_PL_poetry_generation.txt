@@ -1,0 +1,70 @@
+﻿GeneratePoem_Title_Fragment_Emotion_adj = {
+	type = character
+	random_valid = yes
+
+	# Romance Block
+	## comment_container = {
+		text = {
+			trigger = { var:poetry_theme = flag:romance }
+			localization_key = generatepoem_title_love_adj
+		}
+		text = {
+			trigger = { var:poetry_theme = flag:romance }
+			localization_key = generatepoem_title_passion_adj
+		}
+		text = {
+			trigger = { var:poetry_theme = flag:romance }
+			localization_key = generatepoem_title_tenderness_adj
+		}
+		text = {
+			trigger = { var:poetry_theme = flag:romance }
+			localization_key = generatepoem_title_doting_adj
+		}
+	## }
+	# Mourning Block
+	## comment_container = {
+		text = {
+			trigger = { var:poetry_theme = flag:mourning }
+			localization_key = generatepoem_title_sadness_adj
+		}
+		text = {
+			trigger = { var:poetry_theme = flag:mourning }
+			localization_key = generatepoem_title_sorrow_adj
+		}
+		text = {
+			trigger = { var:poetry_theme = flag:mourning }
+			localization_key = generatepoem_title_regret_adj
+		}
+		text = {
+			trigger = { var:poetry_theme = flag:mourning }
+			localization_key = generatepoem_title_mourning_adj
+		}
+	## }
+	# Legacy Block
+	## comment_container = {
+		# No current fragments.
+	## }
+	# Strife Block
+	## comment_container = {
+		text = {
+			trigger = { var:poetry_theme = flag:strife }
+			localization_key = generatepoem_title_rage_adj
+		}
+		text = {
+			trigger = { var:poetry_theme = flag:strife }
+			localization_key = generatepoem_title_anger_adj
+		}
+		text = {
+			trigger = { var:poetry_theme = flag:strife }
+			localization_key = generatepoem_title_bloodlust_adj
+		}
+		text = {
+			trigger = { var:poetry_theme = flag:strife }
+			localization_key = generatepoem_title_wrath_adj
+		}
+	## }
+	# Incompetence Block
+	## comment_container = {
+		# No current fragments.
+	## }
+}
