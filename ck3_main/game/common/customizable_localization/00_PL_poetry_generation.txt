@@ -119,3 +119,44 @@ GeneratePoem_Title_Fragment_Season_adj = {
 	text = { localization_key = generatepoem_title_autumn_adj }
 	text = { localization_key = generatepoem_title_winter_adj }
 }
+
+GeneratePoem_Title_Fragment_PatheticFallacy_adj = {
+	type = character
+	random_valid = yes
+
+	# Romance Block
+	## comment_container = {
+		# No current fragments.
+	## }
+	# Mourning Block
+	## comment_container = {
+		text = {
+			trigger = { var:poetry_theme = flag:mourning }
+			localization_key = generatepoem_title_windswept_woods_adj
+		}
+		text = {
+			trigger = { var:poetry_theme = flag:mourning }
+			localization_key = generatepoem_title_rainy_nights_adj
+		}
+		text = {
+			trigger = { var:poetry_theme = flag:mourning }
+			localization_key = generatepoem_title_still_mornings_adj
+		}
+		text = {
+			trigger = { var:poetry_theme = flag:mourning }
+			localization_key = generatepoem_title_lonely_graves_adj
+		}
+	## }
+	# Legacy Block
+	## comment_container = {
+		# No current fragments.
+	## }
+	# Strife Block
+	## comment_container = {
+		# No current fragments.
+	## }
+	# Incompetence Block
+	## comment_container = {
+		# No current fragments.
+	## }
+}
