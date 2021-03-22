@@ -109,3 +109,13 @@ GeneratePoem_Title_Fragment_MetaphoricalPlace_adj = {
 		# No current fragments.
 	## }
 }
+
+GeneratePoem_Title_Fragment_Season_adj = {
+	type = character
+	random_valid = yes
+
+	text = { localization_key = generatepoem_title_spring_adj }
+	text = { localization_key = generatepoem_title_summer_adj }
+	text = { localization_key = generatepoem_title_autumn_adj }
+	text = { localization_key = generatepoem_title_winter_adj }
+}
