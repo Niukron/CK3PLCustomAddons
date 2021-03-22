@@ -68,3 +68,44 @@
 		# No current fragments.
 	## }
 }
+
+GeneratePoem_Title_Fragment_MetaphoricalPlace_adj = {
+	type = character
+	random_valid = yes
+
+	# Romance Block
+	## comment_container = {
+		text = {
+			trigger = { var:poetry_theme = flag:romance }
+			localization_key = generatepoem_title_heart_adj
+		}
+		text = {
+			trigger = { var:poetry_theme = flag:romance }
+			localization_key = generatepoem_title_head_adj
+		}
+		text = {
+			trigger = { var:poetry_theme = flag:romance }
+			localization_key = generatepoem_title_dreams_adj
+		}
+		text = {
+			trigger = { var:poetry_theme = flag:romance }
+			localization_key = generatepoem_title_chest_adj
+		}
+	## }
+	# Mourning Block
+	## comment_container = {
+		# No current fragments.
+	## }
+	# Legacy Block
+	## comment_container = {
+		# No current fragments.
+	## }
+	# Strife Block
+	## comment_container = {
+		# No current fragments.
+	## }
+	# Incompetence Block
+	## comment_container = {
+		# No current fragments.
+	## }
+}
