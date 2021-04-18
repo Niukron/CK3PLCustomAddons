@@ -313,6 +313,10 @@ relation_acquaintance_male_accusative:0 "znajomego"
  cn_island_adj:0 "Islandii"
  d_ragusa_adj:0 "Dubrownika"
  d_kairouan_adj:0 "Kairuanu"
+ d_tripolitania_adj:0 "Trypolitanii"
+ d_zab_adj:0 "Zabu"
+ d_mzab_adj:0 "Mzabu"
+ d_jerid_adj:0 "Dżeridu"
  
  c_gorlitz_adj:0 "Zgorzelca"
  c_przemkow_adj:0 "Przemkowa"
@@ -442,6 +446,7 @@ relation_acquaintance_male_accusative:0 "znajomego"
  c_siggevara_adj:0 "Siggevary"
  c_peaccam_adj:0 "Peäccamu"
  c_biton_adj:0 "Bitonu"
+ c_ghardaia_adj:0 "Ghardaji"
 
 
  TwinDaughtersSonsChildren_With_Num_relation_daughters:0 "dwie bliźniaczki"
