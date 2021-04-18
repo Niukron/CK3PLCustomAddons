@@ -2441,7 +2441,7 @@ relation_acquaintance_male_accusative:0 "znajomego"
  yoruba_the_orisa_genitive:0 "Oriszy"
 
 
-#PantheonTerms - Dative
+ #PantheonTerms - Dative
 
  pantheon_term_fallback:0 "[ROOT.Char.GetFaith.PantheonTerm]"
  akom_the_abosom_dative:0 "Abosomowi"
@@ -2452,3 +2452,9 @@ relation_acquaintance_male_accusative:0 "znajomego"
  paganism_mother_earth_father_sky_dative:0 "Matce Ziemi i Ojcu Nieba"
  religion_the_spirits_dative:0 "duchom"
  yoruba_the_orisa_dative:0 "Orisze"
+ 
+ #TwinDaughtersSonsChildrenBier
+ 
+ relation_daughters_bier:0 "dwie córki"
+ relation_sons_bier:0 "dwóch synów"
+ relation_children_bier:0 "dwójkę dzieci"
