@@ -2375,6 +2375,42 @@ relation_acquaintance_male_accusative:0 "znajomego"
  zunism_water_god_name_cel:0 "$zunism_high_god_name_cel$"
  zunism_witchgod_name_cel:0 "Zmierzchowi"
  
+ #WitchGodAdj
+ christianity_witch_god_adj:0 "Rogatego Boga"
+ baltic_witchgod_name_adj:0 "Diewasa Senelis"
+ bon_witchgod_name_adj:0 "Sidpy Gyalmo"
+ buddhism_witchgod_name_adj:0 "$buddhism_trickster_god_name_adj$"
+ lamaism_witchgod_name_adj:0 "Szindże"
+ tani_witchgod_name_adj:0 "Szindże"
+ dualism_witchgod_name_adj:0 "Demiurga"
+ manicheanism_witchgod_name_adj:0 "Księcia Ciemności"
+ mandeaism_creator_god_name_adj:0 "$mandeaism_witchgod_name_adj$"
+ mandeaism_witchgod_name_adj:0 "Ptahila"
+ valentinianism_witchgod_name_adj:0 "Sofii"
+ sethianism_witchgod_name_adj:0 "Jaldabaota"
+ finno_ugric_witchgod_name_adj:0 "Paholainena"
+ germanic_witchgod_name_adj:0 "Lokiego"
+ hellenism_witchgod_name_adj:0 "Hekate" #Bogini
+ hinduism_witchgod_name_adj:0 "$hinduism_war_god_name_adj$" #Bogini
+ islam_witchgod_name_adj:0 "$islam_trickster_god_name_adj$"
+ jainism_witchgod_name_adj:0 "Dew"
+ judaism_witchgod_name_adj:0 "Razjela"
+ kushitism_witchgod_name_adj:0 "$kushitism_health_god_name_adj$"
+ magyar_witchgod_name_adj:0 "Szélanyi" #Bogini
+ mundhumism_witchgod_name_adj:0 "$hinduism_war_god_name_adj$"
+ paganism_witchgod_name_adj:0 "Cienia"
+ qiangic_witchgod_name_adj:0 "Dula"
+ siberian_witchgod_name_adj:0 "Kaltesz-Eekwy"
+ slavic_witchgod_name_adj:0 "Welesa"
+ taoism_witchgod_name_adj:0 "Daode Tianzuna"
+ tengrism_witchgod_name_adj:0 "Irsziego"
+ dogon_witchgod_name_adj:0 "Szakala"
+ bori_witchgod_name_adj:0 "Cienia"
+ roog_sene_witchgod_name_adj:0 "Cienia"
+ yazidi_witchgod_name_adj:0 "$yazidi_trickster_god_name_adj$"
+ zoroastrianism_witchgod_name_adj:0 "Arymana"
+ zunism_witchgod_name_adj:0 "Zmierzchu"
+ 
  #Mój/Moja
  
  MyShe:0 "moja"
