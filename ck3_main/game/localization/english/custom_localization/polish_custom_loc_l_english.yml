@@ -2415,6 +2415,11 @@ relation_acquaintance_male_accusative:0 "znajomego"
  
  MyShe:0 "moja"
  MyHe:0 "mój"
+
+ #Twój/Twoja
+ 
+ YourShe:0 "twoja"
+ YourHe:0 "twój"
  
  #Wyświetlanie małżonek/małżonka w oknie postaci
  
