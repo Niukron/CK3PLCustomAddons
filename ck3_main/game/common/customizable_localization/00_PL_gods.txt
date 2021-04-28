@@ -5669,4 +5669,382 @@ WitchGodAdj = {
 	}
 }
 
+######Health God Wołacz######
+
+HealthGodNameWol = {
+	type = character
+	
+	text = {
+		trigger = {
+			OR = {
+				faith = faith:coptic
+				faith = faith:armenian_apostolic
+			}
+		}
+		localization_key = east_christian_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = christianity_religion
+			}
+		}
+		localization_key = christianity_health_god_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = akom_religion
+			}
+		}
+		localization_key = akom_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = baltic_religion
+			}
+		}
+		localization_key = baltic_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = bon_religion
+			}
+		}
+		localization_key = bon_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+				faith = faith:vajrayana
+		}
+		localization_key = vajrayana_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+				faith = faith:lamaism
+		}
+		localization_key = lamaism_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = buddhism_religion
+			}
+		}
+		localization_key = buddhism_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+				faith = faith:sedism
+		}
+		localization_key = sedism_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = tani_religion
+			}
+		}
+		localization_key = tani_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+				faith = faith:valentinianism
+		}
+		localization_key = valentinianism_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+				faith = faith:sethianism
+		}
+		localization_key = sethianism_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+				faith = faith:priscillianism
+		}
+		localization_key = manicheanism_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+				faith = faith:mandeaism
+		}
+		localization_key = mandeaism_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+				faith = faith:manichean
+		}
+		localization_key = manicheanism_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = dualism_religion
+			}
+		}
+		localization_key = dualism_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = finno_ugric_religion
+			}
+		}
+		localization_key = finno_ugric_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = germanic_religion
+			}
+		}
+		localization_key = germanic_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = hellenism_religion
+			}
+		}
+		localization_key = hellenism_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+				faith = faith:shaivism
+		}
+		localization_key = shaivism_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+				faith = faith:smartism
+		}
+		localization_key = smartism_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = hinduism_religion
+			}
+		}
+		localization_key = hinduism_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = islam_religion
+			}
+		}
+		localization_key = islam_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = jainism_religion
+			}
+		}
+		localization_key = jainism_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = judaism_religion
+			}
+		}
+		localization_key = judaism_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = kushitism_religion
+			}
+		}
+		localization_key = kushitism_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = magyar_religion
+			}
+		}
+		localization_key = magyar_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = mundhum_religion
+			}
+		}
+		localization_key = mundhumism_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = paganism_religion
+			}
+		}
+		localization_key = paganism_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+				faith = faith:melieism
+		}
+		localization_key = tangut_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = qiangic_religion
+			}
+		}
+		localization_key = qiangic_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = siberian_religion
+			}
+		}
+		localization_key = siberian_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = slavic_religion
+			}
+		}
+		localization_key = slavic_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = taoism_religion
+			}
+		}
+		localization_key = taoism_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = tengrism_religion
+			}
+		}
+		localization_key = tengrism_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = waaqism_religion
+			}
+		}
+		localization_key = waaqism_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+				faith = faith:west_african_bidu_pagan
+		}
+		localization_key = bidu_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = west_african_religion
+			}
+		}
+		localization_key = dogon_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = west_african_bori_religion
+			}
+		}
+		localization_key = bori_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = west_african_orisha_religion
+			}
+		}
+		localization_key = yoruba_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = west_african_roog_religion
+			}
+		}
+		localization_key = roog_sene_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = yazidi_religion
+			}
+		}
+		localization_key = yazidi_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = zoroastrianism_religion
+			}
+		}
+		localization_key = zoroastrianism_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = zunism_religion
+			}
+		}
+		localization_key = zunism_health_god_name_wol
+	}
+}
 ################################################## ################################################## ##################################################
