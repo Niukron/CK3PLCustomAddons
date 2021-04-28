@@ -2411,6 +2411,51 @@ relation_acquaintance_male_accusative:0 "znajomego"
  zoroastrianism_witchgod_name_adj:0 "Arymana"
  zunism_witchgod_name_adj:0 "Zmierzchu"
  
+ #Health God Wołacz
+ christianity_health_god_wol:0 "Jezusie"
+ east_christian_health_god_name_wol:0 "św. Samuelu"
+ akom_health_god_name_wol:0 "Asase Jaa"
+ baltic_health_god_name_wol:0 "Saulė"
+ bon_health_god_name_wol:0 "Tsewang Rigzinie"
+ buddhism_health_god_name_wol:0 "Wirudhako"
+ vajrayana_health_god_name_wol:0 "Hajagriwo"
+ lamaism_health_god_name_wol:0 "Hajagriwo"
+ tani_health_god_name_wol:0 "Donyi-Polo"
+ sedism_health_god_name_wol:0 "Donyi-Polo"
+ dualism_health_god_name_wol:0 "Boże"
+ manicheanism_health_god_name_wol:0 "Żywy Duchu"
+ mandeaism_health_god_name_wol:0 "Pierwsze Światło"
+ valentinianism_health_god_name_wol:0 "Zoê"
+ sethianism_health_god_name_wol:0 "Barbelo"
+ finno_ugric_health_god_name_wol:0 "Akko" #Bogini
+ germanic_health_god_name_wol:0 "Eir" #Bogini
+ hellenism_health_god_name_wol:0 "Asklepiosie"
+ hinduism_health_god_name_wol:0 "Gandze" #Bogini
+ shaivism_health_god_name_wol:0 "Wajtheeswaranie"
+ smartism_health_god_name_wol:0 "Wisznu"
+ islam_health_god_name_wol:0 "Allahu"
+ jainism_health_god_name_wol:0 "Bhagiratho"
+ judaism_health_god_name_wol:0 "Panie"
+ kushitism_health_god_name_wol:0 "Heko"
+ magyar_health_god_name_wol:0 "Istenie"
+ mundhumism_health_god_name_wol:0 "Jumo Sammang" #Bogini
+ paganism_health_god_name_wol:0 "Matko Ziemio"
+ qiangic_health_god_name_wol:0 "Sibeahse"
+ tangut_health_god_name_wol:0 "Mewnie"
+ siberian_health_god_name_wol:0 "As-Iki"
+ slavic_health_god_name_wol:0 "Jarowicie"
+ taoism_health_god_name_wol:0 "Li Tieguai'u"
+ tengrism_health_god_name_wol:0 "Karszit Chanie"
+ waaqism_health_god_name_wol:0 "Bucur Bacayrze"
+ dogon_health_god_name_wol:0 "Ammo"
+ bidu_health_god_name_wol:0 "Bido"
+ bori_health_god_name_wol:0 "duchy drzew"
+ yoruba_health_god_name_wol:0 "Obaluaje"
+ roog_sene_health_god_name_wol:0 "pangolu"
+ yazidi_health_god_name_wol:0 "Dadra'ilu"
+ zoroastrianism_health_god_name_wol:0 "Ahuro Mazdo"
+ zunism_health_god_name_wol:0 "Zunie"
+ 
  #Mój/Moja
  
  MyShe:0 "moja"
@@ -2485,7 +2530,6 @@ relation_acquaintance_male_accusative:0 "znajomego"
  paganism_mother_earth_father_sky_genitive:0 "Matki Ziemi i Ojca Nieba"
  religion_the_spirits_genitive:0 "duchów"
  yoruba_the_orisa_genitive:0 "Oriszy"
-
 
  #PantheonTerms - Dative
 
