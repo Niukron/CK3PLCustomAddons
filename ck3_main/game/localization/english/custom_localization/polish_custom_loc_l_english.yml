@@ -2548,3 +2548,9 @@ relation_acquaintance_male_accusative:0 "znajomego"
  relation_daughters_bier:0 "dwie córki"
  relation_sons_bier:0 "dwóch synów"
  relation_children_bier:0 "dwójkę dzieci"
+
+#TwinDaughtersSonsChildrenAblative
+ 
+ relation_daughters_ablative:0 "córkami"
+ relation_sons_ablative:0 "synamo"
+ relation_children_ablative:0 "dziećmi"
