@@ -2576,8 +2576,24 @@ relation_acquaintance_male_accusative:0 "znajomego"
  relation_sons_bier:0 "dwóch synów"
  relation_children_bier:0 "dwójkę dzieci"
 
-#TwinDaughtersSonsChildrenAblative
+ #TwinDaughtersSonsChildrenAblative
  
  relation_daughters_ablative:0 "córkami"
  relation_sons_ablative:0 "synami"
  relation_children_ablative:0 "dziećmi"
+ 
+ #Teren - Dopełniacz
+ 
+ terrain_plains_adj:0 "Równin"
+ terrain_farmlands_adj:0 "Pól uprawnych"
+ terrain_hills_adj:0 "Wzgórz"
+ terrain_mountains_adj:0 "Gór"
+ terrain_desert_adj:0 "Pustyni"
+ terrain_oasis_adj:0 "Oazy"
+ terrain_jungle_adj:0 "Dżungli"
+ terrain_forest_adj:0 "Lasu"
+ terrain_taiga_adj:0 "Tajgi"
+ terrain_wetlands_adj:0 "Mokradeł"
+ terrain_steppe_adj:0 "Stepu"
+ terrain_floodplains_adj:0 "Terenów zalewowych"
+ terrain_drylands_adj:0 "Terenów suchych"
