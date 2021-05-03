@@ -341,3 +341,90 @@ TerrainTypeBier = {
 		localization_key = terrain_drylands_bier
 	}
 }
+
+
+LocalAnimalDop = {
+	type = character
+
+	text = {
+		localization_key = animal_hart_dop
+		trigger = {
+			var:local_animal = flag:hart
+		}
+		fallback = yes
+	}
+
+	text = {
+		localization_key = animal_stag_dop
+		trigger = {
+			var:local_animal = flag:stag
+		}
+	}
+
+	text = {
+		localization_key = animal_boar_dop
+		trigger = {
+			var:local_animal = flag:boar
+		}
+	}
+
+	text = {
+		localization_key = animal_wolf_dop
+		trigger = {
+			var:local_animal = flag:wolf
+		}
+	}
+
+	text = {
+		localization_key = animal_fox_dop
+		trigger = {
+			var:local_animal = flag:fox
+		}
+	}
+
+	text = {
+		localization_key = animal_hare_dop
+		trigger = {
+			var:local_animal = flag:hare
+		}
+	}
+
+	text = {
+		localization_key = animal_lion_dop
+		trigger = {
+			var:local_animal = flag:lion
+		}
+	}
+
+	text = {
+		localization_key = animal_tiger_dop
+		trigger = {
+			var:local_animal = flag:tiger
+		}
+	}
+
+	text = {
+		localization_key = animal_bear_dop
+		trigger = {
+			var:local_animal = flag:bear
+		}
+	}
+
+	text = {
+		localization_key = animal_unicorn_dop
+		trigger = {
+			var:local_animal = flag:unicorn
+		}
+	}
+
+	text = {
+		localization_key = animal_dragon_dop
+		trigger = {
+			var:local_animal = flag:dragon
+		}
+	}
+}
+
+
+
+

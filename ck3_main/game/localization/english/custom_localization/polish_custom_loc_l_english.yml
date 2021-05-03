@@ -2611,3 +2611,18 @@ relation_acquaintance_male_accusative:0 "znajomego"
  terrain_steppe_bier:0 "Step"
  terrain_floodplains_bier:0 "Tereny zalewowe"
  terrain_drylands_bier:0 "Tereny suchę"
+ 
+ #Zwierzęta - Dopełniacz
+ animal_hart_dop:0 "rogacza"
+ animal_stag_dop:0 "jeleńia"
+ animal_boar_dop:0 "dzika"
+ animal_wolf_dop:0 "wilka"
+ animal_fox_dop:0 "lisa"
+ animal_hare_dop:0 "zająca"
+ animal_lion_dop:0 "lewa"
+ animal_tiger_dop:0 "tygrysa"
+ animal_bear_dop:0 "niedźwiedzia"
+ animal_unicorn_dop:0 "jednorożeca"
+ animal_dragon_dop:0 "smoka"
+ 
+ 
