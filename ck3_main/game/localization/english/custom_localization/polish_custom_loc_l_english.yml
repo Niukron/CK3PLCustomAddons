@@ -222,7 +222,7 @@
 
 # RelationToMeShortDop
  
- relation_motherwife_dop:0 "matki-żoni"
+ relation_motherwife_dop:0 "matki-żony"
  relation_mother_concubine_dop:0 "matki-konkubiny"
  relation_sisterwife_dop:0 "siostry-żony"
  relation_sister_concubine_dop:0 "siostry-konkubiny"
