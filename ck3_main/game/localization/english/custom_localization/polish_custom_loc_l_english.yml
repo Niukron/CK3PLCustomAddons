@@ -2799,4 +2799,14 @@
  animal_unicorn_dop:0 "jednorożca"
  animal_dragon_dop:0 "smoka"
  
- 
+ #my_prison_pet
+ my_prison_pet_rat:0 "mój szczur"
+ my_prison_pet_stone:0 "mój kamień"
+ my_prison_pet_spoon:0 "moja łyżka"
+ my_prison_pet_cockroach:0 "mój karaluch"
+
+ #little_prison_pet_vocative
+ little_prison_pet_rat_vocative:0 "szczurku"
+ little_prison_pet_stone_vocative:0 "kamyczku"
+ little_prison_pet_spoon_vocative:0 "łyżeczko"
+ little_prison_pet_cockroach_vocative:0 "karaluszku"
