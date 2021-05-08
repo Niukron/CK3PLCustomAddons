@@ -357,7 +357,7 @@
  relation_acquaintance_female_vocative:0 "znajoma"
  relation_acquaintance_male_vocative:0 "znajomy"
 
-# RelationToMeShortDop
+# RelationToMeDop / RelationToMeShortDop
  
  relation_motherwife_dop:0 "matki-żony"
  relation_mother_concubine_dop:0 "matki-konkubiny"
