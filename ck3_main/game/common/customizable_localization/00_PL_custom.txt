@@ -1164,3 +1164,20 @@ exotic_fowl_type_genitive_plural = {
 		}
 	}
 }
+
+GruesomeFestivalNameMsc = {
+	type = character
+
+	text = {
+		localization_key = gruesomefestivalname_blot_msc
+		trigger = { religion = religion:germanic_religion }
+	}
+
+	text = {
+		localization_key = gruesomefestivalname_festival_msc
+		trigger = {
+			NOT = { religion = religion:germanic_religion }
+		}
+		fallback = yes
+	}
+}
