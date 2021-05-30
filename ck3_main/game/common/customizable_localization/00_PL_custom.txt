@@ -715,6 +715,14 @@ TitleRankAdjConcept = {
 TitleAdjNoTooltip = {
 
 	type = landed_title
+
+	text = {
+		trigger = {			
+			is_mercenary_company = yes
+		}
+		
+		localization_key = title_adj_all_notier_notooltip
+	}
 	
 	text = {
 		trigger = {			
@@ -804,11 +812,31 @@ TitleAdjNoTooltip = {
 
 }
 
+TitleAdjNoTierNoTooltip = {
+
+	type = landed_title
+
+	text = {
+		localization_key = title_adj_all_notier_notooltip
+	}
+
+}
+
+
+
 
 
 TitleAdj = {
 
 	type = landed_title
+
+	text = {
+		trigger = {			
+			is_mercenary_company = yes
+		}
+		
+		localization_key = title_adj_all_notier
+	}
 	
 	text = {
 		trigger = {			
@@ -895,6 +923,16 @@ TitleAdj = {
 
 	}
 
+
+}
+
+TitleAdjNoTier = {
+
+	type = landed_title
+	
+	text = {
+		localization_key = title_adj_all_notier
+	}
 
 }
 
