@@ -738,6 +738,9 @@
  title_francia:0 "[Select_CString(EqualTo_string(ROOT.Title.GetNameNoTierNoTooltip, '$k_france$'), '$kingdom$ $k_france_adj$', ROOT.Title.GetNameNoTier )]"
  title_adj_fallback:0 "[ROOT.Title.GetName|U]"
  title_adj:0 "[Title.Custom('TitleAdj')|LU]"
+
+ title_notier_notooltip:0 "[ROOT.Title.GetNameNoTierNoTooltip|U]"
+ title_notier:0 "[ROOT.Title.GetNameNoTier|U]"
  
  #Prędkość gry
  CURRENT_SPEED_TEXT_6:0 "najwolniejszą"

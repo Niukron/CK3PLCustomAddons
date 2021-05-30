@@ -717,11 +717,14 @@ TitleAdjNoTooltip = {
 	type = landed_title
 
 	text = {
-		trigger = {			
-			is_mercenary_company = yes
+		trigger = {	
+			OR = {
+				is_mercenary_company = yes
+				is_holy_order = yes
+			}		
 		}
 		
-		localization_key = title_adj_all_notier_notooltip
+		localization_key = title_notier_notooltip
 	}
 	
 	text = {
@@ -831,11 +834,14 @@ TitleAdj = {
 	type = landed_title
 
 	text = {
-		trigger = {			
-			is_mercenary_company = yes
+		trigger = {	
+			OR = {
+				is_mercenary_company = yes
+				is_holy_order = yes
+			}		
 		}
 		
-		localization_key = title_adj_all_notier
+		localization_key = title_notier
 	}
 	
 	text = {
