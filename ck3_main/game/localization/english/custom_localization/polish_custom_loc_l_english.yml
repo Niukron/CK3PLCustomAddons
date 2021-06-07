@@ -2969,4 +2969,4 @@
  kingdom_genitive_lower_case:0 "królestwa"
  duchy_genitive_lower_case:0 "księstwa"
  county_genitive_lower_case:0 "hrabstwa"
- barony_lower_genitive_case:0 "baronii"
+ barony_genitive_lower_case:0 "baronii"

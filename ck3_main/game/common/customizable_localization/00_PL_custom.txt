@@ -1251,7 +1251,7 @@ RealmTypeGenitive = {
 	}
 
 	text = {
-		localization_key = barony_lower_genitive_case
+		localization_key = barony_genitive_lower_case
 		trigger = {
 			highest_held_title_tier >= 1
 		}
