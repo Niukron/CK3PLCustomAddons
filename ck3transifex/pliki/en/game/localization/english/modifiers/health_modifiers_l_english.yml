@@ -39,6 +39,8 @@
  wounds_quickly_tended_to_modifier_desc: "This character's wounds were quickly tended to"
  drank_water_modifier: "Drank Water"
  drank_water_modifier_desc: "This character drank blissfully cool water on a warm day"
+ almost_drowned_modifier: "Almost Drowned"
+ almost_drowned_modifier_desc: "This character almost drowned and is still shaken by the experience."
  malnourished_modifier: "Malnourished"
  malnourished_modifier_desc: "This character suffers from weakness, lack of energy, and a low mood."
  obese_modifier: "Obese"

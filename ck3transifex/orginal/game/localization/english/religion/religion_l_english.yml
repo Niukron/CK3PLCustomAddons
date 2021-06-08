@@ -36,6 +36,8 @@
  PIETY_TEXT_ICON_islam:0 "@piety_icon_islam!"
  PIETY_TEXT_ICON_pagan:0 "@piety_icon_pagan!"
  PIETY_TEXT_ICON_eastern:0 "@piety_icon_eastern!"
+ PIETY_TEXT_ICON_judaism:0 "@piety_icon_judaism!"
+ PIETY_TEXT_ICON_zoroastrian:0 "@piety_icon_zoroastrian!"
 
  faith_conversion_cost_reformed_converting_to_unreformed:1 "Converting from an [organized|E] Faith to an unreformed Faith"
  faith_conversion_cost_feudal_converting_to_unreformed:0 "Feudal Ruler converting to unreformed Faith"
@@ -370,10 +372,11 @@
  
  holy_site_athens_name:0 "Athens"
  holy_site_athens_effect_name:0 "From [holy_site|E] #weak ($holy_site_athens_name$)#!"
- holy_site_sparta_name:0 "Sparta"
- holy_site_sparta_effect_name:0 "From [holy_site|E] #weak ($holy_site_sparta_name$)#!"
  holy_site_carthage_name:0 "Carthage"
  holy_site_carthage_effect_name:0 "From [holy_site|E] #weak ($holy_site_carthage_name$)#!"
+ holy_site_olympus_name:0 "Mount Olympus"
+ holy_site_olympus_effect_name:0 "From [holy_site|E] #weak ($holy_site_olympus_name$)#!"
+ 
 
  
  holy_site_kabul_name:0 "Kabul"

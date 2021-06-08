@@ -341,12 +341,9 @@
  feast_default.9001.spouse:0 "\n\nI have my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('spouse'))] [spouse.GetFirstName] to thank for much of its success, and I feel nothing but gratitude as [spouse.GetSheHe] sees the last few guests off."
  feast_default.9001.no_spouse:0 "Nevertheless, I am still grateful that the endeavor is over for now."
  feast_default.9001.a:0 "Until next time!"
- feast_default.9001.a.tt:0 "Your guests' opinions of you will improve."
 
  feast_default.9002.t:0 "$feast_header$ Returning Home"
  feast_default.9002.desc_murder_feast:0 "What a feast! I will remember the days spent in [host.GetTitledFirstNamePossessive] halls for a long time to come, especially with that... #EMP fiery#! ending to the evening."
  feast_default.9002.desc:0 "What a feast! I will remember the days spent in [host.GetTitledFirstNamePossessive] halls for a long time to come."
- feast_default.9002.desc_imprisoned_host:0 "Such a shame that [host.GetSheHe] [host.GetHerselfHimself] couldn't be there..."
  feast_default.9002.desc_ending:1 "\n\nNow it is time to wash off the traces of merriment and wine, and once more resume my duties as a [ROOT.Char.GetLadyLord] of the realm."
  feast_default.9002.a:0 "Farewell, my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('host'))]!"
- feast_default.9002.a_imprisoned_host:0 "Farewell!"

@@ -29,6 +29,13 @@ source_file = pliki/en/game/localization/english/opinions/activity_pilgrimage_op
 source_lang = en
 type = YAML_GENERIC
 
+[crusader-kings-iii-spolszczenie.activity_playdate_opinions_l_englishyml]
+file_filter = pliki/<lang>/game/localization/english/opinions/activity_playdate_opinions_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/opinions/activity_playdate_opinions_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
 [crusader-kings-iii-spolszczenie.birth_opinions_l_englishyml]
 file_filter = pliki/<lang>/game/localization/english/opinions/birth_opinions_l_english.yml
 minimum_perc = 0
@@ -1352,6 +1359,13 @@ source_file = pliki/en/game/localization/english/modifiers/activity_pilgrimage_m
 source_lang = en
 type = YAML_GENERIC
 
+[crusader-kings-iii-spolszczenie.activity_playdate_modifiers_l_englishyml]
+file_filter = pliki/<lang>/game/localization/english/modifiers/activity_playdate_modifiers_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/modifiers/activity_playdate_modifiers_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
 [crusader-kings-iii-spolszczenie.befriend_scheme_modifiers_l_englishyml]
 file_filter = pliki/<lang>/game/localization/english/modifiers/befriend_scheme_modifiers_l_english.yml
 minimum_perc = 0
@@ -1622,6 +1636,13 @@ type = YAML_GENERIC
 file_filter = pliki/<lang>/game/localization/english/modifiers/yearly_event_modifiers_l_english.yml
 minimum_perc = 0
 source_file = pliki/en/game/localization/english/modifiers/yearly_event_modifiers_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[crusader-kings-iii-spolszczenie.trait_modifiers_l_englishyml]
+file_filter = pliki/<lang>/game/localization/english/modifiers/trait_modifiers_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/modifiers/trait_modifiers_l_english.yml
 source_lang = en
 type = YAML_GENERIC
 
@@ -2539,6 +2560,13 @@ type = YAML_GENERIC
 file_filter = pliki/<lang>/game/localization/english/event_localization/activities/pilgrimage_events_l_english.yml
 minimum_perc = 0
 source_file = pliki/en/game/localization/english/event_localization/activities/pilgrimage_events_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[crusader-kings-iii-spolszczenie.playdate_events_l_englishyml]
+file_filter = pliki/<lang>/game/localization/english/event_localization/activities/playdate_events_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/event_localization/activities/playdate_events_l_english.yml
 source_lang = en
 type = YAML_GENERIC
 

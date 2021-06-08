@@ -49,6 +49,9 @@
  drank_water_modifier:0 "Drank Water"
  drank_water_modifier_desc:0 "This character drank blissfully cool water on a warm day"
 
+ almost_drowned_modifier:0 "Almost Drowned"
+ almost_drowned_modifier_desc:0 "This character almost drowned and is still shaken by the experience."
+
  malnourished_modifier:0 "Malnourished"
  malnourished_modifier_desc:0 "This character suffers from weakness, lack of energy, and a low mood."
  obese_modifier:0 "Obese"

@@ -41,3 +41,5 @@
  SUPPLY_BREAKDOWN_LIMIT: "Over [supply_limit|E]"
  SUPPLY_BREAKDOWN_COMMANDER: "[commander|E] ([CHARACTER.GetShortUIName])"
  SUPPLY_LOSS_AT_SEA: "At Sea"
+ SUPPLY_BREAKDOWN_PENALTY: "Supply penalty"
+ SUPPLY_BREAKDOWN_BONUS: "Supply bonus"

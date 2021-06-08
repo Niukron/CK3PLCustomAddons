@@ -2,6 +2,7 @@
  FACTION_DISCONTENT_POWER_ABOVE_THRESHOLD: "[faction_military_power|E] above threshold: #V $VALUE|0=-$#!"
  FACTION_DISCONTENT_POWER_BELOW_THRESHOLD: "[faction_military_power|E] is below threshold: #V $VALUE|0=-$#!"
  FACTION_POWER_HARD_RULE: "[GetPerk( 'hard_rule_perk' ).GetName( GetPlayer )]: #V +$VALUE|0$#!"
+ FACTION_POWER_INTERNAL_ISSUES: "Existing Factions: #V $VALUE|0$#!"
  FACTION_DEMAND_ACCEPT: "I guess I have no choice..."
  FACTION_DEMAND_REFUSE: "I will not be threatened!"
  FACTION_DEMAND_ACCEPTED_OPT: "A wise decision"

@@ -118,6 +118,7 @@
  FERTILITY_LEVEL_2:0 "Medium"
  FERTILITY_LEVEL_3:0 "High"
  FERTILITY_LEVEL_4:0 "Very High"
+ BLOCKER_SAME_SEX:0 "@warning_icon!#X Same-sex concubinage cannot result in pregnancy#!"
  BLOCKER_ALREADY_PREGNANT:0 "@warning_icon!#X [CHARACTER.GetShortUINameNotMe] is pregnant#!"
  BLOCKER_RECENTLY_GAVE_BIRTH:0 "@warning_icon!#X [CHARACTER.GetShortUINameNotMe] gave birth recently#!"
  BLOCKER_IS_INFERTILE:0 "@warning_icon!#X [CHARACTER.GetShortUINameNotMe] is infertile#!"

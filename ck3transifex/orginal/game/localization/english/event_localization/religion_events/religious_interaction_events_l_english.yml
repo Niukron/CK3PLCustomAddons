@@ -41,6 +41,15 @@
  religious_interaction.5.outro:0 "a condition which worries the Church greatly, I have granted [actor.GetName] a claim on [target.GetName], at [actor.GetHerHis] request."
  religious_interaction.5.a:0 "This is a travesty!"
 
+ religious_interaction.6.opening:0 "[recipient.Custom2('AppropriateGreeting', ROOT.Char)]"
+ religious_interaction.6.desc:0 "After much prayer and deliberation, I have decided to grant your request to divorce [secondary_actor.GetFirstNameNoTooltip] and their [secondary_recipient.GetWifeHusband], [secondary_recipient.GetFirstNameNoTooltip],"
+ religious_interaction.6.consanguinity:0 "on the grounds of consanguinity."
+ religious_interaction.6.fallback:0 "on the grounds of suspected adultery."
+ religious_interaction.6.adultery:0 "on the grounds of adultery."
+ religious_interaction.6.different_faith:0 "on the grounds of them not adhering to the true faith."
+ religious_interaction.6.eunuch:0 "on the grounds of them not being adequately equipped."
+ religious_interaction.6.a:0 "I am sorry, [secondary_recipient.GetFirstNameNoTooltip]."
+
  religious_interaction.1001.t.fatwa:0 "Fatwa Issued!"
  religious_interaction.1001.t:0 "Legal Condemnation!"
  religious_interaction.1001.desc:1 "My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('actor'))], [actor.GetTitledFirstName], has seen me condemned as a sinner in a writ issued by [actor.GetHerHis] [actor.GetFaith.PriestNeuterPlural]!\n\nThis could be used as a legal basis to argue that I am unfit to rule [recipient.GetFaith.GetAdjective] lands."

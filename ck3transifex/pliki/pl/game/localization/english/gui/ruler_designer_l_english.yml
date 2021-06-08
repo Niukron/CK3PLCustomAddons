@@ -140,6 +140,7 @@
  RULER_DESIGNER_FINALIZE_OVERWRITE_BODY: "Zakończ tworzenie własnej postaci. Po zaakceptowaniu nie możesz dokonać zmian. Czy chcesz tego dokonać?"
  RULER_DESIGNER_FINALIZE_OVERWRITE_ACCEPT: "Zatwierdź"
  CANNOT_ENTER_RULER_DESIGNER_GAME_STARTED: "@warning_icon!#X Gra się rozpoczęła#!"
+ RULER_DESIGNER_CLIPPING_NOTE: "Ekstremalne cechy mogą kolidować z nakryciem głowy i odzieżą"
  skin_color: "Kolor skóry"
  gene_height: "Wzrost"
  gene_bs_body_type: "Tkanka tłuszczowa"

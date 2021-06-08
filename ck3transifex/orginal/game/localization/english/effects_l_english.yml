@@ -1029,6 +1029,7 @@
  
  I_ACCEPT_THE_INVITATION:1 "You accept the invitation"
  I_DECLINE_THE_INVITATION:1 "You decline the invitation"
+ CHARACTER_DECLINES_INVITATION:0 "[CHARACTER.GetShortUIName|U] declines the invitation"
  I_AM_INVITED:1 "You are invited"
  CHARACTER_ACCEPTS_INVITATION:0 "[CHARACTER.GetShortUIName|U] accepts the invitation"
  CHARACTER_IS_INVITED:0 "[CHARACTER.GetShortUIName|U] is invited"
@@ -1329,6 +1330,8 @@
  SET_REALM_CAPITAL_THIRD_DESC:0 "[TARGET_TITLE.GetName|U] becomes the new Realm Capital of [CHARACTER.GetName]"
  ADD_INNOVATION_EFFECT:1 "The [CULTURE.GetName] culture discovers $INNOVATION_TYPE|V$"
  ADDED_INNOVATION_EFFECT:0 "The [CULTURE.GetCollectiveNoun] discovered $INNOVATION_TYPE|V$"
+ REMOVE_INNOVATION_EFFECT:0 "The [CULTURE.GetName] culture loses knowledge of $INNOVATION_TYPE|V$"
+ REMOVED_INNOVATION_EFFECT:0 "The [CULTURE.GetCollectiveNoun] lost knowledge of $INNOVATION_TYPE|V$"
 
  ADD_DOCTRINE_GLOBAL_DESC:1 "Gains $DOCTRINE_GROUP$: $DOCTRINE$"
  ADD_DOCTRINE_GLOBAL_PAST_DESC:1 "Gained $DOCTRINE_GROUP$: $DOCTRINE$"
@@ -1345,6 +1348,8 @@
 
  ACTIVATE_HOLY_SITE_DESC:0 "[TITLE.GetNameNoTier] gets the [CHARACTER.GetFaith.GetAdjective] [holy_site|E] $HOLY_SITE$"
  ACTIVATE_HOLY_SITE_PAST_DESC:0 "[TITLE.GetNameNoTier] got the [CHARACTER.GetFaith.GetAdjective] [holy_site|E] $HOLY_SITE$"
+ DEACTIVATE_HOLY_SITE_DESC:0 "[TITLE.GetNameNoTier] loses the [CHARACTER.GetFaith.GetAdjective] [holy_site|E] $HOLY_SITE$"
+ DEACTIVATE_HOLY_SITE_PAST_DESC:0 "[TITLE.GetNameNoTier] lost the [CHARACTER.GetFaith.GetAdjective] [holy_site|E] $HOLY_SITE$"
 
  ADD_RANDOM_INNOVATION_EFFECT:1 "[CULTURE.GetCollectiveNoun] develop a random $GROUP$ group [innovation|E]"
  GOT_RANDOM_INNOVATION_EFFECT:0 "[CULTURE.GetCollectiveNoun] developed a random $GROUP$ group [innovation|E]"
@@ -1693,6 +1698,7 @@
  CHEAPER_AGENTS_LEGACY:0 "[agent|E] Bribe Cost: [gold_i]#P -50%#!"
  LEGACY_SEDUCE_BONUSES:0 "[send_gift|E] Cost: [gold_i]#P -50%#!\n[seduce_scheme|E] [success_chance|E]: #P +[EmptyScope.ScriptValue('fp1_adventure_legacy_2_success_chance_seduction')|0]%#!\nGain [prestige|E] [prestige_i] for successful [seduce_schemes|E]\n#weak (The riskier Seduction, the more Prestige gained)#!"
  LEGACY_BONUS_PER_FRIEND:0 "Can use the [befriend_scheme|E] on [vassals|E]\nEach of your [friend|E] relations give you #P 3#! [vassal|E] [opinion|E], #P 2#! [county_opinion|E], and #P +1%#! [gold_i] [vassal|E] [tax|E] [modifier_contribution|E]\n#weak (For up to 5 [friends])#!"
+ LEGACY_MORE_LIKELY_TO_GET_TRADE_EVENTS_WHEN_RAIDING:0 "More likely to get trade events when [raiding|E]"
 
  ALL_DYNASTY_MEMBERS_HAVE_MURDER_SAVE:1 "Major chance to [prevented_murder_prevent|E] one [murder|E] against each [dynasty|E] Member\n[interaction|E] Acceptance from [intimidated_i][intimidated|E] or [terrified_i][cowed|E]: #P +100%#!"
  LEGACY_DYNASTY_MEMBERS_GAIN_BONUS_TROOPS_WHEN_VARANGIAN_ADVENTURING:0 "Receive bonus troops above the cap when [varangian_adventuring|E]\n[dynast_interaction|E]: #V Send to the Varangian Guard#!\n#weak The [dynast] gains the ability to pay [prestige] [prestige_i] in order to send away unlanded adult [dynasty] members to potentially gain [skills] and [traits]#!"
@@ -1881,6 +1887,8 @@
  SET_IMMORTAL_AGE_PAST_EFFECT:0 "Immortality age was set to #V $VALUE$#!"
  ADD_DYNASTY_PERK_EFFECT:0 "Gain the [DYNASTY_PERK.GetName] Dynasty Perk"
  ADD_DYNASTY_PERK_PAST_EFFECT:0 "Gained the [DYNASTY_PERK.GetName] Dynasty Perk"
+ REMOVE_DYNASTY_PERK_EFFECT:0 "Loses the [DYNASTY_PERK.GetName] Dynasty Perk"
+ REMOVE_DYNASTY_PERK_PAST_EFFECT:0 "Lost the [DYNASTY_PERK.GetName] Dynasty Perk"
  CHANGE_CURRENT_WEIGHT_EFFECT:0 "Change current weight by #V $VALUE$#!"
  CHANGE_CURRENT_WEIGHT_PAST_EFFECT:0 "Changed current weight by #V $VALUE$#!"
  REMOVE_ALL_PROVINCE_MODIFIER_INSTANCES_EFFECT:0 "Loses all $MODIFIER$ Modifiers"
@@ -1921,3 +1929,4 @@
 
  custom.every_courtier_and_guest:0 "Every [courtier|E] and [guest|E]"
  custom.every_knight:0 "Every [knight|E]"
+ custom.every_held_county:0 "Every held [county|E]"

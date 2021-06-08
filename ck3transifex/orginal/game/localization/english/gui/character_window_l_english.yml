@@ -1,5 +1,6 @@
 ﻿l_english:
  SPOUSE:0 "[spouse|E]"
+ FORMER_SPOUSE:0 "Former [spouse|E]"
  BETROTHED:0 "[betrothed|E]"
  SPOUSES:0 "Spouses"
  CONCUBINES:0 "[concubines|E]"

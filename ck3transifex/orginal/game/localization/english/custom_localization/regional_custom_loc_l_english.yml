@@ -15,6 +15,8 @@
  temple:0 "temple"
  
  body_of_water_a_lake:0 "a lake"
+ body_of_water_an_oasis:0 "an oasis"
+ body_of_water_the_ocean:0 "the ocean"
  
  random_example_name_default:0 "Ranald"
  
@@ -165,6 +167,11 @@
  
  trees:0 "trees"
  rocks:0 "rocks"
+
+ 
+ sand_dune:0 "sand dune"
+ boulder:0 "boulder"
+ tree:0 "tree"
 
  
  curse_helvete:0 "helvete"

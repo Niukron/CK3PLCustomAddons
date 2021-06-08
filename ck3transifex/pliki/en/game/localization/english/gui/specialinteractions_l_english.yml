@@ -88,7 +88,7 @@
  MARRY_PROMPT_SOMEONE: "#I Choose someone to marry off#!"
  MARRY_PROMPT_BUILDING_LIST: "#I Finding potential spouses for [CHARACTER.GetShortUIName]#!"
  MARRY_PROMPT_CHARACTER: "#I Choose someone for [CHARACTER.GetShortUIName] to marry#!"
- MARRY_DIFFERENT_FAITH_REASON: "Different [faith|E]: $VALUE|+0$"
+ MARRY_DIFFERENT_FAITH_REASON: "Your [faith|E] differs from [recipient.GetShortUIName]: $VALUE|+0$"
  MARRY_UNIMPORTANT_COURTIER_REASON: "Unimportant [courtier|E]: $VALUE|+0$"
  MARRY_CARES_ABOUT_COURTIER_REASON: "[secondary_recipient.GetShortUIName|U] is important to [recipient.GetShortUIName]: $VALUE|+0$"
  MARRY_PARENT_OF_CHILDREN_REASON: "[secondary_recipient.GetShortUIName|U] is a parent of [recipient.GetShortUINamePossessive] children: $VALUE|+0$"

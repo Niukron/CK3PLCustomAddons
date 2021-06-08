@@ -49,7 +49,8 @@
  msg_2_agents_removed_my_scheme_desc:0 "[LEFT_CHARACTER.GetUINameNoTooltip] and [RIGHT_CHARACTER.GetUINameNoTooltip] are no longer part of your [scheme|E] to [SCHEME.GetFullActionName]"
  msg_multiple_agents_removed_my_scheme:0 "Agents Removed from Scheme"
  msg_multiple_agents_removed_my_scheme_desc:0 "[LEFT_CHARACTER.GetUINameNoTooltip] and $OTHER|V$ other [agents|E] are no longer part of your [scheme|E] to [SCHEME.GetFullActionName]"
-
+ msg_council_task_finished_location:0 "Task Finished"
+ msg_council_task_finished_location_desc:0 "[LEFT_CHARACTER.GetUINameNoTooltip] finished the $TASK_NAME|D$ task in $TASK_LOCATION|D$"
  msg_council_task_finished:0 "Task Finished"
  msg_council_task_finished_desc:0 "[LEFT_CHARACTER.GetUINameNoTooltip] finished the $TASK_NAME|D$ task"
  msg_alliance:1 "Alliance Formed: [LEFT_CHARACTER.GetShortUINameNoTooltip]"
@@ -268,6 +269,8 @@
  msg_focus_invalidated_desc:0 "The [FOCUS.GetName] has been invalidated"
  msg_dynasty_perk_added:0 "[DYNASTY_PERK.GetName] Unlocked"
  msg_dynasty_perk_added_desc:1 "Your [dynasty|E] has unlocked [DYNASTY_PERK.GetName]"
+ msg_dynasty_perk_removed:0 "[DYNASTY_PERK.GetName] Lost"
+ msg_dynasty_perk_removed_desc:0 "Your [dynasty|E] has lost [DYNASTY_PERK.GetName]"
  msg_vassal_feudalised:0 "Vassal has become Feudal"
  msg_vassal_feudalised_desc:1 "Your vassal, [ROOT.Char.GetShortUIName], has given up [ROOT.Char.GetHerHis] tribal ways and become feudal"
  msg_dynasty_prestige_level_increase:1 "[dynasty_prestige_level|E] Increased"
@@ -326,3 +329,5 @@
  msg_execute_prisoner:0 "Prisoner Executed"
  msg_execute_prisoner_desc:0 "[recipient.GetTitledFirstName] [recipient.GetDeathReason]"
  
+ msg_rival_dethroned:0 "Your rival [actor.GetTitledFirstName] lost a Title"
+ msg_rival_dethroned_desc:0 "Your [rival|E] [actor.GetTitledFirstName] lost the [title.GetBaseName]"

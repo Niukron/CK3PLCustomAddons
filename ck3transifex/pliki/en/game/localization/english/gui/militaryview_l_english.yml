@@ -76,6 +76,7 @@
  TT_RAISE_ALL_MAA_INFO: "[men_at_arms|E], [special_troops|E], [mercenaries|E], and [holy_orders|E] will be raised at the [rally_point|E] closest to your [realm_capital|E]."
  TT_RAISE_ALL: "#T Raise all Armies#!\n[levies|E] will be raised at their closest [rally_point|E].\n\n$TT_RAISE_ALL_MAA_INFO$"
  TT_RAISE_ALL_RAIDERS: "#T Raise all Armies as Raiders#!\nRaise all Armies, and they will equip themselves to be [raiders|E] "
+ TT_RAISE_ALL_MEN_AT_ARMS: "#T Raise all Men-at-Arms#!\n[men_at_arms|E] will be raised at the [rally_point|E] closest to your [realm_capital|E]."
  TT_RAISE_ALL_LEVIES: "Unraised [levies|E]: $UNRAISED|0V$/$RAISE_MAX|0V$"
  TT_RAISE_ALL_MAA: "Unraised [men_at_arms|E]: $UNRAISED|0V$/$RAISE_MAX|0V$"
  TT_HIRE_TROOPS: "#T Hire Soldiers#!\nShow Soldiers available for hire"

@@ -11,6 +11,7 @@
  SINGLE_PLAYER: "Single player"
  MULTI_PLAYER: "Multiplayer"
  OPTIONS: "Options"
+ APPLY: "Apply"
  CREDITS: "Credits"
  QUIT: "Quit"
  ACCOUNT: "Account"

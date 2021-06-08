@@ -1,4 +1,4 @@
-﻿l_english: 
+﻿l_english:
  secure_high_kingdom_north_sea_decision:0 "Secure the High Kingdom of the North Sea"
  secure_high_kingdom_north_sea_decision_desc:0 "The kingdoms of $k_england$, $k_denmark$, and $k_norway$ are a natural match. Rich, fierce, and bound together by trade and noble blood. If only someone could overcome their individualism, wedding the three permanently..."
  secure_high_kingdom_north_sea_decision_tooltip:1 "Bind $k_england$, $k_denmark$, and $k_norway$ into one [de_jure|E] [realm|E]"

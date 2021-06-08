@@ -72,9 +72,6 @@
  pet_animal.0110.a:0 "I'll compensate you!"
  pet_animal.0110.b:0 "[ROOT.Char.Custom('CatStorySheHe')|U] is just a cat..."
 
- pet_animal.0198.t:0 "[ROOT.Char.Custom('CatStoryName')]: New Owner"
- pet_animal.0198.desc:1 "I hadn't seen my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('original_owner'))] [original_owner.GetTitledFirstNamePossessive] [ROOT.Char.Custom('CatFurColor')] cat since [original_owner.GetSheHe] [original_owner.GetDeathReason], but suddenly her pet is standing before me.\n\n"You miss [original_owner.GetHerHim] too, huh?" I crouch down to pet [ROOT.Char.Custom('CatStoryHerHim')], and if I didn't know better I would say that I saw sorrow in the cat's eyes."
-
 
  pet_animal.0199.t:0 "[ROOT.Char.Custom('CatStoryName')]: Day of Sorrow"
  pet_animal.0199.desc:0 "[ROOT.Char.Custom('CatStoryName')] is not as young as [ROOT.Char.Custom('CatStorySheHe')] once was, and as [ROOT.Char.Custom('CatStorySheHe')] crawls into my lap I can feel [ROOT.Char.Custom('CatStoryHerHim')] trembling.\n\nI gently stroke [ROOT.Char.Custom('CatStoryHerHis')] [ROOT.Char.Custom('CatFurColor')] fur and listen to [ROOT.Char.Custom('CatStoryHerHim')] purr long into the night, but as silence falls I know that [ROOT.Char.Custom('CatStorySheHe')] won't wake again."
@@ -192,12 +189,6 @@
  pet_animal.1192.desc:0 "[receiver.GetSheHe|U] meets me outside [receiver.GetHerHis] [receiver.Custom('ResidenceBuilding')], no dog to be seen. "Oh, [receiver.Custom('DogStorySheHe')] must be out playing somewhere..."\n\n[receiver.GetSheHe|U] looks everywhere but at me."
  pet_animal.1192.a:0 "I am relieved!"
  pet_animal.1192.b:0 "Where is [receiver.Custom('DogStoryName')]?!"
-
- pet_animal.1198.t:0 "[ROOT.Char.Custom('DogStoryName')]: New Owner"
- pet_animal.1198.desc:0 "I hadn't seen my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('original_owner'))] [original_owner.GetTitledFirstNamePossessive] [ROOT.Char.Custom('DogFurColor')] dog since [original_owner.GetSheHe] [original_owner.GetDeathReason], but suddenly [ROOT.Char.Custom('DogStorySheHe')] is standing before me.\n\n"You miss [original_owner.GetHerHim] too, huh?" I crouch down to pet [ROOT.Char.Custom('DogStoryHerHim')], and if I didn't know better I would say that I saw sorrow in [ROOT.Char.Custom('DogStoryHerHis')] eyes."
- pet_animal.1198.a_girl:0 "Come here, girl."
- pet_animal.1198.a_boy:0 "Come here, boy."
- pet_animal.1198.b:0 "Ew, I'll sell you at the market."
 
 
  pet_animal.1199.t:0 "[ROOT.Char.Custom('DogStoryName')]: Day of Sorrow"
