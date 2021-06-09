@@ -1073,7 +1073,9 @@ window = {
 			widget = {
 				allow_outside = yes
 				parentanchor = center
-				position = { 76 -20 }
+				### ZMIANA ###
+				### position = { 76 -20 }
+				position = { 67 -20 }
 
 				button_round  = {
 					datacontext = "[HoldingView.GetGUIHoldingBuilding]"
