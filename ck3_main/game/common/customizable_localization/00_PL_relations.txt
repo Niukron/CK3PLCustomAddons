@@ -14166,7 +14166,7 @@ MyCharacterIntroductionNoComma_PL = {
 			exists = primary_spouse
 			primary_spouse = { exists = primary_title }
 		}
-		localization_key = MyCharacterIntroductionNoComma_the_relation_of_MyCharacterIntroductionNoComma_primaryspouse_PL
+		localization_key = MyCharacterIntroductionNoComma_the_relation_of_MyCharacterIntroductionNoComma_primaryspouse
 	}
 
 	text = {
@@ -14176,7 +14176,7 @@ MyCharacterIntroductionNoComma_PL = {
 			dynasty = father.dynasty
 			father = { exists = primary_title }
 		}
-		localization_key = MyCharacterIntroductionNoComma_the_relation_of_MyCharacterIntroductionNoComma_father_PL
+		localization_key = MyCharacterIntroductionNoComma_the_relation_of_MyCharacterIntroductionNoComma_father
 	}
 
 	text = {
@@ -14185,7 +14185,7 @@ MyCharacterIntroductionNoComma_PL = {
 			exists = mother
 			mother = { exists = primary_title }
 		}
-		localization_key = MyCharacterIntroductionNoComma_the_relation_of_MyCharacterIntroductionNoComma_mother_PL
+		localization_key = MyCharacterIntroductionNoComma_the_relation_of_MyCharacterIntroductionNoComma_mother
 	}
 
 	text = {
@@ -14194,7 +14194,7 @@ MyCharacterIntroductionNoComma_PL = {
 			exists = liege
 			is_councillor_of = liege
 		}
-		localization_key = MyCharacterIntroductionNoComma_the_relation_of_MyCharacterIntroductionNoComma_councillor_PL
+		localization_key = MyCharacterIntroductionNoComma_the_relation_of_MyCharacterIntroductionNoComma_councillor
 	}
 
 	text = {
@@ -14203,7 +14203,7 @@ MyCharacterIntroductionNoComma_PL = {
 			exists = liege
 			is_knight_of = liege
 		}
-		localization_key = MyCharacterIntroductionNoComma_the_relation_of_MyCharacterIntroductionNoComma_knight_PL
+		localization_key = MyCharacterIntroductionNoComma_the_relation_of_MyCharacterIntroductionNoComma_knight
 	}
 
 

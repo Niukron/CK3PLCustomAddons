@@ -2978,8 +2978,3 @@
 
  #MyCharacterIntroductionNoComma_PL
  MyCharacterIntroductionNoComma_my_relation_titledfirstname_PL:0 "[second.Custom2('MySheHeGenitive', ROOT.Char)] [second.Custom2('RelationToMePossessive', ROOT.Char)], [Select_CString(ROOT.Char.IsFemale, 'którą', 'którym')] jest [ROOT.Char.GetTitledFirstName]"
- MyCharacterIntroductionNoComma_the_relation_of_MyCharacterIntroductionNoComma_primaryspouse_PL:0 "[ROOT.Char.GetTitledFirstName], [ROOT.Char.GetPrimarySpouse.Custom2('RelationToMe', ROOT.Char)] [ROOT.Char.GetPrimarySpouse.Custom2('MyCharacterIntroductionNoComma_PL', second)]"
- MyCharacterIntroductionNoComma_the_relation_of_MyCharacterIntroductionNoComma_father_PL:0 "[ROOT.Char.GetTitledFirstName], [ROOT.Char.GetFather.Custom2('RelationToMe', ROOT.Char)] [ROOT.Char.GetFather.Custom2('MyCharacterIntroductionNoComma_PL', second)]"
- MyCharacterIntroductionNoComma_the_relation_of_MyCharacterIntroductionNoComma_mother_PL:0 "[ROOT.Char.GetTitledFirstName], [ROOT.Char.GetMother.Custom2('RelationToMe', ROOT.Char)] [ROOT.Char.GetMother.Custom2('MyCharacterIntroductionNoComma_PL', second)]"
- MyCharacterIntroductionNoComma_the_relation_of_MyCharacterIntroductionNoComma_councillor_PL:0 "[ROOT.Char.GetTitledFirstName], [ROOT.Char.GetCouncilTitle|l] [ROOT.Char.GetLiege.Custom2('MyCharacterIntroductionNoComma_PL', second)]"
- MyCharacterIntroductionNoComma_the_relation_of_MyCharacterIntroductionNoComma_knight_PL:0 "[ROOT.Char.GetTitledFirstName], [ROOT.Char.GetLiege.Custom('KnightCultureNoTooltip')] [ROOT.Char.GetLiege.Custom2('MyCharacterIntroductionNoComma_PL', second)]"
