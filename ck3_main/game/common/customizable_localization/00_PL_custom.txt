@@ -826,6 +826,15 @@ TitleAdjNoTierNoTooltip = {
 }
 
 
+TitleAdjRealmNoTierNoTooltip = {
+
+	type = landed_title
+
+	text = {
+		localization_key = title_adj_realm_all_notier_notooltip
+	}
+
+}
 
 
 

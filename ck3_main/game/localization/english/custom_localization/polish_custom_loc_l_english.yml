@@ -729,6 +729,7 @@
  
  title_adj_all_notooltip:0 "[ROOT.Title.GetTierAsNameNoTooltip|U] [Select_CString(EqualTo_string(ROOT.Title.GetNameNoTierNoTooltip,ROOT.Title.GetHolder.GetHouse.GetBaseNameNoTooltip), Concatenate('dynastii ', ROOT.Title.GetNameNoTierNoTooltip), ROOT.Title.GetAdjectiveNoTooltip)]"
  title_adj_all_notier_notooltip:0 "[Select_CString(EqualTo_string(ROOT.Title.GetNameNoTierNoTooltip,ROOT.Title.GetHolder.GetHouse.GetBaseNameNoTooltip), Concatenate('dynastii ', ROOT.Title.GetNameNoTierNoTooltip), ROOT.Title.GetAdjectiveNoTooltip)]"
+ title_adj_realm_all_notier_notooltip:0 "[Select_CString(EqualTo_string(ROOT.Title.GetNameNoTierNoTooltip,ROOT.Title.GetHolder.GetHouse.GetBaseNameNoTooltip), Concatenate('państwa dynastii ', ROOT.Title.GetNameNoTierNoTooltip), ROOT.Title.GetAdjectiveNoTooltip)]"
  title_francia_notooltip:0 "[Select_CString(EqualTo_string(ROOT.Title.GetNameNoTierNoTooltip, '$k_france$'), '$kingdom$ $k_france_adj$', ROOT.Title.GetNameNoTierNoTooltip )]"
  title_adj_fallback_notooltip:0 "[ROOT.Title.GetNameNoTooltip|U]"
  title_adj_notooltip:0 "[Title.Custom('TitleAdjNoTooltip')|U]"
