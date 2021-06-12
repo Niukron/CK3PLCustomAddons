@@ -951,6 +951,16 @@ TitleAdjNoTier = {
 
 }
 
+TitleAdjRealmNoTier = {
+
+	type = landed_title
+	
+	text = {
+		localization_key = title_adj_realm_all_notier
+	}
+
+}
+
 
 RealmTierType = {
 	type = character
