@@ -493,23 +493,17 @@
  education_intrigue_loc_acc:0 "intrygę"
  education_diplomacy_loc_acc:0 "dyplomację"
 
- LIFESTYLE_DIPLOMACY_DAT:0 "dyplomacji"
- LIFESTYLE_MARTIAL_DAT:0 "walki"
- LIFESTYLE_STEWARDSHIP_DAT:0 "zarządzania"
- LIFESTYLE_INTRIGUE_DAT:0 "intrygi"
- LIFESTYLE_LEARNING_DAT:0 "nauki"
- 
- LIFESTYLE_DIPLOMACY_CEL:0 "dyplomacji"
- LIFESTYLE_MARTIAL_CEL:0 "walce"
- LIFESTYLE_STEWARDSHIP_CEL:0 "zarządzaniu"
- LIFESTYLE_INTRIGUE_CEL:0 "intrydze"
- LIFESTYLE_LEARNING_CEL:0 "nauce"
- 
- # Trochę po rzeźniczemu ale nie mam czasu wymyślić niczego lepszego. Jak będzie czas to ogarnę.
- LIFESTYLE_GETNAME_DAT:0 "[Select_CString(EqualTo_string( Lifestyle.GetKey, 'diplomacy_lifestyle' ), '$LIFESTYLE_DIPLOMACY_DAT$', '')][Select_CString(EqualTo_string( Lifestyle.GetKey, 'martial_lifestyle' ), '$LIFESTYLE_MARTIAL_DAT$', '')][Select_CString(EqualTo_string( Lifestyle.GetKey, 'stewardship_lifestyle' ), '$LIFESTYLE_STEWARDSHIP_DAT$', '')][Select_CString(EqualTo_string( Lifestyle.GetKey, 'intrigue_lifestyle' ), '$LIFESTYLE_INTRIGUE_DAT$', '')][Select_CString(EqualTo_string( Lifestyle.GetKey, 'learning_lifestyle' ), '$LIFESTYLE_LEARNING_DAT$', '')]"
- LIFESTYLE_GETNAME_DAT_perk:0 "[Select_CString(EqualTo_string( PERK.GetLifestyle.GetKey, 'diplomacy_lifestyle' ), '$LIFESTYLE_DIPLOMACY_DAT$', '')][Select_CString(EqualTo_string( PERK.GetLifestyle.GetKey, 'martial_lifestyle' ), '$LIFESTYLE_MARTIAL_DAT$', '')][Select_CString(EqualTo_string( PERK.GetLifestyle.GetKey, 'stewardship_lifestyle' ), '$LIFESTYLE_STEWARDSHIP_DAT$', '')][Select_CString(EqualTo_string( PERK.GetLifestyle.GetKey, 'intrigue_lifestyle' ), '$LIFESTYLE_INTRIGUE_DAT$', '')][Select_CString(EqualTo_string( PERK.GetLifestyle.GetKey, 'learning_lifestyle' ), '$LIFESTYLE_LEARNING_DAT$', '')]"
- LIFESTYLE_GETNAME_DAT_actionbar:0 "[Select_CString(EqualTo_string( LIFESTYLE.GetKey, 'diplomacy_lifestyle' ), '$LIFESTYLE_DIPLOMACY_DAT$', '')][Select_CString(EqualTo_string( LIFESTYLE.GetKey, 'martial_lifestyle' ), '$LIFESTYLE_MARTIAL_DAT$', '')][Select_CString(EqualTo_string( LIFESTYLE.GetKey, 'stewardship_lifestyle' ), '$LIFESTYLE_STEWARDSHIP_DAT$', '')][Select_CString(EqualTo_string( LIFESTYLE.GetKey, 'intrigue_lifestyle' ), '$LIFESTYLE_INTRIGUE_DAT$', '')][Select_CString(EqualTo_string( LIFESTYLE.GetKey, 'learning_lifestyle' ), '$LIFESTYLE_LEARNING_DAT$', '')]"
- LIFESTYLE_GETNAME_CEL:0 "[Select_CString(EqualTo_string( Lifestyle.GetKey, 'diplomacy_lifestyle' ), '$LIFESTYLE_DIPLOMACY_CEL$', '')][Select_CString(EqualTo_string( Lifestyle.GetKey, 'martial_lifestyle' ), '$LIFESTYLE_MARTIAL_CEL$', '')][Select_CString(EqualTo_string( Lifestyle.GetKey, 'stewardship_lifestyle' ), '$LIFESTYLE_STEWARDSHIP_CEL$', '')][Select_CString(EqualTo_string( Lifestyle.GetKey, 'intrigue_lifestyle' ), '$LIFESTYLE_INTRIGUE_CEL$', '')][Select_CString(EqualTo_string( Lifestyle.GetKey, 'learning_lifestyle' ), '$LIFESTYLE_LEARNING_CEL$', '')]"
+ diplomacy_lifestyle_locative:0 "dyplomacji"
+ martial_lifestyle_locative:0 "walce"
+ stewardship_lifestyle_locative:0 "zarządzaniu"
+ intrigue_lifestyle_locative:0 "intrydze"
+ learning_lifestyle_locative:0 "nauce"
+
+ diplomacy_lifestyle_genitive:0 "dyplomacji"
+ martial_lifestyle_genitive:0 "walki"
+ stewardship_lifestyle_genitive:0 "zarządzania"
+ intrigue_lifestyle_genitive:0 "intrygi"
+ learning_lifestyle_genitive:0 "nauki"
  
  # Dla CREATE_FAITH_WINDOW_TITLE = "Utwórz nową wiarę.." użycie SCOPE.Custom('GetReligion_adj_fem_acc')
  
