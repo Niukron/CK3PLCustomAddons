@@ -11,7 +11,7 @@
 # MySheOrMyHeRelationList - dla GUI
 # MySheOrMyHeRelationListTooltip - dla GUI Tooltip
 
-# MySheOrMyHe - moja, mój w zależności od relacji (dostosowane dla RelationToMe)
+# MySheHe - moja, mój w zależności od relacji (dostosowane dla RelationToMe)
 # MySheHeGenitive - mojej, mojego (dostosowane dla RelationToMe)
 # YourSheOrYourHe - twój, twoja w zależności od relacji (dostosowane dla RelationToMe)
 # RelationToMeAccusative - żonę, męża, siostrę
@@ -33,9 +33,9 @@
 
 ######################################################
 
-# MySheOrMyHe - zwraca mój albo moja w zależności od relacji postaci
+# MySheHe - zwraca mój albo moja w zależności od relacji postaci
 
-MySheOrMyHe = {
+MySheHe = {
 	type = character
 
 	text = {
