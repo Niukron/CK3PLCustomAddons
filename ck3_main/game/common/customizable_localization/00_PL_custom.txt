@@ -1160,3 +1160,50 @@ RealmTypeGenitive = {
 		}
 	}
 }
+
+BaronyTownTypeLocative = {
+	type = landed_title
+
+	text = {
+		trigger = {
+			title_province = {
+				county = {
+					development_level > medium_development_level
+				}
+			}
+		}
+		localization_key = barony_town_type_city_locative
+	}
+
+	text = {
+		trigger = {
+			title_province = {
+				fort_level > 0
+			}
+		}
+		localization_key = barony_town_type_castle_town_locative
+	}
+
+	text = {
+		trigger = {
+			title_province = {
+				county = {
+					development_level <= medium_development_level
+					development_level >= bad_development_level
+				}
+			}
+		}
+		localization_key = barony_town_type_town_locative
+	}
+
+	text = {
+		trigger = {
+			title_province = {
+				county = {
+					development_level < bad_development_level
+				}
+			}
+		}
+		localization_key = barony_town_type_village_locative
+	}
+}

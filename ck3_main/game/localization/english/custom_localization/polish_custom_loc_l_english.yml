@@ -2863,3 +2863,9 @@
 
  #MyCharacterIntroductionNoComma_PL
  MyCharacterIntroductionNoComma_my_relation_titledfirstname_PL:0 "[second.Custom2('MySheHeGenitive', ROOT.Char)] [second.Custom2('RelationToMePossessive', ROOT.Char)], [Select_CString(ROOT.Char.IsFemale, 'którą', 'którym')] jest [ROOT.Char.GetTitledFirstName]"
+
+ #BaronyTownTypeLocative
+ barony_town_type_city_locative:0 "mieście"
+ barony_town_type_castle_town_locative:0 "mieście zamkowym"
+ barony_town_type_town_locative:0 "miasteczku"
+ barony_town_type_village_locative:0 "wiosce"
