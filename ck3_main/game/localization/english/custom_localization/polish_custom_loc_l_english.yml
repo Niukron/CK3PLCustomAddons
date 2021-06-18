@@ -2869,3 +2869,6 @@
  barony_town_type_castle_town_locative:0 "mieście zamkowym"
  barony_town_type_town_locative:0 "miasteczku"
  barony_town_type_village_locative:0 "wiosce"
+
+ #culture fallback
+ culture_fallback:0 "[ROOT.Char.GetCulture.GetNameNoTooltip]"
