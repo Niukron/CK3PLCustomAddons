@@ -329,6 +329,8 @@
  holy_site_carthage_effect_name: "From [holy_site|E] #weak ($holy_site_carthage_name$)#!"
  holy_site_olympus_name: "Mount Olympus"
  holy_site_olympus_effect_name: "From [holy_site|E] #weak ($holy_site_olympus_name$)#!"
+ holy_site_sparta_name: "Sparta"
+ holy_site_sparta_effect_name: "From [holy_site|E] #weak ($holy_site_sparta_name$)#!"
  holy_site_kabul_name: "Kabul"
  holy_site_kabul_effect_name: "From [holy_site|E] #weak ($holy_site_kabul_name$)#!"
  holy_site_multan_name: "Multan"

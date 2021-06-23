@@ -14,7 +14,7 @@
  MASS_PRISONER_ACTION_RELEASE_TT: "#T $MASS_PRISONER_ACTION_RELEASE$#!\nRelease all [prisoners|E] without demanding anything in return.\n\n$MASS_ACTION_TT_EXCLUDE$"
  MASS_PRISONER_ACTION_EXECUTE_TT: "#T $MASS_PRISONER_ACTION_EXECUTE$#!\nExecute all [prisoners|E].\n\n$MASS_ACTION_TT_EXCLUDE$"
  MASS_ACTION_TT_EXCLUDE: "#weak Prisoners that are hidden by a filter or exempted from Mass Actions will not be affected.#!"
- MASS_PRISONER_ACTION_RANSOM_BODY: "Ransom $AMOUNT|V$ characters from your dungeons."
+ MASS_PRISONER_ACTION_RANSOM_BODY: "Ransom up to $AMOUNT|V$ characters from your dungeons."
  MASS_PRISONER_ACTION_RELEASE_BODY: "Release $AMOUNT|V$ characters from your dungeons."
  MASS_PRISONER_ACTION_EXECUTE_BODY: "Execute $AMOUNT|V$ characters in your dungeons.\nThis will upset the family and realm of some of the characters executed."
  MASS_PRISONER_ACTION_RANSOM_ACCEPT: "Ransom"
