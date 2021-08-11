@@ -537,15 +537,6 @@
  
  cat_gender_her_second:0 "ją"
  
- heterosexual_male_concept:0 "[Concept('heterosexual', 'heteroseksualny')|E]"
- heterosexual_female_concept:0 "[Concept('heterosexual', 'heteroseksualna')|E]"
- homosexual_male_concept:0 "[Concept('homosexual', 'homoseksualny')|E]"
- homosexual_female_concept:0 "[Concept('homosexual', 'homoseksualna')|E]"
- bisexual_male_concept:0 "[Concept('bisexual', 'biseksualny')|E]"
- bisexual_female_concept:0 "[Concept('bisexual', 'biseksualna')|E]"
- asexual_male_concept:0 "[Concept('asexual', 'aseksualny')|E]"
- asexual_female_concept:0 "[Concept('asexual', 'aseksualna')|E]"
- 
  siege_name_adj:0 "[siege|E] [SiegeWindow.GetSiege.GetProvince.GetTitle.GetAdjectiveNoTooltip|V]"
  
  #Dewizy
