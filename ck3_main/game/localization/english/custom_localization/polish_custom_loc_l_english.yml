@@ -2871,7 +2871,7 @@ activity_your_dative_fallback:0 "[ROOT.GetActivity.GetName|V]"
  house_of_worship_adj:0 "świątyni"
  
  #child_favorite_toy_adj
- wooden_knight_adj:0 "drewnianego [Select_CString(EqualTo_string(GetPlayer.Custom( 'KnightCultureNoTooltipLowercase' ), 'hetaeria'), 'hetaeria', '$knight_culture_player_no_tooltip_lowercase$a')]"
+ wooden_knight_adj:0 "drewnianego $KnightCulturePossessiveNoTooltip$"
  toy_boat_adj:0 "zabawkowej łódki"
  wooden_sword_adj:0 "drewnianego miecza"
  ragdoll_adj:0 "szmacianej lalki"
