@@ -1605,6 +1605,7 @@ ActivityYourDative = {
 	}
 }
 
+### 1.4.4 - drewnianego konia, lalki
 child_favorite_toy_adj = {
 	type = character
 
