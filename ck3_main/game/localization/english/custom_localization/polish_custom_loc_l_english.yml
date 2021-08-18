@@ -481,6 +481,12 @@
  c_ghardaia_adj:0 "Ghardaji"
  c_orava_adj:0 "Orawy"
  c_jersika_adj:0 "Jersiki"
+ 
+ #Baronie - tymczasowo, do dodania na Transifexa po Royal Court
+ b_vopnafjordur_adj:0 "Vopnafjörðuru"
+ b_olafsvik_adj:0 "Ólafsvíku"
+ b_klaustur_adj:0 "Klausturu"
+ b_hofn_adj:0 "Höfnu"
 
 
  TwinDaughtersSonsChildren_With_Num_relation_daughters:0 "dwie bliźniaczki"
@@ -974,6 +980,7 @@
  #Regional custom loc
  
  #Dopełniacz
+ #VenomousCreatureAdj
  venomous_creature_rare_spider_adj:0 "zabójczego pająka"
  venomous_creature_deathstalker_adj:0 "żółtego skorpiona"
  venomous_creature_red_scorpion_adj:0 "czerwonego skorpiona"
@@ -989,6 +996,7 @@
  venomous_creature_beaked_mammal_adj:0 "dziobaka australijskiego"
  
  #Biernik
+ #VenomousCreatureAdj1
  venomous_creature_rare_spider_adj1:0 "zabójczego pająka"
  venomous_creature_deathstalker_adj1:0 "żółtego skorpiona"
  venomous_creature_red_scorpion_adj1:0 "czerwonego skorpiona"
@@ -2586,14 +2594,13 @@
  character_window_betrothed_gender:0 "[Select_CString( CharacterWindow.GetSpouse.IsFemale, Concept('betrothed', 'Zaręczona'), Concept('betrothed', 'Zaręczony') )|E]"
  
  #Święte wojny - odmiana w celowniku
-
+ #GHWNameAdj
  ghw_great_holy_war_adj:0 "Wielkiej świętej wojnie"
  ghw_crusade_adj:0 "Krucjacie"
  ghw_jihad_adj:0 "Dżihadzie"
  ghw_purification_adj:0 "Wielkim oczyszczeniu"
  
  #GetShockedExpressionFemale
- 
  shocked_expression_shocked_female:0 "wstrząśnięta"
  shocked_expression_appalled_female:0 "zbulwersowana"
  
