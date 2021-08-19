@@ -2947,4 +2947,4 @@
  murder_adj:0 "Planu morderstwa"
  seduce_adj:0 "Planu uwiedzenia"
  sway_adj:0 "Planu przekonania do siebie"
- scheme_fallback_adj:0 "Spisku"
+ scheme_fallback_adj:0 "[ROOT.GetScheme.GetSchemeType.GetTypeName]"
