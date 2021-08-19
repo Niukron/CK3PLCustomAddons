@@ -2935,3 +2935,16 @@
  knight_faris_no_tooltip_possessive:0 "farysa"
  knight_champion_no_tooltip_possessive:0 "czempiona"
  knight_default_no_tooltip_possessive:0 "rycerza"
+ 
+ #SchemeAdj
+ abduct_adj:0 "Planu uprowadzenia"
+ befriend_adj:0 "Planu zaprzyjaźnienia się"
+ claim_throne_adj:0 "Planu przejęcia tronu"
+ convert_to_witchcraft_adj:0 "Nawrócenia na czarnoksięstwo"
+ courting_adj:0 "Planu romansu"
+ elope_adj:0 "Planu ucieczki"
+ fabricate_hook_adj:0 "Planu sfabrykowania haka"
+ murder_adj:0 "Planu morderstwa"
+ seduce_adj:0 "Planu uwiedzenia"
+ sway_adj:0 "Planu przekonania do siebie"
+ scheme_fallback_adj:0 "Spisku"
