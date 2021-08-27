@@ -2881,6 +2881,10 @@
  MySheGenitive:0 "mojej"
  MyHeGenitive:0 "mojego"
 
+ #MySheHeLocative
+ MySheGenitive:0 "mojej"
+ MyHeGenitive:0 "moim"
+
  #MyCharacterIntroductionNoComma_PL
  MyCharacterIntroductionNoComma_my_relation_titledfirstname_PL:0 "[second.Custom2('MySheHeGenitive', ROOT.Char)] [second.Custom2('RelationToMePossessive', ROOT.Char)], [Select_CString(ROOT.Char.IsFemale, 'którą', 'którym')] jest [ROOT.Char.GetTitledFirstName]"
 
@@ -2969,6 +2973,13 @@
  councillor_steward_female_vocative:0 "$councillor_steward_female$"
  councillor_spymaster_female_vocative:0 "$councillor_spymaster_female$"
 
+ #CouncilPositionFemaleLocative
+
+ councillor_chancellor_female_locative:0 "Kanclerzowej"
+ councillor_marshal_female_locative:0 "$councillor_marshal_female$"
+ councillor_steward_female_locative:0 "$councillor_steward_female$"
+ councillor_spymaster_female_locative:0 "$councillor_spymaster_female$"
+
  #CouncilPositionMaleAccusative
 
  councillor_chancellor_male_accusative:0 "Kanclerza"
@@ -2982,6 +2993,13 @@
  councillor_marshal_male_vocative:0 "Marszałku"
  councillor_steward_male_vocative:0 "Zarządco"
  councillor_spymaster_male_vocative:0 "Mistrzu szpiegów"
+
+ #CouncilPositionMaleLocative
+
+ councillor_chancellor_male_locative:0 "Kanclerzu"
+ councillor_marshal_male_locative:0 "Marszałku"
+ councillor_steward_male_locative:0 "Zarządcy"
+ councillor_spymaster_male_locative:0 "Mistrzu szpiegów"
 
  #ActivityYourDative
 
