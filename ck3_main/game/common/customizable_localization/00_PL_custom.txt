@@ -1803,7 +1803,7 @@ PrisonTypeCellAdj = {
 }
 
 ### 1.4.4 -  koszuli, sukni
-GetUpperClothingArticle = {
+GetUpperClothingArticleAdj = {
 	type = character
 
 	random_valid = yes
@@ -1812,20 +1812,20 @@ GetUpperClothingArticle = {
 		trigger = {
 			is_female = no
 		}
-		localization_key = clothing_word_shirt
+		localization_key = clothing_word_shirt_adj
 	}
 
 	text = {
 		trigger = {
 			is_female = yes
 		}
-		localization_key = clothing_word_blouse
+		localization_key = clothing_word_blouse_adj
 	}
 
 	text = {
 		trigger = {
 			is_female = yes
 		}
-		localization_key = clothing_word_dress
+		localization_key = clothing_word_dress_adj
 	}
 }
