@@ -2944,8 +2944,7 @@
  pt_true:0 "tak"
  pt_false:0 "nie"
 
- #PantheonTerms - Genitive
-
+ #PantheonTermGenitive
  pantheon_term_fallback:0 "[ROOT.Char.GetFaith.PantheonTerm]"
  akom_the_abosom_genitive:0 "Abosoma"
  buddhism_samsara_genitive:0 "Sansary"
@@ -2955,8 +2954,7 @@
  religion_the_spirits_genitive:0 "duchów"
  yoruba_the_orisa_genitive:0 "Oriszy"
 
- #PantheonTerms - Dative
-
+ #PantheonTermDative
  pantheon_term_fallback:0 "[ROOT.Char.GetFaith.PantheonTerm]"
  akom_the_abosom_dative:0 "Abosomowi"
  buddhism_samsara_dative:0 "Sansarze"
