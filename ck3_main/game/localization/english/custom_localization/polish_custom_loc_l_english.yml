@@ -146,6 +146,8 @@
  relation_acquaintance_female_accusative:0 "znajomą"
  relation_acquaintance_male_accusative:0 "znajomego"
 
+ relation_sons_accusative:0 "synów"
+
  #Vocative - RelationToMeVocative
 
  relation_motherwife_vocative:0 "matko-żono"
