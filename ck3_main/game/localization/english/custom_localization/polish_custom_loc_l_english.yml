@@ -127,7 +127,7 @@
  relation_court_physician_male_accusative:0 "nadwornego medyka"
  relation_vassal_female_accusative:0 "wasalkę"
  relation_vassal_male_accusative:0 "wasala"
- relation_knight_accusative:0 "$knight_culture_player_no_tooltip_lowercase$"
+ relation_knight_accusative:0 "[GetPlayer.Custom( 'KnightCultureAccusativeNoTooltip' )]"
  relation_kinswoman_accusative:0 "krewną"
  relation_kinsman_accusative:0 "krewnego"
  relation_courtier_female_accusative:0 "dworzankę"
@@ -237,7 +237,7 @@
  relation_court_physician_male_vocative:0 "nadworny medyku"
  relation_vassal_female_vocative:0 "wasalko"
  relation_vassal_male_vocative:0 "wasalu"
- relation_knight_vocative:0 "$knight_culture_player_no_tooltip_lowercase$"
+ relation_knight_vocative:0 "[GetPlayer.Custom( 'KnightCultureVocativeNoTooltip' )]"
  relation_kinswoman_vocative:0 "krewna"
  relation_kinsman_vocative:0 "krewny"
  relation_courtier_female_vocative:0 "dworzanko"
@@ -346,7 +346,7 @@
  relation_court_physician_male_locative:0 "nadworny medyku"
  relation_vassal_female_locative:0 "wasalce"
  relation_vassal_male_locative:0 "wasalu"
- relation_knight_locative:0 "$knight_culture_player_no_tooltip_lowercase$"
+ relation_knight_locative:0 "[GetPlayer.Custom( 'KnightCultureLocativeNoTooltip' )]"
  relation_kinswoman_locative:0 "krewnej"
  relation_kinsman_locative:0 "krewnym"
  relation_courtier_female_locative:0 "dworzance"
@@ -455,7 +455,7 @@
  relation_court_physician_male_dative:0 "nadwornemu medykowi"
  relation_vassal_female_dative:0 "wasalce"
  relation_vassal_male_dative:0 "wasalowi"
- relation_knight_dative:0 "$knight_culture_player_no_tooltip_lowercase$"
+ relation_knight_dative:0 "[GetPlayer.Custom( 'KnightCultureDativeNoTooltip' )]"
  relation_kinswoman_dative:0 "krewnej"
  relation_kinsman_dative:0 "krewnemu"
  relation_courtier_female_dative:0 "dworzance"
@@ -3427,6 +3427,42 @@
  knight_faris_no_tooltip_possessive:0 "farysa"
  knight_champion_no_tooltip_possessive:0 "czempiona"
  knight_default_no_tooltip_possessive:0 "rycerza"
+
+ #KnightCultureAccusativeNoTooltip
+ knight_hetaeria_no_tooltip_accusative:0 "hetaeria"
+ knight_baghatur_no_tooltip_accusative:0 "bagatura"
+ knight_shoorveer_no_tooltip_accusative:0 "śurwira"
+ knight_aswaran_no_tooltip_accusative:0 "uswara"
+ knight_faris_no_tooltip_accusative:0 "farysa"
+ knight_champion_no_tooltip_accusative:0 "czempiona"
+ knight_default_no_tooltip_accusative:0 "rycerza"
+
+ #KnightCultureVocativeNoTooltip
+ knight_hetaeria_no_tooltip_vocative:0 "hetaeria"
+ knight_baghatur_no_tooltip_vocative:0 "bagaturze"
+ knight_shoorveer_no_tooltip_vocative:0 "śurwirze"
+ knight_aswaran_no_tooltip_vocative:0 "uswarze"
+ knight_faris_no_tooltip_vocative:0 "farysie"
+ knight_champion_no_tooltip_vocative:0 "czempionie"
+ knight_default_no_tooltip_vocative:0 "rycerzu"
+
+ #KnightCultureLocativeNoTooltip
+ knight_hetaeria_no_tooltip_locative:0 "hetaeria"
+ knight_baghatur_no_tooltip_locative:0 "bagaturze"
+ knight_shoorveer_no_tooltip_locative:0 "śurwirze"
+ knight_aswaran_no_tooltip_locative:0 "uswarze"
+ knight_faris_no_tooltip_locative:0 "farysie"
+ knight_champion_no_tooltip_locative:0 "czempionie"
+ knight_default_no_tooltip_locative:0 "rycerzu"
+
+ #KnightCultureDativeNoTooltip
+ knight_hetaeria_no_tooltip_dative:0 "hetaeria"
+ knight_baghatur_no_tooltip_dative:0 "bagaturowi"
+ knight_shoorveer_no_tooltip_dative:0 "śurwirowi"
+ knight_aswaran_no_tooltip_dative:0 "uswarowi"
+ knight_faris_no_tooltip_dative:0 "farysowi"
+ knight_champion_no_tooltip_dative:0 "czempionowi"
+ knight_default_no_tooltip_dative:0 "rycerzowi"
  
  #SchemeAdj
  abduct_adj:0 "Planu uprowadzenia"
