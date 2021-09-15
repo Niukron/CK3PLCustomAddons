@@ -2419,3 +2419,51 @@ GetUnbelieverNamePluralAdj = {
 		localization_key = unbeliever_infidel_plural_adj
 	}
 }
+
+### 1.4.4 - buławę, miecz
+signature_weapon_bier = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_sword_bier
+		trigger = {
+			var:signature_weapon = flag:sword
+		}
+		fallback = yes
+	}
+
+	text = {
+		localization_key = signature_weapon_mace_bier
+		trigger = {
+			var:signature_weapon = flag:mace
+		}
+	}
+
+	text = {
+		localization_key = signature_weapon_axe_bier
+		trigger = {
+			var:signature_weapon = flag:axe
+		}
+	}
+
+	text = {
+		localization_key = signature_weapon_hammer_bier
+		trigger = {
+			var:signature_weapon = flag:hammer
+		}
+	}
+
+	text = {
+		localization_key = signature_weapon_spear_bier
+		trigger = {
+			var:signature_weapon = flag:spear
+		}
+	}
+
+	text = {
+		localization_key = signature_weapon_dagger_bier
+		trigger = {
+			var:signature_weapon = flag:dagger
+		}
+	}
+}
