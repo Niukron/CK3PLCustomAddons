@@ -3537,3 +3537,6 @@
  signature_weapon_hammer_bier:0 "młot"
  signature_weapon_spear_bier:0 "włócznię"
  signature_weapon_dagger_bier:0 "sztylet"
+ #signature_weapon_my
+ weapon_moja:0 "moja"
+ weapon_moj:0 "mój"
