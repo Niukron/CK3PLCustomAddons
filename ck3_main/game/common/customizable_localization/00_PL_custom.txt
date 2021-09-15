@@ -2468,8 +2468,9 @@ signature_weapon_bier = {
 	}
 }
 
-### 1.4.4 - mój, moją
-### Do użycia z signature_weapon_bier
+### 1.4.4 - mój, moja
+### Do użycia z signature_weapon
+### Inne przypadki można zrobić za pomocą equal stringa
 signature_weapon_my = {
 	type = character
 
