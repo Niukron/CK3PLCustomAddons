@@ -3530,3 +3530,10 @@
  unbeliever_heathen_plural_adj:0 "pogan"
  unbeliever_infidel_plural_adj:0 "niewiernych"
  
+ #signature_weapon_bier
+ signature_weapon_sword_bier:0 "miecz"
+ signature_weapon_mace_bier:0 "buławę"
+ signature_weapon_axe_bier:0 "topór"
+ signature_weapon_hammer_bier:0 "młot"
+ signature_weapon_spear_bier:0 "włócznię"
+ signature_weapon_dagger_bier:0 "sztylet"
