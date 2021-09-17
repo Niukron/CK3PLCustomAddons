@@ -3193,6 +3193,12 @@
  barony_town_type_town_locative:0 "miasteczku"
  barony_town_type_village_locative:0 "wiosce"
 
+ #BaronyTownTypeGenitive
+ barony_town_type_city_genitive:0 "miasta"
+ barony_town_type_castle_town_genitive:0 "miasta zamkowego"
+ barony_town_type_town_genitive:0 "miasteczka"
+ barony_town_type_village_genitive:0 "wioski"
+
  #culture fallback
  culture_fallback:0 "[ROOT.Char.GetCulture.GetNameNoTooltip]"
 
