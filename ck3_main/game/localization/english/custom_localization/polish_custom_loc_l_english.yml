@@ -3558,3 +3558,6 @@
  grit_type_twigs_adj:0 "gałązkami"
  grit_type_wet_leaves_adj:0 "mokrymi liśćmi"
  grit_type_dry_grass_adj:0 "suchą trawą"
+ 
+ #Okno małżeństwa
+ INTERACTION_LEFT_SPOUSE:0 "[Select_CString( Character.IsValid, Select_CString( Character.IsFemale, Concept('spouse','Małżonka'), spouse ), spouse )|E]"
