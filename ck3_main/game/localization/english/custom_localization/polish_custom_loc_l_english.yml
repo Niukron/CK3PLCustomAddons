@@ -127,7 +127,7 @@
  relation_court_physician_male_accusative:0 "nadwornego medyka"
  relation_vassal_female_accusative:0 "wasalkę"
  relation_vassal_male_accusative:0 "wasala"
- relation_knight_accusative:0 "[GetPlayer.Custom( 'KnightCultureAccusativeNoTooltip' )]"
+ relation_knight_accusative:0 "[GetPlayer.Custom( 'KnightCulturePossessiveNoTooltip' )]"
  relation_kinswoman_accusative:0 "krewną"
  relation_kinsman_accusative:0 "krewnego"
  relation_courtier_female_accusative:0 "dworzankę"
@@ -3595,15 +3595,6 @@
  knight_faris_no_tooltip_possessive:0 "farysa"
  knight_champion_no_tooltip_possessive:0 "czempiona"
  knight_default_no_tooltip_possessive:0 "rycerza"
-
- #KnightCultureAccusativeNoTooltip
- knight_hetaeria_no_tooltip_accusative:0 "hetaeria"
- knight_baghatur_no_tooltip_accusative:0 "bagatura"
- knight_shoorveer_no_tooltip_accusative:0 "śurwira"
- knight_aswaran_no_tooltip_accusative:0 "uswara"
- knight_faris_no_tooltip_accusative:0 "farysa"
- knight_champion_no_tooltip_accusative:0 "czempiona"
- knight_default_no_tooltip_accusative:0 "rycerza"
 
  #KnightCultureVocativeNoTooltip
  knight_hetaeria_no_tooltip_vocative:0 "hetaeria"
