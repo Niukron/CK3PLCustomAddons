@@ -3587,6 +3587,18 @@
  doll_adj:0 "lalki"
  stick_horse_adj:0 "konika na kiju"
 
+#child_favorite_toy_accusative
+wooden_knight_accusative:0 "drewnianego [GetPlayer.Custom( 'KnightCulturePossessiveNoTooltip' )]"
+toy_boat_accusative:0 "zabawkową łódkę"
+wooden_sword_accusative:0 "drewniany miecz"
+ragdoll_accusative:0 "szmacianą lalkę"
+spinning_top_accusative:0 "bąka"
+rolling_hoop_accusative:0 "koło do toczenia"
+scopperel_accusative:0 "bączka"
+wooden_horse_accusative:0 "drewnianego konia"
+doll_accusative:0 "lalkę"
+stick_horse_accusative:0 "konika na kiju"
+
  #KnightCulturePossessiveNoTooltip
  knight_hetaeria_no_tooltip_possessive:0 "hetaeria"
  knight_baghatur_no_tooltip_possessive:0 "bagatura"
