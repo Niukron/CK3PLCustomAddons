@@ -4553,3 +4553,156 @@ InsultNounSexualVocative = {
 		localization_key = skirt_chaser_vocative
 	}
 }
+
+
+# 1.4.4
+FavoriteTreatAccusative = {
+	type = character
+
+	random_valid = yes
+
+	text = {
+		localization_key = treat_comfit_accusative
+		trigger = {
+			OR = {
+				NOT = { has_variable = favorite_treat }
+				var:favorite_treat = flag:comfit
+			}
+		}
+	}
+	text = {
+		localization_key = treat_roasted_almonds_accusative
+		trigger = {
+			OR = {
+				NOT = { has_variable = favorite_treat }
+				var:favorite_treat = flag:roasted_almonds
+			}
+		}
+	}
+	text = {
+		localization_key = treat_nougat_accusative
+		trigger = {
+			OR = {
+				NOT = { has_variable = favorite_treat }
+				var:favorite_treat = flag:nougat
+			}
+		}
+	}
+	text = {
+		localization_key = treat_marzipan_accusative
+		trigger = {
+			OR = {
+				NOT = { has_variable = favorite_treat }
+				var:favorite_treat = flag:marzipan
+			}
+		}
+	}
+	text = {
+		localization_key = treat_sweetroll_accusative
+		trigger = {
+			OR = {
+				NOT = { has_variable = favorite_treat }
+				var:favorite_treat = flag:sweetroll
+			}
+		}
+	}
+	text = {
+		localization_key = treat_poached_pear_accusative
+		trigger = {
+			OR = {
+				NOT = { has_variable = favorite_treat }
+				var:favorite_treat = flag:poached_pear
+			}
+		}
+	}
+	text = {
+		localization_key = treat_pudding_accusative
+		trigger = {
+			OR = {
+				NOT = { has_variable = favorite_treat }
+				var:favorite_treat = flag:pudding
+			}
+		}
+	}
+	text = {
+		localization_key = treat_apple_tart_accusative
+		trigger = {
+			OR = {
+				NOT = { has_variable = favorite_treat }
+				var:favorite_treat = flag:apple_tart
+			}
+		}
+	}
+	text = {
+		localization_key = treat_strawberry_compote_accusative
+		trigger = {
+			OR = {
+				NOT = { has_variable = favorite_treat }
+				var:favorite_treat = flag:strawberry_compote
+			}
+		}
+	}
+	text = {
+		localization_key = treat_gingerbread_accusative
+		trigger = {
+			OR = {
+				NOT = { has_variable = favorite_treat }
+				var:favorite_treat = flag:gingerbread
+			}
+		}
+	}
+	text = {
+		localization_key = treat_frytour_blaunched_accusative
+		trigger = {
+			OR = {
+				NOT = { has_variable = favorite_treat }
+				var:favorite_treat = flag:frytour_blaunched
+			}
+		}
+	}
+	text = {
+		localization_key = treat_fig_pie_accusative
+		trigger = {
+			OR = {
+				NOT = { has_variable = favorite_treat }
+				var:favorite_treat = flag:fig_pie
+			}
+		}
+	}
+	text = {
+		localization_key = treat_pokerounce_accusative
+		trigger = {
+			OR = {
+				NOT = { has_variable = favorite_treat }
+				var:favorite_treat = flag:pokerounce
+			}
+		}
+	}
+	text = {
+		localization_key = treat_sambocade_accusative
+		trigger = {
+			OR = {
+				NOT = { has_variable = favorite_treat }
+				var:favorite_treat = flag:sambocade
+			}
+		}
+	}
+	text = {
+		localization_key = treat_sesame_cake_accusative
+		trigger = {
+			OR = {
+				NOT = { has_variable = favorite_treat }
+				var:favorite_treat = flag:sesame_cake
+			}
+		}
+	}
+	text = {
+		localization_key = treat_baked_banana_accusative
+		trigger = {
+			OR = {
+				NOT = { has_variable = favorite_treat }
+				var:favorite_treat = flag:baked_banana
+			}
+		}
+	}
+}
