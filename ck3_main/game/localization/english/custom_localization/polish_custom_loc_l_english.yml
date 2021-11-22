@@ -3133,10 +3133,10 @@
  ghw_purification_adj:0 "Wielkim oczyszczeniu"
  
  #GHWNameDop
- ghw_great_holy_war_adj:0 "Wielkiej świętej wojny"
- ghw_crusade_adj:0 "Krucjaty"
- ghw_jihad_adj:0 "Dżihadu"
- ghw_purification_adj:0 "Wielkiego oczyszczenia"
+ ghw_great_holy_war_dop:0 "Wielkiej świętej wojny"
+ ghw_crusade_dop:0 "Krucjaty"
+ ghw_jihad_dop:0 "Dżihadu"
+ ghw_purification_dop:0 "Wielkiego oczyszczenia"
  
  #GetShockedExpressionFemale
  shocked_expression_shocked_female:0 "wstrząśnięta"
