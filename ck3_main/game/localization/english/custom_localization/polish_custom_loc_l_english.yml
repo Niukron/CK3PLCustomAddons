@@ -3181,10 +3181,6 @@
  generatepoem_title_lance_adj:0 "lancy"
  generatepoem_title_mace_adj:0 "buławy"
 
- #PantheonTerms - isPlural
-
- pt_true:0 "tak"
- pt_false:0 "nie"
 
  #PantheonTermGenitive
  pantheon_term_fallback:0 "[ROOT.Char.GetFaith.PantheonTerm]"
