@@ -3947,3 +3947,7 @@ stick_horse_accusative:0 "konika na kiju"
  treat_sambocade_accusative:0 "sernik z czarnym bzem"
  treat_sesame_cake_accusative:0 "ciasto sezamowe"
  treat_baked_banana_accusative:0 "pieczonego banana" 
+
+ #PantheonTermIsFemale
+ pt_true:0 "tak"
+ pt_false:0 "nie"
