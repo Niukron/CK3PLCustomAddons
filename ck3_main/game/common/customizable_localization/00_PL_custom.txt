@@ -4759,6 +4759,18 @@ TitleIsPlural = {
 				this = title:k_italy
 				this = title:e_italy
 				this = title:d_jomsvikings
+				this = title:c_kujawy
+				this = title:c_lettigalians
+				this = title:d_arabs
+				this = title:d_kajaneborg
+				this = title:d_khazars
+				this = title:d_meryas
+				this = title:d_pruthenians
+				this = title:d_sami
+				this = title:d_veps
+				this = title:d_votes
+				this = title:k_pechenegs
+				this = title:c_golden_hills
 			}
 		}
 		localization_key = pt_true
