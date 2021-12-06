@@ -4758,6 +4758,7 @@ TitleIsPlural = {
 				this = title:k_hungary
 				this = title:k_italy
 				this = title:e_italy
+				this = title:d_jomsvikings
 			}
 		}
 		localization_key = pt_true
