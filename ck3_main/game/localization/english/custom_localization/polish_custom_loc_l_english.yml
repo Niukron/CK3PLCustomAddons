@@ -3384,7 +3384,7 @@
  councillor_steward_female:0 "Zarządczyni"
  councillor_spymaster_female:0 "Mistrzyni szpiegów"
 
- #CouncilPositionFemalePossessive
+ #CouncilPositionGenderPossessive
 
  councillor_chancellor_female_possessive:0 "Kanclerzowej"
  councillor_marshal_female_possessive:0 "$councillor_marshal_female$"
@@ -3460,6 +3460,9 @@
  councillor_marshal_male_instrumental:0 "Marszałkiem"
  councillor_steward_male_instrumental:0 "Zarządcą"
  councillor_spymaster_male_instrumental:0 "Mistrzem szpiegów"
+
+ title_council_name_fallback:0 "[ROOT.Char.GetCouncilTitle]"
+ title_council_name_possessive_fallback:0 "[ROOT.Char.GetCouncilTitlePossessive]"
 
  #ActivityYourDative
 
