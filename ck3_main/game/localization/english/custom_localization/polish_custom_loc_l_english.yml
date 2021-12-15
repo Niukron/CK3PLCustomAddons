@@ -3126,8 +3126,10 @@
  character_window_spouse_gender:0 "[Select_CString( CharacterWindow.GetSpouse.IsFemale, Concept('spouse', 'Małżonka'), spouse )|E]"
  character_window_betrothed_gender:0 "[Select_CString( CharacterWindow.GetSpouse.IsFemale, Concept('betrothed', 'Zaręczona'), Concept('betrothed', 'Zaręczony') )|E]"
  
- #Święte wojny - odmiana w celowniku
- #GHWNameAdj
+ #Święte wojny
+ #Świętej migracji nie ma, bo Paradox i tak jej nie używa xD
+ 
+ #GHWNameAdj - celownik
  ghw_great_holy_war_adj:0 "Wielkiej świętej wojnie"
  ghw_crusade_adj:0 "Krucjacie"
  ghw_jihad_adj:0 "Dżihadzie"
