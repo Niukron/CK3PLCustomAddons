@@ -827,10 +827,22 @@
  b_hofn_adj:0 "Höfnu"
  b_saris_adj:0 "Szarysza"
 
+ #TwinDaughtersSonsChildrenNum
+ relation_daughters_num:0 "dwie bliźniaczki"
+ relation_sons_num:0 "dwóch bliźniaków"
+ relation_children_num:0 "dwoje bliźniąt"
 
- TwinDaughtersSonsChildren_With_Num_relation_daughters:0 "dwie bliźniaczki"
- TwinDaughtersSonsChildren_With_Num_relation_sons:0 "dwóch bliźniaków"
- TwinDaughtersSonsChildren_With_Num_relation_children:0 "dwoje bliźniąt"
+ #TwinDaughtersSonsChildrenAblative
+
+ relation_daughters_abl:0 "córkami"
+ relation_sons_abl:0 "synami"
+ relation_children_abl:0 "dziećmi"
+
+ #TwinDaughtersSonsChildrenAccusative
+
+ relation_daughters_acc:0 "dwie córki"
+ relation_sons_acc:0 "dwóch synów"
+ relation_children_acc:0 "dwójkę dzieci"
  
  #Ery
  culture_era_early_medieval_adj:0 "wczesnego średniowiecza"
@@ -3206,17 +3218,6 @@
  religion_the_spirits_dative:0 "duchom"
  yoruba_the_orisa_dative:0 "Orisze"
  
- #TwinDaughtersSonsChildrenBier
- 
- relation_daughters_bier:0 "dwie córki"
- relation_sons_bier:0 "dwóch synów"
- relation_children_bier:0 "dwójkę dzieci"
-
- #TwinDaughtersSonsChildrenAblative
- 
- relation_daughters_ablative:0 "córkami"
- relation_sons_ablative:0 "synami"
- relation_children_ablative:0 "dziećmi"
  
  #Teren - Dopełniacz
  #TerrainTypeDop
