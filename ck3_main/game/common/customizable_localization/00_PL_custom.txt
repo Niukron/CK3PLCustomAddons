@@ -36,7 +36,7 @@ education_focus_child_gen = {
 }
 
 
-
+#v1.5
 religion_name_adj_feminine_accusative = {
 	type = faith
 	text = {
@@ -251,7 +251,7 @@ TwinDaughtersSonsChildrenAccusative = {
 }
 
 
-
+#v1.5
 TitleRankAdjConcept = {
     type = landed_title
 
@@ -294,8 +294,6 @@ TitleRankAdjConcept = {
 		
 		localization_key = game_concept_empire_pos
 	}
-
-
 }
 
 
