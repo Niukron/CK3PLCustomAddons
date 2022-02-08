@@ -30,7 +30,7 @@
  yearly.1010.t:0 "Gone In The Night"
  yearly.1010.start.desc:0 "When I enter [abductee.GetTitledFirstNamePossessive] chambers, the first thing I notice is the guard slumped over in the corner. The second thing is the bright red gash across [dummy_gender.GetHerHis] throat. My [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('abductee'))], however, is nowhere to be seen!\n\n"
  yearly.1010.friend.desc:0 "[hunter.GetTitledFirstName] steps into the room, a bow slung across [hunter.GetHerHis] shoulder. "I am sorry, old friend. It was [abductor.GetTitledFirstName] who took [abductee.GetHerHim]."
- yearly.1010.marshal.desc:0 "[hunter.GetCouncilTitle] [hunter.GetFirstName] steps into the room, a bow slung across [hunter.GetHerHis] shoulder. "The surviving guard claims it was [abductor.GetTitledFirstName] who took [abductee.GetHerHim], my liege."
+ yearly.1010.marshal.desc:1 "My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('hunter'))] steps into the room, a bow slung across [hunter.GetHerHis] shoulder. "The surviving guard claims it was [abductor.GetTitledFirstName] who took [abductee.GetHerHim], my liege."
  yearly.1010.end.desc:0 "The hounds and the [dummy_gender.GetWomenMen] are ready. What are your orders?""
  yearly.1010.abduction.tt:0 "[abductee.GetTitledFirstName] has been abducted by [abductor.GetTitledFirstName]"
  yearly.1010.friend.tt:0 "My [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('hunter'))] [hunter.GetTitledFirstName] is here to help."

@@ -1,5 +1,5 @@
 ﻿l_english:
- I_CAN_PUNISH_DESCRIPTION: "#T Known Criminal#!\n\n[CHARACTER.GetShortUINameNoTooltip] is a known [criminal|E], allowing me to punish [CHARACTER.GetHerHim] without being viewed as a [tyrant|E]."
+ I_CAN_PUNISH_DESCRIPTION: "#T Known Criminal#!\n\n[CHARACTER.GetShortUINameNoTooltip] is a known [criminal|E], allowing me to punish [CHARACTER.GetHerHim] without being viewed as a [tyrant|E]"
  POSSIBLE_PUNISHMENTS: "Possible Punishments:"
  I_CAN_PUNISH_CRIME_HEADER: "\n\n#S $NAME$#!\n$POSSIBLE_PUNISHMENTS$"
  I_CAN_PUNISH_PUNISHMENT_ITEM_ACTIVE: "\n$BULLET_WITH_TAB$$PUNISHMENT$"

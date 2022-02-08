@@ -43,7 +43,7 @@
  shieldmaiden_skill_killed_enemy_no_trait_v4_friendly: "Our $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] piteously cut down [TARGET_CHARACTER.GetShortUINameNoTooltip]!"
  shieldmaiden_skill_killed_enemy_no_trait_v5_enemy: "$berserker_rage_killed_enemy_no_trait_v5_enemy$"
  shieldmaiden_skill_killed_enemy_no_trait_v5_friendly: "$berserker_rage_killed_enemy_no_trait_v5_friendly$"
- commander_wounded_no_enemy_friendly_player: "You were wounded by an enemy soldier while leading your troops in battle!"
+ commander_wounded_no_enemy_friendly_player: "You were wounded while leading your troops in battle!"
  commander_wounded_no_enemy_friendly: "Commander [CHARACTER.GetUINameNoTooltip] was wounded while leading [CHARACTER.GetHerHis] troops in battle!"
  commander_wounded_no_enemy_enemy: "One of our valiant soldiers has managed to wound the enemy commander, [CHARACTER.GetUINameNoTooltip], in battle!"
  commander_wounded_by_enemy_friendly_player: "You were wounded by [TARGET_CHARACTER.GetUINameNoTooltip] while leading your troops in battle!"

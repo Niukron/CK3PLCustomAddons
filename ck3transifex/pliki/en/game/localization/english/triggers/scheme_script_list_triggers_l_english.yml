@@ -13,4 +13,4 @@
  scheme_power_resistance_difference_trigger: "Scheme power resistance difference"
  can_start_scheme_trigger: "Can start [scheme|E]"
  is_scheme_exposed_trigger: "Is [scheme|E] exposed"
- NOT_WANTS_TO_BE_SOULMATES: "[TARGET_CHARACTER.GetTitledFirstName] does not want to be soulmates"
+ NOT_WANTS_TO_BE_SOULMATES: "[TARGET_CHARACTER.GetShortUIName] does not want to be soulmates"

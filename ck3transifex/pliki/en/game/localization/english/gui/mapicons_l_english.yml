@@ -16,3 +16,4 @@
  MAP_RAID_TOOLTIP: "#T Ongoing Raid#!\nEstimated completion: [Raid.GetEta.GetString].\nResulting [raid_loot|E]: [gold_i][Raid.GetProvince.GetProvinceLoot|0V].\n\n#I Click to view Raid.#!"
  RECENTLY_RAIDED_TOOLTIP: "#T Recently Raided#!\nThis holding was recently raided and cannot be raided again until [Province.GetEndOfRecentlyLooted.GetString]"
  ARMY_LOOT_INFO: "Loot: [gold_i][Army.GetRaidLoot|V0]/[Army.GetLootCap|V0]"
+ MAP_ICON_EMBARK_COST: "@gold_icon![FleetPredictionMapIcon.GetEmbarkCost|V0][Select_CString(FleetPredictionMapIcon.IsCostOverOwned, '@warning_icon!', '')]"

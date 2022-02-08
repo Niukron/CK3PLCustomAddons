@@ -52,3 +52,13 @@
  suggestion_grant_title:0 "Suggestion: Grant [landed_title.GetNameNoTierNoTooltip] to [recipient.GetShortUINameNoTooltip]"
  suggestion_grant_title_desc:0 "[recipient.GetShortUIName] is the [de_jure|E] holder of the [landed_title.GetName]. Making sure that your realm follows the De Jure structure as much as possible leads to stability and less opinion penalties."
  suggestion_grant_title_click:1 "#I Click to Grant the Title#!"
+
+ suggestion_can_hire_court_positions:0 "Hire Court Positions"
+ suggestion_can_hire_court_positions_label:0 "Suggestion: Hire more Court Positions"
+ suggestion_can_hire_court_positions_desc:0 "You should invest some gold in filling more [court_positions|E] to gain their bonuses."
+ suggestion_can_hire_court_positions_click:0 "#I Click to view available Court Positions#!"
+
+ suggestion_request_war_aid_petition:0 "Request Military Assistance"
+ suggestion_request_war_aid_petition_label:0 "Suggestion: Request Military Assistance"
+ suggestion_request_war_aid_petition_desc:0 "You can ask your [liege|E] for help in your [war|E]. They may join, or pay for soldiers."
+ suggestion_request_war_aid_petition_click:0 "#I Click to view your [lieges|E]'s [royal_court|E]#!"

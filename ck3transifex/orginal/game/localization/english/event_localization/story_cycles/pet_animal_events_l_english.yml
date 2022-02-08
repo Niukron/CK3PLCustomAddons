@@ -72,10 +72,17 @@
  pet_animal.0110.a:0 "I'll compensate you!"
  pet_animal.0110.b:0 "[ROOT.Char.Custom('CatStorySheHe')|U] is just a cat..."
 
+ pet_animal.0197.t:0 "[ROOT.Char.Custom('CatStoryName')]: Gone"
+ pet_animal.0197.desc_court_5020:0 "Ever since I started limiting the comings and goings of [ROOT.Char.Custom('CatStoryName')] I have seen [ROOT.Char.Custom('CatStoryHerHim')] less and less.\n\nIt has now been weeks since I last saw [ROOT.Char.Custom('CatStoryHerHim')] and I fear that [ROOT.Char.Custom('CatStorySheHe')] has left me for good.\n\nMy courtiers seem happy about their fur-free quarters, but my lap has never felt so empty..."
+ pet_animal.0197.desc:0 "[ROOT.Char.Custom('CatStoryName')] has taken to straying further and further from home lately and staying away for longer periods of time.\n\nIt has now been weeks since I last saw [ROOT.Char.Custom('CatStoryHerHim')] and I fear that [ROOT.Char.Custom('CatStorySheHe')] has left me for good."
+ pet_animal.0197.a:0 "Please come back, [ROOT.Char.Custom('CatStoryName')]!"
+
 
  pet_animal.0199.t:0 "[ROOT.Char.Custom('CatStoryName')]: Day of Sorrow"
  pet_animal.0199.desc:0 "[ROOT.Char.Custom('CatStoryName')] is not as young as [ROOT.Char.Custom('CatStorySheHe')] once was, and as [ROOT.Char.Custom('CatStorySheHe')] crawls into my lap I can feel [ROOT.Char.Custom('CatStoryHerHim')] trembling.\n\nI gently stroke [ROOT.Char.Custom('CatStoryHerHis')] [ROOT.Char.Custom('CatFurColor')] fur and listen to [ROOT.Char.Custom('CatStoryHerHim')] purr long into the night, but as silence falls I know that [ROOT.Char.Custom('CatStorySheHe')] won't wake again."
  pet_animal.0199.a:0 "I will miss you, [ROOT.Char.Custom('CatStoryName')]!"
+ pet_animal.0199.b:0 "I will make sure that you'll forever be by my side!"
+ pet_animal.0199.b.tt:0 "You gain a small tanned hide [court_artifact|E]"
 
 
  dog_got_pregnant_tooltip:0 "She is expecting puppies!"

@@ -29,7 +29,7 @@
  COUNCILLOR_CLICK_TO_HIRE:1 "Click to appoint a [ActiveCouncilTask.GetPositionName|E]"
  COUNCILLOR_BLANK_LIEGE:0 "Your [liege|E] has no [ActiveCouncilTask.GetPositionName|E]"
  COUNCILLOR_MISSING_SPOUSE:0 "You have no [available_spouse|E]"
- COUNCILLOR_LIEGE_MISSING_SPOUSE:1 "[CouncilWindow.GetCharacter.GetFirstName] has no [available_spouse|E]"
+ COUNCILLOR_LIEGE_MISSING_SPOUSE:2 "[CouncilWindow.GetCharacter.GetShortUIName] has no [available_spouse|E]"
  COUNCILLOR_WILL_BE_ASSIGNED:0 "The [councillor|E] is about to be assigned"
 
  learn_on_the_job_modifier:0 "$learn_on_the_job_perk_name$"

@@ -11,6 +11,7 @@
  hunt_mystical_animal.1003.b.tt: "You will no longer hunt for the animal."
  hunt_mystical_animal.1003.c: "My [steward.GetCouncilTitle] will sort this."
  hunt_mystical_animal.1003.d: "I can do it. I #EMP must#!!"
+ hunt_mystical_animal.1003.e: "[m_hunt.GetTitledFirstName], organize a search party!"
  hunt_mystical_animal.1004.desc: "\"My [ROOT.Char.GetLadyLord]! We have gotten reports of people seeing the white [ROOT.Char.Custom('LocalAnimal')] in the local forest! They claim that everything from prosperity to sickness follows it, but all seem fairly certain that it's in the area.\"\n\nIt's here? In [location.GetNameNoTier]?!"
  hunt_mystical_animal.1004.a: "We ride!"
  hunt_mystical_animal.1004.a.tt: "It will not elude me this time."

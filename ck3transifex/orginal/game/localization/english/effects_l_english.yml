@@ -26,6 +26,7 @@
  ADD_OPINION_EFFECT_RANGE:0 "$CHARACTER$'s Opinion of $TARGET$ changes by $VALUE|+$ until $DATE_MIN$ - $DATE_MAX$\n"
  ADD_OPINION_EFFECT_NO_DATE:0 "$CHARACTER$'s Opinion of $TARGET$ changes by $VALUE|+$"
  ADD_OPINION_EFFECT_HAS_IMPRISONMENT_REASON:1 "@portrait_punishment_icon! #TUT_KW Crime — Allows [CHARACTER.GetShortUIName] to rightfully imprison [TARGET_CHARACTER.GetShortUIName]#!"
+ ADD_OPINION_EFFECT_HAD_IMPRISONMENT_REASON:0 "$ADD_OPINION_EFFECT_HAS_IMPRISONMENT_REASON$"
  ADD_OPINION_EFFECT_I_HAVE_IMPRISONMENT_REASON_UNUSABLE:0 "@portrait_punishment_icon! #weak Crime — You are allowed to rightfully imprison [TARGET_CHARACTER.GetShortUIName]#!"
  ADD_OPINION_EFFECT_HAD_IMPRISONMENT_REASON_UNUSABLE:0 "@portrait_punishment_icon! #weak Crime — Rightful imprisonment#!"
  ADD_OPINION_EFFECT_HAS_IMPRISONMENT_REASON_UNUSABLE:0 "@portrait_punishment_icon! #weak Crime — Rightful imprisonment#!"
@@ -117,6 +118,7 @@
  SCHEME_GAINS_MODIFIER_EFFECT:0 "The Scheme [SCHEME.GetFullActionName] gains $MODIFIER$"
  SCHEME_GAINED_MODIFIER_EFFECT:0 "The Scheme [SCHEME.GetFullActionName] gained $MODIFIER$"
  SCHEME_NAME_IS_EXPOSED:1 "The existence of the #EMP [SCHEME.GetFullActionName|L]#! [scheme|E] is exposed"
+ SCHEME_NAME_IS_EXPOSED_PAST:0 "The #EMP [SCHEME.GetFullActionName|L]#! [scheme|E] was exposed"
 
  ADD_SCHEME_MODIFIER_EFFECT_DURATION:1 "The Scheme [SCHEME.GetFullActionName|V] gains $MODIFIER|V$ until $DURATION|V$,"
  ADDED_SCHEME_MODIFIER_EFFECT_DURATION:1 "The Scheme [SCHEME.GetFullActionName|V] gained $MODIFIER|V$ until $DURATION|V$,"
@@ -128,7 +130,7 @@
  
  THEY_ARE_EXPOSED_AS_AGENT:1 "[TARGET_CHARACTER.GetShortUIName|U] is exposed as an [agent|E]"
  THEY_HAVE_BEEN_EXPOSED_AS_AGENT:1 "[TARGET_CHARACTER.GetShortUIName|U] has been exposed as an [agent|E]"
- THEY_ARE_EXPOSED_AS_AGENT_IN_SCHEME_NAME:0 "[TARGET_CHARACTER.GetShortUIName|U] is exposed as an [agent|E] in the [SCHEME.GetName] against [SCHEME.GetTarget.GetShortUIName]"
+ THEY_ARE_EXPOSED_AS_AGENT_IN_SCHEME_NAME:1 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'are', 'is' )] exposed as an [agent|E] in the [SCHEME.GetName] against [SCHEME.GetTarget.GetShortUIName]"
  THEY_HAVE_BEEN_EXPOSED_AS_AGENT_IN_SCHEME_NAME:0 "[TARGET_CHARACTER.GetShortUIName|U] has been exposed as an [agent|E] in the [SCHEME.GetName] against [SCHEME.GetTarget.GetShortUIName]"
 
  SCHEME_COOLDOWN_EFFECT:0 "Cannot start a $TYPE|V$ against [TARGET_CHARACTER.GetShortUIName] until $DURATION|V$"
@@ -147,7 +149,10 @@
  WILL_MARRY_MATRILINEALLY_EFFECT:0 "Will [marry|E] [matrilineally|E] [TARGET_CHARACTER.GetShortUIName]"
  I_WILL_MARRY_MATRILINEALLY_EFFECT:1 "You will [matrilineally|E] [marry|E] [TARGET_CHARACTER.GetShortUIName]"
  THEY_WILL_MARRY_MATRILINEALLY_EFFECT:0 "[CHARACTER.GetShortUIName|U] will [matrilineally|E] [marry|E] [TARGET_CHARACTER.GetShortUIName]"
-
+ 
+ CHANGED_MY_GOVERNMENT:0 "Changed your government to [GOVERNMENT.GetName]"
+ CHANGED_THEIR_GOVERNMENT:0 "Changes [CHARACTER.GetName] government to [GOVERNMENT.GetName]"
+ CHANGED_GOVERNMENT:0 "Changed government to [GOVERNMENT.GetName]"
  CHANGE_GOVERNMENT:0 "Changes government to [GOVERNMENT.GetName]"
  CHANGE_MY_GOVERNMENT:0 "Changes your government to [GOVERNMENT.GetName]"
  CHANGE_THEIR_GOVERNMENT:0 "Changes [CHARACTER.GetName] government to [GOVERNMENT.GetName]"
@@ -189,7 +194,7 @@
  CANCEL_TRUCE_ONE_WAY_EFFECT:0 "[truce|E] with [TARGET_CHARACTER.GetShortUIName] ends"
  CANCEL_TRUCE_ONE_WAY_EFFECT_FIRST:1 "Your [truce|E] with [TARGET_CHARACTER.GetShortUIName] ends"
  CANCEL_TRUCE_ONE_WAY_EFFECT_THIRD:0 "[CHARACTER.GetShortUINamePossessive] [truce|E] with [TARGET_CHARACTER.GetShortUIName] ends"
- CANCEL_TRUCE_BOTH_WAYS_EFFECT:0 "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUINameOrMy] [truce|E] ends"
+ CANCEL_TRUCE_BOTH_WAYS_EFFECT:2 "The [truce|E] between [TARGET_CHARACTER.GetShortUIName] and [CHARACTER.GetShortUINamePossessive] ends"
  I_GAIN_GOLD_EFFECT:1 "You gain [gold_i]$VALUE|+0$"
  I_LOSE_GOLD_EFFECT:1 "You lose [gold_i]$VALUE|-0$"
  GAIN_GOLD_EFFECT:0 "Gains [gold_i]$VALUE|V0$"
@@ -253,11 +258,16 @@
  LOSE_GROWING_OPINION_EFFECT:0 "Will lose up to $VALUE|-0$ [opinion|E] of [TARGET_CHARACTER.GetShortUIName]$CHANGE$ #weak ($TYPE$)#!"
 
  custom_tooltip_test:0 "I'm a custom tooltip in the scope of [ROOT.GetCharacter.GetShortUIName]."
- all_courtiers_and_guests:1 "All [courtiers|E] and [guests|E] of [ROOT.GetCharacter.GetShortUIName]"
+ all_courtiers_and_guests:2 "All [THIS.GetCharacter.GetShortUINamePossessiveNoTooltip] [courtiers|E] and [guests|E]"
  all_close_family_members:0 "All [close_family_members|E] of [THIS.GetCharacter.GetShortUIName]"
  all_family_members:0 "All [family_members|E] of [THIS.GetCharacter.GetShortUIName]"
  all_unlanded_family_members:0 "All $game_concept_unlanded$ [family_members|E] of [THIS.GetCharacter.GetShortUIName]"
- all_close_family_and_spouses:0 "All [close_family_members|E] and [spouse|E] of [THIS.GetCharacter.GetShortUIName]"
+ all_ladies_of_the_court:0 "All ladies of [THIS.GetCharacter.GetShortUINamePossessiveNoTooltip] court"
+ all_lustful_in_the_court:0 "Everyone lustful in [THIS.GetCharacter.GetShortUINamePossessiveNoTooltip] court"
+ all_zealous_in_the_court:0 "Everyone zealous in [THIS.GetCharacter.GetShortUINamePossessiveNoTooltip] court"
+ all_craven_in_the_court:0 "Everyone craven in [THIS.GetCharacter.GetShortUINamePossessiveNoTooltip] court"
+ all_compassionate_in_the_court:0 "Everyone compassionate in [THIS.GetCharacter.GetShortUINamePossessiveNoTooltip] court"
+ all_close_family_and_spouses:1 "All [close_family_members|E] and [spouses|E] of [THIS.GetCharacter.GetShortUIName]"
  all_your_guests:0 "All your [guests|E]"
  all_close_family_members_of_kicked_characters:0 "All their [close_family_members|E]"
  all_dynasty_members:0 "All dynasty members of [PREV.GetCharacter.GetShortUIName]"
@@ -266,6 +276,9 @@
  all_other_vassals:1 "All your other vassals"
  all_hunt_participants:0 "All Participants of the Hunt"
  all_friends_and_lovers:0 "All [friends|E] and [lovers|E] of [THIS.GetCharacter.GetShortUIName]"
+ all_in_dungeon:0 "All prisoners in the dungeon"
+ all_in_house_arrest:0 "All prisoners in house arrest"
+ all_in_prison:0 "All prisoners"
  characters_close_to_target_who_dislike_adultery:0 "[characters|E] close to [target.GetShortUIName] who dislike adultery"
  characters_close_to_target_who_dislike_fornication:0 "[characters|E] close to [target.GetShortUIName] who dislike fornication"
  characters_close_to_target_who_dislike_incest:0 "[characters|E] close to [target.GetShortUIName] who dislike incest"
@@ -286,6 +299,8 @@
  THEY_LOST_DREAD_EFFECT:0 "[CHARACTER.GetShortUIName|U] lost $VALUE|V0$ [dread|E]"
  RANDOM_LIST_EFFECT_HEADER:0 "#S $DESC$:#!"
  RANDOM_LIST_DEFAULT_DESC:0 "Possible Outcomes"
+ RANDOM_LIST_DEFAULT_MULTIPLE_DESC:0 "Possible Outcomes, picks any combination of $VALUE|V0$ Outcomes"
+ RANDOM_LIST_DEFAULT_MULTIPLE_UNIQUE_DESC:0 "Possible Outcomes, picks $VALUE|V0$ unique Outcomes"
  RANDOM_LIST_EFFECT_ENTRY:0 "#D Un-named outcome:#!"
  RANDOM_LIST_EFFECT_ENTRY_CHANCE:0 "$CHANCE|0$%:"
  RANDOM_LIST_EFFECT_ENTRY_DESC:0 "$DESC|F$:"
@@ -306,11 +321,12 @@
  MY_SET_SECRET_OWNER_EFFECT:2 "You will be the owner of the secret [SECRET.GetName]"
  THEIR_SET_SECRET_OWNER_EFFECT:1 "[CHARACTER.GetUIName] will be the owner of the secret [SECRET.GetName]"
  EFFECT_CHARACTER_HEADER:0 "[CHARACTER.GetShortUINameNoTooltip]:\n"
- MAKE_CONCUBINE_EFFECT:3 "Takes [TARGET_CHARACTER.GetShortUIName] as a [TARGET_CHARACTER.Custom('ConcubineConsortGameConcept')]"
- I_MADE_CONCUBINE_EFFECT:1 "You took [TARGET_CHARACTER.GetTitledFirstName] as your [TARGET_CHARACTER.Custom('ConcubineConsortWomanManGameConcept')]"
- THEY_MADE_CONCUBINE_EFFECT:0 "[CHARACTER.GetTitledFirstName] took [TARGET_CHARACTER.GetTitledFirstName] as [CHARACTER.GetHerHis] [TARGET_CHARACTER.Custom('ConcubineConsortWomanManGameConcept')]"
- REMOVE_CONCUBINE_EFFECT:3 "[TARGET_CHARACTER.GetShortUIName|U] stops being a [TARGET_CHARACTER.Custom('ConcubineConsortGameConcept')]"
- THEY_REMOVE_CONCUBINE_EFFECT:1 "[TARGET_CHARACTER.GetShortUIName|U] stopped being [CHARACTER.GetShortUINamePossessive] [TARGET_CHARACTER.Custom('ConcubineConsortWomanManGameConcept')]"
+ MAKE_CONCUBINE_EFFECT:4 "Takes [TARGET_CHARACTER.GetShortUIName] as a [concubine|E]"
+ MADE_CONCUBINE_EFFECT:0 "Took [TARGET_CHARACTER.GetShortUIName] as a [concubine|E]"
+ I_MADE_CONCUBINE_EFFECT:2 "You took [TARGET_CHARACTER.GetShortUIName] as your [TARGET_CHARACTER.Custom('ConcubineWomanManGameConcept')]"
+ THEY_MADE_CONCUBINE_EFFECT:1 "[CHARACTER.GetShortUIName] took [TARGET_CHARACTER.GetShortUIName] as [CHARACTER.GetHerHis] [TARGET_CHARACTER.Custom('ConcubineWomanManGameConcept')]"
+ REMOVE_CONCUBINE_EFFECT:4 "[TARGET_CHARACTER.GetShortUIName|U] stops being a [concubine|E]"
+ THEY_REMOVE_CONCUBINE_EFFECT:2 "[TARGET_CHARACTER.GetShortUIName|U] stopped being [CHARACTER.GetShortUINamePossessive] [TARGET_CHARACTER.Custom('ConcubineWomanManGameConcept')]"
  CREATE_BETROTHAL_EFFECT:0 "Becomes betrothed to [TARGET_CHARACTER.GetShortUIName]"
  CREATE_BETROTHAL_MATRILINEAL_EFFECT:0 "Becomes betrothed to [TARGET_CHARACTER.GetShortUIName] [matrilineally|E]"
  THEY_GET_BETROTHED_EFFECT:0 "[CHARACTER.GetShortUIName|U] becomes betrothed to [TARGET_CHARACTER.GetShortUIName]"
@@ -341,6 +357,7 @@
  LOST_STRESS_EFFECT:0 "Lost [stress_loss_i]$VALUE|V0$ [stress|E]"
  I_GAIN_STRESS_EFFECT:1 "You gain [stress_gain_i]$VALUE|-0$ [stress|E]"
  I_LOSE_STRESS_EFFECT:1 "You lose [stress_loss_i]$VALUE|+0$ [stress|E]"
+ THEY_GAIN_STRESS_CRITICAL_EFFECT:0 "[CHARACTER.GetShortUIName|U] gains [stress_critical_i]$VALUE|V0$ [stress|E] (critical)"
  THEY_GAIN_STRESS_EFFECT:0 "[CHARACTER.GetShortUIName|U] gains [stress_gain_i]$VALUE|V0$ [stress|E]"
  THEY_LOSE_STRESS_EFFECT:0 "[CHARACTER.GetShortUIName|U] loses [stress_loss_i]$VALUE|V0$ [stress|E]"
  GAIN_STRESS_EFFECT:0 "Gains [stress_gain_i]$VALUE|V0$ [stress|E]"
@@ -355,7 +372,7 @@
  THEY_BREAK_BETROTHAL_EFFECT:0 "[CHARACTER.GetShortUIName|U] breaks [CHARACTER.GetHerHis] betrothal with [TARGET_CHARACTER.GetShortUIName]."
  BREAK_BETROTHAL_EFFECT:0 "Breaks [CHARACTER.GetShortUINamePossessive] betrothal with [TARGET_CHARACTER.GetShortUIName]."
  I_BROKE_BETROTHAL_EFFECT:1 "You broke [CHARACTER.GetShortUINamePossessive] betrothal with [TARGET_CHARACTER.GetShortUIName]."
- THEY_BROKE_BETROTHAL_EFFECT:0 "[CHARACTER.GetTitledFirstName] broke [CHARACTER.GetHerHis] betrothal with [TARGET_CHARACTER.GetShortUIName]."
+ THEY_BROKE_BETROTHAL_EFFECT:1 "[CHARACTER.GetShortUIName] broke [CHARACTER.GetHerHis] betrothal with [TARGET_CHARACTER.GetShortUIName]."
  BROKE_BETROTHAL_EFFECT:0 "Broke the betrothal with [TARGET_CHARACTER.GetShortUIName]."
  I_BECAME_LOWBORN_EFFECT:1 "You became lowborn"
  THEY_BECAME_LOWBORN_EFFECT:0 "[CHARACTER.GetShortUIName|U] became lowborn"
@@ -368,7 +385,7 @@
  THEY_GAINED_PRESTIGE_EFFECT:0 "[CHARACTER.GetShortUIName|U] gained [prestige_i]$VALUE|+0$"
  THEY_LOST_PRESTIGE_EFFECT:2 "[CHARACTER.GetShortUIName|U] spent [prestige_i]$VALUE|-0$"
  GAINED_PRESTIGE_EFFECT:0 "Gained [prestige_i]$VALUE|+0$"
- LOST_PRESTIGE_EFFECT:1 "spent [prestige_i]$VALUE|-0$"
+ LOST_PRESTIGE_EFFECT:1 "Spent [prestige_i]$VALUE|-0$"
  I_GAIN_PRESTIGE_EFFECT:1 "You gain [prestige_i]$VALUE|+0$"
  I_LOSE_PRESTIGE_EFFECT:2 "You spend [prestige_i]$VALUE|-0$"
  THEY_GAIN_PRESTIGE_EFFECT:0 "[CHARACTER.GetShortUIName|U] gains [prestige_i]$VALUE|+0$"
@@ -568,11 +585,13 @@
  GAINED_POTENTIAL_RIVAL:0 "Grew closer to forming a rivalry with [TARGET_CHARACTER.GetShortUIName]"
  I_LOSE_POTENTIAL_RIVAL:1 "You and [TARGET_CHARACTER.GetShortUIName] are no longer at each other's throats"
  LOSES_POTENTIAL_RIVAL:0 "Is no longer at the throat of [TARGET_CHARACTER.GetShortUIName]"
+ THEY_GAIN_POTENTIAL_RIVAL:0 "[CHARACTER.GetShortUIName|U] grows closer to forming a rivalry with [TARGET_CHARACTER.GetShortUIName]"
+ THEY_GAINED_POTENTIAL_RIVAL:0 "[CHARACTER.GetShortUIName|U] grew closer to forming a rivalry with [TARGET_CHARACTER.GetShortUIName]"
 
  I_GET_A_VISITOR:2 "[TARGET_CHARACTER.GetShortUIName|U] moves to stay at your [court|E]"
  THEY_GET_A_VISITOR:1 "[TARGET_CHARACTER.GetShortUIName|U] moves to stay at [CHARACTER.GetShortUINamePossessive] [court|E]"
  I_VISIT_COURT_OF:2 "You move to stay at the [court|E] of [TARGET_CHARACTER.GetShortUIName]"
- THEY_VISIT_COURT_OF:1 "[CHARACTER.GetShortUIName|U] moves to stay at the [court|E] of [TARGET_CHARACTER.GetTitledFirstName]"
+ THEY_VISIT_COURT_OF:2 "[CHARACTER.GetShortUIName|U] moves to stay at the [court|E] of [TARGET_CHARACTER.GetShortUIName]"
  GLOBAL_VISIT_COURT_OF:1 "Moves to stay at [TARGET_CHARACTER.GetShortUINamePossessive] [court|E]"
 
  GET_OAF:0 "Gets [TARGET_CHARACTER.GetShortUINamePossessive] as oaf"
@@ -641,17 +660,17 @@
  THEY_LOST_LOVER:0 "[TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUIName] are no longer lovers"
 
  
- GET_COURT_PHYSICIAN:0 "Hires [TARGET_CHARACTER.GetShortUIName] as their [court_physician|E]"
- YOU_GET_COURT_PHYSICIAN:0 "You hire [TARGET_CHARACTER.GetShortUIName] as your [court_physician|E]"
- THEY_GET_COURT_PHYSICIAN:0 "[CHARACTER.GetShortUIName|U] hires [TARGET_CHARACTER.GetShortUIName] as [CHARACTER.GetHerHis] [court_physician|E]"
- YOU_GOT_COURT_PHYSICIAN:0 "You hired [TARGET_CHARACTER.GetShortUIName] as your [court_physician|E]"
- THEY_GOT_COURT_PHYSICIAN:0 "[CHARACTER.GetShortUIName|U] hired [TARGET_CHARACTER.GetShortUIName] as [CHARACTER.GetHerHis] [court_physician|E]"
+ GET_COURT_PHYSICIAN:1 "Hires [TARGET_CHARACTER.GetShortUIName] as their [GetCourtPositionType('court_physician_court_position').GetName()]"
+ YOU_GET_COURT_PHYSICIAN:1 "You hire [TARGET_CHARACTER.GetShortUIName] as your [GetCourtPositionType('court_physician_court_position').GetName()]"
+ THEY_GET_COURT_PHYSICIAN:1 "[CHARACTER.GetShortUIName|U] hires [TARGET_CHARACTER.GetShortUIName] as [CHARACTER.GetHerHis] [GetCourtPositionType('court_physician_court_position').GetName()]"
+ YOU_GOT_COURT_PHYSICIAN:1 "You hired [TARGET_CHARACTER.GetShortUIName] as your [GetCourtPositionType('court_physician_court_position').GetName()]"
+ THEY_GOT_COURT_PHYSICIAN:1 "[CHARACTER.GetShortUIName|U] hired [TARGET_CHARACTER.GetShortUIName] as [CHARACTER.GetHerHis] [GetCourtPositionType('court_physician_court_position').GetName()]"
  
- LOSE_COURT_PHYSICIAN:0 "Loses [TARGET_CHARACTER.GetShortUIName] as their [court_physician|E]"
- YOU_LOSE_COURT_PHYSICIAN:0 "You lose [TARGET_CHARACTER.GetShortUIName] as your [court_physician|E]"
- THEY_LOSE_COURT_PHYSICIAN:0 "[CHARACTER.GetShortUIName|U] loses [TARGET_CHARACTER.GetShortUIName] as [CHARACTER.GetHerHis] [court_physician|E]"
- YOU_LOST_COURT_PHYSICIAN:0 "You lost [TARGET_CHARACTER.GetShortUIName] as your [court_physician|E]"
- THEY_LOST_COURT_PHYSICIAN:0 "[CHARACTER.GetShortUIName|U] lost [TARGET_CHARACTER.GetShortUIName] as [CHARACTER.GetHerHis] [court_physician|E]"
+ LOSE_COURT_PHYSICIAN:1 "Loses [TARGET_CHARACTER.GetShortUIName] as their [GetCourtPositionType('court_physician_court_position').GetName()]"
+ YOU_LOSE_COURT_PHYSICIAN:1 "You lose [TARGET_CHARACTER.GetShortUIName] as your [GetCourtPositionType('court_physician_court_position').GetName()]"
+ THEY_LOSE_COURT_PHYSICIAN:1 "[CHARACTER.GetShortUIName|U] loses [TARGET_CHARACTER.GetShortUIName] as [CHARACTER.GetHerHis] [GetCourtPositionType('court_physician_court_position').GetName()]"
+ YOU_LOST_COURT_PHYSICIAN:1 "You lost [TARGET_CHARACTER.GetShortUIName] as your [GetCourtPositionType('court_physician_court_position').GetName()]"
+ THEY_LOST_COURT_PHYSICIAN:1 "[CHARACTER.GetShortUIName|U] lost [TARGET_CHARACTER.GetShortUIName] as [CHARACTER.GetHerHis] [GetCourtPositionType('court_physician_court_position').GetName()]"
  
  GET_SOULMATE:0 "Becomes [TARGET_CHARACTER.GetShortUINamePossessive] soulmate"
  I_GET_SOULMATE:1 "[TARGET_CHARACTER.GetShortUIName|U] becomes your soulmate"
@@ -885,6 +904,7 @@
  DEPOSE_EFFECT_THIRD:0 "[CHARACTER.GetShortUIName|U] is [deposed|E]"
 
  CHANGE_TITLE_HOLDER_EFFECT:0 "Gets [TARGET_TITLE.GetName|V]"
+ CHANGED_TITLE_HOLDER_EFFECT:0 "Got [TARGET_TITLE.GetName|V]"
  CHANGE_TITLE_HOLDER_EFFECT_FIRST:1 "You get [TARGET_TITLE.GetName|V]"
  CHANGE_TITLE_HOLDER_EFFECT_FIRST_PAST:1 "You got [TARGET_TITLE.GetName|V]"
  CHANGE_TITLE_HOLDER_EFFECT_THIRD:0 "[CHARACTER.GetShortUIName|U] gets the [TARGET_TITLE.GetName|V]"
@@ -938,9 +958,11 @@
  
  CB_ALL_ATTACKERS_EFFECT:0 "All attackers"
  
+ CLAIM_BECOMES_STRONG:0 "[claim|E] on [TARGET_TITLE.GetName] becomes [pressed|e]"
  MY_CLAIM_BECOMES_STRONG:1 "Your Claim on [TARGET_TITLE.GetName] becomes [pressed|e]"
  THEIR_CLAIM_BECOMES_STRONG:0 "[CHARACTER.GetUINamePossessive] claim on [TARGET_TITLE.GetName] becomes [pressed|e]"
 
+ CLAIM_BECOMES_WEAK:0 "[claim|E] on [TARGET_TITLE.GetName] becomes weak"
  MY_CLAIM_BECOMES_WEAK:1 "Your Claim on [TARGET_TITLE.GetName] becomes weak"
  THEIR_CLAIM_BECOMES_WEAK:0 "[CHARACTER.GetUINamePossessive] claim on [TARGET_TITLE.GetName] becomes weak"
  
@@ -1085,14 +1107,14 @@
  ASSIGN_COUNCILLOR:0 "Becomes a councillor"
  BECOME_MY_COUNCILLOR:1 "[TARGET_CHARACTER.GetUIName] becomes your $TYPE|V$"
 
- ASSIGN_COUNCILLOR_TYPE:0 "Becomes a $TYPE|V$"
+ ASSIGN_COUNCILLOR_TYPE:1 "Appoints [TARGET_CHARACTER.GetUIName] as [TARGET_CHARACTER.GetLiege.GetHerHis] $TYPE|V$"
 
- FIRE_COUNCILLOR:1 "Fires [TARGET_CHARACTER.GetUIName] from the Council"
+ FIRE_COUNCILLOR:1 "Fires [TARGET_CHARACTER.GetUIName] from [TARGET_CHARACTER.GetLiege.GetHerHis] [council|E]"
  FIRED_FROM_MY_COUNCIL:1 "[TARGET_CHARACTER.GetUIName] is fired from your [council|E]"
  FIRE_COUNCILLOR_TT:1 "#T Fire [ACTIVE_COUNCIL_TASK.GetCouncillor.GetUIName] from the [council|E]#!"
  SET_COUNCIL_TASK_EFFECT:0 "Starts the $TYPE|V$ task"
  SET_COURT_COUNCIL_TASK_EFFECT:0 "Starts the $TYPE|V$ task targeting [TARGET_CHARACTER.GetUINamePossessive] court"
- SET_COUNTY_COUNCIL_TASK_EFFECT:0 "Starts the $TYPE|V$ task in [PROVINCE.GetName]"
+ SET_COUNTY_COUNCIL_TASK_EFFECT:1 "Starts the $TYPE|V$ task in [TARGET_TITLE.GetName]"
  
  ADD_FACTION_DISCONTENT_EFFECT:0 "The [faction|E] gains $VALUE|V0$ [faction_discontent|E]"
  REMOVE_FACTION_DISCONTENT_EFFECT:0 "The [faction|E] loses $VALUE|V0$ [faction_discontent|E]"
@@ -1108,7 +1130,7 @@
  ADD_TARGETING_FACTIONS_DISCONTENT_EFFECT_THIRD:0 "[factions|E] targeting [CHARACTER.GetShortUIName] gain $VALUE|V0$ [faction_discontent|E]"
  REMOVE_TARGETING_FACTIONS_DISCONTENT_EFFECT_THIRD:0 "[factions|E] targeting [CHARACTER.GetShortUIName] lose $VALUE|V0$ [faction_discontent|E]"
  
- DESTROY_FACTION_EFFECT:0 "[FACTION.GetName|V] is destroyed"
+ DESTROY_FACTION_EFFECT:1 "[FACTION.GetName|V] is disbanded"
  
  I_JOIN_FACTION_EFFECT:0 "You join the [FACTION.GetName|V]"
  I_JOINED_FACTION_EFFECT:0 "You joined the [FACTION.GetName|V]"
@@ -1154,7 +1176,7 @@
  REMOVE_PARTICIPANT_EFFECT_THIRD:0 "[CHARACTER.GetUIName] leaves [WAR.GetName|V]"
  
  ENTERS_SERVICE:0 "[TARGET_CHARACTER.GetShortUIName|U] joins [CHARACTER.GetShortUINamePossessive] Court"
- ENTERS_MY_SERVICE:1 "You join [TARGET_CHARACTER.GetShortUINamePossessive] Court"
+ ENTERS_MY_SERVICE:2 "[TARGET_CHARACTER.GetShortUIName|U] joins your Court"
  ENTERS_THEIR_SERVICE:0 "[CHARACTER.GetShortUIName|U] joins [TARGET_CHARACTER.GetShortUINamePossessive] Court"
  
  GIVE_NICKNAME_GLOBAL:1 "Gains the [nickname|E] #V '$NICKNAME|U$'#!"
@@ -1281,9 +1303,14 @@
  GHW_I_UNPLEDGE_DEFENDER:1 "You will unpledge as defender in the [GREAT_HOLY_WAR.GetFaith.Custom('GHWName')]"
  GHW_I_UNPLEDGED_DEFENDER:1 "You unpledged as defender in the [GREAT_HOLY_WAR.GetFaith.Custom('GHWName')]"
  GHW_CHANGE_TARGET_EFFECT:0 "The [GREAT_HOLY_WAR.GetFaith.Custom('GHWName')] will target [TARGET_CHARACTER.GetName]"
- GHW_SET_BENEFICIARY_EFFECT:1 "Select [TARGET_CHARACTER.GetFirstName] as your [beneficiary|E]"
+ GHW_SET_BENEFICIARY_EFFECT:2 "Select [TARGET_CHARACTER.GetShortUIName] as your [beneficiary|E]"
 
- LEASE_OUT_TO_HOLY_ORDER_EFFECT:0 "Leases [TITLE.GetName] out to [HOLY_ORDER.GetName]"
+ LEASE_OUT_TO_HOLY_ORDER_EFFECT:1 "Leases the [TITLE.GetName] out to the [HOLY_ORDER.GetName]"
+ I_LEASE_OUT_TO_HOLY_ORDER_EFFECT:0 "I lease the [TITLE.GetName] out to the [HOLY_ORDER.GetName]"
+ THEY_LEASE_OUT_TO_HOLY_ORDER_EFFECT:0 "[TITLE.GetHolder.GetShortUIName] leases the [TITLE.GetName] out to the [HOLY_ORDER.GetName]"
+ LEASED_OUT_TO_HOLY_ORDER_EFFECT:0 "Leased the [TITLE.GetName] out to the [HOLY_ORDER.GetName]"
+ I_LEASED_OUT_TO_HOLY_ORDER_EFFECT:0 "I leased the [TITLE.GetName] out to the [HOLY_ORDER.GetName]"
+ THEY_LEASED_OUT_TO_HOLY_ORDER_EFFECT:0 "[TITLE.GetHolder.GetShortUIName] leased the [TITLE.GetName] out to the [HOLY_ORDER.GetName]"
  REVOKE_LEASE_FROM_HOLY_ORDER_EFFECT:0 "Revokes the lease of [TITLE.GetName] from [HOLY_ORDER.GetName]"
  CHANGE_WAR_CHEST_GOLD:0 "The War Chest receives [gold_i]$VALUE|V0$"
  CHANGED_WAR_CHEST_GOLD:0 "The War Chest received [gold_i]$VALUE|V0$"
@@ -1299,7 +1326,7 @@
  CHANGED_WAR_CHEST_PIETY_NEG:0 "The War Chest lost [piety_i]$VALUE|V0$"
  GHW_TITLE_HANDOUT:0 "All titles within the targeted Kingdom will be divided amongst Beneficiaries according to participation."
  GHW_TITLE_HANDOUT_PAST:0 "All titles within the targeted Kingdom have been divided amongst Beneficiaries according to participation."
- GHW_SET_DESIGNATED_WINNER:0 "[TARGET_CHARACTER.GetFirstName] is selected as Designated Winner"
+ GHW_SET_DESIGNATED_WINNER:1 "[TARGET_CHARACTER.GetShortUIName] is selected as Designated Winner"
  GHW_SET_RESET_DESIGNATED_WINNER:0 "The Designated Winner is reset"
  GHW_DIVIDE_WAR_CHEST:0 "The War Chest is split amongst all participants"
  GHW_RESET_BENEFICIARY:1 "[CHARACTER.GetUINamePossessive|U] [beneficiary|E] is removed"
@@ -1356,11 +1383,39 @@
  DECIDE_ON_CULTURE_CONVERSION:0 "Gets to decide whether or not to convert culture"
  YOU_MUST_DECIDE_ON_CULTURE_CONVERSION:0 "You will get to decide whether or not to convert culture"
  THEY_MUST_DECIDE_ON_CULTURE_CONVERSION:0 "[CHARACTER.GetShortUIName|U] will get to decide whether or not to convert culture"
+ 
+ INCREASE_CULTURAL_ACCEPTANCE:1 "The [cultural_acceptance|E] for [CULTURE.GetName] increases by $VALUE|+^/%$"
+ REDUCE_CULTURAL_ACCEPTANCE:1 "The [cultural_acceptance|E] for [CULTURE.GetName] decreases by $VALUE|-^/%$%"
+ INCREASED_CULTURAL_ACCEPTANCE:1 "The [cultural_acceptance|E] for the [CULTURE.GetName] culture was increased by $VALUE|+^/%$"
+ REDUCED_CULTURAL_ACCEPTANCE:1 "The [cultural_acceptance|E] for the [CULTURE.GetName] culture was reduced by $VALUE|-^/%$"
+ INCREASE_CULTURAL_ACCEPTANCE_WITH:1 "The [cultural_acceptance|E] between the [CULTURE.GetCollectiveNoun] and the [TARGET_CULTURE.GetCollectiveNoun] increases by $VALUE|+^/%$"
+ REDUCE_CULTURAL_ACCEPTANCE_WITH:1 "The [cultural_acceptance|E] between the [CULTURE.GetCollectiveNoun] and the [TARGET_CULTURE.GetCollectiveNoun] decreases by $VALUE|-^/%$"
+ INCREASED_CULTURAL_ACCEPTANCE_WITH:1 "Acceptance between the [CULTURE.GetCollectiveNoun] and the [TARGET_CULTURE.GetCollectiveNoun] has been increased by $VALUE|+^/%$"
+ REDUCED_CULTURAL_ACCEPTANCE_WITH:1 "Acceptance between the [CULTURE.GetCollectiveNoun] and the [TARGET_CULTURE.GetCollectiveNoun] has been decreased by $VALUE|-^/%$"
+
+ LEARN_LANGUAGE_OF_CULTURE_FIRST:1 "You learn the [TARGET_CULTURE.GetLanguage.GetName] [language|E]"
+ LEARN_LANGUAGE_OF_CULTURE_THIRD:1 "[CHARACTER.GetShortUIName|U] learns the [TARGET_CULTURE.GetLanguage.GetName] [language|E]"
+ LEARN_LANGUAGE_OF_CULTURE_GLOBAL:1 "Learns the [TARGET_CULTURE.GetLanguage.GetName] [language|E]"
+ UNLEARN_LANGUAGE_OF_CULTURE_FIRST:1 "You forget the [TARGET_CULTURE.GetLanguage.GetName] [language|E]"
+ UNLEARN_LANGUAGE_OF_CULTURE_THIRD:1 "[CHARACTER.GetShortUIName|U] forgets the [TARGET_CULTURE.GetLanguage.GetName] [language|E]"
+ UNLEARN_LANGUAGE_OF_CULTURE_GLOBAL:1 "Forgets the [TARGET_CULTURE.GetLanguage.GetName] [language|E]"
+
+ LEARN_LANGUAGE_FIRST:1 "You learn the [CULTURE_PILLAR.GetName] [language|E]"
+ LEARN_LANGUAGE_THIRD:1 "[CHARACTER.GetShortUIName|U] learns the [CULTURE_PILLAR.GetName] [language|E]"
+ LEARN_LANGUAGE_GLOBAL:1 "Learns the [CULTURE_PILLAR.GetName] [language|E]"
+ UNLEARN_LANGUAGE_FIRST:1 "You forget the [CULTURE_PILLAR.GetName] [language|E]"
+ UNLEARN_LANGUAGE_THIRD:1 "[CHARACTER.GetShortUIName|U] forgets the [CULTURE_PILLAR.GetName] [language|E]"
+ UNLEARN_LANGUAGE_GLOBAL:1 "Forgets the [CULTURE_PILLAR.GetName] [language|E]"
 
  GAINS_THE_BUILDING_NAME:0 "Gains the building [BUILDING.GetName]"
  GAINED_THE_BUILDING_NAME:0 "Gained the building [BUILDING.GetName]"
  PROVINCE_GAINS_THE_BUILDING_NAME:0 "Holding of [PROVINCE.GetName] gains the building [BUILDING.GetName]"
  PROVINCE_GAINED_THE_BUILDING_NAME:0 "Holding of [PROVINCE.GetName] gained the building [BUILDING.GetName]"
+
+ LOSES_THE_BUILDING_NAME:0 "Loses the building [BUILDING.GetName]"
+ LOST_THE_BUILDING_NAME:0 "Lost the building [BUILDING.GetName]"
+ PROVINCE_LOSES_THE_BUILDING_NAME:0 "Holding of [PROVINCE.GetName] loses the building [BUILDING.GetName]"
+ PROVINCE_LOST_THE_BUILDING_NAME:0 "Holding of [PROVINCE.GetName] lost the building [BUILDING.GetName]"
 
  GAINS_BUILDING_SLOT:0 "Gains $VALUE|V0$ building slot"
  GAINED_BUILDING_SLOT:0 "Gained $VALUE|V0$ building slot"
@@ -1400,16 +1455,17 @@
  
  CLEAR_TITLE_LAWS:0 "All title laws of the [TITLE.GetName] will be cleared"
  CLEARED_TITLE_LAWS:0 "All title laws of the [TITLE.GetName] have been be cleared"
- ADD_TITLE_LAW:1 "[TITLE.GetName|U] will gain [LAW.GetName|V] succession"
+ ADD_TITLE_LAW:2 "Will gain [LAW.GetName|V] succession"
+ ADD_TITLE_LAW_THIRD:0 "[TITLE.GetName|U] will gain [LAW.GetName|V] succession"
  ADDED_TITLE_LAW:0 "[TITLE.GetName|U] gained [LAW.GetName|V] succession"
 
  leave_faction_with_cooldown_effect_third.tt:2 "[CHARACTER.GetShortUIName] cannot join another [faction|E] for #V $VALUE|0$ years#!"
  leave_faction_with_cooldown_effect_first.tt:2 "You cannot join another [faction|E] for #V $VALUE|0$ years#!"
  leave_faction_with_cooldown_effect_global.tt:0 "Cannot join another [faction|E] for #V $VALUE|0$ years#!"
 
- LEAVES_COURT:0 "Leaves [CHARACTER.GetLiege.GetShortUINamePossessive] [court|E]"
  CHARACTER_LEAVES_COURT:0 "[CHARACTER.GetShortUIName|U] leaves [CHARACTER.GetLiege.GetShortUINamePossessive] [court|E]"
  LEFT_COURT:0 "Left [CHARACTER.GetLiege.GetShortUINamePossessive] [court|E]"
+ LEAVES_COURT:1 "Leaves [CHARACTER.GetCurrentLocation.GetCounty.GetTitle.GetHolder.GetShortUINamePossessive] [court|E]"
  CHARACTER_LEFT_COURT:0 "[CHARACTER.GetShortUIName|U] left [CHARACTER.GetLiege.GetShortUINamePossessive] [court|E]"
  RECRUIT_COURTIER_EFFECT:1 "Recruits [TARGET_CHARACTER.GetShortUIName] to [court|E]"
  THEY_RECRUIT_COURTIER_EFFECT:0 "[CHARACTER.GetShortUIName|U] recruits [TARGET_CHARACTER.GetShortUIName] to [CHARACTER.GetHerHis] [court|E]"
@@ -1430,10 +1486,10 @@
  VASSAL_CONTRACT_DECREASE_OBLIGATIONS_THIRD_PAST:1 "[CHARACTER.GetShortUINamePossessive] [Concept( 'obligations', '$NAME$' )|E] to [CHARACTER.GetLiege.GetShortUIName] were reduced"
  VASSAL_CONTRACT_DECREASE_OBLIGATIONS_FIRST_PAST:2 "Your [Concept( 'obligations', '$NAME$' )|E] to [CHARACTER.GetLiege.GetShortUIName] were reduced"
 
- SET_PRIMARY_SPOUSE_FIRST:1 "[TARGET_CHARACTER.GetFirstName] becomes your primary spouse"
- SET_PRIMARY_SPOUSE_THIRD:0 "[TARGET_CHARACTER.GetFirstName] becomes [CHARACTER.GetFirstNamePossessive] primary spouse"
- SET_PRIMARY_SPOUSE_FIRST_PAST:1 "[TARGET_CHARACTER.GetFirstName] became your primary spouse"
- SET_PRIMARY_SPOUSE_THIRD_PAST:0 "[TARGET_CHARACTER.GetFirstName] became [CHARACTER.GetFirstNamePossessive] primary spouse"
+ SET_PRIMARY_SPOUSE_FIRST:2 "[TARGET_CHARACTER.GetShortUIName] becomes your primary spouse"
+ SET_PRIMARY_SPOUSE_THIRD:1 "[TARGET_CHARACTER.GetShortUIName] becomes [CHARACTER.GetShortUINamePossessive] primary spouse"
+ SET_PRIMARY_SPOUSE_FIRST_PAST:2 "[TARGET_CHARACTER.GetShortUIName] became your primary spouse"
+ SET_PRIMARY_SPOUSE_THIRD_PAST:1 "[TARGET_CHARACTER.GetShortUIName] became [CHARACTER.GetShortUINamePossessive] primary spouse"
 
  GAINS_DIPLOMACY_LIFESTYLE_XP:2 "Gains $VALUE|V0$ [diplomacy_lifestyle|E] Experience"
  GAINED_DIPLOMACY_LIFESTYLE_XP:2 "Gained $VALUE|V0$ [diplomacy_lifestyle|E] Experience"
@@ -1507,36 +1563,38 @@
  
  REFUND_ALL_PERKS_EFFECT:1 "All of your unlocked [perks|E] are refunded"
 
- NO_PENALTY_FOR_LACK_OF_ATTRACTION:0 "Removes attraction penalties in [seduce_schemes|E]"
- I_SUFFER_NO_PENALTY_FOR_LACK_OF_ATTRACTION:1 "Removes your attraction penalties in [seduce_schemes|E]"
- THEY_SUFFER_NO_PENALTY_FOR_LACK_OF_ATTRACTION:0 "Removes [CHARACTER.GetHerHis] attraction penalties in [seduce_schemes|E]"
+ NO_PENALTY_FOR_LACK_OF_ATTRACTION:1 "Removes attraction penalties in [GetScheme('seduce').GetTypeName] [schemes|E]"
+ I_SUFFER_NO_PENALTY_FOR_LACK_OF_ATTRACTION:2 "Removes your attraction penalties in [GetScheme('seduce').GetTypeName] [schemes|E]"
+ THEY_SUFFER_NO_PENALTY_FOR_LACK_OF_ATTRACTION:1 "Removes [CHARACTER.GetHerHis] attraction penalties in [GetScheme('seduce').GetTypeName] [schemes|E]"
 
- REMOVES_INCEST_SEDUCTION_PENALTIES:3 "Removes the [title_rank|E] difference penalty from [seduce_schemes|E]\nRemoves the [incestuous|E] penalty from [seduce_schemes|E] targeting adults over the age of 19"
- REMOVES_MY_INCEST_SEDUCTION_PENALTIES:4 "Removes the [title_rank|E] difference penalty from your [seduce_schemes|E]\nRemoves the [incestuous|E] penalty from your [seduce_schemes|E] targeting adults over the age of 19"
- REMOVES_THEIR_INCEST_SEDCUTION_PENALTIES:3 "Removes the [title_rank|E] difference penalty from [CHARACTER.GetShortUINamePossessive] [seduce_schemes|E]\nRemoves penalties applied to [CHARACTER.GetShortUINamePossessive] [seduce_schemes|E] for being [incestuous|E] when targeting adults over the age of 19"
+ REMOVES_INCEST_SEDUCTION_PENALTIES:4 "Removes the [title_rank|E] difference penalty from [GetScheme('seduce').GetTypeName] [schemes|E]\nRemoves the [incestuous|E] penalty from [GetScheme('seduce').GetTypeName] [schemes|E] targeting adults over the age of 19"
+ REMOVES_MY_INCEST_SEDUCTION_PENALTIES:6 "Removes the [title_rank|E] difference penalty from your [GetScheme('seduce').GetTypeName] [schemes|E]\nRemoves the [incestuous|E] penalty from your [GetScheme('seduce').GetTypeName] [schemes|E] targeting adults over the age of 19"
+ REMOVES_THEIR_INCEST_SEDCUTION_PENALTIES:4 "Removes the [title_rank|E] difference penalty from [CHARACTER.GetShortUINamePossessive] [GetScheme('seduce').GetTypeName] [schemes|E]\nRemoves penalties applied to [CHARACTER.GetShortUINamePossessive] [GetScheme('seduce').GetTypeName] [schemes|E] for being [incestuous|E] when targeting adults over the age of 19"
 
- INCREASED_CHANCE_OF_LOVERS_SAVING:0 "[lovers|E] are less likely to join [murder_schemes|E] against them\nLovers are more likely to save them from attempted Murder"
- INCREASED_CHANCE_OF_MY_LOVERS_SAVING_ME:1 "Your [lovers|E] are less likely to join [murder_schemes|E] against you\nLovers are more likely to save you in case of attempted Murders"
- INCREASED_CHANCE_OF_THEIR_LOVERS_SAVING_THEM:0 "[CHARACTER.GetShortUINamePossessive] [lovers|E] are less likely to join [murder_schemes|E] against [CHARACTER.GetHerHim]\nLovers are more likely to save [CHARACTER.GetHerHim] from attempted Murder"
+ INCREASED_CHANCE_OF_LOVERS_SAVING:1 "[lovers|E] are less likely to join [GetScheme('murder').GetTypeName] [schemes|E] against them\nLovers are more likely to save them from attempted Murder"
+ INCREASED_CHANCE_OF_MY_LOVERS_SAVING_ME:2 "Your [lovers|E] are less likely to join [GetScheme('murder').GetTypeName] [schemes|E] against you\nLovers are more likely to save you in case of attempted Murders"
+ INCREASED_CHANCE_OF_THEIR_LOVERS_SAVING_THEM:1 "[CHARACTER.GetShortUINamePossessive] [lovers|E] are less likely to join [GetScheme('murder').GetTypeName] [schemes|E] against [CHARACTER.GetHerHim]\nLovers are more likely to save [CHARACTER.GetHerHim] from attempted Murder"
  
- INCREASED_SEDUCE_SUCCESS_CHANCE_AGAINST_COURTIERS:0 "[seduce_scheme|E] [success_chance|E] against own [courtiers|E] and [guests|E]: #P +[EmptyScope.ScriptValue('home_advantage_perk_bonus')|0]%#!"
- INCREASED_SEDUCE_SUCCESS_CHANCE_AGAINST_MY_COURTIERS:0 "[seduce_scheme|E] [success_chance|E] against own [courtiers|E] and [guests|E]: #P +[EmptyScope.ScriptValue('home_advantage_perk_bonus')|0]%#!"
- INCREASED_SEDUCE_SUCCESS_CHANCE_AGAINST_THEIR_COURTIERS:0 "[seduce_scheme|E] [success_chance|E] against own [courtiers|E] and [guests|E]: #P +[EmptyScope.ScriptValue('home_advantage_perk_bonus')|0]%#!"
+ INCREASED_SEDUCE_SUCCESS_CHANCE_AGAINST_COURTIERS:1 "[GetScheme('seduce').GetTypeName] [scheme|E] [success_chance|E] against own [courtiers|E] and [guests|E]: #P +[EmptyScope.ScriptValue('home_advantage_perk_bonus')|0]%#!"
+ INCREASED_SEDUCE_SUCCESS_CHANCE_AGAINST_MY_COURTIERS:1 "[GetScheme('seduce').GetTypeName] [scheme|E] [success_chance|E] against own [courtiers|E] and [guests|E]: #P +[EmptyScope.ScriptValue('home_advantage_perk_bonus')|0]%#!"
+ INCREASED_SEDUCE_SUCCESS_CHANCE_AGAINST_THEIR_COURTIERS:1 "[GetScheme('seduce').GetTypeName] [scheme|E] [success_chance|E] against own [courtiers|E] and [guests|E]: #P +[EmptyScope.ScriptValue('home_advantage_perk_bonus')|0]%#!"
 
- CAN_NO_LONGER_CRITICALLY_FAIL_SEDUCTION_SCHEMES:0 "Can no longer [critically_fail|E] [seduce_schemes|E]"
- I_CAN_NO_LONGER_CRITICALLY_FAIL_SEDUCTION_SCHEMES:1 "You can no longer [critically_fail|E] [seduce_schemes|E]"
- THEY_CAN_NO_LONGER_CRITICALLY_FAIL_SEDUCTION_SCHEMES:0 "[CHARACTER.GetShortUIName|U] can no longer [critically_fail|E] [seduce_schemes|E]"
+ CAN_NO_LONGER_CRITICALLY_FAIL_SEDUCTION_SCHEMES:2 "Can no longer [critically_fail|E] [GetScheme('seduce').GetTypeName] [schemes|E]"
+ I_CAN_NO_LONGER_CRITICALLY_FAIL_SEDUCTION_SCHEMES:3 "You can no longer [critically_fail|E] [GetScheme('seduce').GetTypeName] [schemes|E]"
+ THEY_CAN_NO_LONGER_CRITICALLY_FAIL_SEDUCTION_SCHEMES:2 "[CHARACTER.GetShortUIName|U] can no longer [critically_fail|E] [GetScheme('seduce').GetTypeName]  [schemes|E]"
 
- INCREASED_SEDUCE_SUCCESS_CHANCE_25:0 "[seduce_scheme|E] [success_chance|E]: #P +[EmptyScope.ScriptValue('smooth_operator_perk_bonus')|0]%#!"
+ INCREASED_SEDUCE_SUCCESS_CHANCE_25:2 "[GetScheme('seduce').GetTypeName] [scheme|E] [success_chance|E]: #P +[EmptyScope.ScriptValue('smooth_operator_perk_bonus')|0]%#!\nCan learn #V 1#! additional [language|E] without any penalties"
+ INCREASED_SEDUCE_SUCCESS_CHANCE_25_YOU:1 "[GetScheme('seduce').GetTypeName] [scheme|E] [success_chance|E]: #P +[EmptyScope.ScriptValue('smooth_operator_perk_bonus')|0]%#!\nYou can learn #V 1#! additional [language|E] without any penalties"
+ INCREASED_SEDUCE_SUCCESS_CHANCE_25_THEY:1 "[GetScheme('seduce').GetTypeName] [scheme|E] [success_chance|E]: #P +[EmptyScope.ScriptValue('smooth_operator_perk_bonus')|0]%#!\nThey can learn #V 1#! additional [language|E] without any penalties"
 
  ESPIONAGE_MAY_FABRICATE_HOOKS:0 "[espionage|E] may also fabricate [hooks|E]"
- ENABLE_FABRICATE_HOOK_SCHEME:0 "Enables the [fabricate_hook_scheme|E]"
+ ENABLE_FABRICATE_HOOK_SCHEME:1 "Enables the [GetScheme('fabricate_hook').GetTypeName] [scheme|E]"
  
  ESPIONAGE_COUNCILLOR_TASK_BONUS_25:0 "[espionage|E] Progress Speed: #P +[EmptyScope.ScriptValue('digging_for_dirt_perk_percentage')|0]%#!"
 
- ENABLE_ABDUCTION_SCHEME:0 "Enables the [abduct_scheme|E]"
- I_ENABLE_ABDUCTION_SCHEME:1 "You are able to use the [abduct_scheme|E]"
- THEY_ENABLE_ABDUCTION_SCHEME:0 "[CHARACTER.GetShortUIName|U] can use the [abduct_scheme|E]"
+ ENABLE_ABDUCTION_SCHEME:1 "Enables the [GetScheme('abduct').GetTypeName] [scheme|E]"
+ I_ENABLE_ABDUCTION_SCHEME:2 "You are able to use the [GetScheme('abduct').GetTypeName] [scheme|E]"
+ THEY_ENABLE_ABDUCTION_SCHEME:1 "[CHARACTER.GetShortUIName|U] can use the [GetScheme('abduct').GetTypeName] [scheme|E]"
 
  DISRUPT_SCHEMES_COUNCILLOR_TASK_BONUS_25:0 "[disrupt_schemes|E] Effectiveness: #P +[EmptyScope.ScriptValue('court_of_shadows_perk_percentage')|0]%#!"
 
@@ -1554,7 +1612,7 @@
  
  COUNCIL_TASK_INCREASE_CONTROL_PROGRESS_INCREASE:0 "[increase_control|E] Progress Gain: #P +[EmptyScope.ScriptValue('strict_organization_percentage')|0]%#!"
 
- COURTING_PERK_SUCCESS_CHANCE_BONUS:0 "$courting$ [success_chance|E]: #P +[EmptyScope.ScriptValue('courtship_court_success_chance_bonus_value')|0]%#!\n$elope$ [success_chance|E]: #P +[EmptyScope.ScriptValue('elope_court_success_chance_bonus_value')|0]%#!"
+ COURTING_PERK_SUCCESS_CHANCE_BONUS:2 "[GetScheme('courting').GetTypeName] [success_chance|E]: #P +[EmptyScope.ScriptValue('courtship_court_success_chance_bonus_value')|0]%#!\n[GetScheme('elope').GetTypeName] [success_chance|E]: #P +[EmptyScope.ScriptValue('elope_court_success_chance_bonus_value')|0]%#!"
 
  MARRIAGE_ACCEPTANCE_FOR_SELF_AND_EXTENDED_FAMILY:1 "[marriage|E] Acceptance for self: #P +[EmptyScope.ScriptValue('promising_prospects_self_value')|0]#!\n[marriage|E] Acceptance for [close_family|E]: #P +[EmptyScope.ScriptValue('promising_prospects_other_value')|0]#!\n[marriage|E] Acceptance for [extended_family|E]: #P +[EmptyScope.ScriptValue('promising_prospects_other_value')|0]#!"
  MARRIAGE_ACCEPTANCE_FOR_ME_AND_MY_EXTENDED_FAMILY:2 "[marriage|E] Acceptance for yourself: #P +[EmptyScope.ScriptValue('promising_prospects_self_value')|0]#!\n[marriage|E] Acceptance for your [close_family|E]: #P +[EmptyScope.ScriptValue('promising_prospects_other_value')|0]#!\n[marriage|E] Acceptance for your [extended_family|E]: #P +[EmptyScope.ScriptValue('promising_prospects_other_value')|0]#!"
@@ -1588,11 +1646,11 @@
 
  EACH_ALLIANCE_GRANTS_DIPLOMACY:1 "Each [alliance|E] grants: [diplomacy_i]#P +1#! (To the Maximum of [EmptyScope.ScriptValue('embassies_max')|0])"
 
- FABRICATE_CLAIM_SPEED_GAIN:0 "[fabricate_claim|E] Speed: #P +[EmptyScope.ScriptValue('accomplished_forger_percentage')|0]%#!"
+ FABRICATE_CLAIM_SPEED_GAIN:1 "[fabricate_claim|E] Speed: #P +[EmptyScope.ScriptValue('accomplished_forger_percentage')|0]%#!\nUnlocks the [buy_artifact_claim_interaction|E]"
 
- UNLOCK_BEFRIEND_SCHEME:0 "Unlocks the [befriend_scheme|E]"
- I_CAN_USE_THE_BEFRIEND_SCHEME:1 "You can use the [befriend_scheme|E]"
- THEY_CAN_USE_THE_BEFRIEND_SCHEME:0 "[CHARACTER.GetShortUIName|U] can use the [befriend_scheme|E]"
+ UNLOCK_BEFRIEND_SCHEME:1 "Unlocks the [GetScheme('befriend').GetTypeName] [scheme|E]"
+ I_CAN_USE_THE_BEFRIEND_SCHEME:2 "You can use the [GetScheme('befriend').GetTypeName] [scheme|E]"
+ THEY_CAN_USE_THE_BEFRIEND_SCHEME:1 "[CHARACTER.GetShortUIName|U] can use the [GetScheme('befriend').GetTypeName] [scheme|E]"
 
  EACH_FRIEND_ADDS_STRESS_REDUCTION:2 "Each [friend|E] adds: [stress_gain_i]#P -5%#! [stress|E] Gain"
 
@@ -1622,10 +1680,14 @@
  COLLECT_TAXES_EFFECTIVENESS_GAIN:0 "[collect_taxes|E] Effectiveness: #P +[EmptyScope.ScriptValue('tax_man_perk_percentage')|0]%#!"
 
  CHILDREN_HAVE_CHANCE_OF_IMPROVEMENT:0 "[wards|E] can get additional [skills|E], and can become [friends|E] with their [guardian|E]"
- CHILDREN_I_EDUCATE_HAVE_CHANCE_OF_IMPROVEMENT:1 "Your [wards|E] can get additional [skills|E], and can become your [friends|E]"
+ CHILDREN_I_EDUCATE_HAVE_CHANCE_OF_IMPROVEMENT:3 "Your [wards|E] can get additional [skills|E], and can become your [friends|E]\n[GetScheme('learn_language').GetTypeName] [success_chance|E]: #P +25%#!"
  CHILDREN_THEY_EDUCATE_HAVE_CHANCE_OF_IMPROVEMENT:0 "[CHARACTER.GetShortUINamePossessive] [wards|E] can get additional [skills|E], and can become [CHARACTER.GetHerHis] [friends|E]"
+ 
+ open_minded_perk_effect:1 "Can learn #V 2#! additional [languages|E] without any penalties"
+ my_open_minded_perk_effect:1 "You can learn #V 2#! additional [languages|E] without any penalties"
+ their_open_minded_perk_effect:1 "They can learn #V 2#! additional [languages|E] without any penalties"
 
- CHEAPER_COURT_PHYSICIAN_AND_BETTER_OUTCOMES:0 "[court_physicians|E] cost less to hire\n[court_physician|E] treatments have better outcomes"
+ CHEAPER_COURT_PHYSICIAN_AND_BETTER_OUTCOMES:2 "A [GetCourtPositionType('court_physician_court_position').GetName()] costs less to hire\n[GetCourtPositionType('court_physician_court_position').GetName()] treatments have better outcomes"
 
  MENTAL_BREAK_SPACING:0 "Time between [mental_breaks|E]: #P +3#! years"
 
@@ -1649,9 +1711,9 @@
  I_CAN_DEMAND_PAYMENT_FOR_HOOKS:1 "You can [demand_payment|E] for [hooks|E]"
  THEY_CAN_DEMAND_PAYMENT_FOR_HOOKS:0 "[CHARACTER.GetShortUIName|U] can [demand_payment|E] for [hooks|E]"
 
- UNLOCKS_CLAIM_THRONE_INTERACTION:0 "Unlocks the [claim_throne|E] Interaction"
- I_CAN_USE_THE_CLAIM_THRONE_INTERACTION:1 "You can use [claim_throne|E] against your [liege|E]"
- THEY_CAN_USE_THE_CLAIM_THRONE_INTERACTION:0 "[CHARACTER.GetShortUIName|U] can use [claim_throne|E] against [CHARACTER.GetHerHis] liege"
+ UNLOCKS_CLAIM_THRONE_INTERACTION:1 "Unlocks the [GetScheme('claim_throne').GetTypeName] [scheme|E]"
+ I_CAN_USE_THE_CLAIM_THRONE_INTERACTION:2 "You can use the [GetScheme('claim_throne').GetTypeName] [scheme|E] against your [liege|E]"
+ THEY_CAN_USE_THE_CLAIM_THRONE_INTERACTION:1 "[CHARACTER.GetShortUIName|U] can the [GetScheme('claim_throne').GetTypeName] [scheme|E] against [CHARACTER.GetHerHis] liege"
 
  DOMESTIC_AFFAIRS_EFFICIENCY_BONUS:0 "[domestic_affairs|E] Efficiency: #P +[EmptyScope.ScriptValue('chains_of_loyalty_percentage')|0]%#!"
 
@@ -1677,10 +1739,11 @@
  
  NO_CONTROL_LOSS_ON_OCCUPATION:0 "Enemy [occupations|E] do not lower [control|E]"
 
- all_family_members_at_court:0 "All [family_members|E] of [THIS.GetCharacter.GetUIName] at [THIS.GetCharacter.GetHerHis] court"
+ all_family_members_at_court:1 "All [THIS.GetCharacter.GetShortUINamePossessive] [family_members|E] that [THIS.GetCharacter.GetSheHe] employs"
 
  all_family_members_at_court_converison:1 "All your [family_members|E]"
- 
+
+ HOUSE_GUARD_UNLOCK_DESCRIPTION:0 "Can recruit [GetMaA('house_guard').GetName] as [men_at_arms|E]"
  HOUSE_GUARD_DESCRIPTION:1 "#weak Only one regiment of House Guard can be recruited (up to Size 5)#!"
  
  CHEAPER_HUNTS_AND_FEASTS:0 "[hunt|E] and [feast|E] Cost: [gold_i]#P -30%#!"
@@ -1696,11 +1759,11 @@
  LEGACY_MORE_PRESTIGE_FROM_BATTLES:0 "[prestige|E] and [prestige_experience|E] from [battles|E]: [prestige_i] #P +100%#!"
  LEGACY_GOLD_FROM_BATTLES:0 "Gain [gold|E][gold_i] from [battles|E] #weak (5 gold per 100 [dead_soldiers|E])#!"
  CHEAPER_AGENTS_LEGACY:0 "[agent|E] Bribe Cost: [gold_i]#P -50%#!"
- LEGACY_SEDUCE_BONUSES:0 "[send_gift|E] Cost: [gold_i]#P -50%#!\n[seduce_scheme|E] [success_chance|E]: #P +[EmptyScope.ScriptValue('fp1_adventure_legacy_2_success_chance_seduction')|0]%#!\nGain [prestige|E] [prestige_i] for successful [seduce_schemes|E]\n#weak (The riskier Seduction, the more Prestige gained)#!"
- LEGACY_BONUS_PER_FRIEND:0 "Can use the [befriend_scheme|E] on [vassals|E]\nEach of your [friend|E] relations give you #P 3#! [vassal|E] [opinion|E], #P 2#! [county_opinion|E], and #P +1%#! [gold_i] [vassal|E] [tax|E] [modifier_contribution|E]\n#weak (For up to 5 [friends])#!"
+ LEGACY_SEDUCE_BONUSES:1 "[send_gift|E] Cost: [gold_i]#P -50%#!\n[GetScheme('seduce').GetTypeName] [success_chance|E]: #P +[EmptyScope.ScriptValue('fp1_adventure_legacy_2_success_chance_seduction')|0]%#!\nGain [prestige|E] [prestige_i] for successful [GetScheme('seduce').GetTypeName] [schemes|E]\n#weak (The riskier Seduction, the more Prestige gained)#!"
+ LEGACY_BONUS_PER_FRIEND:1 "Can [GetScheme('befriend').GetTypeName] [vassals|E]\nEach of your [friend|E] relations give you #P 3#! [vassal|E] [opinion|E], #P 2#! [county_opinion|E], and #P +1%#! [gold_i] [vassal|E] [tax|E] [modifier_contribution|E]\n#weak (For up to 5 [friends])#!"
  LEGACY_MORE_LIKELY_TO_GET_TRADE_EVENTS_WHEN_RAIDING:0 "More likely to get trade events when [raiding|E]"
 
- ALL_DYNASTY_MEMBERS_HAVE_MURDER_SAVE:1 "Major chance to [prevented_murder_prevent|E] one [murder|E] against each [dynasty|E] Member\n[interaction|E] Acceptance from [intimidated_i][intimidated|E] or [terrified_i][cowed|E]: #P +100%#!"
+ ALL_DYNASTY_MEMBERS_HAVE_MURDER_SAVE:2 "Major chance to [prevented_murder_prevent|E] one [GetScheme('murder').GetTypeName] [scheme|E] against each [dynasty|E] Member\n[interaction|E] Acceptance from [intimidated_i][intimidated|E] or [terrified_i][cowed|E]: #P +100%#!"
  LEGACY_DYNASTY_MEMBERS_GAIN_BONUS_TROOPS_WHEN_VARANGIAN_ADVENTURING:0 "Receive bonus troops above the cap when [varangian_adventuring|E]\n[dynast_interaction|E]: #V Send to the Varangian Guard#!\n#weak The [dynast] gains the ability to pay [prestige] [prestige_i] in order to send away unlanded adult [dynasty] members to potentially gain [skills] and [traits]#!"
  
  SET_ABSOLUTE_COUNTY_CONTROL:0 "Enables [absolute_control|E] for [counties|E]"
@@ -1715,17 +1778,17 @@
  I_SET_SEXUALITY_EFFECT:1 "You realize you are $SEXUALITY$"
  I_REALIZED_SEXUALITY_EFFECT:0 "You realized you are $SEXUALITY$"
 
- I_REMOVE_DECISION_COOLDOWN_EFFECT:0 "$DECISION_NAME$ is no longer on cooldown for me #weak (Naturally Expires: [DATE.GetStringLong])#!"
- THEY_REMOVE_DECISION_COOLDOWN_EFFECT:0 "$DECISION_NAME$ is no longer on cooldown for [CHARACTER.GetShortUIName] #weak (Naturally Expires: [DATE.GetStringLong])#!"
+ I_REMOVE_DECISION_COOLDOWN_EFFECT:1 "$DECISION_NAME|V$ is no longer on cooldown for me #weak (Naturally Expires: [DATE.GetStringLong])#!"
+ THEY_REMOVE_DECISION_COOLDOWN_EFFECT:1 "$DECISION_NAME|V$ is no longer on cooldown for [CHARACTER.GetShortUIName] #weak (Naturally Expires: [DATE.GetStringLong])#!"
  
- I_REMOVE_INTERACTION_COOLDOWN_EFFECT:0 "$INTERACTION_NAME$ is no longer on cooldown for me #weak (Naturally Expires: [DATE.GetStringLong])#!"
- THEY_REMOVE_INTERACTION_COOLDOWN_EFFECT:0 "$INTERACTION_NAME$ is no longer on cooldown for [CHARACTER.GetShortUIName] #weak (Naturally Expires: [DATE.GetStringLong])#!"
+ I_REMOVE_INTERACTION_COOLDOWN_EFFECT:1 "$INTERACTION_NAME|V$ is no longer on cooldown for me #weak (Naturally Expires: [DATE.GetStringLong])#!"
+ THEY_REMOVE_INTERACTION_COOLDOWN_EFFECT:1 "$INTERACTION_NAME|V$ is no longer on cooldown for [CHARACTER.GetShortUIName] #weak (Naturally Expires: [DATE.GetStringLong])#!"
  
- I_REMOVE_INTERACTION_COOLDOWN_AGAINST_EFFECT:0 "$INTERACTION_NAME$ is no longer on cooldown against [TARGET_CHARACTER.GetShortUIName] for me #weak (Naturally Expires: [DATE.GetStringLong])#!"
- THEY_REMOVE_INTERACTION_COOLDOWN_AGAINST_EFFECT:0 "$INTERACTION_NAME$ is no longer on cooldown against [TARGET_CHARACTER.GetShortUIName] for [CHARACTER.GetShortUIName] #weak (Naturally Expires: [DATE.GetStringLong])#!"
+ I_REMOVE_INTERACTION_COOLDOWN_AGAINST_EFFECT:1 "$INTERACTION_NAME|V$ is no longer on cooldown against [TARGET_CHARACTER.GetShortUIName] for me #weak (Naturally Expires: [DATE.GetStringLong])#!"
+ THEY_REMOVE_INTERACTION_COOLDOWN_AGAINST_EFFECT:1 "$INTERACTION_NAME|V$ is no longer on cooldown against [TARGET_CHARACTER.GetShortUIName] for [CHARACTER.GetShortUIName] #weak (Naturally Expires: [DATE.GetStringLong])#!"
 
- I_REMOVE_SCHEME_COOLDOWN_AGAINST_EFFECT:0 "$SCHEME_NAME$ is no longer on cooldown against [TARGET_CHARACTER.GetShortUIName] for me #weak (Naturally Expires: [DATE.GetStringLong])#!"
- THEY_REMOVE_SCHEME_COOLDOWN_AGAINST_EFFECT:0 "$SCHEME_NAME$ is no longer on cooldown against [TARGET_CHARACTER.GetShortUIName] for [CHARACTER.GetShortUIName] #weak (Naturally Expires: [DATE.GetStringLong])#!"
+ I_REMOVE_SCHEME_COOLDOWN_AGAINST_EFFECT:1 "$SCHEME_NAME|V$ is no longer on cooldown against [TARGET_CHARACTER.GetShortUIName] for me #weak (Naturally Expires: [DATE.GetStringLong])#!"
+ THEY_REMOVE_SCHEME_COOLDOWN_AGAINST_EFFECT:1 "$SCHEME_NAME|V$ is no longer on cooldown against [TARGET_CHARACTER.GetShortUIName] for [CHARACTER.GetShortUIName] #weak (Naturally Expires: [DATE.GetStringLong])#!"
 
 
  CONCEDES_THEIR_RIGHT_TO_IMPRISON_CHARACTER:0 "Concedes [CHARACTER.GetHerHis] [imprisonment_reason|E] on [TARGET_CHARACTER.GetShortUIName]"
@@ -1925,8 +1988,149 @@
  ADD_LOOT_RAIDING_ARMY_EFFECT:1 "Adds $VALUE|0V$ loot to the current raiding army"
  ADD_LOOT_RAIDING_ARMY_PAST_EFFECT:1 "Added $VALUE|0V$ loot to the raiding army"
  
- send_to_varangian_guard_interaction_effect_desc:0 "#weak While serving in the Varangian Guard, [CHARACTER.GetFirstName] might increase [CHARACTER.GetHerHis] [skills|E] or gain [traits|E] — but [CHARACTER.GetSheHe] might also become wounded, or worse. [CHARACTER.GetSheHe|U] will return within a few years, but cannot be recalled.#!"
+ send_to_varangian_guard_interaction_effect_desc:1 "#weak While serving in the Varangian Guard, [CHARACTER.GetShortUIName] might increase [CHARACTER.GetHerHis] [skills|E] or gain [traits|E] — but [CHARACTER.GetSheHe] might also become wounded, or worse. [CHARACTER.GetSheHe|U] will return within a few years, but cannot be recalled.#!"
 
  custom.every_courtier_and_guest:0 "Every [courtier|E] and [guest|E]"
+ custom.every_guest_and_unimportant_courtier:0 "Every [guest|E] and unimportant [courtier|E]"
+ custom.every_courtier:0 "Every [courtier|E]"
+ custom.every_guest:0 "Every [guest|E]"
  custom.every_knight:0 "Every [knight|E]"
+ custom.every_child_in_the_court:0 "Every child in the [THIS.GetCharacter.GetShortUINamePossessiveNoTooltip] court"
+ custom.all_faction_members:0 "Every faction member"
  custom.every_held_county:0 "Every held [county|E]"
+ custom.every_witch:0 "Every witch in [THIS.GetCharacter.GetShortUINamePossessiveNoTooltip] realm"
+ custom.every_poet:0 "Every poet"
+ custom.every_child_in_court:0 "Every child in court"
+ custom.every_non_callous_or_sadistic_vassal:0 "Every non-callous or sadistic [vassal|E]"
+ custom.every_feudal_vassal:0 "Every [feudal|E] [vassal|E]"
+ custom.every_opposite_sex_consort:0 "Every opposite sex [spouse|E] or [concubine|E]"
+ custom.every_vassal_of_target_culture:0 "Every [different_culture_vassal.GetCulture.GetName] [vassal|E]"
+ custom.every_vassal:0 "Every [vassal|E]"
+ custom.every_female_courtier:0 "Every female [courtier|E]"
+ custom.every_male_courtier:0 "Every male [courtier|E]"
+
+ guest_and_family_move_to_specific_pool_effect.tt.family:0 "The [character|E] and any [family|E] traveling with them"
+
+ set_knight_status:0 "[THIS.GetCharacter.GetShortUINameNoTooltip] is forbidden from serving as a Knight"
+ SPONSOR_INSPIRATION:0 "Funds [INSPIRATION.GetOwner.GetShortUIName|U] with @gold_icon! [INSPIRATION.GetBaseGoldCost] to [INSPIRATION.GetOwner.Custom('InspirationTypeDescription')]"
+ SPONSORED_INSPIRATION:1 "Funded [INSPIRATION.GetOwner.GetShortUIName|U] with @gold_icon! [INSPIRATION.GetBaseGoldCost]"
+ STOP_SPONSORING_INSPIRATION:0 "Stop sponsoring [INSPIRATION.GetOwner.GetShortUINamePossessive|U] [INSPIRATION.GetName]"
+ STOPPED_SPONSORING_INSPIRATION:0 "Stopped sponsoring [INSPIRATION.GetOwner.GetShortUINamePossessive|U] [INSPIRATION.GetName]"
+ DESTROY_INSPIRATION:0 "Ends the[inspiration|E]"
+ ADD_PROGRESS_TO_INSPIRATION:0 "[INSPIRATION.GetName] gains $VALUE|0+$ Progress"
+ ADDED_PROGRESS_TO_INSPIRATION:0 "[INSPIRATION.GetName] gained $VALUE|0+$ Progress"
+ LOSE_PROGRESS_TO_INSPIRATION:0 "[INSPIRATION.GetName] loses $VALUE|0-$ Progress"
+ LOST_PROGRESS_TO_INSPIRATION:0 "[INSPIRATION.GetName] has lost $VALUE|0-$ Progress"
+ INVEST_GOLD:0 "Invest [gold_i]$VALUE|0-$ in [INSPIRATION.GetOwner.GetShortUINamePossessive|U] [INSPIRATION.GetName]"
+
+ BEGIN_CREATE_HOLDING_REFUND:0 "[SelectLocalization( StringIsEmpty( '$COST$' ), '', '. $COST$ will be refunded, if construction is manually cancelled' )]"
+ BEGIN_CREATE_HOLDING_EFFECT_GLOBAL:0 "Start construction of a $HOLDING_NAME$$BEGIN_CREATE_HOLDING_REFUND$"
+ BEGIN_CREATE_HOLDING_EFFECT:0 "Start construction of a $HOLDING_NAME$ in [PROVINCE.GetName]$BEGIN_CREATE_HOLDING_REFUND$"
+
+
+ DESTROY_ARTIFACT:0 "[ARTIFACT.GetName] is destroyed"
+ DESTROY_ARTIFACT_PAST:0 "[ARTIFACT.GetName] was destroyed"
+ CHANGE_ARTIFACT_DURABILITY:1 "The durability increases by $VALUE|0V$"
+ CHANGE_ARTIFACT_DURABILITY_THIRD:0 "The durability of [ARTIFACT.GetName] increases by $VALUE|0V$"
+ CHANGE_ARTIFACT_DURABILITY_PAST:1 "The durability has increased by $VALUE|0V$"
+ CHANGE_ARTIFACT_DURABILITY_PAST_THIRD:0 "The durability of [ARTIFACT.GetName] has increased by $VALUE|0V$"
+ LOSE_ARTIFACT_DURABILITY:0 "The durability decreases by $VALUE|0V$"
+ LOSE_ARTIFACT_DURABILITY_THIRD:0 "The durability of [ARTIFACT.GetName] decreases by $VALUE|0V$"
+ CHANGE_ARTIFACT_DURABILITY_PAST_THIRD_NEG:0 "The durability of [ARTIFACT.GetName] has decreased by $VALUE|0V$"
+ SET_ARTIFACT_MAX_DURABILITY:0 "The max durability is set to $VALUE|0V$"
+ SET_ARTIFACT_MAX_DURABILITY_THIRD:0 "The max durability of [ARTIFACT.GetName] is set to $VALUE|0V$"
+ SET_ARTIFACT_MAX_DURABILITY_PAST:0 "The max durability was set to $VALUE|0V$"
+ SET_ARTIFACT_MAX_DURABILITY_PAST_THIRD:0 "The max durability of [ARTIFACT.GetName] was set to $VALUE|0V$"
+
+ SET_ARTIFACT_OWNER_FIRST:0 "You will become the owner of [ARTIFACT.GetName]"
+ SET_ARTIFACT_OWNER_THIRD:0 "[CHARACTER.GetShortUIName|U] will become the owner of [ARTIFACT.GetName]"
+ SET_ARTIFACT_OWNER_GLOBAL:0 "Will become the owner of [ARTIFACT.GetName]"
+ HAS_SET_ARTIFACT_OWNER_FIRST:0 "You have become the owner of [ARTIFACT.GetName]"
+ HAS_SET_ARTIFACT_OWNER_THIRD:0 "[CHARACTER.GetShortUIName|U] has become the owner of [ARTIFACT.GetName]"
+ HAS_SET_ARTIFACT_OWNER_GLOBAL:0 "Has become the owner of [ARTIFACT.GetName]"
+
+ REMOVE_ARTIFACT_CLAIM_FIRST:0 "You will lose your personal claim on [ARTIFACT.GetName]"
+ REMOVE_ARTIFACT_CLAIM_THIRD:0 "[CHARACTER.GetShortUIName|U] will lose their personal claim on [ARTIFACT.GetName]"
+ REMOVE_ARTIFACT_CLAIM_GLOBAL:0 "Will lose their personal claim on [ARTIFACT.GetName]"
+ HAS_REMOVED_ARTIFACT_CLAIM_FIRST:0 "You have lost your personal claim on [ARTIFACT.GetName]"
+ HAS_REMOVED_ARTIFACT_CLAIM_THIRD:0 "[CHARACTER.GetShortUIName|U] has lost their personal claim on [ARTIFACT.GetName]"
+ HAS_REMOVED_ARTIFACT_CLAIM_GLOBAL:0 "Has lost their personal claim on [ARTIFACT.GetName]"
+
+ REMOVE_HOUSE_ARTIFACT_CLAIM:0 "[DYNASTY_HOUSE.GetName|V] will lose their [house|E] claim on [ARTIFACT.GetName]"
+ REMOVE_HOUSE_ARTIFACT_CLAIM_GLOBAL:0 "Will lose their [house|E] claim on [ARTIFACT.GetName]"
+ HAS_REMOVED_HOUSE_ARTIFACT_CLAIM:0 "[DYNASTY_HOUSE.GetName|V] has lost their [house|E] claim on [ARTIFACT.GetName]"
+ HAS_REMOVED_HOUSE_ARTIFACT_CLAIM_GLOBAL:0 "Has lost their [house|E] claim on [ARTIFACT.GetName]"
+
+ ADD_ARTIFACT_CLAIM_FIRST:0 "You will gain a personal claim on [ARTIFACT.GetName]"
+ ADD_ARTIFACT_CLAIM_THIRD:0 "[CHARACTER.GetShortUIName|U] will gain a personal claim on [ARTIFACT.GetName]"
+ ADD_ARTIFACT_CLAIM_GLOBAL:0 "Will gain a personal claim on [ARTIFACT.GetName]"
+ HAS_ADDED_ARTIFACT_CLAIM_FIRST:0 "You have gained a personal claim on [ARTIFACT.GetName]"
+ HAS_ADDED_ARTIFACT_CLAIM_THIRD:0 "[CHARACTER.GetShortUIName|U] has gained a personal claim on [ARTIFACT.GetName]"
+ HAS_ADDED_ARTIFACT_CLAIM_GLOBAL:0 "Has gained a personal claim on [ARTIFACT.GetName]"
+
+ ADD_HOUSE_ARTIFACT_CLAIM:0 "[DYNASTY_HOUSE.GetName|V] will gain a [house|E] claim on [ARTIFACT.GetName]"
+ ADD_HOUSE_ARTIFACT_CLAIM_GLOBAL:0 "Will gain a [house|E] claim on [ARTIFACT.GetName]"
+ HAS_ADDED_HOUSE_ARTIFACT_CLAIM:0 "[DYNASTY_HOUSE.GetName|V] has gained a [house|E] claim on [ARTIFACT.GetName]"
+ HAS_ADDED_HOUSE_ARTIFACT_CLAIM_GLOBAL:0 "Has gained a [house|E] claim on [ARTIFACT.GetName]"
+
+ ADD_ARTIFACT_MODIFIER_GLOBAL:0 "[ARTIFACT.GetName] gains $MODIFIER$"
+ REMOVE_ARTIFACT_MODIFIER_GLOBAL:0 "[ARTIFACT.GetName] loses $MODIFIER$"
+ COPY_ARTIFACT_MODIFIERS_GLOBAL:0 "Gains modifiers:\n$MODIFIER_DESC$"
+ COPY_ARTIFACT_MODIFIERS_THIRD:0 "[ARTIFACT.GetName] gains modifiers:\n$MODIFIER_DESC$"
+ 
+ I_GAINED_COURT_GRANDEUR_EFFECT:0 "You gained $VALUE|+0$ [court_grandeur|E]"
+ I_LOST_COURT_GRANDEUR_EFFECT:0 "You spent $VALUE|-0$ [court_grandeur|E]"
+ THEY_GAINED_COURT_GRANDEUR_EFFECT:0 "[CHARACTER.GetShortUIName|U] gained $VALUE|+0$ [court_grandeur|E]"
+ THEY_LOST_COURT_GRANDEUR_EFFECT:0 "[CHARACTER.GetShortUIName|U] spent $VALUE|-0$ [court_grandeur|E]"
+ GAINED_COURT_GRANDEUR_EFFECT:0 "Gained $VALUE|+0$ [court_grandeur|E]"
+ LOST_COURT_GRANDEUR_EFFECT:0 "Spent $VALUE|-0$ [court_grandeur|E]"
+ I_GAIN_COURT_GRANDEUR_EFFECT:0 "You gain $VALUE|+0$ [court_grandeur|E]"
+ I_LOSE_COURT_GRANDEUR_EFFECT:0 "You spend $VALUE|-0$ [court_grandeur|E]"
+ THEY_GAIN_COURT_GRANDEUR_EFFECT:0 "[CHARACTER.GetShortUIName|U] gains $VALUE|+0$ [court_grandeur|E]"
+ THEY_LOSE_COURT_GRANDEUR_EFFECT:0 "[CHARACTER.GetShortUIName|U] spends $VALUE|-0$ [court_grandeur|E]"
+ GAIN_COURT_GRANDEUR_EFFECT:0 "Gains $VALUE|+0$ [court_grandeur|E]"
+ LOSE_COURT_GRANDEUR_EFFECT:0 "Spends $VALUE|-0$ [court_grandeur|E]"
+ ADD_COURT_GRANDEUR_EFFECT:0 "Gain $VALUE|+0$ [court_grandeur|E]"
+
+ 
+ I_APPOINT_COURT_POSITION_EFFECT:0 "You will appoint [TARGET_CHARACTER.GetShortUIName|U] as your [COURT_POSITION_TYPE.GetName]"
+ I_APPOINT_COURT_POSITION_PAST_EFFECT:0 "You appointed [TARGET_CHARACTER.GetShortUIName|U] as your [COURT_POSITION_TYPE.GetName]"
+ THEY_APPOINT_COURT_POSITION_EFFECT:0 "[CHARACTER.GetShortUIName|U] will appoint [TARGET_CHARACTER.GetShortUIName|U] as [CHARACTER.GetHerHis] [COURT_POSITION_TYPE.GetName]"
+ THEY_APPOINT_COURT_POSITION_PAST_EFFECT:0 "[CHARACTER.GetShortUIName|U] appointed [TARGET_CHARACTER.GetShortUIName|U] as [CHARACTER.GetHerHis] [COURT_POSITION_TYPE.GetName]"
+ APPOINT_COURT_POSITION_EFFECT:0 "[TARGET_CHARACTER.GetShortUIName|U] gets appointed as [CHARACTER.GetShortUINamePossessive|U] [COURT_POSITION_TYPE.GetName]"
+ APPOINT_COURT_POSITION_PAST_EFFECT:0 "[TARGET_CHARACTER.GetShortUIName|U] was appointed as [CHARACTER.GetShortUINamePossessive|U] [COURT_POSITION_TYPE.GetName]"
+ APPOINT_COURT_POSITION:0 "#D TODO_CD#!"
+
+
+ I_REVOKE_COURT_POSITION_EFFECT:1 "You will dismiss [TARGET_CHARACTER.GetShortUIName|U] as your [COURT_POSITION_TYPE.GetName]\n• It will cost you: $REVOKE_COST$\n$REVOKE_EFFECT$"
+ I_REVOKE_COURT_POSITION_PAST_EFFECT:1 "You dismissed [TARGET_CHARACTER.GetShortUIName|U] as your [COURT_POSITION_TYPE.GetName]\n• It cost you: $REVOKE_COST$\n$REVOKE_EFFECT$"
+ THEY_REVOKE_COURT_POSITION_EFFECT:1 "[CHARACTER.GetShortUIName|U] will dismiss [TARGET_CHARACTER.GetShortUIName|U] as [CHARACTER.GetHerHis] [COURT_POSITION_TYPE.GetName]\n• It will cost [CHARACTER.GetHerHim]: $REVOKE_COST$\n$REVOKE_EFFECT$"
+ THEY_REVOKE_COURT_POSITION_PAST_EFFECT:1 "[CHARACTER.GetShortUIName|U] dismissed [TARGET_CHARACTER.GetShortUIName|U] as [CHARACTER.GetHerHis] [COURT_POSITION_TYPE.GetName]\n• It will cost [CHARACTER.GetHerHim]: $REVOKE_COST$\n$REVOKE_EFFECT$"
+ REVOKE_COURT_POSITION_EFFECT:0 "[TARGET_CHARACTER.GetShortUIName|U] gets dismissed from [TARGET_CHARACTER.GetHerHis] position as [CHARACTER.GetShortUINamePossessive|U] [COURT_POSITION_TYPE.GetName]"
+ REVOKE_COURT_POSITION_PAST_EFFECT:0 "[TARGET_CHARACTER.GetShortUIName|U] was dismissed from [TARGET_CHARACTER.GetHerHis] position as  [CHARACTER.GetShortUINamePossessive|U] [COURT_POSITION_TYPE.GetName]"
+ REVOKE_COURT_POSITION:0 "#D TODO_CD#!"
+
+
+ I_REPLACE_COURT_POSITION_EFFECT:1 "You will replace $HOLDER$ with $REPLACEMENT$ as your [COURT_POSITION_TYPE.GetName]\n• It will cost you: $REVOKE_COST$\n$REVOKE_EFFECT$"
+ I_REPLACE_COURT_POSITION_PAST_EFFECT:1 "You replaced $HOLDER$ with $REPLACEMENT$ as your [COURT_POSITION_TYPE.GetName]\n• It cost you: $REVOKE_COST$\n$REVOKE_EFFECT$"
+ THEY_REPLACE_COURT_POSITION_EFFECT:1 "[CHARACTER.GetShortUIName|U] will replace $HOLDER$ with $REPLACEMENT$ as [CHARACTER.GetHerHis] [COURT_POSITION_TYPE.GetName]\n• It will cost [CHARACTER.GetHerHim]: $REVOKE_COST$\n$REVOKE_EFFECT$"
+ THEY_REPLACE_COURT_POSITION_PAST_EFFECT:1 "[CHARACTER.GetShortUIName|U] replaced $HOLDER$ with $REPLACEMENT$ as [CHARACTER.GetHerHis] [COURT_POSITION_TYPE.GetName]\n• It cost [CHARACTER.GetHerHim]: $REVOKE_COST$\n$REVOKE_EFFECT$"
+ REPLACE_COURT_POSITION_EFFECT:0 "$HOLDER$ gets replaced with $REPLACEMENT$ as [CHARACTER.GetShortUINamePossessive|U] [COURT_POSITION_TYPE.GetName]"
+ REPLACE_COURT_POSITION_PAST_EFFECT:0 "$HOLDER$ was replaced with $REPLACEMENT$ as [CHARACTER.GetShortUINamePossessive|U] [COURT_POSITION_TYPE.GetName]"
+ REPLACE_COURT_POSITION:0 "#D TODO_CD#!"
+
+ EVERY_COURT_POSITION_EMPLOYER:0 "#D TODO_CD#!"
+ RANDOM_COURT_POSITION_EMPLOYER:0 "#D TODO_CD#!"
+ EVERY_COURT_POSITION_HOLDER:0 "#D TODO_CD#!"
+ RANDOM_COURT_POSITION_HOLDER:0 "#D TODO_CD#!"
+
+ CREATE_ARTIFACT_EFFECT:0 "$ARTIFACT_NAME$ [artifact|E] is created"
+ CREATE_ARTIFACT_EFFECT_PAST:0 "$ARTIFACT_NAME$ [artifact|E] was created"
+ CREATE_ARTIFACT_EFFECT_FIRST:0 "[CHARACTER.GetShortUIName|U] gain $ARTIFACT_NAME$ [artifact|E]"
+ CREATE_ARTIFACT_EFFECT_FIRST_PAST:0 "[CHARACTER.GetShortUIName|U] gained $ARTIFACT_NAME$ [artifact|E]"
+ CREATE_ARTIFACT_EFFECT_THIRD:0 "[CHARACTER.GetShortUIName|U] gains $ARTIFACT_NAME$ [artifact|E]"
+ CREATE_ARTIFACT_EFFECT_THIRD_PAST:0 "[CHARACTER.GetShortUIName|U] gained $ARTIFACT_NAME$ [artifact|E]"
+ SET_ARTIFACT_RARITY_EFFECT:0 "Becomes $RARITY$"
+ SET_ARTIFACT_RARITY_EFFECT_PAST:0 "Became $RARITY$"
+ SET_ARTIFACT_RARITY_EFFECT_THIRD:0 "[ARTIFACT.GetName] becomes $RARITY$"
+ SET_ARTIFACT_RARITY_EFFECT_PAST_THIRD:0 "[ARTIFACT.GetName] became $RARITY$"

@@ -23,9 +23,9 @@
 
   
  combat_event.1002.pow_message.t:0 "Enemy Combatants Captured"
- combat_event.1002.pow_message.desc.single:1 "Your forces captured [primary_prisoner.Custom2('MyCharacterIntroduction', ROOT.Char)|U]"
- combat_event.1002.pow_message.desc.double:1 "Your forces captured [primary_prisoner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] and [secondary_prisoner.Custom2('MyCharacterIntroduction', ROOT.Char)]"
- combat_event.1002.pow_message.desc.multiple:1 "Your forces captured [primary_prisoner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] and [ROOT.Var('num_other_relevant_captured_combatants').GetValue|V0] others"
+ combat_event.1002.pow_message.desc.single:2 "Your forces captured [primary_prisoner.Custom2('YourCharacterIntroduction', ROOT.Char)|U]"
+ combat_event.1002.pow_message.desc.double:2 "Your forces captured [primary_prisoner.Custom2('YourCharacterIntroduction', ROOT.Char)|U] and [secondary_prisoner.Custom2('YourCharacterIntroduction', ROOT.Char)]"
+ combat_event.1002.pow_message.desc.multiple:2 "Your forces captured [primary_prisoner.Custom2('YourCharacterIntroduction', ROOT.Char)|U] and [ROOT.Var('num_other_relevant_captured_combatants').GetValue|V0] others"
  combat_event.1002.pow_message.desc.end:0 "after winning the Battle of [combat_location.GetName]!"
 
  combat_event.1003.pow_message.t:0 "Allied Combatants Captured"
@@ -35,13 +35,13 @@
  combat_event.1003.pow_message.desc.end:1 "by your foe [combat_winner.GetTitledFirstName] after [combat_winner.GetSheHe] won the Battle of [combat_location.GetName]!"
 
  combat_event.1004.pow_message.t:0 "[ROOT.Char.Custom2('RelationToMeShort', primary_prisoner)|U] Taken Prisoner"
- combat_event.1004.pow_message.desc.end:0 "by [combat_winner.Custom2('MyCharacterIntroduction', ROOT.Char)] after [combat_winner.GetSheHe] won the Battle of [combat_location.GetName]!"
+ combat_event.1004.pow_message.desc.end:1 "by [combat_winner.Custom2('YourCharacterIntroduction', ROOT.Char)] after [combat_winner.GetSheHe] won the Battle of [combat_location.GetName]!"
 
  combat_event.1005.pow_toast.t:0 "Valuable Hostage Captured"
  combat_event.1005.pow_toast.desc:1 "Your forces took [important_hostage.Custom2('NamePossessiveCharacterIntroduction', primary_combat_loser)] hostage after capturing [important_hostage.GetHerHim] during the Battle of [combat_location.GetName]."
  combat_event.1005.pow_toast.desc.primary:1 "Your forces took your foe [important_hostage.GetTitledFirstName] hostage after capturing [important_hostage.GetHerHim] during the Battle of [combat_location.GetName]."
  combat_event.1006.pow_toast.t:0 "Heir Taken Hostage"
- combat_event.1006.pow_toast.desc:0 "[combat_winner.GetTitledFirstName] captured [important_hostage.Custom2('MyCharacterIntroduction', ROOT.Char)] and took [important_hostage.GetHerHim] hostage after the Battle of [combat_location.GetName]."
+ combat_event.1006.pow_toast.desc:1 "[combat_winner.GetTitledFirstName] captured [important_hostage.Custom2('YourCharacterIntroduction', ROOT.Char)] and took [important_hostage.GetHerHim] hostage after the Battle of [combat_location.GetName]."
  combat_event.1007.pow_toast.t:0 "$combat_event.1005.pow_toast.t$"
  combat_event.1007.pow_toast_primary.t:0 "Enemy War Leader Captured"
  combat_event.1007.pow_toast.desc:0 "[combat_winner.GetTitledFirstName] captured [important_hostage.Custom2('NamePossessiveCharacterIntroduction', primary_combat_loser)] after the Battle of [combat_location.GetName] and took [important_hostage.GetHerHim] hostage."
@@ -49,15 +49,15 @@
 
   
  combat_event.1012.slain_message.t:0 "Enemy Combatants Slain"
- combat_event.1012.slain_message.desc.single:2 "Your forces slew [primary_deceased.Custom2('MyCharacterIntroduction', ROOT.Char)|U]"
- combat_event.1012.slain_message.desc.double:2 "Your forces slew [primary_deceased.Custom2('MyCharacterIntroduction', ROOT.Char)|U] and [secondary_deceased.Custom2('MyCharacterIntroduction', ROOT.Char)]"
- combat_event.1012.slain_message.desc.multiple:2 "Your forces slew [primary_deceased.Custom2('MyCharacterIntroduction', ROOT.Char)|U] and [ROOT.Var('num_other_relevant_slain_combatants').GetValue|V0] others"
+ combat_event.1012.slain_message.desc.single:3 "Your forces slew [primary_deceased.Custom2('YourCharacterIntroduction', ROOT.Char)|U]"
+ combat_event.1012.slain_message.desc.double:3 "Your forces slew [primary_deceased.Custom2('YourCharacterIntroduction', ROOT.Char)|U] and [secondary_deceased.Custom2('YourCharacterIntroduction', ROOT.Char)]"
+ combat_event.1012.slain_message.desc.multiple:3 "Your forces slew [primary_deceased.Custom2('YourCharacterIntroduction', ROOT.Char)|U] and [ROOT.Var('num_other_relevant_slain_combatants').GetValue|V0] others"
  combat_event.1012.slain_message.desc.end:1 "during the Battle of [combat_location.GetName]!"
 
  combat_event.1013.slain_message.t:0 "Allied Combatants Slain"
- combat_event.1013.slain_message.desc.single:0 "[primary_deceased.Custom2('MyCharacterIntroduction', ROOT.Char)|U] was"
- combat_event.1013.slain_message.desc.double:0 "[primary_deceased.Custom2('MyCharacterIntroduction', ROOT.Char)|U] and [secondary_deceased.Custom2('MyCharacterIntroduction', ROOT.Char)] were"
- combat_event.1013.slain_message.desc.multiple:0 "[primary_deceased.Custom2('MyCharacterIntroduction', ROOT.Char)|U] and [ROOT.Var('num_other_relevant_slain_combatants').GetValue|V0] others were"
+ combat_event.1013.slain_message.desc.single:1 "[primary_deceased.Custom2('YourCharacterIntroduction', ROOT.Char)|U] was"
+ combat_event.1013.slain_message.desc.double:1 "[primary_deceased.Custom2('YourCharacterIntroduction', ROOT.Char)|U] and [secondary_deceased.Custom2('YourCharacterIntroduction', ROOT.Char)] were"
+ combat_event.1013.slain_message.desc.multiple:1 "[primary_deceased.Custom2('YourCharacterIntroduction', ROOT.Char)|U] and [ROOT.Var('num_other_relevant_slain_combatants').GetValue|V0] others were"
  combat_event.1013.slain_message.desc.end:1 "slain during the Battle of [combat_location.GetName]!"
 
  combat_event.1014.slain_message.t:1 "[ROOT.Char.Custom2('RelationToMeShort', primary_deceased)|U] Slain In Battle"

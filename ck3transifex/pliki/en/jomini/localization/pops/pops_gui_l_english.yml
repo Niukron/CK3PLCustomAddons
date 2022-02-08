@@ -6,6 +6,7 @@
  USERNAME: "Username"
  UPDATE_USERNAME: "Update"
  POPS_ERROR_MESSAGE_BOX_TITLE: "Error"
+ POPS_OK: "OK"
  EMAIL: "E-mail"
  PASSWORD: "Password"
  PASSWORD_REPEAT: "Repeat password"

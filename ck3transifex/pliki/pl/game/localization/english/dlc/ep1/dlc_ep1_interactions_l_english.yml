@@ -1,0 +1,11 @@
+﻿l_english:
+ fund_inspiration_interaction: ""
+ fund_inspiration_interaction_desc: ""
+ fund_inspiration_interaction_reqruit_family_tooltip: ""
+ indebt_guest_interaction: ""
+ indebt_guest_interaction_desc: ""
+ indebt_guest_interaction.tt.direct_indebted_guest: ""
+ indebt_guest_interaction.tt.failure: ""
+ INDEBT_GUEST_INTRIGUE_ACTOR: ""
+ INDEBT_GUEST_INTRIGUE_RECIPIENT: ""
+ INDEBT_GUEST_CURRENT_CGV_ABOVE_EXPECTED: ""

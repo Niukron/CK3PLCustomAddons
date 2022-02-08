@@ -58,6 +58,7 @@
  diplomacy_majesty.4070.a: "Time to hit the books!"
  diplomacy_majesty.4070.b: "Hire a tutor to instruct me."
  diplomacy_majesty.4070.c: "Why bother? [ROOT.Char.GetCulture.GetNameNoTooltip] is clearly superior."
+ diplomacy_majesty.4070.d: "My Court Tutor can certainly help me!"
  diplomacy_majesty.4070.success: "I learn to speak the [my_vassal.GetCulture.GetName] language"
  diplomacy_majesty.4070.failure: "I fail to learn a new language"
  diplomacy_majesty.4070.failure.tt: "You may choose to continue studying"

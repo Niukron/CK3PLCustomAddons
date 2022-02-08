@@ -10,3 +10,7 @@
  establish_bactrian_supremacy_decision_desc: "#F For generations, Bactrian kings dominated the crossroad of civilizations. It is time to take up their mantle, and let word spread from caravanserai to oasis that here, under the four corners of the sky, it is we who rule.#!"
  establish_bactrian_supremacy_decision_tooltip: "Show dominance over the travel routes connecting east and west, north and south"
  establish_bactrian_supremacy_decision_confirm: "Claim the lands of old!"
+ establish_yamagate_in_samarkand_decision: "Establish the $manichean_religious_head_title_name$ in Samarkand"
+ establish_yamagate_in_samarkand_decision_desc: "#F Just as Mar Sisin once led the faith in the Holy See of Babylon, so does our current $manichean_religious_head_title$ lead us here in Turan and Persia. By formalising the church’s divine mandate in Samarkand, the Manichean faith will be reborn and spread to a new people!#!"
+ establish_yamagate_in_samarkand_decision_tooltip: "Claim a new holy land in the east"
+ establish_yamagate_in_samarkand_decision_confirm: "$manichean$ is born anew!"

@@ -84,7 +84,7 @@
  intrigue_dread.1901.a: "I have this poison I've been wanting to try out..."
  intrigue_dread.1901.b: "It would be a shame if [disliked_courtier.GetSheHe] made a fool of [disliked_courtier.GetHerselfHimself] at court."
  intrigue_dread.1901.b.tt: "This option is available because of [disliked_courtier.GetFirstNamePossessiveNoTooltip] [GetTrait('gregarious').GetName( GetPlayer )] trait"
- intrigue_dread.1901.c: "I lighter purse for [disliked_courtier.GetHerHim] leads to a lighter mood for me!"
+ intrigue_dread.1901.c: "A lighter purse for [disliked_courtier.GetHerHim] leads to a lighter mood for me!"
  intrigue_dread.1901.c.tt: "This option is available because of [disliked_courtier.GetFirstNamePossessiveNoTooltip] [GetTrait('greedy').GetName( GetPlayer )] trait"
  intrigue_dread.1901.d: "\"Have you heard? [disliked_courtier.GetSheHe|U]'s as plain as flour in bed.\""
  intrigue_dread.1901.d.tt: "This option is available because of [disliked_courtier.GetFirstNamePossessiveNoTooltip] [GetTrait('lustful').GetName( GetPlayer )] trait"

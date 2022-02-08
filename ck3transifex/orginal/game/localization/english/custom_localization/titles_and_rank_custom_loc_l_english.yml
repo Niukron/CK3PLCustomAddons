@@ -1,7 +1,7 @@
 ﻿l_english:
  emperor_lower_case:0 "emperor"
  emperor_plural_lower_case:0 "emperors"
- emperess_lower_case:0 "empress"
+ empress_lower_case:0 "empress"
  emperess_plural_lower_case:0 "empresses"
  king_lower_case:0 "king"
  king_plural_lower_case:0 "kings"
@@ -33,3 +33,6 @@
  lord_plural_lower_case:0 "lords"
  sir_lower_case:0 "sir"
  sir_plural_lower_case:0 "sirs"
+ faith_devotee_female:0 "[ROOT.Char.GetFaith.DevoteeFemale]"
+ faith_devotee_male:0 "[ROOT.Char.GetFaith.DevoteeMale]"
+ faith_devotee_fallback:0 "[ROOT.Char.GetFaith.DevoteeNeuter]"

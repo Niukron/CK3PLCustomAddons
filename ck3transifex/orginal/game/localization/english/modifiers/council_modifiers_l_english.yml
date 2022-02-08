@@ -11,7 +11,6 @@
  task_foreign_affairs_prestige_dynasty_perk_bonus_modifier:0 "$erudition_legacy_5_name$"
  task_foreign_affairs_opinion_modifier:1 "[foreign_affairs|E]"
  task_domestic_affairs_opinion_moidifier:1 "[domestic_affairs|E]"
- 
 
  court_chaplain_religious_relations_modifier:1 "[religious_relations|E]"
  court_chaplain_religious_relations_perk_bonus_modifier:0 "$clerical_justifications_perk_name$"
@@ -22,7 +21,7 @@
 
  task_collect_taxes_modifier:0 "Collecting Taxes"
  task_collect_taxes_perk_bonus_modifier:0 "Tax Person" 
- task_organize_levies_modifier:0 "Organizing Levies"
+ task_organize_levies_modifier:1 "Organizing Army"
  marshal_task_levy_desertions_modifier:0 "Levy Desertions"
  marshal_task_levy_desertions_modifier_desc:1 "High demands and a heavy hand has led to large number of levy troops deserting from this character's armies."
 
@@ -41,6 +40,8 @@
  marshal_task_increase_control_increased_opinion_modifier:0 "Marshal Guidance"
  marshal_task_increase_control_increased_opinion_modifier_desc:0 "This County benefits greatly from the attentions of the realm's Marshal."
 
+ task_manage_guards_disorganized_modifier_desc:0 "Disorganization among the ranks of the Royal Guards makes it more difficult to catch hostile plotters in time."
+
  steward_construction_slowdown_modifier:0 "Construction Slowdown"
  steward_construction_slowdown_modifier_desc:0 "Poor management of resources makes large-scale construction difficult."
  steward_task_efficient_taxation_modifier:0 "Efficient Taxation"
@@ -55,6 +56,13 @@
  steward_population_mismanaged_modifier_desc:0 "The inhabitants of this County are greatly displeased with how the Steward of the realm has been treating them."
  steward_administration_embraced_modifier:0 "Administration Embraced"
  steward_administration_embraced_modifier_desc:0 "The inhabitants of this County are pleased with the special attention the Steward of the realm has been providing them."
+ steward_accept_culture_reduced_taxes_modifier:0 "Cultural Tax Exclusion"
+ steward_accept_culture_reduced_development_spread_modifier:0 "Archaic Traditions"
+ steward_accept_culture_increased_opinion_modifier:0 "Overtures Appreciated"
+ steward_accept_culture_increased_development_spread_modifier:0 "Cultural Curiosity"
+
+ steward_de_jure_denied_modifier:0 "De Jure Denied"
+ steward_de_jure_denied_modifier_desc:0 "The inhabitants of this County are displeased with their ruler, who has refused to let them join their De Jure ruler."
 
  court_chaplain_resisted_conversion_modifier:0 "Resisting Conversion"
  court_chaplain_resisted_conversion_modifier_desc:0 "The people of this County are actively working against any conversion efforts."
@@ -145,7 +153,7 @@
  governance_tutor:0 "Governance Tutor"
  governance_tutor_desc:1 "While helping someone else study governance, this character learned a thing or two about the topic themselves."
  scholarship_tutor:0 "Scholarship Tutor"
- scholarship_tutor_desc:1 "While helping someone else study scholarship, this character! learned a thing or two about the topic themselves."
+ scholarship_tutor_desc:2 "While helping someone else study scholarship, this character learned a thing or two about the topic themselves."
  studying_diplomacy:0 "Studying Diplomacy"
  studying_martial:0 "Studying Martial"
  studying_stewardship:0 "Studying Stewardship"
@@ -155,3 +163,7 @@
 
  chancellor_task_county_resisting_integration_modifier:0 "Resisting Integration"
  chancellor_task_county_endorsing_integration_modifier:0 "Endorsing Integration"
+
+ chancellor_task_bestow_royal_favor_vassal_modifier:0 "Bestowed Royal Favor"
+ chancellor_task_bestow_royal_favor_vassal_boosted_modifier:0 "$chancellor_task_bestow_royal_favor_vassal_modifier$"
+ task_bestow_royal_favor_prestige_modifier:0 "Bestowing Royal favor"

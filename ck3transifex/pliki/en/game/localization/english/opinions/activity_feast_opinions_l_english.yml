@@ -1,5 +1,6 @@
 ﻿l_english:
  feast_hosted_successful_feast: "Hosted Feast"
+ feast_hosted_successful_feast_with_music: "Hosted Great Feast"
  feast_host_failed_to_appear: "Canceled Feast"
  feast_got_stew_all_over_me: "Culinary Accident"
  feast_disgracefully_ate_from_floor: "Ate From the Floor"
@@ -27,6 +28,7 @@
  was_unimpressed_at_feast_opinion: "Unimpressed"
  feast_rejected_dalliance: "Rejected Advances"
  feast_amazing_food_glutton_opinion: "Incredible Food"
+ feast_meager_food_glutton_opinion: "Lacking Food"
  feast_spouse_doing_impressive_job_opinion: "Impressive Work"
  feast_threw_up_on_me_opinion: "Threw Up on me"
  feast_spouse_gave_me_credit_opinion: "Gave Credit"
@@ -44,3 +46,8 @@
  feast_saved_my_life_opinion: "Saved My Life"
  feast_threw_me_out_opinion: "Thrown out at Feast"
  feast_rejected_dalliance_opinion: "Rejected Dalliance"
+ feast_recieved_amazing_gift: "Received Amazing Gift During Feast"
+ feast_recieved_underwhelming_gift: "Received Underwhelming Gift During Feast"
+ feast_recieved_amazing_toast: "Toast Dedicated to Me During Feast"
+ feast_recieved_underwhelming_toast: "Underwhelming Toast Dedicated to Me During Feast"
+ feast_purposefully_ruined_gift: "Purposefully Ruined Gift During Feast"

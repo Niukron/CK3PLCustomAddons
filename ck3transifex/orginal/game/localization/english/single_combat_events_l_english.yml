@@ -7,10 +7,10 @@
  single_combat.0041.t:0 "$single_combat.0000.t$ Victory!"
 
  
- single_combat.0001.desc.sc_defender.intro:0 "[sc_attacker.GetTitledFirstName] and I stalk round each other, each weighing our options. [sc_attacker.GetSheHe|U] [sc_attacker.Custom('SignatureWeaponActionThirdPerson')] a fearsome [sc_attacker.Custom('signature_weapon')], while I grip my own [sc_defender.Custom('signature_weapon')] tightly. The deadly weapon feels cool and weighty in my grasp.\n\n"
+ single_combat.0001.desc.sc_defender.intro:1 "[sc_attacker.GetTitledFirstName] and I stalk round each other, each weighing our options. [sc_attacker.GetSheHe|U] [sc_attacker.Custom('SignatureWeaponActionThirdPerson')] a fearsome [sc_attacker.Custom('SignatureWeaponNameOrType')], while I grip my own [sc_defender.Custom('SignatureWeaponNameOrType')] tightly. The deadly weapon feels cool and weighty in my grasp.\n\n"
  single_combat.0001.desc.capstone.intro.first_blood:0 "This fight may only be till first blood, but that doesn't ease my nerves."
  single_combat.0001.desc.capstone.intro.deadly:0 "Only one of us is walking away from here today, and I intend it to be me."
- single_combat.0001.desc.sc_attacker.intro:0 "For a few brief moments, [sc_defender.GetTitledFirstName] and I pace in lazy half-circles, each watching for an opening. I [sc_attacker.Custom('SignatureWeaponAction')] my [sc_attacker.Custom('signature_weapon')], ready to defend myself, while [sc_defender.GetSheHe] clutches [sc_defender.GetHerHis] [sc_defender.Custom('signature_weapon')] firmly to hand."
+ single_combat.0001.desc.sc_attacker.intro:1 "For a few brief moments, [sc_defender.GetTitledFirstName] and I pace in lazy half-circles, each watching for an opening. I [sc_attacker.Custom('SignatureWeaponAction')] my [sc_attacker.Custom('SignatureWeaponNameOrType')], ready to defend myself, while [sc_defender.GetSheHe] clutches [sc_defender.GetHerHis] [sc_defender.Custom('SignatureWeaponNameOrType')] firmly to hand."
  single_combat.0001.desc.sc_attacker.intro.epilogue:1 "\n\nWith a sudden twitch, our bout begins.\n\n"
  
  single_combat.0001.duel_success.none:0 "#difficulty_hard NO#! increase to your [single_combat_success_chance|E]"

@@ -49,7 +49,7 @@
  adultery.0009.a: "I'm such a fool..."
  adultery.1001.t: "A Question of Loyalty"
  adultery.1001.opening: "My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('mother'))], [mother.GetTitledFirstName], is with child, and I should be overjoyed. However, [mother.GetSheHe] has been acting strange, and I cannot shake the feeling that something is wrong.\n\n"
- adultery.1001.default: "Am I really the father as [mother.GetSheHe] claims, or has [mother.GetSheHe] betrayed our marriage?"
+ adultery.1001.default: "Am I really the father as [mother.GetSheHe] claims, or has [mother.GetSheHe] betrayed our union?"
  adultery.1001.hard_to_believe: "It is hard to believe [mother.GetSheHe] would ever betray me like this, but could it be that I am not the father?"
  adultery.1001.easy_to_believe: "It seems all too likely that [mother.GetSheHe] would betray me, and that I am not the father of [mother.GetHerHis] child."
  adultery.1001.desc_sadistic: "I would not put it past [mother.GetHerHim] to bear someone else's child simply to torture me."

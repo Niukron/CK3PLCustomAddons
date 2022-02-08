@@ -40,7 +40,7 @@
  court_outcome.1005.d.murder_undiscovered: "My arrow strikes [target.GetFirstNameNoTooltip]"
  court_outcome.1005.d.murder_discovered: "My arrow strikes [target.GetFirstNameNoTooltip] but I am discovered"
  court_outcome.1003.t: "The Wild Hunt"
- court_outcome.1004.desc: "I am out riding when my horse suddenly throws itself of the path. The fall is unavoidable and knocks the air out of my lungs. When I look up, I find myself face to face with a [owner.Custom('LocalAnimal')]!\n\nBefore I get a chance to scream, the beast collapses, an arrow between its eyes.\n\n\"[target.GetFirstNameNoTooltip], my [target.Custom('LoverPetName')]! I thought I had lost you!\" My hero is none other than [owner.GetTitledFirstName]!"
+ court_outcome.1004.desc: "I am out riding when my horse suddenly throws itself off the path. The fall is unavoidable and knocks the air out of my lungs. When I look up, I find myself face to face with a [owner.Custom('LocalAnimal')]!\n\nBefore I get a chance to scream, the beast collapses, an arrow between its eyes.\n\n\"[target.GetFirstNameNoTooltip], my [target.Custom('LoverPetName')]! I thought I had lost you!\" My hero is none other than [owner.GetTitledFirstName]!"
  court_outcome.1003.b: "We share one kiss, sweet like honey."
  court_outcome.1100.t: "$court_event_title$ Intruder"
  court_outcome.1100.start.desc: "Every time I close my eyes, I see [target.GetTitledFirstNamePossessive] face. Sleep will not come. I cannot wait another moment — cloaked in shadows, I make my way to"

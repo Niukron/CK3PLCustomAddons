@@ -10,6 +10,8 @@
  OUTLINER_SCHEMES: "Schemes"
  OUTLINER_ARMIES: "Armies"
  OUTLINER_HOLDINGS: "Domain Holdings"
+ OUTLINER_SPONSORED_INSPIRATIONS: "Sponsored Inspirations"
+ OUTLINER_NO_SPONSORED_INSPIRATIONS: "No sponsored Inspirations"
  OUTLINER_HOLDER_CLICK_INFO: "\n#I Click to view and go to location#!"
  OUTLINER_EXPAND: "#T Expand#!"
  OUTLINER_COLLAPSE: "#T Collapse#!"

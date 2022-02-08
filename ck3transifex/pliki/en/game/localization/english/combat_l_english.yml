@@ -89,7 +89,7 @@
  COMBAT_PREDICTION_LEVEL_3: "You will probably win"
  COMBAT_PREDICTION_LEVEL_4: "You will win decisively"
  COMBAT_PREDICTION_EDGE_BETTER_COMMANDER: "Better [army_commander|E]"
- COMBAT_PREDICTION_EDGE_COMMANDER_TRAITS: "More [army_commander|E] [traits|E]"
+ COMBAT_PREDICTION_EDGE_COMMANDER_TRAITS: "More [commander_traits|E]"
  COMBAT_PREDICTION_COMBAT_HEADER: "Potential Battle (in $DURATION$)"
  COMBAT_PREDICTION_EDGE_SOLDIERS_COUNT: "More [soldiers|E]"
  COMBAT_PREDICTION_EDGE_QUALITY_COUNT: "Higher [troop_quality|E]"
@@ -99,4 +99,3 @@
  MAAS_COUNTERED_IN_COMBAT: "[men_at_arms|E] fighting at reduced effectiveness due to [men_at_arms_counter|E]:"
  COMBAT_ON_MAP_TOOLTIP: "#T [Combat.GetName]#!\n[soldiers|E]: [Combat.GetLeftSide.GetCurrentFightingMen|0] vs [Combat.GetRightSide.GetCurrentFightingMen|0]\n#I Click to view#!"
  COMMANDER_ADVANTAGE_DESC: "#T Commander [advantage|E]: $ADVANTAGE$#!\nMartial skill: $SKILL|+=$\n$MODIFIERS$"
- COMMANDER_ADVANTAGE_ADJUSTED_DESC: "#T Commander [advantage|E]: $ADVANTAGE$#!\nMartial skill: $SKILL|+=$\n$MODIFIERS$$ADJUSTMENT$"

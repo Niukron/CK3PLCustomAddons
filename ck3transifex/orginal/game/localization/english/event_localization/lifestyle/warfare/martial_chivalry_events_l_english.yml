@@ -179,11 +179,13 @@
 
  
  martial_chivalry_special.1601.t:0 "Training a Warhorse"
- martial_chivalry_special.1601.desc:0 "As I inspect the stables my gaze is drawn to a [dummy_gender.Custom('HorseMareStallion')] kept away from all others. [dummy_gender.GetSheHe|U] throws [dummy_gender.GetHerHis] head and stomps [dummy_gender.GetHerHis] hooves, displaying [dummy_gender.GetHerHis] powerful hindquarters and well-arched neck. This creature has the best of conformations and the worst of tempers.\n\nI have never seen such a warhorse before, but the stable-master insists that [dummy_gender.GetSheHe] is impossible to train."
+ martial_chivalry_special.1601.desc:1 "As I inspect the stables my gaze is drawn to a [dummy_gender.Custom('HorseMareStallion')] kept away from all others. [dummy_gender.GetSheHe|U] throws [dummy_gender.GetHerHis] head and stomps [dummy_gender.GetHerHis] hooves, displaying [dummy_gender.GetHerHis] powerful hindquarters and well-arched neck. This creature has the best of conformations and the worst of tempers.\n\nI have never seen such a warhorse before, but the stablemaster insists that [dummy_gender.GetSheHe] is impossible to train."
  martial_chivalry_special.1601.a:0 "I am not one to back away from a challenge!"
  martial_chivalry_special.1601.b:0 "Such a fine steed will fetch a hefty price."
- martial_chivalry_special.1601.c:0 "My stable-master will learn a lot from taming [dummy_gender.GetHerHim]."
+ martial_chivalry_special.1601.c:1 "My stablemaster will learn a lot from taming [dummy_gender.GetHerHim]."
  martial_chivalry_special.1601.a.tt:1 "The horse might become your own steed"
+ martial_chivalry_special.1601.d:0 "Isn't [m_horse.GetTitledFirstName] the expert on horses?"
+ martial_chivalry_special.1601.d.tt:0 "Your $master_of_horse_court_position$ will try to tame the animal. If they are successful, the horse will become your own steed."
 
  martial_chivalry_special.1603.desc:1 "The horse pins [dummy_gender.GetHerHis] ears back as I approach, [dummy_gender.GetHerHis] disregard for me crystal clear. This first meeting is important to earn [dummy_gender.GetHerHis] trust and respect, and I need to decide how to go about it."
  martial_chivalry_special.1603.a:0 "A steady hand is required to tame this beast!"
@@ -198,4 +200,9 @@
  martial_chivalry_special.1604.a:1 "I will keep [dummy_gender.GetHerHim] as my personal warhorse!"
  martial_chivalry_special.1604.a_2:0 "This was rewarding! I'll do it again."
  martial_chivalry_special.1604.b:0 "At least I learned what #EMP not#! to do..."
+ martial_chivalry_special.1604.c:0 "My Liege will be happy."
+ martial_chivalry_special.1604.t:0 "Horse Tamed"
+ martial_chivalry_special.1604.succcess:0 "Your $master_of_horse_court_position$ has tamed your temperamental horse!"
+ martial_chivalry_special.1604.t.2:0 "Horse Untamed"
+ martial_chivalry_special.1604.failure:0 "Your $master_of_horse_court_position$ has failed at taming the horse."
  

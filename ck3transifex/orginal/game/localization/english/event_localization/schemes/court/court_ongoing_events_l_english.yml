@@ -116,6 +116,10 @@
  court_ongoing.1022.b.success:0 "[target.GetShortUINameNoTooltip] is convinced by the dog pelt"
  court_ongoing.1022.b.failure:0 "[target.GetShortUINameNoTooltip] sees through your trickery"
  court_ongoing.1022.c:0 "I will bribe a hunter."
+ court_ongoing.1022.c.master_of_hunt:0 "My $master_of_hunt_court_position$ will find me a wolf pelt!"
+ court_ongoing.1022.c.master_of_hunt.success:0 "[master_of_hunt.GetFirstNameNoTooltip] finds and fells a wolf during a hunt"
+ court_ongoing.1022.c.master_of_hunt.success.tt:0 "You acquire a pelt at no cost, and no risk to you."
+ court_ongoing.1022.c.master_of_hunt.failure:0 "[master_of_hunt.GetFirstNameNoTooltip] finds a wolf pelt to purchase"
  court_ongoing.1022.d:0 ""I'm sorry, but I can't do this.""
 
  court_ongoing.1023.desc:0 "One of my favorite dogs has gone missing from the kennels. The [dummy_gender.Custom('MistressMaster')] of hounds arranged a search last night, but returned empty-handed. "I have no idea how [dog_gender.GetSheHe] got out," the grey-haired [dummy_gender.GetWomanMan] says with a sigh. "A dog should not be able to open the gate..."\n\n"[ROOT.Char.GetLadyLord] [ROOT.Char.GetFirstNameNoTooltip]!" As I turn around, I am greeted by [owner.GetTitledFirstNamePossessive] wide smile. There is a gleaming pelt in [target.GetHerHis] hands..."
@@ -186,7 +190,7 @@
 
  court_ongoing.1100.compassionate:0 "Kind and feeling heart."
  court_ongoing.1100.bold:0 "Fierce fearlessness."
- court_ongoing.1100.honorable:0 "Noble righteousnesses."
+ court_ongoing.1100.honorable:1 "Noble righteousness."
  court_ongoing.1100.greed:0 "Soaring ambition."
  court_ongoing.1100.rational:0 "Endless wisdom."
  court_ongoing.1100.zealous:0 "Burning faith."

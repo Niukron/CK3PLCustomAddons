@@ -2,3 +2,4 @@
  AND: " and "
  AND_LIST: ", and "
  COMMA: ", "
+ NEWLINE: "\n"

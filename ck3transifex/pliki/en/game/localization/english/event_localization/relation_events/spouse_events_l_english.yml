@@ -93,7 +93,7 @@
  spouse.2005.t: "Listening Intently"
  spouse.2005.desc: "It seems [told_of_character.GetTitledFirstName] was thoroughly impressed by the way I spoke of [spouse.GetFirstName]! Before departure [told_of_character.GetTitledFirstName] even pulled [spouse.GetHerHim] in for a hug!"
  spouse.2005.a: "I even barely had to embellish [spouse.GetHerHim]."
- spouse.2006.t: "A [spouse.GetWomanMan] Worthy of Praise"
+ spouse.2006.t: "A [spouse.GetWomanMan|U] Worthy of Praise"
  spouse.2006.good: "\n\n[initial_spouse.GetSheHe|U] gave me a new perspective on what I should respect [spouse.GetFirstName] for."
  spouse.2006.a: "Thank you for showing me, [initial_spouse.GetFirstNameNoTooltip]."
  spouse.2007.t: "My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('initial_spouse'))]'s Support"

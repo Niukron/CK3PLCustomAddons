@@ -24,3 +24,8 @@
  south_asia.0013.t: "My Divine Purpose Usurped"
  south_asia.0013.desc: "With my loss of territory, my authority over the Ganges is no longer respected by the people and [ROOT.Char.GetFaith.PriestNeuterPlural] of my realm! Instead [ruler_of_ganges.GetTitledName] has claimed the position I once commanded as the Steward of the Sacred River."
  south_asia.0013.a: "That upstart is nothing but a fraud!"
+ south_asia.0021.t: "The [founder.GetTitleAsNameNoTooltip] of $k_bene_israel$"
+ south_asia.0021.desc: "Forced to live nomadic lives and living in small enclaves across the world, the Jewish people have lacked a home to call their own. The centuries of wandering, it seems, are at last at an end.\n\n[founder.GetNameNoTooltip] has been crowned [founder.GetTitleAsNameNoTooltip] of $k_bene_israel$. Though unlikely, it seems the Jewish people have found their home along the West coast of India, with the [founder.GetFaith.ReligiousHeadTitleName] restored and the declaration of a new Israel, [founder.GetTitledFirstNameNoTooltip] believes [founder.GetHerselfHimself] to be ushering in a new golden age for followers of Judaism the world over."
+ south_asia.0021.a: "A new home for us!"
+ south_asia.0021.b: "There is only one Israel!"
+ south_asia.0021.c: "What an unlikely coronation."

@@ -37,3 +37,4 @@
  POTENTIAL_AGENT_POWER_TOOLTIP:1 "#T [scheme_power|E]#! \n Adds [CharacterListItem.GetInt( 'power' )|+] power\nAgent's [scheme_power|E] is proportional to [intrigue|E] skill"
  AGENT_SPYMASTER:0 "Spymaster: #P $VALUE|0$%#!"
  SCHEME_POWER_TRIGGER:0 "[scheme_power|E]: $VALUE|+0$"
+ RESPECTED_HOST:0 "[target.GetShortUINameNoTooltip] is an esteemed host: $VALUE|+0$"

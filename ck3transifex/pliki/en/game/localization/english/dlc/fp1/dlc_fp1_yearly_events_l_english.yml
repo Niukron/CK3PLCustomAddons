@@ -526,7 +526,7 @@
  fp1_yearly.1063.desc.achievements.double.outro: "nothing can fill the hole that [ship_funeral_candidate.GetHerHis] loss leaves in our lives.\""
  fp1_yearly.1063.desc.achievements.triple.intro: "was so many things. [ship_funeral_candidate.GetSheHe|U] was "
  fp1_yearly.1063.desc.achievements.triple.connector: "$fp1_yearly.1063.desc.achievements.double.connector$"
- fp1_yearly.1063.desc.achievements.triple.outro: "but to me, first and foremost, [ship_funeral_candidate.GetSheHe] was my [mourner.Custom2('RelationToMe', ship_funeral_candidate)]. We will never see [ship_funeral_candidate.GetHerHis] like again.\""
+ fp1_yearly.1063.desc.achievements.triple.outro: "but to me, first and foremost, [ship_funeral_candidate.GetSheHe] was my [ship_funeral_candidate.Custom2('RelationToMe', mourner)]. We will never see [ship_funeral_candidate.GetHerHis] like again.\""
  fp1_yearly.1063.desc.ship_stone_small: "\n\nThe barrow behind me already contains a small facsimile of a ship, traced in weighty headstones and filled with cobbles, is already buried 'neath a weighty grave of earth."
  fp1_yearly.1063.desc.ship_stone_grand: "\n\nThe great barrow behind me already contains a colossal facsimile of a ship, traced out in runestones and filled with cobbles, each large stone telling stories from the deceased's life."
  fp1_yearly.1063.desc.ship_wood_ornate: "\n\nThe barrow behind me already contains a purpose-built vessel, the product of exotic woods and our best shipwrights. It will never sail mortal oceans, but may please [ship_funeral_candidate.GetFaith.PantheonTerm] and bring blessings on the deceased."

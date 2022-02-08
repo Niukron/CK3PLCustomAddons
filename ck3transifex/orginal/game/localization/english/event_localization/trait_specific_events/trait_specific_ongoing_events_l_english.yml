@@ -3,11 +3,6 @@
  trait_specific_ongoing.1001.desc:0 "I slap my hands against a wall repeatedly. As I look down on them I see a crack running through one – my fears have come true! I am made out of glass!\n\nI will have to move smoothly and slowly, no violent motions, no high pitched singing..."
  trait_specific_ongoing.1001.a:0 "No one touch me!"
 
- trait_specific_ongoing.1002.t:0 "Stable as a Horse"
- trait_specific_ongoing.1002.desc:0 "I make my way down the corridor on all fours, snorting and biting towards anyone who makes to stop me.\n\nApples, I need to find apples! Or carrots... or sugar! I rear up on my hind legs and kick at the air before moving faster down the corridor."
- trait_specific_ongoing.1002.a:0 "I'll sleep in the stables tonight."
- trait_specific_ongoing.1002.b:0 "I remember a time on two legs... I want to go back."
-
  trait_specific_ongoing.1003.t:0 "Bear with Me"
  trait_specific_ongoing.1003.desc:0 "I open the door to my [ROOT.Char.Custom('ResidenceBuilding')] and find myself standing face to face with a giant bear.\n\n"Oh, sugar-puff! You abandoned your friends?" I ask her and start to coral her back to the main hall.\n\nAs I enter the room a cacophony of sound swells as every animal I have been able to get my hands on greet me!"
  trait_specific_ongoing.1003.a:0 "My sweeties! I will find you even more friends!"

@@ -118,6 +118,7 @@
  hunt.4005.a:0 "This one will fetch a fine price."
  hunt.4005.b:0 "I will have a beautiful trophy made for my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('trophy_recipient'))]."
  hunt.4005.c:0 "It will be stuffed and sent to the [ROOT.Char.GetFaith.ReligiousHeadName]!"
+ hunt.skull_tt:0 "Will receive a [THIS.Char.Custom('LocalAnimal')|U] [artifact|E]"
 
  hunt.4006.t:1 "$hunt_header$ The Foragers"
  hunt.4006.desc:0 "The woods truly is 'the mantle of the poor', but as the [ROOT.Char.Custom('LocalAnimal')] flees in panic from foraging peasants, I feel my patience wearing thin.\n\nSurely there must be better things to do in [activity_place.GetNameNoTier] than picking roots and mushrooms!"
@@ -239,7 +240,14 @@
  hunt.7001.b_failure:0 "The madman is unreachable by logic"
  hunt.7001.c:0 "Here's something to hunt, finally!"
 
+ hunt.8001.t:0 "$hunt_header$ A Beautiful Specimen"
+ hunt.8001.desc:0 "As we return from [activity_place.GetName] with the felled [ROOT.Char.Custom('LocalAnimal')] in tow, I cannot help but to admire it even in death. Such a fine specimen – I could easily envision its hide or skull decorating the walls of my court! Oh, but which option to pick?"
+ hunt.8001.a:0 "The lush pelt of the animal will be an excellent conversation piece."
+ hunt.8001.b:0 "Mounting the head of the [ROOT.Char.Custom('LocalAnimal')] show my guests its majesty."
+ hunt.8001.c:0 "Let's focus on the delicious feast rather than a carcass trophy!"
+
  hunt.9001.t:1 "$hunt_header$ Returning from the Wild"
+ hunt.9001.desc_opening_master_of_hunt:0 "The hunt is drawing to an end. [master_of_hunt.Custom2('MyCharacterIntroduction', ROOT.Char)|U] rounds up all the riders"
  hunt.9001.desc_opening:0 "The hunt is drawing to an end. We mount our horses to leave the [ROOT.Char.Custom('TerrainType')] behind"
  hunt.9001.desc_opening_animal:0 "as the servants prepare the [ROOT.Char.Custom('LocalAnimal')] and other game for the journey back.\n\n"
  hunt.9001.desc_opening_no_animal:0 "as the light fades from the sky.\n\n"

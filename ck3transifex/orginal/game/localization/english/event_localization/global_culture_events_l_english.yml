@@ -22,17 +22,9 @@
 
  global_culture.0015.t:0 "$global_culture.0012.t$"
  global_culture.0015.desc:0 "Traders, raiders, and mercenaries... the Norse have long traveled from Scandinavia all throughout Europe and even beyond, leaving their mark everywhere they went.\n\nNow it appears that this age may be coming to an end, as cultural differences and clan rivalries have led to the rise of disparate [danish.GetName], [swedish.GetName], and [norwegian.GetName] identities amongst them."
+ global_culture.0015.desc_norse:0 "Traders, raiders, and mercenaries... our Norse ancestors have long traveled from Scandinavia all throughout Europe and even beyond, leaving their mark everywhere they went.\n\nNow it appears that this age may be coming to an end, as our motherland is fractured by cultural differences and clan rivalries into [danish.GetName], [swedish.GetName], and [norwegian.GetName] identities."
  global_culture.0015.a:0 "What does this mean for the future of Europe?"
-
- 
- global_culture.0022.t:0 "Fate of the Suebi"
- global_culture.0022.desc:0 "Under pressure from the Huns, our ancestors first migrated into Hispania around 500 years ago and founded their own kingdom. Isolated from the other Germanic tribes and subject to Latin influence, our traditions and language wildly diverged.\n\nWith things as they are, we should consider if it is time to reclaim the past... or if it is better to look to the future instead."
- global_culture.0022.a:0 "The future of our people is Portuguese!"
- global_culture.0022.b:0 "We will always be Suebi!"
-
- global_culture.0025.t:0 "$global_culture.0022.t$"
- global_culture.0025.desc:0 "Fleeing from the Huns almost 500 years ago, a small Suebi tribe migrated into Hispania and founded their own kingdom. Isolated from the other Germanic tribes and subject to Latin influence, their traditions and language wildly diverged.\n\nNow the Suebi are calling themselves [portuguese.GetName], cutting the last ties to their Germanic heritage."
- global_culture.0025.a:0 "They can call themselves whatever they like."
+ global_culture.0015.b:0 "What does this mean for the future of our people?"
 
   
  global_culture.0032.t:0 "Rise of the Scots"

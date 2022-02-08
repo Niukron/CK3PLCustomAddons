@@ -12,6 +12,7 @@
  MULTI_PLAYER:0 "Multiplayer"
  OPTIONS:0 "Options"
  APPLY:0 "Apply"
+ RESET:0 "Reset"
  CREDITS:0 "Credits"
  QUIT:0 "Quit"
  ACCOUNT:0 "Account"

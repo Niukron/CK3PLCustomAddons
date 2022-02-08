@@ -3,6 +3,7 @@
  LEGACY_REIGN: "Played: [LegacyItem.GetStartDate.GetYear]–[LegacyItem.GetEndDate.GetYear] ([LegacyItem.GetReignLength])"
  LEGACY_REIGN_TT: "Played between [LegacyItem.GetStartDate.GetString] and [LegacyItem.GetEndDate.GetString]"
  LEGACY_REIGN_CURRENT: "[LegacyItem.GetStartDate.GetYear]–"
+ LEGACY_KILLS_TOOLTIP: "#T Kills: [GetDataModelSize(Character.GetKills)|V]#!"
  LEGACY_SCORE: "Score: [LegacyItem.GetScore]"
  LEGACY_PRESTIGE: "[GetPrestigeLevelName(LegacyItem.GetPrestigeLevel)]"
  LEGACY_CONTINUE_PLAYING: "You may continue playing as"

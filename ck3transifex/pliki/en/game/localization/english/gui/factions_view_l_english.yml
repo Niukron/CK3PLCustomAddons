@@ -86,3 +86,5 @@
  FACTIONS_OTHER: "Factions"
  create_claimant_faction_against: "Create claimant faction"
  FACTION_WINDOW_OPINION_OF_TARGET: "Opinion of target: [CharacterListItem.GetOpinionOfOtherCharacter|+=]"
+ CLAIMANT_TITLES_NO_TITLES: "No claimable titles"
+ NO_POTENTIAL_CLAIMANTS: "No potential claimants"

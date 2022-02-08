@@ -1,6 +1,6 @@
 ﻿l_english:
- playdate_minor_trinket_modifier: "Beautiful Trinket"
- playdate_minor_trinket_modifier_desc: "This character is carrying around beautiful little trinket."
+ playdate_minor_trinket_modifier: "Beautiful [SCOPE.Custom('child_object_of_interest_random')|U]"
+ playdate_minor_trinket_modifier_desc: "A beautifully crafted little toy trinket, sure to bring a smile to the face of any child."
  playdate_showing_weakness_modifier: "Helpless"
  playdate_showing_weakness_modifier_desc: "This character has shown themselves helpless."
  playdate_shown_bravery_modifier: "Shown Bravery"

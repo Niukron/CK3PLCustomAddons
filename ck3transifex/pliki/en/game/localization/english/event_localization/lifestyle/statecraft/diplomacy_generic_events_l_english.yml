@@ -19,7 +19,7 @@
  objectification_option.tt: "You guess [disobedient_subject.GetFirstName] has often been objectified due to [disobedient_subject.GetHerHis] appearance"
  diplomacy_generic.0012.g: "A \"subtle\" threat of violence will put an end to this."
  threat_option.tt: "You guess [disobedient_subject.GetFirstName] is cowardly or wants to keep the peace"
- diplomacy_generic.0012.h: "\"How dare you challenge your #EMP [ROOT.Char.GetTitleAsName]#!!?\""
+ diplomacy_generic.0012.h: "\"How dare you challenge your #EMP [ROOT.Char.GetTitleAsNameNoTooltip]#!!?\""
  diplomacy_generic.0012.tt: "Not very diplomatic, but effective nonetheless..."
  diplomacy_generic.0012.good_outcome.desc: "You manipulate [disobedient_subject.GetTitledFirstNameNoTooltip]"
  diplomacy_generic.0012.bad_outcome.desc: "[disobedient_subject.GetTitledFirstNameNoTooltip] is not fooled"

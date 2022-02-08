@@ -16,4 +16,4 @@
  can_start_scheme_trigger:0 "Can start [scheme|E]"
  is_scheme_exposed_trigger:0 "Is [scheme|E] exposed"
 
- NOT_WANTS_TO_BE_SOULMATES:0 "[TARGET_CHARACTER.GetTitledFirstName] does not want to be soulmates"
+ NOT_WANTS_TO_BE_SOULMATES:1 "[TARGET_CHARACTER.GetShortUIName] does not want to be soulmates"

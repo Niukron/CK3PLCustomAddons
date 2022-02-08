@@ -10,6 +10,8 @@
  governance_domesday_book_criticized_steward:0 "Steward Criticized for Assessment"
  governance_forced_assessment_for_domesday_book:0 "Imposed Assessment"
  governance_vassal_defied_assessment_for_domesday_book:0 "Defied Assessment"
+ dismissed_me_opinion:0 "Dismissed My Opinion"
+ disapproving_opinion:0 "Disapproved of Actions"
  
  meritocracy_claimed_my_throne_opinion:0 "Claimed my Throne"
 

@@ -51,7 +51,7 @@
  shieldmaiden_skill_killed_enemy_no_trait_v5_friendly:0 "$berserker_rage_killed_enemy_no_trait_v5_friendly$"
 
  
- commander_wounded_no_enemy_friendly_player:1 "You were wounded by an enemy soldier while leading your troops in battle!"
+ commander_wounded_no_enemy_friendly_player:2 "You were wounded while leading your troops in battle!"
  commander_wounded_no_enemy_friendly:0 "Commander [CHARACTER.GetUINameNoTooltip] was wounded while leading [CHARACTER.GetHerHis] troops in battle!"
  commander_wounded_no_enemy_enemy:0 "One of our valiant soldiers has managed to wound the enemy commander, [CHARACTER.GetUINameNoTooltip], in battle!"
 

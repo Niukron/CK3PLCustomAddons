@@ -56,7 +56,7 @@
  GHW_SET_OVERRIDE_DESIGNATED_WINNER_TT_HEADER_YES:0 "#T Override [papal_recipient|E]#!"
  GHW_SET_OVERRIDE_DESIGNATED_WINNER_TT_HEADER_NO:0 "#T Comply with [papal_recipient|E]#!"
  GHW_SET_OVERRIDE_DESIGNATED_WINNER_TT_BODY_YES:0 "If you are the main contributor to the [GREAT_HOLY_WAR.GetName], your beneficiary will be granted the primary title. Picking this stance will reduce the amount of gold earned from the War Chest shared with you upon victory."
- GHW_SET_OVERRIDE_DESIGNATED_WINNER_TT_BODY_NO:1 "If you are the main contributor to the [GREAT_HOLY_WAR.GetName], [Select_CString( GREAT_HOLY_WAR.GetDesignatedWinner.IsValid, GREAT_HOLY_WAR.GetDesignatedWinner.GetTitledFirstName, 'the Favored Candidate' )] will receive the title being fought over. Picking this stance will grant you rights to a larger share of the War Chest shared upon victory."
+ GHW_SET_OVERRIDE_DESIGNATED_WINNER_TT_BODY_NO:2 "If you are the main contributor to the [GREAT_HOLY_WAR.GetName], [Select_CString( GREAT_HOLY_WAR.GetDesignatedWinner.IsValid, GREAT_HOLY_WAR.GetDesignatedWinner.GetShortUIName, 'the Favored Candidate' )] will receive the title being fought over. Picking this stance will grant you rights to a larger share of the War Chest shared upon victory."
  GHW_SET_OVERRIDE_DESIGNATED_WINNER_TT_PROMPT_YES:2 "#I Click to Override#!"
  GHW_SET_OVERRIDE_DESIGNATED_WINNER_TT_PROMPT_NO:2 "#I Click to Comply#!"
  

@@ -1,2 +1,6 @@
 ﻿l_english:
  COURT: "Court of [CourtWindow.GetCharacter.GetUINameNoTooltip]"
+ COURTIER_SORT_GUEST: "$game_concept_guest$"
+ COURT_SCENE_CHARACTER_NAME_NO_RELATION: "[CHARACTER.GetName]"
+ COURT_SCENE_CHARACTER_NAME: "[CHARACTER.GetName] #weak ($RELATION$)#!"
+ COURT_SCENE_EDITOR_DEV_CAM_DESC: "Developer Camera"

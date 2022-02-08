@@ -21,3 +21,6 @@
  major_decisions.0001.desc: "The old ways have served us well, and we will always honor them. However, as the [ROOT.Char.GetTitleAsNameNoTooltip] of [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip], I have concluded that we must adopt feudalism and its principles if we shall continue to prosper. It is the crucial next step on our road to greatness!"
  major_decisions.0001.a: "Long live [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]!"
  major_decisions.0002.opening: "[actor.Custom2('AppropriateGreeting', ROOT.Char)]"
+ major_decisions.0200.t: "Back to the Roots"
+ major_decisions.0200.desc: "Though I am used to a strict hierarchical system and peasants who do not ask questions when tilling the fields, I find myself ruling nothing but unruly tribespeople. These people do not respect me, they only respect strength.\n\nI will show them strength! I will shed the trappings of majesty that my subjects loathe and seize their hearts with a raised sword!"
+ major_decisions.0200.a: "I'll prove my value!"

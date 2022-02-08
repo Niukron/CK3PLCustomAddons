@@ -107,7 +107,7 @@
  rivalry.1021.a:1 "I have proven myself to be [from_rival.GetFirstNamePossessiveNoTooltip] better!"
 
  rivalry.1022.t:0 "Narrow Victory"
- rivalry.1022.desc:1 "I begin my duel with [from_rival.GetTitledFirstName] and realize we're more evenly matched than I expected. We trade strikes and parries back and forth for some time, neither gaining an advantage over the other for long.\n\nEventually we both start suffering from exhaustion and he leaves himself open, allowing me to [ROOT.GetCharacter.Custom('SignatureWeaponCritical')] [from_rival.GetHerHis] leg and end the match!"
+ rivalry.1022.desc:2 "I begin my duel with [duel_loser.GetTitledFirstName] and realize we're more evenly matched than I expected. We trade strikes and parries back and forth for some time, neither gaining an advantage over the other for long.\n\nEventually we both start suffering from exhaustion and he leaves himself open, allowing me to [ROOT.GetCharacter.Custom('SignatureWeaponCritical')] [from_rival.GetHerHis] leg and end the match!"
  rivalry.1022.a:0 "My victory proves that I was in the right."
 
  rivalry.1023.t:0 "Narrow Defeat"
@@ -217,7 +217,7 @@
  rivalry.3002.b:0 "[rival.GetTitledFirstName] doesn't have to know how I feel."
 
  rivalry.3003.t:0 "Rats Gathering"
- rivalry.3003.desc:0 "[first_friend.GetTitledFirstName] has denounced me, citing my rivalry with [first_friend.GetHerHis] [ROOT.GetCharacter.Custom2('RelationToMe', SCOPE.sC('friend') )], [friend.GetTitledFirstName]."
+ rivalry.3003.desc:1 "[first_friend.GetTitledFirstName] has denounced me, citing my rivalry with [first_friend.GetHerHis] [first_friend.Custom2('RelationToMe', SCOPE.sC('friend') )], [friend.GetTitledFirstName]."
  rivalry.3003.a:0 "Bah! A flock of sheep."
 
  rivalry.3004.t:0 "The Worst Person Possible"

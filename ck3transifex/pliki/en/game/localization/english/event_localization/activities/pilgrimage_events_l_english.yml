@@ -168,7 +168,7 @@
  pilgrimage.3003.b: "I sure am glad this pilgrimage comes with an indulgence!"
  pilgrimage.3003.c: "That [doomsayer.GetWomanMan] is #EMP not#! a priest! Cast [doomsayer.GetHerHim] down!"
  pilgrimage.3101.t: "$pilgrimage_header$ Ihram"
- pilgrimage.3101.desc: "As I near Mecca, I find myself now standing before the Mīqāt, the boundary between the sacred spaces of Mecca the outside world.\n\nFrom this point on I must enter a state of Ihram, undergoing a ritual cleansing and wearing only the prescribed attire. I must also refrain from sexual acts, swearing, and arrogant or rude thoughts."
+ pilgrimage.3101.desc: "As I near Mecca, I find myself now standing before the Mīqāt, the boundary between the sacred spaces of Mecca and the outside world.\n\nFrom this point on I must enter a state of Ihram, undergoing a ritual cleansing and wearing only the prescribed attire. I must also refrain from sexual acts, swearing, and arrogant or rude thoughts."
  pilgrimage.3101.a: "I will commit to Ihram with the utmost dedication."
  pilgrimage.3101.b: "Ehh... it's not like anyone will know if I slip up."
  pilgrimage.3102.t: "$pilgrimage_header$ Ziyarat"

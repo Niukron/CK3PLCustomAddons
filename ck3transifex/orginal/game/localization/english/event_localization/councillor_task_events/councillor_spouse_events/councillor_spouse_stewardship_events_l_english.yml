@@ -9,7 +9,7 @@
  councillor_spouse_stewardship.1007.desc:0 "Comfortable Living"
  councillor_spouse_stewardship.1008.desc:0 "Healthy Court"
  councillor_spouse_stewardship.1009.desc:0 "Development Negotiations"
- councillor_spouse_stewardship.1010.desc:0 "[councillor.GetTitleAsName] Resolves Courtier Debt"
+ councillor_spouse_stewardship.1010.desc:1 "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))|U] Resolves Courtier Debt"
  councillor_spouse_stewardship.1011.desc.guilds:0 "Guilds Defeated"
  councillor_spouse_stewardship.1011.desc.serfs:0 "Serfs Mollified"
  councillor_spouse_stewardship.1011.desc.corruption:0 "Control of Tax Collectors"

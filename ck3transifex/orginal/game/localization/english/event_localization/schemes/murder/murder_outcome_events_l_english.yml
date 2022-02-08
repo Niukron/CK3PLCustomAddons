@@ -39,6 +39,10 @@
  murder_outcome.1007.desc_ending:0 "\n\nIt would be easy to have my agents drench the rowboat meant to ferry [target.GetHerHim] out in flammable liquid, wait until it's out in the middle of the harbor, launch a flaming arrow, and then just... let the water claim [target.GetHerHim]."
  murder_outcome.1007.a:0 "Set the plan in motion."
 
+ murder_outcome.1008.t:0 "Drink Of Life"
+ murder_outcome.1008.desc:0 "My agents have acquired a discreet powder which leaves no trace when dissolved in drink. The servants responsible for refilling and handling [target.GetTitledFirstNamePossessive] cup have been bribed to look the other way, and all that remains is my approval to smuggle the poison into [target.GetHerHis] next refreshing drink."
+ murder_outcome.1008.a:0 "A toast to [target.GetShortUINamePossessiveNoTooltip] health!"
+
  murder_outcome.1201.t:0 "A Barely Used Trail"
  murder_outcome.1201.desc:0 "[acting_agent.GetTitledFirstName] is preparing a special trip for young [target.GetTitledFirstName]. The child trusts [target.GetSheHe] will be brought on an enjoyable day in the forest.\n\n[target.GetFirstNameNoTooltip] will unfortunately get lost, and be impossible to find before nightfall. Oh, [target.GetSheHe] was so young, too..."
  murder_outcome.1201.no_acting_agent:0 "One of my agents is preparing a special trip for young [target.GetTitledFirstName]. The child trusts [target.GetSheHe] will be brought on an enjoyable day in the forest.\n\n[target.GetFirstNameNoTooltip] will unfortunately get lost, and be impossible to find before nightfall. Oh, [target.GetSheHe] was so young, too..."
@@ -157,6 +161,14 @@
  murder_outcome.2007.a.discovered:0 "I... I thought [target.GetSheHe] could swim!"
  murder_outcome.2007.a:0 "Such a tragedy!"
 
+ murder_outcome.2008.desc_drunkard:0 "[target.GetTitledFirstName] is dead, killed by the [target.Custom('RegionalAlcoholicDrink')] [target.GetSheHe] loved so much!"
+ murder_outcome.2008.desc_not_drunkard:0 "[target.GetTitledFirstName] is dead, killed by a deep draught of [target.Custom('RegionalDrink')]!"
+ murder_outcome.2008.desc:0 "\n\nMy agents slipped the poison into [target.GetHerHis] goblet and watched it dissolve without a trace. Only when [target.GetHerHis] throat swelled shut did [target.GetSheHe] realize something was wrong, but by then it was far too late.\n\n"
+ murder_outcome.2008.scheme_owner_known:0 "Unfortunately my agents were seen, and the bribed servants didn't hesitate to reveal my involvement!"
+ murder_outcome.2008.scheme_unknown:0 "Fortunately my agents slipped out well before the effects of the poison revealed that something was afoot!"
+ murder_outcome.2008.a.discovered:0 "...[target.GetSheHe|U] looked thirsty?"
+ murder_outcome.2008.a:0 "Cheers, [target.GetTitledFirstNameNoTooltip]!"
+
  murder_outcome.2201.t:0 "A Mangled Corpse"
  murder_outcome.2201.opening:0 "[target.GetTitledFirstName] is dead!\n\nThe search went long into the night before it was called off and reconvened at dawn. It was only then that the body was found, bloodied, mangled and torn after an attack by some vicious, hungry beast. At least I hope it was a beast's doing."
  murder_outcome.2201.scheme_owner_known:0 "\n\nDisastrously, my agent confessed as soon as the child was found. Now everyone knows I was behind this tragedy!"
@@ -264,6 +276,12 @@
  murder_outcome.4007.a.discovered:0 "I just wanted [target.GetHerHim] to practice [target.GetHerHis] swimming!"
  murder_outcome.4007.a:0 "How hard can it be to hit a boat?!"
 
+ murder_outcome.4008.desc:0 "[target.GetTitledFirstName] survived the poison!\n\nUnfortunately one of [target.GetTitledFirstNamePossessive] scullery maids helped herself to a sip of the drink before serving her [target.GetLadyLord], and a dead servant is apparently a deterrent.\n\n"
+ murder_outcome.4008.scheme_owner_known:0 "And if that wasn't bad enough one of the other servants showed no hesitation in pointing me out as the culprit behind the attempt!"
+ murder_outcome.4008.scheme_unkown:0 "At least none of the servants have confessed my involvement. Small mercies."
+ murder_outcome.4008.a.discovered:0 "The gall of [target.GetHerHis] servants!"
+ murder_outcome.4008.a:0 "Next time [target.GetHerHis] servants will know better than to meddle!"
+
  murder_outcome.4201.t:0 "The Path Home"
  murder_outcome.4201.opening:0 "\n\n[acting_agent.GetTitledFirstName] left [target.GetHerHim] to [target.GetHerHis] fate, alone in the wilderness.\n\nHowever, upon returning to court to share the terrible news of the lost child, [target.GetFirstName] was already waiting in the great hall, and asked [acting_agent.GetFirstName] if they could play some more!"
  murder_outcome.4201.scheme_owner_known:0 "[acting_agent.GetFirstNameNoTooltip] was expediently interrogated, and my plan revealed!"
@@ -331,6 +349,9 @@
  murder_outcome.5001.riled_up_mob:0 "I am riding through the streets of [home_province.GetNameNoTier] when a mob of screaming and shouting peasants descends on my retinue. Before I realize what is happening, the commoners tear me from my horse and start beating me. I can hear my guards shouting, but long before they reach me the world is fading from my sight."
  murder_outcome.5001.bricked:0 "As I attend some local celebrations in the [home_province.GetName] I spend the evening drunk on merriment and wine.\n\nAs I wake in the morning it is to find myself in a damp cellar with a huge hangover and a newly built wall covering the exit! The days pass in a blur after that, and I soon find it impossible to stand, then to sit, then to #EMP think#!..."
  murder_outcome.5001.sunken_boat:0 "I'm out on a boat in a harbor in [province.GetNameNoTier] when suddenly a flaming arrow soars across the sky towards us!\n\nIt hits the boat with a heavy #EMP thunk#!, and it only takes a moment before the whole boat is aflame and I throw myself in the cold ocean water. As my heavy clothes drags me below the surface I try to swim, I try to reach for something to hold on to, I try to #EMP breathe#!..."
+ murder_outcome.5001.poisoned_drink_alcohol:0 "As I am enjoying dinner and a full cup of [ROOT.Char.Custom('RegionalAlcoholicDrink')] I suddenly feel a curious sensation in my throat."
+ murder_outcome.5001.poisoned_drink_no_alcohol:0 "As I am enjoying dinner and a full cup of [ROOT.Char.Custom('RegionalDrink')] I suddenly feel a curious sensation in my throat."
+ murder_outcome.5001.poisoned_drink:0 "It doesn't take long before I am #EMP clawing#! at my neck trying to breath, to scream, to get any air at all past my swollen and bleeding throat. As my consciousness fades I see that there's blood and skin under my nails; I'm going to have to wash that off, how unseemly..."
  murder_outcome.5001.acting_agent:0 "[acting_agent.GetFirstName] have brought me into the forest to play, or at least I thought so at first. However, it is not long after [acting_agent.GetSheHe] went to hide that I realize I have been abandoned."
  murder_outcome.5001.courtier:0 "Some courtiers have brought me into the forest to play, or at least I thought so at first. However, it is not long after they went to hide that I realize I have been abandoned."
  murder_outcome.5001.lured_into_forest:0 "\n\nI try to find my way back home, but it gets dark fast, and soon I can hear the beasts move among the trees. I start running, but it does not take long before they are upon me."
@@ -360,6 +381,7 @@
  murder_outcome.5002.riled_up_mob:0 "I was riding through the streets of [home_province.GetNameNoTier] when a mob of screaming and shouting peasants descended on my retinue. Thankfully my guards did not hesitate to start cutting them down left and right, while I made my way back to the [ROOT.Char.Custom('ResidenceBuilding')]."
  murder_outcome.5002.bricked:0 "As I attend some local celebrations in the [home_province.GetName] I spend the evening drunk on merriment and wine.\n\nAs I wake in the morning it is to find myself in a damp cellar with a huge hangover and a newly built wall almost covering the exit... Someone meant to bury me here!"
  murder_outcome.5002.sunken_boat:0 "I'm out on a boat in a harbor in [province.GetNameNoTier] when suddenly a flaming arrow soars across the sky towards us!\n\nIt misses the boat by a hair's breadth, and as I lean down to see it fizzle out in the cold ocean water I catch a distinct smell coming from the wood of the boat: Greek fire! This was an attempt on my life."
+ murder_outcome.5002.poisoned_drink:0 "While having dinner a servant bursts into the room and slaps the goblet from my hand #EMP just#! as I am about to take a sip!\n\n"My [ROOT.Char.GetLadyLord], it's poison! One of the scullery maids... Forgive her, she took a sip, and she– she's dead!""
  murder_outcome.5002.lured_into_forest:0 "I was tricked into coming with [acting_agent.GetFirstName] into the forest to play, but [acting_agent.GetTitledFirstName] hid and never emerged!\n\nI was crying, stumbling across branches, and shouting for help when a path of fey lights lit up before me. Following the whispers and giggles of the forest folk, I found my way out of the woods and home to safety."
  murder_outcome.5002.stab_infant:0 "Lights shifting. Familiar faces, unfamiliar faces. Sounds I know, and sounds I don't know. A sharp, cold sound makes my ears ache, and I start crying.\n\nThen I hear a woman sobbing, large and adult. The voice of my wet nurse. Then I am left alone."
  murder_outcome.5002.infant_creepy_crawly:0 "A soft blanket beneath me, and a warm cover. I am almost falling asleep when I feel a curious sensation, as if something is moving up my body. A sudden pain blossoms in my arm and I start crying.\n\nI can hear a man, close by, and suddenly I can hear a lot of voices, raised in alarm. As the voices fade away so does the pain in my arm, and I soon fall asleep."

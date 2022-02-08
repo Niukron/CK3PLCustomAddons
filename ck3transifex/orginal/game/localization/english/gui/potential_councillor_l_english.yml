@@ -5,7 +5,7 @@
  POTENTIAL_COUNCILLOR_ASSIGN:0 "Assign"
  POTENTIAL_COUNCILLOR_SWAP:0 "Swap"
  FIRE_COUNCILLOR_CONFIRMATION_DESCRIPTION:0 "[CHARACTER.GetShortUINameNoTooltip] will be fired from my council."
- FIRE_COUNCILLOR_CONFIRMATION_DESCRIPTION_WITH_EFFECT:0 "[CHARACTER.GetShortUINameNoTooltip] will be fired from my council having the following efffect:"
+ FIRE_COUNCILLOR_CONFIRMATION_DESCRIPTION_WITH_EFFECT:1 "[CHARACTER.GetShortUINameNoTooltip] will be fired from my council having the following effect:"
  POTENTIAL_COUNCILLOR_ASSIGN_TT_TITLE:0 "#T Assign to $NAME$ position#!"
  POTENTIAL_COUNCILLOR_REASSIGN_TT_TITLE:0 "#T Reassign to $NAME$ position#!"
  POTENTIAL_COUNCILLOR_SWAP_TT_TITLE:0 "#T Swap Council positions#!"

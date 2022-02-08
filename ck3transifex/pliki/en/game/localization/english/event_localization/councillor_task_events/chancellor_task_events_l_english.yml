@@ -1,4 +1,6 @@
 ﻿l_english:
+ chancellor_task.0991_end_desc: "[target_character.GetTitledFirstNamePossessiveNoTooltip] opinion of you will not increase more."
+ chancellor_task.0991_increase_desc: "[target_character.GetTitledFirstNameNoTooltip] was impressed and honored by the Royal Favor you bestowed upon [target_character.GetHerHim]."
  chancellor_task.1001.t: "A New Claimant"
  chancellor_task.1001.desc: "Of all the buffoonery I have ever seen...\n\nIn [councillor.GetTitledFirstNamePossessive] inane efforts to improve my relations with my neighbors, my good-for-nothing [councillor.GetCouncilTitle] has officially acknowledged [neighboring_ruler.GetTitledFirstNamePossessive] claim to the [target_county.GetName]!"
  chancellor_task.1001.a: "You are supposed to make me friends, not enemies!"

@@ -30,8 +30,8 @@
  death_management.1005.t:0 "The Memories Remain"
  death_management.1005.desc:0 "Oh, [dead_character.GetFirstName]. If you were still with me, I know you would tell me to be strong. That things will get better. And you would be right, as you always were, but first I must curse and cry. How could I not when you are gone from this world?"
  death_management.1005.a:0 "You will never be forgotten, old friend."
- death_management.1005.a.tt:2 "Your best friend, [dead_character.GetTitledFirstName], has [THIS.Char.Custom('DiedHouse_arrest')]."
- death_management.friend.desc:3 "Your best friend, [dead_character.GetTitledFirstName], died."
+ death_management.1005.a.tt:3 "Your friend, [dead_character.GetTitledFirstName], has [THIS.Char.Custom('DiedHouse_arrest')]."
+ death_management.friend.desc:4 "Your friend, [dead_character.GetTitledFirstName], died."
 
  death_management.1007.t:0 "A Twist of Fate"
  death_management.1007.start_murder:0 "[dead_character.GetTitledFirstName] has been murdered! Now we will never know what kind of"

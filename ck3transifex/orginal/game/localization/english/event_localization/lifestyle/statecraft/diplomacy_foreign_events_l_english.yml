@@ -177,7 +177,7 @@
  diplomacy_foreign_special.1030.a:0 "May your journey be swift and safe!"
 
  diplomacy_foreign_special.1031.t:1 "$diplomacy_foreign_special.1017.t$: An Early Departure"
- diplomacy_foreign_special.1031.desc:0 "The sun has barely risen when I notice one of [foreign_guest.GetTitledFirstNamePossessive] servants carrying a large chest. I follow the [dummy_servant_gender.GetWomanMan] to the courtyard, where I find my guest overseeing the loading of [foreign_guest.GetHerHis] carriages.\n\n[foreign_guest.GetFirstName] startles when I greet [foreign_guest.GetHerHim] and proceeds to make a vague excuse about a letter and some urgent business. Awkwardly, I wish him a safe journey and scamper back to my private quarters."
+ diplomacy_foreign_special.1031.desc:1 "The sun has barely risen when I notice one of [foreign_guest.GetTitledFirstNamePossessive] servants carrying a large chest. I follow the [dummy_servant_gender.GetWomanMan] to the courtyard, where I find my guest overseeing the loading of [foreign_guest.GetHerHis] carriages.\n\n[foreign_guest.GetFirstName] startles when I greet [foreign_guest.GetHerHim] and proceeds to make a vague excuse about a letter and some urgent business. Awkwardly, I wish [foreign_guest.GetHerHim] a safe journey and scamper back to my private quarters."
  diplomacy_foreign_special.1031.a:0 "Not how I imagined things would go..."
 
  

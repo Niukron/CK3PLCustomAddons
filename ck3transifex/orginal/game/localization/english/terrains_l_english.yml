@@ -20,6 +20,7 @@
  farmlands:0 "Farmlands"
  floodplains:0 "Floodplains"
  drylands:0 "Drylands"
+ winter:0 "Winter"
  TERRAIN_DESCRIPTION:0 "[Terrain.GetEffects]"
  TERRAIN_PROVINCE_MODIFIER_HEADER:0 "#S [county|E] Effects:#!"
  TERRAIN_MOVEMENT_SPEED:0 "Movement Speed: $VALUE|%0V$"
@@ -29,4 +30,7 @@
  TERRAIN_MILITARY_EFFECTS_HEADER:0 "#S Military Effects:#!"
  TERRRAIN_MILITARY_ATTACKER_MODIFIER:0 "#S Attacker Modifier:#!"
  TERRRAIN_MILITARY_DEFENDER_MODIFIER:0 "#S Defender Modifier:#!"
+ TERRAIN_MILD_WINTER:0 "Mild $winter$"
+ TERRAIN_NORMAL_WINTER:0 "Normal $winter$"
+ TERRAIN_HARSH_WINTER:0 "Harsh $winter$"
  

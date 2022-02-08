@@ -12,9 +12,9 @@
 
  peasant_affair.2001.t:0 "The [peasant_character.GetWomanMan|U] I Dream About"
  peasant_affair.2001.desc_opening:0 "Once again I wake with a beating heart and the remnant of a fire smoldering in my loins.\n\n"
- peasant_affair.2001.desc_rakish_night:0 "Many nights have passed since I shared a bed with the beautiful [peasant_character.GetWomanMan] I stumbled upon during one of my nightly excursions, but my longing only grows... "
- peasant_affair.2001.desc_known_father:0 "Many nights have passed since I shared a bed with my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('peasant_character'))], [peasant_character.GetTitledFirstName], but my longing only grows... "
- peasant_affair.2001.desc_unknown_peasant:0 "Many nights have passed since I shared a bed with the beautiful [peasant_character.GetWomanMan] I stumbled upon outside my [ROOT.Char.Custom('FortifiedBuilding')], but my longing only grows... "
+ peasant_affair.2001.desc_rakish_night:1 "Many nights have passed since I shared a bed with the beautiful [peasant_character.GetWomanMan] I stumbled upon during one of my nightly excursions, but my longing only grows..."
+ peasant_affair.2001.desc_known_father:1 "Many nights have passed since I shared a bed with my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('peasant_character'))], [peasant_character.GetTitledFirstName], but my longing only grows..."
+ peasant_affair.2001.desc_unknown_peasant:1 "Many nights have passed since I shared a bed with the beautiful [peasant_character.GetWomanMan] I stumbled upon outside my [ROOT.Char.Custom('FortifiedBuilding')], but my longing only grows..."
  peasant_affair.2001.desc_child:0 "Especially since my dear [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('peasant_child'))] [peasant_child.GetTitledFirstName], the result of our passion, is a constant reminder of [peasant_character.GetHerHim]!"
  peasant_affair.2001.a:0 "I must find [peasant_character.GetHerHim]!"
  peasant_affair.2001.a.tt:0 "#F Begin the search at once!#!"

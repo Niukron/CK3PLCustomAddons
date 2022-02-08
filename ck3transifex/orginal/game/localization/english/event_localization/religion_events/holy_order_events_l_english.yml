@@ -3,7 +3,7 @@
  holy_order.hired_message:1 "[holy_order.GetName] has been called by [actor.GetUIName]"
  holy_order_hired_by_enemy_message:0 "Enemy Holy Order"
  holy_order.hired_by_enemy:1 "[holy_order.GetName] has been called by [actor.GetUIName], and now stand against us"
- holy_order.destroyed_message:0 "The [title.GetName] has been destroyed."
+ holy_order.destroyed_message:1 "The [title.GetName] has been destroyed"
  holy_order_expanded:0 "Holy Order Expands"
  holy_order.new_lease:1 "[holy_order.GetName] is now leasing [barony.GetName] from [former_holder.GetTitledFirstName]"
 
@@ -66,7 +66,7 @@
  holy_order.2002.b:0 "Oh, you are absolutely #EMP not#! doing that!"
 
  holy_order.2003.opening:0 "[grandmaster.Custom2('AppropriateGreetingPositive', ROOT.Char)|U]"
- holy_order.2003.desc:0 "There will always be a need for true warriors to halt any threat to the [grandmaster.GetFaith.GetAdjective] faith.\nWith many aptitudes and few prospects of inheritance, I believe your [child.Custom('DaughterSon')], [child.GetTitledFirstName], could lead a better life serving [holy_order.GetName]. With us, [child.GetSheHe] will train, learn and bring great honor upon your name."
+ holy_order.2003.desc:1 "There will always be a need for true warriors to halt any threat to the [grandmaster.GetFaith.GetAdjective] faith.\nWith many aptitudes and few prospects of inheritance, I believe your [child.Custom('DaughterSon')], [child.GetTitledFirstName], could lead a better life serving [holy_order_scope.GetName]. With us, [child.GetSheHe] will train, learn and bring great honor upon your name."
  holy_order.2003.a:0 "[child.GetHersHis|U] will be the life of a true [child.GetFaith.GetAdherentName]."
  holy_order.2003.child_joins_order:0 "[child.GetFirstName] gains [GetTrait('order_member').GetName( child.Self )] and joins the court of [grandmaster.GetTitledFirstNameNoTooltip]"
  holy_order.2003.b:0 "Perhaps you could train [alternative_child.GetFirstNameNoTooltip] instead?"
@@ -81,3 +81,5 @@
  holy_order.2005.t:0 "A Return Home"
  holy_order.2005.desc:0 "[child.GetTitledFirstNamePossessive] visit lasted longer than usual. Only once my [child.Custom('DaughterSon')] had been occupying the great hall for days — gorging [child.GetHerselfHimself] on my food and harassing my servants — did I broach the topic of returning to [holy_order.GetName]. [child.GetHerHis|U] response was unfortunately enthusiastic.\n\n"Have you not heard, [ROOT.Char.Custom('MotherFather')]? [grandmaster.GetTitledFirstName] has been so generous as to relieve me of my duties to [child.GetFaith.GetName]! I am finally home, to serve my family.""
  holy_order.2005.a:0 "Oh, you're... here to stay?"
+
+ holy_order.destroyed_title:0 "Holy Order Disbanded"

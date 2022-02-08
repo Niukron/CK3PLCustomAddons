@@ -22,7 +22,7 @@
  objectification_option.tt:2 "You guess [disobedient_subject.GetFirstName] has often been objectified due to [disobedient_subject.GetHerHis] appearance"
  diplomacy_generic.0012.g:0 "A "subtle" threat of violence will put an end to this."
  threat_option.tt:2 "You guess [disobedient_subject.GetFirstName] is cowardly or wants to keep the peace"
- diplomacy_generic.0012.h:0 ""How dare you challenge your #EMP [ROOT.Char.GetTitleAsName]#!!?""
+ diplomacy_generic.0012.h:1 ""How dare you challenge your #EMP [ROOT.Char.GetTitleAsNameNoTooltip]#!!?""
  diplomacy_generic.0012.tt:0 "Not very diplomatic, but effective nonetheless..."
  
  diplomacy_generic.0012.good_outcome.desc:1 "You manipulate [disobedient_subject.GetTitledFirstNameNoTooltip]"
