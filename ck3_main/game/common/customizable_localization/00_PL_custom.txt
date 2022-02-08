@@ -1,212 +1,38 @@
 ﻿
+#v1.5
 education_focus_acc = {
-	type = character
-
-	text = {
-		localization_key = education_learning_loc_acc
-		trigger = {
-			has_trait = education_learning
-		}
-	}
-	text = {
-		localization_key = education_stewardship_loc_acc
-		trigger = {
-			has_trait = education_stewardship
-		}
-	}
-	text = {
-		localization_key = education_martial_loc_acc
-		trigger = {
-			has_trait = education_martial
-		}
-	}
-	text = {
-		localization_key = education_intrigue_loc_acc
-		trigger = {
-			has_trait = education_intrigue
-		}
-	}
-	text = {
-		localization_key = education_diplomacy_loc_acc
-		trigger = {
-			has_trait = education_diplomacy
-		}
-	}
+	parent = education_focus
+	suffix = "_acc"
 }
 
+#v1.5
 education_focus_ins = {
-	type = character
-
-	text = {
-		localization_key = education_learning_loc_ins
-		trigger = {
-			has_trait = education_learning
-		}
-	}
-	text = {
-		localization_key = education_stewardship_loc_ins
-		trigger = {
-			has_trait = education_stewardship
-		}
-	}
-	text = {
-		localization_key = education_martial_loc_ins
-		trigger = {
-			has_trait = education_martial
-		}
-	}
-	text = {
-		localization_key = education_intrigue_loc_ins
-		trigger = {
-			has_trait = education_intrigue
-		}
-	}
-	text = {
-		localization_key = education_diplomacy_loc_ins
-		trigger = {
-			has_trait = education_diplomacy
-		}
-	}
+	parent = education_focus
+	suffix = "_ins"
 }
 
-education_focus_child_ins = {
-	type = character
-
-	text = {
-		localization_key = education_learning_loc_ins
-		trigger = {
-			exists = var:education_learning_variable
-		}
-	}
-	text = {
-		localization_key = education_stewardship_loc_ins
-		trigger = {
-			exists = var:education_stewardship_variable
-		}
-	}
-	text = {
-		localization_key = education_martial_loc_ins
-		trigger = {
-			exists = var:education_martial_variable
-		}
-	}
-	text = {
-		localization_key = education_intrigue_loc_ins
-		trigger = {
-			exists = var:education_intrigue_variable
-		}
-	}
-	text = {
-		localization_key = education_diplomacy_loc_ins
-		trigger = {
-			exists = var:education_diplomacy_variable
-		}
-	}
-}
-
-education_focus_child_acc = {
-	type = character
-
-	text = {
-		localization_key = education_learning_loc_acc
-		trigger = {
-			exists = var:education_learning_variable
-		}
-	}
-	text = {
-		localization_key = education_stewardship_loc_acc
-		trigger = {
-			exists = var:education_stewardship_variable
-		}
-	}
-	text = {
-		localization_key = education_martial_loc_acc
-		trigger = {
-			exists = var:education_martial_variable
-		}
-	}
-	text = {
-		localization_key = education_intrigue_loc_acc
-		trigger = {
-			exists = var:education_intrigue_variable
-		}
-	}
-	text = {
-		localization_key = education_diplomacy_loc_acc
-		trigger = {
-			exists = var:education_diplomacy_variable
-		}
-	}
-}
-
+#v1.5
 education_focus_gen = {
-	type = character
-
-	text = {
-		localization_key = education_learning_loc_gen
-		trigger = {
-			has_trait = education_learning
-		}
-	}
-	text = {
-		localization_key = education_stewardship_loc_gen
-		trigger = {
-			has_trait = education_stewardship
-		}
-	}
-	text = {
-		localization_key = education_martial_loc_gen
-		trigger = {
-			has_trait = education_martial
-		}
-	}
-	text = {
-		localization_key = education_intrigue_loc_gen
-		trigger = {
-			has_trait = education_intrigue
-		}
-	}
-	text = {
-		localization_key = education_diplomacy_loc_gen
-		trigger = {
-			has_trait = education_diplomacy
-		}
-	}
+	parent = education_focus
+	suffix = "_gen"
 }
 
-education_focus_child_gen = {
-	type = character
+#v1.5
+education_focus_child_ins = {
+	parent = education_focus_child
+	suffix = "_ins"
+}
 
-	text = {
-		localization_key = education_learning_loc_gen
-		trigger = {
-			exists = var:education_learning_variable
-		}
-	}
-	text = {
-		localization_key = education_stewardship_loc_gen
-		trigger = {
-			exists = var:education_stewardship_variable
-		}
-	}
-	text = {
-		localization_key = education_martial_loc_gen
-		trigger = {
-			exists = var:education_martial_variable
-		}
-	}
-	text = {
-		localization_key = education_intrigue_loc_gen
-		trigger = {
-			exists = var:education_intrigue_variable
-		}
-	}
-	text = {
-		localization_key = education_diplomacy_loc_gen
-		trigger = {
-			exists = var:education_diplomacy_variable
-		}
-	}
+#v1.5
+education_focus_child_acc = {
+	parent = education_focus_child
+	suffix = "_acc"
+}
+
+#v1.5
+education_focus_child_gen = {
+	parent = education_focus_child
+	suffix = "_gen"
 }
 
 
