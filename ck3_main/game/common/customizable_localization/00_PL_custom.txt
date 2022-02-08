@@ -36,261 +36,197 @@ education_focus_child_gen = {
 }
 
 
-
-GetReligion_adj_fem_acc = {
-	
-	type = character
-	
+#v1.5
+religion_name_adj_feminine_accusative = {
+	type = faith
 	text = {
 		trigger = {
-			faith = {
-				religion_tag = christianity_religion
-			}
+			religion_tag = christianity_religion
 		}
-		localization_key = GetReligion_adj_fem_acc_chrzescijanska
+		localization_key = christianity_religion_adj_feminine_accusative
 	}
 	text = {
 		trigger = {
-			faith = {
-				religion_tag = baltic_religion
-			}
+			religion_tag = baltic_religion
 		}
-		localization_key = GetReligion_adj_fem_acc_baltycka
+		localization_key = baltic_religion_adj_feminine_accusative
 	}
 	text = {
 		trigger = {
-			faith = {
-				religion_tag = akom_religion
-			}
+			religion_tag = akom_religion
 		}
-		localization_key = GetReligion_adj_fem_acc_akom
+		localization_key = akom_religion_adj_feminine_accusative
 	}
 	text = {
 		trigger = {
-			faith = {
-				religion_tag = bon_religion
-			}
+			religion_tag = bon_religion
 		}
-		localization_key = GetReligion_adj_fem_acc_bon
+		localization_key = bon_religion_adj_feminine_accusative
 	}
 	text = {
 		trigger = {
-			faith = {
-				religion_tag = tani_religion
-			}
+			religion_tag = buddhism_religion
 		}
-		localization_key = GetReligion_adj_fem_acc_tani
+		localization_key = buddhism_religion_adj_feminine_accusative
 	}
 	text = {
 		trigger = {
-			faith = {
-				religion_tag = dualism_religion
-			}
+			religion_tag = tani_religion
 		}
-		localization_key = GetReligion_adj_fem_acc_dualism
+		localization_key = tani_religion_adj_feminine_accusative
 	}
 	text = {
 		trigger = {
-			faith = {
-				religion_tag = finno_ugric_religion
-			}
+			religion_tag = dualism_religion
 		}
-		localization_key = GetReligion_adj_fem_acc_finno_ugric
+		localization_key = dualism_religion_adj_feminine_accusative
 	}
 	text = {
 		trigger = {
-			faith = {
-				religion_tag = germanic_religion
-			}
+			religion_tag = finno_ugric_religion
 		}
-		localization_key = GetReligion_adj_fem_acc_germanic
+		localization_key = finno_ugric_religion_adj_feminine_accusative
 	}
 	text = {
 		trigger = {
-			faith = {
-				religion_tag = hellenism_religion
-			}
+			religion_tag = germanic_religion
 		}
-		localization_key = GetReligion_adj_fem_acc_hellenism
+		localization_key = germanic_religion_adj_feminine_accusative
 	}
 	text = {
 		trigger = {
-			faith = {
-				religion_tag = hinduism_religion
-			}
+			religion_tag = hellenism_religion
 		}
-		localization_key = GetReligion_adj_fem_acc_hinduism
+		localization_key = hellenism_religion_adj_feminine_accusative
 	}
 	text = {
 		trigger = {
-			faith = {
-				religion_tag = islam_religion
-			}
+			religion_tag = hinduism_religion
 		}
-		localization_key = GetReligion_adj_fem_acc_islam
+		localization_key = hinduism_religion_adj_feminine_accusative
 	}
 	text = {
 		trigger = {
-			faith = {
-				religion_tag = jainism_religion
-			}
+			religion_tag = islam_religion
 		}
-		localization_key = GetReligion_adj_fem_acc_jainism
+		localization_key = islam_religion_adj_feminine_accusative
 	}
 	text = {
 		trigger = {
-			faith = {
-				religion_tag = judaism_religion
-			}
+			religion_tag = jainism_religion
 		}
-		localization_key = GetReligion_adj_fem_acc_judaism
+		localization_key = jainism_religion_adj_feminine_accusative
 	}
 	text = {
 		trigger = {
-			faith = {
-				religion_tag = kushitism_religion
-			}
+			religion_tag = judaism_religion
 		}
-		localization_key = GetReligion_adj_fem_acc_kushitism
+		localization_key = judaism_religion_adj_feminine_accusative
 	}
 	text = {
 		trigger = {
-			faith = {
-				religion_tag = magyar_religion
-			}
+			religion_tag = kushitism_religion
 		}
-		localization_key = GetReligion_adj_fem_acc_magyar
+		localization_key = kushitism_religion_adj_feminine_accusative
 	}
 	text = {
 		trigger = {
-			faith = {
-				religion_tag = mundhum_religion
-			}
+			religion_tag = magyar_religion
 		}
-		localization_key = GetReligion_adj_fem_acc_mundhum
+		localization_key = magyar_religion_adj_feminine_accusative
 	}
 	text = {
 		trigger = {
-			faith = {
-				religion_tag = paganism_religion
-			}
+			religion_tag = mundhum_religion
 		}
-		localization_key = GetReligion_adj_fem_acc_paganism
+		localization_key = mundhum_religion_adj_feminine_accusative
 	}
 	text = {
 		trigger = {
-			faith = {
-				religion_tag = qiangic_religion
-			}
+			religion_tag = paganism_religion
 		}
-		localization_key = GetReligion_adj_fem_acc_qiangic
+		localization_key = paganism_religion_adj_feminine_accusative
 	}
 	text = {
 		trigger = {
-			faith = {
-				religion_tag = slavic_religion
-			}
+			religion_tag = qiangic_religion
 		}
-		localization_key = GetReligion_adj_fem_acc_slavic
+		localization_key = qiangic_religion_adj_feminine_accusative
 	}
 	text = {
 		trigger = {
-			faith = {
-				religion_tag = taoism_religion
-			}
+			religion_tag = slavic_religion
 		}
-		localization_key = GetReligion_adj_fem_acc_taoism
+		localization_key = slavic_religion_adj_feminine_accusative
 	}
 	text = {
 		trigger = {
-			faith = {
-				religion_tag = tengrism_religion
-			}
+			religion_tag = taoism_religion
 		}
-		localization_key = GetReligion_adj_fem_acc_tengrism
+		localization_key = taoism_religion_adj_feminine_accusative
 	}
 	text = {
 		trigger = {
-			faith = {
-				religion_tag = waaqism_religion
-			}
+			religion_tag = tengrism_religion
 		}
-		localization_key = GetReligion_adj_fem_acc_waaqism
+		localization_key = tengrism_religion_adj_feminine_accusative
 	}
 	text = {
 		trigger = {
-			faith = {
-				religion_tag = west_african_religion
-			}
+			religion_tag = waaqism_religion
 		}
-		localization_key = GetReligion_adj_fem_acc_west_african
+		localization_key = waaqism_religion_adj_feminine_accusative
 	}
 	text = {
 		trigger = {
-			faith = {
-				religion_tag = west_african_bori_religion
-			}
+			religion_tag = west_african_religion
 		}
-		localization_key = GetReligion_adj_fem_acc_west_african_bori
+		localization_key = west_african_religion_adj_feminine_accusative
 	}
 	text = {
 		trigger = {
-			faith = {
-				religion_tag = west_african_orisha_religion
-			}
+			religion_tag = west_african_bori_religion
 		}
-		localization_key = GetReligion_adj_fem_acc_west_african_orisha
+		localization_key = west_african_bori_religion_adj_feminine_accusative
 	}
 	text = {
 		trigger = {
-			faith = {
-				religion_tag = west_african_roog_religion
-			}
+			religion_tag = west_african_orisha_religion
 		}
-		localization_key = GetReligion_adj_fem_acc_west_african_roog
+		localization_key = west_african_orisha_religion_adj_feminine_accusative
 	}
 	text = {
 		trigger = {
-			faith = {
-				religion_tag = yazidi_religion
-			}
+			religion_tag = west_african_roog_religion
 		}
-		localization_key = GetReligion_adj_fem_acc_yazidi
+		localization_key = west_african_roog_religion_adj_feminine_accusative
 	}
 	text = {
 		trigger = {
-			faith = {
-				religion_tag = zoroastrianism_religion
-			}
+			religion_tag = yazidi_religion
 		}
-		localization_key = GetReligion_adj_fem_acc_zoroastrianism
+		localization_key = yazidi_religion_adj_feminine_accusative
 	}
 	text = {
 		trigger = {
-			faith = {
-				religion_tag = zunism_religion
-			}
+			religion_tag = zoroastrianism_religion
 		}
-		localization_key = GetReligion_adj_fem_acc_zunism
+		localization_key = zoroastrianism_religion_adj_feminine_accusative
 	}
 	text = {
 		trigger = {
-			faith = {
-				religion_tag = buddhism_religion
-			}
+			religion_tag = zunism_religion
 		}
-		localization_key = GetReligion_adj_fem_acc_buddhism
+		localization_key = zunism_religion_adj_feminine_accusative
 	}
 	text = {
 		trigger = {
-			faith = {
-				religion_tag = siberian_religion
-			}
+			religion_tag = siberian_religion
 		}
-		localization_key = GetReligion_adj_fem_acc_siberian
+		localization_key = siberian_religion_adj_feminine_accusative
 	}
 	text = {
-		localization_key = GetReligion_adj_fem_acc_alternatywny
+		localization_key = religion_name_adj_feminine_fallback
 		fallback = yes
 	}
 }
