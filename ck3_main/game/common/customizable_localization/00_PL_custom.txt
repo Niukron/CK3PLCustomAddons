@@ -295,14 +295,6 @@ GetReligion_adj_fem_acc = {
 	}
 }
 
-GetUINameNotMeNoTooltip_title_adj = {
-	type = character
-	
-	text = {
-		localization_key = GetUINameNotMeNoTooltip_title_adj
-	}
-}
-
 TwinDaughtersSonsChildren_With_Num = {
 	type = character
 

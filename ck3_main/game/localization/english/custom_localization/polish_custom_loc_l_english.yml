@@ -651,9 +651,6 @@
  #Będzie wyświetlony w przypadku dodania przez paradox jakiejś nowej religii – można dać puste wtedy będzie Utwórz nową wiarę
  GetReligion_adj_fem_acc_alternatywny:0 ""
 
- #GetUINameNotMeNoTooltip_title_adj
- GetUINameNotMeNoTooltip_title_adj:0 "[ROOT.GetCharacter.GetTitledFirstNameNicknamedNoTooltipRegnal][Select_CString(ROOT.GetCharacter.HasLandedTitles, Concatenate(Concatenate(Concatenate(' ', ROOT.GetCharacter.Custom('GetTitleAdPos')), ' '), ROOT.GetCharacter.GetPrimaryTitle.GetAdjectiveNoTooltip), Select_CString(ROOT.GetCharacter.GetPrimarySpouse.HasLandedTitles, Concatenate(Concatenate(Concatenate(' ', ROOT.GetCharacter.GetPrimarySpouse.Custom('GetTitleAdPos')), ' '), ROOT.GetCharacter.GetPrimarySpouse.GetPrimaryTitle.GetAdjectiveNoTooltip), Select_CString(ROOT.GetCharacter.HasDynasty, Concatenate(' ', ROOT.GetCharacter.GetDynasty.GetNameNoTooltip), '')))]"
-
  #Dodając _adj do tytułu można dodać odmianę jeśli nie istnieje.
  
  #Księstwa i hrabstwa
