@@ -1,4 +1,5 @@
-﻿######High God######
+﻿
+######High God######
 
 HighGodNameCel = {
 	type = character
@@ -395,8 +396,404 @@ HighGodNameCel = {
 	}
 }
 
+HighGodNameWol = {
+	type = character
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = christianity_religion
+			}
+		}
+		localization_key = christianity_high_god_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = akom_religion
+			}
+		}
+		localization_key = akom_high_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = baltic_religion
+			}
+		}
+		localization_key = baltic_high_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = bon_religion
+			}
+		}
+		localization_key = bon_high_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = buddhism_religion
+			}
+		}
+		localization_key = buddhism_high_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+				faith = faith:sedism
+		}
+		localization_key = sedism_high_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = tani_religion
+			}
+		}
+		localization_key = tani_high_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+				faith = faith:valentinianism
+		}
+		localization_key = valentinianism_high_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+				faith = faith:sethianism
+		}
+		localization_key = sethianism_high_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+				faith = faith:priscillianism
+		}
+		localization_key = priscillianism_high_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+				faith = faith:mandeaism
+		}
+		localization_key = mandeaism_high_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+				faith = faith:manichean
+		}
+		localization_key = manicheanism_high_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = dualism_religion
+			}
+		}
+		localization_key = dualism_high_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = finno_ugric_religion
+			}
+		}
+		localization_key = finno_ugric_high_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = germanic_religion
+			}
+		}
+		localization_key = germanic_high_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = hellenism_religion
+			}
+		}
+		localization_key = hellenism_high_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+				faith = faith:vaishnavism
+		}
+		localization_key = vaishnavism_high_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+				faith = faith:shaivism
+		}
+		localization_key = shaivism_high_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+				faith = faith:srikula_shaktism
+		}
+		localization_key = srikula_shaktism_high_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+				faith = faith:kalikula_shaktism
+		}
+		localization_key = kalikula_shaktism_high_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+				faith = faith:krishnaism
+		}
+		localization_key = krishnaism_high_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = hinduism_religion
+			}
+		}
+		localization_key = hinduism_high_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = islam_religion
+			}
+		}
+		localization_key = islam_high_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = jainism_religion
+			}
+		}
+		localization_key = jainism_high_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = judaism_religion
+			}
+		}
+		localization_key = judaism_high_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = kushitism_religion
+			}
+		}
+		localization_key = kushitism_high_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = magyar_religion
+			}
+		}
+		localization_key = magyar_high_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+				faith = faith:yumaism
+		}
+		localization_key = yumaism_high_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = mundhum_religion
+			}
+		}
+		localization_key = mundhumism_high_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = paganism_religion
+			}
+		}
+		localization_key = paganism_high_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+				faith = faith:melieism
+		}
+		localization_key = tangut_high_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = qiangic_religion
+			}
+		}
+		localization_key = qiangic_high_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = siberian_religion
+			}
+		}
+		localization_key = siberian_high_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = slavic_religion
+			}
+		}
+		localization_key = slavic_high_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = taoism_religion
+			}
+		}
+		localization_key = taoism_high_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = tengrism_religion
+			}
+		}
+		localization_key = tengrism_high_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = waaqism_religion
+			}
+		}
+		localization_key = waaqism_high_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+				faith = faith:west_african_bidu_pagan
+		}
+		localization_key = bidu_high_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = west_african_religion
+			}
+		}
+		localization_key = west_african_high_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = west_african_bori_religion
+			}
+		}
+		localization_key = west_african_bori_high_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = west_african_orisha_religion
+			}
+		}
+		localization_key = yoruba_high_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = west_african_roog_religion
+			}
+		}
+		localization_key = west_african_roog_high_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = yazidi_religion
+			}
+		}
+		localization_key = yazidi_high_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+				faith = faith:zurvanism
+		}
+		localization_key = zurvanism_high_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+				faith = faith:urartuism
+		}
+		localization_key = urartuism_high_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = zoroastrianism_religion
+			}
+		}
+		localization_key = zoroastrianism_high_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = zunism_religion
+			}
+		}
+		localization_key = zunism_high_god_name_wol
+	}
+}
+
 ######Creator######
 
+#v1.5
 CreatorNameCel = {
 	type = character
 	
@@ -1143,8 +1540,386 @@ HealthGodNameCel = {
 	}
 }
 
+HealthGodNameWol = {
+	type = character
+	
+	text = {
+		trigger = {
+			OR = {
+				faith = faith:coptic
+				faith = faith:armenian_apostolic
+			}
+		}
+		localization_key = east_christian_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = christianity_religion
+			}
+		}
+		localization_key = christianity_health_god_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = akom_religion
+			}
+		}
+		localization_key = akom_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = baltic_religion
+			}
+		}
+		localization_key = baltic_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = bon_religion
+			}
+		}
+		localization_key = bon_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+				faith = faith:vajrayana
+		}
+		localization_key = vajrayana_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+				faith = faith:lamaism
+		}
+		localization_key = lamaism_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = buddhism_religion
+			}
+		}
+		localization_key = buddhism_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+				faith = faith:sedism
+		}
+		localization_key = sedism_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = tani_religion
+			}
+		}
+		localization_key = tani_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+				faith = faith:valentinianism
+		}
+		localization_key = valentinianism_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+				faith = faith:sethianism
+		}
+		localization_key = sethianism_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+				faith = faith:priscillianism
+		}
+		localization_key = manicheanism_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+				faith = faith:mandeaism
+		}
+		localization_key = mandeaism_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+				faith = faith:manichean
+		}
+		localization_key = manicheanism_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = dualism_religion
+			}
+		}
+		localization_key = dualism_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = finno_ugric_religion
+			}
+		}
+		localization_key = finno_ugric_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = germanic_religion
+			}
+		}
+		localization_key = germanic_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = hellenism_religion
+			}
+		}
+		localization_key = hellenism_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+				faith = faith:shaivism
+		}
+		localization_key = shaivism_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+				faith = faith:smartism
+		}
+		localization_key = smartism_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = hinduism_religion
+			}
+		}
+		localization_key = hinduism_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = islam_religion
+			}
+		}
+		localization_key = islam_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = jainism_religion
+			}
+		}
+		localization_key = jainism_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = judaism_religion
+			}
+		}
+		localization_key = judaism_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = kushitism_religion
+			}
+		}
+		localization_key = kushitism_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = magyar_religion
+			}
+		}
+		localization_key = magyar_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = mundhum_religion
+			}
+		}
+		localization_key = mundhumism_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = paganism_religion
+			}
+		}
+		localization_key = paganism_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+				faith = faith:melieism
+		}
+		localization_key = tangut_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = qiangic_religion
+			}
+		}
+		localization_key = qiangic_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = siberian_religion
+			}
+		}
+		localization_key = siberian_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = slavic_religion
+			}
+		}
+		localization_key = slavic_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = taoism_religion
+			}
+		}
+		localization_key = taoism_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = tengrism_religion
+			}
+		}
+		localization_key = tengrism_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = waaqism_religion
+			}
+		}
+		localization_key = waaqism_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+				faith = faith:west_african_bidu_pagan
+		}
+		localization_key = bidu_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = west_african_religion
+			}
+		}
+		localization_key = dogon_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = west_african_bori_religion
+			}
+		}
+		localization_key = bori_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = west_african_orisha_religion
+			}
+		}
+		localization_key = yoruba_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = west_african_roog_religion
+			}
+		}
+		localization_key = roog_sene_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = yazidi_religion
+			}
+		}
+		localization_key = yazidi_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = zoroastrianism_religion
+			}
+		}
+		localization_key = zoroastrianism_health_god_name_wol
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = zunism_religion
+			}
+		}
+		localization_key = zunism_health_god_name_wol
+	}
+}
+
 ######Fertility God######
 
+#v1.5
 FertilityGodNameCel = {
 	type = character
 	
@@ -1527,6 +2302,7 @@ FertilityGodNameCel = {
 
 ######Wealth God######
 
+#v1.5
 WealthGodNameCel = {
 	type = character
 	
@@ -1937,6 +2713,7 @@ WealthGodNameCel = {
 
 ######Household God######
 
+#v1.5
 HouseholdGodNameCel = {
 	type = character
 	
@@ -2333,6 +3110,7 @@ HouseholdGodNameCel = {
 
 ######Fate God######
 
+#v1.5
 FateGodNameCel = {
 	type = character
 	
@@ -2639,6 +3417,7 @@ FateGodNameCel = {
 
 ######Knowledge God######
 
+#v1.5
 KnowledgeGodNameCel = {
 	type = character
 	
@@ -3049,6 +3828,7 @@ KnowledgeGodNameCel = {
 
 ######War God######
 
+#v1.5
 WarGodNameCel = {
 	type = character
 	
@@ -3466,6 +4246,7 @@ WarGodNameCel = {
 
 ######Trickster God######
 
+#v1.5
 TricksterGodNameCel = {
 	type = character
 	
@@ -3786,6 +4567,7 @@ TricksterGodNameCel = {
 
 ######Night God######
 
+#v1.5
 NightGodNameCel = {
 	type = character
 	
@@ -4134,6 +4916,7 @@ NightGodNameCel = {
 
 ######Water God######
 
+#v1.5
 WaterGodNameCel = {
 	type = character
 	
@@ -4506,6 +5289,7 @@ WaterGodNameCel = {
 
 ######Witch God######
 
+#v1.5
 WitchGodNameCel = {
 	type = character
 	
@@ -4838,6 +5622,255 @@ WitchGodNameCel = {
 	}
 }
 
+######Death Deity Wołacz######
+
+#v1.5
+DeathDeityNameNarz = {
+	type = character
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = christianity_religion
+			}
+		}
+		localization_key = christianity_death_deity_name_narz
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = baltic_religion
+			}
+		}
+		localization_key = baltic_death_deity_name_narz
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = bon_religion
+			}
+		}
+		localization_key = bon_death_deity_name_narz
+	}
+	
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = buddhism_religion
+			}
+		}
+		localization_key = buddhism_death_god_name_narz
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = tani_religion
+			}
+		}
+		localization_key = hinduism_death_name_narz
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = dualism_religion
+			}
+		}
+		localization_key = dualism_death_deity_name_narz
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = finno_ugric_religion
+			}
+		}
+		localization_key = finno_ugric_death_deity_name_narz
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = germanic_religion
+			}
+		}
+		localization_key = germanic_death_deity_name_narz
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = hellenism_religion
+			}
+		}
+		localization_key = hellenism_death_deity_name_narz
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = hinduism_religion
+			}
+		}
+		localization_key = hinduism_death_name_narz
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = islam_religion
+			}
+		}
+		localization_key = islam_death_deity_name_narz
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = jainism_religion
+			}
+		}
+		localization_key = jainism_death_deity_name_narz
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = judaism_religion
+			}
+		}
+		localization_key = judaism_death_deity_name_narz
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = kushitism_religion
+			}
+		}
+		localization_key = kushitism_high_god_name_narz
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = magyar_religion
+			}
+		}
+		localization_key = magyar_devil_name_narz
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = mundhum_religion
+			}
+		}
+		localization_key = hinduism_death_name_narz
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = qiangic_religion
+			}
+		}
+		localization_key = qiangic_death_name_narz
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = siberian_religion
+			}
+		}
+		localization_key = siberian_death_deity_name_narz
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = slavic_religion
+			}
+		}
+		localization_key = slavic_devil_name_narz
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = tengrism_religion
+			}
+		}
+		localization_key = tengrism_devil_name_narz
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = waaqism_religion
+			}
+		}
+		localization_key = waaqism_fate_god_name_narz
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = west_african_religion
+			}
+		}
+		localization_key = west_african_death_deity_name_narz
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = west_african_orisha_religion
+			}
+		}
+		localization_key = yoruba_death_deity_name_narz
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = yazidi_religion
+			}
+		}
+		localization_key = yazidi_good_god_azazil_narz
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = zoroastrianism_religion
+			}
+		}
+		localization_key = zoroastrianism_devil_name_narz
+	}
+	
+	text = {
+		trigger = {
+			faith = {
+				religion_tag = zunism_religion
+			}
+		}
+		localization_key = zunism_devil_name_narz
+	}
+	
+	text = {
+		fallback = yes
+		localization_key = paganism_death_deity_name_narz
+	}
+}
+
+######GHW######
+
 GHWNameAdj = {
 	type = character
 	
@@ -5108,7 +6141,7 @@ GHWNameDop = {
 	}
 }
 
-##################################################  ##################################################  ##################################################   
+######Pantheon######
 
 PantheonTermIsFemale = {
 	type = character
@@ -5277,8 +6310,10 @@ PantheonTermGenitive = {
 		fallback = yes
 		localization_key = pantheon_term_fallback
 	}
-}
 
+    
+
+}
 
 PantheonTermDative = {
 	type = character
@@ -5425,1249 +6460,128 @@ PantheonTermDative = {
 	}
 }
 
-######Health God Wołacz######
+######House of Worship ######
 
-HealthGodNameWol = {
-	type = character
+#v1.5
+HouseOfWorshipBase = {
+	type = faith
 	
 	text = {
 		trigger = {
-			OR = {
-				faith = faith:coptic
-				faith = faith:armenian_apostolic
-			}
+				this = faith:insular_celtic
 		}
-		localization_key = east_christian_health_god_name_wol
+		localization_key = insular_celtic_house_of_worship
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+				this = faith:bosnian_church
+		}
+		localization_key = bosnian_house_of_worship
+	}
+	
+	text = {
+		trigger = {
+			
 				religion_tag = christianity_religion
 			}
-		}
-		localization_key = christianity_health_god_wol
+		
+		localization_key = christianity_house_of_worship
 	}
 	
 	text = {
 		trigger = {
-			faith = {
-				religion_tag = akom_religion
-			}
+				this = faith:lamaism
 		}
-		localization_key = akom_health_god_name_wol
+		localization_key = lamaism_house_of_worship
 	}
 	
 	text = {
 		trigger = {
-			faith = {
-				religion_tag = baltic_religion
-			}
-		}
-		localization_key = baltic_health_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = bon_religion
-			}
-		}
-		localization_key = bon_health_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-				faith = faith:vajrayana
-		}
-		localization_key = vajrayana_health_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-				faith = faith:lamaism
-		}
-		localization_key = lamaism_health_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = buddhism_religion
-			}
-		}
-		localization_key = buddhism_health_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-				faith = faith:sedism
-		}
-		localization_key = sedism_health_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-			faith = {
+			
 				religion_tag = tani_religion
 			}
-		}
-		localization_key = tani_health_god_name_wol
+		
+		localization_key = tani_house_of_worship
 	}
 	
 	text = {
 		trigger = {
-				faith = faith:valentinianism
+				this = faith:alevi
 		}
-		localization_key = valentinianism_health_god_name_wol
+		localization_key = alevi_house_of_worship
 	}
 	
 	text = {
 		trigger = {
-				faith = faith:sethianism
-		}
-		localization_key = sethianism_health_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-				faith = faith:priscillianism
-		}
-		localization_key = manicheanism_health_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-				faith = faith:mandeaism
-		}
-		localization_key = mandeaism_health_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-				faith = faith:manichean
-		}
-		localization_key = manicheanism_health_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = dualism_religion
-			}
-		}
-		localization_key = dualism_health_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = finno_ugric_religion
-			}
-		}
-		localization_key = finno_ugric_health_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = germanic_religion
-			}
-		}
-		localization_key = germanic_health_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = hellenism_religion
-			}
-		}
-		localization_key = hellenism_health_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-				faith = faith:shaivism
-		}
-		localization_key = shaivism_health_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-				faith = faith:smartism
-		}
-		localization_key = smartism_health_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = hinduism_religion
-			}
-		}
-		localization_key = hinduism_health_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-			faith = {
+			
 				religion_tag = islam_religion
 			}
-		}
-		localization_key = islam_health_god_name_wol
+		
+		localization_key = islam_house_of_worship
 	}
 	
 	text = {
 		trigger = {
-			faith = {
-				religion_tag = jainism_religion
-			}
-		}
-		localization_key = jainism_health_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-			faith = {
+			
 				religion_tag = judaism_religion
 			}
-		}
-		localization_key = judaism_health_god_name_wol
+		
+		localization_key = judaism_house_of_worship
 	}
 	
 	text = {
 		trigger = {
-			faith = {
-				religion_tag = kushitism_religion
-			}
-		}
-		localization_key = kushitism_health_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = magyar_religion
-			}
-		}
-		localization_key = magyar_health_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = mundhum_religion
-			}
-		}
-		localization_key = mundhumism_health_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = paganism_religion
-			}
-		}
-		localization_key = paganism_health_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-				faith = faith:melieism
-		}
-		localization_key = tangut_health_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = qiangic_religion
-			}
-		}
-		localization_key = qiangic_health_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = siberian_religion
-			}
-		}
-		localization_key = siberian_health_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = slavic_religion
-			}
-		}
-		localization_key = slavic_health_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = taoism_religion
-			}
-		}
-		localization_key = taoism_health_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = tengrism_religion
-			}
-		}
-		localization_key = tengrism_health_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-			faith = {
+			
 				religion_tag = waaqism_religion
 			}
-		}
-		localization_key = waaqism_health_god_name_wol
+		
+		localization_key = waaqism_house_of_worship
 	}
 	
 	text = {
 		trigger = {
-				faith = faith:west_african_bidu_pagan
-		}
-		localization_key = bidu_health_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = west_african_religion
-			}
-		}
-		localization_key = dogon_health_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = west_african_bori_religion
-			}
-		}
-		localization_key = bori_health_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = west_african_orisha_religion
-			}
-		}
-		localization_key = yoruba_health_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = west_african_roog_religion
-			}
-		}
-		localization_key = roog_sene_health_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = yazidi_religion
-			}
-		}
-		localization_key = yazidi_health_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = zoroastrianism_religion
-			}
-		}
-		localization_key = zoroastrianism_health_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = zunism_religion
-			}
-		}
-		localization_key = zunism_health_god_name_wol
-	}
-}
-
-######Death Deity Wołacz######
-
-DeathDeityNameNarz = {
-	type = character
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = christianity_religion
-			}
-		}
-		localization_key = christianity_death_deity_name_narz
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = baltic_religion
-			}
-		}
-		localization_key = baltic_death_deity_name_narz
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = bon_religion
-			}
-		}
-		localization_key = bon_death_deity_name_narz
-	}
-	
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = buddhism_religion
-			}
-		}
-		localization_key = buddhism_death_god_name_narz
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = tani_religion
-			}
-		}
-		localization_key = hinduism_death_name_narz
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = dualism_religion
-			}
-		}
-		localization_key = dualism_death_deity_name_narz
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = finno_ugric_religion
-			}
-		}
-		localization_key = finno_ugric_death_deity_name_narz
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = germanic_religion
-			}
-		}
-		localization_key = germanic_death_deity_name_narz
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = hellenism_religion
-			}
-		}
-		localization_key = hellenism_death_deity_name_narz
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = hinduism_religion
-			}
-		}
-		localization_key = hinduism_death_name_narz
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = islam_religion
-			}
-		}
-		localization_key = islam_death_deity_name_narz
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = jainism_religion
-			}
-		}
-		localization_key = jainism_death_deity_name_narz
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = judaism_religion
-			}
-		}
-		localization_key = judaism_death_deity_name_narz
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = kushitism_religion
-			}
-		}
-		localization_key = kushitism_high_god_name_narz
-	}
-	
-	text = {
-		trigger = {
-			faith = {
+			
 				religion_tag = magyar_religion
 			}
-		}
-		localization_key = magyar_devil_name_narz
+		
+		localization_key = magyar_house_of_worship
 	}
 	
 	text = {
 		trigger = {
-			faith = {
-				religion_tag = mundhum_religion
-			}
-		}
-		localization_key = hinduism_death_name_narz
-	}
-	
-	text = {
-		trigger = {
-			faith = {
+			
 				religion_tag = qiangic_religion
 			}
-		}
-		localization_key = qiangic_death_name_narz
+		
+		localization_key = qiangic_house_of_worship
 	}
 	
 	text = {
 		trigger = {
-			faith = {
-				religion_tag = siberian_religion
-			}
-		}
-		localization_key = siberian_death_deity_name_narz
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = slavic_religion
-			}
-		}
-		localization_key = slavic_devil_name_narz
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = tengrism_religion
-			}
-		}
-		localization_key = tengrism_devil_name_narz
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = waaqism_religion
-			}
-		}
-		localization_key = waaqism_fate_god_name_narz
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = west_african_religion
-			}
-		}
-		localization_key = west_african_death_deity_name_narz
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = west_african_orisha_religion
-			}
-		}
-		localization_key = yoruba_death_deity_name_narz
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = yazidi_religion
-			}
-		}
-		localization_key = yazidi_good_god_azazil_narz
-	}
-	
-	text = {
-		trigger = {
-			faith = {
+			
 				religion_tag = zoroastrianism_religion
 			}
-		}
-		localization_key = zoroastrianism_devil_name_narz
+		
+		localization_key = zoroastrianism_house_of_worship
 	}
 	
 	text = {
-		trigger = {
-			faith = {
-				religion_tag = zunism_religion
-			}
-		}
-		localization_key = zunism_devil_name_narz
-	}
-	
-	text = {
+		localization_key = house_of_worship
 		fallback = yes
-		localization_key = paganism_death_deity_name_narz
 	}
 }
 
-######High God Wołacz######
-
-HighGodNameWol = {
-	type = character
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = christianity_religion
-			}
-		}
-		localization_key = christianity_high_god_wol
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = akom_religion
-			}
-		}
-		localization_key = akom_high_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = baltic_religion
-			}
-		}
-		localization_key = baltic_high_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = bon_religion
-			}
-		}
-		localization_key = bon_high_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = buddhism_religion
-			}
-		}
-		localization_key = buddhism_high_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-				faith = faith:sedism
-		}
-		localization_key = sedism_high_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = tani_religion
-			}
-		}
-		localization_key = tani_high_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-				faith = faith:valentinianism
-		}
-		localization_key = valentinianism_high_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-				faith = faith:sethianism
-		}
-		localization_key = sethianism_high_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-				faith = faith:priscillianism
-		}
-		localization_key = priscillianism_high_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-				faith = faith:mandeaism
-		}
-		localization_key = mandeaism_high_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-				faith = faith:manichean
-		}
-		localization_key = manicheanism_high_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = dualism_religion
-			}
-		}
-		localization_key = dualism_high_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = finno_ugric_religion
-			}
-		}
-		localization_key = finno_ugric_high_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = germanic_religion
-			}
-		}
-		localization_key = germanic_high_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = hellenism_religion
-			}
-		}
-		localization_key = hellenism_high_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-				faith = faith:vaishnavism
-		}
-		localization_key = vaishnavism_high_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-				faith = faith:shaivism
-		}
-		localization_key = shaivism_high_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-				faith = faith:srikula_shaktism
-		}
-		localization_key = srikula_shaktism_high_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-				faith = faith:kalikula_shaktism
-		}
-		localization_key = kalikula_shaktism_high_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-				faith = faith:krishnaism
-		}
-		localization_key = krishnaism_high_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = hinduism_religion
-			}
-		}
-		localization_key = hinduism_high_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = islam_religion
-			}
-		}
-		localization_key = islam_high_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = jainism_religion
-			}
-		}
-		localization_key = jainism_high_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = judaism_religion
-			}
-		}
-		localization_key = judaism_high_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = kushitism_religion
-			}
-		}
-		localization_key = kushitism_high_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = magyar_religion
-			}
-		}
-		localization_key = magyar_high_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-				faith = faith:yumaism
-		}
-		localization_key = yumaism_high_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = mundhum_religion
-			}
-		}
-		localization_key = mundhumism_high_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = paganism_religion
-			}
-		}
-		localization_key = paganism_high_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-				faith = faith:melieism
-		}
-		localization_key = tangut_high_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = qiangic_religion
-			}
-		}
-		localization_key = qiangic_high_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = siberian_religion
-			}
-		}
-		localization_key = siberian_high_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = slavic_religion
-			}
-		}
-		localization_key = slavic_high_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = taoism_religion
-			}
-		}
-		localization_key = taoism_high_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = tengrism_religion
-			}
-		}
-		localization_key = tengrism_high_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = waaqism_religion
-			}
-		}
-		localization_key = waaqism_high_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-				faith = faith:west_african_bidu_pagan
-		}
-		localization_key = bidu_high_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = west_african_religion
-			}
-		}
-		localization_key = west_african_high_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = west_african_bori_religion
-			}
-		}
-		localization_key = west_african_bori_high_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = west_african_orisha_religion
-			}
-		}
-		localization_key = yoruba_high_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = west_african_roog_religion
-			}
-		}
-		localization_key = west_african_roog_high_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = yazidi_religion
-			}
-		}
-		localization_key = yazidi_high_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-				faith = faith:zurvanism
-		}
-		localization_key = zurvanism_high_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-				faith = faith:urartuism
-		}
-		localization_key = urartuism_high_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = zoroastrianism_religion
-			}
-		}
-		localization_key = zoroastrianism_high_god_name_wol
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = zunism_religion
-			}
-		}
-		localization_key = zunism_high_god_name_wol
-	}
-}
-
-######House of Worship Adjective######
-### 1.4.4 - kościoła, meczetu
-
+#v1.5
 HouseOfWorshipAdj = {
-	type = character
-	
-	text = {
-		trigger = {
-				faith = faith:insular_celtic
-		}
-		localization_key = insular_celtic_house_of_worship_adj
-	}
-	
-	text = {
-		trigger = {
-				faith = faith:bosnian_church
-		}
-		localization_key = bosnian_house_of_worship_adj
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = christianity_religion
-			}
-		}
-		localization_key = christianity_house_of_worship_adj
-	}
-	
-	text = {
-		trigger = {
-				faith = faith:lamaism
-		}
-		localization_key = lamaism_house_of_worship_adj
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = tani_religion
-			}
-		}
-		localization_key = tani_house_of_worship_adj
-	}
-	
-	text = {
-		trigger = {
-				faith = faith:alevi
-		}
-		localization_key = alevi_house_of_worship_adj
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = islam_religion
-			}
-		}
-		localization_key = islam_house_of_worship_adj
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = judaism_religion
-			}
-		}
-		localization_key = judaism_house_of_worship_adj
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = waaqism_religion
-			}
-		}
-		localization_key = waaqism_house_of_worship_adj
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = magyar_religion
-			}
-		}
-		localization_key = magyar_house_of_worship_adj
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = qiangic_religion
-			}
-		}
-		localization_key = qiangic_house_of_worship_adj
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = zoroastrianism_religion
-			}
-		}
-		localization_key = zoroastrianism_house_of_worship_adj
-	}
-	
-	text = {
-		localization_key = house_of_worship_adj
-		fallback = yes
-	}
+	parent = HouseOfWorshipBase
+	suffix = "_adj"
 }
 
-# 1.4.4 - kościołach, meczetach
+#v1.5
 HouseOfWorshipPluralLocative = {
-	type = character
-	
-	text = {
-		trigger = {
-				faith = faith:insular_celtic
-		}
-		localization_key = insular_celtic_house_of_worship_plural_locative
-	}
-	
-	text = {
-		trigger = {
-				faith = faith:bosnian_church
-		}
-		localization_key = bosnian_house_of_worship_plural_locative
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = christianity_religion
-			}
-		}
-		localization_key = christianity_house_of_worship_plural_locative
-	}
-	
-	text = {
-		trigger = {
-				faith = faith:lamaism
-		}
-		localization_key = lamaism_house_of_worship_plural_locative
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = tani_religion
-			}
-		}
-		localization_key = tani_house_of_worship_plural_locative
-	}
-	
-	text = {
-		trigger = {
-				faith = faith:alevi
-		}
-		localization_key = alevi_house_of_worship_plural_locative
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = islam_religion
-			}
-		}
-		localization_key = islam_house_of_worship_plural_locative
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = judaism_religion
-			}
-		}
-		localization_key = judaism_house_of_worship_plural_locative
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = waaqism_religion
-			}
-		}
-		localization_key = waaqism_house_of_worship_plural_locative
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = magyar_religion
-			}
-		}
-		localization_key = magyar_house_of_worship_plural_locative
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = qiangic_religion
-			}
-		}
-		localization_key = qiangic_house_of_worship_plural_locative
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = zoroastrianism_religion
-			}
-		}
-		localization_key = zoroastrianism_house_of_worship_plural_locative
-	}
-	
-	
-	text = {
-		localization_key = house_of_worship_plural_locative
-		fallback = yes
-	}
+	parent = HouseOfWorshipBase
+	suffix = "_plural_locative"
 }
 
 ######Religious Text Adjective######
@@ -7252,4 +7166,5 @@ ReligiousSymbolAdj = {
 			fallback = yes
 		}
 }
+
 ################################################## ################################################## ##################################################
