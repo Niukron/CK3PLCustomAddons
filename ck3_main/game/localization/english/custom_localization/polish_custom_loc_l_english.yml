@@ -3844,17 +3844,17 @@
 
 
  #PantheonTermGenitive
- pantheon_term_fallback:0 "[ROOT.Char.GetFaith.PantheonTerm]"
- akom_the_abosom_genitive:0 "Abosoma"
- buddhism_samsara_genitive:0 "Sansary"
- religion_the_gods_genitive:0 "bogów"
- dualism_good_god_knowledge_genitive:0 "prawdziwej wiedzy"
- paganism_mother_earth_father_sky_genitive:0 "Matki Ziemi i Ojca Nieba"
- religion_the_spirits_genitive:0 "duchów"
- yoruba_the_orisa_genitive:0 "Oriszy"
+ pantheon_term_fallback_possessive:0 "[ROOT.Char.GetFaith.PantheonTerm]"
+ akom_the_abosom_possessive:0 "Abosoma"
+ buddhism_samsara_possessive:0 "Sansary"
+ religion_the_gods_possessive:0 "bogów"
+ dualism_good_god_knowledge_possessive:0 "prawdziwej wiedzy"
+ paganism_mother_earth_father_sky_possessive:0 "Matki Ziemi i Ojca Nieba"
+ religion_the_spirits_possessive:0 "duchów"
+ yoruba_the_orisa_possessive:0 "Oriszy"
 
  #PantheonTermDative
- pantheon_term_fallback:0 "[ROOT.Char.GetFaith.PantheonTerm]"
+ pantheon_term_fallback_dative:0 "[ROOT.Char.GetFaith.PantheonTerm]"
  akom_the_abosom_dative:0 "Abosomowi"
  buddhism_samsara_dative:0 "Sansarze"
  christianity_high_god_name_dative:0 "Bogu"
