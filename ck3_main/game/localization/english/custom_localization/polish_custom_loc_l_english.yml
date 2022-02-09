@@ -5,28 +5,29 @@
  #RegionalDrinkGenitive
  wine_genitive:0 "wina"
  mead_genitive:0 "miodu pitnego"
+ expensive_drink_spiced_wine_singular_genitive:0 "wina korzennego"
  tea_genitive:0 "herbaty"
  soma_genitive:0 "somy"
- expensive_drink_spiced_wine_genitive:0 "wina korzennego"
  expensive_drink_violet_sharbah_genitive:0 "fiołkowego szarbatu"
- expensive_drink_aribica_coffee_genitive:0 "kawy arabskiej"
 
  #RegionalDrinkInstrumental
  wine_instrumental:0 "winem"
  mead_instrumental:0 "miodem pitnym"
+ expensive_drink_spiced_wine_singular_instrumental:0 "winem korzennym"
  tea_instrumental:0 "herbatą"
  soma_instrumental:0 "somą"
- expensive_drink_spiced_wine_instrumental:0 "winem korzennym"
  expensive_drink_violet_sharbah_instrumental:0 "fiołkowym szarbatem"
- expensive_drink_aribica_coffee_instrumental:0 "kawą arabską"
- 
+
  #GetExpensiveDrink_SingularBier 
- expensive_drink_singular_fancy_champagne_bier:0 "drogiego szampana"
- expensive_drink_singular_foreign_liqueurs_bier:0 "zagraniczny likier"
+
+ expensive_drink_singular_hippocras_bier:0 "wykwintny hipokras"
+ expensive_drink_singular_bordeaux_claret_bier:0 "Bordeaux claret"
+ expensive_drink_singular_imported_wine_bier:0 "sprowadzane wino"
+ expensive_drink_singular_brandy_bier:0 "nowoodkryte brandy"
  expensive_drink_singular_spiced_wine_bier:0 "wino korzenne"
- expensive_drink_singular_premium_tea_bier:0 "drogą herbatę"
+ expensive_drink_singular_premium_tea_bier:0 "sprowadzaną herbatę"
+ expensive_drink_invigorating_herbal_infusions_bier:0 "orzeźwiający napar ziołowy"
  expensive_drink_singular_violet_sharbah_bier:0 "fiołkowy szarbat"
- expensive_drink_singular_aribica_coffee_bier:0 "kawę arabską"
 
  #Typy rezydencji postaci - dopełniacz, miejscownik
  
@@ -36,6 +37,12 @@
  castle_dop:0 "zamku"
  
  #Relacje
+
+ relation_titled_firstname_vocative:0 "$relation_titled_firstname$"
+ relation_knight_possessive:0 "[GetPlayer.Custom( 'KnightCulturePossessiveNoTooltip' )|l]"
+ relation_great_grandmother_possessive:0 "prababci"
+ relation_great_grandfather_possessive:0 "pradziadka"
+ 
 
  #RelationToMeAccusative - v1.5
  relation_motherwife_accusative:0 "matkę-żonę"
@@ -2038,7 +2045,7 @@
  venomous_creature_king_cobra_adj1:0 "kobrę królewską"
  venomous_creature_saw_scale_adj1:0 "żmiję skalistą"
  venomous_creature_boomslang_adj1:0 "zaskrońca"
- venomous_creature_krait_ad1:0 "niemrawca indyjskiego"
+ venomous_creature_krait_adj1:0 "niemrawca indyjskiego"
  venomous_creature_viper_adj1:0 "żmiję"
  venomous_creature_snake_adj1:0 "węża"
  venomous_creature_beaked_mammal_adj1:0 "dziobaka australijskiego"
@@ -4087,6 +4094,9 @@
  activity_your_dative_witch_ritual:0 "[Select_CString( ROOT.GetActivity.GetOwner.IsLocalPlayer, 'twoim wielkim rytuale', Concatenate('wielkim rytuale u ', ROOT.GetActivity.GetOwner.GetShortUIName))]"
  activity_your_dative_fallback:0 "[ROOT.GetActivity.GetName|V]"
 
+
+ house_of_worship:0 "dom boży"
+
  #HouseOfWorshipAdj
  insular_celtic_house_of_worship_adj:0 "opactwa"
  bosnian_house_of_worship_adj:0 "hižy"
@@ -4334,7 +4344,7 @@ stick_horse_accusative:0 "konika na kiju"
  bedswerver_female_vocative:0 "cudzołożnico"
  
  #InsultNounSexualVocative
- insultnounsexual_lecher_vocative_vocative:0 "zbereźniku"
+ insultnounsexual_lecher_vocative:0 "zbereźniku"
  insultnounsexual_debaucher_vocative:0 "uwodzicielu"
  insultnounsexual_fornicator_vocative:0 "cudzołożniku"
  insultnounsexual_philanderer_vocative:0 "bałamucie"
@@ -4553,7 +4563,7 @@ stick_horse_accusative:0 "konika na kiju"
  number_six_instrumental:0 "sześcioma"
  number_seven_instrumental:0 "siedmioma"
  number_eight_instrumental:0 "ośmioma"
- umber_nine_instrumental:0 "dziewięcioma"
+ number_nine_instrumental:0 "dziewięcioma"
  number_ten_instrumental:0 "dziesięcioma"
  number_eleven_instrumental:0 "jedenastoma"
  number_twelve_instrumental:0 "dwunastoma"
