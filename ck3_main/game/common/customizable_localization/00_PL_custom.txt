@@ -1,4 +1,40 @@
 ﻿
+#v1.5 - original
+education_focus = {
+	type = character
+
+	text = {
+		localization_key = education_learning_loc
+		trigger = {
+			has_trait = education_learning
+		}
+	}
+	text = {
+		localization_key = education_stewardship_loc
+		trigger = {
+			has_trait = education_stewardship
+		}
+	}
+	text = {
+		localization_key = education_martial_loc
+		trigger = {
+			has_trait = education_martial
+		}
+	}
+	text = {
+		localization_key = education_intrigue_loc
+		trigger = {
+			has_trait = education_intrigue
+		}
+	}
+	text = {
+		localization_key = education_diplomacy_loc
+		trigger = {
+			has_trait = education_diplomacy
+		}
+	}
+}
+
 #v1.5
 education_focus_acc = {
 	parent = education_focus
@@ -15,6 +51,44 @@ education_focus_ins = {
 education_focus_gen = {
 	parent = education_focus
 	suffix = "_gen"
+}
+
+
+
+#v1.5 - original
+education_focus_child = {
+	type = character
+
+	text = {
+		localization_key = education_learning_loc
+		trigger = {
+			exists = var:education_learning_variable
+		}
+	}
+	text = {
+		localization_key = education_stewardship_loc
+		trigger = {
+			exists = var:education_stewardship_variable
+		}
+	}
+	text = {
+		localization_key = education_martial_loc
+		trigger = {
+			exists = var:education_martial_variable
+		}
+	}
+	text = {
+		localization_key = education_intrigue_loc
+		trigger = {
+			exists = var:education_intrigue_variable
+		}
+	}
+	text = {
+		localization_key = education_diplomacy_loc
+		trigger = {
+			exists = var:education_diplomacy_variable
+		}
+	}
 }
 
 #v1.5
@@ -231,6 +305,41 @@ religion_name_adj_feminine_accusative = {
 	}
 }
 
+
+#v1.5 - original
+TwinDaughtersSonsChildren = {
+	type = character
+
+	text = {
+		trigger = {
+			is_female = yes
+			any_sibling = {
+				is_twin_of = prev
+				is_female = yes
+			}
+		}
+		localization_key = relation_daughters
+	}
+	text = {
+		trigger = {
+			is_male = yes
+			any_sibling = {
+				is_twin_of = prev
+				is_male = yes
+			}
+		}
+		localization_key = relation_sons
+	}
+	text = {
+		trigger = {
+			any_sibling = {
+				is_twin_of = prev
+				sex_opposite_of = prev
+			}
+		}
+		localization_key = relation_children
+	}
+}
 
 #v1.5
 TwinDaughtersSonsChildrenNum = {
