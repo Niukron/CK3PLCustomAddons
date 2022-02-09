@@ -5871,274 +5871,152 @@ DeathDeityNameNarz = {
 
 ######GHW######
 
-GHWNameAdj = {
-	type = character
+#v1.5
+GHWNameBase = {
+	type = faith
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = bon_religion
 			}
-		}
-		localization_key = ghw_purification_adj
+		
+		localization_key = ghw_purification
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = buddhism_religion
 			}
-		}
-		localization_key = ghw_purification_adj
+		
+		localization_key = ghw_purification
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = christianity_religion
 			}
-		}
-		localization_key = ghw_crusade_adj
+		
+		localization_key = ghw_crusade
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = tani_religion
 			}
-		}
-		localization_key = ghw_purification_adj
+		
+		localization_key = ghw_purification
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = dualism_religion
 			}
-		}
-		localization_key = ghw_purification_adj
+		
+		localization_key = ghw_purification
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = hinduism_religion
 			}
-		}
-		localization_key = ghw_purification_adj
+		
+		localization_key = ghw_purification
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = islam_religion
 			}
-		}
-		localization_key = ghw_jihad_adj
+		
+		localization_key = ghw_jihad
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = jainism_religion
 			}
-		}
-		localization_key = ghw_purification_adj
+		
+		localization_key = ghw_purification
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = mundhum_religion
 			}
-		}
-		localization_key = ghw_purification_adj
+		
+		localization_key = ghw_purification
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = qiangic_religion
 			}
-		}
-		localization_key = ghw_purification_adj
+		
+		localization_key = ghw_purification
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = taoism_religion
 			}
-		}
-		localization_key = ghw_purification_adj
+		
+		localization_key = ghw_purification
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = yazidi_religion
 			}
-		}
-		localization_key = ghw_jihad_adj
+		
+		localization_key = ghw_jihad
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = zoroastrianism_religion
 			}
-		}
-		localization_key = ghw_purification_adj
+		
+		localization_key = ghw_purification
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = zunism_religion
 			}
-		}
-		localization_key = ghw_purification_adj
+		
+		localization_key = ghw_purification
 	}
 	
 	text = {
-		localization_key = ghw_great_holy_war_adj
+		localization_key = ghw_great_holy_war
 		fallback = yes
 	}
 }
 
+#v1.5
+GHWNameAdj = {
+	parent = GHWNameBase
+	suffix = "_adj"
+}
+
+#v1.5
 GHWNameDop = {
-	type = character
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = bon_religion
-			}
-		}
-		localization_key = ghw_purification_dop
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = buddhism_religion
-			}
-		}
-		localization_key = ghw_purification_dop
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = christianity_religion
-			}
-		}
-		localization_key = ghw_crusade_dop
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = tani_religion
-			}
-		}
-		localization_key = ghw_purification_dop
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = dualism_religion
-			}
-		}
-		localization_key = ghw_purification_dop
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = hinduism_religion
-			}
-		}
-		localization_key = ghw_purification_dop
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = islam_religion
-			}
-		}
-		localization_key = ghw_jihad_dop
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = jainism_religion
-			}
-		}
-		localization_key = ghw_purification_dop
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = mundhum_religion
-			}
-		}
-		localization_key = ghw_purification_dop
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = qiangic_religion
-			}
-		}
-		localization_key = ghw_purification_dop
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = taoism_religion
-			}
-		}
-		localization_key = ghw_purification_dop
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = yazidi_religion
-			}
-		}
-		localization_key = ghw_jihad_dop
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = zoroastrianism_religion
-			}
-		}
-		localization_key = ghw_purification_dop
-	}
-	
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = zunism_religion
-			}
-		}
-		localization_key = ghw_purification_dop
-	}
-	
-	text = {
-		localization_key = ghw_great_holy_war_dop
-		fallback = yes
-	}
+	parent = GHWNameBase
+	suffix = "_dop"
 }
 
 ######Pantheon######
