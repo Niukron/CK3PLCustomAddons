@@ -271,8 +271,8 @@
  relation_brotherinlaw_vocative:0 "szwagrze"
  relation_liege_female_vocative:0 "seniorko"
  relation_liege_male_vocative:0 "seniorze"
- relation_councillor_female_vocative:0 "[second.Custom('CouncilPositionFemaleVocative')]"
- relation_councillor_male_vocative:0 "[second.Custom('CouncilPositionMaleVocative')]"
+ relation_councillor_female_vocative:0 "[second.Custom('CouncilPositionGenderVocative')]"
+ relation_councillor_male_vocative:0 "[second.Custom('CouncilPositionGenderVocative')]"
  relation_court_physician_female_vocative:0 "nadworna medyczko"
  relation_court_physician_male_vocative:0 "nadworny medyku"
  relation_keeper_of_swans_female_vocative:0 "opiekunko łabędzi"
@@ -4058,90 +4058,59 @@
 
  #CouncilPositionGender
 
- councillor_chancellor_female:0 "Kanclerzowa"
- councillor_marshal_female:0 "Marszałkini"
- councillor_steward_female:0 "Zarządczyni"
- councillor_spymaster_female:0 "Mistrzyni szpiegów"
+ councillor_chancellor_gender:0 "[Select_CString(ROOT.Char.IsFemale, 'Kanclerzowa', 'Kanclerz' )]"
+ councillor_marshal_gender:0 "[Select_CString(ROOT.Char.IsFemale, 'Marszałkini', 'Marszałek' )]"
+ councillor_steward_gender:0 "[Select_CString(ROOT.Char.IsFemale, 'Zarządczyni', 'Zarządca' )]"
+ councillor_spymaster_gender:0 "[Select_CString(ROOT.Char.IsFemale, 'Mistrzyni szpiegów', 'Mistrz szpiegów' )]"
+ councillor_court_chaplain_gender:0 "[Select_CString(ROOT.Char.IsFemale, 'Nadworna kapelan', 'Nadworny kapelan' )]"
 
  #CouncilPositionGenderPossessive
 
- councillor_chancellor_female_possessive:0 "Kanclerzowej"
- councillor_marshal_female_possessive:0 "$councillor_marshal_female$"
- councillor_steward_female_possessive:0 "$councillor_steward_female$"
- councillor_spymaster_female_possessive:0 "$councillor_spymaster_female$" 
+ councillor_chancellor_gender_possessive:0 "[Select_CString(ROOT.Char.IsFemale, 'Kanclerzowej', 'Kanclerza' )]"
+ councillor_marshal_gender_possessive:0 "[Select_CString(ROOT.Char.IsFemale, 'Marszałkini', 'Marszałka' )]"
+ councillor_steward_gender_possessive:0 "[Select_CString(ROOT.Char.IsFemale, 'Zarządczyni', 'Zarządcy' )]"
+ councillor_spymaster_gender_possessive:0 "[Select_CString(ROOT.Char.IsFemale, 'Mistrzyni szpiegów', 'Mistrza szpiegów' )]"
+ councillor_court_chaplain_gender_possessive:0 "[Select_CString(ROOT.Char.IsFemale, 'Nadwornej kapelan', 'Nadwornego kapelana' )]"
 
- #CouncilPositionFemaleAccusative
+ #CouncilPositionGenderAccusative
 
- councillor_chancellor_female_accusative:0 "Kanclerzową"
- councillor_marshal_female_accusative:0 "Marszałkinię"
- councillor_steward_female_accusative:0 "Zarządczynię"
- councillor_spymaster_female_accusative:0 "Mistrzynię szpiegów"
+ councillor_chancellor_female_gender_accusative:0 "[Select_CString(ROOT.Char.IsFemale, 'Kanclerzową', 'Kanclerza' )]"
+ councillor_marshal_female_gender_accusative:0 "[Select_CString(ROOT.Char.IsFemale, 'Marszałkinię', 'Marszałka' )]"
+ councillor_steward_female_gender_accusative:0 "[Select_CString(ROOT.Char.IsFemale, 'Zarządczynię', 'Zarządcę' )]"
+ councillor_spymaster_female_gender_accusative:0 "[Select_CString(ROOT.Char.IsFemale, 'Mistrzynię szpiegów', 'Mistrza szpiegów' )]"
+ councillor_court_chaplain_gender_accusative:0 "[Select_CString(ROOT.Char.IsFemale, 'Nadworną kapelan', 'Nadwornego kapelana' )]"
 
- #CouncilPositionFemaleVocative
+ #CouncilPositionGenderVocative
 
- councillor_chancellor_female_vocative:0 "Kanclerzowo"
- councillor_marshal_female_vocative:0 "$councillor_marshal_female$"
- councillor_steward_female_vocative:0 "$councillor_steward_female$"
- councillor_spymaster_female_vocative:0 "$councillor_spymaster_female$"
+ councillor_chancellor_female_gender_vocative:0 "[Select_CString(ROOT.Char.IsFemale, 'Kanclerzowo', 'Kanclerzu' )]"
+ councillor_marshal_female_gender_vocative:0 "[Select_CString(ROOT.Char.IsFemale, 'Marszałkini', 'Marszałku' )]"
+ councillor_steward_female_gender_vocative:0 "[Select_CString(ROOT.Char.IsFemale, 'Zarządczyni', 'Zarządco' )]"
+ councillor_spymaster_female_gender_vocative:0 "[Select_CString(ROOT.Char.IsFemale, 'Mistrzyni szpiegów', 'Mistrzu szpiegów' )]"
+ councillor_court_chaplain_gender_vocative:0 "[Select_CString(ROOT.Char.IsFemale, 'Nadworna kapelan', 'Nadworny kapelanie' )]"
 
- #CouncilPositionFemaleLocative
+ #CouncilPositionGenderLocative
 
- councillor_chancellor_female_locative:0 "Kanclerzowej"
- councillor_marshal_female_locative:0 "$councillor_marshal_female$"
- councillor_steward_female_locative:0 "$councillor_steward_female$"
- councillor_spymaster_female_locative:0 "$councillor_spymaster_female$"
+ councillor_chancellor_female_gender_locative:0 "[Select_CString(ROOT.Char.IsFemale, 'Kanclerzowej', 'Kanclerzu' )]"
+ councillor_marshal_female_gender_locative:0 "[Select_CString(ROOT.Char.IsFemale, 'Marszałkini', 'Marszałku' )]"
+ councillor_steward_female_gender_locative:0 "[Select_CString(ROOT.Char.IsFemale, 'Zarządczyni', 'Zarządcy' )]"
+ councillor_spymaster_female_gender_locative:0 "[Select_CString(ROOT.Char.IsFemale, 'Mistrzyni szpiegów', 'Mistrzu szpiegów' )]"
+ councillor_court_chaplain_gender_locative:0 "[Select_CString(ROOT.Char.IsFemale, 'Nadwornej kapelan', 'Nadwornym kapelanie' )]"
 
- #CouncilPositionFemaleDative
+ #CouncilPositionGenderDative
 
- councillor_chancellor_female_dative:0 "Kanclerzowej"
- councillor_marshal_female_dative:0 "$councillor_marshal_female$"
- councillor_steward_female_dative:0 "$councillor_steward_female$"
- councillor_spymaster_female_dative:0 "$councillor_spymaster_female$"
+ councillor_chancellor_female_gender_dative:0 "[Select_CString(ROOT.Char.IsFemale, 'Kanclerzowej', 'Kanclerzowi' )]"
+ councillor_marshal_female_gender_dative:0 "[Select_CString(ROOT.Char.IsFemale, 'Marszałkini', 'Marszałkowi' )]"
+ councillor_steward_female_gender_dative:0 "[Select_CString(ROOT.Char.IsFemale, 'Zarządczyni', 'Zarządcy' )]"
+ councillor_spymaster_female_gender_dative:0 "[Select_CString(ROOT.Char.IsFemale, 'Mistrzyni szpiegów', 'Mistrzowi szpiegów' )]"
+ councillor_court_chaplain_gender_dative:0 "[Select_CString(ROOT.Char.IsFemale, 'Nadwornej kapelan', 'Nadwornemu kapelanowi' )]"
 
- #CouncilPositionFemaleInstrumental
+ #CouncilPositionGenderInstrumental
 
- councillor_chancellor_female_instrumental:0 "Kanclerzową"
- councillor_marshal_female_instrumental:0 "Marszałkinią"
- councillor_steward_female_instrumental:0 "Zarządczynią"
- councillor_spymaster_female_instrumental:0 "Mistrzyni szpiegów"
-
- #CouncilPositionMaleAccusative
-
- councillor_chancellor_male_accusative:0 "Kanclerza"
- councillor_marshal_male_accusative:0 "Marszałka"
- councillor_steward_male_accusative:0 "Zarządcę"
- councillor_spymaster_male_accusative:0 "Mistrza szpiegów"
-
- #CouncilPositionMaleVocative
-
- councillor_chancellor_male_vocative:0 "Kanclerzu"
- councillor_marshal_male_vocative:0 "Marszałku"
- councillor_steward_male_vocative:0 "Zarządco"
- councillor_spymaster_male_vocative:0 "Mistrzu szpiegów"
-
- #CouncilPositionMaleLocative
-
- councillor_chancellor_male_locative:0 "Kanclerzu"
- councillor_marshal_male_locative:0 "Marszałku"
- councillor_steward_male_locative:0 "Zarządcy"
- councillor_spymaster_male_locative:0 "Mistrzu szpiegów"
-
- #CouncilPositionMaleDative
-
- councillor_chancellor_male_dative:0 "Kanclerzowi"
- councillor_marshal_male_dative:0 "Marszałkowi"
- councillor_steward_male_dative:0 "Zarządcy"
- councillor_spymaster_male_dative:0 "Mistrzowi szpiegów"
-
- #CouncilPositionMaleInstrumental
-
- councillor_chancellor_male_instrumental:0 "Kanclerzem"
- councillor_marshal_male_instrumental:0 "Marszałkiem"
- councillor_steward_male_instrumental:0 "Zarządcą"
- councillor_spymaster_male_instrumental:0 "Mistrzem szpiegów"
-
- title_council_name_fallback:0 "[ROOT.Char.GetCouncilTitle]"
- title_council_name_possessive_fallback:0 "[ROOT.Char.GetCouncilTitlePossessive]"
+ councillor_chancellor_female_gender_instrumental:0 "[Select_CString(ROOT.Char.IsFemale, 'Kanclerzową', 'Kanclerzem' )]"
+ councillor_marshal_female_gender_instrumental:0 "[Select_CString(ROOT.Char.IsFemale, 'Marszałkinią', 'Marszałkiem' )]"
+ councillor_steward_female_gender_instrumental:0 "[Select_CString(ROOT.Char.IsFemale, 'Zarządczynią', 'Zarządcą' )]"
+ councillor_spymaster_female_gender_instrumental:0 "[Select_CString(ROOT.Char.IsFemale, 'Mistrzynią szpiegów', 'Mistrzem szpiegów' )]"
+ councillor_court_chaplain_gender_instrumental:0 "[Select_CString(ROOT.Char.IsFemale, 'Nadworną kapelan', 'Nadwornym kapelanem' )]"
 
  #ActivityYourDative
 
