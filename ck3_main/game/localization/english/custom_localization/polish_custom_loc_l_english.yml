@@ -3953,6 +3953,7 @@
  animal_lion_dop:0 "lwa"
  animal_tiger_dop:0 "tygrysa"
  animal_bear_dop:0 "niedźwiedzia"
+ animal_lynx_dop:0 "rysia"
  animal_unicorn_dop:0 "jednorożca"
  animal_dragon_dop:0 "smoka"
  
@@ -4085,7 +4086,7 @@
  councillor_chancellor_gender_vocative:0 "[Select_CString(ROOT.Char.IsFemale, 'Kanclerzowo', 'Kanclerzu' )]"
  councillor_marshal_gender_vocative:0 "[Select_CString(ROOT.Char.IsFemale, 'Marszałkini', 'Marszałku' )]"
  councillor_steward_gender_vocative:0 "[Select_CString(ROOT.Char.IsFemale, 'Zarządczyni', 'Zarządco' )]"
- councillor_spymaster_female_gender_vocative:0 "[Select_CString(ROOT.Char.IsFemale, 'Mistrzyni szpiegów', 'Mistrzu szpiegów' )]"
+ councillor_spymaster_gender_vocative:0 "[Select_CString(ROOT.Char.IsFemale, 'Mistrzyni szpiegów', 'Mistrzu szpiegów' )]"
  councillor_court_chaplain_gender_vocative:0 "[Select_CString(ROOT.Char.IsFemale, 'Nadworna kapelan', 'Nadworny kapelanie' )]"
 
  #CouncilPositionGenderLocative
