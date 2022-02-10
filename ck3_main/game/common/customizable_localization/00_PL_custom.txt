@@ -421,6 +421,7 @@ TitleAdjBase = {
 			}		
 		}
 		
+		#localization_key = title_notier_notooltip
 		localization_key = PL_title_adj_notier
 	}
 	
@@ -432,6 +433,7 @@ TitleAdjBase = {
 			}
 		}
 		
+		#localization_key = title_francia_notooltip
 		localization_key = PL_title_adj_francia
 	}
 
@@ -501,11 +503,13 @@ TitleAdjBase = {
 			}
 		}
 
+		#localization_key = title_adj_all_notooltip
 		localization_key = PL_title_adj
 	}
 
 	text = {
 
+		#localization_key = title_adj_fallback_notooltip
 		localization_key = PL_title_adj_fallback
 		fallback = yes
 
@@ -519,6 +523,7 @@ TitleAdjBase2 = {
 	type = landed_title
 
 	text = {
+		#localization_key = title_adj_all_notier_notooltip
 		localization_key = PL_title_adj_all_notier
 	}
 
@@ -585,7 +590,7 @@ RealmTierType = {
 
 }
 
-# 1.4.4 - w oknie hrabstwa
+# v1.5 - w oknie hrabstwa
 HoldingTypeYourAdj = {
 	type = province
 
@@ -631,7 +636,7 @@ HoldingTypeYourAdj = {
 
 }
 
-# 1.4.4 
+# v1.5
 HoldingTypeAdj = {
 	type = province
 
@@ -690,48 +695,75 @@ GetShockedExpressionFemale = {
 	}
 }
 
+# ------------------------------------------------------------------------------------
 
+# v1.5 - original
+prison_pet = {
+	type = character
+
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					exists = var:prison_pet_variable
+					var:prison_pet_variable = flag:rat
+				}
+				NOT = { exists = var:prison_pet_variable }
+			}
+		}
+		localization_key = prison_pet_rat
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					exists = var:prison_pet_variable
+					var:prison_pet_variable = flag:stone
+				}
+				NOT = { exists = var:prison_pet_variable }
+			}
+		}
+		localization_key = prison_pet_stone
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					exists = var:prison_pet_variable
+					var:prison_pet_variable = flag:spoon
+				}
+				NOT = { exists = var:prison_pet_variable }
+			}
+		}
+		localization_key = prison_pet_spoon
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					exists = var:prison_pet_variable
+					var:prison_pet_variable = flag:cockroach
+				}
+				NOT = { exists = var:prison_pet_variable }
+			}
+		}
+		localization_key = prison_pet_cockroach
+	}
+}
+
+# v1.5
 my_prison_pet = {
-	type = character
-
-	text = {
-		localization_key = my_prison_pet_rat
-		trigger = { var:prison_pet_variable = flag:rat }
-	}
-	text = {
-		localization_key = my_prison_pet_stone
-		trigger = { var:prison_pet_variable = flag:stone }
-	}
-	text = {
-		localization_key = my_prison_pet_spoon
-		trigger = { var:prison_pet_variable = flag:spoon }
-	}
-	text = {
-		localization_key = my_prison_pet_cockroach
-		trigger = { var:prison_pet_variable = flag:cockroach }
-	}
+	parent = prison_pet
+	suffix = "_my"
 }
 
+# v1.5
 little_prison_pet_vocative = {
-	type = character
-
-	text = {
-		localization_key = little_prison_pet_rat_vocative
-		trigger = { var:prison_pet_variable = flag:rat }
-	}
-	text = {
-		localization_key = little_prison_pet_stone_vocative
-		trigger = { var:prison_pet_variable = flag:stone }
-	}
-	text = {
-		localization_key = little_prison_pet_spoon_vocative
-		trigger = { var:prison_pet_variable = flag:spoon }
-	}
-	text = {
-		localization_key = little_prison_pet_cockroach_vocative
-		trigger = { var:prison_pet_variable = flag:cockroach }
-	}
+	parent = prison_pet
+	suffix = "_little_vocative"
 }
+
+# ------------------------------------------------------------------------------------
 
 exotic_fowl_type_genitive_plural = {
 	type = character

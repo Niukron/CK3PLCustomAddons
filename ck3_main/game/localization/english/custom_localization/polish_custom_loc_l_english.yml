@@ -2998,16 +2998,16 @@
  animal_dragon_dop:0 "smoka"
  
  #my_prison_pet
- my_prison_pet_rat:0 "mój szczur"
- my_prison_pet_stone:0 "mój kamień"
- my_prison_pet_spoon:0 "moja łyżka"
- my_prison_pet_cockroach:0 "mój karaluch"
+ prison_pet_rat_my:0 "mój szczur"
+ prison_pet_stone_my:0 "mój kamień"
+ prison_pet_spoon_my:0 "moja łyżka"
+ prison_pet_cockroach_my:0 "mój karaluch"
 
  #little_prison_pet_vocative
- little_prison_pet_rat_vocative:0 "szczurku"
- little_prison_pet_stone_vocative:0 "kamyczku"
- little_prison_pet_spoon_vocative:0 "łyżeczko"
- little_prison_pet_cockroach_vocative:0 "karaluszku"
+ prison_pet_rat_little_vocative:0 "szczurku"
+ prison_pet_stone_little_vocative:0 "kamyczku"
+ prison_pet_spoon_little_vocative:0 "łyżeczko"
+ prison_pet_cockroach_little_vocative:0 "karaluszku"
 
  #exotic_fowl_type_genitive_plural
  fowl_dinner_peacock_genitive_plural:0 "pawi"
