@@ -1538,23 +1538,31 @@
  game_concept_duchy_pos:0 "[Concept( 'duchy', 'księstwa' )|E]"
  game_concept_kingdom_pos:0 "[Concept( 'kingdom', 'królestwa' )|E]"
  game_concept_empire_pos:0 "[Concept( 'empire', 'imperium' )|E]"
+
+ # TitleAdj Variants
+ PL_title_adj:0 "CL not for use"
+ PL_title_adj_all_notier:0 "CL not for use"
+ PL_title_adj_notier:0 "CL not for use"
+ PL_title_adj_francia:0 "CL not for use"
+ PL_title_adj_fallback:0 "CL not for use"
  
- title_adj_all_notooltip:0 "[ROOT.Title.GetTierAsNameNoTooltip|U] [Select_CString(EqualTo_string(ROOT.Title.GetNameNoTierNoTooltip,ROOT.Title.GetHolder.GetHouse.GetBaseNameNoTooltip), Concatenate('dynastii ', ROOT.Title.GetNameNoTierNoTooltip), ROOT.Title.GetAdjectiveNoTooltip)]"
- title_adj_all_notier_notooltip:0 "[Select_CString(EqualTo_string(ROOT.Title.GetNameNoTierNoTooltip,ROOT.Title.GetHolder.GetHouse.GetBaseNameNoTooltip), Concatenate('państwo dynastii ', ROOT.Title.GetNameNoTierNoTooltip), ROOT.Title.GetAdjectiveNoTooltip)]"
- title_adj_realm_adj_all_notier_notooltip:0 "[Select_CString(EqualTo_string(ROOT.Title.GetNameNoTierNoTooltip,ROOT.Title.GetHolder.GetHouse.GetBaseNameNoTooltip), Concatenate('państwa dynastii ', ROOT.Title.GetNameNoTierNoTooltip), ROOT.Title.GetAdjectiveNoTooltip)]"
- title_francia_notooltip:0 "[Select_CString( Or(EqualTo_string( ROOT.Title.GetNameNoTierNoTooltip , '$WEST_FRANCIA$' ), EqualTo_string( ROOT.Title.GetNameNoTierNoTooltip , '$EAST_FRANCIA$' )), ROOT.Title.GetNameNoTierNoTooltip , Concatenate(Concatenate(ROOT.Title.GetTierAsNameNoTooltip, ' '), ROOT.Title.GetAdjectiveNoTooltip ) )]"
- title_adj_fallback_notooltip:0 "[ROOT.Title.GetNameNoTooltip|U]"
+ PL_title_adj_notooltip:0 "[ROOT.Title.GetTierAsNameNoTooltip|U] [Select_CString(EqualTo_string(ROOT.Title.GetNameNoTierNoTooltip,ROOT.Title.GetHolder.GetHouse.GetBaseNameNoTooltip), Concatenate('dynastii ', ROOT.Title.GetNameNoTierNoTooltip), ROOT.Title.GetAdjectiveNoTooltip)]"
+ PL_title_adj_all_notier_notooltip:0 "[Select_CString(EqualTo_string(ROOT.Title.GetNameNoTierNoTooltip,ROOT.Title.GetHolder.GetHouse.GetBaseNameNoTooltip), Concatenate('państwo dynastii ', ROOT.Title.GetNameNoTierNoTooltip), ROOT.Title.GetAdjectiveNoTooltip)]"
+ PL_title_adj_all_notier_realm_notooltip:0 "[Select_CString(EqualTo_string(ROOT.Title.GetNameNoTierNoTooltip,ROOT.Title.GetHolder.GetHouse.GetBaseNameNoTooltip), Concatenate('państwa dynastii ', ROOT.Title.GetNameNoTierNoTooltip), ROOT.Title.GetAdjectiveNoTooltip)]"
+ PL_title_adj_francia_notooltip:0 "[Select_CString( Or(EqualTo_string( ROOT.Title.GetNameNoTierNoTooltip , '$WEST_FRANCIA$' ), EqualTo_string( ROOT.Title.GetNameNoTierNoTooltip , '$EAST_FRANCIA$' )), ROOT.Title.GetNameNoTierNoTooltip , Concatenate(Concatenate(ROOT.Title.GetTierAsNameNoTooltip, ' '), ROOT.Title.GetAdjectiveNoTooltip ) )]"
+ PL_title_adj_notier_notooltip:0 "[ROOT.Title.GetNameNoTierNoTooltip|U]"
+ PL_title_adj_fallback_notooltip:0 "[ROOT.Title.GetNameNoTooltip|U]"
+ 
+ PL_title_adj_tooltip:0 "#L #ONCLICK:TITLE,[ROOT.Title.GetID] #TOOLTIP:LANDED_TITLE,[ROOT.Title.GetID] $PL_title_adj_notooltip$#!#!#!" 
+ PL_title_adj_all_notier_tooltip:0 "#L #ONCLICK:TITLE,[ROOT.Title.GetID] #TOOLTIP:LANDED_TITLE,[ROOT.Title.GetID] $PL_title_adj_all_notier_notooltip$#!#!#!"
+ PL_title_adj_all_notier_realm_tooltip:0 "#L #ONCLICK:TITLE,[ROOT.Title.GetID] #TOOLTIP:LANDED_TITLE,[ROOT.Title.GetID] $PL_title_adj_all_notier_realm_notooltip$#!#!#!"
+ PL_title_adj_francia_tooltip:0 "#L #ONCLICK:TITLE,[ROOT.Title.GetID] #TOOLTIP:LANDED_TITLE,[ROOT.Title.GetID] $PL_title_adj_francia_notooltip$#!#!#!"
+ PL_title_adj_notier_tooltip:0 "[ROOT.Title.GetNameNoTier|U]"
+ PL_title_adj_fallback_tooltip:0 "[ROOT.Title.GetName|U]"
+
  title_adj_notooltip:0 "[Title.Custom('TitleAdjNoTooltip')|U]"
- 
- title_adj_all:0 "[ROOT.Title.GetTierAsName|U] [Select_CString(EqualTo_string(ROOT.Title.GetNameNoTierNoTooltip,ROOT.Title.GetHolder.GetHouse.GetBaseNameNoTooltip), Concatenate('dynastii ', ROOT.Title.GetNameNoTier), ROOT.Title.GetAdjective)]"
- title_adj_all_notier:0 "[Select_CString(EqualTo_string(ROOT.Title.GetNameNoTierNoTooltip,ROOT.Title.GetHolder.GetHouse.GetBaseNameNoTooltip), Concatenate('państwo dynastii ', ROOT.Title.GetNameNoTier), ROOT.Title.GetAdjective)]"
- title_adj_realm_adj_all_notier:0 "[Select_CString(EqualTo_string(ROOT.Title.GetNameNoTierNoTooltip,ROOT.Title.GetHolder.GetHouse.GetBaseNameNoTooltip), Concatenate('państwa dynastii ', ROOT.Title.GetNameNoTier), ROOT.Title.GetAdjective)]"
- title_francia:0 "[Select_CString( Or(EqualTo_string( ROOT.Title.GetNameNoTierNoTooltip , '$WEST_FRANCIA$' ), EqualTo_string( ROOT.Title.GetNameNoTierNoTooltip , '$EAST_FRANCIA$' )), ROOT.Title.GetNameNoTier , Concatenate(Concatenate(ROOT.Title.GetTierAsName, ' '), ROOT.Title.GetAdjective ) )]"
- title_adj_fallback:0 "[ROOT.Title.GetName|U]"
  title_adj:0 "[Title.Custom('TitleAdj')|LU]"
 
- title_notier_notooltip:0 "[ROOT.Title.GetNameNoTierNoTooltip|U]"
- title_notier:0 "[ROOT.Title.GetNameNoTier|U]"
  
  #Prędkość gry
  CURRENT_SPEED_TEXT_6:0 "najwolniejszą"
