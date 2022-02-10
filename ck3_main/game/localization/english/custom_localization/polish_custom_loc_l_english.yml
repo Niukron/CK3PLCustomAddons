@@ -3345,6 +3345,8 @@ stick_horse_accusative:0 "konika na kiju"
  murder_adj:0 "Planu morderstwa"
  seduce_adj:0 "Planu uwiedzenia"
  sway_adj:0 "Planu przekonania do siebie"
+ learn_language_adj:0 "Planu nauki języka"
+ steal_back_artifact_adj:0 "Planu kradzieży artefaktu"
  scheme_fallback_adj:0 "[ROOT.GetScheme.GetSchemeType.GetTypeName]"
  
  #PrisonTypeCellAdj
