@@ -3002,7 +3002,7 @@
  #Chrześcijaństwo
  christianity_high_god_cel:0 "Bogu"
  christianity_creator_god_cel:0 "$christianity_high_god_cel$"
- christianity_health_god_cel:0 "Jezusowi"
+ christianity_health_god_name_cel:0 "Jezusowi"
  christianity_fertility_god_cel:0 "$christianity_high_god_cel$"
  christianity_wealth_god_cel:0 "$christianity_high_god_cel$"
  christianity_household_god_cel:0 "$christianity_health_god_cel$"
@@ -3594,7 +3594,7 @@
  #Jezydyzm
  yazidi_high_god_name_cel:0 "Melek Tausowi"
  yazidi_creator_god_name_cel:0 "Xwedê"
- yazidi_health_god_name_cel:0 "Dadra'ilowi"
+ yazidi_good_god_dadrail_cel:0 "Dadra'ilowi"
  yazidi_fertility_god_name_cel:0 "$yazidi_health_god_name_cel$"
  yazidi_wealth_god_name_cel:0 "Szemna'ilowi"
  yazidi_household_god_name_cel:0 "$yazidi_health_god_name_cel$"
@@ -3650,7 +3650,7 @@
  kalikula_shaktism_high_god_name_cel:0 "Kali"
  
  #HealthGod - Wołacz
- christianity_health_god_wol:0 "Jezusie"
+ christianity_health_god_name_wol:0 "Jezusie"
  east_christian_health_god_name_wol:0 "św. Samuelu"
  akom_health_god_name_wol:0 "Asase Jaa"
  baltic_health_god_name_wol:0 "Saulė"
@@ -3690,7 +3690,7 @@
  bori_health_god_name_wol:0 "duchy drzew"
  yoruba_health_god_name_wol:0 "Obaluaje"
  roog_sene_health_god_name_wol:0 "pangolu"
- yazidi_health_god_name_wol:0 "Dadra'ilu"
+ yazidi_good_god_dadrail_wol:0 "Dadra'ilu"
  zoroastrianism_health_god_name_wol:0 "Ahuro Mazdo"
  zunism_health_god_name_wol:0 "Zunie"
  
