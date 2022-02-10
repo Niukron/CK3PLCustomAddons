@@ -765,6 +765,7 @@ little_prison_pet_vocative = {
 
 # ------------------------------------------------------------------------------------
 
+# v1.5
 exotic_fowl_type_genitive_plural = {
 	type = character
 
@@ -783,6 +784,7 @@ exotic_fowl_type_genitive_plural = {
 	}
 }
 
+# v1.5
 GruesomeFestivalNameMsc = {
 	type = character
 
@@ -800,6 +802,7 @@ GruesomeFestivalNameMsc = {
 	}
 }
 
+# v1.5
 RealmTypeGenitive = {
 	type = character
 
@@ -832,100 +835,67 @@ RealmTypeGenitive = {
 	}
 }
 
+# v1.5 - original
+BaronyTownType = {
+	type = landed_title
+
+	text = {
+		trigger = {
+			title_province = {
+				county = {
+					development_level > medium_development_level
+				}
+			}
+		}
+		localization_key = barony_town_type_city
+	}
+
+	text = {
+		trigger = {
+			title_province = {
+				fort_level > 0
+			}
+		}
+		localization_key = barony_town_type_castle_town
+	}
+
+	text = {
+		trigger = {
+			title_province = {
+				county = {
+					development_level <= medium_development_level
+					development_level >= bad_development_level
+				}
+			}
+		}
+		localization_key = barony_town_type_town
+	}
+
+	text = {
+		trigger = {
+			title_province = {
+				county = {
+					development_level < bad_development_level
+				}
+			}
+		}
+		localization_key = barony_town_type_village
+	}
+}
+
+# v1.5
 BaronyTownTypeLocative = {
-	type = landed_title
-
-	text = {
-		trigger = {
-			title_province = {
-				county = {
-					development_level > medium_development_level
-				}
-			}
-		}
-		localization_key = barony_town_type_city_locative
-	}
-
-	text = {
-		trigger = {
-			title_province = {
-				fort_level > 0
-			}
-		}
-		localization_key = barony_town_type_castle_town_locative
-	}
-
-	text = {
-		trigger = {
-			title_province = {
-				county = {
-					development_level <= medium_development_level
-					development_level >= bad_development_level
-				}
-			}
-		}
-		localization_key = barony_town_type_town_locative
-	}
-
-	text = {
-		trigger = {
-			title_province = {
-				county = {
-					development_level < bad_development_level
-				}
-			}
-		}
-		localization_key = barony_town_type_village_locative
-	}
+	parent = BaronyTownType
+	suffix = "_locative"
 }
 
+# v1.5
 BaronyTownTypeGenitive = {
-	type = landed_title
-
-	text = {
-		trigger = {
-			title_province = {
-				county = {
-					development_level > medium_development_level
-				}
-			}
-		}
-		localization_key = barony_town_type_city_genitive
-	}
-
-	text = {
-		trigger = {
-			title_province = {
-				fort_level > 0
-			}
-		}
-		localization_key = barony_town_type_castle_town_genitive
-	}
-
-	text = {
-		trigger = {
-			title_province = {
-				county = {
-					development_level <= medium_development_level
-					development_level >= bad_development_level
-				}
-			}
-		}
-		localization_key = barony_town_type_town_genitive
-	}
-
-	text = {
-		trigger = {
-			title_province = {
-				county = {
-					development_level < bad_development_level
-				}
-			}
-		}
-		localization_key = barony_town_type_village_genitive
-	}
+	parent = BaronyTownType
+	suffix = "_genitive"
 }
 
+# v1.5
 IndefiniteBodyOfWaterGenitive = { 
 	type = character
 
@@ -942,7 +912,7 @@ IndefiniteBodyOfWaterGenitive = {
 	}
 }
 
-
+# v1.5
 diplomacy_skill_level_genitive = {
 	type = character
 
@@ -981,6 +951,7 @@ diplomacy_skill_level_genitive = {
 	}
 }
 
+# v1.5
 martial_skill_level_genitive = {
 	type = character
 
@@ -1019,6 +990,7 @@ martial_skill_level_genitive = {
 	}
 }
 
+# v1.5
 stewardship_skill_level_genitive = {
 	type = character
 
@@ -1057,6 +1029,7 @@ stewardship_skill_level_genitive = {
 	}
 }
 
+# v1.5
 intrigue_skill_level_genitive = {
 	type = character
 
@@ -1095,6 +1068,7 @@ intrigue_skill_level_genitive = {
 	}
 }
 
+# v1.5
 learning_skill_level_genitive = {
 	type = character
 
@@ -1133,6 +1107,7 @@ learning_skill_level_genitive = {
 	}
 }
 
+# v1.5
 CompositionTypeGloriousAccusative = {
 	type = character
 
@@ -1150,8 +1125,7 @@ CompositionTypeGloriousAccusative = {
 	}
 }
 
-
-
+# v1.5
 ComplimentAdjectiveTheMostGenitive = {
 	type = character
 
@@ -1162,6 +1136,9 @@ ComplimentAdjectiveTheMostGenitive = {
 		trigger = {
 			has_trait = beauty_good
 			is_male = yes
+			NOT = {
+				has_variable = court_6040_best_looking_var	#needed to keep court.6040 loc coherent
+			}
 		}
 		localization_key = compliment_handsome_the_most_genitive
 	}
@@ -1169,6 +1146,9 @@ ComplimentAdjectiveTheMostGenitive = {
 		trigger = {
 			has_trait = beauty_good
 			is_female = yes
+			NOT = {
+				has_variable = court_6040_best_looking_var	#needed to keep court.6040 loc coherent
+			}
 		}
 		localization_key = compliment_fair_the_most_genitive
 	}
