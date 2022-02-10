@@ -2715,13 +2715,13 @@ WealthGodNameCel = {
 
 #v1.5
 HouseholdGodNameCel = {
-	type = character
+	type = faith
 	
 	text = {
 		trigger = {
 			OR = {
-				faith = faith:catholic
-				faith = faith:orthodox
+				this = faith:catholic
+				this = faith:orthodox
 			}
 		}
 		localization_key = west_christian_household_god_name_cel
@@ -2730,8 +2730,8 @@ HouseholdGodNameCel = {
 	text = {
 		trigger = {
 			OR = {
-				faith = faith:coptic
-				faith = faith:armenian_apostolic
+				this = faith:coptic
+				this = faith:armenian_apostolic
 			}
 		}
 		localization_key = east_christian_household_god_name_cel
@@ -2739,371 +2739,371 @@ HouseholdGodNameCel = {
 	
 	text = {
 		trigger = {
-				faith = faith:insular_celtic
+				this = faith:insular_celtic
 		}
 		localization_key = insular_celtic_household_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = christianity_religion
 			}
-		}
+		
 		localization_key = christianity_household_god_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = akom_religion
 			}
-		}
+		
 		localization_key = akom_wealth_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = baltic_religion
 			}
-		}
+		
 		localization_key = baltic_household_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = bon_religion
 			}
-		}
+		
 		localization_key = bon_household_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-				faith = faith:vajrayana
+				this = faith:vajrayana
 		}
 		localization_key = vajrayana_household_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-				faith = faith:lamaism
+				this = faith:lamaism
 		}
 		localization_key = lamaism_household_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = buddhism_religion
 			}
-		}
+		
 		localization_key = buddhism_household_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = tani_religion
 			}
-		}
+		
 		localization_key = tani_household_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-				faith = faith:valentinianism
+				this = faith:valentinianism
 		}
 		localization_key = valentinianism_household_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-				faith = faith:sethianism
+				this = faith:sethianism
 		}
 		localization_key = sethianism_household_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-				faith = faith:priscillianism
+				this = faith:priscillianism
 		}
 		localization_key = manicheanism_household_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-				faith = faith:mandeaism
+				this = faith:mandeaism
 		}
 		localization_key = mandeaism_household_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-				faith = faith:manichean
+				this = faith:manichean
 		}
 		localization_key = manicheanism_household_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = dualism_religion
 			}
-		}
+		
 		localization_key = dualism_household_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = finno_ugric_religion
 			}
-		}
+		
 		localization_key = finno_ugric_household_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = germanic_religion
 			}
-		}
+		
 		localization_key = germanic_household_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = hellenism_religion
 			}
-		}
+		
 		localization_key = hellenism_household_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-				faith = faith:shaivism
+				this = faith:shaivism
 		}
 		localization_key = shaivism_household_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-				faith = faith:smartism
+				this = faith:smartism
 		}
 		localization_key = smartism_household_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = hinduism_religion
 			}
-		}
+		
 		localization_key = hinduism_household_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = islam_religion
 			}
-		}
+		
 		localization_key = islam_household_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = jainism_religion
 			}
-		}
+		
 		localization_key = jainism_household_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = judaism_religion
 			}
-		}
+		
 		localization_key = judaism_household_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = kushitism_religion
 			}
-		}
+		
 		localization_key = kushitism_household_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = magyar_religion
 			}
-		}
+		
 		localization_key = magyar_household_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-				faith = faith:yumaism
+				this = faith:yumaism
 		}
 		localization_key = yumaism_household_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = mundhum_religion
 			}
-		}
+		
 		localization_key = mundhumism_household_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = paganism_religion
 			}
-		}
+		
 		localization_key = paganism_household_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-				faith = faith:melieism
+				this = faith:melieism
 		}
 		localization_key = tangut_household_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = qiangic_religion
 			}
-		}
+		
 		localization_key = qiangic_household_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = siberian_religion
 			}
-		}
+		
 		localization_key = siberian_household_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = slavic_religion
 			}
-		}
+		
 		localization_key = slavic_household_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = taoism_religion
 			}
-		}
+		
 		localization_key = taoism_household_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = tengrism_religion
 			}
-		}
+		
 		localization_key = tengrism_household_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = waaqism_religion
 			}
-		}
+		
 		localization_key = waaqism_household_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-				faith = faith:west_african_bidu_pagan
+				this = faith:west_african_bidu_pagan
 		}
 		localization_key = bidu_household_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = west_african_religion
 			}
-		}
+		
 		localization_key = dogon_household_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = west_african_bori_religion
 			}
-		}
+		
 		localization_key = bori_household_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = west_african_orisha_religion
 			}
-		}
+		
 		localization_key = yoruba_household_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = west_african_roog_religion
 			}
-		}
+		
 		localization_key = roog_sene_household_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = yazidi_religion
 			}
-		}
+		
 		localization_key = yazidi_household_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = zoroastrianism_religion
 			}
-		}
+		
 		localization_key = zoroastrianism_household_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = zunism_religion
 			}
-		}
+		
 		localization_key = zunism_household_god_name_cel
 	}
 }
@@ -3112,305 +3112,305 @@ HouseholdGodNameCel = {
 
 #v1.5
 FateGodNameCel = {
-	type = character
+	type = faith
 	
 	text = {
 		trigger = {
-				faith = faith:insular_celtic
+				this = faith:insular_celtic
 		}
 		localization_key = insular_celtic_fate_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = christianity_religion
 			}
-		}
+		
 		localization_key = christianity_fate_god_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = akom_religion
 			}
-		}
+		
 		localization_key = akom_high_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = baltic_religion
 			}
-		}
+		
 		localization_key = baltic_fate_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = bon_religion
 			}
-		}
+		
 		localization_key = bon_fate_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = buddhism_religion
 			}
-		}
+		
 		localization_key = buddhism_fate_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = tani_religion
 			}
-		}
+		
 		localization_key = tani_fate_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = dualism_religion
 			}
-		}
+		
 		localization_key = dualism_fate_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = finno_ugric_religion
 			}
-		}
+		
 		localization_key = finno_ugric_fate_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = germanic_religion
 			}
-		}
+		
 		localization_key = germanic_fate_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = hellenism_religion
 			}
-		}
+		
 		localization_key = hellenism_fate_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = hinduism_religion
 			}
-		}
+		
 		localization_key = hinduism_fate_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = islam_religion
 			}
-		}
+		
 		localization_key = islam_fate_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = jainism_religion
 			}
-		}
+		
 		localization_key = jainism_fate_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = judaism_religion
 			}
-		}
+		
 		localization_key = judaism_fate_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = kushitism_religion
 			}
-		}
+		
 		localization_key = kushitism_fate_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = magyar_religion
 			}
-		}
+		
 		localization_key = magyar_fate_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = mundhum_religion
 			}
-		}
+		
 		localization_key = mundhumism_fate_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = paganism_religion
 			}
-		}
+		
 		localization_key = paganism_fate_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-				faith = faith:melieism
+				this = faith:melieism
 		}
 		localization_key = tangut_fate_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = qiangic_religion
 			}
-		}
+		
 		localization_key = qiangic_fate_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = siberian_religion
 			}
-		}
+		
 		localization_key = siberian_fate_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = slavic_religion
 			}
-		}
+		
 		localization_key = slavic_fate_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = taoism_religion
 			}
-		}
+		
 		localization_key = taoism_fate_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = tengrism_religion
 			}
-		}
+		
 		localization_key = tengrism_fate_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = waaqism_religion
 			}
-		}
+		
 		localization_key = waaqism_fate_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-				faith = faith:west_african_bidu_pagan
+				this = faith:west_african_bidu_pagan
 		}
 		localization_key = bidu_fate_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = west_african_religion
 			}
-		}
+		
 		localization_key = dogon_fate_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = west_african_bori_religion
 			}
-		}
+		
 		localization_key = bori_fate_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = west_african_orisha_religion
 			}
-		}
+		
 		localization_key = yoruba_fate_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = west_african_roog_religion
 			}
-		}
+		
 		localization_key = roog_sene_fate_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = yazidi_religion
 			}
-		}
+		
 		localization_key = yazidi_fate_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = zoroastrianism_religion
 			}
-		}
+		
 		localization_key = zoroastrianism_fate_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = zunism_religion
 			}
-		}
+		
 		localization_key = zunism_fate_god_name_cel
 	}
 }
@@ -3419,13 +3419,13 @@ FateGodNameCel = {
 
 #v1.5
 KnowledgeGodNameCel = {
-	type = character
+	type = faith
 	
 	text = {
 		trigger = {
 			OR = {
-				faith = faith:catholic
-				faith = faith:orthodox
+				this = faith:catholic
+				this = faith:orthodox
 			}
 		}
 		localization_key = west_christian_knowledge_god_name_cel
@@ -3434,8 +3434,8 @@ KnowledgeGodNameCel = {
 	text = {
 		trigger = {
 			OR = {
-				faith = faith:coptic
-				faith = faith:armenian_apostolic
+				this = faith:coptic
+				this = faith:armenian_apostolic
 			}
 		}
 		localization_key = east_christian_knowledge_god_name_cel
@@ -3443,385 +3443,385 @@ KnowledgeGodNameCel = {
 	
 	text = {
 		trigger = {
-				faith = faith:insular_celtic
+				this = faith:insular_celtic
 		}
 		localization_key = insular_celtic_knowledge_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = christianity_religion
 			}
-		}
+		
 		localization_key = christianity_knowledge_god_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = akom_religion
 			}
-		}
+		
 		localization_key = akom_knowledge_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = baltic_religion
 			}
-		}
+		
 		localization_key = baltic_knowledge_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = bon_religion
 			}
-		}
+		
 		localization_key = bon_knowledge_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-				faith = faith:vajrayana
+				this = faith:vajrayana
 		}
 		localization_key = vajrayana_knowledge_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-				faith = faith:lamaism
+				this = faith:lamaism
 		}
 		localization_key = lamaism_knowledge_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = buddhism_religion
 			}
-		}
+		
 		localization_key = buddhism_knowledge_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = tani_religion
 			}
-		}
+		
 		localization_key = tani_knowledge_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-				faith = faith:cainitism
+				this = faith:cainitism
 		}
 		localization_key = cainitism_knowledge_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-				faith = faith:valentinianism
+				this = faith:valentinianism
 		}
 		localization_key = valentinianism_knowledge_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-				faith = faith:sethianism
+				this = faith:sethianism
 		}
 		localization_key = sethianism_knowledge_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-				faith = faith:priscillianism
+				this = faith:priscillianism
 		}
 		localization_key = manicheanism_knowledge_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-				faith = faith:mandeaism
+				this = faith:mandeaism
 		}
 		localization_key = mandeaism_knowledge_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-				faith = faith:manichean
+				this = faith:manichean
 		}
 		localization_key = manicheanism_knowledge_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = dualism_religion
 			}
-		}
+		
 		localization_key = dualism_knowledge_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = finno_ugric_religion
 			}
-		}
+		
 		localization_key = finno_ugric_knowledge_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = germanic_religion
 			}
-		}
+		
 		localization_key = germanic_knowledge_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = hellenism_religion
 			}
-		}
+		
 		localization_key = hellenism_knowledge_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-				faith = faith:vaishnavism
+				this = faith:vaishnavism
 		}
 		localization_key = vaishnavism_knowledge_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-				faith = faith:shaivism
+				this = faith:shaivism
 		}
 		localization_key = shaivism_knowledge_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-				faith = faith:smartism
+				this = faith:smartism
 		}
 		localization_key = smartism_knowledge_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-				faith = faith:krishnaism
+				this = faith:krishnaism
 		}
 		localization_key = vaishnavism_knowledge_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = hinduism_religion
 			}
-		}
+		
 		localization_key = hinduism_knowledge_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = islam_religion
 			}
-		}
+		
 		localization_key = islam_knowledge_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = jainism_religion
 			}
-		}
+		
 		localization_key = jainism_knowledge_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = judaism_religion
 			}
-		}
+		
 		localization_key = judaism_knowledge_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = kushitism_religion
 			}
-		}
+		
 		localization_key = kushitism_knowledge_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = magyar_religion
 			}
-		}
+		
 		localization_key = magyar_knowledge_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = mundhum_religion
 			}
-		}
+		
 		localization_key = mundhumism_knowledge_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = paganism_religion
 			}
-		}
+		
 		localization_key = paganism_knowledge_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-				faith = faith:melieism
+				this = faith:melieism
 		}
 		localization_key = tangut_knowledge_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = qiangic_religion
 			}
-		}
+		
 		localization_key = qiangic_knowledge_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = siberian_religion
 			}
-		}
+		
 		localization_key = siberian_knowledge_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = slavic_religion
 			}
-		}
+		
 		localization_key = slavic_knowledge_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = taoism_religion
 			}
-		}
+		
 		localization_key = taoism_knowledge_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = tengrism_religion
 			}
-		}
+		
 		localization_key = tengrism_knowledge_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = waaqism_religion
 			}
-		}
+		
 		localization_key = waaqism_knowledge_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-				faith = faith:west_african_bidu_pagan
+				this = faith:west_african_bidu_pagan
 		}
 		localization_key = bidu_knowledge_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = west_african_religion
 			}
-		}
+		
 		localization_key = dogon_knowledge_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = west_african_bori_religion
 			}
-		}
+		
 		localization_key = bori_knowledge_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = west_african_orisha_religion
 			}
-		}
+		
 		localization_key = yoruba_knowledge_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = west_african_roog_religion
 			}
-		}
+		
 		localization_key = roog_sene_knowledge_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = yazidi_religion
 			}
-		}
+		
 		localization_key = yazidi_knowledge_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = zoroastrianism_religion
 			}
-		}
+		
 		localization_key = zoroastrianism_knowledge_god_name_cel
 	}
 	
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = zunism_religion
 			}
-		}
+		
 		localization_key = zunism_knowledge_god_name_cel
 	}
 }
