@@ -3000,7 +3000,7 @@
  #Odmiana bóstw - celownik
  
  #Chrześcijaństwo
- christianity_high_god_cel:0 "Bogu"
+ christianity_high_god_name_cel:0 "Bogu"
  christianity_creator_god_cel:0 "$christianity_high_god_cel$"
  christianity_health_god_name_cel:0 "Jezusowi"
  christianity_fertility_god_cel:0 "$christianity_high_god_cel$"
@@ -3644,10 +3644,10 @@
  zunism_witchgod_name_cel:0 "Zmierzchowi"
  
  #Śrikula Śaktyzm
- srikula_shaktism_high_god_name_cel:0 "Tripura Sundari"
+ shaktism_good_god_sundari_cel:0 "Tripura Sundari"
  
  #Kalikula Śaktyzm
- kalikula_shaktism_high_god_name_cel:0 "Kali"
+ shaktism_good_god_kali_cel:0 "Kali"
  
  #HealthGod - Wołacz
  christianity_health_god_name_wol:0 "Jezusie"
@@ -3695,7 +3695,7 @@
  zunism_health_god_name_wol:0 "Zunie"
  
  #HighGod - Wołacz
- christianity_high_god_wol:0 "Boże"
+ christianity_high_god_name_wol:0 "Boże"
  akom_high_god_name_wol:0 "Njame"
  baltic_high_god_name_wol:0 "Deiwasie"
  bon_high_god_name_wol:0 "Sangpo Bumtri"
@@ -3713,8 +3713,8 @@
  hellenism_high_god_name_wol:0 "Zeusie"
  vaishnavism_high_god_name_wol:0 "Wisznu"
  shaivism_high_god_name_wol:0 "Śiwo"
- srikula_shaktism_high_god_name_wol:0 "Tripuro Sundari"
- kalikula_shaktism_high_god_name_wol:0 "Kali"
+ shaktism_good_god_sundari_wol:0 "Tripuro Sundari"
+ shaktism_good_god_kali_wol:0 "Kali"
  krishnaism_high_god_name_wol:0 "Kryszno"
  hinduism_high_god_name_wol:0 "Brahmanie"
  islam_high_god_name_wol:0 "Allahu"
