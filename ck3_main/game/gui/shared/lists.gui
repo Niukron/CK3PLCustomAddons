@@ -966,11 +966,15 @@ types Lists
 			hbox = {
 				button_standard_hover = {
 					name = "skill_diplomacy"
-					size = { 32 32 }
+					# ZMIANA
+					# size = { 32 32 }
+					size = { 28 28 }
 
 					icon = {
 						texture = "gfx/interface/icons/icon_skills.dds"
-						size = { 32 32 }
+						# ZMIANA
+						# size = { 32 32 }
+						size = { 28 28 }
 						framesize = { 60 60 }
 						frame = 1
 					}
@@ -987,11 +991,15 @@ types Lists
 
 				button_standard_hover = {
 					name = "skill_martial"
-					size = { 32 32 }
+					# ZMIANA
+					# size = { 32 32 }
+					size = { 28 28 }
 
 					icon = {
 						texture = "gfx/interface/icons/icon_skills.dds"
-						size = { 32 32 }
+						# ZMIANA
+						# size = { 32 32 }
+						size = { 28 28 }
 						framesize = { 60 60 }
 						frame = 2
 					}
@@ -1008,11 +1016,15 @@ types Lists
 
 				button_standard_hover = {
 					name = "skill_stewardship"
-					size = { 32 32 }
+					# ZMIANA
+					# size = { 32 32 }
+					size = { 28 28 }
 
 					icon = {
 						texture = "gfx/interface/icons/icon_skills.dds"
-						size = { 32 32 }
+						# ZMIANA
+						# size = { 32 32 }
+						size = { 28 28 }
 						framesize = { 60 60 }
 						frame = 3
 					}
@@ -1028,11 +1040,15 @@ types Lists
 
 				button_standard_hover = {
 					name = "skill_intrigue"
-					size = { 32 32 }
+					# ZMIANA
+					# size = { 32 32 }
+					size = { 28 28 }
 
 					icon = {
 						texture = "gfx/interface/icons/icon_skills.dds"
-						size = { 32 32 }
+						# ZMIANA
+						# size = { 32 32 }
+						size = { 28 28 }
 						framesize = { 60 60 }
 						frame = 4
 					}
@@ -1048,11 +1064,15 @@ types Lists
 
 				button_standard_hover = {
 					name = "skill_learning"
-					size = { 32 32 }
+					# ZMIANA
+					# size = { 32 32 }
+					size = { 28 28 }
 
 					icon = {
 						texture = "gfx/interface/icons/icon_skills.dds"
-						size = { 32 32 }
+						# ZMIANA
+						# size = { 32 32 }
+						size = { 28 28 }
 						framesize = { 60 60 }
 						frame = 5
 					}
