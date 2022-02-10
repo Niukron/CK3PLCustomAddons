@@ -3863,6 +3863,14 @@
  paganism_mother_earth_father_sky_dative:0 "Matce Ziemi i Ojcu Nieba"
  religion_the_spirits_dative:0 "duchom"
  yoruba_the_orisa_dative:0 "Orisze"
+ islam_high_god_name_dative:0 "Allahowi"
+ judaism_high_god_name_dative:0 "Panu"
+ tengrism_high_god_name_dative:0 "Tengriemu"
+ zurvanism_high_god_name_dative:0 "Zurwanowi"
+ zoroastrianism_high_god_name_dative:0 "Ahurze Mazdzie"
+ zunism_high_god_name_dative:0 "Zunowi"
+ 
+ pantheon_term_fallback:0 "[ROOT.Char.GetFaith.PantheonTerm]"
  
  
  #Teren - Dopełniacz
