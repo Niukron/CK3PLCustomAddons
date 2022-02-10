@@ -1633,7 +1633,7 @@ SchemeAdj = {
 	}
 	text = {
 		trigger = {
-			scheme_type = teal_back_artifact
+			scheme_type = steal_back_artifact
 		}
 		localization_key = steal_back_artifact_adj
 	}
@@ -1686,7 +1686,7 @@ GetUpperClothingArticleAdj = {
 	}
 }
 
-### 1.4.4 - pracza, stajennego
+# v1.5
 lowly_servant_type_adj = {
 	type = character
 	random_valid = yes
@@ -1741,391 +1741,223 @@ lowly_servant_type_adj = {
 	}
 }
 
-### 1.4.4 - naszego syna, naszą córkę, nasze dzieci, nasze córki,  naszych synów
+# v1.5 - original
+ChildChildrenGender = {
+	type = character
+
+	text = {
+		trigger = {
+			any_child = {
+				any_sibling = { always = no }
+				is_female = yes
+			}
+		}
+		localization_key = relation_daughter
+	}
+
+	text = {
+		trigger = {
+			any_child = {
+				any_sibling = { always = no }
+				is_male = yes
+			}
+		}
+		localization_key = relation_son
+	}
+
+	text = {
+		trigger = {
+			any_child = {
+				is_female = yes
+			}
+			NOT = {
+				any_child = {
+					is_female = no
+				}
+			}
+		}
+		localization_key = relation_daughters
+	}
+
+	text = {
+		trigger = {
+			any_child = {
+				is_male = yes
+			}
+			NOT = {
+				any_child = {
+					is_male = no
+				}
+			}
+		}
+		localization_key = relation_sons
+	}
+
+	text = {
+		trigger = {
+			any_child = {
+				is_female = yes
+			}
+			any_child = {
+				is_male = yes
+			}
+		}
+		localization_key = relation_children
+	}
+}
+
+# v1.5
 ChildChildrenGenderOurAccusative = {
-	type = character
-
-	text = {
-		trigger = {
-			any_child = {
-				any_sibling = { always = no }
-				is_female = yes
-			}
-		}
-		localization_key = relation_daughter_our_accusative
-	}
-
-	text = {
-		trigger = {
-			any_child = {
-				any_sibling = { always = no }
-				is_male = yes
-			}
-		}
-		localization_key = relation_son_our_accusative
-	}
-
-	text = {
-		trigger = {
-			any_child = {
-				is_female = yes
-			}
-			NOT = {
-				any_child = {
-					is_female = no
-				}
-			}
-		}
-		localization_key = relation_daughters_our_accusative
-	}
-
-	text = {
-		trigger = {
-			any_child = {
-				is_male = yes
-			}
-			NOT = {
-				any_child = {
-					is_male = no
-				}
-			}
-		}
-		localization_key = relation_sons_our_accusative
-	}
-
-	text = {
-		trigger = {
-			any_child = {
-				is_female = yes
-			}
-			any_child = {
-				is_male = yes
-			}
-		}
-		localization_key = relation_children_our_accusative
-	}
+	parent = ChildChildrenGender
+	suffix = "_our_accusative"
 }
 
-### 1.4.4 - mojego syna, moją córkę, moje dzieci, moje córki,  moich synów
+# v1.5
 ChildChildrenGenderMyAccusative = {
+	parent = ChildChildrenGender
+	suffix = "_my_accusative"
+}
+
+# v1.5 - original
+InsultNoun = {
 	type = character
+	random_valid = yes
 
 	text = {
+		localization_key = witch
+		trigger = { is_female = yes }
+	}
+	text = {
+		localization_key = doxy
 		trigger = {
-			any_child = {
-				any_sibling = { always = no }
-				is_female = yes
+			is_female = yes
+		}
+	}
+	text = {
+		localization_key = churl
+		trigger = {
+			is_male = yes
+		}
+	}		
+	text = {
+		localization_key = knave
+		trigger = { is_male = yes }
+	}
+	text = {
+		localization_key = spawn_of_hell
+		trigger = {
+			faith.religion = { is_in_family = rf_abrahamic }
+			OR = {
+				has_personality_malicious_trigger = yes
+				has_trait = cynical
 			}
 		}
-		localization_key = relation_daughter_my_accusative
 	}
-
 	text = {
+		localization_key = coward
 		trigger = {
-			any_child = {
-				any_sibling = { always = no }
-				is_male = yes
-			}
+			has_trait = craven
+			is_male = yes
 		}
-		localization_key = relation_son_my_accusative
 	}
-
 	text = {
+		localization_key = coward_female
 		trigger = {
-			any_child = {
-				is_female = yes
-			}
-			NOT = {
-				any_child = {
-					is_female = no
+			has_trait = craven
+			is_female = yes
+		}
+	}
+	text = {
+		localization_key = boar
+		trigger = {
+			has_personality_dominant_trigger = yes
+			is_male = yes
+		}
+	}
+	text = {
+		localization_key = boar_female
+		trigger = {
+			has_personality_dominant_trigger = yes
+			is_female = yes
+		}
+	}
+	text = {
+		localization_key = cox_comb
+		trigger = {
+			OR = {
+				has_trait = arrogant
+				AND = {
+					NOT = { has_trait = humble }
+					OR = {
+						has_trait = beauty_good_2
+						has_trait = beauty_good_3
+					}
 				}
 			}
+			is_male = yes
 		}
-		localization_key = relation_daughters_my_accusative
 	}
-
 	text = {
+		localization_key = cox_comb_female
 		trigger = {
-			any_child = {
-				is_male = yes
-			}
-			NOT = {
-				any_child = {
-					is_male = no
+			OR = {
+				has_trait = arrogant
+				AND = {
+					NOT = { has_trait = humble }
+					OR = {
+						has_trait = beauty_good_2
+						has_trait = beauty_good_3
+					}
 				}
 			}
+			is_female = yes
 		}
-		localization_key = relation_sons_my_accusative
 	}
-
 	text = {
+		localization_key = strumpet
 		trigger = {
-			any_child = {
-				is_female = yes
-			}
-			any_child = {
-				is_male = yes
+			is_female = yes
+			OR = {
+				has_trait = lustful
+				has_trait = seducer
 			}
 		}
-		localization_key = relation_children_my_accusative
+	}
+	text = {
+		localization_key = bedswerver
+		trigger = {
+			OR = {
+				has_trait = lustful
+				has_trait = seducer
+			}
+			is_male = yes
+		}
+	}
+	text = {
+		localization_key = bedswerver_female
+		trigger = {
+			OR = {
+				has_trait = lustful
+				has_trait = seducer
+			}
+			is_female = yes
+		}
 	}
 }
 
-### 1.4.4 - wiedźmy itd.
+# v1.5
 InsultNounGenitive = {
-	type = character
-	random_valid = yes
-
-	text = {
-		localization_key = witch_genitive
-		trigger = { is_female = yes }
-	}
-	text = {
-		localization_key = doxy_genitive
-		trigger = {
-			is_female = yes
-		}
-	}
-	text = {
-		localization_key = churl_genitive
-		trigger = {
-			is_male = yes
-		}
-	}		
-	text = {
-		localization_key = knave_genitive
-		trigger = { is_male = yes }
-	}
-	text = {
-		localization_key = spawn_of_hell_genitive
-		trigger = {
-			faith.religion = { is_in_family = rf_abrahamic }
-			OR = {
-				has_personality_malicious_trigger = yes
-				has_trait = cynical
-			}
-		}
-	}
-	text = {
-		localization_key = coward_genitive
-		trigger = {
-			has_trait = craven
-			is_male = yes
-		}
-	}
-	text = {
-		localization_key = coward_female_genitive
-		trigger = {
-			has_trait = craven
-			is_female = yes
-		}
-	}
-	text = {
-		localization_key = boar_genitive
-		trigger = {
-			has_personality_dominant_trigger = yes
-			is_male = yes
-		}
-	}
-	text = {
-		localization_key = boar_female_genitive
-		trigger = {
-			has_personality_dominant_trigger = yes
-			is_female = yes
-		}
-	}
-	text = {
-		localization_key = cox_comb_genitive
-		trigger = {
-			OR = {
-				has_trait = arrogant
-				AND = {
-					NOT = { has_trait = humble }
-					OR = {
-						has_trait = beauty_good_2
-						has_trait = beauty_good_3
-					}
-				}
-			}
-			is_male = yes
-		}
-	}
-	text = {
-		localization_key = cox_comb_female_genitive
-		trigger = {
-			OR = {
-				has_trait = arrogant
-				AND = {
-					NOT = { has_trait = humble }
-					OR = {
-						has_trait = beauty_good_2
-						has_trait = beauty_good_3
-					}
-				}
-			}
-			is_female = yes
-		}
-	}
-	text = {
-		localization_key = strumpet_genitive
-		trigger = {
-			is_female = yes
-			OR = {
-				has_trait = lustful
-				has_trait = seducer
-			}
-		}
-	}
-	text = {
-		localization_key = bedswerver_genitive
-		trigger = {
-			OR = {
-				has_trait = lustful
-				has_trait = seducer
-			}
-			is_male = yes
-		}
-	}
-	text = {
-		localization_key = bedswerver_female_genitive
-		trigger = {
-			OR = {
-				has_trait = lustful
-				has_trait = seducer
-			}
-			is_female = yes
-		}
-	}
+	parent = InsultNoun
+	suffix = "_genitive"
 }
 
-### 1.4.4 - wiedźmo itd.
+# v1.5
 InsultNounVocative = {
-	type = character
-	random_valid = yes
-
-	text = {
-		localization_key = witch_vocative
-		trigger = { is_female = yes }
-	}
-	text = {
-		localization_key = doxy_vocative
-		trigger = {
-			is_female = yes
-		}
-	}
-	text = {
-		localization_key = churl_vocative
-		trigger = {
-			is_male = yes
-		}
-	}		
-	text = {
-		localization_key = knave_vocative
-		trigger = { is_male = yes }
-	}
-	text = {
-		localization_key = spawn_of_hell_vocative
-		trigger = {
-			faith.religion = { is_in_family = rf_abrahamic }
-			OR = {
-				has_personality_malicious_trigger = yes
-				has_trait = cynical
-			}
-		}
-	}
-	text = {
-		localization_key = coward_vocative
-		trigger = {
-			has_trait = craven
-			is_male = yes
-		}
-	}
-	text = {
-		localization_key = coward_female_vocative
-		trigger = {
-			has_trait = craven
-			is_female = yes
-		}
-	}
-	text = {
-		localization_key = boar_vocative
-		trigger = {
-			has_personality_dominant_trigger = yes
-			is_male = yes
-		}
-	}
-	text = {
-		localization_key = boar_female_vocative
-		trigger = {
-			has_personality_dominant_trigger = yes
-			is_female = yes
-		}
-	}
-	text = {
-		localization_key = cox_comb_vocative
-		trigger = {
-			OR = {
-				has_trait = arrogant
-				AND = {
-					NOT = { has_trait = humble }
-					OR = {
-						has_trait = beauty_good_2
-						has_trait = beauty_good_3
-					}
-				}
-			}
-			is_male = yes
-		}
-	}
-	text = {
-		localization_key = cox_comb_female_vocative
-		trigger = {
-			OR = {
-				has_trait = arrogant
-				AND = {
-					NOT = { has_trait = humble }
-					OR = {
-						has_trait = beauty_good_2
-						has_trait = beauty_good_3
-					}
-				}
-			}
-			is_female = yes
-		}
-	}
-	text = {
-		localization_key = strumpet_vocative
-		trigger = {
-			is_female = yes
-			OR = {
-				has_trait = lustful
-				has_trait = seducer
-			}
-		}
-	}
-	text = {
-		localization_key = bedswerver_vocative
-		trigger = {
-			OR = {
-				has_trait = lustful
-				has_trait = seducer
-			}
-			is_male = yes
-		}
-	}
-	text = {
-		localization_key = bedswerver_female_vocative
-		trigger = {
-			OR = {
-				has_trait = lustful
-				has_trait = seducer
-			}
-			is_female = yes
-		}
-	}
+	parent = InsultNoun
+	suffix = "_vocative"
 }
 
-### 1.4.4 - pogan, niewiernych
+# v1.5
 GetUnbelieverNamePluralAdj = {
 	type = character
 
@@ -2147,202 +1979,89 @@ GetUnbelieverNamePluralAdj = {
 	}
 }
 
-### 1.4.4 - buławę, miecz
+# ------------------------------ signature_weapon ------------------------------ #
+
+# v1.5 - original
+signature_weapon = {
+	type = character
+
+	text = {
+		localization_key = signature_weapon_sword
+		trigger = {
+			exists = var:signature_weapon
+			var:signature_weapon = flag:sword
+		}
+		fallback = yes
+	}
+
+	text = {
+		localization_key = signature_weapon_mace
+		trigger = {
+			exists = var:signature_weapon
+			var:signature_weapon = flag:mace
+		}
+	}
+
+	text = {
+		localization_key = signature_weapon_axe
+		trigger = {
+			exists = var:signature_weapon
+			var:signature_weapon = flag:axe
+		}
+	}
+
+	text = {
+		localization_key = signature_weapon_hammer
+		trigger = {
+			exists = var:signature_weapon
+			var:signature_weapon = flag:hammer
+		}
+	}
+
+	text = {
+		localization_key = signature_weapon_spear
+		trigger = {
+			exists = var:signature_weapon
+			var:signature_weapon = flag:spear
+		}
+	}
+
+	text = {
+		localization_key = signature_weapon_dagger
+		trigger = {
+			exists = var:signature_weapon
+			var:signature_weapon = flag:dagger
+		}
+	}
+}
+
+# v1.5
 signature_weapon_bier = {
-	type = character
-
-	text = {
-		localization_key = signature_weapon_sword_bier
-		trigger = {
-			var:signature_weapon = flag:sword
-		}
-		fallback = yes
-	}
-
-	text = {
-		localization_key = signature_weapon_mace_bier
-		trigger = {
-			var:signature_weapon = flag:mace
-		}
-	}
-
-	text = {
-		localization_key = signature_weapon_axe_bier
-		trigger = {
-			var:signature_weapon = flag:axe
-		}
-	}
-
-	text = {
-		localization_key = signature_weapon_hammer_bier
-		trigger = {
-			var:signature_weapon = flag:hammer
-		}
-	}
-
-	text = {
-		localization_key = signature_weapon_spear_bier
-		trigger = {
-			var:signature_weapon = flag:spear
-		}
-	}
-
-	text = {
-		localization_key = signature_weapon_dagger_bier
-		trigger = {
-			var:signature_weapon = flag:dagger
-		}
-	}
+	parent = signature_weapon
+	suffix = "_bier"
 }
 
-### 1.4.4 - włócznią, mieczem
+# v1.5
 signature_weapon_narz = {
-	type = character
-
-	text = {
-		localization_key = signature_weapon_sword_narz
-		trigger = {
-			var:signature_weapon = flag:sword
-		}
-		fallback = yes
-	}
-
-	text = {
-		localization_key = signature_weapon_mace_narz
-		trigger = {
-			var:signature_weapon = flag:mace
-		}
-	}
-
-	text = {
-		localization_key = signature_weapon_axe_narz
-		trigger = {
-			var:signature_weapon = flag:axe
-		}
-	}
-
-	text = {
-		localization_key = signature_weapon_hammer_narz
-		trigger = {
-			var:signature_weapon = flag:hammer
-		}
-	}
-
-	text = {
-		localization_key = signature_weapon_spear_narz
-		trigger = {
-			var:signature_weapon = flag:spear
-		}
-	}
-
-	text = {
-		localization_key = signature_weapon_dagger_narz
-		trigger = {
-			var:signature_weapon = flag:dagger
-		}
-	}
+	parent = signature_weapon
+	suffix = "_narz"
 }
 
-### 1.4.4 - buławy, miecza
+# v1.5
 signature_weapon_dop = {
-	type = character
-
-	text = {
-		localization_key = signature_weapon_sword_dop
-		trigger = {
-			var:signature_weapon = flag:sword
-		}
-		fallback = yes
-	}
-
-	text = {
-		localization_key = signature_weapon_mace_dop
-		trigger = {
-			var:signature_weapon = flag:mace
-		}
-	}
-
-	text = {
-		localization_key = signature_weapon_axe_dop
-		trigger = {
-			var:signature_weapon = flag:axe
-		}
-	}
-
-	text = {
-		localization_key = signature_weapon_hammer_dop
-		trigger = {
-			var:signature_weapon = flag:hammer
-		}
-	}
-
-	text = {
-		localization_key = signature_weapon_spear_dop
-		trigger = {
-			var:signature_weapon = flag:spear
-		}
-	}
-
-	text = {
-		localization_key = signature_weapon_dagger_dop
-		trigger = {
-			var:signature_weapon = flag:dagger
-		}
-	}
+	parent = signature_weapon
+	suffix = "_dop"
 }
 
-
-### 1.4.4 - mój, moja
-### Do użycia z signature_weapon
-### Inne przypadki można zrobić za pomocą equal stringa
+# v1.5
 signature_weapon_my = {
-	type = character
-
-	text = {
-		localization_key = weapon_moj
-		trigger = {
-			var:signature_weapon = flag:sword
-		}
-		fallback = yes
-	}
-
-	text = {
-		localization_key = weapon_moja
-		trigger = {
-			var:signature_weapon = flag:mace
-		}
-	}
-
-	text = {
-		localization_key = weapon_moj
-		trigger = {
-			var:signature_weapon = flag:axe
-		}
-	}
-
-	text = {
-		localization_key = weapon_moj
-		trigger = {
-			var:signature_weapon = flag:hammer
-		}
-	}
-
-	text = {
-		localization_key = weapon_moja
-		trigger = {
-			var:signature_weapon = flag:spear
-		}
-	}
-
-	text = {
-		localization_key = weapon_moj
-		trigger = {
-			var:signature_weapon = flag:dagger
-		}
-	}
+	parent = signature_weapon
+	suffix = "_moj"
 }
 
-### 1.4.4 - trawą, piachem
+# ------------------------------------------------------------------------------ #
+
+# v1.5
 GritTypeAdj = {
 	type = character
 
@@ -2424,7 +2143,7 @@ GritTypeAdj = {
 	}
 }
 
-### 1.4.4 - złej, błędnej
+# v1.5
 ToleranceValueAdj = {
 	type = character
 
@@ -2478,7 +2197,7 @@ ToleranceValueAdj = {
 	}
 }
 
-### 1.4.4 - konia czystej krwi, chustkę z herbem
+# v1.5
 SeductionGiftTypeAdj = {
 	type = character
 
@@ -2543,26 +2262,26 @@ SeductionGiftTypeAdj = {
 	}
 }
 
-# 1.4.4
-PositiveAfterLifeLocative = {
-	type = character
+# v1.5
+PositiveAfterLifeBase = {
+	type = faith
 
     #Wiary na poczatku
     
     #faith:sethianism
     text = {
 		trigger = {
-				faith = faith:sethianism
+				this = faith:sethianism
 		}
-		localization_key = sethian_divine_realm_locative
+		localization_key = sethian_divine_realm
     }
 
     #faith:melieism
     text = {
 		trigger = {
-				faith = faith:melieism
+				this = faith:melieism
 		}
-		localization_key = tangut_positive_afterlife_locative
+		localization_key = tangut_positive_afterlife
     }
 
     # _________________________________________________________________ #
@@ -2570,645 +2289,323 @@ PositiveAfterLifeLocative = {
 	#akom
 	text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = akom_religion
 			}
-		}
-		localization_key = akom_afterlife_locative
+		
+		localization_key = akom_afterlife
 	}
 
     #baltic
     text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = baltic_religion
 			}
-		}
-		localization_key = paganism_afterlife_locative
+		
+		localization_key = paganism_afterlife
 	}
 
     #bon
     text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = bon_religion
 			}
-		}
-		localization_key = bon_afterlife_positive_locative
+		
+		localization_key = bon_afterlife_positive
 	}
 
     #buddhism
     text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = buddhism_religion
 			}
-		}
-		localization_key = buddhism_divine_realm_locative
+		
+		localization_key = buddhism_divine_realm
 	}
 
     #christianity
     text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = christianity_religion
 			}
-		}
-		localization_key = christianity_positive_afterlife_locative
+		
+		localization_key = christianity_positive_afterlife
 	}
 
     #tani
     text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = tani_religion
 			}
-		}
-		localization_key = tani_positive_afterlife_locative
+		
+		localization_key = tani_positive_afterlife
 	}
 
     #dualism
     text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = dualism_religion
 			}
-		}
-		localization_key = dualism_positive_afterlife_locative
+		
+		localization_key = dualism_positive_afterlife
 	}
 
     #finno-ugric
     text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = finno_ugric_religion
 			}
-		}
-		localization_key = finno_ugric_afterlife_locative
+		
+		localization_key = finno_ugric_afterlife
 	}
 
     #germanic
     text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = germanic_religion
 			}
-		}
-		localization_key = germanic_positive_afterlife_locative
+		
+		localization_key = germanic_positive_afterlife
 	}
 
     #hellenism
     text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = hellenism_religion
 			}
-		}
-		localization_key = hellenism_death_deity_name_locative
+		
+		localization_key = hellenism_death_deity_name
 	}
 
     #hinduism, mundhum
     text = {
 		trigger = {
-			faith = {
+			
 				OR = { 
                     religion_tag = hinduism_religion
                     religion_tag = mundhum_religion
                 }
 			}
-		}
-		localization_key = hinduism_positive_afterlife_locative
+		
+		localization_key = hinduism_positive_afterlife
 	}
 
     #islam
     text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = islam_religion
 			}
-		}
-		localization_key = islam_positive_afterlife_locative
+		
+		localization_key = islam_positive_afterlife
 	}
 
     #jainism
     text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = jainism_religion
 			}
-		}
-		localization_key = jainism_positive_afterlife_locative
+		
+		localization_key = jainism_positive_afterlife
 	}
 
     #judaism
     text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = judaism_religion
 			}
-		}
-		localization_key = judaism_positive_afterlife_locative
+		
+		localization_key = judaism_positive_afterlife
 	}
 
     #kushitism
     text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = kushitism_religion
 			}
-		}
-		localization_key = kushitism_divine_realm_locative
+		
+		localization_key = kushitism_divine_realm
 	}
 
     #magyar
     text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = magyar_religion
 			}
-		}
-		localization_key = magyar_divine_realm_locative
+		
+		localization_key = magyar_divine_realm
 	}
 
     #paganism
     text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = paganism_religion
 			}
-		}
-		localization_key = paganism_divine_realm_locative
+		
+		localization_key = paganism_divine_realm
 	}
 
     #qiangic
     text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = qiangic_religion
 			}
-		}
-		localization_key = qiangic_positive_afterlife_locative
+		
+		localization_key = qiangic_positive_afterlife
 	}
 
     #siberian
     text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = siberian_religion
 			}
-		}
-		localization_key = siberian_divine_realm_locative
+		
+		localization_key = siberian_divine_realm
 	}
 
     #slavic
     text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = slavic_religion
 			}
-		}
-		localization_key = slavic_positive_afterlife_locative
+		
+		localization_key = slavic_positive_afterlife
 	}
 
     #taoism
     text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = taoism_religion
 			}
-		}
-		localization_key = taoism_positive_afterlife_locative
+		
+		localization_key = taoism_positive_afterlife
 	}
 
     #tengrism
     text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = tengrism_religion
 			}
-		}
-		localization_key = tengrism_divine_realm_locative
+		
+		localization_key = tengrism_divine_realm
 	}
 
     #waaqism
     text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = waaqism_religion
 			}
-		}
-		localization_key = waaqism_afterlife_locative
+		
+		localization_key = waaqism_afterlife
 	}
 
     #west african bori
     text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = west_african_bori_religion
 			}
-		}
-		localization_key = west_african_bori_divine_realm_locative
+		
+		localization_key = west_african_bori_divine_realm
 	}
 
     #west african orisha
     text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = west_african_orisha_religion
 			}
-		}
-		localization_key = yoruba_divine_realm_locative
+		
+		localization_key = yoruba_divine_realm
 	}
 
     #west african roog
     text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = west_african_roog_religion
 			}
-		}
-		localization_key = west_african_roog_afterlife_locative
+		
+		localization_key = west_african_roog_afterlife
 	}
 
     #west african 
     text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = west_african_religion
 			}
-		}
-		localization_key = west_african_divine_realm_locative
+		
+		localization_key = west_african_divine_realm
 	}
 
     #yazidi
     text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = yazidi_religion
 			}
-		}
-		localization_key = yazidi_positive_afterlife_locative
+		
+		localization_key = yazidi_positive_afterlife
 	}
 
     #zoroastrianism
     text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = zoroastrianism_religion
 			}
-		}
-		localization_key = zoroastrianism_positive_afterlife_locative
+		
+		localization_key = zoroastrianism_positive_afterlife
 	}
 
     #zunism
     text = {
 		trigger = {
-			faith = {
+			
 				religion_tag = zunism_religion
 			}
-		}
-		localization_key = zunism_divine_realm_locative
+		
+		localization_key = zunism_divine_realm
 	}
 
     #fallback
 	text = {
-			localization_key = positive_afterlife_fallback_locative
+			localization_key = positive_afterlife_fallback
 			fallback = yes
 		}
 }
 
-# 1.4.4
+# v1.5
+PositiveAfterLifeLocative = {
+	parent = PositiveAfterLifeBase
+	suffix = "_locative"
+}
+
+# v1.5
 PositiveAfterLifeGenitive = {
-	type = character
-
-    #Wiary na poczatku
-    
-    #faith:sethianism
-    text = {
-		trigger = {
-				faith = faith:sethianism
-		}
-		localization_key = sethian_divine_realm_genitive
-    }
-
-    #faith:melieism
-    text = {
-		trigger = {
-				faith = faith:melieism
-		}
-		localization_key = tangut_positive_afterlife_genitive
-    }
-
-    # _________________________________________________________________ #
-	
-	#akom
-	text = {
-		trigger = {
-			faith = {
-				religion_tag = akom_religion
-			}
-		}
-		localization_key = akom_afterlife_genitive
-	}
-
-    #baltic
-    text = {
-		trigger = {
-			faith = {
-				religion_tag = baltic_religion
-			}
-		}
-		localization_key = paganism_afterlife_genitive
-	}
-
-    #bon
-    text = {
-		trigger = {
-			faith = {
-				religion_tag = bon_religion
-			}
-		}
-		localization_key = bon_afterlife_positive_genitive
-	}
-
-    #buddhism
-    text = {
-		trigger = {
-			faith = {
-				religion_tag = buddhism_religion
-			}
-		}
-		localization_key = buddhism_divine_realm_genitive
-	}
-
-    #christianity
-    text = {
-		trigger = {
-			faith = {
-				religion_tag = christianity_religion
-			}
-		}
-		localization_key = christianity_positive_afterlife_genitive
-	}
-
-    #tani
-    text = {
-		trigger = {
-			faith = {
-				religion_tag = tani_religion
-			}
-		}
-		localization_key = tani_positive_afterlife_genitive
-	}
-
-    #dualism
-    text = {
-		trigger = {
-			faith = {
-				religion_tag = dualism_religion
-			}
-		}
-		localization_key = dualism_positive_afterlife_genitive
-	}
-
-    #finno-ugric
-    text = {
-		trigger = {
-			faith = {
-				religion_tag = finno_ugric_religion
-			}
-		}
-		localization_key = finno_ugric_afterlife_genitive
-	}
-
-    #germanic
-    text = {
-		trigger = {
-			faith = {
-				religion_tag = germanic_religion
-			}
-		}
-		localization_key = germanic_positive_afterlife_genitive
-	}
-
-    #hellenism
-    text = {
-		trigger = {
-			faith = {
-				religion_tag = hellenism_religion
-			}
-		}
-		localization_key = hellenism_death_deity_name_genitive
-	}
-
-    #hinduism, mundhum
-    text = {
-		trigger = {
-			faith = {
-				OR = { 
-                    religion_tag = hinduism_religion
-                    religion_tag = mundhum_religion
-                }
-			}
-		}
-		localization_key = hinduism_positive_afterlife_genitive
-	}
-
-    #islam
-    text = {
-		trigger = {
-			faith = {
-				religion_tag = islam_religion
-			}
-		}
-		localization_key = islam_positive_afterlife_genitive
-	}
-
-    #jainism
-    text = {
-		trigger = {
-			faith = {
-				religion_tag = jainism_religion
-			}
-		}
-		localization_key = jainism_positive_afterlife_genitive
-	}
-
-    #judaism
-    text = {
-		trigger = {
-			faith = {
-				religion_tag = judaism_religion
-			}
-		}
-		localization_key = judaism_positive_afterlife_genitive
-	}
-
-    #kushitism
-    text = {
-		trigger = {
-			faith = {
-				religion_tag = kushitism_religion
-			}
-		}
-		localization_key = kushitism_divine_realm_genitive
-	}
-
-    #magyar
-    text = {
-		trigger = {
-			faith = {
-				religion_tag = magyar_religion
-			}
-		}
-		localization_key = magyar_divine_realm_genitive
-	}
-
-    #paganism
-    text = {
-		trigger = {
-			faith = {
-				religion_tag = paganism_religion
-			}
-		}
-		localization_key = paganism_divine_realm_genitive
-	}
-
-    #qiangic
-    text = {
-		trigger = {
-			faith = {
-				religion_tag = qiangic_religion
-			}
-		}
-		localization_key = qiangic_positive_afterlife_genitive
-	}
-
-    #siberian
-    text = {
-		trigger = {
-			faith = {
-				religion_tag = siberian_religion
-			}
-		}
-		localization_key = siberian_divine_realm_genitive
-	}
-
-    #slavic
-    text = {
-		trigger = {
-			faith = {
-				religion_tag = slavic_religion
-			}
-		}
-		localization_key = slavic_positive_afterlife_genitive
-	}
-
-    #taoism
-    text = {
-		trigger = {
-			faith = {
-				religion_tag = taoism_religion
-			}
-		}
-		localization_key = taoism_positive_afterlife_genitive
-	}
-
-    #tengrism
-    text = {
-		trigger = {
-			faith = {
-				religion_tag = tengrism_religion
-			}
-		}
-		localization_key = tengrism_divine_realm_genitive
-	}
-
-    #waaqism
-    text = {
-		trigger = {
-			faith = {
-				religion_tag = waaqism_religion
-			}
-		}
-		localization_key = waaqism_afterlife_genitive
-	}
-
-    #west african bori
-    text = {
-		trigger = {
-			faith = {
-				religion_tag = west_african_bori_religion
-			}
-		}
-		localization_key = west_african_bori_divine_realm_genitive
-	}
-
-    #west african orisha
-    text = {
-		trigger = {
-			faith = {
-				religion_tag = west_african_orisha_religion
-			}
-		}
-		localization_key = yoruba_divine_realm_genitive
-	}
-
-    #west african roog
-    text = {
-		trigger = {
-			faith = {
-				religion_tag = west_african_roog_religion
-			}
-		}
-		localization_key = west_african_roog_afterlife_genitive
-	}
-
-    #west african 
-    text = {
-		trigger = {
-			faith = {
-				religion_tag = west_african_religion
-			}
-		}
-		localization_key = west_african_divine_realm_genitive
-	}
-
-    #yazidi
-    text = {
-		trigger = {
-			faith = {
-				religion_tag = yazidi_religion
-			}
-		}
-		localization_key = yazidi_positive_afterlife_genitive
-	}
-
-    #zoroastrianism
-    text = {
-		trigger = {
-			faith = {
-				religion_tag = zoroastrianism_religion
-			}
-		}
-		localization_key = zoroastrianism_positive_afterlife_genitive
-	}
-
-    #zunism
-    text = {
-		trigger = {
-			faith = {
-				religion_tag = zunism_religion
-			}
-		}
-		localization_key = zunism_divine_realm_genitive
-	}
-
-    #fallback
-	text = {
-			localization_key = positive_afterlife_fallback_genitive
-			fallback = yes
-		}
+	parent = PositiveAfterLifeBase
+	suffix = "_genitive"
 }
 
 # 1.4.4
@@ -3810,6 +3207,13 @@ NegativeAfterLifeLocative = {
 			fallback = yes
 		}
 }
+
+
+
+
+
+
+
 
 # 1.4.4
 ThreeToTwelveInstrumental = {

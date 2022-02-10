@@ -3470,8 +3470,12 @@ stick_horse_accusative:0 "konika na kiju"
  signature_weapon_dagger_dop:0 "sztyletu"
 
  #signature_weapon_my
- weapon_moja:0 "moja"
- weapon_moj:0 "mój"
+ signature_weapon_sword_moj:0 "mój"
+ signature_weapon_mace_moj:0 "moja"
+ signature_weapon_axe_moj:0 "mój"
+ signature_weapon_hammer_moj:0 "mój"
+ signature_weapon_spear_moj:0 "moja"
+ signature_weapon_dagger_moj:0 "mój"
  
  #GritTypeAdj
  grit_type_grit_adj:0 "żwirem"
@@ -3504,6 +3508,8 @@ stick_horse_accusative:0 "konika na kiju"
  
  #Okno małżeństwa
  INTERACTION_LEFT_SPOUSE:0 "[Select_CString( Character.IsValid, Select_CString( Character.IsFemale, Concept('spouse','Małżonka'), spouse ), spouse )|E]"
+
+ positive_afterlife_fallback:0 "inny świat"
 
  #PositiveAfterLifeLocative
  sethian_divine_realm_locative:0 "Pleromie"
@@ -3538,7 +3544,7 @@ stick_horse_accusative:0 "konika na kiju"
  yazidi_positive_afterlife_locative:0 "następnym życiu"
  zoroastrianism_positive_afterlife_locative:0 "raju"
  zunism_divine_realm_locative:0 "niebiosach"
- positive_afterlife_fallback_locative:0 "lepszym świecie"
+ positive_afterlife_fallback_locative:0 "innym świecie"
 
  #PositiveAfterLifeGenitive
  sethian_divine_realm_genitive:0 "Pleromy"
@@ -3573,7 +3579,7 @@ stick_horse_accusative:0 "konika na kiju"
  yazidi_positive_afterlife_genitive:0 "następnego życia"
  zoroastrianism_positive_afterlife_genitive:0 "raju"
  zunism_divine_realm_genitive:0 "niebios"
- positive_afterlife_fallback_genitive:0 "lepszego świata"
+ positive_afterlife_fallback_genitive:0 "innego świata"
 
  #NegativeAfterLifeGenitive
  bon_afterlife_negative_genitive:0 "Myalby"
