@@ -3687,3 +3687,31 @@ stick_horse_accusative:0 "konika na kiju"
  signature_weapon_attempted_light_pierce_accusative:0 "agresywne dźgnięcie"
  
  government_type_realm_vassal_adj:0 "[Select_CString(EqualTo_string(GovernmentType.GetNameNoTooltip, '$tribal_government$'), 'Plemienni', '')][Select_CString(EqualTo_string(GovernmentType.GetNameNoTooltip, '$feudal_government$'), 'Feudalni', '')][Select_CString(EqualTo_string(GovernmentType.GetNameNoTooltip, '$clan_government$'), 'Klanowi', '')][Select_CString(EqualTo_string(GovernmentType.GetNameNoTooltip, '$republic_government$'), 'Republikańscy', '')][Select_CString(EqualTo_string(GovernmentType.GetNameNoTooltip, '$theocracy_government$'), 'Teokratyczni', '')]"
+
+ #FortifiedBuildingGenitive
+ kasbah_genitive:0 "kasby"
+ durga_genitive:0 "durgi"
+ kastron_genitive:0 "kastronu"
+ stronghold_genitive:0 "grodu"
+ castle_genitive:0 "zamku"
+
+ #FortifiedBuildingLocative
+ kasbah_locative:0 "kasbie"
+ durga_locative:0 "durdze"
+ kastron_locative:0 "kastronie"
+ stronghold_locative:0 "grodzie"
+ castle_locative:0 "zamku"
+
+ #FortifiedBuildingAccusative
+ kasbah_accusative:0 "kasbę"
+ durga_accusative:0 "durgę"
+ kastron_accusative:0 "kastronę"
+ stronghold_accusative:0 "gród"
+ castle_accusative:0 "zamek"
+
+ #FortifiedBuildingMy
+ kasbah_my:0 "moja"
+ durga_my:0 "moja"
+ kastron_my:0 "mój"
+ stronghold_my:0 "mój"
+ castle_my:0 "mój"
