@@ -1267,7 +1267,7 @@ types Lists
 							block "description_relation_text" {
 								# ZMIANA
 								#text = "[Character.GetRelationToString( CharacterWindow.GetCourtOwner )]"
-								text = "[Select_CString( ObjectsEqual(GetPlayer, CharacterWindow.GetCourtOwner.Self), CharacterWindow.GetCourtOwner.Custom2('MySheOrMyHeRelationList', Character.Self), '' )|U] [Character.GetRelationToString( CharacterWindow.GetCourtOwner )]"
+								text = "[Select_CString( ObjectsEqual(GetPlayer, CharacterWindow.GetCourtOwner.Self), CharacterWindow.GetCourtOwner.Custom2('MySheHeGUI', Character.Self), '' )|U] [Character.GetRelationToString( CharacterWindow.GetCourtOwner )]"
 								tooltip = "EXTENDED_RELATIONS_TOOLTIP"
 							}
 
@@ -1520,7 +1520,7 @@ types Lists
 								layoutpolicy_horizontal = expanding
 								# ZMIANA 
 								#text = "[Character.GetRelationToString(GetPlayer)]"
-								text = "[GetPlayer.Custom2('MySheOrMyHeRelationList', Character.Self)|U] [Character.GetRelationToString(GetPlayer)]"
+								text = "[GetPlayer.Custom2('MySheHeGUI', Character.Self)|U] [Character.GetRelationToString(GetPlayer)]"
 								tooltip = "EXTENDED_RELATIONS_TOOLTIP"
 								default_format = "#low"
 								autoresize = no

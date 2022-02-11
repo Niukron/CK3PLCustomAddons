@@ -165,7 +165,7 @@ window = {
 													layoutpolicy_horizontal = expanding
 													### ZMIANA ###
 													# text = "[Character.GetRelationToString( GetPlayer )]"
-													text = "[GetPlayer.Custom2('MySheOrMyHeRelationList', Character.Self)|U] [Character.GetRelationToString( GetPlayer )]"
+													text = "[GetPlayer.Custom2('MySheHeGUI', Character.Self)|U] [Character.GetRelationToString( GetPlayer )]"
 													tooltip = "EXTENDED_RELATIONS_TOOLTIP"
 													default_format = "#low"
 													autoresize = no
