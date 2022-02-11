@@ -3544,7 +3544,7 @@ stick_horse_accusative:0 "konika na kiju"
  yazidi_positive_afterlife_locative:0 "następnym życiu"
  zoroastrianism_positive_afterlife_locative:0 "raju"
  zunism_divine_realm_locative:0 "niebiosach"
- positive_afterlife_fallback_locative:0 "innym świecie"
+ positive_afterlife_fallback_locative:0 "lepszym świecie"
 
  #PositiveAfterLifeGenitive
  sethian_divine_realm_genitive:0 "Pleromy"
@@ -3579,7 +3579,10 @@ stick_horse_accusative:0 "konika na kiju"
  yazidi_positive_afterlife_genitive:0 "następnego życia"
  zoroastrianism_positive_afterlife_genitive:0 "raju"
  zunism_divine_realm_genitive:0 "niebios"
- positive_afterlife_fallback_genitive:0 "innego świata"
+ positive_afterlife_fallback_genitive:0 "lepszego świata"
+
+ negative_afterlife_fallback:0 "gorszy świat"
+ slavic_negative_afterlive:0 "Nawii"
 
  #NegativeAfterLifeGenitive
  bon_afterlife_negative_genitive:0 "Myalby"
