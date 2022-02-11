@@ -615,7 +615,7 @@ types GameTooltipTypes
 							max_width = 308
 							# ZMIANA
 							# text = "[Character.GetRelationToString( GetPlayer )]"
-							text = "[GetPlayer.Custom2('MySheOrMyHeRelationListTooltip', Character.Self)|U][Select_CString( StringIsEmpty(GetPlayer.Custom2('MySheOrMyHeRelationListTooltip', Character.Self)), '', ' ' )][Character.GetRelationToString( GetPlayer )]"
+							text = "[GetPlayer.Custom2('MySheHeGUITooltip', Character.Self)|U][Select_CString( StringIsEmpty(GetPlayer.Custom2('MySheHeGUITooltip', Character.Self)), '', ' ' )][Character.GetRelationToString( GetPlayer )]"
 							tooltip = "EXTENDED_RELATIONS_TOOLTIP"
 							default_format = "#high"
 							align = nobaseline
