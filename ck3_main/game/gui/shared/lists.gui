@@ -899,7 +899,7 @@ types Lists
 		margin_left = 20
 		margin_right = 20
 		margin_top = 5
-		spacing = 5
+		spacing = 1
 
 		button_standard = {
 			name = "filters"
@@ -966,15 +966,12 @@ types Lists
 			hbox = {
 				button_standard_hover = {
 					name = "skill_diplomacy"
-					# ZMIANA
-					# size = { 32 32 }
-					size = { 28 28 }
+
+					size = { 32 32 }
 
 					icon = {
 						texture = "gfx/interface/icons/icon_skills.dds"
-						# ZMIANA
-						# size = { 32 32 }
-						size = { 28 28 }
+						size = { 32 32 }
 						framesize = { 60 60 }
 						frame = 1
 					}
@@ -991,15 +988,11 @@ types Lists
 
 				button_standard_hover = {
 					name = "skill_martial"
-					# ZMIANA
-					# size = { 32 32 }
-					size = { 28 28 }
+					size = { 32 32 }
 
 					icon = {
 						texture = "gfx/interface/icons/icon_skills.dds"
-						# ZMIANA
-						# size = { 32 32 }
-						size = { 28 28 }
+						size = { 32 32 }
 						framesize = { 60 60 }
 						frame = 2
 					}
@@ -1016,15 +1009,11 @@ types Lists
 
 				button_standard_hover = {
 					name = "skill_stewardship"
-					# ZMIANA
-					# size = { 32 32 }
-					size = { 28 28 }
+					size = { 32 32 }
 
 					icon = {
 						texture = "gfx/interface/icons/icon_skills.dds"
-						# ZMIANA
-						# size = { 32 32 }
-						size = { 28 28 }
+						size = { 32 32 }
 						framesize = { 60 60 }
 						frame = 3
 					}
@@ -1040,15 +1029,11 @@ types Lists
 
 				button_standard_hover = {
 					name = "skill_intrigue"
-					# ZMIANA
-					# size = { 32 32 }
-					size = { 28 28 }
+					size = { 32 32 }
 
 					icon = {
 						texture = "gfx/interface/icons/icon_skills.dds"
-						# ZMIANA
-						# size = { 32 32 }
-						size = { 28 28 }
+						size = { 32 32 }
 						framesize = { 60 60 }
 						frame = 4
 					}
@@ -1064,15 +1049,11 @@ types Lists
 
 				button_standard_hover = {
 					name = "skill_learning"
-					# ZMIANA
-					# size = { 32 32 }
-					size = { 28 28 }
+					size = { 32 32 }
 
 					icon = {
 						texture = "gfx/interface/icons/icon_skills.dds"
-						# ZMIANA
-						# size = { 32 32 }
-						size = { 28 28 }
+						size = { 32 32 }
 						framesize = { 60 60 }
 						frame = 5
 					}
