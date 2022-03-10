@@ -1,11 +1,11 @@
 ﻿l_english:
- court_jester_prefix: ""
+ court_jester_prefix: "Nadworny błazen: "
  jester.100.t: ""
  jester.100.desc: ""
  jester.100.a: ""
  covered_in_feces: ""
  covered_in_feces_desc: ""
- jester.200.t: ""
+ jester.200.t: "$court_jester_prefix$Najlepszym lekarstwem jest śmiech"
  jester.200.desc: ""
  jester.200.a: ""
  jester.200.b: ""

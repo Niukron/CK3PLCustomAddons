@@ -125,6 +125,12 @@
 
  murder_save.1013.desc:0 "As I tuck into my favorite dinner, a curious smell strikes my nose. Hints of acidity linger beneath its usual aroma, the balance of the spices seems off... After questioning the cook, who said all was prepared normally, only one thought is in my mind: someone tried to poison me!"
 
+ murder_save.0014.t:0 "$murder_save_header$ Grave Comprehension"
+ murder_save.0014.desc:0 "My attempt on [target.GetTitledFirstNamePossessive] life has been thwarted!\n\nIt turns out the foolish assassins didn't realize [target.GetSheHe] spoke [owner.GetCulture.GetLanguage.GetNameNoTooltip], and were blabbing about the scheme right in front of [target.GetHerHis] nose."
+
+ murder_save.1014.desc:0 "One evening as I am preparing for bed, I hear two of my servants talking in hushed voices. It takes me a moment to realize they are speaking in [ROOT.Char.GetCulture.GetLanguage.GetNameNoTooltip] rather than [owner.GetCulture.GetLanguage.GetNameNoTooltip]. They clearly don't realize I can understand them.\n\n"Wait for [ROOT.Char.GetHerHim] to fall asleep. Then you keep watch while I slit [ROOT.Char.GetHerHis] throat".\n\nI swiftly exit my quarters to inform my guards that there are assassins in my room. Thank [ROOT.Char.GetFaith.HighGodName] I speak [owner.GetCulture.GetLanguage.GetNameNoTooltip]!"
+
+ murder_save.1014.a:0 "Now who would send [owner.GetCulture.GetLanguage.GetNameNoTooltip] speaking assassins?"
  murder_save.0015.t:0 "$murder_save_header$ The Timely Artifact"
  murder_save.0015.desc:0 "[target.GetTitledFirstName] has survived my assassination attempt, apparently using [target.GetHerHis] [this_artifact.GetName] to brutally murder the assassin we sent."
 
@@ -132,11 +138,11 @@
 
  murder_save.1015.blunt_artifact.desc:0 "$murder_save.1015.start_desc$ [this_artifact.GetName]. Seizing it I use it first to block the incoming knife thrust before bringing it down on [attempted_assassin.GetFirstNamePossessiveNoTooltip] skull again and again.\n\nEventually I fall back exhausted, dropping the [SCOPE.Custom('ThisArtifactType')], where it lies covered in blood and gore."
 
- murder_save.1015.sculpture_artifact.desc:0 "$murder_save.1015.start_desc$ [this_artifact.GetName]. Backing away from [attempted_assassin.GetFirstNameNoTooltip], I wait for the perfect moment before toppling the [SCOPE.Custom('ThisArtifactType')] ontop of [attempted_assassin.GetHerHim].\n\nThe [this_artifact.GetNameNoTooltip] makes a sickening crunch, as it crushes [attempted_assassin.GetHerHim] below it."
+ murder_save.1015.sculpture_artifact.desc:1 "$murder_save.1015.start_desc$ [this_artifact.GetName]. Backing away from [attempted_assassin.GetFirstNameNoTooltip], I wait for the perfect moment before toppling the [SCOPE.Custom('ThisArtifactType')] on top of [attempted_assassin.GetHerHim].\n\nThe [this_artifact.GetNameNoTooltip] makes a sickening crunch, as it crushes [attempted_assassin.GetHerHim] below it."
 
  murder_save.1015.chest_artifact.desc:0 "$murder_save.1015.start_desc$ [this_artifact.GetName]. I slowly back away luring [attempted_assassin.GetHerHim] towards the open, [SCOPE.Custom('ThisArtifactType')]. At the perfect moment I grab [attempted_assassin.GetHerHis] head and push it under the lid of the chest, before smashing it down on [attempted_assassin.GetHerHis] fragile skull with a cringe inducing crack.\n\nI bring it down three or four more times for good measure before stepping back and allowing the body to slump to the floor."
 
- murder_save.1015.actual_weapon_artifact.desc:0 "$murder_save.1015.start_desc$ [this_artifact.GetName]. The colour drains from [attempted_assassin.GetHerHis] face as [attempted_assassin.GetSheHe] realises I am armed. It takes little effort to dispatch [attempted_assassin.GetHimHer] with the [SCOPE.Custom('ThisArtifactType')]."
+ murder_save.1015.actual_weapon_artifact.desc:1 "$murder_save.1015.start_desc$ [this_artifact.GetName]. The color drains from [attempted_assassin.GetHerHis] face as [attempted_assassin.GetSheHe] realizes I am armed. It takes little effort to dispatch [attempted_assassin.GetHimHer] with the [SCOPE.Custom('ThisArtifactType')]."
 
  murder_save.1015.strangling_artifact.desc:0 "$murder_save.1015.start_desc$ [SCOPE.Custom('ThisArtifactType')]. Seizing the [this_artifact.GetName], I first dodge an incoming knife thrust before wrapping the material around the throat of my attacker.\n\nIt is only a few brief moments of struggling before the assassin's body goes limp."
 

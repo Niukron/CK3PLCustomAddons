@@ -735,7 +735,7 @@
  TRAIT_FLAG_DESC_can_improve_hostile_schemes_decision: "Unlocks the [deceitful_progress_hostile_schemes_decision|E]"
  TRAIT_FLAG_DESC_can_improve_capital_decision: "Unlocks the [diligent_development_focus_decision|E]"
  TRAIT_FLAG_DESC_can_accelerate_schemes_decision: "Unlocks the [impatient_rushing_all_schemes_decision|E]"
- TRAIT_FLAG_DESC_can_fabricate_hooks_on_rivals: "Allows [GetScheme('fabricate_hook').GetTypeName] [scheme|E] against your [rival|E]"
+ TRAIT_FLAG_DESC_can_fabricate_hooks_on_rivals: "Allows the [GetScheme('fabricate_hook').GetTypeName] [scheme|E] against your [rivals|E]"
  INVALID: "Invalid"
  RENAME_STRING_STARTS_WITH_SPACE: "@warning_icon!#X Name start with space#!"
  RENAME_STRING_STARTS_WITH_SPACE_NAMED: "@warning_icon!#X $NAME$ starts with space#!"

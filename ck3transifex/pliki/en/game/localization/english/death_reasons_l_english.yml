@@ -175,3 +175,5 @@
  death_skull_removed_killer: "had [CHARACTER.GetHerHis] skull surgically removed and preserved by [TARGET_CHARACTER.GetUIName]"
  death_miniatures: "died from stepping on a pointy miniature"
  death_ice: "walked out into the icy wastes"
+ death_for_corpse_forest: "was impaled"
+ death_for_corpse_forest_killer: "was impaled in [TARGET_CHARACTER.GetUINamePossessive] forest of corpses"

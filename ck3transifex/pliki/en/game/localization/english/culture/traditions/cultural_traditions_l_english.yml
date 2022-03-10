@@ -331,7 +331,7 @@
  culture_parameter_can_blind_prisoners: "[rulers|E] can Blind [prisoners|E]"
  culture_parameter_can_castrate_prisoners: "[rulers|E] can Castrate [prisoners|E]"
  culture_parameter_children_can_be_born_in_the_purple: "[children|E] born to a [ruler|E] holding the $e_byzantium$ may gain the [GetTrait('born_in_the_purple').GetName( GetNullCharacter )] [trait|E] - Taking precedence in the [line_of_succession|E]"
- culture_parameter_development_gain_on_building_complete: "Gain #V 25#! [development_growth|E] when a [building|E] is constructed"
+ culture_parameter_development_gain_on_building_complete: "Gain #V 25#! [development_growth|E] when a [building|E] is constructed #weak (up to once a year)#!"
  culture_parameter_strong_traits_more_valued: "[traits|E] such as [GetTrait('strong').GetName( GetNullCharacter )] or [GetTrait('physique_good_1').GetName( GetNullCharacter )] are seen as [prestige_i][prestigious|E]"
  culture_parameter_weak_traits_looked_down_upon: "[traits|E] such as [GetTrait('weak').GetName( GetNullCharacter )] or [GetTrait('physique_bad_1').GetName( GetNullCharacter )] are looked down upon"
  culture_parameter_ambitious_trait_penalty: "The [GetTrait('ambitious').GetName( GetNullCharacter )] [trait|E] is looked down upon"

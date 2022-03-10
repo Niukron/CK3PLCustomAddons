@@ -1017,8 +1017,8 @@
  building_hotin_fort_02:0 "Hotin Fortress"
  building_hotin_fort_02_desc:0 "An impressive Fortress that makes the old fort pale in comparison. The fortifications have been expanded across the centuries to include high stone walls, a wide moat, and several massive towers. This defensive structure will hold most besiegers at bay with ease."
  
- building_type_golden_gate_of_kiev_01:0 "Golden Gate of Kiev"
- building_type_golden_gate_of_kiev_01_desc:0 "Modeled and named after a gate in Constantinople, the Golden Gate of Kiev serves as both an entrance to the city and a triumphal arch. The golden dome of the church, built on top of the gate, can be seen from afar and makes it a prominent symbol of Kiev."
+ building_type_golden_gate_of_kiev_01:1 "Golden Gate of Kyiv"
+ building_type_golden_gate_of_kiev_01_desc:1 "Modeled and named after a gate in Constantinople, the Golden Gate of Kyiv serves as both an entrance to the city and a triumphal arch. The golden dome of the church, built on top of the gate, can be seen from afar and makes it a prominent symbol of Kyiv."
  building_golden_gate_of_kiev_01:0 "$building_type_golden_gate_of_kiev_01$"
  building_golden_gate_of_kiev_01_desc:0 "$building_type_golden_gate_of_kiev_01_desc$"
  

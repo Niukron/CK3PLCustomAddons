@@ -51,4 +51,9 @@
  feast_recieved_amazing_toast:0 "Toast Dedicated to Me During Feast"
  feast_recieved_underwhelming_toast:0 "Underwhelming Toast Dedicated to Me During Feast"
  feast_purposefully_ruined_gift:0 "Purposefully Ruined Gift During Feast"
+ feast_mistaken_opinion:0 "Mistook Me"
+ feast_lied_to_me_opinion:0 "Lied To Me"
+ feast_compassionate_opinion:0 "Compassionate"
+ feast_condemning_opinion:0 "Condemning"
+ feast_helped_me_opinion:0 "Helped Me"
 

@@ -271,6 +271,8 @@
  cn_merano_adj:0 "Merano"
  
  
+ cn_polabia:0 "Polabia"
+ cn_polabia_adj:0 "Polabian"
  cn_lebus:0 "Lebus"
  cn_lebus_adj:0 "Lebuser"
  cn_oderfrankfurt:0 "Oderfrankfurt"
@@ -279,8 +281,6 @@
  cn_zielenzig_adj:0 "Zielenziger"
  cn_reppen:0 "Reppen"
  cn_reppen_adj:0 "Reppener"
- cn_sommerfeld:0 "Sommerfeld"
- cn_sommerfeld_adj:0 "Sommerfelder"
  cn_barsc:0 "Baršć"
  cn_barsc_adj:0 "Baršćan"
  cn_blota:0 "Błota"
@@ -595,8 +595,8 @@
  cn_timerovo_adj:0 "Timerovoean"
  cn_sarskoye_gorodishche:0 "Sarskoye Gorodishche"
  cn_sarskoye_gorodishche_adj:0 "Gorodishchy"
- cn_obra_osh:0 "Obran Osh"
- cn_obra_osh_adj:0 "Obran Oshan"
+ cn_nizhny_novgorod:0 "Nizhny Novgorod"
+ cn_nizhny_novgorod_adj:0 "Nizhegorodian"
 
  
  cn_zaporizhia:0 "Zaporizhia"
@@ -1639,6 +1639,8 @@
  
  cn_reval:0 "Reval"
  cn_reval_adj:0 "Revalian"
+ cn_rafala:0 "Rafala"
+ cn_rafala_adj:0 "Rafalan"
  cn_laanemaa:0 "Läänemaa"
  cn_laanemaa_adj:0 "Läänemaan"
  cn_fellin:0 "Fellin"
@@ -1653,6 +1655,14 @@
  cn_arensburg_adj:0 "Arensburger"
  cn_moon:0 "Moon"
  cn_moon_adj:0 "Mooner"
+ cn_narva:0 "Narva"
+ cn_narva_adj:0 "Narvan"
+ cn_osel:0 "Ösel"
+ cn_osel_adj:0 "Öselian"
+ cn_poide:0 "Pöide"
+ cn_mohu:0 "Mõhu"
+ cn_voro:0 "Võro"
+ cn_wesenburg:0 "Wesenburg"
  
  
  cn_dobeln:0 "Dobeln"
@@ -2488,4 +2498,32 @@
 
  
  cn_lubsko:0 "Lubsko"
+ cn_lubsko_adj:0 "Lubskoan"
  cn_zemr:0 "Žemŕ"
+
+ 
+ cn_gorz:0 "Görz"
+ cn_gorz_adj:0 "Görzian"
+
+ 
+ cn_balarm:0 "Balarm"
+ cn_balarm_adj:0 "Balarmian"
+ cn_qasriyana:0 "Qasriyana"
+ cn_qasriyana_adj:0 "Qasriyanan"
+ cn_enna:0 "Enna"
+ cn_enna_adj:0 "Ennan"
+ cn_sarqusa:0 "Sarqusa"
+ cn_sarqusa_adj:0 "Sarqusan"
+ cn_siqilliya:0 "Siqilliya"
+ cn_siqilliya_adj:0 "Siqilliyan"
+
+ cn_sezer:0 "Sezer"
+ cn_sezer_adj:0 "Sezeran"
+ cn_nis:0 "Niš"
+ cn_nis_adj:0 "Nišan"
+ cn_liubice:0 "Liubice"
+ cn_liubice_adj:0 "Liubicean"
+ cn_curonia:0 "Curonia"
+ cn_curonia_adj:0 "Curonian"
+ cn_kurland:0 "Kurland"
+ cn_kurland_adj:0 "Kurlander"

@@ -124,7 +124,7 @@
  hold_court.8051.t: ""
  hold_court.8051.desc: ""
  hold_court.8051.a: ""
- hold_court.8051.a.tt_knight: ""
+ hold_court.8051.a.tt_knight: "[knight.GetFirstName] ponownie zostanie [Concept( 'knight', 'rycerzem')|E]"
  hold_court.8051.b: ""
  hold_court.8051.b.tt_return: ""
  hold_court.8052.t: ""

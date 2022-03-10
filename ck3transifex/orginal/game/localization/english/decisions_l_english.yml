@@ -357,6 +357,7 @@
  restore_pope_in_rome_decision_confirm:0 "Let the Pontiff be welcomed!"
  restore_pope_in_rome_decision_desc:0 "It is only right for the heir of Saint Peter to hold the key to the holiest of cities, wherein lays the shrine of the Apostle himself."
  restore_pope_in_rome_decision_tooltip:0 "The Papacy will retake office in Rome."
+ rome_held_by_you_or_vassal_tt:0 "$c_roma$ must be held by you or a [vassal|E]"
 
  form_switzerland_kingdom_decision:0 "Form the Swiss Confederation"
  form_switzerland_kingdom_decision_confirm:0 "Our claims cannot be denied!"
@@ -641,10 +642,10 @@
  unite_the_western_slavs_decision:1 "Unite the West Slavs"
  unite_the_western_slavs_decision_tooltip:1 "Unite the Western Slavs under one ruler"
  unite_the_western_slavs_decision_desc:0 "We were one people when we first came to these lands. Over the years we scattered, dividing ourselves into many tribes. With foreign forces lurking at our doorstep, it is time to stand together once more."
- unite_the_western_slavs_decision_tt_1:0 "Your Primary Title is the Kingdom of Poland, Pomerania, Bohemia, or Great Moravia"
- unite_the_western_slavs_decision_tt_2:0 "You are an Emperor, and you hold the Kingdom of Poland, Pomerania, Bohemia, or Great Moravia"
- unite_the_western_slavs_decision_titles_tt:1 "Every West Slavic [kingdom|E] [title|E] you own (except your [primary_title|E]) will be destroyed and their territories will become [de_jure|E] of your Primary Title ([THIS.Char.GetPrimaryTitle.GetNameNoTier])"
- unite_the_western_slavs_decision_titles_empire_tt:1 "Every West Slavic [kingdom|E] [title|E] you own will have their territories become [de_jure|E] of your [primary_title|E]"
+ unite_the_western_slavs_decision_tt_1:1 "Your Primary Title is the Kingdom of Poland, Pomerania, Sorbia, Bohemia, or Great Moravia"
+ unite_the_western_slavs_decision_tt_2:1 "You are an Emperor, and you hold the Kingdom of Poland, Pomerania, Sorbia, Bohemia, or Great Moravia"
+ unite_the_western_slavs_decision_titles_tt:2 "You will gain the $e_west_slavia$ [title|E]"
+ unite_the_western_slavs_decision_titles_empire_tt:2 "Every West Slavic [kingdom|E] [title|E] will have their territories become [de_jure|E] of your [primary_title|E]"
  unite_the_western_slavs_decision_confirm:1 "Unite the West Slavs"
 
  
@@ -1066,3 +1067,5 @@
  convert_to_tribalism_decision_confirm:0 "Follow the way of my People"
  convert_to_tribalism_decision_tooltip:0 "Abandon your current [government|E] and become [tribal|E]"
  recent_conversion_to_tribalism:0 "You have not changed your government to [tribal|E] in the last 5 years"
+ found_witch_coven_house_member_count_tt:0 "[SCOPE.ScriptValue('found_witch_coven_member_count_value')|0] [adult|E] members of your [house|E] are witches"
+ found_witch_coven_house_member_percent_tt:0 "[SCOPE.ScriptValue('found_witch_coven_member_percent_display_value')|2]% of [adult|E] members of your [house|E] are witches"

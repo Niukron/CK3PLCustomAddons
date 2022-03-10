@@ -105,4 +105,5 @@
  AMENITIES_APPLY_TOOLTIP: "#T Apply New Amenities#!\n[AddTextIf( Not( CourtAmenitiesWindow.HasChangedAnyAmenity ), '$COURT_AMENITIES_NEED_CHANGE$\n' )]Apply the selected changes. The new [amenities|E] will cost [CourtAmenitiesWindow.GetNewMonthlyCost]"
  AMENITIES_RESET_TOOLTIP: "#T Reset Amenities#!\n[AddTextIf( Not( CourtAmenitiesWindow.HasChangedAnyAmenity ), '$COURT_AMENITIES_NEED_CHANGE$\n' )]Discard the selected changes"
  COURT_AMENITIES_CHANGED_NOTIFICATION_HEADER: "You have changed your [court_amenities|E]"
+ COURT_AMENITIES_BLOCKER_NOT_YOUR_COURT: "@warning_icon!#X This is not your [royal_court|E]#!"
  BONUS_TO_AGENT_RECRUITMENT_FROM_AMENITIES: "$court_lodging_standards$: $VALUE|=+0$"

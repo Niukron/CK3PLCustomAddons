@@ -141,6 +141,7 @@
  I_AM_SENT_TO_ACTIVITY:1 "You will go to [ACTIVITY.GetName]"
  COMPLETE_ACTIVITY:0 "[ACTIVITY.GetName] ends"
  I_COMPLETE_ACTIVITY:0 "[ACTIVITY.GetName] ends"
+ COMPLETE_ACTIVITY_NEG: "The Activity ends"
 
  WILL_MARRY_EFFECT:1 "[marries|E] [TARGET_CHARACTER.GetShortUIName]"
  I_WILL_MARRY_EFFECT:1 "You [marry|E] [TARGET_CHARACTER.GetShortUIName]"
@@ -1463,7 +1464,7 @@
  leave_faction_with_cooldown_effect_first.tt:2 "You cannot join another [faction|E] for #V $VALUE|0$ years#!"
  leave_faction_with_cooldown_effect_global.tt:0 "Cannot join another [faction|E] for #V $VALUE|0$ years#!"
 
- CHARACTER_LEAVES_COURT:0 "[CHARACTER.GetShortUIName|U] leaves [CHARACTER.GetLiege.GetShortUINamePossessive] [court|E]"
+ CHARACTER_LEAVES_COURT:1 "[CHARACTER.GetShortUIName|U] leaves [CHARACTER.GetCurrentLocation.GetCounty.GetTitle.GetHolder.GetShortUINamePossessive] [court|E]"
  LEFT_COURT:0 "Left [CHARACTER.GetLiege.GetShortUINamePossessive] [court|E]"
  LEAVES_COURT:1 "Leaves [CHARACTER.GetCurrentLocation.GetCounty.GetTitle.GetHolder.GetShortUINamePossessive] [court|E]"
  CHARACTER_LEFT_COURT:0 "[CHARACTER.GetShortUIName|U] left [CHARACTER.GetLiege.GetShortUINamePossessive] [court|E]"
@@ -2134,3 +2135,18 @@
  SET_ARTIFACT_RARITY_EFFECT_PAST:0 "Became $RARITY$"
  SET_ARTIFACT_RARITY_EFFECT_THIRD:0 "[ARTIFACT.GetName] becomes $RARITY$"
  SET_ARTIFACT_RARITY_EFFECT_PAST_THIRD:0 "[ARTIFACT.GetName] became $RARITY$"
+
+ EQUIP_ARTIFACT_TO_OWNER:0 "[ARTIFACT.GetName] becomes equipped"
+ EQUIP_ARTIFACT_TO_OWNER_PAST:0 "[ARTIFACT.GetName] was equipped"
+ EQUIP_ARTIFACT_TO_OWNER_FIRST:0 "You equip [ARTIFACT.GetName]"
+ EQUIP_ARTIFACT_TO_OWNER_FIRST_PAST:0 "You equipped [ARTIFACT.GetName]"
+ EQUIP_ARTIFACT_TO_OWNER_THIRD:0 "[CHARACTER.GetShortUIName|U] equips [ARTIFACT.GetName]"
+ EQUIP_ARTIFACT_TO_OWNER_THIRD_PAST:0 "[CHARACTER.GetShortUIName|U] equipped [ARTIFACT.GetName]"
+
+ UNEQUIP_ARTIFACT_FROM_OWNER:0 "[ARTIFACT.GetName] becomes unequipped"
+ UNEQUIP_ARTIFACT_FROM_OWNER_PAST:0 "[ARTIFACT.GetName] was unequipped"
+ UNEQUIP_ARTIFACT_FROM_OWNER_FIRST:0 "You unequip [ARTIFACT.GetName]"
+ UNEQUIP_ARTIFACT_FROM_OWNER_FIRST_PAST:0 "You unequipped [ARTIFACT.GetName]"
+ UNEQUIP_ARTIFACT_FROM_OWNER_THIRD:0 "[CHARACTER.GetShortUIName|U] unequips [ARTIFACT.GetName]"
+ UNEQUIP_ARTIFACT_FROM_OWNER_THIRD_PAST:0 "[CHARACTER.GetShortUIName|U] unequipped [ARTIFACT.GetName]"
+

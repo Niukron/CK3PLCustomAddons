@@ -1595,7 +1595,7 @@
  game_concept_winter_severity_harsh: "Harsh Winter"
  game_concept_winter_severity_harsh_desc: "[GetModifier( 'winter_harsh_modifier' ).GetDesc]"
  game_concept_deceitful_progress_hostile_schemes_decision: "$deceitful_progress_hostile_schemes_decision$ Decision"
- game_concept_deceitful_progress_hostile_schemes_decision_desc: "A [decision|E] allowing you to improve your [hostile_scheme|E]. Grants [success_chance|E] and [scheme_power|E] in exchange for [stress|E]."
+ game_concept_deceitful_progress_hostile_schemes_decision_desc: "A [decision|E] allowing you to improve your [hostile_schemes|E]. Grants [success_chance|E] and [scheme_power|E] in exchange for [stress|E]."
  game_concept_diligent_development_focus_decision: "$diligent_development_focus_decision$ Decision"
  game_concept_diligent_development_focus_decision_desc: "A [decision|E] allowing you to improve your [capital|E]. Grants [development|E] in exchange for [stress|E]."
  game_concept_impatient_rushing_all_schemes_decision: "$impatient_rushing_all_schemes_decision$ Decision"

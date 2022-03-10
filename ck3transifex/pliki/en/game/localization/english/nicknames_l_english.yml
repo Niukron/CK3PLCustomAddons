@@ -315,6 +315,7 @@
  nick_the_black_sheep: "the Black Sheep"
  nick_sisyphus: "the Sisyphean"
  nick_blue_lion: "the Blue Lion of $b_sheffield$"
+ nick_the_wake: "the Wake"
  nick_king_of_fashion: "the [CHARACTER.GetTitleAsNameNoTooltip] of Fashion"
  nick_the_foreigner: "the Foreigner"
  nick_the_culture: "the [CHARACTER.MakeScope.Var('nick_the_culture_var').Culture.GetNameNoTooltip]"
@@ -330,3 +331,4 @@
  nick_the_eloquent: "the Eloquent"
  nick_the_stud: "the Stud"
  nick_the_bearded: "the Bearded"
+ nick_benavert: "Benavert"

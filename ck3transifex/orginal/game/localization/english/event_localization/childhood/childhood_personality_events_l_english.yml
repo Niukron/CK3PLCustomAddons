@@ -339,7 +339,7 @@
  child_personality.110.paranoid:0 "\n\n[child.GetSheHe|U] later lashed out at me, thinking I had staged the whole encounter as some kind of test."
  child_personality.110.confirm_ambitious:0 "Greatness awaits you, [child.GetFirstNameNoTooltip]."
  child_personality.110.confirm_sadistic:0 "It is just an animal."
- child_personality.110.confirm_paranoid:0 "Yes, it was certainly a test. Well done, [child.GetFirstName]."
+ child_personality.110.confirm_paranoid:1 "Yes, it was certainly a test. Well done, [child.GetFirstNameNoTooltip]."
  child_personality.110.ambitious_change:0 "Then show me that you could have felled an animal yourself!"
  child_personality.110.sadistic_change:0 "Someone always suffers. Make certain it is not you."
  child_personality.110.paranoid_change:0 "This was a test. I hope you do better next time."

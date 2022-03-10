@@ -3284,7 +3284,7 @@
  dynn_Kibyrraiotes:0 "Kibyrraiotes"
  dynn_Kidar:0 "Kidar"
  dynn_Kiel:0 "Kiel"
- dynn_Kievskiy:0 "Kievskiy"
+ dynn_Kievskiy:1 "Kyivskiy"
  dynn_Kiil:0 "Kiil"
  dynn_Kikin:0 "Kikin"
  dynn_Kilabid:0 "Kilabid"
@@ -4929,7 +4929,6 @@
  dynn_Poissy:0 "Poissy"
  dynn_Poitiers-Valentinois:0 "Poitiers-Valentinois"
  dynn_Poitiers:0 "Poitiers"
- dynn_Poitou:0 "Poitou"
  dynn_Polan:0 "Polan"
  dynn_Polani:0 "Polani"
  dynn_Polentano:0 "Polentano"
@@ -6751,7 +6750,7 @@
  dynn_Yang:0 "Yang"
  dynn_Yangmi:0 "Yangmi"
  dynn_Yanguas:0 "Yanguas"
- dynn_yanid:0 "Yanid"
+ dynn_Yanid:0 "Yanid"
  dynn_Yantsukh:0 "Yantsukh"
  dynn_Yao:0 "Yao"
  dynn_Yarkam:0 "Yarkam"
@@ -10371,4 +10370,12 @@
  dynn_Wulinda:0 "Wulinda"
  dynn_Madia:0 "Madia"
 
+ dynn_Konstanz:0 "Konstanz"
  dynn_Tawfid:0 "Tawfid"
+
+ 
+ dynn_Chikiti_Ganga:0 "Chikiti Ganga"
+
+ 
+ dynn_at-Timnahid:0 "at-Timnahid"
+ dynn_al-Hawasid:0 "al-Hawasid"

@@ -73,3 +73,6 @@
 
  hunt_mystical_animal_modifier:0 "Hunted Mystical Animal"
  hunt_mystical_animal_modifier_desc:0 "This character hunted, and killed, a mystical white animal"
+
+ hunt_protected_their_secret_modifier:0 "Protective of Secrets"
+ hunt_protected_their_secret_modifier_desc:0 "This character is keeping their cards close to their chest"

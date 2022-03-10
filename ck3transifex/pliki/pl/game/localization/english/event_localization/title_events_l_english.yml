@@ -1,6 +1,6 @@
 ﻿l_english:
- title_event_francia_name_change.title: ""
- title_event_francia_name_change.desc: ""
- title_event_francia_name_change.a: ""
- title_event_francia_name_change.a_tt_1: ""
- title_event_francia_name_change.a_tt_2: ""
+ title_event_francia_name_change.title: "Koniec ery"
+ title_event_francia_name_change.desc: "Panowanie dynastii Karolingów dobiegło końca!\n\n[francia_title.GetName] już dłużej do nich nie należy. Po usunięciu Karolingów te ziemie naprawdę nie są już częścią ich dawnego imperium.\n\nWkrótce zasiądę na tronie jako przyszł[Select_CString(ROOT.Char.IsFemale, 'a', 'y' )] [ROOT.Char.GetTitleAsNameNoTooltip|l], a nas czeka nowa i świetlana przyszłość. Dlatego jedynym właściwym rozwiązaniem jest usunięcie #EMP wszelkich i wszystkich#! pozostałości o ich wpływie. Włącznie z samą #EMP nazwą#!"
+ title_event_francia_name_change.a: "Rozpoczyna się nowa era!"
+ title_event_francia_name_change.a_tt_1: "[francia_title.GetName] zmienia nazwę na #high Francję#!"
+ title_event_francia_name_change.a_tt_2: "[francia_title.GetName] zmienia nazwę na #high $k_germany$#!"

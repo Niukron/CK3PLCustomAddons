@@ -16,3 +16,8 @@
  form_bene_israel_decision_tooltip: "Formalize the Kingdom of $k_bene_israel$."
  form_bene_israel_decision_confirm: "[ROOT.Char.Custom('GetQueenKing')|U] of $k_bene_israel$!"
  malabarism_religious_head_exists_tt: "$d_malabarism$ Exists"
+ spread_theravada_faith_decision: "Spread the [ROOT.Char.GetFaith.GetNameNoTooltip] Faith"
+ spread_theravada_faith_decision_desc: "The [ROOT.Char.GetFaith.GetName] faith has been on the decline, and it falls now to me to ensure its continued survival. The first step on that road is working out how best to bridge the religious differences in the Irrawaddy Valley."
+ spread_theravada_faith_decision_tooltip: "Make a decision on how to deal with the religious conflict."
+ spread_theravada_faith_decision_confirm: "Consult the [ROOT.Char.GetFaith.PriestNeuter|U]"
+ spread_theravada_faith_decision_cus_tt: "You ponder how best to convert the populace..."

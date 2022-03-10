@@ -4,6 +4,7 @@
  learning_scholarship_focus_point_clear_gain:1 "My understanding of [learning_lifestyle|E] increases"
 
  learning_lifestyle_rank_up_indication:0 "I might gain a [learning_lifestyle|E] [perk|E]"
+ learning_lifestyle_experience_gain_indication:0 "I might gain [learning_lifestyle|E] [lifestyle_experience|E]"
 
 
  learning_scholarship.1101.t:0 "Lacking Literacy"
@@ -185,7 +186,7 @@
  learning_scholarship_special.3099.termination.desc.incapable:0 "I cannot continue my experiments with transmutation while incapable."
  
  
- learning_scholarship.4000.t:0 "Dear [ROOT.GetCharacter.GetFaith.HighGodName], go outside!"
+ learning_scholarship.4000.t:1 "Dear [ROOT.GetCharacter.GetFaith.HighGodName], Go Outside!"
  learning_scholarship.4000.desc:0 "It's late, and I'm tucking into a gripping treatise on classical grammar. Just as I start giggling at some delightfully snide marginalia left by the previous reader, my [spouse_uninterested_in_study.GetWifeHusband] enters the room.\n\n"Spineless [ROOT.Char.GetWomanMan]! You neglect everything but your studies, reading indoors alone from dusk to dawn. Get your head out of those dusty scrolls, or don't come to my bed tonight.""
  learning_scholarship.4000.a:0 "As you wish."
  learning_scholarship.4000.b:0 "Perhaps we could read excerpts together from now on."

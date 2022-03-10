@@ -1,4 +1,5 @@
 ﻿l_english:
+ ARMY_HEADER: "Army"
  SPLIT_ARMY_IN_HALF: "#T Split in half#!\nSplit this army into two roughly equal [armies|E]"
  SPLIT_ARMY_IN_HALF_DISABLED: "\n$DESC$"
  SPLIT_ARMY_CUSTOM: "#T Split off new Army#!\nDetach [regiments|E] from this [army|E] in order to create a new one"

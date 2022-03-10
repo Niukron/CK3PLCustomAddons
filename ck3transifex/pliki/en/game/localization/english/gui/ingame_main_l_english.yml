@@ -7,7 +7,7 @@
  INTRIGUE_BUTTON: "#T Intrigue#!"
  FACTION_BUTTON: "#T Factions#!"
  PRISON_BUTTON: "#T Prisoners#!"
- COURT_BUTTON: "#T Court#!"
+ COURT_BUTTON: "#T Courtiers#!"
  IM_TT_FIND_TITLE: "#T Find Title#!\nFind any [title|E] in the game."
  IM_TT_SHOW_LEGACY: "#T Show Lineage#!\nSee all the characters you have played."
  IM_TT_FIND_CHARACTER: "#T Find Character#!\nFind any living character in the game."

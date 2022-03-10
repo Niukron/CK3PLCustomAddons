@@ -561,8 +561,6 @@
  IS_NOT_BETROTHED_MATRILINEALLY: "Is #bold not#! in a [matrilineal|E] betrothal"
  CHARACTER_IS_NOT_BETROTHED_MATRILINEALLY: "[CHARACTER.GetShortUIName|U] is #bold not#! in a [matrilineal|E] betrothal"
  I_AM_NOT_BETROTHED_MATRILINEALLY: "You are #bold not#! in a [matrilineal|E] betrothal"
- AT_LEAST_X_MEMBERS_OF_THE_Y_DYNASTY: "At least $COUNT$ members of the [DYNASTY.GetBaseName] [dynasty|E]"
- AT_LEAST_X_MEMBERS_OF_THE_Y_DYNASTY_FULFILL: "At least $COUNT$ members of the [DYNASTY.GetBaseName] [dynasty|E] fulfill:"
  IS_A_VASSAL_OF: "Is [TARGET_CHARACTER.GetShortUINamePossessive] [direct_vassal|E]"
  CHARACTER_IS_A_VASSAL_OF: "[CHARACTER.GetShortUIName|U] is [TARGET_CHARACTER.GetShortUINamePossessive] [direct_vassal|E]"
  I_AM_A_VASSAL_OF: "You are [TARGET_CHARACTER.GetShortUINamePossessive] [direct_vassal|E]"

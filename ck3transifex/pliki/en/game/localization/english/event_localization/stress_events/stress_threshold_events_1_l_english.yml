@@ -459,6 +459,8 @@
  tragic_drunk_modifier_desc: "This character fears the return of sobriety more than anything."
  tragic_stoner_modifier: "Tragic Hashishiyah"
  tragic_stoner_modifier_desc: "$tragic_drunk_modifier_desc$"
+ good_exercise_modifier: "Good Exercise"
+ good_exercise_modifier_desc: "This character pushed their limit in training, and feels stronger as a result. They reek of sweat though..."
  controlled_urban_fires_modifier: "Controlled Urban Fires"
  controlled_urban_fires_modifier_desc: "A huge fire has been narrowly averted in one of the holdings in this county."
  managed_urban_fires_modifier: "Managed Urban Fires"

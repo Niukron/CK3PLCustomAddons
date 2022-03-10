@@ -121,8 +121,8 @@
  animal_type_lynx:0 "lynx"
 
  
- artifact_hide_type_cat:1 "[owner.GetTitledFirstNamePossessiveNoTooltip] beloved cat [ROOT.Char.Custom('CatStoryName')]"
- artifact_hide_type_dog:1 "[owner.GetTitledFirstNamePossessiveNoTooltip] beloved dog [ROOT.Char.Custom('DogStoryName')]"
+ artifact_hide_type_cat:2 "[ROOT.Char.GetTitledFirstNamePossessiveNoTooltip] beloved cat [ROOT.Char.Custom('CatStoryName')]"
+ artifact_hide_type_dog:2 "[ROOT.Char.GetTitledFirstNamePossessiveNoTooltip] beloved dog [ROOT.Char.Custom('DogStoryName')]"
  artifact_hide_type_fox:0 "a beautiful fox"
  artifact_hide_type_hare:0 "a beautiful hare"
  artifact_hide_type_hart:0 "a hart"
@@ -145,8 +145,8 @@
  artifact_wall_animal_skull_aurochs:0 "a massive aurochs"
  artifact_wall_animal_skull_horse:0 "a mighty warhorse, taken from the deceased steed of [owner.GetNameNoTooltip]."
  artifact_wall_animal_skull_rabbit:2 "the most fearsome creature in the entire world; a rabbit"
- feature_animal_hide_type_cat:0 "[owner.GetTitledFirstNamePossessiveNoTooltip] beloved cat [Artifact.GetOwner.Custom('CatStoryName')]"
- feature_animal_hide_type_dog:0 "[owner.GetTitledFirstNamePossessiveNoTooltip] beloved dog [Artifact.GetOwner.Custom('DogStoryName')]"
+ feature_animal_hide_type_cat:1 "[Artifact.GetOwner.GetTitledFirstNamePossessiveNoTooltip] beloved cat [Artifact.GetOwner.Custom('CatStoryName')]"
+ feature_animal_hide_type_dog:1 "[Artifact.GetOwner.GetTitledFirstNamePossessiveNoTooltip] beloved dog [Artifact.GetOwner.Custom('DogStoryName')]"
  feature_animal_hide_type_fox:0 "a beautiful fox"
  feature_animal_hide_type_hare:0 "a beautiful hare"
  feature_animal_hide_type_hart:0 "a hart"

@@ -73,6 +73,7 @@
  fervor_gain_virtous_priest:0 "[virtuous_theocrat.GetFaith.GetAdjectiveNoTooltip] exaltation"
  fervor_gain_new_heresy:0 "Birth of the [heretic_faith.GetAdjectiveNoTooltip] Heresy"
  fervor_gain_defector_heresy:0 "$fervor_gain_new_heresy$"
+ fervor_gain_theravada:0 "[theravada_faith.GetName] religious reforms"
 
  FAITH_DOCTRINE_GENERAL_TOOLTIP:1 "[FaithDoctrine.GetEffectsDescription( GetPlayer.GetFaith )]\n\n[FaithDoctrine.GetDescription( GetPlayer.GetFaith )|F]"
 
@@ -266,6 +267,10 @@
  holy_site_atamasthana_effect_name:0 "From [holy_site|E] #weak ($holy_site_atamasthana_name$)#!"
  holy_site_amaravati_name:0 "Amaravati"
  holy_site_amaravati_effect_name:0 "From [holy_site|E] #weak ($holy_site_amaravati_name$)#!"
+ holy_site_ava_name:0 "Ava"
+ holy_site_ava_effect_name:0 "From [holy_site|E] #weak ($holy_site_ava_name$)#!"
+ holy_site_sittaung_name:0 "Sittaung"
+ holy_site_sittaung_effect_name:0 "From [holy_site|E] #weak ($holy_site_sittaung_name$)#!"
 
  
  holy_site_varanasi_name:0 "Varanasi"
@@ -372,7 +377,7 @@
  holy_site_perm_effect_name:0 "From [holy_site|E] #weak ($holy_site_perm_name$)#!"
 
  
- holy_site_kiev_name:0 "Kiev"
+ holy_site_kiev_name:1 "Kyiv"
  holy_site_kiev_effect_name:0 "From [holy_site|E] #weak ($holy_site_kiev_name$)#!"
  holy_site_novgorod_name:0 "Novgorod"
  holy_site_novgorod_effect_name:0 "From [holy_site|E] #weak ($holy_site_novgorod_name$)#!"

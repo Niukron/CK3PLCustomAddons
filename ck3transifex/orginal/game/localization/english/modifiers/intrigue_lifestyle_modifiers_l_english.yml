@@ -60,3 +60,8 @@
  dark_insights_prowess_modifier_desc:0 "Through the tools of the torturer, this character has learned much about inflicting pain and extracting one's desire."
  dark_insights_intrigue_modifier:0 "Dark Insights: Intrigue"
  dark_insights_intrigue_modifier_desc:0 "$dark_insights_prowess_modifier_desc$"
+
+ intrigue_clandestine_informant_modifier:0 "Anonymous Informant"
+ intrigue_clandestine_informant_modifier_desc:0 "Utilizing clandestinely sourced information, this character cut right to the heart of their enemy's defense strategy."
+ intrigue_fooled_by_enemy_modifier:0 "Fooled by Enemy"
+ intrigue_fooled_by_enemy_modifier_desc:0 "This character attempted to get the jump on their enemy's defense strategy, but was ultimately fooled into buying fake information."

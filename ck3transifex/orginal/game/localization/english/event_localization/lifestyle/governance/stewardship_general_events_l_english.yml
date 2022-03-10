@@ -12,30 +12,6 @@
  stewardship_general.1054.d.flavor:0 "...but in reality sneak [witch.GetHerHim] back to my court!"
 
  
- stewardship_general.5011.t:0 "The Carps"
- stewardship_general.5011.desc:0 ""If it is a pond for carps you are interested in I can build you a terrific one, my [ROOT.Char.GetLadyLord]!"\n\nThe builder before me has good credentials, and my courtiers seem very excited about the prospect..."
- stewardship_general.5011.a:0 "You will have all the resources you need!"
- stewardship_general.5011.b:0 "Is that #EMP truly#! the best deal you can give me?"
- stewardship_general.5011.b.message_1:0 "You make a great deal"
- stewardship_general.5011.b.message_2:1 "The builder outwits you"
- stewardship_general.5011.c:0 "Stop wasting my time!"
- stewardship_general.5011.every_courtier:1 "Every [courtier|E]"
-
- stewardship_general.5013.t:0 "Beasts of the Deep"
- stewardship_general.5013.desc:1 "As I stroll through the gardens, I notice my [ROOT.GetCharacter.Custom2('RelationToMe', SCOPE.sC('carp_food'))] [carp_food.GetTitledFirstName] sitting on a rock by the carp pond. Leaning down over the edge, [carp_food.GetSheHe] trails [carp_food.GetHerHis] fingers through the water. A shadow stirs beneath the surface..."
- stewardship_general.5013.a:0 "[carp_food.GetFirstNameNoTooltip], step back! Step back from... NOOO!"
-
- 
- stewardship_general.5041.t:0 "Rogue Servant"
- stewardship_general.5041.desc:0 "A lowly [ROOT.GetCharacter.Custom('lowly_servant_type')] has been stealing from my household!"
- stewardship_general.5041.desc_highgod:0 "The [servant_character.GetWomanMan] cowers before me, sniveling about hungry children and mercy in the name of [ROOT.Char.GetFaith.HouseholdGodName]."
- stewardship_general.5041.desc_other:0 "The [servant_character.GetWomanMan] cowers before me, sniveling about hungry children and pleading for mercy."
- stewardship_general.5041.desc_ending:0 "\n\n"Please my [ROOT.Char.GetLadyLord], I will do anything you ask!""
- stewardship_general.5041.a:0 "Show [servant_character.GetHerHim] what true hunger feels like."
- stewardship_general.5041.b:0 "Imprison [servant_character.GetHerHim]."
- stewardship_general.5041.c:0 "Show mercy and win [servant_character.GetHerHis] loyalty."
-
-
  stewardship_general.2001.t:0 "A Nose for Profit"
  stewardship_general.2001.desc_intro:0 "While out on a leisurely stroll, the cry of a particular merchant stands out from the regular hustle and bustle of the street.\n'Greetings my [ROOT.Char.GetLadyLord]! I have an exquisite assortment of wares, if my [ROOT.Char.GetLadyLord] has the coin...'"
  stewardship_general.2001.desc:0 "\n\nThe merchant's stall is positively brimming with baubles and haberdasheries."
@@ -65,7 +41,8 @@
  stewardship_general.2001.d.irritable:0 "I said #EMP no#!. Now go away before #EMP I make you go away!#!"
  stewardship_general.2001.tt:0 "Trinket Received"
 
- stewardship_general.2002.t:0 "An [ROOT.Char.Custom('ImpressiveOrInsulting')|U] Display"
+ stewardship_general.2002.t:1 "An Impressive Display"
+ stewardship_general.2002.t_insulting:1 "An Insulting Display"
  stewardship_general.2002.desc.intro:0 "Once we're past the next two stalls, "
  stewardship_general.2002.desc_impressed:0 "[helpful_councillor.GetTitledFirstNameNoTooltip] beams at me.\n\n'Yes, quite good indeed! I couldn't have done it much better myself.'\n\n[helpful_councillor.GetSheHe|U] casually eyes the baubles in the stall next to us and shoots me an anticipating side-glance."
  stewardship_general.2002.desc_very_impressed:0 "[helpful_councillor.GetTitledFirstNameNoTooltip] tugs at my sleeve in excitement.\n\n'By [ROOT.Char.GetFaith.HighGodName], that was a most delicious display! Such eloquence! One could barely keep up with the perpetual honey-soaked phrases in that bartering #EMP dance#!.' \n\n[helpful_councillor.GetSheHe|U] looks at me bewildered and with admiration."
@@ -81,5 +58,27 @@
  stewardship_general.2002.t_success:0 "Successful Persuasion"
  stewardship_general.2002.t_failure:0 "Failed Persuasion"
  stewardship_general.2002.insulted:0 "What's done is done."
- stewardship_general.2002.t_insulting:0 "Insulting"
- stewardship_general.2002.t_impressive:0 "Impressive"
+
+ 
+ stewardship_general.5011.t:0 "The Carps"
+ stewardship_general.5011.desc:0 ""If it is a pond for carps you are interested in I can build you a terrific one, my [ROOT.Char.GetLadyLord]!"\n\nThe builder before me has good credentials, and my courtiers seem very excited about the prospect..."
+ stewardship_general.5011.a:0 "You will have all the resources you need!"
+ stewardship_general.5011.b:0 "Is that #EMP truly#! the best deal you can give me?"
+ stewardship_general.5011.b.message_1:0 "You make a great deal"
+ stewardship_general.5011.b.message_2:1 "The builder outwits you"
+ stewardship_general.5011.c:0 "Stop wasting my time!"
+ stewardship_general.5011.every_courtier:1 "Every [courtier|E]"
+
+ stewardship_general.5013.t:0 "Beasts of the Deep"
+ stewardship_general.5013.desc:1 "As I stroll through the gardens, I notice my [ROOT.GetCharacter.Custom2('RelationToMe', SCOPE.sC('carp_food'))] [carp_food.GetTitledFirstName] sitting on a rock by the carp pond. Leaning down over the edge, [carp_food.GetSheHe] trails [carp_food.GetHerHis] fingers through the water. A shadow stirs beneath the surface..."
+ stewardship_general.5013.a:0 "[carp_food.GetFirstNameNoTooltip], step back! Step back from... NOOO!"
+
+ 
+ stewardship_general.5041.t:0 "Rogue Servant"
+ stewardship_general.5041.desc:0 "A lowly [ROOT.GetCharacter.Custom('lowly_servant_type')] has been stealing from my household!"
+ stewardship_general.5041.desc_highgod:0 "The [servant_character.GetWomanMan] cowers before me, sniveling about hungry children and mercy in the name of [ROOT.Char.GetFaith.HouseholdGodName]."
+ stewardship_general.5041.desc_other:0 "The [servant_character.GetWomanMan] cowers before me, sniveling about hungry children and pleading for mercy."
+ stewardship_general.5041.desc_ending:0 "\n\n"Please my [ROOT.Char.GetLadyLord], I will do anything you ask!""
+ stewardship_general.5041.a:0 "Show [servant_character.GetHerHim] what true hunger feels like."
+ stewardship_general.5041.b:0 "Imprison [servant_character.GetHerHim]."
+ stewardship_general.5041.c:0 "Show mercy and win [servant_character.GetHerHis] loyalty."

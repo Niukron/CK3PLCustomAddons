@@ -126,7 +126,7 @@
  lamaism_adj:0 "Nangchos"
  lamaism_adherent:0 "Nangchospo"
  lamaism_adherent_plural:0 "Nangchospa"
- lamaism_desc:0 "Buddhism in Tibet is known as Nangchos, or the Dharma of the Insiders. Within the Tibetan Empire, Vajrayana and Mahayana beliefs and practices synctretized with traditional Tibetan beliefs, practices, and deities, with varying schools also competing with each other for temporal control."
+ lamaism_desc:1 "Buddhism in Tibet is known as Nangchos, or the Dharma of the Insiders. Within the Tibetan Empire, Vajrayana and Mahayana beliefs and practices syncretized with traditional Tibetan beliefs, practices, and deities, with varying schools also competing with each other for temporal control."
  lamaism_house_of_worship:0 "gompa"
  lamaism_house_of_worship_2:0 "$lamaism_house_of_worship$" 
  lamaism_house_of_worship_3:0 "$lamaism_house_of_worship$" 

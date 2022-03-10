@@ -48,3 +48,5 @@
  hunt_chose_truth_modifier_desc: "This character has spoken the truth at the detriment of themselves"
  hunt_mystical_animal_modifier: "Hunted Mystical Animal"
  hunt_mystical_animal_modifier_desc: "This character hunted, and killed, a mystical white animal"
+ hunt_protected_their_secret_modifier: "Protective of Secrets"
+ hunt_protected_their_secret_modifier_desc: "This character is keeping their cards close to their chest"

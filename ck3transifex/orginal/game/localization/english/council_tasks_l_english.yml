@@ -54,7 +54,7 @@
  task_foreign_affairs:0 "Foreign Affairs"
  
  task_foreign_affairs_modifier_desc:0 "[councillor.GetModifierDescForTask('task_foreign_affairs')]"
- task_foreign_affairs_prestige_effect_desc:0 "[prestige|E]: #P +[SCOPE.ScriptValue('chancellor_foreign_affairs_prestige_calculation')]#!/month\n$TAB$Councillor's [diplomacy_skill|E]: #P +[SCOPE.ScriptValue('chancellor_foreign_affairs_prestige_gain_base')]#!"
+ task_foreign_affairs_prestige_effect_desc:1 "[prestige|E]: [prestige_i|E]#P +[SCOPE.ScriptValue('chancellor_foreign_affairs_prestige_calculation')]#!/month\n$TAB$Councillor's [diplomacy_skill|E]: #P +[SCOPE.ScriptValue('chancellor_foreign_affairs_prestige_gain_base')]#!"
  task_foreign_affairs_effect_desc_adaptive_traditions_bonus_prestige:0 "\n$TAB$[GetPerk('adaptive_traditions_perk').GetName(GetPlayer)]: #P +#![SCOPE.ScriptValue('chancellor_foreign_affairs_prestige_gain_perk_bonus_scale')|P]"
  task_foreign_affairs_effect_desc_bureaucrats_bonus_prestige:0 "\n$TAB$[GetDynastyPerk('erudition_legacy_5').GetName]: #P +#![SCOPE.ScriptValue('chancellor_foreign_affairs_prestige_gain_erudition_modifier')|P]"
  task_foreign_affairs_effect_desc_family_business_bonus_prestige:0 "\n$TAB$$tradition_family_entrepreneurship_name$: #P +#![SCOPE.ScriptValue('chancellor_foreign_affairs_prestige_gain_family_business_modifier')|P]"
@@ -94,7 +94,7 @@
  PASSIVE_INTEGRATION_PROGRESS_VALUE:0 "Passive integration"
 
  task_bestow_royal_favor:0 "Bestow Royal Favor"
- task_bestow_royal_favor_effect_desc:0 "[prestige|E]: #P +[SCOPE.ScriptValue('chancellor_bestow_royal_favor_prestige_gain_base')]#!/month\n$TAB$Councillor's [diplomacy_skill|E]: #P +[SCOPE.ScriptValue('chancellor_bestow_royal_favor_prestige_gain_base')]#!\n\n[vassal|E] Prestige increases by #P +[SCOPE.ScriptValue('chancellor_bestow_royal_favor_prestige_gain_base_vassal')|P]#!/month\n[vassal|E] Opinion increases by #P +#![SCOPE.ScriptValue('chancellor_bestow_royal_favor_opinion_increase_per_success')|P] up to #P 100#! (in total)\n$TAB$Councillor's [diplomacy_skill|E]: #P +[SCOPE.ScriptValue('chancellor_bestow_royal_favor_opinion_increase_per_success_base')]#!\n$TAB$Your [court_grandeur|E]: #P +[SCOPE.ScriptValue('chancellor_bestow_royal_favor_opinion_increase_per_success_grandeur')]#!"
+ task_bestow_royal_favor_effect_desc:1 "[prestige|E]: [prestige_i|E]#P +[SCOPE.ScriptValue('chancellor_bestow_royal_favor_prestige_gain_base')]#!/month\n$TAB$Councillor's [diplomacy_skill|E]: #P +[SCOPE.ScriptValue('chancellor_bestow_royal_favor_prestige_gain_base')]#!\n\n[vassal|E] Prestige increases by [prestige_i|E]#P +[SCOPE.ScriptValue('chancellor_bestow_royal_favor_prestige_gain_base_vassal')|P]#!/month\n[vassal|E] Opinion increases by #P +#![SCOPE.ScriptValue('chancellor_bestow_royal_favor_opinion_increase_per_success')|P] up to #P 100#! (in total)\n$TAB$Councillor's [diplomacy_skill|E]: #P +[SCOPE.ScriptValue('chancellor_bestow_royal_favor_opinion_increase_per_success_base')]#!\n$TAB$Your [court_grandeur|E]: #P +[SCOPE.ScriptValue('chancellor_bestow_royal_favor_opinion_increase_per_success_grandeur')]#!"
  task_bestow_royal_favor_target_message:0 "[councillor_liege.GetShortUIName] is bestowing [councillor_liege.GetHerHis] royal favor upon you"
  task_bestow_royal_favor_target_cancel_message:0 "[councillor_liege.GetShortUIName] is no longer bestowing [councillor_liege.GetHerHis] royal favor upon you"
 

@@ -55,7 +55,7 @@
  martial_chivalry.1012.b.success: "You face your fears"
  martial_chivalry.1012.b.failure: "This place scares you"
  martial_chivalry.1021.t: "The Chaos of Battle"
- martial_chivalry.1021.desc: "A sword strikes across my chest plate, an elbow slams into my helmet, a soldiers easily avoids my clumsy counter... The mock battle rages around me, but I struggle to find my focus.\n\nI am tempted to let my guard down as soon as the fighting lulls, but I know the second assault is about to start."
+ martial_chivalry.1021.desc: "A sword strikes across my chest plate, an elbow slams into my helmet, a soldier easily avoids my clumsy counter... The mock battle rages around me, but I struggle to find my focus.\n\nI am tempted to let my guard down as soon as the fighting lulls, but I know the second assault is about to start."
  martial_chivalry.1021.a: "I will withdraw for a moment."
  martial_chivalry.1021.b: "Meet the assault head on!"
  martial_chivalry.1021.b.success: "My charge is awe-inspiring"

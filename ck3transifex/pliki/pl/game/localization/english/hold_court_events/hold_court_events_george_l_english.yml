@@ -67,7 +67,7 @@
  hold_court.7010.anglofranco_desc: ""
  hold_court.7010.default_desc: ""
  hold_court.7010.a: ""
- hold_court_7010_new_courtier: ""
+ hold_court_7010_new_courtier: "[frontier_hero.GetName] dołącza do twojego dworu"
  hold_court.7010.b: ""
  hold_court.7010.b1.tt: ""
  hold_court.7010.b2.tt: ""
