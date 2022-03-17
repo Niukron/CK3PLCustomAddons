@@ -9,6 +9,16 @@
  tea_genitive:0 "herbaty"
  soma_genitive:0 "somy"
  expensive_drink_violet_sharbah_genitive:0 "fiołkowego szarbatu"
+ 
+ #RegionalAlcoholicDrinkAdj
+ palm_wine_genitive:0 "wina palmowego"
+ slivovitz_genitive:0 "śliwowicy"
+ byzantine_cypriot_genitive:0 "Bizantyńskiego Cypryjczyka"
+ shiraz_white_genitive:0 "białego wina z Shiraz"
+ tharra_genitive:0 "tharry"
+ arrack_genitive:0 "lambanogu"
+ sack_wine_genitive:0 "bukłaka wina"
+ prunelle_liquer_genitive:0 "Prunelle Liqueur"
 
  #RegionalDrinkInstrumental
  wine_instrumental:0 "winem"
@@ -3746,3 +3756,5 @@
  illustrious_type_2:0 "Znamienite"
  legendary_type_2:0 "Legendarne"
  rare_type_2:0 "Rzadkie"
+
+ 
