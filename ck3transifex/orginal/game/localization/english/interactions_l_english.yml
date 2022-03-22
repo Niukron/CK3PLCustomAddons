@@ -671,7 +671,8 @@
  convert_at_war_interaction_desc:0 "Convert to [recipient.GetShortUINamePossessiveNoTooltip] [faith|E] in order to end the [holy_war|E]\n#weak (From [actor.GetFaith.GetName] to [recipient.GetFaith.GetName])#!"
  CONVERT_AT_WAR_INTERACTION_NOTIFICATION:0 "I finally understand the might of your [recipient.GetFaith.HighGodName]. Lay down your arms, and I will convert to [recipient.GetFaith.GetNameNoTooltip]."
  is_head_of_religion:0 "[CHARACTER.GetShortUIName|U] will not convert as [CHARACTER.GetSheHe] is the religious head of [CHARACTER.GetHerHis] [faith|E]."
- 
+ request_culture_conversion_interaction: "$ask_for_conversion_interaction$"
+
  
  TEST_INTERACTION_NOT_IMPLEMENTED:0 "Test Interaction — Not Implemented (N/A)"
 

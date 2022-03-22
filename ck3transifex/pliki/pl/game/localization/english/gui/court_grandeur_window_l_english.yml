@@ -34,7 +34,7 @@
  COURT_GRANDEUR_TOOLTIP_BELOW_EXPECTATION_IGNORE_GRACE: ""
  COURT_GRANDEUR_TOOLTIP_AT_EXPECTATION_IGNORE_GRACE: ""
  COURT_GRANDEUR_TOOLTIP_ABOVE_EXPECTATION_IGNORE_GRACE: ""
- COURT_GRANDEUR_EXPECTED_LEVEL: ""
+ COURT_GRANDEUR_EXPECTED_LEVEL: "To jest twój obecny poziom [Concept( 'court_grandeur_expectation', 'oczekiwanego majestatu dworu' )|E]"
  COURT_GRANDEUR_PENDING_LEVEL: ""
  COURT_GRANDEUR_LEVEL_REQUIREMENT: "#weak (wymaga [CourtGrandeurLevel.GetGrandeurForLevel|V0]+ [Concept( 'court_grandeur', 'majestatu dworu' )|E])#!"
  COURT_GRANDEUR_ACTIVE_LEVEL: "#bold Aktywny poziom#! $COURT_GRANDEUR_LEVEL_REQUIREMENT$"

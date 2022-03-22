@@ -636,6 +636,7 @@
  convert_at_war_interaction_desc: "Convert to [recipient.GetShortUINamePossessiveNoTooltip] [faith|E] in order to end the [holy_war|E]\n#weak (From [actor.GetFaith.GetName] to [recipient.GetFaith.GetName])#!"
  CONVERT_AT_WAR_INTERACTION_NOTIFICATION: "I finally understand the might of your [recipient.GetFaith.HighGodName]. Lay down your arms, and I will convert to [recipient.GetFaith.GetNameNoTooltip]."
  is_head_of_religion: "[CHARACTER.GetShortUIName|U] will not convert as [CHARACTER.GetSheHe] is the religious head of [CHARACTER.GetHerHis] [faith|E]."
+ request_culture_conversion_interaction: "$ask_for_conversion_interaction$"
  TEST_INTERACTION_NOT_IMPLEMENTED: "Test Interaction — Not Implemented (N/A)"
  offer_vassalization_true_ruler_perk_tt: "You have [GetPerk( 'true_ruler_perk' ).GetName( GetPlayer )]: $VALUE|=+0$"
  offer_vassalization_interaction_aibehavior_differentfaith_tt: "You are of a different [faith|E]: $VALUE|=+0$"
