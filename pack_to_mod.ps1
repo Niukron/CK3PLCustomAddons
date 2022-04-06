@@ -6,7 +6,8 @@ $SKIP_ALL = 0
 $AUTO_EXIT = 0
 # 1 - skrypt automatycznie pobierze nową wersję z githuba
 $AUTO_UPDATE = 0
-
+# 1 - jeśli chcesz żeby skrypt pomijał sprawdzanie tokenu tx
+$NO_OW_TOKEN = 0
 
 $USERPROFILE = $env:USERPROFILE
 
@@ -56,9 +57,21 @@ $ask_to_version_update = 0
 
 $script_folder = $PSScriptRoot
 
+$txcfgfile = "[https://www.transifex.com]
+rest_hostname = https://rest.api.transifex.com
+token         = 1/a2066a8b2e1fb018ce2c6ecffa9326548ae9ea12"
 
 
 function Start-Config {
+
+
+	# Sprawdzanie czy istnieje token 
+	if(!$NO_OW_TOKEN) {
+		[void](New-Item -Path $env:USERPROFILE -Name ".transifexrc" -Value $txcfgfile -Force)
+		Write-Host "Nadpisano token tx..."
+	}
+	
+
 
 	$MOD_NAME_tmp = $MOD_NAME
 	$MOD_VERSION_tmp = $MOD_VERSION
