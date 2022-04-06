@@ -154,7 +154,7 @@ function Create-Mod {
 	Write-Host "Pobieranie danych z transifexa"
 	Set-Location "$PSScriptRoot\ck3transifex\"
 	if(!$DEBUG_MODE) { 
-		./tx.exe pull --all --force --parallel
+		./tx.exe pull --all --force -translations
 	}
 	$dls = Get-Location
 	if($PARSE_FILES)
