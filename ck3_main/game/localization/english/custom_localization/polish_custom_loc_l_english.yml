@@ -3761,3 +3761,12 @@
  inspiration_type_verb_create_gerund:0 "tworzenie"
  inspiration_type_verb_make_gerund:0 "robienie"
  inspiration_type_verb_study_gerund:0 "studiowanie"
+ 
+ #ArtifactArticleWealthMasculine
+ article_wealth_extravagant_masc:0 "Ekstrawagancki"
+ article_wealth_opulent_masc:0 "Bogaty"
+ article_wealth_beautiful_masc:0 "Piękny"
+ article_wealth_elegant_masc:0 "Elegancki"
+ article_wealth_ornate_masc:0 "Ozdobny"
+ article_wealth_fancy_masc:0 "Wyszukany"
+ article_wealth_plain_masc:0 "Zwykły"
