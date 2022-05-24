@@ -61,6 +61,14 @@ RandomWeirdObject_dative = {
 }
 
 #v1.5
+GetInspirationTypeRoom_locative = {
+	log_loc_errors = no
+	parent = GetInspirationTypeRoom
+	suffix = "_locative"
+}
+
+
+#v1.5
 OppositeGenderedLowlyServantType_truly_opp = {
 	log_loc_errors = no
 	parent = OppositeGenderedLowlyServantType
