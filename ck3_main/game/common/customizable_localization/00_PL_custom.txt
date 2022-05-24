@@ -61,10 +61,10 @@ RandomWeirdObject_dative = {
 }
 
 #v1.5
-GetInspirationTypeRoom_locative = {
+GetInspirationTypeRoom_gen = {
 	log_loc_errors = no
 	parent = GetInspirationTypeRoom
-	suffix = "_locative"
+	suffix = "_gen"
 }
 
 
