@@ -54,23 +54,173 @@ education_focus_gen = {
 }
 
 #v1.5
+RandomWeirdObject = {
+
+	type = character
+
+	random_valid = yes
+
+	text = {
+		localization_key = turnip_shaped_like_me
+	}
+	text = {
+		localization_key = human_skull_cup
+	}
+	text = {
+		localization_key = copper_scroll
+	}
+	text = {
+		localization_key = abandoned_chess_piece
+	}
+	text = {
+		localization_key = ancient_salted_beef
+	}
+	text = {
+		localization_key = cracked_ostrich_eggshell
+	}
+	text = {
+		localization_key = bat_guano
+	}
+	text = {
+		localization_key = abandoned_list
+	}
+}
+
+#v1.5
 RandomWeirdObject_dative = {
-	log_loc_errors = no
 	parent = RandomWeirdObject
 	suffix = "_dative"
 }
 
+#v1.5 - original
+GetInspirationTypeRoom = {
+	type = character
+
+	text = {
+		trigger = {
+			inspiration = { has_inspiration_type = book_inspiration }
+		}
+		localization_key = inspiration_type_room_study
+	}
+	text = { 
+		trigger = {
+			inspiration = { has_inspiration_type = weapon_inspiration }
+		}
+		localization_key = inspiration_type_room_smithy
+	}
+	text = { 
+		trigger = {
+			inspiration = { has_inspiration_type = armor_inspiration }
+		}
+		localization_key = inspiration_type_room_armory
+	}
+	text = { 
+		trigger = {
+			inspiration = { has_inspiration_type = weaver_inspiration }
+		}
+		localization_key = inspiration_type_room_weavery
+	}
+	text = { 
+		trigger = {
+			inspiration = { has_inspiration_type = adventure_inspiration }
+		}
+		localization_key = inspiration_type_room_wagon
+	}
+	text = { 
+		trigger = {
+			inspiration = { has_inspiration_type = artisan_inspiration }
+		}
+		localization_key = inspiration_type_room_workshop
+	}
+	text = {
+		trigger = {
+			inspiration = { has_inspiration_type = smith_inspiration }
+		}
+		localization_key = inspiration_type_room_shop
+	}
+	text = { 
+		trigger = {
+			inspiration = { has_inspiration_type = alchemy_inspiration }
+		}
+		localization_key = inspiration_type_room_laboratory
+	}
+	text = { 
+		trigger = { always = no }
+		fallback = yes
+		localization_key = inspiration_type_room_fallback
+	}
+}
+
 #v1.5
 GetInspirationTypeRoom_gen = {
-	log_loc_errors = no
 	parent = GetInspirationTypeRoom
 	suffix = "_gen"
 }
 
+#v1.5 - original
+OppositeGenderedLowlyServantType = {
+	type = character
+	random_valid = yes
+
+	text = {
+		localization_key = stable_boy
+		trigger = {
+			is_female = yes
+		}
+	}
+	text = {
+		localization_key = page
+		trigger = {
+			is_female = yes
+		}
+	}
+	text = {
+		localization_key = scullery_maid
+		trigger = {
+			is_male = yes
+		}
+	}
+	text = {
+		localization_key = chandler
+		trigger = {
+			is_female = yes
+		}
+	}
+	text = {
+		localization_key = launderer
+		trigger = {
+			is_male = yes
+		}
+	}
+	text = {
+		localization_key = scullion
+		trigger = {
+			is_female = yes
+		}
+	}
+	text = {
+		localization_key = naperer
+	}
+	text = {
+		localization_key = scalder
+	}
+	text = {
+		localization_key = saucerer
+	}
+	text = {
+		localization_key = pantler
+	}
+
+	text = {
+		weight_multiplier = {
+			base = 0.3
+		}
+		localization_key = servant
+	}
+}
 
 #v1.5
 OppositeGenderedLowlyServantType_truly_opp = {
-	log_loc_errors = no
 	parent = OppositeGenderedLowlyServantType
 	suffix = "_truly_opp"
 }

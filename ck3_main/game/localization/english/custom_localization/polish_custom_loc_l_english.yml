@@ -2407,7 +2407,7 @@
  ancient_salted_beef_dative:0 "starożytnym kawałku solonej wołowiny"
  cracked_ostrich_eggshell_dative:0 "skorupie strusiego jaja"
  bat_guano_dative:0 "fiolce z guanem nietoperza"
- abandoned_list:0 "rejestrze z czasów, gdy próbowaliśmy ponumerować wszystkie wozy z osiołkami w królestwie"
+ abandoned_list_dative:0 "rejestrze z czasów, gdy próbowaliśmy ponumerować wszystkie wozy z osiołkami w królestwie"
  
  #OppositeGenderedLowlyServantTyp_truly_opp
  #mezczyna
