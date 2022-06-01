@@ -68,6 +68,7 @@
  birth.1006.a.message_desc: "Real Father Knows"
  birth.1006.a.mother_message: "[real_father.GetTitledFirstName] has learned that [real_father.GetSheHe] is the true father"
  birth.1006.b: "The world will know of my child!"
+ birth.1006.bastard_explanation: "You learned of [child.GetFirstName]'s birth, the mother, [mother.GetShortUIName] gains the [secret.GetName] Secret"
  birth.1010.t: "Child of My Dynasty"
  birth.1010.t_twins: "Children of My Dynasty"
  birth.1010.desc.twin: "[mother.Custom2('MyCharacterIntroduction', ROOT.Char)|U] has given birth to two [child.Custom('TwinDaughtersSonsChildren')]!\n\nSince the little ones are part of the [ROOT.Char.GetDynasty.GetName] dynasty they should be blessed with good names."

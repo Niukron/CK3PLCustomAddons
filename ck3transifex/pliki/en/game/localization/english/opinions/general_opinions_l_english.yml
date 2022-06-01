@@ -97,6 +97,7 @@
  dismissive_opinion: "Dismissive"
  hurt_opinion: "Hurt"
  annoyed_opinion: "Annoyed"
+ overreaction_opinion: "Overreaction"
  given_luxuries_opinion: "Given Luxuries"
  plotting_against_vassals_opinion: "Plotting Against My Vassals"
  loved_one_dungeon_death: "Caused the death of a loved one"
@@ -218,3 +219,5 @@
  contempt_opinion: "Contempt"
  foreign_prison_revocation_opinion: "$treasonous_revoke_refusal$"
  surgically_maimed: "Surgically Maimed"
+ bizarre_claims_opinion: "Made Bizarre Claims"
+ absorbed_de_jure_opinion: "Absorbed De Jure Lands"

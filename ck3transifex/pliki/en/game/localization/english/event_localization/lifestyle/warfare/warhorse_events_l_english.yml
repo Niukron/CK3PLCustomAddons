@@ -42,7 +42,7 @@
  warhorse.1001.e: "I am not interested."
  warhorse.1001.e.tt: "#F \"[THIS.Char.Custom('WarhorseStoryName')] needs no other trainer than me!\"#!"
  warhorse.1001.f: "That's what I pay a $master_of_horse_court_position$ for!"
- warhorse.1001.f.tt: "Your $master_of_horse_court_position$ starts training your [ROOT.Char.Custom('HorseStoryMareStallion')]."
+ warhorse.1001.f.tt: "Your $master_of_horse_court_position$ starts training [THIS.Char.Custom('WarhorseStoryName')]"
  warhorse.1001.f.failure: "You overestimated your $master_of_horse_court_position$"
  warhorse.1001.f.failure.tt: "[m_horse.GetTitledFirstNameNoTooltip] fails at training [ROOT.Char.Custom('WarhorseStoryName')]."
  warhorse.1002.desc: "[ROOT.Char.Custom('WarhorseStoryName')] took to [ROOT.Char.Custom('HorseStoryHerHis')] training well, and results could be seen instantly!"

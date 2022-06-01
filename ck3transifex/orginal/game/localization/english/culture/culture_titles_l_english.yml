@@ -539,6 +539,11 @@
  kingdom_feudal_grand_duke_independent:0 "Grand Duchy"
 
 
+ duke_feudal_male_andalusian_independent:0 "Emir"
+ duke_feudal_female_andalusian_independent:0 "Emira"
+ duchy_feudal_andalusian_independent:0 "Taifa"
+
+
  duke_feudal_male_lombard_independent:0 "Prince"
  duke_feudal_female_lombard_independent:0 "Princess"
  duchy_feudal_lombard_independent:0 "Principality"

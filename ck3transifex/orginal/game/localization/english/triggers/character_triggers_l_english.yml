@@ -747,7 +747,7 @@
 
  character_this_equal:1 "Target is [CHARACTER.GetShortUIName]"
  character_scope_equal:1 "Target is [CHARACTER.GetShortUIName]"
- none_this_equal:1 "Target is [CHARACTER.GetShortUIName]"
+ none_this_equal:2 "Target is unknown"
  
  
  YOU_COMPLETELY_CONTROL_TITLE_DESC:0 "You [completely_control|E] [TARGET_TITLE.GetNameNoTier]"

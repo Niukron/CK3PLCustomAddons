@@ -12,3 +12,6 @@
  articleblank_article: "a "
  articleblank_articlevowel: "an "
  articleblank_blank: ""
+ maskface_behind: "behind"
+ maskface_in: "in"
+ maskface_across: "across"

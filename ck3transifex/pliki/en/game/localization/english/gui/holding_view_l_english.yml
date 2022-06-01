@@ -151,6 +151,7 @@
  BUILDING_EFFECT_PROVINCE_HEADER: "#low This Holding:#!"
  BUILDING_EFFECT_COUNTY_HEADER: "#low This County:#!"
  BUILDING_EFFECT_CHARACTER_HEADER: "#low Holder of this Holding:#!"
+ BUILDING_EFFECT_COUNTY_HOLDER_CHARACTER_HEADER: "#low Holder of this County:#!"
  BUILDING_EFFECT_DUCHY_CAPITAL_HEADER: "#low All Holdings in this Duchy:#!"
  BUILDING_CONSTRUCTION_COMPLETE_EFFECT_HEADER: "#low On Construction Completed:#!\n"
  RAID_TT_NO_LOOT_RAIDED: "@warning_icon!#X No available loot due to recently being raided#!"

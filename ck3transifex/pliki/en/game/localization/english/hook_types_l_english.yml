@@ -11,3 +11,5 @@
  fabrication_hook: "Fabrication"
  trial_by_combat_hook: "Won Trial-by-Combat"
  sumptuary_crime_hook: "Violated Sumptuary Law"
+ minor_crime_accomplice_hook: "Crime Accomplice"
+ major_crime_accomplice_hook: "Serious Crime Accomplice"

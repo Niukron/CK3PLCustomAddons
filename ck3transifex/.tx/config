@@ -29,6 +29,13 @@ source_file = pliki/en/game/localization/english/battles_l_english.yml
 source_lang = en
 type = YAML_GENERIC
 
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:board_game_events_l_english]
+file_filter = pliki/<lang>/game/localization/english/board_game_events_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/board_game_events_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
 [o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:buildings_l_englishyml]
 file_filter = pliki/<lang>/game/localization/english/buildings_l_english.yml
 minimum_perc = 0
@@ -607,6 +614,13 @@ type = YAML_GENERIC
 file_filter = pliki/<lang>/game/localization/english/bookmark/bookmark_hastings_1066_l_english.yml
 minimum_perc = 0
 source_file = pliki/en/game/localization/english/bookmark/bookmark_hastings_1066_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:bookmark_iberia_867_l_english]
+file_filter = pliki/<lang>/game/localization/english/bookmark/bookmark_iberia_867_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/bookmark/bookmark_iberia_867_l_english.yml
 source_lang = en
 type = YAML_GENERIC
 
@@ -1360,6 +1374,111 @@ source_file = pliki/en/game/localization/english/dlc/fp1/dlc_fp1_yearly_events_o
 source_lang = en
 type = YAML_GENERIC
 
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:dlc_fp2_achievements_l_english]
+file_filter = pliki/<lang>/game/localization/english/dlc/fp2/dlc_fp2_achievements_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/fp2/dlc_fp2_achievements_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:dlc_fp2_artifacts_l_english]
+file_filter = pliki/<lang>/game/localization/english/dlc/fp2/dlc_fp2_artifacts_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/fp2/dlc_fp2_artifacts_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:dlc_fp2_character_interactions_l_english]
+file_filter = pliki/<lang>/game/localization/english/dlc/fp2/dlc_fp2_character_interactions_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/fp2/dlc_fp2_character_interactions_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:dlc_fp2_cultural_traditions_l_english]
+file_filter = pliki/<lang>/game/localization/english/dlc/fp2/dlc_fp2_cultural_traditions_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/fp2/dlc_fp2_cultural_traditions_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:dlc_fp2_flavor_events_oltner_l_english]
+file_filter = pliki/<lang>/game/localization/english/dlc/fp2/dlc_fp2_flavor_events_oltner_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/fp2/dlc_fp2_flavor_events_oltner_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:dlc_fp2_game_concepts_l_english]
+file_filter = pliki/<lang>/game/localization/english/dlc/fp2/dlc_fp2_game_concepts_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/fp2/dlc_fp2_game_concepts_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:dlc_fp2_important_actions_l_english]
+file_filter = pliki/<lang>/game/localization/english/dlc/fp2/dlc_fp2_important_actions_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/fp2/dlc_fp2_important_actions_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:dlc_fp2_legacies_l_english]
+file_filter = pliki/<lang>/game/localization/english/dlc/fp2/dlc_fp2_legacies_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/fp2/dlc_fp2_legacies_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:dlc_fp2_lyonese_monk_events_l_english]
+file_filter = pliki/<lang>/game/localization/english/dlc/fp2/dlc_fp2_lyonese_monk_events_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/fp2/dlc_fp2_lyonese_monk_events_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:dlc_fp2_major_decisions_l_english]
+file_filter = pliki/<lang>/game/localization/english/dlc/fp2/dlc_fp2_major_decisions_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/fp2/dlc_fp2_major_decisions_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:dlc_fp2_opinions_l_english]
+file_filter = pliki/<lang>/game/localization/english/dlc/fp2/dlc_fp2_opinions_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/fp2/dlc_fp2_opinions_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:dlc_fp2_other_decisions_l_english]
+file_filter = pliki/<lang>/game/localization/english/dlc/fp2/dlc_fp2_other_decisions_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/fp2/dlc_fp2_other_decisions_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:dlc_fp2_struggle_ending_decisions_l_english]
+file_filter = pliki/<lang>/game/localization/english/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:dlc_fp2_triggers]
+file_filter = pliki/<lang>/game/localization/english/dlc/fp2/dlc_fp2_triggers.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/fp2/dlc_fp2_triggers.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:dlc_fp2_wars_l_english]
+file_filter = pliki/<lang>/game/localization/english/dlc/fp2/dlc_fp2_wars_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/fp2/dlc_fp2_wars_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
 [o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:dynasty_names_l_englishyml]
 file_filter = pliki/<lang>/game/localization/english/dynasties/dynasty_names_l_english.yml
 minimum_perc = 0
@@ -1430,6 +1549,41 @@ source_file = pliki/en/game/localization/english/event_localization/dynasty_lega
 source_lang = en
 type = YAML_GENERIC
 
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:fp2_2004placeholder_l_english]
+file_filter = pliki/<lang>/game/localization/english/event_localization/fp2_2004placeholder_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/event_localization/fp2_2004placeholder_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:fp2_nick_events_2_l_english]
+file_filter = pliki/<lang>/game/localization/english/event_localization/fp2_nick_events_2_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/event_localization/fp2_nick_events_2_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:fp2_nick_events_3_l_english]
+file_filter = pliki/<lang>/game/localization/english/event_localization/fp2_nick_events_3_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/event_localization/fp2_nick_events_3_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:fp2_nick_events_l_english]
+file_filter = pliki/<lang>/game/localization/english/event_localization/fp2_nick_events_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/event_localization/fp2_nick_events_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:fp2_struggle_event_2006_l_english]
+file_filter = pliki/<lang>/game/localization/english/event_localization/fp2_struggle_event_2006_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/event_localization/fp2_struggle_event_2006_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
 [o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:generic_event_text_l_englishyml]
 file_filter = pliki/<lang>/game/localization/english/event_localization/generic_event_text_l_english.yml
 minimum_perc = 0
@@ -1469,6 +1623,13 @@ type = YAML_GENERIC
 file_filter = pliki/<lang>/game/localization/english/event_localization/perk_interaction_events_l_english.yml
 minimum_perc = 0
 source_file = pliki/en/game/localization/english/event_localization/perk_interaction_events_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:placeholderhugofp2eventtasf_events_l_english]
+file_filter = pliki/<lang>/game/localization/english/event_localization/placeholderhugofp2eventtasf_events_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/event_localization/placeholderhugofp2eventtasf_events_l_english.yml
 source_lang = en
 type = YAML_GENERIC
 
@@ -2312,6 +2473,13 @@ source_file = pliki/en/game/localization/english/event_localization/religion_eve
 source_lang = en
 type = YAML_GENERIC
 
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:head_of_faith_events_l_english]
+file_filter = pliki/<lang>/game/localization/english/event_localization/religion_events/head_of_faith_events_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/event_localization/religion_events/head_of_faith_events_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
 [o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:heresy_events_l_englishyml]
 file_filter = pliki/<lang>/game/localization/english/event_localization/religion_events/heresy_events_l_english.yml
 minimum_perc = 0
@@ -2557,6 +2725,13 @@ source_file = pliki/en/game/localization/english/event_localization/secret_event
 source_lang = en
 type = YAML_GENERIC
 
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:fp2_story_cycle_bell_of_huesca_l_english]
+file_filter = pliki/<lang>/game/localization/english/event_localization/story_cycles/fp2_story_cycle_bell_of_huesca_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/event_localization/story_cycles/fp2_story_cycle_bell_of_huesca_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
 [o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:hunt_mystical_animal_events_l_englishyml]
 file_filter = pliki/<lang>/game/localization/english/event_localization/story_cycles/hunt_mystical_animal_events_l_english.yml
 minimum_perc = 0
@@ -2631,6 +2806,34 @@ type = YAML_GENERIC
 file_filter = pliki/<lang>/game/localization/english/event_localization/stress_events/stress_trait_ongoing_events_l_english.yml
 minimum_perc = 0
 source_file = pliki/en/game/localization/english/event_localization/stress_events/stress_trait_ongoing_events_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:fp2_event_dan_l_english]
+file_filter = pliki/<lang>/game/localization/english/event_localization/struggle_events/fp2_event_dan_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/event_localization/struggle_events/fp2_event_dan_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:fp2_struggle_event_ola_l_english]
+file_filter = pliki/<lang>/game/localization/english/event_localization/struggle_events/fp2_struggle_event_ola_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/event_localization/struggle_events/fp2_struggle_event_ola_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:fp2_struggle_event_vero_l_english]
+file_filter = pliki/<lang>/game/localization/english/event_localization/struggle_events/fp2_struggle_event_vero_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/event_localization/struggle_events/fp2_struggle_event_vero_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:fp2_struggle_events_l_english]
+file_filter = pliki/<lang>/game/localization/english/event_localization/struggle_events/fp2_struggle_events_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/event_localization/struggle_events/fp2_struggle_events_l_english.yml
 source_lang = en
 type = YAML_GENERIC
 
@@ -3341,6 +3544,13 @@ source_file = pliki/en/game/localization/english/load_tips/load_tips_l_english.y
 source_lang = en
 type = YAML_GENERIC
 
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:map_modes_l_english]
+file_filter = pliki/<lang>/game/localization/english/map/map_modes_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/map/map_modes_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
 [o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:activity_feast_modifiers_l_englishyml]
 file_filter = pliki/<lang>/game/localization/english/modifiers/activity_feast_modifiers_l_english.yml
 minimum_perc = 0
@@ -3499,6 +3709,20 @@ type = YAML_GENERIC
 file_filter = pliki/<lang>/game/localization/english/modifiers/fabricate_hook_modifiers_l_english.yml
 minimum_perc = 0
 source_file = pliki/en/game/localization/english/modifiers/fabricate_hook_modifiers_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:fp2_event_modifiers_l_english]
+file_filter = pliki/<lang>/game/localization/english/modifiers/fp2_event_modifiers_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/modifiers/fp2_event_modifiers_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:fp2_event_modifiers_ola_l_english]
+file_filter = pliki/<lang>/game/localization/english/modifiers/fp2_event_modifiers_ola_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/modifiers/fp2_event_modifiers_ola_l_english.yml
 source_lang = en
 type = YAML_GENERIC
 
@@ -3985,6 +4209,13 @@ source_file = pliki/en/game/localization/english/opinions/stress_opinions_l_engl
 source_lang = en
 type = YAML_GENERIC
 
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:struggle_opinions_l_english]
+file_filter = pliki/<lang>/game/localization/english/opinions/struggle_opinions_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/opinions/struggle_opinions_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
 [o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:vassal_events_opinions_l_englishyml]
 file_filter = pliki/<lang>/game/localization/english/opinions/vassal_events_opinions_l_english.yml
 minimum_perc = 0
@@ -4129,6 +4360,27 @@ type = YAML_GENERIC
 file_filter = pliki/<lang>/game/localization/english/religion/religion_zoroastrianism_l_english.yml
 minimum_perc = 0
 source_file = pliki/en/game/localization/english/religion/religion_zoroastrianism_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:struggle_catalysts_l_english]
+file_filter = pliki/<lang>/game/localization/english/struggles/struggle_catalysts_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/struggles/struggle_catalysts_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:struggles_l_english]
+file_filter = pliki/<lang>/game/localization/english/struggles/struggles_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/struggles/struggles_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:struggles_parameters_l_english]
+file_filter = pliki/<lang>/game/localization/english/struggles/struggles_parameters_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/struggles/struggles_parameters_l_english.yml
 source_lang = en
 type = YAML_GENERIC
 
@@ -4279,10 +4531,10 @@ source_file = pliki/en/game/localization/english/triggers/secret_triggers_l_engl
 source_lang = en
 type = YAML_GENERIC
 
-[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:trigger_system_l_englishyml]
-file_filter = pliki/<lang>/game/localization/english/triggers/trigger_system_l_english.yml
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:struggle_triggers_l_english]
+file_filter = pliki/<lang>/game/localization/english/triggers/struggle_triggers_l_english.yml
 minimum_perc = 0
-source_file = pliki/en/game/localization/english/triggers/trigger_system_l_english.yml
+source_file = pliki/en/game/localization/english/triggers/struggle_triggers_l_english.yml
 source_lang = en
 type = YAML_GENERIC
 
@@ -4297,6 +4549,13 @@ type = YAML_GENERIC
 file_filter = pliki/<lang>/game/localization/english/tutorial/ep1_tutorial_reactive_l_english.yml
 minimum_perc = 0
 source_file = pliki/en/game/localization/english/tutorial/ep1_tutorial_reactive_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:fp2_tutorial_reactive_l_english]
+file_filter = pliki/<lang>/game/localization/english/tutorial/fp2_tutorial_reactive_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/tutorial/fp2_tutorial_reactive_l_english.yml
 source_lang = en
 type = YAML_GENERIC
 
@@ -4423,6 +4682,13 @@ type = YAML_GENERIC
 file_filter = pliki/<lang>/jomini/localization/jomini/multiplayer_gui/multiplayer_gui_l_english.yml
 minimum_perc = 0
 source_file = pliki/en/jomini/localization/jomini/multiplayer_gui/multiplayer_gui_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:trigger_system_l_english]
+file_filter = pliki/<lang>/jomini/localization/jomini/script_system/trigger_system_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/jomini/localization/jomini/script_system/trigger_system_l_english.yml
 source_lang = en
 type = YAML_GENERIC
 

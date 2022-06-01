@@ -94,3 +94,4 @@
  petition_liege_faith_tt: "#X You do not follow the same [faith|E] as your [liege|E]#!"
  petition_liege_holding_tt: "#X Your [liege|E] cannot afford to construct a [holding|E]#!"
  petition_liege_debt_tt: "#X Your [liege|E] is in [debt|E]#!"
+ petition_liege_council_no_petition_valid_tt: "#X There is nothing you could ask of your liege#!"

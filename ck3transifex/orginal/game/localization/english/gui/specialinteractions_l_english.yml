@@ -117,6 +117,7 @@
  AI_REFUSAL_COURTIER:0 "[recipient.GetShortUIName|U] is not a [ruler|E]: $VALUE|=+0$"
  AI_REFUSAL_YOUNG_CHILD:0 "[recipient.GetShortUIName|U] is your [child|E]: $VALUE|=+0$"
  AI_REFUSAL_WOUNDED:0 "[recipient.GetShortUIName|U] is wounded: $VALUE|=+0$"
+ AI_ACCEPTANCE_FOREIGN_AFFAIRS_FOCUS:1 "[recipient.GetShortUIName|U] has the $diplomacy_foreign_affairs_focus$: $VALUE|=+0€$"
  AI_BANISHMENT_REASON_MODIFIER:0 "Your Crime warrants Banishment: $VALUE|=+0$"
  AI_REVOKE_TITLE_REASON_MODIFIER:0 "Your Crime warrants Title Revocation: $VALUE|=+0$"
  AI_EXECUTE_REASON_MODIFIER:0 "Your Crime warrants Execution: $VALUE|=+0$"
@@ -175,6 +176,7 @@
  grant_titles_interaction_notification_effect_6:0 "[recipient.GetUINameNotMe] now holds the [loc_title.GetBaseName]"
  grant_titles_interaction_children_not_allowed_temple:0 "[recipient.GetUINameNotMe] is too young to handle the religious duties that comes with [temple|E] management!"
  NOT_grant_titles_interaction_children_not_allowed_temple:0 "Children cannot handle the religious duties that comes with [temple|E] management!"
+ grant_titles_interaction_title_being_wagered:0 "You cannot give away a [title|E] you are currently wagering"
  cultural_acceptance_gain_granted_title:0 "[landed_title.GetName] granted to a [ruler|E] of the [recipient.GetCulture.GetName] [culture|E]"
  cultural_acceptance_gain_auto_granted_county:0 "[landed_title.GetName] granted to a [ruler|E] of the [ROOT.Culture.GetName] [culture|E]"
  runestone_grant_title_warning:0 "@warning_icon!#X The runestone in [target.GetNameNoTier] will be destroyed since [recipient.GetShortUIName] isn't of your [dynasty|E]!#!"
@@ -329,6 +331,8 @@
  CALL_ALLY_ALLY_ALREADY_CALLED_TO_WAR:2 "@warning_icon!#X [CHARACTER.GetShortUINameNoTooltip|U] [Select_CString( CHARACTER.IsLocalPlayer, 'have', 'has' )] been called to this war already#!"
  WAR_ALLIES:0 "Allies"
  WAR_ENEMIES:0 "Enemies"
+ WAR_EFFECTS_ON_YOU:0 "Effects on you"
+ WAR_EFFECTS_ON_ALLY:0 "Effects on"
  CALL_ALLY_REJECT_HEADER:1 "If you reject:"
  CALL_ALLY_NO_WAR_SELECTED:0 "@warning_icon!#X Select a [war|E] from the list above #!"
  BLACKMAIL_NO_SECRETS:0 "#weak No Secrets to select#!"
@@ -467,3 +471,8 @@
  CULTURE_TRANSF_VASSAL:0 "[Culture.GetNameNoTooltip]"
 
  grant_title_clerical_gender_tt:0 "Temple Holdings can only be granted to your [faith|E]'s Clerical Gender"
+ VASSAL_CONTRACT_MARRIAGE_FAVOR_BONUS:0 "$marriage_favor_rights$: $VALUE|=+0$"
+ VASSAL_WITH_MARRIAGE_FAVOR:0 "Unfulfilled $marriage_favor_rights$"
+ UNITY_PERK_BONUS:0 "$fp2_coterie_legacy_3_name$: $VALUE|=+0$"
+ AI_RELEVANT_TRAITS:0 "Relevant Traits: $VALUE|=+0$"
+

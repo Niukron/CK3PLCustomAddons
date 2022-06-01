@@ -1,5 +1,5 @@
 ﻿l_english:
- TRUCE_TRADE_DEAL: "Truce signed in exchange for cessation of raiding\n\n"
+ TRUCE_TRADE_DEAL: "\nTruce signed in exchange for cessation of raiding"
  fp1_trade_events.0000.t: "Raid or Trade"
  fp1_trade_events.0002.t: "$fp1_trade_events.0000.t$?"
  fp1_trade_events.0002.desc: "As my troops and I prepare to sack the lands of [county.GetNameNoTierNoTooltip], our first scouts report back.\n\nIt seems the local towns are rich, but many are heavily fortified, and we could well be caught out by vengeful armies before we can break into the juiciest targets.\n\nAll is not lost: the art of good raiding is all in exploiting opportunity, and we could perhaps arrange trade and tribute in exchange for staying our blades."

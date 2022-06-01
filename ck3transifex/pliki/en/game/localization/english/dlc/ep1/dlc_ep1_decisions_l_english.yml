@@ -16,6 +16,7 @@
  invite_a_linguist_self: "Find [ROOT.Char.GetCourtLanguage.GetNameNoTooltip] Linguist"
  invite_a_linguist_liege: "Find [ROOT.Char.GetLiege.GetCourtLanguage.GetNameNoTooltip] Teacher"
  invite_a_linguist_desc: "It is imperative that my children and I speak the tongues of the nobility. I can bring in a skilled language tutor to ensure this."
+ invite_a_linguist_for_children_desc: "It is about time that my children learn to speak the language of the nobility. I can bring in a skilled language tutor to teach them."
  invite_a_linguist_self_tooltip: "Recruit someone to teach your [court_language|E]"
  invite_a_linguist_liege_tooltip: "Recruit someone to teach your [liege|E]'s [court_language|E]"
  invite_a_linguist_self_confirm: "Start the search"

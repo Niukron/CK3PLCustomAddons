@@ -9,4 +9,5 @@
  rejected_call_to_offensive_war: "Rejected Call to an Offensive War"
  contributed_in_war: "Contributed in one of my Wars "
  peasant_revolt_opinion: "$vassal_lost_or_wp_faction_revolt_war$"
+ warmonger_opinion: "Warmonger"
  vassal_lost_or_wp_faction_revolt_war: "Revolted against me"
