@@ -1,0 +1,3 @@
+﻿l_english:
+ kochinim_history_loc: "Powstała w roku [DATE.GetYear], gdy kultura [CULTURE.GetName|l] połączyła się z nieznaną kulturą o izraelickim [Concept( 'heritage', 'dziedzictwie' )|E]."
+ vlach_history_loc: "Powstała w roku [DATE.GetYear], gdy kultura [CULTURE.GetName|l] połączyła się z nieznaną kulturą o południowosłowiańskim [Concept( 'heritage', 'dziedzictwie' )|E]."

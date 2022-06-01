@@ -1,0 +1,10 @@
+﻿l_english:
+ ALL_LIVING_CHARACTERS: "All living characters:"
+ ANY_LIVING_CHARACTER: "Any living character:"
+ ALL_POOL_CHARACTERS: "All pool characters:"
+ ANY_POOL_CHARACTER: "Any pool character:"
+ ANY_OF_CHARACTERS_VASSALS: "Any of [CHARACTER.GetShortUINamePossessive] [vassals|E]:"
+ ALL_OF_CHARACTERS_VASSALS: "All of [CHARACTER.GetShortUINamePossessive] [vassals|E]:"
+ ANY_OF_CHARACTERS_VASSALS_PERCENT: "$PARAMETERS$ of [CHARACTER.GetShortUINamePossessive] [vassals|E]:"
+ ANY_OF_CHARACTERS_VASSALS_COUNT: "$PARAMETERS$ of [CHARACTER.GetShortUINamePossessive] [vassals|E]:"
+ ANY_DYNASTY_MEMBER_COUNT: "$PARAMETERS$ members of the [DYNASTY.GetBaseName] [dynasty|E]:"
