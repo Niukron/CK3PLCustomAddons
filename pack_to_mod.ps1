@@ -9,6 +9,11 @@ $AUTO_UPDATE = 0
 # 1 - jeśli chcesz żeby skrypt pomijał sprawdzanie tokenu tx
 $NO_OW_TOKEN = 0
 
+
+# Ilość odpalonych zadań transifexa na raz - jeśli twój CPU nie daje rady to zmniejsz (pojawia się throttling) - możesz też podnieść jeśli chcesz szybciej - domyślnie 3
+$WORKERS = 3
+
+
 $USERPROFILE = $env:USERPROFILE
 
 # Domyślny folder z modami
@@ -167,7 +172,7 @@ function Create-Mod {
 	Write-Host "Pobieranie danych z transifexa"
 	Set-Location "$PSScriptRoot\ck3transifex\"
 	if(!$DEBUG_MODE) { 
-		./tx.exe pull --all --force -translations
+		./tx_cli_edited.exe pull --all --force -w $WORKERS
 	}
 	$dls = Get-Location
 	if($PARSE_FILES)
