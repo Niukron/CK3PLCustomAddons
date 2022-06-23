@@ -1,7 +1,7 @@
 ﻿l_english:
 
  
- board_games.0000.t:0 "The Beautiful Game: [SCOPE.Custom('BG_GameType')|U]"
+ board_games.0000.t:0 "The Greatest Game: [SCOPE.Custom('BG_GameType')|U]"
  board_games.0001.t:0 "$board_games.0000.t$"
 
  

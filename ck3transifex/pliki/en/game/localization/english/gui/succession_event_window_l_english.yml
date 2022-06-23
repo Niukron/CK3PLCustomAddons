@@ -226,6 +226,7 @@
  SUCCESSION_EVENT_WINDOW_END_DATE_UNIFICATION_ITALY_DESC: " It was due to your rule and guidance that the Empire of $e_italy$ united under one ruler."
  SUCCESSION_EVENT_WINDOW_END_DATE_UNIFICATION_AFRICA_DESC: " It was due to your hard work, diligence, and wise rule that the continent of Africa united under one rule."
  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_PORTUGAL_DESC: " But have you truly died, while your founding of the Kingdom of $k_portugal$ will be forever remembered?"
+ SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_CANARIAS_DESC: " Everyone across the islands know your name as the founder of the Kingdom of $k_canarias$."
  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_BOSNIA_DESC: " There is not so much as a horse in Bosnia who does not know your name after the Kingdom of $k_bosnia$ was created."
  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_ARMENIA_DESC: " Your name will live on eternally as the founder of the Empire of $e_armenia$."
  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_RUM_DESC: " The Kingdom of $k_rum$ was created by you, and as its founder, in a way it will always be yours."

@@ -104,6 +104,6 @@
  catalyst_invite_diff_faith_culture_to_feast: "Invited to [feast|E] [struggle_catalyst_catalyst|E]"
  catalyst_invite_diff_faith_culture_to_feast_desc: "Invite an [struggle_involved|E] [ruler|E] of a different [faith|E] or [culture|E] to a [feast|E]"
  catalyst_grant_land_local_noble: "Granted to local noble [struggle_catalyst_catalyst|E]"
- catalyst_grant_land_local_noble_desc: "Grant one your [counties|E] to a local noble of an [struggle_involved|E] [culture|E]"
+ catalyst_grant_land_local_noble_desc: "Grant one of your [counties|E] to a local noble of an [struggle_involved|E] [culture|E]"
  catalyst_convert_local_culture_faith: "Converted to local beliefs [struggle_catalyst_catalyst|E]"
  catalyst_convert_local_culture_faith_desc: "Convert to the local [struggle_involved|E] [culture|E] or [faith|E]"

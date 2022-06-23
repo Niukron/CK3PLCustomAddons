@@ -984,6 +984,7 @@
  
  
  CHANGE_DEVELOPMENT_LEVEL:0 "The [development|E] level in [TITLE.GetName] will change by $VALUE|=0+$"
+ CHANGE_DEVELOPMENT_LEVEL_PAST:0 "The [development|E] level in [TITLE.GetName] changed by $VALUE|=0+$"
  CHANGE_DEVELOPMENT_PROGRESS:2 "[development|E] progress increases by $VALUE|0+$"
  CHANGE_DEVELOPMENT_PROGRESS_NEG:1 "[development|E] progress decreases by $VALUE|0-$"
  THEY_CHANGE_DEVELOPMENT_PROGRESS:1 "The [development|E] progress in [TITLE.GetName] will increase by $VALUE|0+$"
@@ -1374,10 +1375,10 @@
  GET_RANDOM_INNOVATION_FROM_EFFECT:2 "[CULTURE.GetName] [culture|E] receives random [innovation|E] from [TARGET_CULTURE.GetName] culture"
  GOT_RANDOM_INNOVATION_FROM_EFFECT:1 "[CULTURE.GetName] [culture|E] received random [innovation|E] from [TARGET_CULTURE.GetName] culture"
 
- ACTIVATE_HOLY_SITE_DESC:0 "[TITLE.GetNameNoTier] gets the [CHARACTER.GetFaith.GetAdjective] [holy_site|E] $HOLY_SITE$"
- ACTIVATE_HOLY_SITE_PAST_DESC:0 "[TITLE.GetNameNoTier] got the [CHARACTER.GetFaith.GetAdjective] [holy_site|E] $HOLY_SITE$"
- DEACTIVATE_HOLY_SITE_DESC:0 "[TITLE.GetNameNoTier] loses the [CHARACTER.GetFaith.GetAdjective] [holy_site|E] $HOLY_SITE$"
- DEACTIVATE_HOLY_SITE_PAST_DESC:0 "[TITLE.GetNameNoTier] lost the [CHARACTER.GetFaith.GetAdjective] [holy_site|E] $HOLY_SITE$"
+ ACTIVATE_HOLY_SITE_DESC:1 "[TITLE.GetNameNoTier] will be considered a [FAITH.GetAdjective] [holy_site|E]"
+ ACTIVATE_HOLY_SITE_PAST_DESC:1 "[TITLE.GetNameNoTier] became a [FAITH.GetAdjective] [holy_site|E]"
+ DEACTIVATE_HOLY_SITE_DESC:1 "[TITLE.GetNameNoTier] will no longer be considered a [FAITH.GetAdjective] [holy_site|E]"
+ DEACTIVATE_HOLY_SITE_PAST_DESC:1 "[TITLE.GetNameNoTier] stopped being considered a [FAITH.GetAdjective] [holy_site|E]"
 
  ADD_RANDOM_INNOVATION_EFFECT:1 "[CULTURE.GetCollectiveNoun] develop a random $GROUP$ group [innovation|E]"
  GOT_RANDOM_INNOVATION_EFFECT:0 "[CULTURE.GetCollectiveNoun] developed a random $GROUP$ group [innovation|E]"

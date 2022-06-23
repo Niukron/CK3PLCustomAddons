@@ -896,7 +896,7 @@
 
  HAS_ROYAL_COURT:0 "Have a Royal Court"
  NOT_HAS_ROYAL_COURT:0 "Doesn't have a Royal Court"
- YOU_THEY_HAS_ROYAL_COURT:0 "[CHARACTER.GetShortUIName|U] [LocalPlayerString(CHARACTER, 'have', 'has')] have a Royal Court"
+ YOU_THEY_HAS_ROYAL_COURT:0 "[CHARACTER.GetShortUIName|U] [CHARACTER.LocalPlayerString('have', 'has')] a Royal Court"
  NOT_YOU_THEY_HAS_ROYAL_COURT:0 "[CHARACTER.GetShortUIName|U] don't have a Royal Court"
  ENGAGED_IN_SINGLE_COMBAT:0 "You are currently in a [single_combat_duel|E]"
  HAS_PENDING_COURT_EVENTS_FIRST:0 "You have pending [court_events|E]"

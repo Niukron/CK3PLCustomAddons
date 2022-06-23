@@ -31,6 +31,8 @@
  fp2_bg_interaction.winner.recipient:1 "If [Select_CString( recipient.IsLocalPlayer, 'you win', 'your opponent wins' )] the wager"
  fp2_bg_recipient_banned_from_board_games:1 "[character|E] cannot currently play a board game"
  challenge_to_2p_chess_interaction.need_bordering_non_capital_domains.tt:1 "You and your opponent must have bordering [domains|E] that are not your [realm_capitals|E]"
+ bet_gold_actor_not_enough_gold:0 "You do not have enough [gold|E]"
+ bet_gold_recipient_not_enough_gold:0 "Your opponent do not have enough [gold|E]"
 
  BG_OPINION_OWN_SKILL_ASSESSMENT:1 "My Skill: $VALUE|=+0$"
  BG_OPINION_STAKES_ARE_LOW:1 "Low stakes: $VALUE|=+0$"

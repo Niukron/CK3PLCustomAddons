@@ -19,7 +19,7 @@
  fp2_struggle.1001.b.tt: "Your faith does not approve of women with children out of wedlock."
  fp2_struggle.1001.c: "They can come stay at my court! We have food in abundance!"
  fp2_struggle.1001.c.tt: "You invite all poor single mothers in your realm to stay at your court."
- fp2_struggle.1001.d: "Surely, my benevolent vassals can help funding this."
+ fp2_struggle.1001.d: "Surely, my benevolent vassals can help fund this."
  fp2_struggle.1001.e: "I am your [ROOT.Char.GetTitleTierName], not a wet nurse!"
  fp2_struggle.1001.specialdescpositive: "Vassals who are happy to pay gain #positive_value 10#! #color_light_blue Opinion#! of you"
  fp2_struggle.1001.specialdescnegative: "Vassals who are not happy to pay lose #negative_value 10#! #color_light_blue Opinion#! of you"

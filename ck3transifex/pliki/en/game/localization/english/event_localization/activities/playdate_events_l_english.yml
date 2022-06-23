@@ -118,7 +118,7 @@
  playdate.3011.a: "Only if we are the parents!"
  playdate.3011.b: "Sure. And [disliked_participant.GetFirstNameNoTooltip] is the dog!"
  playdate.3011.c: "No, that's silly. Let's play chess."
- playdate.3011.c.tt: "You further your studies in the art of [ROOT.Char.Custom('education_focus_child')]"
+ playdate.3011.c.tt: "You further your studies in the art of [THIS.Char.Custom('education_focus_child')]"
  playdate.3012.t: "$playdate_header$ Brave $knight_culture_player_plural_no_tooltip$"
  playdate.3012.desc_knight: "[participant.Custom2('MyCharacterIntroduction', ROOT.Char)|U] and I are watching the $knight_culture_player_plural_no_tooltip_lowercase$ train in the courtyard when [knight.Custom2('MyCharacterIntroduction', ROOT.Char)] approach us with a smile."
  playdate.3012.desc_no_knight: "[participant.Custom2('MyCharacterIntroduction', ROOT.Char)|U] and I are watching some peasants train when one of them approach us with a smile."

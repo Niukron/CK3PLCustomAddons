@@ -8,3 +8,7 @@
  ANY_OF_CHARACTERS_VASSALS_PERCENT: "$PARAMETERS$ of [CHARACTER.GetShortUINamePossessive] [vassals|E]:"
  ANY_OF_CHARACTERS_VASSALS_COUNT: "$PARAMETERS$ of [CHARACTER.GetShortUINamePossessive] [vassals|E]:"
  ANY_DYNASTY_MEMBER_COUNT: "$PARAMETERS$ members of the [DYNASTY.GetBaseName] [dynasty|E]:"
+ ANY_IN_DE_JURE_ALL_GLOBAL: "Any de jure [titles|E]"
+ NOT_ANY_IN_DE_JURE_ALL_GLOBAL: "Non de jure [titles|E]"
+ ANY_IN_DE_JURE_ALL_THIRD: "Any de jure [titles|E] of [TITLE.GetName]"
+ NOT_ANY_IN_DE_JURE_ALL_THIRD: "Non de jure [titles|E] of [TITLE.GetName]"

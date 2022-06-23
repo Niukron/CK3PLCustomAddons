@@ -100,7 +100,7 @@
  hold_court.8040.c.religion: ""
  hold_court.8040.c.faith: ""
  hold_court.8040.c.tt_accept: ""
- hold_court.8040.c.tt_refuse: ""
+ hold_court.8040.c.tt_refuse: "[infidel_vassal.GetTitledFirstNameNoTooltip] odmawia nawrócenia się"
  hold_court.8040.d: ""
  demand_conversion_tt: ""
  hold_court.8050.t: ""

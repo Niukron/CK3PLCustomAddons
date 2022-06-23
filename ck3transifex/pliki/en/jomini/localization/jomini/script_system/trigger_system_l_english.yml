@@ -1,4 +1,4 @@
-﻿﻿l_english:
+﻿l_english:
  TRIGGER_LINE_ACTIVE_PASSED: "@trigger_pass! $TEXT$"
  TRIGGER_LINE_ACTIVE_FAILED: "@trigger_fail! $TEXT$"
  TRIGGER_LINE_ACTIVE_UNDEFINED: "  •  $TEXT$"

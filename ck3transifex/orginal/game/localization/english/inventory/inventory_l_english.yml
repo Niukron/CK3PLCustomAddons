@@ -86,11 +86,11 @@
  artifact_philosophers_stone:0 "Philosopher's Stone"
  
  artifact_sword:1 "sword"
- artifact_axe:1 "$axe$"
- artifact_spear:1 "$spear$"
- artifact_hammer:1 "$hammer$"
- artifact_dagger:1 "$dagger$"
- artifact_mace:1 "$mace$"
+ artifact_axe:2 "axe"
+ artifact_spear:2 "spear"
+ artifact_hammer:2 "hammer"
+ artifact_dagger:2 "dagger"
+ artifact_mace:2 "mace"
  
  artifact_armor_mail:0 "$armor$"
  artifact_armor_plate:0 "$armor$"

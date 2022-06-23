@@ -470,7 +470,7 @@
  morin_khuur_ornament_description: ""
  animal_ring_name: "Jaskrawy pierścień z tygrysem"
  animal_ring_description: ""
- ostrich_shell_necklace_name: "Naszyjnik z koralików z muszli strusia"
+ ostrich_shell_necklace_name: "Naszyjnik ze skorupek strusich jaj"
  ostrich_shell_necklace_description: "Delikatna biżuteria w odcieniu brylantowej bieli. [owner.GetTitledFirstNameNoTooltip] otrzymał[Select_CString( owner.IsFemale, 'a', '' )] go od [inspiration_owner.GetTitledFirstNameNoTooltip] podczas [inspiration_owner.GetHerHis] wyprawy."
  pilgrimage_figurine_name: "Figurka św. Wardana z kości mątwiej"
  pilgrimage_figurine_description: ""

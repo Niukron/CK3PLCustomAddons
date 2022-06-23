@@ -34,3 +34,5 @@
  NOT_HAS_SPECIAL_BUILDING_TRIGGER_GLOBAL: "Does #bold not#! have a [special_building|E]"
  HAS_SPECIAL_BUILDING_TRIGGER_THIRD: "[PROVINCE.GetName] has a [special_building|E]"
  NOT_HAS_SPECIAL_BUILDING_TRIGGER_THIRD: "[PROVINCE.GetName] does not have a [special_building|E]"
+ HAS_HOLDING_DESC: "[PROVINCE.GetName] contains a [holding|E]"
+ NOT_HAS_HOLDING_DESC: "[PROVINCE.GetName] does #bold not#! contain a [holding|E]"

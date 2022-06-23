@@ -540,6 +540,14 @@
  holy_site_sennar_effect_name:0 "From [holy_site|E] #weak ($holy_site_sennar_name$)#!"
 
  
+ holy_site_tenerife_name:0 "Mount Teide"
+ holy_site_tenerife_effect_name:0 "From [holy_site|E] #weak ($holy_site_tenerife_name$)#!"
+ holy_site_madiera_name:0 "Madeira"
+ holy_site_madiera_effect_name:0 "From [holy_site|E] #weak ($holy_site_madiera_name$)#!"
+ holy_site_cartagena_name:0 "Cartagena"
+ holy_site_cartagena_effect_name:0 "From [holy_site|E] #weak ($holy_site_cartagena_name$)#!"
+
+ 
  holy_site_danakil_name:0 "Danakil"
  holy_site_danakil_effect_name:0 "From [holy_site|E] #weak ($holy_site_danakil_name$)#!"
  holy_site_kaffa_name:0 "Kaffa"
@@ -842,6 +850,9 @@
  unreformed_faith_doctrine_desc:1 "An Unreformed Faith lacks an organized clergy and established canonical doctrines; different communities can nominally follow the same faith while having wildly different religious practices and beliefs."
  doctrine_parameter_unreformed:1 "Prevents Tribal [rulers|E] from changing [government|E] type \n$EFFECT_LIST_BULLET$Grants the [unreformed_pagan_combat_bonus|E]"
  doctrine_parameter_hostility_override_tenet_unreformed_syncretism:2 "Non-Pagan [faiths|E] with the $tenet_unreformed_syncretism_name$ tenet are considered [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] instead of $hostility_evil_tooltippable$"
+
+ west_african_unreformed_faith_doctrine_name:0 "$unreformed_faith_doctrine_name$"
+ west_african_unreformed_faith_doctrine_desc:0 "$unreformed_faith_doctrine_desc$"
  
  heresy_hostility_name:0 "View on Heresy"
  heresy_hostility_doctrine_name:0 "Heresy"

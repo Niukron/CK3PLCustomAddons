@@ -140,6 +140,7 @@
 
  HEADER_PARADOX_INTERACTIVE:1 "#credits_header PARADOX INTERACTIVE#!"
  HEADER_MANAGEMENT:1 "#credits_header MANAGEMENT#!"
+ TITLE_BUSINESS_OWNER:0 "#credits_subheader Business Owner#!"
  TITLE_CHIEF_EXECUTIVE_OFFICER:1 "#credits_subheader Chief Executive Officer#!"
  TITLE_CHIEF_FINANCIAL_OFFICER:1 "#credits_subheader Chief Finance Officer#!"
  TITLE_CHIEF_OPERATIONS_OFFICER:1 "#credits_subheader Chief Operations Officer#!"

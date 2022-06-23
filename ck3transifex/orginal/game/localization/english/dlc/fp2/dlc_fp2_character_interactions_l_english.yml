@@ -103,8 +103,8 @@
 
  invite_foreign_ruler_to:0 "Invite To Activity"
  invite_foreign_ruler_to_desc:1 "Invite a [ruler|E] from another [realm|E] to join you in a feast or a hunt"
- invite_foreign_ruler_to.feast.tooltip:0 "You start a $host_feast_decision$ with [recipient.GetTitledFirstName] as a special guest"
- invite_foreign_ruler_to.hunt.tooltip:0 "You start a $start_hunt_decision$ with [recipient.GetTitledFirstName] as a special guest"
+ invite_foreign_ruler_to.feast.tooltip:0 "You start a [feast|E] with [recipient.GetTitledFirstName] as a special guest"
+ invite_foreign_ruler_to.hunt.tooltip:0 "You call a [hunt|E] with [recipient.GetTitledFirstName] as a special guest"
  INVITE_FOREIGN_RULER_TO_NOTIFICATION:0 "You and I should be friends! Please, accept my invitation to partake in a relaxing activity."
  invited_to_hunt.accept.actor.tt:0 "[recipient.GetTitledFirstName] accepted your invitation to join your hunt"
  invited_to_feast.accept.actor.tt:0 "[recipient.GetTitledFirstName] accepted your invitation to join your feast"
@@ -123,3 +123,5 @@
  request_contract_assistance_interaction_desc:0 "Offer to join one of your [war|E] to this [struggle_involved|E] [ruler|E] in exchange for [gold|E]."
  request_contract_assistance_interaction_notification:0 "Your troops could be very useful in my conflict; we need only agree a price."
  request_contract_assistance_interaction_condition_tt:0 "If [recipient.GetShortUINamePossessive] [war_contribution|E] is at least [SCOPE.ScriptValue('offer_assistance_interaction_war_contribution_value')|Z0] when the [war|E] ends:"
+
+ share_known_secrets_interaction_extra_icon:0 "$hook_extra_icon$"

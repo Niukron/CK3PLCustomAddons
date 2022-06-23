@@ -84,6 +84,7 @@
  WAR_WITH_ALLY_REASON: "War on another Ally: $VALUE|=+0$"
  WONT_FIGHT_HEIR_REASON: "Will not fight Heir: $VALUE|=+0$"
  WONT_FIGHT_SPOUSE_REASON: "Will not fight Spouse: $VALUE|=+0$"
+ WONT_FIGHT_MEANINGLESS_REASON: "Won't partake in meaningless conflict: $VALUE|=+0$"
  NO_CHARACTERS_TO_SELECT: "#weak No valid Characters found#!"
  NO_VASSALS_TO_DISPLAY: "You have no [vassals|E]"
  ALREADY_AT_WAR: "Already at [war|E]: $VALUE|=+0$"

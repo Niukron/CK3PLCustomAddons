@@ -321,6 +321,8 @@
  nick_the_hairy:0 "the Hairy"
  nick_the_child:0 "the Child"
  nick_the_wake:0 "the Wake"
+ nick_the_bearded:0 "the Bearded"
+ nick_the_mountain_dweller:0 "the Mountain-Dweller"
  
  
  nick_king_of_fashion:0 "the [CHARACTER.GetTitleAsNameNoTooltip] of Fashion"
@@ -339,13 +341,8 @@
  nick_the_stud:0 "the Stud"
 
  
- nick_the_bearded:0 "the Bearded"
-
- 
  nick_the_bell_keeper:0 "the Bell-Keeper"
  nick_the_requiem:0 "the Requiem"
-
- 
  nick_the_King_of_Thieves:0 "the King of Thieves"
  nick_the_Queen_of_Thieves:0 "the Queen of Thieves"
  nick_the_Thief_Slayer:0 "the Thief-Slayer"
@@ -353,5 +350,5 @@
  nick_the_flightless:0 "The Flightless"
  nick_the_cid_campeador:0 "El Cid Campeador"
  nick_benavert:0 "Benavert"
- nick_the_pragmatic:0 "The Pragmatic"
- nick_the_equitable:0 "The Equitable"
+ nick_the_pragmatic:1 "the Pragmatic"
+ nick_the_equitable:1 "the Equitable"

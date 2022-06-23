@@ -385,7 +385,7 @@
  msg_player_new_observer_tt: "$msg_player_new_observer_desc$"
  msg_struggle_phase_end: "$STRUGGLE_PHASE$ Phase Is In Transition"
  msg_struggle_phase_end_desc: "@$STRUGGLE_PHASE_ICON$! $STRUGGLE_PHASE$ is transitioning into @$STRUGGLE_PHASE_ICON_NEXT$! $STRUGGLE_PHASE_NEXT$.\n\n $STRUGGLE_PHASE_NEXT$ will start in $DAYS_UNTIL_TRANSITION$ days."
- msg_struggle_phase_end_tt: "$msg_struggle_phase_transitioned_desc$"
+ msg_struggle_phase_end_tt: "$msg_struggle_phase_transitioned_tt$"
  msg_struggle_phase_transitioned: "Phase Transitioned"
  msg_struggle_phase_transitioned_desc: "The $STRUGGLE_NAME$ has transitioned to @$STRUGGLE_PHASE_ICON$! $STRUGGLE_PHASE$."
  msg_struggle_phase_transitioned_tt: "$msg_struggle_phase_transitioned_desc$"
