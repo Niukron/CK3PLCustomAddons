@@ -4138,3 +4138,32 @@ InspirationAdventureDestinationGenitive = {
 	parent = InspirationAdventureDestination
 	suffix = "_genitive"
 }
+
+#v1.6.1 
+ArtifactFlowerSpeciesGender = {
+	type = character
+
+	text = {
+		trigger = {
+			OR = {
+				scope:flower_species = flag:flower_type_orchid
+				scope:flower_species = flag:flower_type_rose
+				scope:flower_species = flag:flower_type_foxglove
+				scope:flower_species = flag:flower_type_geranium
+				scope:flower_species = flag:flower_type_lily
+				scope:flower_species = flag:flower_type_lavender
+				scope:flower_species = flag:flower_type_peony
+				scope:flower_species = flag:flower_type_delphinium
+				scope:flower_species = flag:flower_type_chrysanthemum
+				scope:flower_species = flag:flower_type_gardenia
+			}
+		}
+		localization_key = ArtifactFlowerSpecies_z
+	}
+
+	text = {
+		localization_key = ArtifactFlowerSpecies_m
+		fallback = yes
+	}
+
+}

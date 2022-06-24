@@ -2511,3 +2511,6 @@
  adventure_inspiration_world_steppe_west_genitive:0 "$world_steppe_west_genitive$"
  adventure_inspiration_world_steppe_east_genitive:0 "$world_steppe_east_genitive$"
  
+ #ArtifactFlowerSpeciesGender
+ ArtifactFlowerSpecies_m:0 "m"
+ ArtifactFlowerSpecies_z:0 "z"
