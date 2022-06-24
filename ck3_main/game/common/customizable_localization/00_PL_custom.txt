@@ -291,6 +291,12 @@ religion_name_adj_feminine_accusative = {
 	}
 	text = {
 		trigger = {
+			religion_tag = north_african_religion
+		}
+		localization_key = north_african_religion_adj_feminine_accusative
+	}
+	text = {
+		trigger = {
 			religion_tag = baltic_religion
 		}
 		localization_key = baltic_religion_adj_feminine_accusative
@@ -2449,6 +2455,16 @@ PositiveAfterLifeBase = {
 		localization_key = christianity_positive_afterlife
 	}
 
+    #north african
+    text = {
+		trigger = {
+			
+				religion_tag = north_african_religion
+			}
+		
+		localization_key = acham_positive_afterlife
+	}
+
     #tani
     text = {
 		trigger = {
@@ -2789,6 +2805,16 @@ NegativeAfterLifeBase = {
 			}
 		
 		localization_key = christianity_negative_afterlife
+	}
+
+    #north african
+    text = {
+		trigger = {
+			
+				religion_tag = north_african_religion
+			}
+		
+		localization_key = acham_negative_afterlife
 	}
 
     #dualism
