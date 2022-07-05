@@ -2548,3 +2548,11 @@
  pet_name_spring_blossom_precious:0 "drogocenny kwiatuszku"
  pet_name_petal_precious:0 "drogocenny płateczku"
  pet_name_honeycomb_precious:0 "słodka pszczółko"
+ 
+ #GetExpensiveMealBier
+ expensive_food_roast_swan_bier:0 "pieczonego łabędzia"
+ expensive_food_veal_cutlets_bier:0 "bitki cielęce"
+ expensive_food_fresh_quail_bier:0 "świeżą przepiórkę"
+ expensive_food_baked_truffles_bier:0 "pieczone trufle"
+ expensive_food_spiced_breads_bier:0 "pieczywo z przyprawami"
+ expensive_food_mustard_rolls_bier:0 "bułeczki musztardowe"
