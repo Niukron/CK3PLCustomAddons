@@ -4315,6 +4315,6 @@ GetExpensiveMeal = {
 
 #v1.6.1 
 GetExpensiveMealBier = {
-	parent = ArtifactArticleWealth
+	parent = GetExpensiveMeal
 	suffix = "_bier"
 }
