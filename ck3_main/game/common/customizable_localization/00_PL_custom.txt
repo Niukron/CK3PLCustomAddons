@@ -4318,3 +4318,49 @@ GetExpensiveMealBier = {
 	parent = GetExpensiveMeal
 	suffix = "_bier"
 }
+
+#v1.6.1 - original
+InspirationSmithType = {
+	type = character
+
+	text = { #
+		trigger = {
+			var:artifact_smith_type = flag:smith_type_brooch
+		}
+		localization_key = inspiration_smith_type_brooch
+	}
+
+	text = { #
+		trigger = {
+			var:artifact_smith_type = flag:smith_type_regalia
+		}
+		localization_key = inspiration_smith_type_regalia
+	}
+
+	text = { #
+		trigger = {
+			var:artifact_smith_type = flag:smith_type_crown
+		}
+		localization_key = inspiration_smith_type_crown
+	}
+
+	text = { #
+		trigger = {
+			var:artifact_smith_type = flag:smith_type_goblet
+		}
+		localization_key = inspiration_smith_type_goblet
+	}
+
+	text = { #
+		trigger = {
+			var:artifact_smith_type = flag:smith_type_aquamanile
+		}
+		localization_key = inspiration_smith_type_aquamanile
+	}
+}
+
+#v1.6.1 
+InspirationSmithTypeBier = {
+	parent = InspirationSmithType
+	suffix = "_bier"
+}
