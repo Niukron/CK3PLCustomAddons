@@ -2696,6 +2696,14 @@
  expensive_food_spiced_breads_bier:0 "pieczywo z przyprawami"
  expensive_food_mustard_rolls_bier:0 "bułeczki musztardowe"
 
+ #GetExpensiveMealDop
+ expensive_food_roast_swan_dop:0 "pieczonego łabędzia"
+ expensive_food_veal_cutlets_dop:0 "bitek cielęcych"
+ expensive_food_fresh_quail_dop:0 "świeżej przepiórki"
+ expensive_food_baked_truffles_dop:0 "pieczonych trufli"
+ expensive_food_spiced_breads_dop:0 "pieczywa z przyprawami"
+ expensive_food_mustard_rolls_dop:0 "bułeczek musztardowych"
+
  #GetDisabilityIns
  trait_dwarf_ins:0 "karłowatym"
  trait_giant_ins:0 "olbrzymim"

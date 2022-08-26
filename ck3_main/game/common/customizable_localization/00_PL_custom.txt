@@ -4549,6 +4549,12 @@ GetExpensiveMealBier = {
 	suffix = "_bier"
 }
 
+#v1.6.1 
+GetExpensiveMealDop = {
+	parent = GetExpensiveMeal
+	suffix = "_dop"
+}
+
 #v1.6.1 - original
 GetDisability = { #Disability: to call on health effects
 	type = character
