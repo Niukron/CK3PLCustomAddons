@@ -2703,6 +2703,10 @@
  expensive_food_baked_truffles_dop:0 "pieczonych trufli"
  expensive_food_spiced_breads_dop:0 "pieczywa z przyprawami"
  expensive_food_mustard_rolls_dop:0 "bułeczek musztardowych"
+ 
+ expensive_food_fine_cheeses_dop:0 "dobrych serów"
+ expensive_food_almond_eggs_dop:0 "jajek z migdałami"
+ expensive_food_sturgeon_caviar_dop:0 "kawioru z jesiotra"
 
  #GetDisabilityIns
  trait_dwarf_ins:0 "karłowatym"
