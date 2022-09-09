@@ -7,7 +7,7 @@
  relation_great_grandmother_possessive:0 "prababci"
  relation_great_grandfather_possessive:0 "pradziadka"
  
- #RelationToMeAccusative - v1.5
+ #RelationToMeAccusative - v1.7
  relation_motherwife_accusative:0 "matkę-żonę"
  relation_mother_concubine_accusative:0 "matkę-konkubinę"
  relation_sisterwife_accusative:0 "siostrę-żonę"
@@ -160,7 +160,7 @@
  relation_old_foe_male_accusative:0 "dawnego przeciwnika"
 
 
- #Vocative - RelationToMeVocative - v1.5
+ #Vocative - RelationToMeVocative - v1.7
  relation_motherwife_vocative:0 "matko-żono"
  relation_mother_concubine_vocative:0 "matko-konkubino"
  relation_sisterwife_vocative:0 "siostro-żono"
@@ -313,7 +313,7 @@
  relation_old_foe_male_vocative:0 "dawny przeciwniku"
 
 
- #Locative - RelationToMeLocative - v1.5
+ #Locative - RelationToMeLocative - v1.7
  relation_motherwife_locative:0 "matce-żonie"
  relation_mother_concubine_locative:0 "matce-konkubinie"
  relation_sisterwife_locative:0 "siostrze-żonie"
@@ -465,7 +465,7 @@
  relation_old_foe_female_locative:0 "dawnej przeciwniczce"
  relation_old_foe_male_locative:0 "dawnym przeciwniku"
 
- #Dative - RelationToMeDative - v1.5
+ #Dative - RelationToMeDative - v1.7
  relation_motherwife_dative:0 "matce-żonie"
  relation_mother_concubine_dative:0 "matce-konkubinie"
  relation_sisterwife_dative:0 "siostrze-żonie"
@@ -617,7 +617,7 @@
  relation_old_foe_female_dative:0 "dawnej przeciwniczce"
  relation_old_foe_male_dative:0 "dawnemu przeciwnikowi"
 
- #Narzednik - RelationToMeInstrumental - v1.5
+ #Narzednik - RelationToMeInstrumental - v1.7
  relation_motherwife_instrumental:0 "matką-żoną"
  relation_mother_concubine_instrumental:0 "matka-konkubiną"
  relation_sisterwife_instrumental:0 "siostrą-żoną"
@@ -769,7 +769,7 @@
  relation_old_foe_female_instrumental:0 "dawną przeciwniczką"
  relation_old_foe_male_instrumental:0 "dawnym przeciwnikiem"
 
- #MySheHe - v1.5
+ #MySheHe - v1.7
  relation_motherwife_my:0 "moja"
  relation_mother_concubine_my:0 "moja"
  relation_sisterwife_my:0 "moja"
@@ -921,7 +921,7 @@
  relation_old_foe_female_my:0 "moja"
  relation_old_foe_male_my:0 "mój"
 
- #MySheHeGenitive - v1.5
+ #MySheHeGenitive - v1.7
  relation_motherwife_my_genitive:0 "mojej"
  relation_mother_concubine_my_genitive:0 "mojej"
  relation_sisterwife_my_genitive:0 "mojej"
@@ -1073,7 +1073,7 @@
  relation_old_foe_female_my_genitive:0 "mojej"
  relation_old_foe_male_my_genitive:0 "mojego"
 
- #MySheHeLocative - v1.5
+ #MySheHeLocative - v1.7
  relation_motherwife_my_locative:0 "mojej"
  relation_mother_concubine_my_locative:0 "mojej"
  relation_sisterwife_my_locative:0 "mojej"
@@ -1225,7 +1225,7 @@
  relation_old_foe_female_my_locative:0 "mojej"
  relation_old_foe_male_my_locative:0 "moim"
 
- #YourSheHe - v1.5
+ #YourSheHe - v1.7
  relation_motherwife_your:0 "twoja"
  relation_mother_concubine_your:0 "twoja"
  relation_sisterwife_your:0 "twoja"
