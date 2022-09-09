@@ -156,6 +156,8 @@
  relation_guest_male_accusative:0 "gościa"
  relation_acquaintance_female_accusative:0 "znajomą"
  relation_acquaintance_male_accusative:0 "znajomego"
+ relation_old_foe_female_accusative:0 "dawną przeciwniczkę"
+ relation_old_foe_male_accusative:0 "dawnego przeciwnika"
 
 
  #Vocative - RelationToMeVocative - v1.5
@@ -307,6 +309,9 @@
  relation_guest_male_vocative:0 "gościu"
  relation_acquaintance_female_vocative:0 "znajoma"
  relation_acquaintance_male_vocative:0 "znajomy"
+ relation_old_foe_female_vocative:0 "dawna przeciwniczko"
+ relation_old_foe_male_vocative:0 "dawny przeciwniku"
+
 
  #Locative - RelationToMeLocative - v1.5
  relation_motherwife_locative:0 "matce-żonie"
@@ -457,6 +462,8 @@
  relation_guest_male_locative:0 "gościu"
  relation_acquaintance_female_locative:0 "znajomej"
  relation_acquaintance_male_locative:0 "znajomym"
+ relation_old_foe_female_locative:0 "dawnej przeciwniczce"
+ relation_old_foe_male_locative:0 "dawnym przeciwniku"
 
  #Dative - RelationToMeDative - v1.5
  relation_motherwife_dative:0 "matce-żonie"
@@ -607,6 +614,8 @@
  relation_guest_male_dative:0 "gościowi"
  relation_acquaintance_female_dative:0 "znajomej"
  relation_acquaintance_male_dative:0 "znajomemu"
+ relation_old_foe_female_dative:0 "dawnej przeciwniczce"
+ relation_old_foe_male_dative:0 "dawnemu przeciwnikowi"
 
  #Narzednik - RelationToMeInstrumental - v1.5
  relation_motherwife_instrumental:0 "matką-żoną"
@@ -757,6 +766,8 @@
  relation_guest_male_instrumental:0 "gościem"
  relation_acquaintance_female_instrumental:0 "znajomą"
  relation_acquaintance_male_instrumental:0 "znajomym"
+ relation_old_foe_female_instrumental:0 "dawną przeciwniczką"
+ relation_old_foe_male_instrumental:0 "dawnym przeciwnikiem"
 
  #MySheHe - v1.5
  relation_motherwife_my:0 "moja"
@@ -907,6 +918,8 @@
  relation_guest_male_my:0 "mój"
  relation_acquaintance_female_my:0 "moja"
  relation_acquaintance_male_my:0 "mój"
+ relation_old_foe_female_my:0 "moja"
+ relation_old_foe_male_my:0 "mój"
 
  #MySheHeGenitive - v1.5
  relation_motherwife_my_genitive:0 "mojej"
@@ -1057,6 +1070,8 @@
  relation_guest_male_my_genitive:0 "mojego"
  relation_acquaintance_female_my_genitive:0 "mojej"
  relation_acquaintance_male_my_genitive:0 "mojego"
+ relation_old_foe_female_my_genitive:0 "mojej"
+ relation_old_foe_male_my_genitive:0 "mojego"
 
  #MySheHeLocative - v1.5
  relation_motherwife_my_locative:0 "mojej"
@@ -1207,6 +1222,8 @@
  relation_guest_male_my_locative:0 "moim"
  relation_acquaintance_female_my_locative:0 "mojej"
  relation_acquaintance_male_my_locative:0 "moim"
+ relation_old_foe_female_my_locative:0 "mojej"
+ relation_old_foe_male_my_locative:0 "moim"
 
  #YourSheHe - v1.5
  relation_motherwife_your:0 "twoja"
@@ -1357,4 +1374,6 @@
  relation_guest_male_your:0 "twój"
  relation_acquaintance_female_your:0 "twoja"
  relation_acquaintance_male_your:0 "twój"
+ relation_old_foe_female_your:0 "twoja"
+ relation_old_foe_male_your:0 "twój"
  
