@@ -199,6 +199,10 @@
  relation_host_female_possessive:0 "host's"
  relation_peasant_affair_female:0 "one-time... #EMP acquaintance#!"
  relation_peasant_affair_male:0 "one-time... #EMP acquaintance#!"
+ relation_old_foe_female:0 "old foe"
+ relation_old_foe_male:0 "old foe"
+ relation_old_foe_female_possessive:0 "old foe's"
+ relation_old_foe_male_possessive:0 "old foe's"
  relation_acquaintance_female:1 "acquaintance" 
  relation_acquaintance_male:1 "acquaintance" 
  relation_count:0 "count"
@@ -420,6 +424,13 @@
  oaf:0 "#D Oaf (Hidden)#!"
  soldier_friend:0 "#D Soldier-Friend (Hidden)#!"
 
+ friend_desc:0 "This is [CHARACTER.GetShortUINamePossessiveNoTooltip] [friend|E]"
+ best_friend_desc:0 "This is [CHARACTER.GetShortUINamePossessiveNoTooltip] [best_friend|E]"
+ rival_desc:0 "This is [CHARACTER.GetShortUINamePossessiveNoTooltip] [rival|E]"
+ nemesis_desc:0 "This is [CHARACTER.GetShortUINamePossessiveNoTooltip] [nemesis|E]"
+ lover_desc:0 "This is [CHARACTER.GetShortUINamePossessiveNoTooltip] [lover|E]"
+ soulmate_desc:0 "This is [CHARACTER.GetShortUINamePossessiveNoTooltip] [soulmate|E]"
+ 
  
  FRAME_RELATION_ME:1 "#T This is you#!"
  FRAME_RELATION_MY_HEIR:2 "#T This is your [player_heir|E]#!"
@@ -479,3 +490,10 @@
  lad:0 "lad"
 
  my:0 "my"
+
+
+ relation_chum:0 "chum"
+ relation_pal:0 "pal"
+ relation_mucker:0 "mucker"
+ relation_habibi:0 "habibi"
+ relation_habiba:0 "habiba"

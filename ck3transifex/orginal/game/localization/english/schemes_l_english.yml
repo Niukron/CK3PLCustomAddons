@@ -57,7 +57,7 @@
  learn_language_invalidated:0 "$learn_language$ Invalidated"
  learn_language_invalidated_dead_desc:0 "[target.GetShortUIName|U] has passed away. You can no longer use the $learn_language$ on [target.GetHerHim]."
  learn_language_complete:1 "You have learned [target.GetShortUINamePossessiveNoTooltip] [target.GetCulture.GetLanguage.GetName] [language|E]"
- learn_language_invalidated_title:0 "@scheme_icon! $learn_language$ Ends"
+ learn_language_invalidated_title:1 "$learn_language$ Ends"
  LEARN_LANGUAGE_SUCCESS_DESC:2 "You learn the [TARGET_CHARACTER.GetCulture.GetLanguage.GetName] [language|E]\n#weak Current [language_limit|E]: [CHARACTER.MakeScope.ScriptValue('current_extra_languages')|V0] out of [CHARACTER.MakeScope.ScriptValue('language_soft_cap')|V0]#!"
  scheme_target_same_language_as_existing_scheme:1 "You're already learning [TARGET_CHARACTER.GetCulture.GetLanguage.GetName]"
 
@@ -80,7 +80,7 @@
  scheme_interaction_tt_befriend_approved:1 "I will win the friendship of [recipient.GetShortUIName]!"
  befriend_already_friend:2 "[recipient.GetShortUIName] is already your friend"
  befriend_already_lover:2 "[TARGET_CHARACTER.GetShortUIName|U] is already in love with you"
- befriend_invalidated_title:0 "@scheme_icon! Befriend Scheme Ends"
+ befriend_invalidated_title:1 "@personal_scheme_icon! Befriend Scheme Ends"
  befriend_invalid:1 "I stop trying to befriend [target.GetShortUIName|U] as we can no longer become [friends|E]"
 
  seduce:1 "Seduce"
@@ -92,7 +92,7 @@
  scheme_interaction_tt_wrong_gender_stress:1 "Seducing a [recipient.GetWomanMan] will cause you [stress|E]"
  scheme_interaction_tt_wrong_gender_no_lover:1 "[recipient.GetShortUIName] and you will not become lovers"
  seduce_invalid:1 "I stop trying to seduce [target.GetShortUIName|U] as we can no longer become [lovers|E]."
- seduce_invalidated_title:0 "@scheme_icon! Seduction Scheme Ends"
+ seduce_invalidated_title:1 "@personal_scheme_icon! Seduction Scheme Ends"
 
  courting:1 "Romance"
  courting_action:0 "Romance"
@@ -100,7 +100,7 @@
  courting_desc_general:2 "The Romance [scheme|E]is a type of [personal_scheme|E] where the [scheme_owner|E] seeks to improve their [prestige|E] and to potentially find a [soulmate|E] by choosing another character to court in a proper and noble fashion."
  scheme_interaction_tt_courtship_approved:1 "Attempt to romance [recipient.GetShortUINameNoTooltip], gaining [prestige|E], improving their [opinion|E] of you, and possibly becoming [soulmates|E]!"
  courting_invalid:1 "I stop trying to romance [target.GetShortUIName|U] as we can no longer become [soulmates|E]."
- court_scheme_invalidated_title:0 "@scheme_icon! Romance Scheme Ends"
+ court_scheme_invalidated_title:1 "@personal_scheme_icon! Romance Scheme Ends"
 
  sway:1 "Sway"
  sway_action:0 "Sway"
@@ -119,7 +119,7 @@
  sway_invalidated_war:1 "Due to the War between you, you can no longer $sway_action$ [target.GetShortUIName]"
  sway_invalidated_dead:1 "[target.GetShortUIName|U] has passed away. You can no longer $sway_action$ [target.GetHerHim]"
  sway_complete:2 "You have Swayed [target.GetShortUIName] as much as you can"
- sway_invalidated_title:0 "@scheme_icon! Sway Scheme Ends"
+ sway_invalidated_title:1 "@personal_scheme_icon! Sway Scheme Ends"
  YOU_SPEAK_THE_LANGUAGE:0 "You speak [target.GetCulture.GetLanguage.GetName]: $VALUE|=+0$"
 
  claim_throne:1 "Claim Throne"
@@ -186,7 +186,7 @@
  ELOPE_SUCCESS_DESC:0 "[TARGET_CHARACTER.GetShortUIName|U] joins your Court and you get married"
  ELOPE_SUCCESS_TARGETS_LIEGE_KNOWS_ABOUT_RELATIONSHIP:0 "Relationship is known to [target.GetLiege.GetShortUIName]: $VALUE|=+0$"
  elope_interaction_desc:0 "Attempt to Elope with [recipient.GetShortUINameNoTooltip] to [marry|E] in secret"
- elope_scheme_invalidated_title:0 "@scheme_icon! Elope Scheme Ends"
+ elope_scheme_invalidated_title:1 "@personal_scheme_icon! Elope Scheme Ends"
  scheme_target_no_longer_courtier:0 "[TARGET_CHARACTER.GetShortUIName|U] has left the court of [CHARACTER.GetShortUIName]"
  scheme_target_no_longer_courtier_no_var:0 "[CHARACTER.GetShortUIName] is no longer a courtier"
  scheme_target_is_your_courtier:0 "[CHARACTER.GetShortUIName] is your courtier now"

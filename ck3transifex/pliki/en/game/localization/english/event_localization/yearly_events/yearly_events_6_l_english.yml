@@ -9,7 +9,7 @@
  yearly.9100.a.success: "I learned about gardening!"
  yearly.9100.a.failure: "Gardening is a waste of time!"
  yearly.9110.t: "The Flower Thief"
- yearly.9110.desc: "My gardener [gardener.GetTitledFirstName] storms into the council chambers and furiously approach my [romantic_councillor.GetCouncilTitle], [romantic_councillor.GetTitledFirstName].\n\n\"How #EMP dare#! you ruin the [ROOT.Char.GetTitleTierNamePossessive] garden?! By #EMP stealing#! rare and precious flowers no less!\"\n\n[romantic_councillor.GetFirstNameNoTooltip] is clearly unaffected by the gardener's temper. \"I thought they would make a perfect gift for my [councillor_spouse.GetWifeHusband]. Being a romantic is hardly a crime, is it?\""
+ yearly.9110.desc: "My gardener [gardener.GetTitledFirstName] storms into the council chambers and furiously approaches my [romantic_councillor.GetCouncilTitle], [romantic_councillor.GetTitledFirstName].\n\n\"How #EMP dare#! you ruin the [ROOT.Char.GetTitleTierNamePossessive] garden?! By #EMP stealing#! rare and precious flowers no less!\"\n\n[romantic_councillor.GetFirstNameNoTooltip] is clearly unaffected by the gardener's temper. \"I thought they would make a perfect gift for my [councillor_spouse.GetWifeHusband]. Being a romantic is hardly a crime, is it?\""
  yearly.9110.a: "But ruining my garden is. You'll pay for the damages. Now."
  yearly.9110.b: "You step out of line [gardener.GetFirstNameNoTooltip]!"
  yearly.9110.c: "Those flowers does make an excellent gift... For #EMP my#! [spouse.GetWifeHusband]."

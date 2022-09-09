@@ -109,7 +109,7 @@
  tribal.1203.desc_sabotaged_racer:0 "As I draw up beside [villain_racer.GetTitledFirstName], [villain_racer.GetSheHe] suddenly veers towards me, and in the same moment I hear my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('racer'))] [racer.GetTitledFirstName] scream in pain. I turn in my saddle to see [racer.GetHerHim] on the ground, bloody, [racer.GetHerHis] horse desperately fighting against the saddle that is no longer on its back, but hanging loose under its belly."
  tribal.1203.desc_sabotaged_villain:0 "Suddenly I hear my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('villain_racer'))] [villain_racer.GetTitledFirstName] scream in pain. I turn in my saddle to see [villain_racer.GetHerHim] on the ground, bloody, the broken remains of [villain_racer.GetHerHis] bridle in hand."
  tribal.1203.desc:0 "There is nothing like this! The wind, the sound of hoofbeats, the– As I draw up beside [villain_racer.GetTitledFirstName], [villain_racer.GetSheHe] suddenly veers towards me, almost throwing my horse off balance!"
- tribal.1203.a:0 "I must turn around and help [racer.GetHerHim]!"
+ tribal.1203.a:1 "I must turn around and help [villain_racer.GetHerHim]!"
  tribal.1203.b_nothing_sabotaged:0 "Just distractions."
  tribal.1203.b:0 "Great! Less competition."
  tribal.1203.b.tt:0 "You focus on the race"

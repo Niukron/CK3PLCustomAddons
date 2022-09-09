@@ -89,6 +89,13 @@
  set_relation_debug_best_friend:0 "#difficulty_easy Best Friend#!"
  set_relation_debug_nemesis:0 "#difficulty_hard Nemesis#!"
  set_relation_debug_soulmate:0 "#difficulty_medium Soulmate#!"
+ set_relation_debug_potential_friend:0 "#P #EMP Potential Friend#!#!"
+ set_relation_debug_potential_rival:0 "#N #EMP Potential Rival#!#!"
+ set_relation_debug_potential_lover:0 "#color_yellow #EMP Potential Lover#!#!"
+ set_relation_debug_crush:0 "Crush"
+ set_relation_debug_crush_on_me:0 "Crush (recipient crushes on you)"
+ set_relation_debug_bully:0 "Bully"
+ set_relation_debug_victim:0 "Victim"
 
  add_artifact_interaction:0 "Add Artifact to Inventory"
  add_artifact_interaction_weapon:0 "Weapon"

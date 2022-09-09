@@ -123,3 +123,14 @@
  destroyed_market_stall_modifier:0 "Destroyed Market Stall"
  destroyed_market_stall_modifier_desc:0 "A simple market stall was torn down by the authorities in this county."
 
+ stewardship_tax_exemption_modifier:0 "Merciful with Taxes"
+ stewardship_tax_exemption_modifier_desc:0 "This character has made sacrifices to keep the common folk from starving."
+
+ stewardship_tax_enforcement_modifier:0 "Infamous Administration"
+ stewardship_tax_enforcement_modifier_desc:0 "This character's tax enforcers are known to collect... despite any human cost."
+
+ stewardship_rampaging_knights_modifier:0 "Rampaging Knights"
+ stewardship_rampaging_knights_modifier_desc:0 " This character's enforcers eagerly assail villages and battlefields alike in search of advancement."
+
+ stewardship_stolen_taxes_modifier:0 "Stolen Taxes"
+ stewardship_stolen_taxes_modifier_desc:0 "Warriors from another realm have robbed the peasantry."

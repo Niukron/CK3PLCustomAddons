@@ -4,6 +4,7 @@
  sell_titles.0001.desc.normal: "It is not greater honors I seek, my [vassal.Custom2('RelationToMeShort', ROOT.Char)], but if you are in need of gold, I believe we could come to some arrangement."
  sell_titles.0001.a: "I need the money for the good of the realm, you see."
  sell_titles.0001.b: "This is not a haggle at a peasant's market!"
+ sell_titles.0002.opening: "[friend.Custom2('AppropriateGreetingPositive', ROOT.Char )]"
  sell_titles.0002.desc: "I have been told that you are offering titles in exchange for \"gifts.\"\n\nMy friend, if you needed gold you should have let me know!"
  sell_titles.0002.a: "You are a true friend, [friend.GetFirstNameNoTooltip]!"
  sell_titles.0002.b: "I cannot accept this."

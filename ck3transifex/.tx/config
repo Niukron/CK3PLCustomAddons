@@ -344,6 +344,13 @@ source_file = pliki/en/game/localization/english/map_items_l_english.yml
 source_lang = en
 type = YAML_GENERIC
 
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:memories_l_english]
+file_filter = pliki/<lang>/game/localization/english/memories_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/memories_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
 [o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:mercenaries_l_englishyml]
 file_filter = pliki/<lang>/game/localization/english/mercenaries_l_english.yml
 minimum_perc = 0
@@ -439,6 +446,13 @@ type = YAML_GENERIC
 file_filter = pliki/<lang>/game/localization/english/relations_l_english.yml
 minimum_perc = 0
 source_file = pliki/en/game/localization/english/relations_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:relationship_reasons_l_english]
+file_filter = pliki/<lang>/game/localization/english/relationship_reasons_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/relationship_reasons_l_english.yml
 source_lang = en
 type = YAML_GENERIC
 
@@ -827,6 +841,13 @@ source_file = pliki/en/game/localization/english/custom_localization/character_r
 source_lang = en
 type = YAML_GENERIC
 
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:colors_custom_loc_l_english]
+file_filter = pliki/<lang>/game/localization/english/custom_localization/colors_custom_loc_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/custom_localization/colors_custom_loc_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
 [o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:compliment_custom_loc_l_englishyml]
 file_filter = pliki/<lang>/game/localization/english/custom_localization/compliment_custom_loc_l_english.yml
 minimum_perc = 0
@@ -1084,6 +1105,76 @@ type = YAML_GENERIC
 file_filter = pliki/<lang>/game/localization/english/custom_localization/yearly_events_custom_loc_l_english.yml
 minimum_perc = 0
 source_file = pliki/en/game/localization/english/custom_localization/yearly_events_custom_loc_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:dlc_bp1_custom_loc_l_english]
+file_filter = pliki/<lang>/game/localization/english/dlc/bp1/dlc_bp1_custom_loc_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/bp1/dlc_bp1_custom_loc_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:dlc_bp1_filippa_yearly_events_l_english]
+file_filter = pliki/<lang>/game/localization/english/dlc/bp1/dlc_bp1_filippa_yearly_events_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/bp1/dlc_bp1_filippa_yearly_events_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:dlc_bp1_house_feud_story_l_english]
+file_filter = pliki/<lang>/game/localization/english/dlc/bp1/dlc_bp1_house_feud_story_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/bp1/dlc_bp1_house_feud_story_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:dlc_bp1_modifiers_chad_l_english]
+file_filter = pliki/<lang>/game/localization/english/dlc/bp1/dlc_bp1_modifiers_chad_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/bp1/dlc_bp1_modifiers_chad_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:dlc_bp1_modifiers_l_english]
+file_filter = pliki/<lang>/game/localization/english/dlc/bp1/dlc_bp1_modifiers_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/bp1/dlc_bp1_modifiers_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:dlc_bp1_oltner_yearly_events_l_english]
+file_filter = pliki/<lang>/game/localization/english/dlc/bp1/dlc_bp1_oltner_yearly_events_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/bp1/dlc_bp1_oltner_yearly_events_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:dlc_bp1_opinions_l_english]
+file_filter = pliki/<lang>/game/localization/english/dlc/bp1/dlc_bp1_opinions_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/bp1/dlc_bp1_opinions_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:dlc_bp1_pilgrimage_events_chad_l_english]
+file_filter = pliki/<lang>/game/localization/english/dlc/bp1/dlc_bp1_pilgrimage_events_chad_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/bp1/dlc_bp1_pilgrimage_events_chad_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:dlc_bp1_yearly_events_l_english]
+file_filter = pliki/<lang>/game/localization/english/dlc/bp1/dlc_bp1_yearly_events_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/bp1/dlc_bp1_yearly_events_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:dlc_bp1_yearly_events_nick_l_english]
+file_filter = pliki/<lang>/game/localization/english/dlc/bp1/dlc_bp1_yearly_events_nick_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/bp1/dlc_bp1_yearly_events_nick_l_english.yml
 source_lang = en
 type = YAML_GENERIC
 
@@ -1826,6 +1917,20 @@ type = YAML_GENERIC
 file_filter = pliki/<lang>/game/localization/english/event_localization/childhood/childhood_events_l_english.yml
 minimum_perc = 0
 source_file = pliki/en/game/localization/english/event_localization/childhood/childhood_events_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:childhood_events_oltner_l_english]
+file_filter = pliki/<lang>/game/localization/english/event_localization/childhood/childhood_events_oltner_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/event_localization/childhood/childhood_events_oltner_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:childhood_personality_events_2_l_english]
+file_filter = pliki/<lang>/game/localization/english/event_localization/childhood/childhood_personality_events_2_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/event_localization/childhood/childhood_personality_events_2_l_english.yml
 source_lang = en
 type = YAML_GENERIC
 
@@ -2914,6 +3019,41 @@ source_file = pliki/en/game/localization/english/event_localization/war_event/wa
 source_lang = en
 type = YAML_GENERIC
 
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:bp1_dan_yearly_l_english]
+file_filter = pliki/<lang>/game/localization/english/event_localization/yearly_events/bp1_dan_yearly_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/event_localization/yearly_events/bp1_dan_yearly_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:bp1_james_yearly_events_l_english]
+file_filter = pliki/<lang>/game/localization/english/event_localization/yearly_events/bp1_james_yearly_events_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/event_localization/yearly_events/bp1_james_yearly_events_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:bp1_yearly_events_chad_l_english]
+file_filter = pliki/<lang>/game/localization/english/event_localization/yearly_events/bp1_yearly_events_chad_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/event_localization/yearly_events/bp1_yearly_events_chad_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:bp1_yearly_events_claudia_l_english]
+file_filter = pliki/<lang>/game/localization/english/event_localization/yearly_events/bp1_yearly_events_claudia_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/event_localization/yearly_events/bp1_yearly_events_claudia_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:bp1_yearly_events_jason_l_english]
+file_filter = pliki/<lang>/game/localization/english/event_localization/yearly_events/bp1_yearly_events_jason_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/event_localization/yearly_events/bp1_yearly_events_jason_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
 [o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:varangian_events_l_englishyml]
 file_filter = pliki/<lang>/game/localization/english/event_localization/yearly_events/varangian_events_l_english.yml
 minimum_perc = 0
@@ -2981,6 +3121,13 @@ type = YAML_GENERIC
 file_filter = pliki/<lang>/game/localization/english/event_localization/yearly_events/yearly_events_sahara_l_english.yml
 minimum_perc = 0
 source_file = pliki/en/game/localization/english/event_localization/yearly_events/yearly_events_sahara_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:yearly_feud_l_english]
+file_filter = pliki/<lang>/game/localization/english/event_localization/yearly_events/yearly_feud_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/event_localization/yearly_events/yearly_feud_l_english.yml
 source_lang = en
 type = YAML_GENERIC
 
@@ -3320,6 +3467,13 @@ source_file = pliki/en/game/localization/english/gui/mapicons_l_english.yml
 source_lang = en
 type = YAML_GENERIC
 
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:memories_view_l_english]
+file_filter = pliki/<lang>/game/localization/english/gui/memories_view_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/gui/memories_view_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
 [o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:menatarmsview_l_englishyml]
 file_filter = pliki/<lang>/game/localization/english/gui/menatarmsview_l_english.yml
 minimum_perc = 0
@@ -3611,6 +3765,13 @@ type = YAML_GENERIC
 file_filter = pliki/<lang>/game/localization/english/modifiers/bookmark_modifiers_l_english.yml
 minimum_perc = 0
 source_file = pliki/en/game/localization/english/modifiers/bookmark_modifiers_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:bp1_modifiers_l_english]
+file_filter = pliki/<lang>/game/localization/english/modifiers/bp1_modifiers_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/modifiers/bp1_modifiers_l_english.yml
 source_lang = en
 type = YAML_GENERIC
 

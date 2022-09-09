@@ -1706,7 +1706,7 @@
  game_concept_diverge:0 "Diverge"
  game_concept_diverges:0 "Diverges"
  game_concept_divergent_culture_desc:0 "[SelectLocalization( HasDlcFeature( 'diverge_culture' ), 'game_concept_divergent_culture_desc_DLC', 'game_concept_divergent_culture_desc_NO_DLC' )]"
- game_concept_divergent_culture_desc_DLC:0 "A $game_concept_divergent_culture$ is an offshoot of an existing [culture|E] created by a [ruler|E] who is not the [culture_head|E].\n\nThe $game_concept_divergent_culture$ keeps its [heritage|E], but other aspects of the original Culture can be changed.\n\nThe Culture that is diverged from must be at least [EmptyScope.ScriptValue('culture_divergence_cooldown')|0] years old, and the [prestige|E] cost to diverge is based on the creating Ruler's [realm_size|E].\n\nNew Cultures can also appear as a [hybrid_culture|E]."
+ game_concept_divergent_culture_desc_DLC:1 "A $game_concept_divergent_culture$ is an offshoot of an existing [culture|E], created by a [ruler|E].\n\nThe $game_concept_divergent_culture$ keeps its [heritage|E], but other aspects of the original Culture can be changed.\n\nThe Culture that is diverged from must be at least [EmptyScope.ScriptValue('culture_divergence_cooldown')|0] years old, and the [prestige|E] cost to diverge is based on the creating Ruler's [realm_size|E].\n\nNew Cultures can also appear as a [hybrid_culture|E]."
  game_concept_divergent_culture_desc_NO_DLC:0 "A $game_concept_divergent_culture$ is an offshoot of an existing [culture|E].\n\nNew Cultures can also appear as a [hybrid_culture|E]."
 
  game_concept_winter:0 "Winter Severity"
@@ -1773,7 +1773,7 @@
  game_concept_board_game_types:0 "Board Game Types"
  game_concept_board_game_type_counter:0 "counters"
  game_concept_board_game_type_counters:0 "counters"
- game_concept_board_game_type_desc:0 "When playing a $game_concept_board_game$, different play styles $game_concept_board_game_type_counter$ your opponent. Countering their moves severely reduces the points they gain from them, even if successful. Skilled opponents may not your own skills and deliberately attempt to $game_concept_board_game_type_counter$ #EMP you#!.\n\n$game_concept_board_game_type_chess_desc$\n\n$game_concept_board_game_type_pachisi_desc$\n\n$game_concept_board_game_type_hnefatafl_desc$\n\n$game_concept_board_game_type_tabula_desc$"
+ game_concept_board_game_type_desc:0 "When playing a $game_concept_board_game$, different play styles $game_concept_board_game_type_counter$ your opponent. Countering their moves severely reduces the points they gain from them, even if successful. Skilled opponents may note your own skills and deliberately attempt to $game_concept_board_game_type_counter$ #EMP you#!.\n\n$game_concept_board_game_type_chess_desc$\n\n$game_concept_board_game_type_pachisi_desc$\n\n$game_concept_board_game_type_hnefatafl_desc$\n\n$game_concept_board_game_type_tabula_desc$"
  game_concept_board_game_type_chess:0 "Chess"
  game_concept_board_game_type_chess_desc:0 "In $game_concept_board_game_type_chess$:\n$EFFECT_LIST_BULLET$ [martial|E] $game_concept_board_game_type_counters$ [learning|E]\n$EFFECT_LIST_BULLET$ [learning|E] $game_concept_board_game_type_counters$ [intrigue|E]\n$EFFECT_LIST_BULLET$ [intrigue|E] $game_concept_board_game_type_counters$ [martial|E]"
  game_concept_board_game_type_pachisi:0 "Pachisi"

@@ -1,7 +1,7 @@
 ﻿l_english:
  digenis: ""
  nick_akritis: ""
- nick_the_conquistador: ""
+ nick_the_conquistador: "[Select_CString( CHARACTER.IsFemale, 'Konkwistadorka', 'Konkwistador' )]"
  nick_sem_pavor: ""
  nick_al_mansur: ""
  nick_the_irreproachable: ""
@@ -63,7 +63,7 @@
  hold_court.7000.d.tt: "Ulegnij ich żądaniom."
  hold_court.7010.title: "Bohater[Select_CString( frontier_hero.IsFemale, 'ka', '' )] z pogranicza"
  hold_court.7010.byzantine_desc: ""
- hold_court.7010.reconquista_desc: ""
+ hold_court.7010.reconquista_desc: "[frontier_ruler.GetPrimaryTitle.GetName] od dawna ma z nami napięte stosunki, ponieważ walczymy z niewiernymi o kontrolę nad tą ziemią. Plebejusze strasznie ucierpieli podczas tego konfliktu, ponieważ nie jestem w stanie ochronić ich wszystkich. \n\nWygląda na to jednak, że został[Select_CString(frontier_hero.IsFemale, 'a ogłoszona nowa bohaterka', ' ogłoszony nowy bohater' )] ludu - nisko urodzon[Select_CString(frontier_hero.IsFemale, 'a, która', 'y, który' )] wielokrotnie walczył[Select_CString(frontier_hero.IsFemale, 'a', '' )] w jego obronie. Bohater[Select_CString(frontier_hero.IsFemale, 'ka ta', ' ten' )], tak zwan[Select_CString(frontier_hero.IsFemale, 'ją', 'go' )] [frontier_hero.GetFirstName], przybył[Select_CString(frontier_hero.IsFemale, 'a', '' )] teraz na mój dwór, by domagać się nagrody za swoją odwagę. \n\nMój dwór jest jednomyślny, że chłop[Select_CString(frontier_hero.IsFemale, 'ka', '' )] nie może mieć takich samych praw jak szlachcic, ale czy byłoby sprawiedliwe z mojej strony odmówić [frontier_hero.GetHerHim] sprawiedliwej rekompensaty za [frontier_hero.GetHerHis] niewątpliwie niezwykłe czyny?"
  hold_court.7010.anglofranco_desc: ""
  hold_court.7010.default_desc: "W ciągu ostatnich kilku dni słyszał[Select_CString( ROOT.Char.IsFemale, 'a', 'e' )]m opowieści o potężn[Select_CString( frontier_hero.IsFemale, 'ej bohaterce chłopskiej, która zdobyła', 'ym bohaterze chłopskim, który zdobył' )] serca i umysły zwykłych ludzi dzięki niewiarygodnym czynom i niezrównanej odwadze.\n\n[Select_CString( frontier_hero.IsFemale, 'Bohaterka ta', 'Bohater ten' )], noszący imię [frontier_hero.GetFirstName], bronił[Select_CString( frontier_hero.IsFemale, 'a', '' )] drobnego ludu przed atakiem, którego dopuściła się [frontier_ruler.GetCulture.GetName|l] grupa najeźdźców, a teraz udał[Select_CString( frontier_hero.IsFemale, 'a', '' )] się do [ROOT.Char.GetCapitalLocation.GetTitle.GetAdjectiveNoTooltip], by prosić mnie o audiencję.\n\nNie ma wątpliwości, że [frontier_hero.GetFirstNameNoTooltip] jest wielk[Select_CString( frontier_hero.IsFemale, 'ą bohaterką', 'im bohaterem' )], ale moi dworzanie mówią jednym głosem, że wywyższanie pospólstwa ponad nich jest niedopuszczalne."
  hold_court.7010.a: "„W nagrodę zajmiesz należne ci miejsce w moim domu”."

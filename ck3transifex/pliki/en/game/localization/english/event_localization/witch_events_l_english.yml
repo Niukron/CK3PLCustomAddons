@@ -6,7 +6,7 @@
  child_witch_conversion_critical_failure_effect.liege.desc: "[child.GetFirstNameNoTooltip] reveals witch guardian"
  witch.1002.t: "The Age of Knowing"
  witch.1002.desc: "[child.Custom2('MyCharacterIntroduction', ROOT.Char)|U] hovers in the limbo between childhood and adulthood. I have taught [child.GetHerHim] enough to understand the truth, and [child.GetSheHe] is still young enough to have an open mind. If I want to induct [child.GetHerHim] into the service of [ROOT.Char.GetFaith.WitchGodName], it is now or never."
- witch.1002.a: "[child.GetSheHe|U] deserve to know [ROOT.Char.GetFaith.WitchGodHerHis|U] power."
+ witch.1002.a: "[child.GetSheHe|U] deserves to know [ROOT.Char.GetFaith.WitchGodHerHis|U] power."
  witch.1002.b: "[child.GetFirstNameNoTooltip] is a lost cause."
  witch.1003.t: "Hidden Knowledge"
  witch.1003.desc: "There are certain things [guardian.Custom2('MyCharacterIntroduction', ROOT.Char)] has told me that no one else ever speaks of. We never delve long on these topics, and I know better than to ask questions. \n\nHowever, this evening, something feels different between us. As we sit down to read, [guardian.GetSheHe] asks if there is anything I am curious about..."

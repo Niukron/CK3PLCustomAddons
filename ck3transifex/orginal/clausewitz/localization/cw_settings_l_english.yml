@@ -22,7 +22,7 @@
  SETTING_FULLSCREEN_RESOLUTION:0 "Resolution"
  SETTING_FULLSCREEN_RESOLUTION_TOOLTIP:3 "#T $SETTING_FULLSCREEN_RESOLUTION$\n#!Sets the image quality of the game.\n\nLower Resolutions may increase performance.\n\n#X Game resolution with unsupported aspect ratio may cause interfaces to appear outside the screen#!"
  SETTING_WINDOWED_RESOLUTION:0 "Windowed Resolution"
- SETTING_WINDOWED_RESOLUTION_TOOLTIP:1 "Resolution of the game. Higher resolution is more demanding.\n\n#X Game resolution with unsupported aspect ratio may cause interfaces to appear outside the screen#!"
+ SETTING_WINDOWED_RESOLUTION_TOOLTIP:2 "#T $SETTING_WINDOWED_RESOLUTION$\n#!Sets the resolution of the game window if the game is in Windowed Mode.\n\nMust be in the format #b NUMBER#!x#b NUMBER#!.\n\n#X Game resolution with unsupported aspect ratio may cause interfaces to appear outside the screen#!"
  SETTING_RENDER_SCALE:0 "Render Scale"
  SETTING_RENDER_SCALE_TOOLTIP:0 "#T $SETTING_RENDER_SCALE$#!\nThe scale of the render resolution of the game relative to the main resolution, excluding the user interface.\n\nLower settings may increase performance but will reduce overall fidelity, while going above 100% may increase fidelity but will likely degrade performance."
  SETTING_RENDER_SCALE_FORMAT:0 "$VALUE|%0$"
@@ -142,6 +142,8 @@
  SETTING_AUDIO_OPTION_HEADPHONES_TOOLTIP: "#T $SETTING_AUDIO_OPTION_HEADPHONES$\n#!Mix adjusted for $SETTING_AUDIO_OPTION_HEADPHONES$."
  SETTING_AUDIO_OPTION_TV: "TV"
  SETTING_AUDIO_OPTION_TV_TOOLTIP: "#T $SETTING_AUDIO_OPTION_TV$\n#!Mix for $SETTING_AUDIO_OPTION_TV$ and monitor speakers."
+ SETTING_AUDIO_OPTION_NIGHTMODE: "Night Mode"
+ SETTING_AUDIO_OPTION_NIGHTMODE_TOOLTIP: "#T $SETTING_AUDIO_OPTION_NIGHTMODE$\n#!Softens the sound for night play, dimming higher pitches and compressing the dynamic range."
  
  SETTING_AUTOSAVE:0 "Autosave Interval"
  SETTING_AUTOSAVE_TOOLTIP:3 "#T $SETTING_AUTOSAVE$\n#!Sets how often the game will save automatically."
@@ -154,6 +156,7 @@
  
  SETTING_MAP_EDITOR_AUTOSAVE_INTERVAL_MINUTES:0 "Map Editor Auto-save (minutes)"
  SETTING_MAP_EDITOR_AUTOSAVE_INTERVAL_MINUTES_TOOLTIP:0 "Map Editor Auto-save interval (minutes)"
+ SETTING_NODE_EDITOR_DRAG_PAN_MODE:0 "Node Editor Drag Pan Mode"
  
  SETTINGS_CATEGORY_ACCESSIBILITY:0 "Accessibility"
  SETTING_COLOR_BLIND_MODE:0 "Color Blind Mode"

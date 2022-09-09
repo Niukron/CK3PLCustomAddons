@@ -29,3 +29,7 @@
  pilgrimage_religious_reflections_modifier: "Met Mystic on Pilgrimage"
  pilgrimage_rest_and_good_health_modifier: "Restful Traveler"
  pilgrimage_rest_and_good_health_modifier_desc: "This character takes it very easy when journeying."
+ pilgrimage_botched_miracle_modifier: "Suffered a Botched Miracle"
+ pilgrimage_botched_miracle_modifier_desc: "This character's affliction was made worse by a botched miracle."
+ pilgrimage_miracle_witness_modifier: "Witness to a Miracle"
+ pilgrimage_miracle_witness_modifier_desc: "This character witnessed a miracle."

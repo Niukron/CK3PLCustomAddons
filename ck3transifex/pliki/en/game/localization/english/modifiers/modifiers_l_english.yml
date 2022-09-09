@@ -230,6 +230,8 @@
  pikemen_siege_value_add: "[spearmen|E] [siege_progress|E]"
  archers_siege_value_add: "[archer|E] [siege_progress|E]"
  skirmishers_siege_value_add: "[skirmisher|E] [siege_progress|E]"
+ archer_cavalry_siege_value_add: "[archer_cavalry|E] [siege_progress|E]"
+ light_cavalry_siege_value_add: "[light_cavalry|E] [siege_progress|E]"
  heavy_cavalry_damage_add: "[heavy_cavalry|E] [damage|E]"
  heavy_cavalry_damage_mult: "$heavy_cavalry_damage_add$"
  heavy_cavalry_pursuit_add: "[heavy_cavalry|E] [pursuit|E]"

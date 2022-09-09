@@ -432,7 +432,7 @@
  fund_inspiration.2130.a.library: "\"To the library!\""
  fund_inspiration.2130.a.armory: "\"To the armory!\""
  fund_inspiration.2130.a.hall: "\"To the great hall!\""
- fund_inspiration.2130.a.tt: "The quality or progress of [inspiration_owner.GetFirstNameNoTooltip] [inspiration|E] may be improved"
+ fund_inspiration.2130.a.tt: "The quality or progress of [inspiration_owner.GetFirstNamePossessiveNoTooltip] [inspiration|E] may be improved"
  fund_inspiration.2130.a.flavor: "We are bound to find something to help!"
  fund_inspiration.2130.b: "\"I know what you need!\""
  fund_inspiration.2130.b.great: "[inspiration_owner.GetFirstNamePossessiveNoTooltip] muse grows"

@@ -1539,7 +1539,7 @@ l_english:
 
  acham_religious_symbol:0 "guatimac"
  acham_religious_symbol2:0 "$acham_religious_symbol$"
- acham_religious_symbol3: "$acham_religious_symbol$"
+ acham_religious_symbol3:0 "$acham_religious_symbol$"
 
  north_african_acham_pagan:0 "Achamánism"
  north_african_acham_pagan_adj:0 "Achamánic"

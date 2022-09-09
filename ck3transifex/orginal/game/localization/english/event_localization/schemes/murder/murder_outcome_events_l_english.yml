@@ -105,6 +105,9 @@
  murder_outcome.2001.no_awareness_2:0 "\n\nI have covered my tracks well, and if anyone suspects me for being behind the attack, no one dares say it out loud."
  murder_outcome.2001.a.discovered:0 "My assassin was only there to protect [target.GetHerHim] from the #EMP real#! killer! Honest!"
  murder_outcome.2001.a:0 "I do love surprise visits."
+
+ murder_outcome.2001.memories:0 "\n\nI remember when [bad_memory.GetDescription], [ROOT.Char.Custom('MurderMemoryEnding')]"
+
  
  murder_outcome.2002.t:0 "Dangerous Journeys"
  murder_outcome.2002.opening_1:0 "Thanks to my brilliant plan and my hired thugs, [target.GetTitledFirstName] is finally dead!"
@@ -399,3 +402,13 @@
  murder_outcome.5002.child:0 "What adult would be this cruel?"
  murder_outcome.5002.infant:0 "I cry some more."
  murder_outcome.5002.option_incapable:0 "What is happening?"
+
+ murder_outcome.5002.memories_death:0 "\n\nAs I fade, a voice coldly says:\n#EMP "Contract's done. Vengeance for the time [bad_memory.GetThirdPerspectiveDescription], check. Time to collect the gold."#!"
+ murder_outcome.5002.memories:1 "\n\nA crumpled note is found near the scene: #EMP "Payment enclosed in full. Contract issued for when [bad_memory.GetThirdPerspectiveDescription]."#!"
+ 
+ murder_outcome.5002.house_feud:0 "\n\nHouse [owner_to_reveal.GetHouse.GetBaseName]! I should have known!"
+ murder_outcome.4301.house_feud:0 "\n\nDamn these [target.GetHouse.GetBaseName] scoundrels!"
+ murder_outcome.2001.house_feud:0 "\n\nThat's one less [target.GetHouse.GetBaseName] to worry about in any case!"
+ murder_outcome.2001.b:0 "This is only the beginning."
+ murder_outcome.2001.c:0 "Justice is served."
+

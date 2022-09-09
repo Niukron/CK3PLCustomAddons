@@ -3,8 +3,8 @@
  learn_language_outcome.1000.desc:3 "After lots of hard work I've finally learned the [scheme.GetTarget.GetCulture.GetLanguage.GetName] language! Endless hours practicing accentuation, sleepless nights mimicking inflection, countless lessons mastering intonation... it was all worth it in the end.\n\nDuring my efforts I looked to emulate [target.GetTitledFirstNamePossessive] accent — I am sure that [target.GetSheHe] would be impressed with my results!\n\nAnd, of course, [target.GetCulture.GetNameNoTooltip] peasants now respect me a great deal more."
  learn_language_outcome.1000.a:0 "I feel accomplished!"
  learn_language_outcome.1000.b:3 "Perhaps I should send a letter in [scheme.GetTarget.GetCulture.GetLanguage.GetNameNoTooltip] to [target.GetFirstNameNoTooltip]?"
- learn_language_outcome.1000.b.success:3 "I impress [target.GetFirstNameNoTooltip] with my knowledge of [scheme.GetTarget.GetCulture.GetLanguage.GetNameNoTooltip]"
- learn_language_outcome.1000.b.failure:3 "My [scheme.GetTarget.GetCulture.GetLanguage.GetNameNoTooltip] letter comes across as dishonest mockery"
+ learn_language_outcome.1000.b.success:4 "I impress [target.GetFirstNameNoTooltip] with my knowledge"
+ learn_language_outcome.1000.b.failure:4 "My letter comes across as dishonest mockery"
  target_responds:0 "[target.GetTitledFirstName] responds to your letter"
  
  learn_language_outcome.1001.opening:0 "[owner.Custom2('AppropriateGreeting', target)]"

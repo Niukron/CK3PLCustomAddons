@@ -429,7 +429,7 @@
  befriend_ongoing.9101.desc:0 "My dear [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('scoped_friend') )] [scoped_friend.GetFirstName] has caught wind of my desire to improve my standing with [target.GetTitledFirstName] and has offered me [scoped_friend.GetHerHis] aid.\n\n[scoped_friend.GetSheHe|U] assures me that [scoped_friend.GetSheHe] and [target.GetFirstNameNoTooltip] are similar kinds of people. [scoped_friend.GetFirstNameNoTooltip] knows precisely what I need to do to earn [target.GetHerHis] trust."
  befriend_ongoing.9101.a:0 "Please, do tell!"
  befriend_ongoing.9101.b:0 "Thank you, but I do not need assistance."
- befriend_ongoing.9102.desc:0 "These days, it seems as if [owner.GetFirstName] can only think of one thing. [target.GetSheHeCap] is fully committed to earning [target.GetFirstNamePossessive] trust, so I decided to help [owner.GetHerHim].\n\n[owner.GetFirstNameNoTooltip] was thrilled to receive my insight and claimed [owner.GetSheHe] will not forget my kind gesture."
+ befriend_ongoing.9102.desc:1 "These days, it seems as if [owner.GetFirstName] can only think of one thing. [target.GetSheHe|U] is fully committed to earning [target.GetFirstNamePossessive] trust, so I decided to help [owner.GetHerHim].\n\n[owner.GetFirstNameNoTooltip] was thrilled to receive my insight and claimed [owner.GetSheHe] will not forget my kind gesture."
  befriend_ongoing.9102.a:0 "Isn't this what friends are for?"
 
  befriend_ongoing.9103.t:0 "Befriend: Terrible Misunderstandings"

@@ -152,6 +152,7 @@
  improvised_billhook:0 "Farmer's Billhook"
  football_cup:0 "Football Cup"
  participation_trophy:0 "Participation Trophy"
+ perfume_bottle:0 "[ROOT.Char.GetFirstNamePossessive] Perfume"
 
  crushing_charge_modifier:0 "Crushing Charge"
  church_burner_modifier:0 "House of Worship Burner"

@@ -173,3 +173,14 @@
  
  teutonic_knights:1 "Order Knights"
  teutonic_knights_flavor:1 "#F Heavily armored and zealous knights, specializing in massed infantry battles in addition to their heavy cavalry charges.#!"
+
+ skirmishers_lowercase:0 "skirmishers"
+ light_cavalry_lowercase:0 "light horsemen"
+ heavy_cavalry_lowercase:0 "heavy horsemen"
+ archers_lowercase:0 "archers"
+ pikemen_lowercase:0 "pikemen"
+ heavy_infantry_lowercase:0 "armored footmen"
+ elephant_cavalry_lowercase:0 "war elephants"
+ camel_cavalry_lowercase:0 "camel cavalry"
+ horse_archers_lowercase:0 "horse archers"
+ levies_lowercase:0 "levies"

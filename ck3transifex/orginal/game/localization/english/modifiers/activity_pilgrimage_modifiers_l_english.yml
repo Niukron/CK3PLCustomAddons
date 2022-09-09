@@ -40,3 +40,9 @@
 
  pilgrimage_rest_and_good_health_modifier:0 "Restful Traveler"
  pilgrimage_rest_and_good_health_modifier_desc:0 "This character takes it very easy when journeying."
+ 
+ pilgrimage_botched_miracle_modifier:0 "Suffered a Botched Miracle"
+ pilgrimage_botched_miracle_modifier_desc:0 "This character's affliction was made worse by a botched miracle."
+
+ pilgrimage_miracle_witness_modifier:0 "Witness to a Miracle"
+ pilgrimage_miracle_witness_modifier_desc:0 "This character witnessed a miracle."

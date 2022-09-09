@@ -27,7 +27,7 @@
  ep1_decision.0201.desc: "Poszukiwania lingwisty znającego język [target_court_language.GetCourtLanguage.GetName|l] w końcu przyniosły oczekiwane rezultaty. Przedstawiono mi kandydatów, z których każdy posiada własną wiedzę na temat języków obcych."
  ep1_decision.0201.a: "[good_linguist.GetNameNoTooltip] bardzo dobrze zna język [target_court_language.GetCourtLanguage.GetNameNoTooltip|l]."
  ep1_decision.0201.b: "[medium_linguist.GetNameNoTooltip] się tym zajmie."
- ep1_decision.0201.c: "[scholarly_linguist.GetNameNoTooltip] to słynn[Select_CString(scholarly_linguist.isFemale, 'a ekspertka znająca', 'y ekspert znający')] język [target_court_language.GetCourtLanguage.GetNameNoTooltip|l]!"
+ ep1_decision.0201.c: "[scholarly_linguist.GetNameNoTooltip] to słynn[Select_CString(scholarly_linguist.IsFemale, 'a ekspertka znająca', 'y ekspert znający')] język [target_court_language.GetCourtLanguage.GetNameNoTooltip|l]!"
  ep1_decision.0201.d: "Wiem, że [cheap_linguist.GetNameNoTooltip] będzie pracować praktycznie za darmo!"
  ep1_decision.0201.e: "Po namyśle..."
  learn_court_language_toast_title: "Zatrudniony [target_court_language.GetCourtLanguage.GetName|l] nauczyciel"

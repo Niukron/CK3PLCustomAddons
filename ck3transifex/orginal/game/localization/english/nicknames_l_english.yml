@@ -317,12 +317,13 @@
  nick_the_wary:0 "the Wary"
  nick_the_black_sheep:0 "the Black Sheep"
  nick_sisyphus:0 "the Sisyphean"
- nick_blue_lion:0 "the Blue Lion of $b_sheffield$"
+ nick_blue_lion:1 "the Blue Lion"
  nick_the_hairy:0 "the Hairy"
  nick_the_child:0 "the Child"
  nick_the_wake:0 "the Wake"
  nick_the_bearded:0 "the Bearded"
  nick_the_mountain_dweller:0 "the Mountain-Dweller"
+ nick_the_honest_hipped:0 "the Honest-Hipped"
  
  
  nick_king_of_fashion:0 "the [CHARACTER.GetTitleAsNameNoTooltip] of Fashion"
@@ -352,3 +353,16 @@
  nick_benavert:0 "Benavert"
  nick_the_pragmatic:1 "the Pragmatic"
  nick_the_equitable:1 "the Equitable"
+
+ 
+ nick_the_real:0 "The Real"
+ nick_strongarm:0 "Strongarm"
+ nick_baby_eating:0 "The Baby Eating"
+ nick_the_dung_named:0 "the Dung-Named"
+ nick_with_the_tress:0 "with the Tress"
+ nick_with_the_lock:0 "with the Lock"
+ nick_irontooth:0 "Irontooth"
+ nick_the_dunged:0 "the Dunged"
+ nick_the_smelly:0 "the Smelly"
+ nick_the_venator:0 "the Venator"
+
