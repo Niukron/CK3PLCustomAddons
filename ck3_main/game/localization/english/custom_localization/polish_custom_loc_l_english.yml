@@ -2894,5 +2894,7 @@
  ANY_REALM_COUNTY:0 "Dowolne [county|El] w [Concept( 'realm', 'państwie' )|E]:"
  ANY_REALM_COUNTY_COUNT:0 "$PARAMETERS$ [Concept( 'counties', 'hrabstwa' )|E] w [Concept( 'realm', 'państwie' )|E]:"
  SCHEME_TARGET_IS_FEUD_TARGET:0 "[target.GetShortUINameNoTooltip] jest członkiem [Concept( 'house_feud', 'zwaśnionego' )|E] [Concept( 'house', 'rodu' )|E]: $VALUE|+0=$"
+ house_feud_cooldown_tt:0 "Twój [house|El] nie będzie w stanie rozpocząć kolejnej [Concept( 'house_feud', 'waśni' )|E] przez 25 lat"
+ house_reward_modifier_tt:0 "Ten modyfikator jest zależny od twojego aktualnego wyniku w [Concept( 'house_feud', 'waśni' )|E]"
  
  ### 
