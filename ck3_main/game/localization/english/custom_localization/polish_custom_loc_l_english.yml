@@ -2886,3 +2886,13 @@
  unbeliever_heathen_vocative:0 "[Select_CString( second.IsFemale, 'poganko', 'poganinie' )]"
  unbeliever_heretic_vocative:0 "[Select_CString( second.IsFemale, 'heretyczko', 'heretyku' )]"
  unbeliever_unbeliever_vocative:0 "[Select_CString( second.IsFemale, 'niewierząca', 'niewierzący' )]"
+ 
+ #1.7.1 - do usunięcia później
+
+ revive_taltoism_decision_before_last_date:0 "Jest 01.01.1100 r. lub wcześniej"
+ #AI_GUARDIAN_FEUD_HESITANCE:0 "Won't give child to [house_feud|E] [house|E]: $VALUE|=+0$"
+ ANY_REALM_COUNTY:0 "Dowolne [county|El] w [Concept( 'realm', 'państwie' )|E]:"
+ ANY_REALM_COUNTY_COUNT:0 "$PARAMETERS$ [Concept( 'counties', 'hrabstwa' )|E] w [Concept( 'realm', 'państwie' )|E]:"
+ #SCHEME_TARGET_IS_FEUD_TARGET:0 "[target.GetShortUINameNoTooltip] is member of [house_feud|E] [house|E]: $VALUE|+0=$"
+ 
+ ### 
