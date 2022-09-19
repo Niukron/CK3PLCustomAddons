@@ -351,7 +351,7 @@
  
  game_concept_house_feud:0 "Feud"
  game_concept_house_feuding:0 "Feuding"
- game_concept_house_feud_desc:1 "Sometimes, a rivalry can grow into a vendetta against a particular [house|E].\n\nKilling, [torturing|E], cuckolding, stealing [artifacts|E], and winning [wars|E] against members of the target [house|E] will increase score, while falling victim will in turn reduce it.\n\nThe rewards of the Feud will depend on its success.\n\nAll [house|E] members receive a [hostile_schemes|E] bonus against the Feud [house|E], and will be more likely to target its members."
+ game_concept_house_feud_desc:2 "Sometimes, a rivalry can grow into a vendetta against a particular [house|E].\n\nKilling, [torturing|E], cuckolding, stealing [artifacts|E], and winning [wars|E] against members of the target [house|E] will increase score, while falling victim will in turn reduce it.\n\nWhile a Feud is ongoing, all [house|E] members receive a [hostile_schemes|E] bonus against members of the target [house|E], and will be more likely to target its members.\n\nWhen the Feud ends, your [house|E] will be rewarded based on the relative damage inflicted on its enemies, ranging from [GetModifier('house_feud_terrible_modifier').GetNameWithTooltip] to [GetModifier('house_feud_excellent_modifier').GetNameWithTooltip]."
  
  action_ongoing_house_feud:0 "Ongoing House [house_feud|E]"
  action_ongoing_house_feud_label:0 "Your House is Feuding with [recipient.GetHouse.GetBaseNameNoTooltip]"
@@ -359,3 +359,6 @@
  action_ongoing_house_feud_click:0 "#I Click to view [house_feud|E] House Head#!"
  action_ongoing_house_feud_unimportant:0 "@warning_icon! #N Your House is currently losing the [house_feud|E]#!"
  swap_feud_tt:0 "End [house_feud|E] with [house|E] [house_feud_existing.GetBaseName]"
+ 
+ house_feud_cooldown_tt:0 "Your [house|E] will not be able to start another [feud|E] for 25 years"
+ house_reward_modifier_tt:0 "This modifier is based on your current [feud|E] score"

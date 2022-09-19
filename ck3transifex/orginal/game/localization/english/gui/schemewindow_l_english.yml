@@ -314,4 +314,4 @@
  SCHEME_POWER_RESISTANCE_RATIO_TRIGGER:0 "The Scheme's power resistance ratio is: $COMPARATOR$ $NUM|V0$"
  SCHEME_MONTHLY_PROGRESS_TRIGGER:0 "Scheme Monthly Progress is: $COMPARATOR$ $NUM|V0$"
  SCHEME_TEACHER_KNOWS_YOUR_LANGUAGE_MODIFIER:0 "Teacher Knows Your [language|E]: $VALUE|+0=$"
- 
+ SCHEME_TARGET_IS_FEUD_TARGET:0 "[target.GetShortUINameNoTooltip] is member of [house_feud|E] [house|E]: $VALUE|+0=$"

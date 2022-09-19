@@ -12,3 +12,5 @@
  NOT_ANY_IN_DE_JURE_ALL_GLOBAL: "Non de jure [titles|E]"
  ANY_IN_DE_JURE_ALL_THIRD: "Any de jure [titles|E] of [TITLE.GetName]"
  NOT_ANY_IN_DE_JURE_ALL_THIRD: "Non de jure [titles|E] of [TITLE.GetName]"
+ ANY_REALM_COUNTY: "Any [realm|E] [county|E]:"
+ ANY_REALM_COUNTY_COUNT: "$PARAMETERS$ [realm|E] [counties|E]:"

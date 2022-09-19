@@ -271,7 +271,7 @@
  ep1_flavor.2040.desc.outro_bad_praise: ""
  ep1_flavor.2040.a: ""
  ep1_flavor.2040.tt_my: "Stracisz swój artefakt [my_artifact.GetName]"
- ep1_flavor.2040.tt_exotic: ""
+ ep1_flavor.2040.tt_exotic: "Staniesz się właścicielem artefaktu: [exotic_blade.GetName]"
  ep1_flavor.2040.toast: ""
  ep1_flavor.2040.toast_poor: "[exotic_blade.GetType|U] niczym się nie wyróżnia"
  ep1_flavor.2040.b: "„Przynieś moją sakiewkę!”"

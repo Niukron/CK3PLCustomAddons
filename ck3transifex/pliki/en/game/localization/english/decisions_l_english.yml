@@ -997,3 +997,4 @@
  not_can_execute_decision: "You cannot take this [decision|E] at the moment"
  can_execute_decision: "You can take this [decision|E] at the moment"
  NO_DECISION_OPTIONS_SELECTED: "@warning_icon! #X Select an option#!"
+ revive_taltoism_decision_before_last_date: "The date is 1100.1.1 or earlier"

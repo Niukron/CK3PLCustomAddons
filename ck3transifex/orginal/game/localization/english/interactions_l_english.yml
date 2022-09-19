@@ -1534,3 +1534,4 @@
  artifact_gift_useless_banner_tt:0 "@warning_icon! #X Unrelated [house|E] or [dynasty|E] banner#!"
  artifact_gift_claimed_tt:0 "#positive_value [recipient.GetTitledFirstName] has an [artifact_claim|E] on [target.GetName]#!"
  can_be_granted_titles_interaction_tt:0 "[recipient.GetWomenMen|U] must be a Dominant, Equal, or Clerical Gender within your [faith|E] ([actor.GetFaith.GetName])"
+ AI_GUARDIAN_FEUD_HESITANCE:0 "Won't give child to [house_feud|E] [house|E]: $VALUE|=+0$"
