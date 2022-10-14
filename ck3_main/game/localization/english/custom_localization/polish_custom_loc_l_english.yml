@@ -150,6 +150,8 @@
  basque_religion_adj_masculine_ins:0 "Euskal erlijioa"
 
  #Dodając _adj do tytułu można dodać odmianę jeśli nie istnieje.
+
+ b_kiev_adj:0 "Kijowa"
  
  #Księstwa i hrabstwa
  d_halych_adj:0 "Halicza"
