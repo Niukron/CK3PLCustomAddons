@@ -1,6 +1,6 @@
 ﻿l_english:
  DETACH_COMMANDER: "Remove Commander"
- CANT_COMMAND_TITLE: "#T [CHARACTER.GetUIName] can not command an army#!"
+ CANT_COMMAND_TITLE: "#T [CHARACTER.GetUIName] cannot command an army#!"
  CANT_COMMAND_REASON_DEAD: "  -Is dead"
  CANT_COMMAND_REASON_IN_POOL: "  -Is in pool"
  CANT_COMMAND_REASON_FEMALE: "  -Is female"

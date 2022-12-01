@@ -67,6 +67,8 @@
  fp2_saints_tombs_modifier_desc:0 "The stone boar statues littering this county are known to be the tombs of Christian saints."
  fp2_controls_the_mediterranean_house_modifier:1 "Masters of the Mediterranean"
  fp2_controls_the_mediterranean_house_modifier_desc:0 "This house is famed for having taken control over the Mediterranean sea and the trade that flows through it."
+ fp2_aragon_title_reward_house_modifier:0 "Founders of Aragón"
+ fp2_aragon_title_reward_house_modifier_desc:0 "This house has founded the kingdom of Aragón on lands with harsh geography and harsher warriors."
  fp2_sponsored_golden_age_modifier:0 "Sponsored Golden Age"
  fp2_sponsored_golden_age_modifier_desc:0 "This character has sponsored the next major regional golden age of scholarly advance."
  fp2_part_of_golden_age_modifier:0 "Present During Golden Age"

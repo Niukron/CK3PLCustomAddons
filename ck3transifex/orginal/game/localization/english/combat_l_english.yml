@@ -76,8 +76,8 @@
  COMBAT_RETREAT_TOOLTIP_POSSIBLE:0 "Either side can choose to retreat in an orderly fashion\n#I Right-click on the map to order your Army to retreat there#!"
  COMBAT_OVERRUN_TOOLTIP:1 "If the army is defeated in the Early Battle Phase, it will be completely destroyed"
  COMBAT_NO_RETREAT_TOO_EARLY:2 "Ordered retreat will be possible in the Late Battle Phase (in $DAYS|V$ days)"
- COMBAT_NO_RETREAT_PURSUIT:0 "@warning_icon! Can not retreat in pursuit phase"
- COMBAT_NO_RETREAT_LANDLESS:0 "@warning_icon! Can not retreat as landless commander"
+ COMBAT_NO_RETREAT_PURSUIT:0 "@warning_icon! Cannot retreat in pursuit phase"
+ COMBAT_NO_RETREAT_LANDLESS:0 "@warning_icon! Cannot retreat as landless commander"
  
  combat_phase_maneuver:0 "Maneuver"
  combat_phase_main:0 "Main"

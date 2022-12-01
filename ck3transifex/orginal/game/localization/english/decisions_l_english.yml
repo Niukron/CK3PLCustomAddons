@@ -1115,6 +1115,7 @@
  mozarabic_bind_the_faith_to_rome_decision.path_fundamentalist:0 "If we reform our [faith|E] to be more $doctrine_pluralism_fundamentalist_name$"
  mozarabic_bind_the_faith_to_rome_decision.path_pluralist:0 "If we reform our [faith|E] to be even more $doctrine_pluralism_pluralistic_name$"
  mozarabic_fate_county_count.need_at_least_twenty_same_faith_counties:0 "You must hold at least [EmptyScope.ScriptValue('mozarabic_fate_county_count')|0] same-[faith|E] [counties|E]"
+ mozarabic_bind_the_faith_to_rome_decision.threaten_pope:0 "@warning_icon! #warning You coerce the Pope with a [strong_hook|E], they will dislike that!#!"
 
  mozarabic_break_with_rome_decision:0 "Break with Rome"
  mozarabic_break_with_rome_decision_desc:0 "What does [ROOT.Char.GetFaith.GetReligiousHead.GetTitledFirstName] know of our lives or lands? Rome is a distant temporal overlord, neither caring for nor understanding our spiritual needs.\n\nOnly by liberating ourselves from the shackles of the [ROOT.Char.GetFaith.GetReligiousHeadTitle.GetBaseName] and purging the last of its lies can [ROOT.Char.GetFaith.GetName] achieve perfection."
@@ -1172,4 +1173,4 @@
  not_can_execute_decision:0 "You cannot take this [decision|E] at the moment"
  can_execute_decision:0 "You can take this [decision|E] at the moment"
  NO_DECISION_OPTIONS_SELECTED:0 "@warning_icon! #X Select an option#!"
- revive_taltoism_decision_before_last_date: "The date is 1100.1.1 or earlier"
+ revive_taltoism_decision_before_last_date:0 "The date is 1100.1.1 or earlier"

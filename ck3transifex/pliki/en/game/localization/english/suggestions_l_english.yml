@@ -14,7 +14,7 @@
  suggestion_construct_building_click: "#I Click to view the Holding#!"
  suggestion_fabricate_claim_label: "Fabricate Claim"
  suggestion_fabricate_claim: "Suggestion: Fabricate Claim on [landed_title.GetNameNoTierNoTooltip]"
- suggestion_fabricate_claim_desc: "The neighboring [landed_title.GetName] is both rich and prosperous, but you can not conquer it without a [casus_belli|E].\n\nSending your [court_chaplain|E] or [realm_priest|E] to fabricating a [claim|E] on it will give you the justification you need to go to [war|E] and take the title for your own!"
+ suggestion_fabricate_claim_desc: "The neighboring [landed_title.GetName] is both rich and prosperous, but you cannot conquer it without a [casus_belli|E].\n\nSending your [court_chaplain|E] or [realm_priest|E] to fabricating a [claim|E] on it will give you the justification you need to go to [war|E] and take the title for your own!"
  suggestion_fabricate_claim_click: "#I Click to view the Title#!"
  suggestion_create_title_label: "Create Title"
  suggestion_create_title: "Suggestion: Create the [landed_title.GetNameNoTooltip]"

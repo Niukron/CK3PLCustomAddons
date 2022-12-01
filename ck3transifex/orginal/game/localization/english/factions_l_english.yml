@@ -22,7 +22,7 @@
  independence_faction_short_effect_desc:0 "Wants Independence from their [liege|E]"
 
  nation_fracturing_faction:1 "Dissolution Faction"
- nation_fracturing_faction_desc:0 "Members of the $nation_fracturing_faction$ [faction|E] seek to destroy the realm of their [liege|E].\n\n#S Ultimatum#!\nAll Faction Members become [independent|E]\n[liege|E] loses their Primary title"
+ nation_fracturing_faction_desc:1 "Members of the $nation_fracturing_faction$ [faction|E] seek to destroy the realm of their [liege|E].\n\n#S Ultimatum#!\nAll Faction Members become [independent|E]\n[liege|E] loses their [primary_title|E] and other [titles|E] of the same [title_tier|E]"
  nation_fracturing_faction_short_effect_desc:0 "Wants to destroy the Realm of their [liege|E]"
  liege_primary_title_dissolution:0 "You are now independent!"
  liege_primary_title_dissolution_desc:0 "Your liege lost their [primary_title|E] due to a $nation_fracturing_faction$ [faction|E]"

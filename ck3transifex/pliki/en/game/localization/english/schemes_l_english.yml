@@ -157,7 +157,7 @@
  FABRICATE_HOOK_SUCCESS_DESC: "You gain a [hook|E] on [TARGET_CHARACTER.GetShortUIName]"
  FABRICATE_HOOK_DISCOVERY_DESC: "You can keep fabricating Hooks at [TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip] [court|E]"
  scheme_interaction_tt_spy_on_approved: "I will soon find whatever [recipient.GetShortUIName] seeks to keep secret!"
- SCEHEME_ON_COOLDOWN: "#X Can not use the $SCHEME_NAME$ on [TARGET_CHARACTER.GetShortUIName] until [DATE.GetStringLong]#!"
+ SCEHEME_ON_COOLDOWN: "#X Cannot use the $SCHEME_NAME$ on [TARGET_CHARACTER.GetShortUIName] until [DATE.GetStringLong]#!"
  scheme_target_is_incapable: "[target.GetShortUIName|U] is [GetTrait('incapable').GetName( target )]"
  elope: "$elope_verb$"
  elope_action: "$elope_verb$ with"

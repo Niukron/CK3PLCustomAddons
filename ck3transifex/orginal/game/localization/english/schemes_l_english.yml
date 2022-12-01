@@ -168,7 +168,7 @@
 
  scheme_interaction_tt_spy_on_approved:1 "I will soon find whatever [recipient.GetShortUIName] seeks to keep secret!"
  
- SCEHEME_ON_COOLDOWN:0 "#X Can not use the $SCHEME_NAME$ on [TARGET_CHARACTER.GetShortUIName] until [DATE.GetStringLong]#!"
+ SCEHEME_ON_COOLDOWN:0 "#X Cannot use the $SCHEME_NAME$ on [TARGET_CHARACTER.GetShortUIName] until [DATE.GetStringLong]#!"
  scheme_target_is_incapable:0 "[target.GetShortUIName|U] is [GetTrait('incapable').GetName( target )]"
 
  

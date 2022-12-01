@@ -1695,6 +1695,8 @@
  custom.every_male_courtier: "Every male [courtier|E]"
  custom.every_same_culture_vassal: "Every [root_culture.GetName] [vassal|E]"
  custom.every_different_culture_vassal: "Every non-[root_culture.GetName] [vassal|E]"
+ custom.every_non_callous_or_sadistic_courtier_and_guest: "Every non-callous or sadistic [courtier|E] and [guest|E]"
+ custom.every_zealous_courtier_and_guest: "Every zealous [courtier|E] and [guest|E]"
  guest_and_family_move_to_specific_pool_effect.tt.family: "The [character|E] and any [family|E] traveling with them"
  set_knight_status: "[THIS.GetCharacter.GetShortUINameNoTooltip] is forbidden from serving as a Knight"
  SPONSOR_INSPIRATION: "Funds [INSPIRATION.GetOwner.GetShortUIName|U] with @gold_icon! [INSPIRATION.GetBaseGoldCost] to [INSPIRATION.GetOwner.Custom('InspirationTypeDescription')]"

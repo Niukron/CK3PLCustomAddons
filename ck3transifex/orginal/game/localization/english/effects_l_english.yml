@@ -2022,6 +2022,8 @@
  custom.every_male_courtier:0 "Every male [courtier|E]"
  custom.every_same_culture_vassal:0 "Every [root_culture.GetName] [vassal|E]"
  custom.every_different_culture_vassal:0 "Every non-[root_culture.GetName] [vassal|E]"
+ custom.every_non_callous_or_sadistic_courtier_and_guest:0 "Every non-callous or sadistic [courtier|E] and [guest|E]"
+ custom.every_zealous_courtier_and_guest:0 "Every zealous [courtier|E] and [guest|E]"
 
  guest_and_family_move_to_specific_pool_effect.tt.family:0 "The [character|E] and any [family|E] traveling with them"
 

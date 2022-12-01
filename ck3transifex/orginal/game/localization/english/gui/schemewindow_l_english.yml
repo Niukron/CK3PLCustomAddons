@@ -8,7 +8,7 @@
  SCHEME_WINDOW_ITEM_NAME:0 "[Scheme.GetFullActionName]"
  SCHEME_WINDOW_TT_ITEM:0 "[Scheme.GetTypeDescription]"
  SCHEME_WINDOW_CANCEL_SCHEME:0 "Abandon Scheme"
- SCHEME_WINDOW_CANNOT_CANCEL_SCHEME:0 "You can not abandon Schemes which are finished or frozen"
+ SCHEME_WINDOW_CANNOT_CANCEL_SCHEME:0 "You cannot abandon Schemes which are finished or frozen"
  SCHEME_WINDOW_CANCEL_CONFIRMATION_TITLE:0 "Abandon Scheme"
  SCHEME_WINDOW_CANCEL_CONFIRMATION_TEXT:0 "The [SCHEME.GetName] against [CHARACTER.GetShortUIName] will be abandoned.\n\n[SCHEME.GetCooldownInfo]"
  SCHEME_WINDOW_CANCEL_CONFIRMATION_ACCEPT:0 "Abandon"

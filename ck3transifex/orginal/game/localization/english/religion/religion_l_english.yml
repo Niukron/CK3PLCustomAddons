@@ -76,6 +76,7 @@
  fervor_gain_defector_heresy:0 "$fervor_gain_new_heresy$"
  fervor_gain_persecuted:0 "Galvanized by persecution"
  fervor_gain_theravada:0 "[theravada_faith.GetName] religious reforms"
+ fervor_gain_holy_order_expelled_by_force:0 "[holy_order|E]expelled by another [faith|E]"
 
  FAITH_DOCTRINE_GENERAL_TOOLTIP:1 "[FaithDoctrine.GetEffectsDescription( GetPlayer.GetFaith )]\n\n[FaithDoctrine.GetDescription( GetPlayer.GetFaith )|F]"
 
@@ -745,7 +746,7 @@
  doctrine_kinslaying_extended_family_crime_name:0 "Familial is Criminal"
  doctrine_kinslaying_extended_family_crime_desc:0 "The murder of one's own family is one of the most abhorrent crimes one can commit. Anyone who does such a thing will be severely punished."
  doctrine_kinslaying_close_kin_crime_name:0 "Close Kin is Criminal"
- doctrine_kinslaying_close_kin_crime_desc:0 "Fratricide and acts like it can not be tolerated in a just and righteous society. Those who commit such offenses will be punished."
+ doctrine_kinslaying_close_kin_crime_desc:0 "Fratricide and acts like it cannot be tolerated in a just and righteous society. Those who commit such offenses will be punished."
  doctrine_kinslaying_shunned_name:0 "Shunned"
  doctrine_kinslaying_shunned_desc:0 "While it is appalling to murder one's own relatives, such acts are not inherently more criminal than any other murder."
  doctrine_kinslaying_accepted_name:0 "Accepted"
@@ -807,7 +808,7 @@
  doctrine_clerical_function_taxation_name:1 "Control"
  doctrine_clerical_function_taxation_desc:1 "The [ROOT.Faith.AltPriestTermPlural] derives its authority from [ROOT.Faith.HighGodName] [ROOT.Faith.HighGodHerselfHimself], and that still applies here on Earth."
  doctrine_clerical_function_alms_and_pacification_name:0 "Alms and Pacification"
- doctrine_clerical_function_alms_and_pacification_desc:0 "Our [ROOT.Faith.PriestNeuterPlural] are entrusted with ensuring that the poor and downtrodden have sufficient food and shelter when they can not provide it for themselves."
+ doctrine_clerical_function_alms_and_pacification_desc:0 "Our [ROOT.Faith.PriestNeuterPlural] are entrusted with ensuring that the poor and downtrodden have sufficient food and shelter when they cannot provide it for themselves."
  doctrine_clerical_function_recruitment_name:0 "Recruitment"
  doctrine_clerical_function_recruitment_desc:1 "Our [ROOT.Faith.PriestNeuterPlural] can take up arms and defend our faith. The responsibility to lead as an example grants them extra strength in combat."
  doctrine_parameter_clergy_can_fight:0 "Members of the [clergy|E] can serve as [commanders|E] or $knight_culture_player_plural$"
@@ -845,8 +846,8 @@
  doctrine_parameter_clerical_appointment_fixed_disabled:1 "The [realm_priest|E] or [court_chaplain|E] can be fired and replaced by a new appointee"
  doctrine_parameter_clerical_appointment_fixed:0 "The [realm_priest|E] or [court_chaplain|E] have their seat for life"
 
- unreformed_faith_doctrine_name:0 "Unreformed"
- unreformed_faith_name:0 "$unreformed_faith_doctrine_name$"
+ unreformed_faith_doctrine_name:1 "Unreformed"
+ unreformed_faith_name:1 "doctrine"
  unreformed_faith_doctrine_desc:1 "An Unreformed Faith lacks an organized clergy and established canonical doctrines; different communities can nominally follow the same faith while having wildly different religious practices and beliefs."
  doctrine_parameter_unreformed:1 "Prevents Tribal [rulers|E] from changing [government|E] type \n$EFFECT_LIST_BULLET$Grants the [unreformed_pagan_combat_bonus|E]"
  doctrine_parameter_hostility_override_tenet_unreformed_syncretism:2 "Non-Pagan [faiths|E] with the $tenet_unreformed_syncretism_name$ tenet are considered [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] instead of $hostility_evil_tooltippable$"

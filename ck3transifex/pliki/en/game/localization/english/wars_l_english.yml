@@ -446,3 +446,4 @@
  CB_COST_STRUGGLE_PHASE_HOSTILITY: "[struggle_phase_iberia_hostility|E]"
  CB_COST_STRUGGLE_PHASE_COMPROMISE: "[struggle_phase_iberia_compromise|E]"
  CB_COST_STRUGGLE_PHASE_CONCILIATION: "[struggle_phase_iberia_conciliation|E]"
+ subjugation_war_warning_desc: "\n\n#X You may only attempt one Subjugation [war|E] per lifetime#!"

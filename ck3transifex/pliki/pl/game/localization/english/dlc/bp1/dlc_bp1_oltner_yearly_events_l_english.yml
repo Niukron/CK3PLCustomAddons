@@ -1,7 +1,7 @@
 ﻿l_english:
  bp1_yearly.4000.t: ""
  bp1_yearly.4000.desc: ""
- bp1_yearly.4000.desc.alive: ""
+ bp1_yearly.4000.desc.alive: "Wspomnienia takie jak te przynoszą mi pocieszenie. Nieważne, co się stanie, wiem, że moja rodzina jest przy mnie i że ród [ROOT.Char.GetHouse.GetName] jest silny."
  bp1_yearly.4000.desc.dead: ""
  bp1_yearly.4000.desc_end: ""
  bp1_yearly.4000.a: ""
@@ -35,7 +35,7 @@
  bp1_yearly.4020.d: ""
  bp1_yearly.4020.poetry: ""
  bp1_yearly.4020.poetry_title: ""
- artifact_poetry_name: ""
+ artifact_poetry_name: "$bp1_yearly.4020.poetry_title$"
  artifact_poetry_description: ""
  poetry_artifact_appended_desc: ""
  bp1_yearly.4020.a_effect: ""

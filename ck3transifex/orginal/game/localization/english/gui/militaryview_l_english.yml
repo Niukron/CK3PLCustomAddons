@@ -83,7 +83,7 @@
  TT_MAA_RAISED:0 "#T [men_at_arms|E] raised#!"
  TT_MAA_UNRAISED:0 "#T [men_at_arms|E] unraised#!"
  TT_MAA_ENTRY_BUTTON:0 "#T Manage [regiment|E]#!"
- TT_CANT_RAISE_AT_WAR:0 "@warning_icon!#X Can not raise regiments while at peace!#!"
+ TT_CANT_RAISE_AT_WAR:0 "@warning_icon!#X Cannot raise regiments while at peace!#!"
  MEN_AT_ARMS_TYPE_NAME:1 "Type: #high [MenAtArmsType.GetBaseTypeName]#!"
  MILITARY_VIEW_BANNERS:0 "[rally_points|E]"
  MILITARY_VIEW_EVENT_TROOPS:0 "[special_troops|E]"

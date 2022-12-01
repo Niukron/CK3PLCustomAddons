@@ -233,6 +233,7 @@
  ARTIFACT_CLAIMS:0 "Artifact Claims"
  NEW_ARTIFACT:1 "#V New#!"
  EQUIPPED_ARTIFACT:2 "[Select_CString( Artifact.IsCourtArtifact, 'Displayed', 'Equipped' )] [Inventory.GetEquippedSlotOfMaxSlotText( Artifact.Self )]"
+ GIFT_EQUIPPED_ARTIFACT:0 "[Select_CString( Artifact.IsCourtArtifact, 'Displayed', 'Equipped' )]"
  CHARACTER_WITHOUT_ROYAL_COURT_COURT_ARTIFACT_TAB:1 "Since [Character.GetShortUIName] [Character.LocalPlayerString( 'have', 'has' )] no [royal_court|e], [Character.GetShortUIName] [Character.LocalPlayerString( 'have', 'has' )] nowhere to display these [court_artifacts|e]."
  ARTIFACT_TITLE_ASSOCIATION:1 "Inherited along with [Artifact.GetAssociatedTitle.GetNameWithUnderlying]"
  EMPTY_INVENTORY_TOOLTIP:0 "@warning_icon!#X Cannot view Inventory since there are no [artifacts|e] or [artifact_claims|e] to display#!"

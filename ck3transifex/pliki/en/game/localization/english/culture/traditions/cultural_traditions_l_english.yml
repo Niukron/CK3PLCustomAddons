@@ -545,7 +545,7 @@
  culture_parameter_facilitate_alliance_acceptance: "[alliance|E] Negotiation Acceptance: #P +50#!"
  culture_parameter_facilitate_white_peace: "[white_peace|E] Acceptance: #P +10#!"
  culture_parameter_more_frequent_hunts: "Delay between [hunt|E] [activities|E]: #P -50% #!"
- culture_parameter_cannot_hunt: "Can NOT use the [hunt|E] [activity|E]"
+ culture_parameter_cannot_hunt: "Cannot use the [hunt|E] [activity|E]"
  culture_parameter_sacred_hunts: "Completing a [hunt|E] [activity|E] provides [piety_i][piety|E]"
  culture_parameter_hunting_traits_more_common: "[characters|E] gain [GetTrait('hunter_2').GetName( GetNullCharacter )] [traits|E] more often"
  culture_parameter_reveler_traits_more_common: "[characters|E] gain [GetTrait('reveler_2').GetName( GetNullCharacter )] [traits|E] more often"

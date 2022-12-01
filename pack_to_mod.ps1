@@ -41,7 +41,7 @@ $github_latest_release_info = Invoke-RestMethod https://api.github.com/repos/Niu
 $out = $github_latest_release_info.tag_name -match "v(\d+\.)?(\d+\.)?(\*|\d+)"
 $MOD_VERSION = $matches[1]+$matches[2]+$matches[3]
 
-$SUPPORTED_GAME_VERSIONS = "1.7.*"
+$SUPPORTED_GAME_VERSIONS = "1.8.*"
 $REMOTE_FILE_ID = "2302141098" # STEAM ID - sharedfiles/filedetails/?id=[TO]
 
 

@@ -119,7 +119,7 @@
  TV_NO_CLAIM: "#weak You have no [claim|E] on this Title#!"
  TV_NOT_CREATED: "#weak Not created yet#!"
  TV_MY_TITLE: "#weak Your Title#!"
- TITLE_VIEW_CANT_HAVE_CLAIMS: "#weak Can not have claims on this [title|E]#!"
+ TITLE_VIEW_CANT_HAVE_CLAIMS: "#weak Cannot have claims on this [title|E]#!"
  TITLE_VIEW_CANT_HAVE_CLAIMS_TT: "It is impossible to have claims on titles for [mercenary_company|E], [holy_orders|E], [baronies|E] and [head_of_faith|E]"
  TITLE_ALLEGIANCE_VASSAL_LIST: "Vassals Swearing [title_allegiance|E]"
  TITLE_VIEW_SUCCESSION: "Line of Succession"

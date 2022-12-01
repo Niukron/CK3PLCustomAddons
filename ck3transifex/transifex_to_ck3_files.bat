@@ -64,7 +64,6 @@ java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%%evtloc%\\schemes\\sway" "pliki\
 java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%%evtloc%\\secret_events" "pliki\\en%gle%%evtloc%\\secret_events" "temp\\supply%gle%%evtloc%\\secret_events" yaml
 java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%%evtloc%\\story_cycles" "pliki\\en%gle%%evtloc%\\story_cycles" "temp\\supply%gle%%evtloc%\\story_cycles" yaml
 java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%%evtloc%\\stress_events" "pliki\\en%gle%%evtloc%\\stress_events" "temp\\supply%gle%%evtloc%\\stress_events" yaml
-java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%%evtloc%\\struggle_events" "pliki\\en%gle%%evtloc%\\struggle_events" "temp\\supply%gle%%evtloc%\\struggle_events" yaml
 java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%%evtloc%\\trait_specific_events" "pliki\\en%gle%%evtloc%\\trait_specific_events" "temp\\supply%gle%%evtloc%\\trait_specific_events" yaml
 java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%%evtloc%\\yearly_events" "pliki\\en%gle%%evtloc%\\yearly_events" "temp\\supply%gle%%evtloc%\\yearly_events" yaml
 java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%%evtloc%\\war_event" "pliki\\en%gle%%evtloc%\\war_event" "temp\\supply%gle%%evtloc%\\war_event" yaml
@@ -152,7 +151,6 @@ java -jar "%parser%" "%fte%" "temp\\supply%gle%%evtloc%\\schemes\\sway" "temp\\c
 java -jar "%parser%" "%fte%" "temp\\supply%gle%%evtloc%\\secret_events" "temp\\ck3%gle%%evtloc%\\secret_events" "%charset%"
 java -jar "%parser%" "%fte%" "temp\\supply%gle%%evtloc%\\story_cycles" "temp\\ck3%gle%%evtloc%\\story_cycles" "%charset%"
 java -jar "%parser%" "%fte%" "temp\\supply%gle%%evtloc%\\stress_events" "temp\\ck3%gle%%evtloc%\\stress_events" "%charset%"
-java -jar "%parser%" "%fte%" "temp\\supply%gle%%evtloc%\\struggle_events" "temp\\ck3%gle%%evtloc%\\struggle_events" "%charset%"
 java -jar "%parser%" "%fte%" "temp\\supply%gle%%evtloc%\\trait_specific_events" "temp\\ck3%gle%%evtloc%\\trait_specific_events" "%charset%"
 java -jar "%parser%" "%fte%" "temp\\supply%gle%%evtloc%\\yearly_events" "temp\\ck3%gle%%evtloc%\\yearly_events" "%charset%"
 java -jar "%parser%" "%fte%" "temp\\supply%gle%%evtloc%\\war_event" "temp\\ck3%gle%%evtloc%\\war_event" "%charset%"

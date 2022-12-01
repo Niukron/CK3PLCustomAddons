@@ -22,7 +22,7 @@
  doctrine_parameter_divine_marriage_piety_gain_active: "The [GetFaithDoctrine('doctrine_monogamy').GetBaseName] marriage bonus also grants a large amount of [piety|E] if you are marrying a [close_family|E] member"
  tenet_pacifism_name: "Pacifism"
  tenet_pacifism_desc: "Violence is an abhorrent act that only leads to suffering, pain, and regret. By working to avoid it whenever possible we can build stronger, more secure societies for the faithful to live in."
- doctrine_parameter_holy_wars_forbidden: "Can not declare [holy_wars|E] or [raid|E]"
+ doctrine_parameter_holy_wars_forbidden: "Cannot declare [holy_wars|E] or [raid|E]"
  doctrine_parameter_pacifist_opinion_active: ""
  pacifist_opinion_active_opinion_name: "Fellow Pacifist"
  pacifist_opinion_active_county_opinion_name: "Fellow Pacifist County"

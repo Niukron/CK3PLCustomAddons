@@ -263,4 +263,4 @@
  yearly.8500.desc.a:0 "The situation you are in is unfortunate. Still, I offer you this gift, so that you may triumph in this perilous time.\n\nI pray that [current_head_of_faith.GetFaith.HighGodName] stays on your side."
  yearly.8500.desc.b:0 "Your righteous struggle against the unbelievers has not gone unnoticed. I have personally dispatched an emissary carrying enough coin to see you through this tumultous time.\n\nMay [current_head_of_faith.GetFaith.HighGodName] protect you."
  yearly.8500.a:0 "I'm on my knees, praising [current_head_of_faith.GetFaith.HighGodName]!"
- yearly.8500.b:0 "I can not possibly accept this gift, it is too much."
+ yearly.8500.b:0 "I cannot possibly accept this gift, it is too much."

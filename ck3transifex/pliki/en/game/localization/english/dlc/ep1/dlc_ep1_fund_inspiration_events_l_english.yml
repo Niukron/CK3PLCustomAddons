@@ -557,7 +557,7 @@
  fund_inspiration.5021.b: "Life is an adventure, explore that area for artifacts!"
  fund_inspiration.5021.b.tt: "[inspiration_owner.GetTitledFirstNameNoTooltip] explores [adventuring_location.GetNameNoTierNoTooltip]."
  fund_inspiration.6001.t: "The Steppe and saddle gallop through my heart,"
- fund_inspiration.6001.desc: "I have riding for months on end. My rear shall never recover! I've acquired quite the taste for fermented mare's milk and nights beneath the open sky.\n\nWith this courier, I send a carved tip of a Morin Khuur — the decorative horse head placed atop instruments. Perhaps you have a use for it."
+ fund_inspiration.6001.desc: "I have been riding for months on end. My rear shall never recover! I've acquired quite the taste for fermented mare's milk and nights beneath the open sky.\n\nWith this courier, I send a carved tip of a Morin Khuur — the decorative horse head placed atop instruments. Perhaps you have a use for it."
  fund_inspiration.6001.a: "I'll hold onto this!"
  fund_inspiration.6001.b: "Send it to the Court Musician."
  fund_inspiration.6002.t: "My jaunt through India marches on!"

@@ -57,7 +57,7 @@
  FACTION_WINDOW_PRESS_DEMANDS: "Press Demands"
  FACTION_WINDOW_PRESS_DEMANDS_TT_TITLE: "#T Press Demands#!"
  FACTION_WINDOW_PRESS_DEMANDS_TT_DESC: "The [faction|E] will send an ultimatum to the faction target. If accepted the faction's demands will be fulfilled. If the target does not accept there will be [civil_war|E]!"
- FACTION_WINDOW_PRESS_DEMANDS_TT_CANT_WAR: "@warning_icon!#X Can not press demands while the faction is in war#!"
+ FACTION_WINDOW_PRESS_DEMANDS_TT_CANT_WAR: "@warning_icon!#X Cannot press demands while the faction is in war#!"
  FACTION_WINDOW_PRESS_DEMANDS_TT_CANT_DATE: "@warning_icon!#X You have to wait until [DATE.GetString|V] before you can press the demands of this faction again#!"
  FACTION_WINDOW_PRESS_DEMANDS_TT_LEADER_PLAYER: "Faction leader is a player, so demands can be sent in spite of discontent and [faction_military_power|E] thresholds"
  FACTION_WINDOW_PRESS_DEMANDS_TT_CANT_DISCONTENT: "@warning_icon!#X The faction discontent must be over $THRESHOLD|%0V$ to be able to press demands#!"

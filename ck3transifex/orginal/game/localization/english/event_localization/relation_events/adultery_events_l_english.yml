@@ -140,8 +140,9 @@
  adultery.2001.a:0 "I need to make sure!"
  adultery.2001.b:0 "Of course [adultery_child.GetSheHe] is my [adultery_child.Custom('GetDaughterSon')]."
  adultery.2001.a.tt:0 "If [adultery_child.GetFirstNameNoTooltip] is not my trueborn child:"
- adultery.2001.a.duel_success:0 "I discover the truth"
- adultery.2001.a.duel_failure:0 "My fears are unfounded"
+ adultery.2001.a.duel_success:1 "I successfully spy on my family"
+ adultery.2001.a.duel_success.tooltip:0 "You discover the truth, whatever it may be"
+ adultery.2001.a.duel_failure:1 "I get caught attempting to uncover the truth"
 
  adultery.2002.t_a:0 "Our Child"
  adultery.2002.desc_no_child:0 "I wave at my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('adultery_spouse'))] [adultery_spouse.GetTitledFirstName] as [adultery_spouse.GetSheHe] walks across the garden, but [adultery_spouse.GetSheHe] demonstratively turns away.\n\nMy initial concerns about [adultery_spouse.GetHerHis] faithfulness seem to have been misgivings. However, [adultery_spouse.GetFirstNameNoTooltip] is not like to forget them anytime soon."

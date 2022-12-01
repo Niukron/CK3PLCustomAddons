@@ -6,7 +6,7 @@
  struggle_parameter_unlocks_fabricate_hooks_for_all: "Unlocks the [GetScheme('fabricate_hook').GetTypeName] [scheme|E] against [struggle_involved|E] [rulers|E]"
  struggle_parameter_unlocks_claim_throne_for_all: "Unlocks the [GetScheme('claim_throne').GetTypeName] [scheme|E] against [struggle_involved|E] [rulers|E]"
  struggle_parameter_unlocks_incite_revolts_interaction: "Unlocks the [incite_revolts_interaction|E] [interaction|E] against [struggle_involved|E] [rulers|E]"
- struggle_parameter_unlocks_forced_vassalization_casus_belli: "Unlocks the [vassalize_casus_belli|E] [casus_belli|E]"
+ struggle_parameter_unlocks_forced_vassalization_casus_belli: "Unlocks the [vassalize_casus_belli|E]"
  struggle_parameter_powerful_vassal_can_claim_liege_titles: "Unlocks the $vassal_claim_liege_title_interaction$ [interaction|E] for [powerful_vassals|E]"
  struggle_parameter_unlocks_claim_throne_for_powerful_vassals: "Unlocks the [GetScheme('claim_throne').GetTypeName] [scheme|E] for [powerful_vassals|E] against [struggle_involved|E] [rulers|E]"
  struggle_parameter_holy_order_can_be_created_by_dukes: "Enables [holy_order|E] creation for Dukes"
