@@ -203,7 +203,7 @@
  petition_liege.0501.refuse_tt: ""
  petition_liege.0601.t: ""
  petition_liege.0601.desc.court: ""
- petition_liege.0601.desc.imprisoned_me: "$petition_liege.0601_shared_intro$ [ROOT.Char.GetImprisonedBy.GetTitledFirstName] wtrącił[Select_CString( ROOT.Char.GetImprisonedBy.IsFemale, 'a', 'y )] mnie do więzienia."
+ petition_liege.0601.desc.imprisoned_me: "$petition_liege.0601_shared_intro$ [ROOT.Char.GetImprisonedBy.GetTitledFirstName] wtrącił[Select_CString( ROOT.Char.GetImprisonedBy.IsFemale, 'a', 'y' )] mnie do więzienia."
  petition_liege.0601.desc.imprisoned: ""
  petition_liege.0601.desc.liege_dead_me: ""
  petition_liege.0601.desc.liege_dead: ""

@@ -47,7 +47,7 @@
  learn_language_ongoing.1060.t: "$learn_language$: Błędne tłumaczenie"
  learn_language_ongoing.1060.desc: "„... alchemik sięgnął po [target.Custom('RandomWeirdObject')], podczas gdy [target.Custom('lowly_servant_type')] patrzył[Select_CString( target.IsFemale, 'a', '' )] na niego z przerażeniem, a potem...” — przerywa mi nagle wściekł[Select_CString( offended_character.IsFemale, 'a', 'y' )] [offended_character.GetTitledFirstName].\n\n„Czy ty w odniesieniu do moje[Select_CString( offended_character.IsFemale, 'j matki', 'go ojca' )] użył[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )] określeń «[offended_character.Custom('InsultNoun')]» oraz «[offended_character.Custom('InsultNounSexual')]»?” — krzyczy. „Żądam zadośćuczynienia za tę ciężką zniewagę!”\n\nPrawdopodobnie mój język [scheme.GetTarget.GetCulture.GetLanguage.GetName|l] wymaga nieco więcej praktyki..."
  learn_language_ongoing.1060.a: "Strasznie mi przykro! Mam nadzieję, że to wystarczy."
- learn_language_ongoing.1060.b: ""
+ learn_language_ongoing.1060.b: "Och, źle usłyszał[Select_CString( offended_character.IsFemale, 'aś', 'eś' )]! Powiedział[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )]: #EMP [offended_character.Custom('ComplimentAdjective')]#! oraz #EMP [offended_character.Custom('RomanticComplimentNoun')]!#!"
  learn_language_ongoing.1060.c: "Hah! Dokładnie tak. [offended_character.GetSheHe|U] jest także #EMP [offended_character.Custom('InsultAdjective')]!#!"
  learn_language_ongoing.1060.d: "Ja tylko ćwiczę język [scheme.GetTarget.GetCulture.GetLanguage.GetNameNoTooltip|l]! Źle się wyraził[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )]!"
  extra_careful_modifier: "Szczególna ostrożność"

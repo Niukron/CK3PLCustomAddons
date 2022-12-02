@@ -545,7 +545,7 @@
  culture_parameter_facilitate_alliance_acceptance: "Akceptacja negocjowanego [Concept( 'alliance', 'sojuszu' )|E]: #P +50#!"
  culture_parameter_facilitate_white_peace: "Akceptacja [Concept( 'white_peace', 'białego pokoju')|E]: #P +10#!"
  culture_parameter_more_frequent_hunts: "Czas pomiędzy [Concept( 'activities', 'organizowaniem' )|E] [Concept( 'hunt', 'polowania' )|E]: #P -50%#!"
- culture_parameter_cannot_hunt: ""
+ culture_parameter_cannot_hunt: "Nie można [Concept( 'activity', 'zorganizować' )|E] [Concept( 'hunt', 'polowania' )|E]"
  culture_parameter_sacred_hunts: "Ukończenie [Concept( 'hunt', 'polowania' )|E] zapewnia [piety_i][piety|El]"
  culture_parameter_hunting_traits_more_common: "[characters|E] znacznie częściej zyskują [Concept( 'traits', 'cechę' )|E] [GetTrait('hunter_2').GetName( GetNullCharacter )|l]"
  culture_parameter_reveler_traits_more_common: "[characters|E] znacznie częściej zyskują [Concept( 'traits', 'cechę' )|E] [GetTrait('reveler_2').GetName( GetNullCharacter )|l]"
