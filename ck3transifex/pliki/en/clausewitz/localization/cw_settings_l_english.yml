@@ -5,6 +5,7 @@
  SETTING_VALUE_SECONDS: "$VALUE$ seconds"
  SETTING_VALUE_MINUTES: "$VALUE$ minutes"
  SETTING_RENDERER: "Renderer"
+ SETTING_RENDERER_TOOLTIP: "Determines which renderer is being used."
  SETTING_VSYNC: "VSync"
  SETTING_VSYNC_TOOLTIP: "#T $SETTING_VSYNC$\n#!Makes the game and your monitor have the same frame rate, reducing screen tearing.\n\nTurning it off may increase performance."
  SETTING_PORTRAIT_MULTI_SAMPLING: "Portrait MultiSampling"
