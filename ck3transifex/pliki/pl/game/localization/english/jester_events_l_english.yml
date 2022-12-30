@@ -9,7 +9,7 @@
  jester.200.desc: ""
  jester.200.a: ""
  jester.200.b: ""
- death_laughter: ""
+ death_laughter: "zmarł[Select_CString( ROOT.Char.IsFemale, 'a', '' )] z powodu nadmiernego śmiechu"
  jester.300.t: "$court_jester_prefix$Mistrzowskie żonglowanie"
  jester.300.desc: ""
  jester.300.desc_child: ""
