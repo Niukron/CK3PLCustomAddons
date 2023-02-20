@@ -5112,7 +5112,7 @@ GetExpensiveDessertNarz = {
 }
 
 GetExpensiveDessertDop = {
-	parent = GetExpensiveDessertInTheFace
+	parent = GetExpensiveDessert
 	suffix = "_dop"
 }
 
