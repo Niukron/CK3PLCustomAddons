@@ -4574,6 +4574,11 @@ ArtifactArticleWealthMasculine = {
 	suffix = "_masc"
 }
 
+ArtifactArticleWealthAccusativeFem = {
+	parent = ArtifactArticleWealth
+	suffix = "_acc_fem"
+}
+
 #v1.5 - original
 InspirationAdventureDestination = {
 	type = character

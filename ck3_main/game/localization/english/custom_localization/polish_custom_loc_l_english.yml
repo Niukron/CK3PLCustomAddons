@@ -2803,6 +2803,15 @@
  article_wealth_ornate_masc:0 "Ozdobny"
  article_wealth_fancy_masc:0 "Wyszukany"
  article_wealth_plain_masc:0 "Zwykły"
+
+ #ArtifactArticleWealthAccusativeFem
+ article_wealth_extravagant_acc_fem:0 "Ekstrawagancką"
+ article_wealth_opulent_acc_fem:0 "Bogatą"
+ article_wealth_beautiful_acc_fem:0 "Piękną"
+ article_wealth_elegant_acc_fem:0 "Elegancką"
+ article_wealth_ornate_acc_fem:0 "Ozdobną"
+ article_wealth_fancy_acc_fem:0 "Wyszukaną"
+ article_wealth_plain_acc_fem:0 "Zwykłą" 
  
  #RandomWeirdObject_dative
  turnip_shaped_like_me_dative:0 "rzepie w kształcie mojej głowy"
