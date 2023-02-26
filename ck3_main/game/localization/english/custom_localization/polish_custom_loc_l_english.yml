@@ -3037,3 +3037,9 @@
  artifact_animal_renowned_accusative_fem:0 "znaną"
  artifact_animal_adjective_great_accusative_fem:0 "wielką"
  artifact_animal_adjective_mighty_accusative_fem:0 "potężną"
+
+ #TrinketLookAdjectiveMasc
+ trinket_look_adorned_masc:0 "ustrojony"
+ trinket_look_decorated_masc:0 "udekorowany"
+ trinket_look_embellished_masc:0 "uświetniony"
+ trinket_look_ornamented_masc:0 "zdobiony"

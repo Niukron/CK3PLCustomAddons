@@ -5633,3 +5633,48 @@ ArtifactAnimalAdjectiveAccFem = {
 	parent = ArtifactAnimalAdjective
 	suffix = "_accusative_fem"
 }
+
+#1.8.1 - original
+TrinketLookAdjective = {
+	type = character
+	random_valid = yes
+
+	#Adorned
+	text = {
+		trigger = {
+			exists = var:trinket_adjective_followup
+			var:trinket_adjective_followup = flag:adorned
+		}
+		localization_key = trinket_look_adorned
+	}
+	#Decorated
+	text = {
+		trigger = {
+			exists = var:trinket_adjective_followup
+			var:trinket_adjective_followup = flag:decorated
+		}
+		localization_key = trinket_look_decorated
+	}
+	#Embellished
+	text = {
+		trigger = {
+			exists = var:trinket_adjective_followup
+			var:trinket_adjective_followup = flag:embellished
+		}
+		localization_key = trinket_look_embellished
+	}
+	#Ornamented
+	text = {
+		trigger = {
+			exists = var:trinket_adjective_followup
+			var:trinket_adjective_followup = flag:ornamented
+		}
+		localization_key = trinket_look_ornamented
+	}
+}
+
+#1.8.1
+TrinketLookAdjectiveMasc = {
+	parent = TrinketLookAdjective
+	suffix = "_masc"
+}
