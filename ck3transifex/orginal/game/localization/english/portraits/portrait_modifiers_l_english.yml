@@ -298,6 +298,13 @@
 
 
 
+ PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_sp2_western_imp_01:0 "Emperor's Tunic"
+
+
+ PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_sp2_western_imp_01:0 "Empress' Gown"
+
+
+
  PORTRAIT_MODIFIER_custom_headgear_no_headgear:1 "No Headwear"
  PORTRAIT_MODIFIER_custom_headgear_male_empty:0 "$PORTRAIT_MODIFIER_custom_headgear_no_headgear$"
  PORTRAIT_MODIFIER_custom_headgear_boy_empty:0 "$PORTRAIT_MODIFIER_custom_headgear_no_headgear$"
@@ -494,6 +501,16 @@
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_fp2_iberian_muslim_war_nobility_01:1 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp2_iberian_muslim_war_nobility_01$"
 
 
+
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_sp2_western_imp_01:0 "Imperial Crown of Hildesheim"
+ PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_sp2_western_hi_nob_01:0 "Jewelry-Adorned Cap"
+
+
+ PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_sp2_western_imp_01:0 "Crown of Cunigunde"
+ PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_sp2_western_hi_nob_01:0 "Circlet with Pearls and Gemstones"
+
+
+
  PORTRAIT_MODIFIER_custom_special_male_headgear_special_spectacles_01:0 "Spectacles"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_special_spectacles_01:0 "$PORTRAIT_MODIFIER_custom_special_male_headgear_special_spectacles_01$"
  PORTRAIT_MODIFIER_custom_special_male_headgear_special_eye_patch_01:0 "Eye Patch"
@@ -663,6 +680,9 @@
  PORTRAIT_MODIFIER_custom_beards_male_beard_fp2_iberian_christian_04:0 "Droopy Mustache"
 
 
+ PORTRAIT_MODIFIER_custom_beards_m_beard_sp2_western_01:0 "Regal Mustache"
+
+
  PORTRAIT_MODIFIER_custom_cloaks:0 "Cloak"
  PORTRAIT_MODIFIER_custom_cloaks_no_cloak:0 "No Cloak"
  PORTRAIT_MODIFIER_custom_cloaks_male_empty:0 "$PORTRAIT_MODIFIER_custom_cloaks_no_cloak$"
@@ -684,6 +704,12 @@
  PORTRAIT_MODIFIER_custom_cloaks_female_cloaks_secular_fp1_nobility_01:0 "Shieldmaiden's Cloak"
  PORTRAIT_MODIFIER_custom_cloaks_female_cloaks_secular_fp1_nobility_02:0 "Chieftess' Cloak"
  PORTRAIT_MODIFIER_custom_cloaks_female_cloaks_secular_fp1_nobility_03:0 "Norse Shoulder Wrap"
+
+
+ PORTRAIT_MODIFIER_custom_cloaks_m_cloaks_sec_sp2_western_imp_01:0 "Coronation cloak"
+
+
+ PORTRAIT_MODIFIER_custom_cloaks_f_cloaks_sec_sp2_western_imp_01:0 "$PORTRAIT_MODIFIER_custom_cloaks_m_cloaks_sec_sp2_western_imp_01$"
 
 
  PORTRAIT_MODIFIER_custom_hair_female_hair_rtt_01:0 "Miller"

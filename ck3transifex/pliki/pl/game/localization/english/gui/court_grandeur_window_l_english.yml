@@ -13,7 +13,7 @@
  EXPECTED_LEVEL_MARKER_EQUAL: "Zgodnie z oczekiwaniami"
  EXPECTED_LEVEL_MARKER_ABOVE: "$EXPECTED_LEVEL_MARKER_DIFFERENCE_ABS$ Powyżej oczekiwań"
  EXPECTED_LEVEL_MARKER_BELOW: "$EXPECTED_LEVEL_MARKER_DIFFERENCE_ABS$ Poniżej oczekiwań"
- COURT_GRANDEUR_EXPECTATIONS_TOOLTIP: ""
+ COURT_GRANDEUR_EXPECTATIONS_TOOLTIP: "Twój [royal_court|El ] jest o #V $EXPECTED_LEVEL_MARKER_DIFFERENCE_ABS$#! [court_grandeur_level|El] [Select_CString( LessThan_int32( CourtGrandeurData.GetDifferenceFromExpectedLevel, '(int32)0' ), 'poniżej', 'powyżej' )] tego, co jest oczekiwane dla [Concept( 'realm_size', 'rozmiaru twojego państwa')|E] i [Concept( 'rank', 'rangi' )|E].\n\n#S Efekty#!\n[Character.GetCourtGrandeurDiffFromExpectedLevelModifierCombinedDescription]"
  COURT_GRANDEUR_GRACE_PERIOD_LEVEL_EFFECT_TOOLTIP: ""
  COURT_GRANDEUR_GRACE_PERIOD_NO_LEVEL_EFFECT_TOOLTIP: ""
  COURT_GRANDEUR_GRACE_PERIOD_TOOLTIP: ""
