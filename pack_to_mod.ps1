@@ -65,9 +65,7 @@ try {
     $txcfgfile = Get-Content -Path "$env:USERPROFILE\.transifexrc" -ErrorAction Stop
 }
 catch {
-    Write-Host "Błąd: Nie udało się wczytać pliku. Szczegóły: $_"
-	pause
-	exit
+    Write-Host "INFO: Nie znaleziono klucza API. Proszę go podać w dalszej części skryptu. $_" -ForegroundColor Yellow
 }
 
 
