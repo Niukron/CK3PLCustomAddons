@@ -61,11 +61,10 @@ $ask_to_version_update = 0
 $script_folder = $PSScriptRoot
 
 
-try {
-    $txcfgfile = Get-Content -Path "$env:USERPROFILE\.transifexrc" -ErrorAction Stop
-}
-catch {
-    Write-Host "INFO: Nie znaleziono klucza API. Proszę go podać w dalszej części skryptu. $_" -ForegroundColor Yellow
+
+if(-Not (Test-Path -Path "$env:USERPROFILE\.transifexrc"))
+{
+    Write-Host "INFO: Nie znaleziono pliku .transifexrc. Proszę podać klucz API w dalszej części skryptu. $_" -ForegroundColor Yellow
 }
 
 
