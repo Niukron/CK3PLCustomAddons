@@ -256,14 +256,8 @@ remote_file_id="'+$REMOTE_FILE_ID+'"'
 	Copy-item -Force ($ModDir + '\localization\replace\game\localization\languages.yml') -Destination ($ModDir + '\localization\')
 	Remove-Item -Path ($ModDir + '\localization\replace\game') –recurse -force
 	
-	$daily = ""
-	
-	if((get-date).dayofweek -ne "Friday") {
-		$daily = "-daily"
-	}
-	
 	$version_search_string = '\[GetGameVersionInfo\]'
-	$version_replace_string = '[GetGameVersionInfo]\nWersja spolszczenia: #bold v'+$MOD_VERSION+$daily+'#!'
+	$version_replace_string = '[GetGameVersionInfo]\nWersja spolszczenia: #bold v'+$MOD_VERSION+'#!'
 	$common_l = $ModDir_YML+'\english\gui\common_l_english.yml'
 	
 	(Get-Content $common_l) -replace $version_search_string, $version_replace_string  | Set-Content -Encoding UTF8 $common_l
