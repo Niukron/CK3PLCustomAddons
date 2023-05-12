@@ -1887,6 +1887,10 @@
  body_of_water_an_oasis_genitive:0 "oazy"
  body_of_water_the_ocean_genitive:0 "oceanu"
  body_of_water_a_lake_genitive:0 "jeziora"
+ body_of_water_a_river_genitive:0 "rzeki"
+ body_of_water_a_large_pond_genitive:0 "dużego stawu"
+ body_of_water_a_lagoon_genitive:0 "zalewu"
+ body_of_water_a_watering_hole_genitive:0 "wodopoju"
 
  #martial_skill_level_genitive etc.
  skill_level_terrible_genitive:0 "beznadziejnej"
