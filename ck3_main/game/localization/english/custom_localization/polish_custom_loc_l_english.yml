@@ -1831,21 +1831,6 @@
  terrain_floodplains_in_mie:0 "na terenach zalewowych"
  terrain_drylands_in_mie:0 "na terenach suchych"
  
- #Zwierzęta - Dopełniacz
- #LocalAnimalDop
- animal_hart_dop:0 "rogacza"
- animal_stag_dop:0 "jelenia"
- animal_boar_dop:0 "dzika"
- animal_wolf_dop:0 "wilka"
- animal_fox_dop:0 "lisa"
- animal_hare_dop:0 "zająca"
- animal_lion_dop:0 "lwa"
- animal_tiger_dop:0 "tygrysa"
- animal_bear_dop:0 "niedźwiedzia"
- animal_lynx_dop:0 "rysia"
- animal_unicorn_dop:0 "jednorożca"
- animal_dragon_dop:0 "smoka"
- 
  #my_prison_pet
  prison_pet_rat_my:0 "mój szczur"
  prison_pet_stone_my:0 "mój kamień"
