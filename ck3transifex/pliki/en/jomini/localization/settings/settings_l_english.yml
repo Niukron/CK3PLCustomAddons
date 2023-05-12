@@ -25,6 +25,7 @@
  SETTINGS_CATEGORY_GUI: "GUI"
  SETTINGS_CATEGORY_INPUT_BINDINGS: "Input Bindings"
  DISCARD: "Discard"
+ APPLY: "Apply"
  SAVE_AND_CLOSE: "OK"
  SETTINGS: "Settings"
  REQUIRES_RESTART: "Requires restart"

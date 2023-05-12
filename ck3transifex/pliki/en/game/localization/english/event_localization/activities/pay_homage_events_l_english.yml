@@ -87,3 +87,4 @@
  pay_homage.0601.a_prison: "Drat."
  pay_homage.0601.a_liege: "Most vexing..."
  pay_homage.0601.a: "Time to rethink things..."
+ pay_homage_costs_refunded: "$pay_homage_decision$ costs refunded"

@@ -18,4 +18,4 @@
  fp2_votive_crowns: "Wizygocka korona wotywna"
  fp2_votive_crowns_desc: "Koronę wotywną, przeznaczoną do wieszania nad ołtarzami kościelnymi lub wokół nich, a czasem na posągach, ofiarowuje się Bogu, aby wyrazić poddanie wobec władzy wyższej niż królewska."
  fp2_andalusian_aquamanile: "Rytualna akwamanila"
- fp2_andalusian_aquamanile_desc: "Piękny dzban wykonany z [newly_created_artifact.GetFeatureText( 'goblet_material' )], ze zdobieniami ze złoconego [newly_created_artifact.GetFeatureText( 'decoration_material_inlay' )], przeznaczony do przechowywania wody, którą rytualnie obmywa się ręce."
+ fp2_andalusian_aquamanile_desc: "Piękny dzban wykonany [newly_created_artifact.GetFeatureText( 'goblet_material' )], ze zdobieniami ze złoconego [newly_created_artifact.GetFeatureText( 'decoration_material_inlay' )], przeznaczony do przechowywania wody, którą rytualnie obmywa się ręce."

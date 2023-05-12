@@ -50,6 +50,8 @@
  paternal: "paternal"
  spouse_bride: "bride"
  spouse_groom: "groom"
+ relation_nemesis: "nemesis"
+ relation_rival: "rival"
  peasant_profession_miller: "miller"
  peasant_profession_millers_wife: "miller's wife"
  peasant_profession_millers_husband: "miller's husband"

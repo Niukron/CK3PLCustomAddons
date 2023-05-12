@@ -3,3 +3,4 @@
  renewed_attention: "Renewed Attention"
  statecraft_family_meaning_opinion: "Meaning of Family"
  perk_negotiated_alliance_opinion: "Alliance Deal"
+ event_negotiated_alliance_opinion: "$perk_negotiated_alliance_opinion$"

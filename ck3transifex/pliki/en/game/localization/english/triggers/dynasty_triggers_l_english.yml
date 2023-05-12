@@ -10,3 +10,4 @@
  DYNASTY_PRESTIGE_LEVEL_TRIGGER: "[dynasty_prestige_level|E]: $NUM|V0$"
  HAS_DYNASTY_TRIGGER: "Is a member of a [dynasty|E]"
  DYNASTY_NUM_UNLOCKED_PERKS: "Number of unlocked perks: $NUM|V0$"
+ HAS_DYNASTY_PERK_NONE: "[dynasty|E] has the [DYNASTY_PERK.GetName] Legacy"

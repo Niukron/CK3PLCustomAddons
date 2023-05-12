@@ -1,0 +1,5 @@
+﻿l_english:
+ rival_race_sabotage_accusation: "[CHARACTER.GetShortUIName|U] accused [TARGET_CHARACTER.GetShortUIName] of treacherous sabotage after a racing collision."
+ rival_race_sabotage_accusation_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] accused [CHARACTER.GetShortUIName] of treacherous sabotage after a racing collision."
+ friend_shared_disappointment: "[CHARACTER.GetShortUINamePossessive|U] kindness after a shared loss at the races birthed a bond from disappointment."
+ friend_shared_disappointment_corresponding: "[TARGET_CHARACTER.GetShortUINamePossessive|U] kindness after a shared loss at the races birthed a bond from disappointment."

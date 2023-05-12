@@ -98,7 +98,7 @@
  SUCCESSION_EVENT_WINDOW_DEAD_OUTRO_PERSONALITY_COMPASSIONATE: "Known to be a kind, compassionate soul, [ROOT.Char.GetSheHe] will be remembered fondly by [ROOT.Char.GetHerHis] friends."
  SUCCESSION_EVENT_WINDOW_DEAD_OUTRO_PERSONALITY_PATIENT: "Never one to raise [ROOT.Char.GetHerHis] voice, [ROOT.Char.GetSheHe] was a paragon of patience."
  SUCCESSION_EVENT_WINDOW_DEAD_OUTRO_PERSONALITY_HUMBLE: "A humble [ROOT.Char.GetWomanMan], [ROOT.Char.GetSheHe] never wanted anyone to make a fuss over [ROOT.Char.GetHerHis] accomplishments."
- SUCCESSION_EVENT_WINDOW_HEIR_UNDERAGE: "Merely [ROOT.Char.GetAge] years old, [ROOT.Char.GetSheHe] will need to rely on the Council during [ROOT.Char.GetHerHis] first years of rule."
+ SUCCESSION_EVENT_WINDOW_HEIR_UNDERAGE: "Merely [ROOT.Char.GetAge] years old, [ROOT.Char.GetSheHe] will need to rely on [ROOT.Char.GetHerHis] [ROOT.Char.GetDiarchTitle] [ROOT.Char.GetDiarchy.GetDiarch.GetTitledFirstNameNicknamedNoTooltip] during [ROOT.Char.GetHerHis] first years of rule."
  SUCCESSION_EVENT_WINDOW_HEIR_USELESS: "Having no skills with which to keep the realm together, [ROOT.Char.GetHerHis] rule may be doomed to fail."
  SUCCESSION_EVENT_WINDOW_HEIR_MILITARY: "Being a talented military tactician, many expect [ROOT.Char.GetHerHim] to lead the realm to many victories on the field of battle."
  SUCCESSION_EVENT_WINDOW_HEIR_LEARNING: "A wise and learned [ROOT.Char.GetWomanMan], progress and innovation is expected under [ROOT.Char.GetHerHis] rule."

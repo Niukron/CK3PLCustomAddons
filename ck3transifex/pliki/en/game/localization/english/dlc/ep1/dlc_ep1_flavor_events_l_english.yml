@@ -271,7 +271,7 @@
  ep1_flavor.2040.desc.outro_bad_praise: "\"What an excellent piece of [exotic_blade_holder.GetPrimaryTitle.GetNameNoTierNoTooltip] workmanship! Just look how shiny it is!\""
  ep1_flavor.2040.a: "\"I suppose I could part with it...\""
  ep1_flavor.2040.tt_my: "You will lose your [my_artifact.GetName]"
- ep1_flavor.2040.tt_exotic: "You will become the owner of [exotic_blade.GetName]"
+ ep1_flavor.2040.tt_exotic: "You will become the owner of [exotic_blade.GetNameNoTooltip]"
  ep1_flavor.2040.toast: "The [exotic_blade.GetType|l] is splendid"
  ep1_flavor.2040.toast_poor: "The [exotic_blade.GetType|l] is lackluster"
  ep1_flavor.2040.b: "\"Fetch my coin-purse!\""

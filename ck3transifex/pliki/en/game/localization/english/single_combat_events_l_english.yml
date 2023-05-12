@@ -44,6 +44,7 @@
  single_combat.0041.desc.result.mistake: "#BOL Result:#! I win the [single_combat_fight|E] against [sc_loser.GetFirstNameNoTooltip] due to [sc_loser.GetHerHis] [single_combat_injury_chance_injury_risk|E] score"
  single_combat.0041.desc.result.sudden_death: "#BOL Result:#! I win the [single_combat_fight|E] against [sc_loser.GetFirstNameNoTooltip] due to [single_combat_fight_sudden_death|E]"
  single_combat.result.tt.temporary_modifiers_removed: "All temporary combat [character_modifiers|E] have been removed"
+ single_combat.result.tt.practice_no_wounds: "As this was a restrained bout, neither of you are wounded"
  single_combat.0001.desc.injury_check.personal.very_unlikely: "\n\nMy form is excellent, with little chance for mistake,"
  single_combat.0001.desc.injury_check.personal.unlikely: "\n\nMy form is good, with only small errors,"
  single_combat.0001.desc.injury_check.personal.moderate: "\n\nMy form is decent, with some lapses,"

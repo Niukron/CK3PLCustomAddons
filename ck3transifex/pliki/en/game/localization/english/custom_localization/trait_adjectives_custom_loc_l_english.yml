@@ -11,3 +11,8 @@
  trait_desc_rapacious: "rapacious"
  trait_desc_acquisitive: "acquisitive"
  trait_desc_avaricious: "avaricious"
+ childhood_trait_activity_bossy: "train a new minion"
+ childhood_trait_activity_charming: "make a new friend"
+ childhood_trait_activity_curious: "learn something new"
+ childhood_trait_activity_pensive: "get some time alone"
+ childhood_trait_activity_rowdy: "be the life of the party"

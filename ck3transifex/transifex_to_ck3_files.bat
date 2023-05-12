@@ -15,6 +15,8 @@ rd /s /q temp
 echo "Starting compiling latest source strings directory for CK3 format into the temp supply directory"
 ::game
 java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%" "pliki\\en%gle%" "temp\\supply%gle%" yaml
+java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%\\accolades" "pliki\\en%gle%\\accolades" "temp\\supply%gle%\\accolades" yaml
+java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%\\activities" "pliki\\en%gle%\\activities" "temp\\supply%gle%\\activities" yaml
 java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%\\artifacts" "pliki\\en%gle%\\artifacts" "temp\\supply%gle%\\artifacts" yaml
 java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%\\bookmark" "pliki\\en%gle%\\bookmark" "temp\\supply%gle%\\bookmark" yaml
 java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%\\credits" "pliki\\en%gle%\\credits" "temp\\supply%gle%\\credits" yaml
@@ -22,9 +24,17 @@ java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%\\culture" "pliki\\en%gle%\\cult
 java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%\\culture\\traditions" "pliki\\en%gle%\\culture\\traditions" "temp\\supply%gle%\\culture\\traditions" yaml
 java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%\\dlc\\bp1" "pliki\\en%gle%\\dlc\\bp1" "temp\\supply%gle%\\dlc\\bp1" yaml
 java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%\\dlc\\ep1" "pliki\\en%gle%\\dlc\\ep1" "temp\\supply%gle%\\dlc\\ep1" yaml
+java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%\\dlc\\ep2" "pliki\\en%gle%\\dlc\\ep2" "temp\\supply%gle%\\dlc\\ep2" yaml
+java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%\\dlc\\ep2\\dynasty_legacies" "pliki\\en%gle%\\dlc\\ep2\\dynasty_legacies" "temp\\supply%gle%\\dlc\\ep2\\dynasty_legacies" yaml
+java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%\\dlc\\ep2\\pulse actions" "pliki\\en%gle%\\dlc\\ep2\\pulse actions" "temp\\supply%gle%\\dlc\\ep2\\pulse actions" yaml
+java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%\\dlc\\ep2\\tour" "pliki\\en%gle%\\dlc\\ep2\\tour" "temp\\supply%gle%\\dlc\\ep2\\tour" yaml
+java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%\\dlc\\ep2\\tournament" "pliki\\en%gle%\\dlc\\ep2\\tournament" "temp\\supply%gle%\\dlc\\ep2\\tournament" yaml
+java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%\\dlc\\ep2\\travel" "pliki\\en%gle%\\dlc\\ep2\\travel" "temp\\supply%gle%\\dlc\\ep2\\travel" yaml
+java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%\\dlc\\ep2\\wedding" "pliki\\en%gle%\\dlc\\ep2\\wedding" "temp\\supply%gle%\\dlc\\ep2\\wedding" yaml
 java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%\\dlc\\fp1" "pliki\\en%gle%\\dlc\\fp1" "temp\\supply%gle%\\dlc\\fp1" yaml
 java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%\\dlc\\fp2" "pliki\\en%gle%\\dlc\\fp2" "temp\\supply%gle%\\dlc\\fp2" yaml
 java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%\\custom_localization" "pliki\\en%gle%\\custom_localization" "temp\\supply%gle%\\custom_localization" yaml
+java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%\\diarchies" "pliki\\en%gle%\\diarchies" "temp\\supply%gle%\\diarchies" yaml
 java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%\\dynasties" "pliki\\en%gle%\\dynasties" "temp\\supply%gle%\\dynasties" yaml
 java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%\\dynasty_legacies" "pliki\\en%gle%\\dynasty_legacies" "temp\\supply%gle%\\dynasty_legacies" yaml
 java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%\\enum" "pliki\\en%gle%\\enum" "temp\\supply%gle%\\enum" yaml
@@ -65,6 +75,7 @@ java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%%evtloc%\\secret_events" "pliki\
 java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%%evtloc%\\story_cycles" "pliki\\en%gle%%evtloc%\\story_cycles" "temp\\supply%gle%%evtloc%\\story_cycles" yaml
 java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%%evtloc%\\stress_events" "pliki\\en%gle%%evtloc%\\stress_events" "temp\\supply%gle%%evtloc%\\stress_events" yaml
 java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%%evtloc%\\trait_specific_events" "pliki\\en%gle%%evtloc%\\trait_specific_events" "temp\\supply%gle%%evtloc%\\trait_specific_events" yaml
+java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%%evtloc%\\travel_events" "pliki\\en%gle%%evtloc%\\travel_events" "temp\\supply%gle%%evtloc%\\travel_events" yaml
 java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%%evtloc%\\yearly_events" "pliki\\en%gle%%evtloc%\\yearly_events" "temp\\supply%gle%%evtloc%\\yearly_events" yaml
 java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%%evtloc%\\war_event" "pliki\\en%gle%%evtloc%\\war_event" "temp\\supply%gle%%evtloc%\\war_event" yaml
 java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%\\gui" "pliki\\en%gle%\\gui" "temp\\supply%gle%\\gui" yaml
@@ -89,7 +100,6 @@ java -jar "%parser%" "%sup%" "pliki\\%lang%%jom%\\credits" "pliki\\en%jom%\\cred
 java -jar "%parser%" "%sup%" "pliki\\%lang%%jom%\\frontend" "pliki\\en%jom%\\frontend" "temp\\supply%jom%\\frontend" yaml
 java -jar "%parser%" "%sup%" "pliki\\%lang%%jom%\\jomini" "pliki\\en%jom%\\jomini" "temp\\supply%jom%\\jomini" yaml
 java -jar "%parser%" "%sup%" "pliki\\%lang%%jom%\\jomini\\coat_of_arms" "pliki\\en%jom%\\jomini\\coat_of_arms" "temp\\supply%jom%\\jomini\\coat_of_arms" yaml
-java -jar "%parser%" "%sup%" "pliki\\%lang%%jom%\\jomini\\map_editor" "pliki\\en%jom%\\jomini\\map_editor" "temp\\supply%jom%\\jomini\\map_editor" yaml
 java -jar "%parser%" "%sup%" "pliki\\%lang%%jom%\\jomini\\multiplayer_gui" "pliki\\en%jom%\\jomini\\multiplayer_gui" "temp\\supply%jom%\\jomini\\multiplayer_gui" yaml
 java -jar "%parser%" "%sup%" "pliki\\%lang%%jom%\\jomini\\script_system" "pliki\\en%jom%\\jomini\\script_system" "temp\\supply%jom%\\jomini\\script_system" yaml
 java -jar "%parser%" "%sup%" "pliki\\%lang%%jom%\\pops" "pliki\\en%jom%\\pops" "temp\\supply%jom%\\pops" yaml
@@ -102,14 +112,24 @@ java -jar "%parser%" "%sup%" "pliki\\%lang%\\clausewitz\\localization\\text_util
 echo "Starting compiling latest translations to desired language - in this case - polish."
 ::game
 java -jar "%parser%" "%fte%" "temp\\supply%gle%" "temp\\ck3%gle%" "%charset%"
+java -jar "%parser%" "%fte%" "temp\\supply%gle%\\accolades" "temp\\ck3%gle%\\accolades" "%charset%"
+java -jar "%parser%" "%fte%" "temp\\supply%gle%\\activities" "temp\\ck3%gle%\\activities" "%charset%"
 java -jar "%parser%" "%fte%" "temp\\supply%gle%\\artifacts" "temp\\ck3%gle%\\artifacts" "%charset%"
 java -jar "%parser%" "%fte%" "temp\\supply%gle%\\bookmark" "temp\\ck3%gle%\\bookmark" "%charset%"
 java -jar "%parser%" "%fte%" "temp\\supply%gle%\\credits" "temp\\ck3%gle%\\credits" "%charset%"
 java -jar "%parser%" "%fte%" "temp\\supply%gle%\\culture" "temp\\ck3%gle%\\culture" "%charset%"
 java -jar "%parser%" "%fte%" "temp\\supply%gle%\\culture\\traditions" "temp\\ck3%gle%\\culture\\traditions" "%charset%"
 java -jar "%parser%" "%fte%" "temp\\supply%gle%\\custom_localization" "temp\\ck3%gle%\\custom_localization" "%charset%"
+java -jar "%parser%" "%fte%" "temp\\supply%gle%\\diarchies" "temp\\ck3%gle%\\diarchies" "%charset%"
 java -jar "%parser%" "%fte%" "temp\\supply%gle%\\dlc\\bp1" "temp\\ck3%gle%\\dlc\\bp1" "%charset%"
 java -jar "%parser%" "%fte%" "temp\\supply%gle%\\dlc\\ep1" "temp\\ck3%gle%\\dlc\\ep1" "%charset%"
+java -jar "%parser%" "%fte%" "temp\\supply%gle%\\dlc\\ep2" "temp\\ck3%gle%\\dlc\\ep2" "%charset%"
+java -jar "%parser%" "%fte%" "temp\\supply%gle%\\dlc\\ep2\\dynasty_legacies" "temp\\ck3%gle%\\dlc\\ep2\\dynasty_legacies" "%charset%"
+java -jar "%parser%" "%fte%" "temp\\supply%gle%\\dlc\\ep2\\pulse actions" "temp\\ck3%gle%\\dlc\\ep2\\pulse actions" "%charset%"
+java -jar "%parser%" "%fte%" "temp\\supply%gle%\\dlc\\ep2\\tour" "temp\\ck3%gle%\\dlc\\ep2\\tour" "%charset%"
+java -jar "%parser%" "%fte%" "temp\\supply%gle%\\dlc\\ep2\\tournament" "temp\\ck3%gle%\\dlc\\ep2\\tournament" "%charset%"
+java -jar "%parser%" "%fte%" "temp\\supply%gle%\\dlc\\ep2\\travel" "temp\\ck3%gle%\\dlc\\ep2\\travel" "%charset%"
+java -jar "%parser%" "%fte%" "temp\\supply%gle%\\dlc\\ep2\\wedding" "temp\\ck3%gle%\\dlc\\ep2\\wedding" "%charset%"
 java -jar "%parser%" "%fte%" "temp\\supply%gle%\\dlc\\fp1" "temp\\ck3%gle%\\dlc\\fp1" "%charset%"
 java -jar "%parser%" "%fte%" "temp\\supply%gle%\\dlc\\fp2" "temp\\ck3%gle%\\dlc\\fp2" "%charset%"
 java -jar "%parser%" "%fte%" "temp\\supply%gle%\\dynasties" "temp\\ck3%gle%\\dynasties" "%charset%"
@@ -152,6 +172,7 @@ java -jar "%parser%" "%fte%" "temp\\supply%gle%%evtloc%\\secret_events" "temp\\c
 java -jar "%parser%" "%fte%" "temp\\supply%gle%%evtloc%\\story_cycles" "temp\\ck3%gle%%evtloc%\\story_cycles" "%charset%"
 java -jar "%parser%" "%fte%" "temp\\supply%gle%%evtloc%\\stress_events" "temp\\ck3%gle%%evtloc%\\stress_events" "%charset%"
 java -jar "%parser%" "%fte%" "temp\\supply%gle%%evtloc%\\trait_specific_events" "temp\\ck3%gle%%evtloc%\\trait_specific_events" "%charset%"
+java -jar "%parser%" "%fte%" "temp\\supply%gle%%evtloc%\\travel_events" "temp\\ck3%gle%%evtloc%\\travel_events" "%charset%"
 java -jar "%parser%" "%fte%" "temp\\supply%gle%%evtloc%\\yearly_events" "temp\\ck3%gle%%evtloc%\\yearly_events" "%charset%"
 java -jar "%parser%" "%fte%" "temp\\supply%gle%%evtloc%\\war_event" "temp\\ck3%gle%%evtloc%\\war_event" "%charset%"
 java -jar "%parser%" "%fte%" "temp\\supply%gle%\\gui" "temp\\ck3%gle%\\gui" "%charset%"
@@ -176,7 +197,6 @@ java -jar "%parser%" "%fte%" "temp\\supply%jom%\\credits" "temp\\ck3%jom%\\credi
 java -jar "%parser%" "%fte%" "temp\\supply%jom%\\frontend" "temp\\ck3%jom%\\frontend" "%charset%"
 java -jar "%parser%" "%fte%" "temp\\supply%jom%\\jomini" "temp\\ck3%jom%\\jomini" "%charset%"
 java -jar "%parser%" "%fte%" "temp\\supply%jom%\\jomini\\coat_of_arms" "temp\\ck3%jom%\\jomini\\coat_of_arms" "%charset%"
-java -jar "%parser%" "%fte%" "temp\\supply%jom%\\jomini\\map_editor" "temp\\ck3%jom%\\jomini\\map_editor" "%charset%"
 java -jar "%parser%" "%fte%" "temp\\supply%jom%\\jomini\\multiplayer_gui" "temp\\ck3%jom%\\jomini\\multiplayer_gui" "%charset%"
 java -jar "%parser%" "%fte%" "temp\\supply%jom%\\jomini\\script_system" "temp\\ck3%jom%\\jomini\\script_system" "%charset%"
 java -jar "%parser%" "%fte%" "temp\\supply%jom%\\pops" "temp\\ck3%jom%\\pops" "%charset%"

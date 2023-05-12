@@ -12,7 +12,7 @@
  secure_iberian_foothold_decision_title: "Iberyjski przyczółek"
  secure_iberian_foothold_decision_desc: "Walczące ze sobą państwa Iberii osłabły na tyle, że drzwi półwyspu dla cudzoziemców stanęły otworem. Jeśli komukolwiek udałoby się ogłosić prawdziwym przywódcą [ROOT.Char.GetFaith.CustomLoc('religion_name_adj_masculine_ins')|l] regionu lub po prostu chwalebnym najeźdźcą, mógłby on rościć sobie prawo do wielu rzeczy."
  secure_iberian_foothold_decision_tooltip: "Zintegruj część Iberii"
- secure_iberian_foothold_decision_confirm: ""
+ secure_iberian_foothold_decision_confirm: "Wygrywają najsilniejsi."
  fp2_struggle_uninvolved_or_external_tt: "Twoja [capital|El] znajduje się poza [Concept( 'region', 'regionem' )|E] #ONCLICK:GEOGRAPHICAL_REGION,world_europe_west_iberia #L #TOOLTIP:GEOGRAPHICAL_REGION,world_europe_west_iberia Iberii#!#!#!"
  fp2_struggle_secure_iberian_foothold_empire_tt: "[Concept( 'hold', 'Posiadasz')|E] [title|El] [empire|El], którym nie jest [GetTitleByKey('e_spain').GetNameNoTier]"
  fp2_struggle_phase_hostility_or_opportunity_tt: "Iberyjska [struggle_phase|El] to [struggle_phase_iberia_hostility|El] lub [struggle_phase_iberia_opportunity|El] (Obecnie: [GetStruggle('iberian_struggle').GetCurrentPhase.GetName])"
