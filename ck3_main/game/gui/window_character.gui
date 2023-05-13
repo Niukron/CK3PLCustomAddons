@@ -4072,7 +4072,6 @@ types CharacterWindow
 						ignoreinvisible = yes
 
 						text_label_center = {
-							# ZMIANA - do sprawdzenia
 							text = "[CharacterWindow.GetSecondaryText]"
 							max_width = 120
 							align = nobaseline

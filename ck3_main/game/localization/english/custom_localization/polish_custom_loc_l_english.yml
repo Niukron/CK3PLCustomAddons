@@ -1689,12 +1689,7 @@
  
  YourShe:0 "twoja"
  YourHe:0 "twój"
- 
- #Wyświetlanie małżonek/małżonka w oknie postaci
- 
- character_window_spouse_gender:0 "[Select_CString( CharacterWindow.GetSpouse.IsFemale, Concept('spouse', 'Małżonka'), spouse )|E]"
- character_window_betrothed_gender:0 "[Select_CString( CharacterWindow.GetSpouse.IsFemale, Concept('betrothed', 'Zaręczona'), Concept('betrothed', 'Zaręczony') )|E]"
- 
+  
  #Święte wojny
  #Świętej migracji nie ma, bo Paradox i tak jej nie używa xD
  
