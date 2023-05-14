@@ -3021,8 +3021,13 @@
 
 
  #ArtifactBookContentQualityMasc
- artifact_book_content_quality_excellent_masc: "świetny"
- artifact_book_content_quality_deep_masc: "dogłębny"
- artifact_book_content_quality_insightful_masc: "wnikliwy"
- artifact_book_content_quality_adequate_masc: "odpowiedni"
- artifact_book_content_quality_modest_masc: "skromny"
+ artifact_book_content_quality_excellent_masc:0 "świetny"
+ artifact_book_content_quality_deep_masc:0 "dogłębny"
+ artifact_book_content_quality_insightful_masc:0 "wnikliwy"
+ artifact_book_content_quality_adequate_masc:0 "odpowiedni"
+ artifact_book_content_quality_modest_masc:0 "skromny"
+
+
+ #dla PASS_LAW_TOOLTIP_TITLE (konflikt wielkości liter)
+ PASS_LAW_TOOLTIP_TITLE_pass:0 "Uchwal [Law.GetNameNoTooltip|l]"
+ PASS_LAW_TOOLTIP_TITLE_no_pass:0 "[Law.GetNameNoTooltip]"
