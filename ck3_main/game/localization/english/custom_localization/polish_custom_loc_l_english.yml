@@ -3032,3 +3032,15 @@
  activity_feast_accusative:0 "ucztę"
  activity_pilgrimage_accusative:0 "pielgrzymkę"
  
+
+# activity your
+ 
+ activity_feast_your:0 "twoja "
+ activity_gruesome_festival_your:0 "twój "
+ activity_hunt_your:0 "twoje "
+ activity_pilgrimage_your:0 "twoja "
+ activity_playdate_your:0 "twoje "
+ activity_tour_your:0 "twój "
+ activity_tournament_your:0 "twój "
+ activity_wedding_your:0 "twój "
+ activity_witch_ritual_your:0 "twój "
