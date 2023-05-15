@@ -3027,7 +3027,8 @@
  artifact_book_content_quality_adequate_masc:0 "odpowiedni"
  artifact_book_content_quality_modest_masc:0 "skromny"
 
+# Aktywności biernik - accusative - tylko te potrzebne
 
- #dla PASS_LAW_TOOLTIP_TITLE (konflikt wielkości liter)
- PASS_LAW_TOOLTIP_TITLE_pass:0 "Uchwal [Law.GetNameNoTooltip|l]"
- PASS_LAW_TOOLTIP_TITLE_no_pass:0 "[Law.GetNameNoTooltip]"
+ activity_feast_accusative:0 "ucztę"
+ activity_pilgrimage_accusative:0 "pielgrzymkę"
+ 
