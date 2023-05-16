@@ -2591,7 +2591,7 @@
  christianity_negative_afterlife_genitive:0 "piekła"
  dualism_negative_afterlife_genitive:0 "podziemia"
  basque_negative_afterlife_genitive:0 "piekła"
- finno_ugric_afterlife_genitive:0 "Tuoneli"
+ #finno_ugric_afterlife_genitive:0 "Tuoneli" - duplikat
  germanic_death_deity_name_genitive:0 "Helu"
  hinduism_negative_afterlife_genitive:0 "Naraki"
  islam_negative_afterlife_genitive:0 "piekła"
@@ -2614,7 +2614,7 @@
  christianity_negative_afterlife_locative:0 "piekle"
  dualism_negative_afterlife_locative:0 "podziemiach"
  basque_negative_afterlife_locative:0 "piekle"
- finno_ugric_afterlife_locative:0 "Tuoneli"
+ #finno_ugric_afterlife_locative:0 "Tuoneli" - duplikat
  germanic_death_deity_name_locative:0 "Helu"
  hinduism_negative_afterlife_locative:0 "Naraka"
  islam_negative_afterlife_locative:0 "piekle"
