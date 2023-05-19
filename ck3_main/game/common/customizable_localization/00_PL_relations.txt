@@ -1,5 +1,8 @@
 ﻿### Relacje postaci ###
 
+# PL_nephew
+# PL_niece
+
 # ----- Dla RelationToMe -----
 
 # MySheHe - moja, mój
@@ -40,6 +43,56 @@
 
 # MyCharacterIntroductionNoComma_PL
 # MySheHeGUI
+
+# Nephew - siostrzeniec/bratanek
+# Niece - siostrzenica/bratanica
+PL_nephew = {
+	type = character
+
+	text = {
+		localization_key = nephew_from_brother
+		trigger = {
+				root.father = {
+					is_sibling_of = scope:second
+			}
+
+		}
+	}
+
+	text = {
+		fallback = yes
+		localization_key = nephew_from_sister
+		trigger = {
+				root.mother = {
+					is_sibling_of = scope:second
+				}
+		}
+	}
+}
+
+PL_niece = {
+	type = character
+
+	text = {
+		localization_key = niece_from_brother
+		trigger = {
+				root.father = {
+					is_sibling_of = scope:second
+			}
+
+		}
+	}
+
+	text = {
+		fallback = yes
+		localization_key = niece_from_sister
+		trigger = {
+				root.mother = {
+					is_sibling_of = scope:second
+				}
+		}
+	}
+}
 
 #v1.9.0.2 - original
 RelationToMe = {

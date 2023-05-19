@@ -2,6 +2,12 @@
 
  #Relacje
 
+ nephew_from_brother:0 "Bratanek"
+ nephew_from_sister:0 "Siostrzeniec"
+
+ niece_from_brother:0 "Bratanica"
+ niece_from_sister:0 "Siostrzenica"
+
  relation_titled_firstname_vocative:0 "$relation_titled_firstname$"
  relation_knight_possessive:0 "[GetPlayer.Custom( 'KnightCulturePossessiveNoTooltip' )|l]"
  relation_great_grandmother_possessive:0 "prababci"
