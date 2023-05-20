@@ -3019,6 +3019,10 @@
  trinket_look_embellished_masc:0 "uświetniony"
  trinket_look_ornamented_masc:0 "zdobiony"
 
+ #window_travel_planner.gui
+ TRAVEL_SPEED_ADJ:0 "[Concept('travel_speed', 'prędkości' )|E]"
+ TRAVEL_SAFETY_ADJ:0 "[Concept('travel_safety', 'bezpieczeństwa' )|E]"
+
 
  #ArtifactBookContentQualityMasc
  artifact_book_content_quality_excellent_masc:0 "świetny"
