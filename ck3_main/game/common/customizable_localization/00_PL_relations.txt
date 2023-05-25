@@ -70,6 +70,36 @@ PL_nephew = {
 	}
 }
 
+PL_nephew_possessive = {
+	parent = PL_nephew
+	suffix = "_possessive"
+}
+
+PL_nephew_accusative = {
+	parent = PL_nephew
+	suffix = "_accusative"
+}
+
+PL_nephew_vocative = {
+	parent = PL_nephew
+	suffix = "_vocative"
+}
+
+PL_nephew_locative = {
+	parent = PL_nephew
+	suffix = "_locative"
+}
+
+PL_nephew_dative = {
+	parent = PL_nephew
+	suffix = "_dative"
+}
+
+PL_nephew_instrumental = {
+	parent = PL_nephew
+	suffix = "_instrumental"
+}
+
 PL_niece = {
 	type = character
 
@@ -92,6 +122,36 @@ PL_niece = {
 				}
 		}
 	}
+}
+
+PL_niece_possessive = {
+	parent = PL_niece
+	suffix = "_possessive"
+}
+
+PL_niece_accusative = {
+	parent = PL_niece
+	suffix = "_accusative"
+}
+
+PL_niece_vocative = {
+	parent = PL_niece
+	suffix = "_vocative"
+}
+
+PL_niece_locative = {
+	parent = PL_niece
+	suffix = "_locative"
+}
+
+PL_niece_dative = {
+	parent = PL_niece
+	suffix = "_dative"
+}
+
+PL_niece_instrumental = {
+	parent = PL_niece
+	suffix = "_instrumental"
 }
 
 #v1.9.0.2 - original
