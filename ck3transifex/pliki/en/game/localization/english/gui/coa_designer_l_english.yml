@@ -54,7 +54,7 @@
  COA_DESIGNER_EMBLEM_INSTANCES_TAB_HEADER: "Emblems"
  COA_DESIGNER_EMBLEM_INSTANCES_PANEL_HEADER: "Emblems"
  COA_DESIGNER_EMBLEM_INSTANCES_ALL_BUTTON: "All"
- COA_DESIGNER_EMBLEM_INSTANCES_PAGE: "[CoatOfArmsDesignerPagedEmblemInstances.GetCurrentPage]/[CoatOfArmsDesignerPagedEmblemInstances.GetMaxPage]"
+ COA_DESIGNER_EMBLEM_INSTANCES_PAGE: "[PagedContainerData.GetCurrentPage]/[PagedContainerData.GetMaxPage( GetDataModelSize( CoatOfArmsDesignerEmblemInstancesPanel.GetAllEmblemInstances ) )]"
  COA_DESIGNER_EMBLEM_TEXTURES: "Textures"
  COA_DESIGNER_EMBLEM_INSTANCE_SELECT_ALL: "#I Click to select all\nRight-click to deselect all#!"
  COA_DESIGNER_EMBLEM_INSTANCE_SELECTION_TT: "#I Click to select\nShift-click to toggle selection#!"

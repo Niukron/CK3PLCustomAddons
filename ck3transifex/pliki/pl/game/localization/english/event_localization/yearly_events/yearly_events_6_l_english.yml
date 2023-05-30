@@ -1,6 +1,6 @@
 ﻿l_english:
  yearly.9100.t: "Problemy w ogrodzie"
- yearly.9100.desc: ""
+ yearly.9100.desc: "Gdy wchodzę do ogrodów, ledwo zdążam zrobić krok, a już słyszę, jak ktoś wykrzykuje bluźnierstwa. „#EMP [gardener.Custom('CulturalCurse')|U]!#!”.\n\nObchodzę żywopłot w poszukiwaniu źródła i zauważam, jak [Select_CString(gardener.IsFemale, 'moja ogrodniczka', 'mój ogrodnik' )] [gardener.GetTitledFirstName] pracuje w ziemi z grymasem na twarzy. Zauważa, że się zbliżam i szybko wstaje.\n\n„Och, wybacz mi, [Select_CString(ROOT.Char.IsFemale, 'moja pani', 'mój panie' )]. Nie spodziewał[Select_CString(gardener.IsFemale, 'am', 'em' )] się, że ktoś jeszcze tu będzie... Jakieś głupie zwierzę, bez wątpienia [gardenener.Custom('GetAnimalType')], zniszczyło #EMP całą#! moją ostatnią pracę! Zasadził[Select_CString(gardener.IsFemale, 'am', 'em' )] te zioła zaledwie przedwczoraj!”"
  yearly.9100.a: "Pozwól, że ci pomogę!"
  yearly.9100.b: "Oto mały drobiazg za ciężką pracę!"
  yearly.9100.c: "#EMP To#! niefortunne... Ale nie przerywaj z mojego powodu!"

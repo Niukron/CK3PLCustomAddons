@@ -173,7 +173,7 @@
  seduce_ongoing.1802.b.good: "You should try harder next time."
  seduce_ongoing.1802.b.bad: "How embarrassing..."
  seduce_ongoing.1802.c: "I have no interest in these attentions!"
- seduce_ongoing.1601.t: "A Reading in [location.GetNameNoTierNoTooltip]"
+ seduce_ongoing.1601.t: "A Reading in [location.GetNameNoTooltip]"
  seduce_ongoing.1601.t_no_location: "A Reading"
  seduce_ongoing.1601.desc: "The celebrations had come to an end and the evening's entertainment seemed to be over, when [target.GetTitledFirstName] suggested a reading.\n\nA clerk soon arrives, wondering what the guests would like to hear, and I see my chance to impress [target.GetFirstName]."
  seduce_ongoing.1601.a: "Something pious, like [SCOPE.Custom('RandomReligiousTextName')]."

@@ -25,3 +25,4 @@
  rf_eastern_adherent: "Eastern"
  rf_eastern_opinion: "$rf_eastern_adherent$ Opinion"
  rf_pagan_opinion: "$pagan_adherent$ Opinion"
+ rf_abrahamic_opinion: "[GetReligionFamily('rf_abrahamic').GetName] Opinion"

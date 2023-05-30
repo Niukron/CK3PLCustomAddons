@@ -352,6 +352,8 @@
  travel_events.1010.a: ""
  travel_events.1010.b: ""
  travel_events.1010.c: ""
+ travel_events.1010.a.aptitude: ""
+ travel_events.1010.b.aptitude: ""
  travel_events.1020.t: ""
  travel_events.1020.intro.prev_leader_dead: ""
  travel_events.1020.intro.fallback: ""

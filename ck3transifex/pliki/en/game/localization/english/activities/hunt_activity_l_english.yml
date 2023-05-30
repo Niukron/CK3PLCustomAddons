@@ -10,7 +10,7 @@
  activity_hunt_destination_selection: "Some ground is more suitable for hunting than others; the [hunt_success_chance_no_prefix|E] will be higher in provinces which are wild, remote, have recent [hunt_sightings_no_prefix|E], or have special [buildings|E]."
  hunt_success_bar: "[hunt_success_chance_no_prefix|E]: [Activity.MakeScope.Var( 'hunt_success_chance' ).GetValue|V1]%#!"
  hunt_cannot_hunt_parameter_tt: "[culture|E] is unable to Hunt"
- activity_hunt_province_desc: ""
+ activity_hunt_province_desc: "You hold a Hunt in [ROOT.Province.GetName]\nVarious factors influence [hunt_success_chance|E]\n"
  activity_hunt_province_desc_standard_sighting: "#P +++ [ROOT.Province.GetTitle.GetDeJureLiege.Custom('GetAnimalType')|U] Sighting#!\n"
  activity_hunt_province_desc_dangerous_sighting: "#P +++ [ROOT.Province.GetTitle.GetDeJureLiege.Custom('GetAnimalType')|U] Sighting#!\n"
  activity_hunt_province_desc_falconry_sighting: "#P +++ [ROOT.Province.GetTitle.GetDeJureLiege.Custom('GetAnimalType')|U] Sighting#!\n"

@@ -8,7 +8,7 @@
  stewardship_wealth.1001.b.givehook: "I will owe [wealthy_vassal.GetTitledFirstNameNoTooltip] a favor if [wealthy_vassal.GetSheHe] helps me out."
  stewardship_wealth.1001.c: "I will demand tribute from my vassals!"
  stewardship_wealth.1001.c.tt: "Every vassal:"
- stewardship_wealth.1001.d: "Confiscate church property to raise funds."
+ stewardship_wealth.1001.d: "Confiscate religious property to raise funds."
  stewardship_wealth.1001.e: "I will tighten my belt and save what I can."
  stewardship_wealth.1011.t: "Minting New Coinage"
  stewardship_wealth.1011.desc: "It is my right and responsibility to determine what coinage is to be used throughout all of [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip].\n\nThe choices I make will determine how the coinage — and by extension my realm — is seen throughout the world."

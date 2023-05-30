@@ -21,7 +21,7 @@
  CAN_SPONSOR_INSPIRATION_BASE_GOLD_COST: "@warning_icon!#X [Character.GetUIName] nie ma @gold_icon! $GOLD|V$ [Concept( 'gold', 'złota')|E], aby móc ufundować [Concept( 'inspiration', 'inspirację' )|E].#!"
  INSPIRATION_GENERAL_TOOLTIP_SPONSOR: "[Inspiration.GetSponsor.GetUIName|U]"
  INSPIRATION_GENERAL_TOOLTIP_NO_SPONSOR: "Brak"
- INSPIRATION_GENERAL_TOOLTIP: ""
+ INSPIRATION_GENERAL_TOOLTIP: "[SelectLocalization( StringIsEmpty( Inspiration.GetCompletionEffect ), '', 'INSPIRATION_GENERAL_TOOLTIP_EFFECT' )]#S Postęp:#! [Inspiration.GetProgress|V]/[GetDefine( 'NInspiration', 'MAX_PROGRESS' )|V]\n#S Zainwestowane [gold|El]:#! @gold_icon! [Inspiration.GetInvestedGold]\n#S Właściciel:#! [Inspiration.GetOwner.GetUIName]\n#S Fundator:#! [SelectLocalization( Inspiration.GetSponsor.IsValid, 'INSPIRATION_GENERAL_TOOLTIP_SPONSOR', 'INSPIRATION_GENERAL_TOOLTIP_NO_SPONSOR' )]\n\n#F [Inspiration.GetDescription]#!"
  INSPIRATION_GENERAL_TOOLTIP_EFFECT: "#S Efekt:#!\n[Inspiration.GetCompletionEffect]\n\n"
  CHARACTER_HAS_INSPIRATION_TOOLTIP: "#T Zainspirowano#!\n[Character.GetUIName] [Character.Custom('InspirationTypeDescriptionFuturePresent')], ponieważ ma: [Character.GetCurrentInspiration.GetName|l].\n\n[Character.Custom('InspiredPersonQuality')]"
  inspiration_type_desc_present: "[ROOT.Char.Custom('InspirationTypeDescription')]"

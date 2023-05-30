@@ -314,7 +314,7 @@
  bp1_yearly.5730.b: ""
  bp1_yearly.5730.b.tt: "Artefakt [burned_artifact.GetName] zyskuje #N negatywne#! modyfikatory"
  bp1_yearly.8000.t: "Pożądane roszczenie"
- bp1_yearly.8000.desc: "[bp1_8000_informer.GetTitledFirstName], [ROOT.Char.Custom2('MySheHe' , SCOPE.sC('bp1_8000_informer'))], [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('spouse'))], męczy się przez cały dzień, próbując najwyraźniej znaleźć odpowiednie słowa.\n\nW końcu, gdy idziemy na kolację, zaczyna z zakłopotaniem: „[ROOT.Char.Custom2('MySheHe' , SCOPE.sC('bp1_8000_informer'))] [bp1_8000_informer.Custom2('RelationToMeShortVocative', ROOT.Char)]..."
+ bp1_yearly.8000.desc: "[bp1_8000_informer.GetTitledFirstName], [ROOT.Char.Custom2('MySheHe' , SCOPE.sC('bp1_8000_informer'))] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('bp1_8000_informer'))], gryzie się przez cały dzień, próbując najwyraźniej znaleźć odpowiednie słowa.\n\nW końcu, gdy idziemy na kolację, zaczyna z zakłopotaniem: „[bp1_8000_informer.Custom2('MySheHe', ROOT.Char)|U] [bp1_8000_informer.Custom2('RelationToMeShortVocative', ROOT.Char)]..."
  bp1_yearly.8000.desc_vassal: "mówią, że [bp1_8000_new_rival.GetTitledFirstName], [ROOT.Char.Custom2('YourSheHe', SCOPE.sC('bp1_8000_new_rival'))] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('bp1_8000_new_rival'))], z każdym dniem coraz poważniej traktuje swoje rzekome roszczenia do twoich ziem...”"
  bp1_yearly.8000.desc_foreign: ""
  bp1_yearly.8000.desc_single: ""

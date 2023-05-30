@@ -271,7 +271,7 @@
  ep1_flavor.2040.desc.outro_bad_praise: "„Co za perfekcyjny przykład rzemieślnictwa [exotic_blade_holder.GetPrimaryTitle.Custom('TitleZZe')] [exotic_blade_holder.GetPrimaryTitle.GetAdjectiveNoTooltip]! Zobacz tylko, jak błyszczy!”"
  ep1_flavor.2040.a: "„Chyba mogę się z tym rozstać...”"
  ep1_flavor.2040.tt_my: "Stracisz swój artefakt [my_artifact.GetName]"
- ep1_flavor.2040.tt_exotic: ""
+ ep1_flavor.2040.tt_exotic: "Staniesz się właścicielem artefaktu: [exotic_blade.GetNameNoTooltip]"
  ep1_flavor.2040.toast: "[exotic_blade.GetType|U] jest wspaniałym przedmiotem"
  ep1_flavor.2040.toast_poor: "[exotic_blade.GetType|U] niczym się nie wyróżnia"
  ep1_flavor.2040.b: "„Przynieś moją sakiewkę!”"

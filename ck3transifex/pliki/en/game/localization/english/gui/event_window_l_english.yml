@@ -18,3 +18,4 @@
  COURT_EVENT_TIME_WARNING: "The last option will be chosen for you in #HIGH [EventWindowData.GetDaysRemaining]#! days"
  TRAVEL_EVENT_WINDOW_CURRENT_LOCATION: "Currently in:"
  TRAVEL_EVENT_WINDOW_NEXT_DESTINATION: "Next destination: ~[TravelPlanData.GetNextDestination.GetEstimatedArrivalDate.GetTimeToDate]"
+ EVENT_CONTENT_SOURCE_TT: "This Event is from '[EventWindowData.GetContentSourceDlc.GetName|V]'"

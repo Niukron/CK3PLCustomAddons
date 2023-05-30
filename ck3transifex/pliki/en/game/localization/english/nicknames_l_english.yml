@@ -748,7 +748,7 @@
  nick_northmen_slayer_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] infamously slew a Nordic reaver."
  nick_pirate_slayer: "Scourge of the Seas"
  nick_pirate_slayer_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] massacred a notorious pirate."
- nick_son_of_dangerous_animal: "[CHARACTER.Custom('GetDaughterSon')|U] of [CHARACTER.Custom('GetAnimalTypePlural')|U]"
+ nick_son_of_dangerous_animal: "[CHARACTER.Custom('GetDaughterSon')|U] of [CHARACTER.Custom('GetAnimalPlural')|U]"
  nick_son_of_dangerous_animal_desc: "Of course they call [CharYouHerHim(CHARACTER)] this — what human mother's womb could have produced such a beast?"
  nick_the_own_culture: "the [CHARACTER.GetCulture.GetNameNoTooltip]"
  nick_the_own_culture_desc: "[CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat|U] eponym is a label of [CharYourHerHis(CHARACTER)] history, one [CharYouSheHe(CHARACTER)] take[_s(CHARACTER)] pride in."

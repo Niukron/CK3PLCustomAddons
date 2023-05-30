@@ -54,7 +54,7 @@
  COA_DESIGNER_EMBLEM_INSTANCES_TAB_HEADER: "Emblematy"
  COA_DESIGNER_EMBLEM_INSTANCES_PANEL_HEADER: "Emblematy"
  COA_DESIGNER_EMBLEM_INSTANCES_ALL_BUTTON: "Wszystko"
- COA_DESIGNER_EMBLEM_INSTANCES_PAGE: "[CoatOfArmsDesignerPagedEmblemInstances.GetCurrentPage]/[CoatOfArmsDesignerPagedEmblemInstances.GetMaxPage]"
+ COA_DESIGNER_EMBLEM_INSTANCES_PAGE: ""
  COA_DESIGNER_EMBLEM_TEXTURES: "Tekstury"
  COA_DESIGNER_EMBLEM_INSTANCE_SELECT_ALL: "#I Kliknij, aby wybrać wszystko\nKliknij PPM, aby wszystko odznaczyć#!"
  COA_DESIGNER_EMBLEM_INSTANCE_SELECTION_TT: "#I Kliknij, aby wybrać\nShift+LPM, aby anulować wybór#!"

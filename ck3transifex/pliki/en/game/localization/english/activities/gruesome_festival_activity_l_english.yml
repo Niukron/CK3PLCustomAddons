@@ -13,6 +13,7 @@
  gruesome_festival_option_sacrifice: "Sacrifice Fodder"
  gruesome_festival_option_sacrifice_poser_blotter: "$gruesome_festival_option_sacrifice_genuine_blotter$"
  gf_suitable_rank_valid: "You are neither independent nor a King [rank|E] vassal"
+ gf_valid_county_faith: "You don't control any County of a faith that would allow a [GetActivityType( 'activity_gruesome_festival' ).GetName]"
  gruesome_festival_sacrifice_animals_genuine: "Animals"
  gruesome_festival_sacrifice_animals_genuine_desc: "$gruesome_festival_sacrifice_animals_genuine_desc_help$\n\n#weak A decent array of animal sacrifices shall be enough.#!"
  gruesome_festival_sacrifice_animals_genuine_desc_help: "$gruesome_festival_sacrifice_animals_only.regular.opinion$\n$gruesome_festival_sacrifice_animals_only.appeased_humsac_haters$\n$EFFECT_LIST_BULLET$ $gruesome_festival_sacrifice_animals_only.regular.piety$"
