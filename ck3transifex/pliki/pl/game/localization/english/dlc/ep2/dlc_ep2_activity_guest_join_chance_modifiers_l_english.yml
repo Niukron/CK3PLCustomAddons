@@ -5,7 +5,7 @@
  ACTIVITY_GUEST_HIGHER_RANK_REASON: ""
  ACTIVITY_GUEST_CLOSE_FAMILY_REASON: ""
  ACTIVITY_GUEST_EXTENDED_FAMILY_REASON: ""
- ACTIVITY_GUEST_SAME_DYNASTY_REASON: ""
+ ACTIVITY_GUEST_SAME_DYNASTY_REASON: "Należy do twojej [Concept( 'dynasty', 'dynastii' )|E]: $VALUE|=+0$"
  ACTIVITY_GUEST_SPOUSE: ""
  ACTIVITY_GUEST_VASSAL_REASON: "Jest twoim [Concept( 'vassal', 'wasalem' )|E]: $VALUE|=+0$"
  ACTIVITY_GUEST_LIEGE_REASON: "Jest twoim [Concept( 'liege', 'seniorem' )|E]: $VALUE|=+0$"

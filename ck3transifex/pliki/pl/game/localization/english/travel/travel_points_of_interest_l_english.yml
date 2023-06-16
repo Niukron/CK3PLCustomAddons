@@ -1,6 +1,6 @@
 ﻿l_english:
- poi_special_buildings.visit: ""
- poi_capitals.visit: ""
- poi_mausoleum_at_halicarnassus.visit: ""
- poi_lighthouse_of_alexandria.visit: ""
- poi_grand_city.visit: ""
+ poi_special_buildings.visit: "Odwiedzono: [province.GetHolding.GetSpecialBuildingType.GetName]"
+ poi_capitals.visit: "Odwiedzono stolicę postaci [province.GetTitle.GetDeFactoTopLiege.GetBaseName]"
+ poi_mausoleum_at_halicarnassus.visit: "Odwiedzono Mauzoleum w Halikarnasie"
+ poi_lighthouse_of_alexandria.visit: "Odwiedzono Latarnię morską na Faros"
+ poi_grand_city.visit: "Odwiedzono wielkie miasto [province.GetName]"

@@ -622,7 +622,7 @@
  tournament_events.7000.b: "I could do with the services of someone like you."
  tournament_events.7000.b.tt: "Becomes your [mulan.Custom('KnightCulture')]"
  tournament_events.7000.c: "Guards! #EMP Guards!#! There is a #EMP [mulan.GetWomanMan]#! in our tournament!"
- tournament_not_competing_tt: "[THIS.Char.GetShortUIName] will not compete in any [contests|E]"
+ tournament_not_competing_tt: "[THIS.Char.GetShortUIName|U] will not compete in any [contests|E]"
  tournament_prize_template_tt: "Cannot equip a [GetActivityType( 'activity_tournament' ).GetName] [prize|E] until it has been awarded"
  tournament_placed_joust_wager_log_title: "Joust Wager Placed"
  tournament_placed_joust_wager_log: "[CHARACTER.GetTitledFirstName] placed a wager on [TARGET_CHARACTER.GetTitledFirstName] to win the Joust contest"

@@ -509,7 +509,7 @@
  contest_events.0871.loser_throw: ""
  contest_events.0871.winner_end: ""
  contest_events.0871.loser_end: ""
- contest_events.0871.a: ""
+ contest_events.0871.a: "Zwycięstwo! "
  contest_events.0871.a.loser: ""
  contest_events.0871.b: ""
  contest_events.0872.t: ""

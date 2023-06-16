@@ -9,7 +9,7 @@
  gruesome_festival_size_large_desc: ""
  activity_gruesome_festival_destination_selection: ""
  activity_gruesome_festival_conclusion_desc: ""
- activity_gruesome_festival_guest_desc: "$BULLET_WITH_TAB$ Uczestnicy mogą zyskać [piety|El]\n$BULLET_WITH_TAB$ Uczestnicy mogą zwiększyć swoją [Concept( 'opinion', 'opinię' )|E] o innych uczestnikach\n$BULLET_WITH_TAB$ Uczestnicy mogą stracić [stress_loss_i][stress|El]"
+ activity_gruesome_festival_guest_desc: "$BULLET_WITH_TAB$ Uczestnicy mogą zyskać [piety|El]\n$BULLET_WITH_TAB$ Uczestnicy mogą poprawić o sobie [Concept( 'opinion', 'opinię' )|E]\n$BULLET_WITH_TAB$ Uczestnicy mogą pozbyć się [stress_loss_i][Concept( 'stress', 'stresu' )|E]"
  gruesome_festival_option_sacrifice: ""
  gruesome_festival_option_sacrifice_poser_blotter: ""
  gf_suitable_rank_valid: ""

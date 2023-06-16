@@ -1,5 +1,5 @@
 ﻿l_english:
- travel_danger_prefix: ""
+ travel_danger_prefix: "Zagrożenie:"
  travel_danger_events.1000.t: ""
  travel_danger_events.1000.desc: ""
  travel_danger_events.1000.a: ""

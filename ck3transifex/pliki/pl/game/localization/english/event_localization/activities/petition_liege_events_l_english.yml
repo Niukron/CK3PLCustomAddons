@@ -10,7 +10,7 @@
  petition_liege.0001.b.tt: "Odsyłasz postać [petition_vassal.GetTitledFirstName]"
  petition_liege.0009.opening: "[petition_liege.Custom2('AppropriateGreeting', ROOT.Char )]"
  petition_liege.0009.desc: "Niestety, przybył[Select_CString( ROOT.Char.IsFemale, 'aś', 'eś' )] w niewłaściwym momencie i muszę Cię poinformować, że nie mogę gościć w swoich salach ani ciebie, ani towarzyszących tobie osób."
- petition_liege.0009.a: "Odmawiasz nawet #EMP wysłuchania#! mnie? Co za tupet ma t[Select_CString( petition_liege.IsFemale, 'a kobieta', 'en mężczyzna' )]!"
+ petition_liege.0009.a: "Odmawia mi nawet #EMP posłuchania#!? Co za bezczelny człowiek!"
  petition_liege.0101.t.council_seat: "$petition_liege_header$ Stanowisko w radzie"
  petition_liege.0101.t.pay_debt: "$petition_liege_header$ Uregulowanie zadłużenia"
  petition_liege.0101.t.war_aid: "$petition_liege_header$ Wsparcie wojskowe"

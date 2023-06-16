@@ -1,8 +1,8 @@
 ﻿l_english:
- ACTIVITY_LOG_ENTRY_EFFECT: ""
+ ACTIVITY_LOG_ENTRY_EFFECT: "#S Efekty#!\n$EFFECT$"
  activity_tournament_province_desc: ""
  activity_tournament_conclusion_desc: ""
- activity_feast_guest_desc: "$BULLET_WITH_TAB$Uczestnicy mogą zwiększyć [Concept( 'opinion', 'opinię' )|E] o sobie nawzajem\n$BULLET_WITH_TAB$Uczestnicy mogą stracić [stress_loss_i][stress|El]\n$BULLET_WITH_TAB$Uczestnicy mogą zyskać [Concept( \ntrait', 'cechę' )|E] #L #TOOLTIP:GAME_TRAIT,lifestyle_reveler,[GetNullCharacter.GetID] biesiadnika#!#!"
+ activity_feast_guest_desc: "$BULLET_WITH_TAB$Uczestnicy mogą poprawić o sobie [Concept( 'opinion', 'opinię' )|E]\n$BULLET_WITH_TAB$Uczestnicy mogą pozbyć się [stress_loss_i][Concept( 'stress', 'stresu' )|E]\n$BULLET_WITH_TAB$Uczestnicy mogą zyskać [Concept( 'trait', 'cechę' )|E] #L #TOOLTIP:GAME_TRAIT,lifestyle_reveler,[GetNullCharacter.GetID] biesiadnika#!#!"
  activity_tournament_guest_desc: ""
  guest_friendship_title: ""
  activity_pulse_action_guest_friendship: ""
