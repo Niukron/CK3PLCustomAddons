@@ -13,7 +13,7 @@ macro = {
 
 macro = {
 	description = "Rodzaj aktywności, ActivityType, biernik, tooltip"
-	definition = "PL_ActivityTypeAccusativeNoTooltip(ActivityType)"
+	definition = "PL_ActivityTypeAccusative(ActivityType)"
 	replace_with = "SelectLocalization( ObjectsEqual( Concatenate( ActivityType.GetKey , '_accusative_tt' ), Localize( Concatenate( ActivityType.GetKey , '_accusative_tt' )) ), ActivityType.GetName , Localize( Concatenate( ActivityType.GetKey , '_accusative_tt' )))"
 }
 
