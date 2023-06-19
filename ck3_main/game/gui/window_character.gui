@@ -3318,7 +3318,8 @@ types CharacterWindow
 			text_single = {
 				maximumsize = { 281 -1 }
 				name = "character_relation_to_you"
-				text = "[Character.GetRelationToString( GetPlayer )]"
+				#text = "[Character.GetRelationToString( GetPlayer )]" ZMIANA
+				text = "[GetPlayer.Custom2('MySheHeGUI', Character.Self)|U][Select_CString( StringIsEmpty(GetPlayer.Custom2('MySheHeGUI', Character.Self)), '', ' ' )][Character.GetRelationToString( GetPlayer )]"
 				tooltip = "EXTENDED_RELATIONS_TOOLTIP"
 				using = tooltip_se
 
