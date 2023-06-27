@@ -22,3 +22,45 @@ macro = {
 	definition = "PL_ActivityTypeAccusativeNoTooltip(ActivityType)"
 	replace_with = "SelectLocalization( ObjectsEqual( Concatenate( ActivityType.GetKey , '_accusative' ), Localize( Concatenate( ActivityType.GetKey , '_accusative' )) ), ActivityType.GetNameNoTooltip , Localize( Concatenate( ActivityType.GetKey , '_accusative' )))"
 }
+
+macro = {
+	description = "Rodzaj aktywności, ActivityType, twój, notooltip"
+	definition = "PL_ActivityTypeYourNoTooltip(ActivityType)"
+	replace_with = "SelectLocalization( ObjectsEqual( Concatenate( ActivityType.GetKey , '_your' ), Localize( Concatenate( ActivityType.GetKey , '_your' )) ), 'twój' , Localize( Concatenate( ActivityType.GetKey , '_your' )))"
+}
+
+macro = {
+	description = "Rodzaj aktywności, ActivityType, twój - dopełniacz, notooltip"
+	definition = "PL_ActivityTypeYourGenitiveNoTooltip(ActivityType)"
+	replace_with = "SelectLocalization( ObjectsEqual( Concatenate( ActivityType.GetKey , '_your_genitive' ), Localize( Concatenate( ActivityType.GetKey , '_your_genitive' )) ), 'twojego' , Localize( Concatenate( ActivityType.GetKey , '_your_genitive' )))"
+}
+
+macro = {
+	description = "Rodzaj aktywności, ActivityType, twój - biernik, notooltip"
+	definition = "PL_ActivityTypeYourAccusativeNoTooltip(ActivityType)"
+	replace_with = "SelectLocalization( ObjectsEqual( Concatenate( ActivityType.GetKey , '_your_accusative' ), Localize( Concatenate( ActivityType.GetKey , '_your_accusative' )) ), 'twój' , Localize( Concatenate( ActivityType.GetKey , '_your_accusative' )))"
+}
+
+macro = {
+	description = "Aktywność, Activity, dopełniacz, notooltip"
+	definition = "PL_ActivityGenitiveNoTooltip(Activity)"
+	replace_with = "JoinText(Activity.GetHost.LocalPlayerString( PL_ActivityTypeYourGenitiveNoTooltip(Activity.GetType), '' ) , PL_ActivityTypeGenitiveNoTooltip(Activity.GetType), Activity.GetHost.LocalPlayerString( '', Concatenate(' postaci ', Activity.GetHost.GetShortUINameNoTooltip )))"
+}
+
+macro = {
+	description = "Aktywność, Activity, dopełniacz, tooltip"
+	definition = "PL_ActivityGenitive(Activity)"
+	replace_with = "Activity.Custom('PL_ActivityGenitiveStringBypass')"
+}
+
+macro = {
+	description = "Aktywność, Activity, biernik, notooltip"
+	definition = "PL_ActivityAccusativeNoTooltip(Activity)"
+	replace_with = "JoinText(Activity.GetHost.LocalPlayerString( PL_ActivityTypeYourAccusativeNoTooltip(Activity.GetType), '' ) , PL_ActivityTypeAccusativeNoTooltip(Activity.GetType), Activity.GetHost.LocalPlayerString( '', Concatenate(' postaci ', Activity.GetHost.GetShortUINameNoTooltip )))"
+}
+
+macro = {
+	description = "Aktywność, Activity, biernik, tooltip"
+	definition = "PL_ActivityAccusative(Activity)"
+	replace_with = "Activity.Custom('PL_ActivityAccusativeStringBypass')"
+}

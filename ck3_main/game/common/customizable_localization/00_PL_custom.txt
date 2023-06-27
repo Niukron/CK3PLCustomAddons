@@ -5761,3 +5761,22 @@ ArtifactBookContentQualityMasc = {
 	parent = ArtifactBookContentQuality
 	suffix = "_masc"
 }
+
+PL_ActivityStringBypass = {
+	type = activity
+
+	text = {
+		fallback = yes
+		localization_key = pl_activity_string_bypass
+	}
+}
+
+PL_ActivityGenitiveStringBypass = {
+	parent = PL_ActivityStringBypass
+	suffix = "_genitive"
+}
+
+PL_ActivityAccusativeStringBypass = {
+	parent = PL_ActivityStringBypass
+	suffix = "_accusative"
+}

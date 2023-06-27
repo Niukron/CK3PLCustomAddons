@@ -3076,3 +3076,30 @@
  activity_tournament_your:0 "twój "
  activity_wedding_your:0 "twój "
  activity_witch_ritual_your:0 "twój "
+
+# Rodzaj aktywności - your - genitive - dopełniacz
+ 
+ activity_feast_your_genitive:0 "twojej "
+ activity_gruesome_festival_your_genitive:0 "twojego "
+ activity_hunt_your_genitive:0 "twojego "
+ activity_pilgrimage_your_genitive:0 "twojej "
+ activity_playdate_your_genitive:0 "twojego "
+ activity_tour_your_genitive:0 "twojego "
+ activity_tournament_your_genitive:0 "twojego "
+ activity_wedding_your_genitive:0 "twojego "
+ activity_witch_ritual_your_genitive:0 "twojego "
+
+# Rodzaj aktywności - your - accusative - biernik
+ 
+ activity_feast_your_accusative:0 "twoją "
+ activity_gruesome_festival_your_accusative:0 "twój "
+ activity_hunt_your_accusative:0 "twoje "
+ activity_pilgrimage_your_accusative:0 "twoją "
+ activity_playdate_your_accusative:0 "twoje "
+ activity_tour_your_accusative:0 "twój "
+ activity_tournament_your_accusative:0 "twój "
+ activity_wedding_your_accusative:0 "twój "
+ activity_witch_ritual_your_accusative:0 "twój "
+
+ pl_activity_string_bypass_genitive:0 "#L #TOOLTIP:ACTIVITY,[ROOT.Activity.GetID] [PL_ActivityGenitiveNoTooltip(ROOT.Activity)]#!#!"
+ pl_activity_string_bypass_accusative:0 "#L #TOOLTIP:ACTIVITY,[ROOT.Activity.GetID] [PL_ActivityAccusativeNoTooltip(ROOT.Activity)]#!#!"
