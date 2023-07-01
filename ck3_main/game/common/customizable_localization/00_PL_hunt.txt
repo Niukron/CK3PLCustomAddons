@@ -409,3 +409,13 @@ PL_GetAnimalTypeGenitive = {
 	parent = GetAnimalType
 	suffix = "_pl_genitive"
 }
+
+PL_GetAnimalTypeAccusative = {
+	parent = GetAnimalType
+	suffix = "_pl_accusative"
+}
+
+PL_GetAnimalTypeGender = {
+	parent = GetAnimalType
+	suffix = "_pl_gender"
+}
