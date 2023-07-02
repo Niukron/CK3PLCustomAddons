@@ -3064,6 +3064,30 @@
  activity_tournament_genitive_tt:0 "#L #TOOLTIP:ACTIVITY_TYPE,activity_tournament $activity_tournament_genitive$#!#!"
  activity_wedding_genitive_tt:0 "#L #TOOLTIP:ACTIVITY_TYPE,activity_wedding $activity_wedding_genitive$#!#!"
  activity_witch_genitive_tt:0 "#L #TOOLTIP:ACTIVITY_TYPE,activity_witch $activity_witch_genitive$#!#!"
+
+# Rodzaj aktywności miejscownik - locative - notooltip - tylko te potrzebne
+
+ activity_feast_locative:0 "uczcie"
+ activity_gruesome_festival_locative:0 "[Select_CString( EqualTo_string( GetPlayer.Custom('GruesomeFestivalName'), '$gruesomefestivalname_blot$' ), 'blócie', 'festiwalu' )]"
+ activity_hunt_locative:0 "polowaniu"
+ activity_pilgrimage_locative:0 "pielgrzymce"
+ activity_playdate_locative:0 "spotkaniu z rówieśnikami"
+ activity_tour_locative:0 "wielkim objeździe ziem"
+ activity_tournament_locative:0 "wielkim turnieju"
+ activity_wedding_locative:0 "wielkim ślubie"
+ activity_witch_locative:0 "wielkim rytuale"
+
+# Rodzaj aktywności miejscownik + tooltip - locative - tylko te potrzebne
+
+ activity_feast_locative_tt:0 "#L #TOOLTIP:ACTIVITY_TYPE,activity_feast $activity_feast_locative$#!#!"
+ activity_gruesome_festival_locative_tt:0 "#L #TOOLTIP:ACTIVITY_TYPE,activity_gruesome_festival [Select_CString( EqualTo_string( GetPlayer.Custom('GruesomeFestivalName'), '$gruesomefestivalname_blot$' ), 'blócie', 'festiwalu' )]#!#!"
+ activity_hunt_locative_tt:0 "#L #TOOLTIP:ACTIVITY_TYPE,activity_hunt $activity_hunt_locative$#!#!"
+ activity_pilgrimage_locative_tt:0 "#L #TOOLTIP:ACTIVITY_TYPE,activity_pilgrimage $activity_pilgrimage_locative$#!#!"
+ activity_playdate_locative_tt:0 "#L #TOOLTIP:ACTIVITY_TYPE,activity_playdate $activity_playdate_locative$#!#!"
+ activity_tour_locative_tt:0 "#L #TOOLTIP:ACTIVITY_TYPE,activity_tour $activity_tour_locative$#!#!"
+ activity_tournament_locative_tt:0 "#L #TOOLTIP:ACTIVITY_TYPE,activity_tournament $activity_tournament_locative$#!#!"
+ activity_wedding_locative_tt:0 "#L #TOOLTIP:ACTIVITY_TYPE,activity_wedding $activity_wedding_locative$#!#!"
+ activity_witch_locative_tt:0 "#L #TOOLTIP:ACTIVITY_TYPE,activity_witch $activity_witch_locative$#!#!"
  
 # Rodzaj aktywności - your
  
@@ -3101,16 +3125,32 @@
  activity_wedding_your_accusative:0 "twój "
  activity_witch_ritual_your_accusative:0 "twój "
 
+# Rodzaj aktywności - your - locative - miejscownik
+ 
+ activity_feast_your_accusative:0 "twojej "
+ activity_gruesome_festival_your_accusative:0 "twoim "
+ activity_hunt_your_accusative:0 "twoim "
+ activity_pilgrimage_your_accusative:0 "twojej "
+ activity_playdate_your_accusative:0 "twoim "
+ activity_tour_your_accusative:0 "twoim "
+ activity_tournament_your_accusative:0 "twoim "
+ activity_wedding_your_accusative:0 "twoim "
+ activity_witch_ritual_your_accusative:0 "twoim "
+
+# activity bypass 
+
+ pl_activity_string_bypass:0 "#N ERROR#!"
  pl_activity_string_bypass_genitive:0 "#L #TOOLTIP:ACTIVITY,[ROOT.Activity.GetID] [PL_ActivityGenitiveNoTooltip(ROOT.Activity)]#!#!"
  pl_activity_string_bypass_accusative:0 "#L #TOOLTIP:ACTIVITY,[ROOT.Activity.GetID] [PL_ActivityAccusativeNoTooltip(ROOT.Activity)]#!#!"
+ pl_activity_string_bypass_locative:0 "#L #TOOLTIP:ACTIVITY,[ROOT.Activity.GetID] [PL_ActivityLocativeNoTooltip(ROOT.Activity)]#!#!"
 
-# GetAnimalMale - polska wersja
+# PL_GetAnimalMale - polska wersja
 
  pl_hunt_animal_male_roe:0 "kozioł"
  pl_hunt_animal_male_wolf:0 "basior"
  pl_animal_type_male_boar:0 "odyniec"
 
-# GetAnimalFemale - polska wersja
+# PL_GetAnimalFemale - polska wersja
 
  pl_hunt_animal_female_roe:0 "koza"
  pl_hunt_animal_female_wolf:0 "wadera"

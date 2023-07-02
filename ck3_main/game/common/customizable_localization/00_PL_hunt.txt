@@ -98,7 +98,7 @@ PL_GetAnimalMale = {
 
 	text = {
 		trigger = { always = no }
-		localization_key = pl_hunt_animal_male_fallback
+		localization_key = hunt_animal_male_fallback
 		fallback = yes
 	}
 }

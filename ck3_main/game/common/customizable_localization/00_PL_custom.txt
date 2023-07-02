@@ -5780,3 +5780,8 @@ PL_ActivityAccusativeStringBypass = {
 	parent = PL_ActivityStringBypass
 	suffix = "_accusative"
 }
+
+PL_ActivityLocativeStringBypass = {
+	parent = PL_ActivityStringBypass
+	suffix = "_locative"
+}
