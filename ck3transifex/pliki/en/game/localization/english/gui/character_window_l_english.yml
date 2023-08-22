@@ -15,6 +15,7 @@
  MATRILINEAL_BETROTHAL: "[matrilineal|E]"
  CONCUBINE_MARRIAGE: "[concubinage|E]"
  IMPRISONED_BY: "[Concept( 'jailor', 'Jailor @crime_icon!' )|E]"
+ WARDEN_OF: "[Concept( 'warden', 'Warden @hostage_icon!' )|E]"
  SKILLS: "[skills|E]"
  TRAITS: "[traits|E]"
  CLAIMS: "[claims|E]"

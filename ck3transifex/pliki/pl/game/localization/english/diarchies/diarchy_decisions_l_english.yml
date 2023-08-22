@@ -3,6 +3,7 @@
  diarch_attempt_to_overthrow_liege_desc: ""
  diarch_attempt_to_overthrow_liege_tooltip: ""
  diarch_attempt_to_overthrow_liege.tt.majority_powerful_vassal_support: ""
+ diarch_attempt_to_overthrow_liege_bypass: ""
  diarch_attempt_to_overthrow_liege.tt.liege_cant_hold_only_hof_highest_title: ""
  diarch_attempt_to_overthrow_liege.second_step: ""
  diarch_attempt_to_overthrow_liege_confirm: ""

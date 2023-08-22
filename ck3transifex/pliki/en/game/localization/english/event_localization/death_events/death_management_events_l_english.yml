@@ -32,7 +32,7 @@
  death_management.1005.a.tt: "Your friend, [dead_character.GetTitledFirstName], has [THIS.Char.Custom('DiedHouse_arrest')]."
  death_management.friend.desc: "Your friend, [dead_character.GetTitledFirstName], died."
  death_management.1007.t: "A Twist of Fate"
- death_management.1007.start_murder: "[dead_character.GetTitledFirstName] has been murdered! Now we will never know what kind of"
+ death_management.1007.start_murder: "[dead_character.GetTitledFirstName] has been murdered!"
  death_management.1007.start: "Today, with the passing of [dead_character.GetTitledFirstName], the future of [ROOT.Char.GetPrimaryTitle.GetNameNoTier] has changed in its course."
  death_management.1007.same_or_higher_tier: "We will never know if [dead_character.GetHerHis] reign would have united our lands together,"
  death_management.1007.mytitle: "We will never know what kind of [ROOT.Char.GetTitleTierName] [dead_character.GetSheHe] would have become,"

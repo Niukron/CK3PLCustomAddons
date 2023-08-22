@@ -1,4 +1,5 @@
 ﻿l_english:
+
  invite_to_activity_interaction:1 "Invite to Activity"
  invite_to_activity_accepted:0 "Invitation Accepted"
  invite_to_activity_accepted_desc:0 "[recipient.GetShortUIName] accepted your invitation and will depart promptly."

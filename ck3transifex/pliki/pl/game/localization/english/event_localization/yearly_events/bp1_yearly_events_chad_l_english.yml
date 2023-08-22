@@ -37,7 +37,7 @@
  bp1_yearly.3005.opinion.tt: "Zyskujesz #P 30#! [Concept( 'opinion', 'opinii' )|E] o każdym [Concept( 'friend', 'przyjacielu' )|E]"
  bp1_yearly.3006.t: "Wspominając minione urodziny"
  bp1_yearly.3006.desc: ""
- bp1_yearly.3006.desc.friend1_dead: ""
+ bp1_yearly.3006.desc.friend1_dead: "[friend1.GetFirstName] od[Select_CString( friend1.IsFemale, 'eszła', 'szedł' )], a ja opłakuję stratę tak wspaniałe[Select_CString( friend1.IsFemale, 'j przyjaciółki', 'go przyjaciela' )]. Był[Select_CString( friend1.IsFemale, 'a', '' )] przy mnie na dobre i na złe, nigdy nie przestając wywoływać uśmiechu na mojej twarzy w chwilach smutku.\n\n"
  bp1_yearly.3006.desc.friend2_dead: ""
  bp1_yearly.3006.desc.artifact_positive: ""
  bp1_yearly.3006.desc.artifact_negative: ""

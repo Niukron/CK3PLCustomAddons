@@ -212,7 +212,7 @@
  lesson_basics_taxes: "Opodatkowanie ($lesson_basics_holdings$)"
  lesson_basics_taxes_desc: "Każda [Concept('holding', 'posiadłość')|E] zapewnia [taxes|El] swojemu [Concept('holder', 'właścicielowi')|E]. Jeśli właścicielem jest [vassal|El], on z kolei musi płacić podatki swojemu [Concept('liege', 'seniorowi')|E].\n\nPodatki to główne źródło [Concept('income', 'dochodu')|E] [gold_i] [Concept('gold', 'złota')|E]!\n\n#TUT [obligations|E] mogą mieć wpływ na to jak wysokie są te podatki. Bycie w stanie [Concept('war', 'wojny')|E] może mieć wpływ na poziom [Concept('control', 'kontroli')|E] w [Concept('county', 'hrabstwie')|E], co z kolei wpływa na wielkość podatków.#!"
  lesson_basics_vassals_concept: "Wasale ($lesson_basics_vassals$)"
- lesson_basics_realm_view_tt: "Otwórz widok Królestwa po prawej stronie ekranu (podświetlony)"
+ lesson_basics_realm_view_tt: "Otwórz widok państwa po prawej stronie ekranu (podświetlone)"
  lesson_basics_vassals_tab_tt: "Sprawdź zakładkę „Wasale”"
  lesson_basics_vassals_concept_desc: "Jako [ruler|El], prawdopodobnie będziesz [Concept('liege', 'seniorem')|E] przynajmniej jednego [Concept('vassal', 'wasala')|E]. Są to władcy, którzy złożyli ci przysięgę wierności i tym samym są częścią twojego [Concept('realm', 'państwa')|E].\n\n#TUT Wasale dostarczają ci [Concept('gold', 'złota')|E] ([taxes|El]) oraz żołnierzy ([levies|El]).\n\nMożliwe jest bycie jednocześnie seniorem i wasalem.#!"
  lesson_basics_vassals_concept_complete_2: "$lesson_basics_vassals_concept$"

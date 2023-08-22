@@ -23,6 +23,7 @@ java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%\\credits" "pliki\\en%gle%\\cred
 java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%\\culture" "pliki\\en%gle%\\culture" "temp\\supply%gle%\\culture" yaml
 java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%\\culture\\traditions" "pliki\\en%gle%\\culture\\traditions" "temp\\supply%gle%\\culture\\traditions" yaml
 java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%\\dlc\\bp1" "pliki\\en%gle%\\dlc\\bp1" "temp\\supply%gle%\\dlc\\bp1" yaml
+java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%\\dlc\\bp2" "pliki\\en%gle%\\dlc\\bp2" "temp\\supply%gle%\\dlc\\bp2" yaml
 java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%\\dlc\\ep1" "pliki\\en%gle%\\dlc\\ep1" "temp\\supply%gle%\\dlc\\ep1" yaml
 java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%\\dlc\\ep2" "pliki\\en%gle%\\dlc\\ep2" "temp\\supply%gle%\\dlc\\ep2" yaml
 java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%\\dlc\\ep2\\dynasty_legacies" "pliki\\en%gle%\\dlc\\ep2\\dynasty_legacies" "temp\\supply%gle%\\dlc\\ep2\\dynasty_legacies" yaml
@@ -37,6 +38,7 @@ java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%\\custom_localization" "pliki\\e
 java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%\\diarchies" "pliki\\en%gle%\\diarchies" "temp\\supply%gle%\\diarchies" yaml
 java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%\\dynasties" "pliki\\en%gle%\\dynasties" "temp\\supply%gle%\\dynasties" yaml
 java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%\\dynasty_legacies" "pliki\\en%gle%\\dynasty_legacies" "temp\\supply%gle%\\dynasty_legacies" yaml
+java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%\\effects" "pliki\\en%gle%\\effects" "temp\\supply%gle%\\effects" yaml
 java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%\\enum" "pliki\\en%gle%\\enum" "temp\\supply%gle%\\enum" yaml
 java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%%evtloc%" "pliki\\en%gle%%evtloc%" "temp\\supply%gle%%evtloc%" yaml
 java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%%evtloc%\\activities" "pliki\\en%gle%%evtloc%\\activities" "temp\\supply%gle%%evtloc%\\activities" yaml
@@ -80,6 +82,7 @@ java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%%evtloc%\\yearly_events" "pliki\
 java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%%evtloc%\\war_event" "pliki\\en%gle%%evtloc%\\war_event" "temp\\supply%gle%%evtloc%\\war_event" yaml
 java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%\\gui" "pliki\\en%gle%\\gui" "temp\\supply%gle%\\gui" yaml
 java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%\\hold_court_events" "pliki\\en%gle%\\hold_court_events" "temp\\supply%gle%\\hold_court_events" yaml
+java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%\\hostages" "pliki\\en%gle%\\hostages" "temp\\supply%gle%\\hostages" yaml
 java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%\\interactions" "pliki\\en%gle%\\interactions" "temp\\supply%gle%\\interactions" yaml
 java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%\\inventory" "pliki\\en%gle%\\inventory" "temp\\supply%gle%\\inventory" yaml
 java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%\\lifestyles" "pliki\\en%gle%\\lifestyles" "temp\\supply%gle%\\lifestyles" yaml
@@ -90,6 +93,7 @@ java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%\\names" "pliki\\en%gle%\\names"
 java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%\\opinions" "pliki\\en%gle%\\opinions" "temp\\supply%gle%\\opinions" yaml
 java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%\\portraits" "pliki\\en%gle%\\portraits" "temp\\supply%gle%\\portraits" yaml
 java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%\\religion" "pliki\\en%gle%\\religion" "temp\\supply%gle%\\religion" yaml
+java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%\\travel" "pliki\\en%gle%\\travel" "temp\\supply%gle%\\travel" yaml
 java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%\\triggers" "pliki\\en%gle%\\triggers" "temp\\supply%gle%\\triggers" yaml
 java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%\\struggles" "pliki\\en%gle%\\struggles" "temp\\supply%gle%\\struggles" yaml
 java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%\\tutorial" "pliki\\en%gle%\\tutorial" "temp\\supply%gle%\\tutorial" yaml
@@ -122,6 +126,7 @@ java -jar "%parser%" "%fte%" "temp\\supply%gle%\\culture\\traditions" "temp\\ck3
 java -jar "%parser%" "%fte%" "temp\\supply%gle%\\custom_localization" "temp\\ck3%gle%\\custom_localization" "%charset%"
 java -jar "%parser%" "%fte%" "temp\\supply%gle%\\diarchies" "temp\\ck3%gle%\\diarchies" "%charset%"
 java -jar "%parser%" "%fte%" "temp\\supply%gle%\\dlc\\bp1" "temp\\ck3%gle%\\dlc\\bp1" "%charset%"
+java -jar "%parser%" "%fte%" "temp\\supply%gle%\\dlc\\bp2" "temp\\ck3%gle%\\dlc\\bp2" "%charset%"
 java -jar "%parser%" "%fte%" "temp\\supply%gle%\\dlc\\ep1" "temp\\ck3%gle%\\dlc\\ep1" "%charset%"
 java -jar "%parser%" "%fte%" "temp\\supply%gle%\\dlc\\ep2" "temp\\ck3%gle%\\dlc\\ep2" "%charset%"
 java -jar "%parser%" "%fte%" "temp\\supply%gle%\\dlc\\ep2\\dynasty_legacies" "temp\\ck3%gle%\\dlc\\ep2\\dynasty_legacies" "%charset%"
@@ -134,6 +139,7 @@ java -jar "%parser%" "%fte%" "temp\\supply%gle%\\dlc\\fp1" "temp\\ck3%gle%\\dlc\
 java -jar "%parser%" "%fte%" "temp\\supply%gle%\\dlc\\fp2" "temp\\ck3%gle%\\dlc\\fp2" "%charset%"
 java -jar "%parser%" "%fte%" "temp\\supply%gle%\\dynasties" "temp\\ck3%gle%\\dynasties" "%charset%"
 java -jar "%parser%" "%fte%" "temp\\supply%gle%\\dynasty_legacies" "temp\\ck3%gle%\\dynasty_legacies" "%charset%"
+java -jar "%parser%" "%fte%" "temp\\supply%gle%\\effects" "temp\\ck3%gle%\\effects" "%charset%"
 java -jar "%parser%" "%fte%" "temp\\supply%gle%\\enum" "temp\\ck3%gle%\\enum" "%charset%"
 java -jar "%parser%" "%fte%" "temp\\supply%gle%%evtloc%" "temp\\ck3%gle%%evtloc%" "%charset%"
 java -jar "%parser%" "%fte%" "temp\\supply%gle%%evtloc%\\activities" "temp\\ck3%gle%%evtloc%\\activities" "%charset%"
@@ -177,6 +183,7 @@ java -jar "%parser%" "%fte%" "temp\\supply%gle%%evtloc%\\yearly_events" "temp\\c
 java -jar "%parser%" "%fte%" "temp\\supply%gle%%evtloc%\\war_event" "temp\\ck3%gle%%evtloc%\\war_event" "%charset%"
 java -jar "%parser%" "%fte%" "temp\\supply%gle%\\gui" "temp\\ck3%gle%\\gui" "%charset%"
 java -jar "%parser%" "%fte%" "temp\\supply%gle%\\hold_court_events" "temp\\ck3%gle%\\hold_court_events" "%charset%"
+java -jar "%parser%" "%fte%" "temp\\supply%gle%\\hostages" "temp\\ck3%gle%\\hostages" "%charset%"
 java -jar "%parser%" "%fte%" "temp\\supply%gle%\\interactions" "temp\\ck3%gle%\\interactions" "%charset%"
 java -jar "%parser%" "%fte%" "temp\\supply%gle%\\inventory" "temp\\ck3%gle%\\inventory" "%charset%"
 java -jar "%parser%" "%fte%" "temp\\supply%gle%\\lifestyles" "temp\\ck3%gle%\\lifestyles" "%charset%"
@@ -187,6 +194,7 @@ java -jar "%parser%" "%fte%" "temp\\supply%gle%\\names" "temp\\ck3%gle%\\names" 
 java -jar "%parser%" "%fte%" "temp\\supply%gle%\\opinions" "temp\\ck3%gle%\\opinions" "%charset%"
 java -jar "%parser%" "%fte%" "temp\\supply%gle%\\portraits" "temp\\ck3%gle%\\portraits" "%charset%"
 java -jar "%parser%" "%fte%" "temp\\supply%gle%\\religion" "temp\\ck3%gle%\\religion" "%charset%"
+java -jar "%parser%" "%fte%" "temp\\supply%gle%\\travel" "temp\\ck3%gle%\\travel" "%charset%"
 java -jar "%parser%" "%fte%" "temp\\supply%gle%\\triggers" "temp\\ck3%gle%\\triggers" "%charset%"
 java -jar "%parser%" "%fte%" "temp\\supply%gle%\\struggles" "temp\\ck3%gle%\\struggles" "%charset%"
 java -jar "%parser%" "%fte%" "temp\\supply%gle%\\tutorial" "temp\\ck3%gle%\\tutorial" "%charset%"

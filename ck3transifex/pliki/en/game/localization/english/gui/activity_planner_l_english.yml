@@ -7,7 +7,7 @@
  INVALID_ACTIVITY_NO_PLANNED_PHASES: "@warning_icon!#X No planned [activity_phases|E]#!"
  INVALID_ACTIVITY_PHASE_WITHOUT_TYPE: "@warning_icon!#X One of the [activity_phases|E] is missing a phase type#!"
  INVALID_ACTIVITY_PHASE_WITHOUT_LOCATION: "@warning_icon!#X No location selected for one of the [activity_phases|E]#!"
- INVALID_ACTIVITY_HOST_ALREADY_IN_ACTIVITY: "@warning_icon!#X Already involved in an [activity|E]#!"
+ INVALID_ACTIVITY_HOST_ALREADY_IN_ACTIVITY: "@warning_icon!#X [CHARACTER.GetUIName|U] is already involved in an [activity|E]#!"
  INVALID_ACTIVITY_IN_THE_PAST: "@warning_icon!#X Cannot start an [activity|E] in the past#!"
  INVALID_ACTIVITY_REQUIRED_SPECIAL_GUEST_EMPTY: "@warning_icon!#X Someone must attend as the [ACTIVITY_SPECIAL_GUEST.GetNameForHost]#!"
  INVALID_ACTIVITY_REQUIRED_SPECIAL_GUEST_DECLINED: "@warning_icon!#X [CHARACTER.GetUIName|U] is required to attend as the [ACTIVITY_SPECIAL_GUEST.GetNameForHost]#!"

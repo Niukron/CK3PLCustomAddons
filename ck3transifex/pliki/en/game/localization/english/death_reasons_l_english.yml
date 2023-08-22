@@ -296,3 +296,5 @@
  death_stampede: "was trampled by a stampeding herd"
  death_avalanche: "was buried by an avalanche"
  death_poisonous_forage: "ate some poisonous plants by mistake"
+ death_hostage_execution: "was executed while being a hostage"
+ death_hostage_execution_killer: "was executed while being [TARGET_CHARACTER.GetUINamePossessive] hostage"

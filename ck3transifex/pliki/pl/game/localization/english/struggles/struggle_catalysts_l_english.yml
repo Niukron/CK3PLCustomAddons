@@ -6,7 +6,7 @@
  catalyst_passing_of_time: "Roczna zmiana [Concept( 'struggle_catalyst_catalyst', 'katalizatora' )|E]"
  catalyst_passing_of_time_desc: "Roczna zmiana w kierunku tej [Concept( 'struggle_phase', 'fazy zmagań' )|E]"
  catalyst_demanding_important_conversion: "[struggle_catalyst_catalyst|E]: Zażądano nawrócenia"
- catalyst_demanding_important_conversion_desc: ""
+ catalyst_demanding_important_conversion_desc: "[Concept( 'demand_conversion', 'Zażądano nawrócenia' )|E] [Concept( 'struggle_involved', 'zaangażowanego' )|E] [Concept( 'ruler', 'władcy' )|E]"
  catalyst_enforcing_de_jure_claims: ""
  catalyst_enforcing_de_jure_claims_desc: ""
  catalyst_creating_a_holy_order: "[struggle_catalyst_catalyst|E]: Założono [holy_order|El]"

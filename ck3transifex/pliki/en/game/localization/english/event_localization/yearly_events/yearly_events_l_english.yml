@@ -31,6 +31,7 @@
  yearly.0011.desc: "The appearance of a comet in the heavens causes all mortals to pause. What could this strange apparition mean, wandering across our skies so unexpectedly?\n\nWiser [ROOT.Char.GetWomenMen] than I have spent their lifetimes pondering less, but every uppity peasant in [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] seems to have their own ill-thought theory..."
  yearly.0011.gain_stress: "The comet panics innumerable subjects"
  yearly.0011.lose_stress: "The comet terrifies many troublemakers"
+ gain_rock_artifact_tt: "You gain a $artifact_pedestal_rock_name$ [artifact|e]"
  yearly.0011.new_friends: "Maybe it brings new friends?"
  yearly.0011.lustful: "Quick, someone hold me close!"
  yearly.0011.chaste: "The fornicators have brought this upon us!"

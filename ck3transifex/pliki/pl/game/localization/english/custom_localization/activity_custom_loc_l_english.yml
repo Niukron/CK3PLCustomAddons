@@ -3,3 +3,5 @@
  pilgrimage_worldliness: ""
  pilgrimage_piousness_desc: ""
  pilgrimage_worldliness_desc: ""
+ fallback_liturgical_province_language: ""
+ fallback_liturgical_character_language: ""

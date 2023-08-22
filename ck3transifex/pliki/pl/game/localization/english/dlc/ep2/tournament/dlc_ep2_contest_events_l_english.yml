@@ -996,7 +996,7 @@
  tournament_chant_negative_fat_1: ""
  contest_team_winners_tt: ""
  contest_team_losers_tt: ""
- contest_individual_losers_tt: ""
+ contest_individual_losers_tt: "Każdy [Concept( 'contest_qualifying', 'kwalifikujący się' )|E] [contestant|El]"
  tournament_qualifier_replaced_toast: ""
  winning_knight_rewards_tt: ""
  losing_knight_rewards_tt: ""

@@ -187,6 +187,7 @@
  on_hook_used.tt.best_friend_stress: "You abuse your friendship with [target.GetShortUINameNoTooltip]"
  death.lost_ritualised_best_friend.tt: "Your best friend in the whole world has died"
  need_at_least_one_friend: "You need at least one [friend|E]"
+ guess_you_need_more_friends_desc: "You don't have at least three [friends|E]"
  scheme_power_against_friend_add: "[scheme_power|E] against [friends|E]"
  scheme_power_against_best_friend_add: "[scheme_power|E] against [best_friends|E]"
  on_set_relation_best_friend.gain_hook.root.tt: "Your friendship with [target.GetFirstNameNoTooltip] is ritually significant"

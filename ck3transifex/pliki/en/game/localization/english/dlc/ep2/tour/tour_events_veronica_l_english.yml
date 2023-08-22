@@ -303,7 +303,7 @@
  cultural_festival.3031.e.tt: "You crown your rival [farm_animal_rival.GetShortUIName] as the winner"
  favourite_animal_contest_modifier: "Judged Animal Contest"
  underdog_animal_contest_modifier: "Crowned Ugly Animal"
- underdog_animal_contest_modifier_desc: "This character chose a comely looking animal as the winner of a beauty contest."
+ underdog_animal_contest_modifier_desc: "This character chose a homely looking animal as the winner of a beauty contest."
  mocked_animal_fair_modifier: "Mocked Animal Fair"
  cultural_acceptance_farm_contest: "Animal Contest"
  regional_farm_animal_goat: "goat"
