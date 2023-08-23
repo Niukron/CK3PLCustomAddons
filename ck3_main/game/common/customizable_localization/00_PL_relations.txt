@@ -7287,12 +7287,14 @@ MySheHeGUI = {
     text = {
 		localization_key = relation_wet_nurse_female_my
 		trigger = {
-			scope:second = { is_female = yes }
-			has_court_position = wet_nurse_court_position
-			is_court_position_employer = {
-		        court_position = wet_nurse_court_position
-		        who = root
-		    }
+			scope:second = { 
+				is_female = yes
+				has_court_position = wet_nurse_court_position
+				is_court_position_employer = {
+					court_position = wet_nurse_court_position
+					who = root
+				}
+			}
 		}
 	}
 
