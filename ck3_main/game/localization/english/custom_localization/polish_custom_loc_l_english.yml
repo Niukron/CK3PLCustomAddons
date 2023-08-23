@@ -1338,6 +1338,11 @@
  qiangic_night_god_name_cel:0 "Xishueahse"
  qiangic_water_god_name_cel:0 "Dsehse"
  qiangic_witchgod_name_cel:0 "Dulowi"
+
+ #Saura
+ saura_high_god_name_cel:0 "Surji"
+ saura_high_god_name_wol:0 "Surjo"
+ saura_war_god_name_cel:0 "Skandzie"
  
  #Melieizm
  tangut_high_god_name_cel:0 "Mewnowi"
