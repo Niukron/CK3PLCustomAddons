@@ -87,7 +87,7 @@
  hunt.8520.a.success: ""
  hunt.8520.a.failure: ""
  hunt.8520.b: ""
- hunt.8520.b.success: ""
+ hunt.8520.b.success: "$hunt.8520.a.success$"
  hunt.8520.b.failure: ""
  hunt.8530.t: ""
  hunt.8530.desc.intro: ""

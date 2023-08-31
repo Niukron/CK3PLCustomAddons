@@ -642,7 +642,7 @@
  score_increases_tt: ""
  score_decreases_tt: ""
  score_increases_slightly_tt: ""
- score_decreases_slightly_tt: ""
+ score_decreases_slightly_tt: "Wynik #negative_value nieznacznie maleje#!"
  ep2_locale_events_gift_success: ""
  ep2_locale_events_gift_failure: ""
  every_faith_attending_character_tt: ""

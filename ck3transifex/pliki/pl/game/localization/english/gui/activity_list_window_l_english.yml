@@ -31,7 +31,7 @@
  ACTIVITY_LIST_DETAIL_HOST_EFFECTS: "Przewidywane korzyści za zorganizowanie [Concept( 'activity', PL_ActivityTypeGenitiveNoTooltip(ActivityType))|El]:\n[ActivityType.GetHostDescription( GetPlayer )][AddLocalizationIf( ActivityTypeHasCooldown( ActivityType ), 'ACTIVITY_LIST_DETAIL_HOST_COOLDOWN' )]"
  ACTIVITY_CAN_START_NOT_VALID: "@warning_icon! #X Nie spełniasz wszystkich wymagań#!"
  ACTIVITY_LIST_DETAIL_TOGGLE_SHOULD_NOTIFY_CAN_HOST: "Powiadom mnie, gdy ta aktywność będzie dostępna"
- ACTIVITY_LIST_DETAIL_JOIN_TITLE: "Zaproszenie do [PL_ActivityGenitiveNoTooltip(Activity)|l]"
+ ACTIVITY_LIST_DETAIL_JOIN_TITLE: "Zaproszenie na [PL_ActivityAccusativeNoTooltip(Activity)|l]"
  ACTIVITY_LIST_DETAIL_JOIN_EFFECTS: "Dołączasz do [PL_ActivityGenitiveNoTooltip(Activity)|l] w: $ACTIVITY_CURRENT_LOCATION$\n[Activity.GetGuestDescription( GetPlayer )]"
  ACTIVITY_LIST_DETAIL_JOIN_CONFIRM: "Dołącz do [PL_ActivityGenitiveNoTooltip(Activity)|l]"
  ACTIVITY_LIST_DETAIL_JOIN_PHASES_HEADER: "[activity_phases|E]"

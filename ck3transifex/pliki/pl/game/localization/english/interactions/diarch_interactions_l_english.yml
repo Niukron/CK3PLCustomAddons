@@ -51,7 +51,7 @@
  LIEGE_LACKS_LAW_ALLOWING_TITLE_REVOCATION_TRIBAL: "Twój [liege|El] nie ma wystarczającego poziomu [Concept( 'tribal_authority', 'autorytetu władzy plemiennej' )|E], aby [Concept( 'revoke', 'odebrać' )|E] [titles|El]"
  LIEGE_LACKS_LAW_ALLOWING_TITLE_REVOCATION_CROWN: "Twój [liege|El] nie ma wystarczającego poziomu [Concept( 'crown_authority', 'autorytetu korony' )|E], aby [Concept( 'revoke', 'odebrać' )|E] [titles|El]"
  liege_vassal_contract_forbids_revocation: ""
- diarch_has_claim_on_revokable_title: "Musisz posiadać [claim|El] do jednego z [Concept( 'titles, 'tytułów' )|E], którymi włada [TARGET_CHARACTER.GetFirstName]"
+ diarch_has_claim_on_revokable_title: "Musisz posiadać [claim|El] do jednego z [Concept( 'titles', 'tytułów' )|E], którymi włada [TARGET_CHARACTER.GetFirstName]"
  you_must_have_a_claim_on_the_title: "Musisz posiadać [claim|El] do [Concept( 'title', 'tytułu' )|E]"
  diarch_revoke_title_interaction.tt.gain_title: ""
  diarch_revoke_title_interaction.tt.inform_recipient: ""

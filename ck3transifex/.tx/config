@@ -4363,6 +4363,13 @@ source_file = pliki/en/game/localization/english/hold_court_events/hold_court_ev
 source_lang = en
 type = YAML_GENERIC
 
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:hostages_l_englishyml]
+file_filter = pliki/<lang>/game/localization/english/hostages/hostages_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/hostages/hostages_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
 [o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:categories_l_englishyml]
 file_filter = pliki/<lang>/game/localization/english/interactions/categories_l_english.yml
 minimum_perc = 0
