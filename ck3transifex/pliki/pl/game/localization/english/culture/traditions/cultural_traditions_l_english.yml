@@ -887,7 +887,7 @@
  culture_emergence_events.0001.desc: ""
  culture_emergence_events.0001.a: ""
  culture_emergence_events.0001.b: ""
- cultural_acceptance_gain_event: ""
+ cultural_acceptance_gain_event: "Z wydarzeń"
  new_hybrid_culture_tt: ""
  culture_emergence_events.0001.existing_hybrid: ""
  culture_emergence_events.0001.new_hybrid: "Ty i twoje ziemie przyjmiecie nowo powstałą [Concept( 'hybrid_culture', 'kulturę hybrydową' )|E]"
