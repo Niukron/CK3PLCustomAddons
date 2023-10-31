@@ -303,7 +303,7 @@ TerrainTypeInMie = {
 	suffix = "_in_mie"
 }
 
-# v1.6 - original
+# v1.10 - original
 TerrainTypeProvince = {
 	type = province
 
@@ -378,13 +378,19 @@ TerrainTypeProvince = {
 	}
 }
 
-# v1.6
+# v1.10
 TerrainTypeProvinceGenitive = {
 	parent = TerrainTypeProvince
 	suffix = "_dop"
 }
 
-# v1.6
+# v1.10
+TerrainTypeProvinceGenitiveUppercase = {
+	parent = TerrainTypeProvince
+	suffix = "_dop_uc"
+}
+
+# v1.10
 TerrainTypeProvinceInMie = {
 	parent = TerrainTypeProvince
 	suffix = "_in_mie"
