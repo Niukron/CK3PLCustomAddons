@@ -201,7 +201,7 @@ accolade_the_knight_of_the_animal = {
 						}
 					}
 					NOT = {
-						has_trait = craven_gen
+						has_trait = craven
 					}
 				}
 				desc = accolade_lion
