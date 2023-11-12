@@ -82,6 +82,7 @@
  default: "Default"
  iberian: "Iberian"
  Norse: "Norse"
+ iranian: "$e_persia_adj$"
  SETTING_HUD_SKIN_TOOLTIP: "#T $SETTING_HUD_SKIN$#!\nSets visual theme of the HUD interface - 2D UI shown on the main game screen.\n\nIf $hud_skin_auto$ is selected, HUD will change depending on culture, faith and realm capital of the player"
  SETTING_RICH_PRESENCE: "Rich Presence"
  SETTING_RICH_PRESENCE_TOOLTIP: "#T $SETTING_RICH_PRESENCE$#!\nShow information about your current play session to your friends if your platform supports it."

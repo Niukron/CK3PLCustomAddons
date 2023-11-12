@@ -34,6 +34,7 @@ java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%\\dlc\\ep2\\travel" "pliki\\en%g
 java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%\\dlc\\ep2\\wedding" "pliki\\en%gle%\\dlc\\ep2\\wedding" "temp\\supply%gle%\\dlc\\ep2\\wedding" yaml
 java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%\\dlc\\fp1" "pliki\\en%gle%\\dlc\\fp1" "temp\\supply%gle%\\dlc\\fp1" yaml
 java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%\\dlc\\fp2" "pliki\\en%gle%\\dlc\\fp2" "temp\\supply%gle%\\dlc\\fp2" yaml
+java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%\\dlc\\fp3" "pliki\\en%gle%\\dlc\\fp3" "temp\\supply%gle%\\dlc\\fp3" yaml
 java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%\\custom_localization" "pliki\\en%gle%\\custom_localization" "temp\\supply%gle%\\custom_localization" yaml
 java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%\\diarchies" "pliki\\en%gle%\\diarchies" "temp\\supply%gle%\\diarchies" yaml
 java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%\\dynasties" "pliki\\en%gle%\\dynasties" "temp\\supply%gle%\\dynasties" yaml
@@ -137,6 +138,7 @@ java -jar "%parser%" "%fte%" "temp\\supply%gle%\\dlc\\ep2\\travel" "temp\\ck3%gl
 java -jar "%parser%" "%fte%" "temp\\supply%gle%\\dlc\\ep2\\wedding" "temp\\ck3%gle%\\dlc\\ep2\\wedding" "%charset%"
 java -jar "%parser%" "%fte%" "temp\\supply%gle%\\dlc\\fp1" "temp\\ck3%gle%\\dlc\\fp1" "%charset%"
 java -jar "%parser%" "%fte%" "temp\\supply%gle%\\dlc\\fp2" "temp\\ck3%gle%\\dlc\\fp2" "%charset%"
+java -jar "%parser%" "%fte%" "temp\\supply%gle%\\dlc\\fp3" "temp\\ck3%gle%\\dlc\\fp3" "%charset%"
 java -jar "%parser%" "%fte%" "temp\\supply%gle%\\dynasties" "temp\\ck3%gle%\\dynasties" "%charset%"
 java -jar "%parser%" "%fte%" "temp\\supply%gle%\\dynasty_legacies" "temp\\ck3%gle%\\dynasty_legacies" "%charset%"
 java -jar "%parser%" "%fte%" "temp\\supply%gle%\\effects" "temp\\ck3%gle%\\effects" "%charset%"

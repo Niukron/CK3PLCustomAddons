@@ -64,6 +64,7 @@
  single_combat.0001.desc.success_check.almost_certain: "\n\nI cannot be more than one well-placed strike away from victory."
  single_combat.0001.wait_and_hope: "Maybe if I wait, [my_foe.GetSheHe]'ll trip on [my_foe.GetHerHis] [my_foe.Custom('signature_weapon')]?"
  single_combat.0001.unsure_attack: "Uh, have at thee! Just #EMP die#!!"
+ single_combat.0001.unsure_attack_non_fatal: "Uh, have at thee! Just #EMP yield#!!"
  single_combat.0001.enthusiastic_onslaught.banned_house: "#EMP [myself.GetFullNameNoTooltip]!#!"
  single_combat.0001.enthusiastic_onslaught.own_house: "You are a disgrace to the [myself.GetHouse.GetNameNoTooltip] name!"
  single_combat.0001.enthusiastic_onslaught.motto: "#EMP [myself.GetHouse.GetMotto]#!, scum!"

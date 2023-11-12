@@ -1,5 +1,5 @@
 ﻿l_english:
- DIARCHY_WINDOW_HEADER: ""
+ DIARCHY_WINDOW_HEADER: "$game_concept_diarchy$"
  DIARCHY_WINDOW_STATUS_ACTIVE_DIARCHY: "[Concept( 'sharing_power', 'Dzieli władzę' )|E] w [Select_CString( EqualTo_string( Character.GetDiarchyTypeNameNoTooltip , '$game_concept_regency$' ) , Concept('regency', 'regencji'), Select_CString( EqualTo_string( Character.GetDiarchyTypeNameNoTooltip , '$game_concept_entrenched_regency$' ) , Concept('entrenched_regency', 'zakorzenionej regencji') , Character.GetDiarchyTypeName ) )|E]"
  DIARCHY_WINDOW_STATUS_INACTIVE_DIARCHY: "Nie [Concept( 'sharing_power', 'dzieli władzy' )|E]"
  DIARCHY_WINDOW_TITLE_DESIGNATED_DIARCH: "[Select_CString( TARGET_CHARACTER.IsFemale, 'Mianowana', 'Mianowany' )] [Select_CString( TARGET_CHARACTER.IsFemale, Select_CString(EqualTo_string( CHARACTER.GetDiarchTitle , 'Regent' ), 'Regentka', Select_CString(EqualTo_string( CHARACTER.GetDiarchTitle , 'Diarcha' ), 'Diarchini', CHARACTER.GetDiarchTitle ) ) , CHARACTER.GetDiarchTitle )|l] ([CHARACTER.GetPrimaryTitle.Custom('TitleAdj')])"

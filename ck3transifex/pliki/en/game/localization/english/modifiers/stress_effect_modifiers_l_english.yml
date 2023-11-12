@@ -24,7 +24,7 @@
  stress_smelling_of_sweat: "Sweaty Stench"
  stress_smelling_of_sweat_desc: "The stench of sweat follows this character around."
  stress_busy_writing: "Occupied Writing"
- stress_busy_writing_desc: "This character is spending most of their time writing"
+ stress_busy_writing_desc: "This character is spending most of their time writing."
  irritating_everyone_modifier: "Lashing Out"
  irritating_everyone_modifier_desc: "This character is doing nothing to reign in their irritation and anger."
  irritating_everyone_courtier_modifier: "$irritating_everyone_modifier$"

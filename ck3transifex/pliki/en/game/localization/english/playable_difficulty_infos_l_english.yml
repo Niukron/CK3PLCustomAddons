@@ -11,3 +11,4 @@
  pdi_matrilinial_marriage_as_man: "[matrilineal|E] [marriage|E]"
  pdi_is_in_debt: "In [debt|E]"
  pdi_has_poor_health: "[health|E]: $action_dying$"
+ pdi_in_regency: "In a [regency|E]"

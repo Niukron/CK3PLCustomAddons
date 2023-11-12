@@ -1044,7 +1044,7 @@
  progress_to_unlock_journal_mystery_tt: ""
  bonus_to_hostile_schemes: ""
  take_liege_to_pub_tt: ""
- may_get_favor_tt: ""
+ may_get_favor_tt: "Możesz zyskać haka"
  vassal_may_get_hook_tt: ""
  stop_host_is_informed_tt: ""
  progress_towards_hook_tt: ""

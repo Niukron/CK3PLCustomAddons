@@ -98,6 +98,7 @@
  TRAVEL_POINT_OF_INTEREST_TT_poi_special_buildings_economic: "$TRAVEL_POINT_OF_INTEREST_TT_poi_special_buildings$"
  TRAVEL_POINT_OF_INTEREST_TT_poi_special_buildings_wonder: "$TRAVEL_POINT_OF_INTEREST_TT_poi_special_buildings$"
  TRAVEL_POINT_OF_INTEREST_TT_poi_special_buildings_diplomatic: "$TRAVEL_POINT_OF_INTEREST_TT_poi_special_buildings$"
+ TRAVEL_POINT_OF_INTEREST_TT_poi_natural_feature: "$TRAVEL_POINT_OF_INTEREST_TT_poi_special_buildings$"
  TRAVEL_POINT_OF_INTEREST_TT_poi_capitals: "Capital of [Province.GetTitle.GetHolder.GetPrimaryTitle.GetName][SelectLocalization( And( HasDlcFeature( 'royal_court' ), Province.GetTitle.GetHolder.HasRoyalCourt() ), 'TRAVEL_POINT_OF_INTEREST_TT_poi_capitals_court_type', '')]"
  TRAVEL_POINT_OF_INTEREST_TT_poi_capitals_court_type: "\n([court_type|E]: [Province.GetTitle.GetHolder.GetCourtType.GetName])"
  TRAVEL_POINT_OF_INTEREST_TT_poi_mausoleum_at_halicarnassus: "Mausoleum at Halicarnassus"

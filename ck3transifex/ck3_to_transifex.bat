@@ -38,6 +38,7 @@ java -jar "%parser%" "%fty%" "orginal%gle%\\dlc\\ep2\\travel" "pliki\\en%gle%\\d
 java -jar "%parser%" "%fty%" "orginal%gle%\\dlc\\ep2\\wedding" "pliki\\en%gle%\\dlc\\ep2\\wedding" "%charset%"
 java -jar "%parser%" "%fty%" "orginal%gle%\\dlc\\fp1" "pliki\\en%gle%\\dlc\\fp1" "%charset%"
 java -jar "%parser%" "%fty%" "orginal%gle%\\dlc\\fp2" "pliki\\en%gle%\\dlc\\fp2" "%charset%"
+java -jar "%parser%" "%fty%" "orginal%gle%\\dlc\\fp3" "pliki\\en%gle%\\dlc\\fp3" "%charset%"
 java -jar "%parser%" "%fty%" "orginal%gle%\\dynasties" "pliki\\en%gle%\\dynasties" "%charset%"
 java -jar "%parser%" "%fty%" "orginal%gle%\\dynasty_legacies" "pliki\\en%gle%\\dynasty_legacies" "%charset%"
 java -jar "%parser%" "%fty%" "orginal%gle%\\effects" "pliki\\en%gle%\\effects" "%charset%"

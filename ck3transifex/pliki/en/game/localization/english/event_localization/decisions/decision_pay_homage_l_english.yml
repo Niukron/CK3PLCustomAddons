@@ -4,7 +4,7 @@
  pay_homage_decision_tooltip: "Formally pledge [pay_homage|E] to your [liege|E]"
  pay_homage_decision_effects: "You travel to [THIS.Char.GetLiege.GetTitledFirstNamePossessive] court to pay Homage"
  pay_homage_decision_confirm: "$pay_homage_decision$"
- pay_homage_decision_second_tooltip: "$DESC$\n$pay_homage_grace_tt$\n\n$IS_VALID_BLOCKER$"
+ pay_homage_decision_second_tooltip: "$DESC$\n$pay_homage_grace_tt$"
  pay_homage_grace_tt: "#weak You can only pay Homage to the same liege once#!"
  pay_homage_gift_warning_effect: "#weak Gifts increase the rewards of paying Homage#!\n$pay_homage_grace_tt$"
  pay_homage_grace_valid_tt: "Has not paid [pay_homage|E] to [THIS.Char.GetLiege.GetTitledFirstName] before"

@@ -402,7 +402,6 @@
  fp2_struggle.3001.c: "Wait! I'm not the only one with a crown in this household."
  fp2_struggle.3001.c_flavour: "Your spouse will lose their crown."
  fp2_struggle.3001.d: "This crown is only coming off once I am dead!"
- nick_the_crownless: "the Crownless"
  struggle_3001_spouse_crown_modifier: "Crown Sold"
  fp2_struggle.3011.t: "Damsels in Distress"
  fp2_struggle.3011.desc: "\"My [ROOT.GetCharacter.GetLadyLord]! The unthinkable has happened!\" [struggle_3011_marshal.Custom2('MyCharacterIntroduction', ROOT.Char)|U] takes a second to catch [struggle_3011_marshal.GetHerHis] breath, [struggle_3011_marshal.GetHerHis] forehead wet with sweat. \"The ladies of [struggle_3011_county_town.GetNameNoTier] have taken up arms to defend the city themselves.\""

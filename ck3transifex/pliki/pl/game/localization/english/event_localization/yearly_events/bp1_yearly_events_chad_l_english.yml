@@ -1,6 +1,6 @@
 ﻿l_english:
  bp1_yearly.3001.t: "Prawdziwy przyjaciel"
- bp1_yearly.3001.desc: "Ostatnio w [ROOT.Char.Custom( 'FortifiedBuildingLocative' )] jest trochę ciasno. Niezależnie od tego, ile zbiorę podatków, nie jestem w stanie związać końca z końcem!\n\n[friend.GetTitledFirstNameNoTooltip], zawsze wiern[Select_CString( friend.IsFemale, 'a', 'y' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('friend'))], odwiedził[Select_CString( friend.IsFemale, 'a', '' )] mnie w czasie tej złej passy. Gdy rozmawiamy o moich obecnych kłopotach, proponuje uzupełnienie mojego kufra serdeczną zachętą.\n\n[friend.GetFirstNameNoTooltip] chwyta mnie za ręce i mówi łagodnie: „Pozwól, że ci pomogę, [ROOT.Char.Custom2('MySheHe' , SCOPE.sC('friend'))] [ROOT.Char.Custom2('RelationToMeVocative', SCOPE.sC('friend'))]. Wiem, że zrobił[Select_CString( ROOT.Char.IsFemale, 'a', '' )]byś to samo dla mnie”."
+ bp1_yearly.3001.desc: ""
  bp1_yearly.3001.a: "Chwała [ROOT.Char.GetFaith.CustomLoc('WealthGodNameCel')] za tę chwalebną niespodziankę!"
  bp1_yearly.3001.b: "Nie m[Select_CString( ROOT.Char.IsFemale, 'ogłabym', 'ógłbym' )] aż tak narzucać się swoje[Select_CString( friend.IsFemale, 'j przyjaciółce', 'mu przyjacielowi' )]."
  bp1_yearly.3001.c: "To, czego naprawdę potrzebuję, to parę trunków..."

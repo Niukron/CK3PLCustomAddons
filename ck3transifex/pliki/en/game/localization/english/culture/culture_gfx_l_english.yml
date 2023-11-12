@@ -81,3 +81,7 @@
  iberian_muslim_unit_gfx: "Andalusian"
  iberian_christian_clothing_gfx: "Iberian"
  iberian_muslim_clothing_gfx: "Andalusian"
+ iranian_clothing_gfx: "Iranian"
+ iranian_building_gfx: "Iranian"
+ iranian_unit_gfx: "Iranian"
+ turkic_clothing_gfx: "Turkic"

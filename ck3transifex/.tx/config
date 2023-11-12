@@ -582,6 +582,13 @@ source_file = pliki/en/game/localization/english/suggestions_l_english.yml
 source_lang = en
 type = YAML_GENERIC
 
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:tax_collector_l_englishyml]
+file_filter = pliki/<lang>/game/localization/english/tax_collector_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/tax_collector_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
 [o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:temp_l_englishyml]
 file_filter = pliki/<lang>/game/localization/english/temp_l_english.yml
 minimum_perc = 0
@@ -782,6 +789,13 @@ type = YAML_GENERIC
 file_filter = pliki/<lang>/game/localization/english/bookmark/bookmark_northmen_867_l_english.yml
 minimum_perc = 0
 source_file = pliki/en/game/localization/english/bookmark/bookmark_northmen_867_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:bookmark_persia_867_l_englishyml]
+file_filter = pliki/<lang>/game/localization/english/bookmark/bookmark_persia_867_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/bookmark/bookmark_persia_867_l_english.yml
 source_lang = en
 type = YAML_GENERIC
 
@@ -2095,6 +2109,125 @@ source_file = pliki/en/game/localization/english/dlc/fp2/dlc_fp2_wars_l_english.
 source_lang = en
 type = YAML_GENERIC
 
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:dlc_fp3_achievements_l_english]
+file_filter = pliki/<lang>/game/localization/english/dlc/fp3/dlc_fp3_achievements_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/fp3/dlc_fp3_achievements_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:dlc_fp3_clan_events_2000_l_english]
+file_filter = pliki/<lang>/game/localization/english/dlc/fp3/dlc_fp3_clan_events_2000_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/fp3/dlc_fp3_clan_events_2000_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:dlc_fp3_clan_events_l_english]
+file_filter = pliki/<lang>/game/localization/english/dlc/fp3/dlc_fp3_clan_events_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/fp3/dlc_fp3_clan_events_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:dlc_fp3_clan_unity_l_english]
+file_filter = pliki/<lang>/game/localization/english/dlc/fp3/dlc_fp3_clan_unity_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/fp3/dlc_fp3_clan_unity_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:dlc_fp3_culture_l_english]
+file_filter = pliki/<lang>/game/localization/english/dlc/fp3/dlc_fp3_culture_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/fp3/dlc_fp3_culture_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:dlc_fp3_decision_events_l_english]
+file_filter = pliki/<lang>/game/localization/english/dlc/fp3/dlc_fp3_decision_events_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/fp3/dlc_fp3_decision_events_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:dlc_fp3_decisions_l_english]
+file_filter = pliki/<lang>/game/localization/english/dlc/fp3/dlc_fp3_decisions_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/fp3/dlc_fp3_decisions_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:dlc_fp3_game_concepts_l_english]
+file_filter = pliki/<lang>/game/localization/english/dlc/fp3/dlc_fp3_game_concepts_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/fp3/dlc_fp3_game_concepts_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:dlc_fp3_interactions_l_english]
+file_filter = pliki/<lang>/game/localization/english/dlc/fp3/dlc_fp3_interactions_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/fp3/dlc_fp3_interactions_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:dlc_fp3_legacies_l_english]
+file_filter = pliki/<lang>/game/localization/english/dlc/fp3/dlc_fp3_legacies_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/fp3/dlc_fp3_legacies_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:dlc_fp3_modifiers_l_english]
+file_filter = pliki/<lang>/game/localization/english/dlc/fp3/dlc_fp3_modifiers_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/fp3/dlc_fp3_modifiers_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:dlc_fp3_opinions_l_english]
+file_filter = pliki/<lang>/game/localization/english/dlc/fp3/dlc_fp3_opinions_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/fp3/dlc_fp3_opinions_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:dlc_fp3_secret_faith_l_english]
+file_filter = pliki/<lang>/game/localization/english/dlc/fp3/dlc_fp3_secret_faith_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/fp3/dlc_fp3_secret_faith_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:dlc_fp3_struggle_l_english]
+file_filter = pliki/<lang>/game/localization/english/dlc/fp3/dlc_fp3_struggle_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/fp3/dlc_fp3_struggle_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:dlc_fp3_tax_collector_flavor_events_l_english]
+file_filter = pliki/<lang>/game/localization/english/dlc/fp3/dlc_fp3_tax_collector_flavor_events_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/fp3/dlc_fp3_tax_collector_flavor_events_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:dlc_fp3_wars_l_english]
+file_filter = pliki/<lang>/game/localization/english/dlc/fp3/dlc_fp3_wars_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/fp3/dlc_fp3_wars_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:dlc_fp3_yearly_events_l_english]
+file_filter = pliki/<lang>/game/localization/english/dlc/fp3/dlc_fp3_yearly_events_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/fp3/dlc_fp3_yearly_events_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
 [o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:dynasty_names_l_englishyml]
 file_filter = pliki/<lang>/game/localization/english/dynasties/dynasty_names_l_english.yml
 minimum_perc = 0
@@ -3355,6 +3488,13 @@ source_file = pliki/en/game/localization/english/event_localization/schemes/lear
 source_lang = en
 type = YAML_GENERIC
 
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:assassination_ongoing_events_l_englishyml]
+file_filter = pliki/<lang>/game/localization/english/event_localization/schemes/murder/assassination_ongoing_events_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/event_localization/schemes/murder/assassination_ongoing_events_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
 [o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:murder_ongoing_events_l_englishyml]
 file_filter = pliki/<lang>/game/localization/english/event_localization/schemes/murder/murder_ongoing_events_l_english.yml
 minimum_perc = 0
@@ -3471,6 +3611,13 @@ type = YAML_GENERIC
 file_filter = pliki/<lang>/game/localization/english/event_localization/story_cycles/story_cycle_peasant_affair_l_english.yml
 minimum_perc = 0
 source_file = pliki/en/game/localization/english/event_localization/story_cycles/story_cycle_peasant_affair_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:story_cycle_tax_rivalry_events_l_englishyml]
+file_filter = pliki/<lang>/game/localization/english/event_localization/story_cycles/story_cycle_tax_rivalry_events_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/event_localization/story_cycles/story_cycle_tax_rivalry_events_l_english.yml
 source_lang = en
 type = YAML_GENERIC
 
@@ -3611,6 +3758,13 @@ type = YAML_GENERIC
 file_filter = pliki/<lang>/game/localization/english/event_localization/travel_events/travel_events_filippa_l_english.yml
 minimum_perc = 0
 source_file = pliki/en/game/localization/english/event_localization/travel_events/travel_events_filippa_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:travel_events_fp3_l_englishyml]
+file_filter = pliki/<lang>/game/localization/english/event_localization/travel_events/travel_events_fp3_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/event_localization/travel_events/travel_events_fp3_l_english.yml
 source_lang = en
 type = YAML_GENERIC
 
@@ -4857,6 +5011,13 @@ type = YAML_GENERIC
 file_filter = pliki/<lang>/game/localization/english/modifiers/travel_modifiers_l_english.yml
 minimum_perc = 0
 source_file = pliki/en/game/localization/english/modifiers/travel_modifiers_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:unity_modifiers_l_englishyml]
+file_filter = pliki/<lang>/game/localization/english/modifiers/unity_modifiers_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/modifiers/unity_modifiers_l_english.yml
 source_lang = en
 type = YAML_GENERIC
 

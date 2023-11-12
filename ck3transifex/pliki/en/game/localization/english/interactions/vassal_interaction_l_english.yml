@@ -60,6 +60,7 @@
  ASK_FOR_PARDON_NOTIFICATION: "I humbly ask of you to grant me pardon for my crimes."
  pardon_interaction: "Grant Pardon"
  pardon_interaction_desc: "You consider [recipient.GetName] to be a [criminal|E] ([recipient.GetImprisonmentReasons( actor.Self )]), allowing you to [imprison|E] them at any time without gaining [tyranny|E].\n\nIf you would prefer that they remain free, you can choose to pardon them. This will remove any and all reasons you have to [imprison|E] them and increase their [opinion|E] of you."
+ pardon_interaction_has_jirga_desc: "You consider [recipient.GetName] to be a [criminal|E] ([recipient.GetImprisonmentReasons( actor.Self )]), allowing you to [imprison|E] them at any time without gaining [tyranny|E].\n\nIf you would prefer that they remain free, you can choose to pardon them. This will remove any and all reasons you have to [imprison|E] them and increase their [opinion|E] of you, as well as give you prestige due to your $tradition_fp3_jirga_name$#! tradition."
  pardon_interaction_toast: "Your benevolent liege, [actor.GetFirstName], has pardoned your crimes!"
  county_must_have_city_tt: "[CHARACTER.GetPrimaryTitle.GetNameNoTooltip] must contain one [city|E] or have a [development|E] level of over 20."
  county_must_have_culture_tt: "[CHARACTER.GetPrimaryTitle.GetNameNoTooltip] must be of a [culture|E] that has the $tradition_republican_legacy_name$ tradition."

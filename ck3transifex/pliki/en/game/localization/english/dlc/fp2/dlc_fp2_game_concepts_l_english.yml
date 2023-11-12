@@ -46,6 +46,7 @@
  game_concept_dissolution_faction: "Dissolution Faction"
  game_concept_dissolution_factions: "Dissolution Factions"
  game_concept_faction_dissolution: "Dissolution"
+ game_concept_dissolution_faction_dissolved: "Dissolved"
  game_concept_dissolution_faction_desc: "The [dissolution_faction|E] seeks to destroy the [realm|E] of their [liege|E]. If they are successful, all the vassals in the realm become [independent|E], and their liege loses their [primary_title|E]."
  game_concept_improve_city_province_decision: "$improve_city_province_decision_name$ Decision"
  game_concept_improve_city_province_decision_desc: "A [decision|E] that enables you to increase the number of [buildings|E] available in a [city_holding|E]."

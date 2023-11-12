@@ -1,6 +1,7 @@
 ﻿l_english:
  DIPLOMACY_ACTIONS: "diplomatic actions"
  FRIENDLY_ACTIONS: "friendly actions"
+ CLAN_ACTIONS: "clan actions"
  HOSTILE_ACTIONS: "hostile actions"
  DIARCH_ACTIONS: "diarch"
  VASSAL_ACTIONS: "vassal actions"
