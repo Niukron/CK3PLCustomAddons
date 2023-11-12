@@ -234,6 +234,12 @@ GetInspirationTypeStation = {
 		localization_key = inspiration_type_station_alembic
 	}
 	text = { 
+		trigger = {
+			inspiration = { has_inspiration_type = research_inspiration }
+		}
+		localization_key = inspiration_type_station_library
+	}
+	text = { 
 		trigger = { always = no }
 		fallback = yes
 		localization_key = inspiration_type_station_fallback
@@ -1963,7 +1969,7 @@ child_favorite_toy_my = {
 	suffix = "_my"
 }
 
-# v1.9.0.2 - original
+# v1.11 - original
 KnightCulture = {
 	type = character
 
@@ -1996,6 +2002,7 @@ KnightCulture = {
 				culture = { has_cultural_pillar = language_tamil }
 				culture = { has_cultural_pillar = language_telugu }
 				culture = { has_cultural_pillar = language_kannada }
+				culture = { has_cultural_pillar = language_north_dravidian } #FP3 addition
 			}
 		}
 		localization_key = knight_shoorveer
@@ -4393,7 +4400,7 @@ ArtifactQualityFMie = {
 	suffix = "_fmie"
 }
 
-# v1.5 - original
+# v1.11 - original
 GetInspirationTypeVerb = {
 	type = character
 
@@ -4443,6 +4450,12 @@ GetInspirationTypeVerb = {
 			inspiration = { has_inspiration_type = alchemy_inspiration }
 		}
 		localization_key = inspiration_type_verb_study
+	}
+	text = { 
+		trigger = {
+			inspiration = { has_inspiration_type = research_inspiration }
+		}
+		localization_key = inspiration_type_verb_research
 	}
 	text = { 
 		trigger = { always = no }
