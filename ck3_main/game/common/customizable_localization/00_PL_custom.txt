@@ -927,6 +927,10 @@ TitleAdjBase = {
 			tier > tier_barony
 			NOR = { 
 
+					this = title:d_ismaili
+					this = title:d_nizari
+					this = title:d_zayidi
+					this = title:d_ghulat
 					this = title:k_papal_state
 					this = title:k_orthodox
 					this = title:d_iconoclast
