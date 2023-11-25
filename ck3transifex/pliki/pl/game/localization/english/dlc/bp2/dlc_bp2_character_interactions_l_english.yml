@@ -138,7 +138,7 @@
  bp2_character_interaction.1002.a.flavor: ""
  selected_sinful_trait_tt: "[recipient.GetFaith.GetName|U] uważa wybraną [Concept( 'trait', 'cechę' )|E] za [Concept( 'sinful', 'grzeszną' )|E]: $VALUE|+=0$"
  selected_virtuous_trait_tt: "[recipient.GetFaith.GetName|U] uważa wybraną [Concept( 'trait', 'cechę' )|E] za [Concept( 'virtuous', 'cnotliwą' )|E]: $VALUE|+=0$"
- has_three_traits_already: ""
+ has_three_traits_already: "[recipient.GetShortUIName] już ma #V 3#! [personality_traits|El]: $VALUE|+=0$"
  has_compatible_personality_tt: ""
  has_incompatible_personality_tt: ""
  guardian_influenced_personality: "Ukształtuj osobowość dziecka"
@@ -146,3 +146,4 @@
  guardian_influenced_personality_fail: "Nie udało się wpłynąć na osobowość dziecka"
  guardian_influenced_personality_fail_desc: ""
  influence_child_personality_interaction_trait_limit: ""
+ influence_child_personality_interaction_all_same_traits: ""

@@ -344,7 +344,7 @@
  insecure_adult_modifier_desc: ""
  backdown_from_rite_modifier: "Niepewny młody członek plemienia"
  backdown_from_rite_modifier_desc: "Postać ta nie ukończyła swojego rytuału przejścia; prześladuje ją poczucie niegodności."
- proven_adult_modifier: "Zweryfikowany dorosły współplemieniec"
+ proven_adult_modifier: "Uznany dorosły współplemieniec"
  proven_adult_modifier_desc: "Ta postać ukończyła rytuał przejścia i jest uważana za honorowego dorosłego członka plemienia."
  child_like_parent_modifier: ""
  child_like_parent_modifier_desc: ""

@@ -336,7 +336,7 @@
  unlock_jizya_contract_name: "[GetFaithDoctrine('tenet_tax_nonbelievers').GetBaseName] [core_tenet|E]"
  iqta_special_rights_tax_collector: "Iqta Grant"
  iqta_special_rights_tax_collector_desc: "The [vassal|E] has lower obligations but helps contributing [men_at_arms|E] to the [liege|E]."
- iqta_special_rights_tax_collector_flavor_desc: "Iqta is a tax farming system where local magnates are given wide authority to collect taxes on behalf of the state. In return they must provide significant amounts of soldiers for their liege."
+ iqta_special_rights_tax_collector_flavor_desc: "Iqta is a tax farming system where local magnates are given wide authority to collect taxes on behalf of the state."
  ghazi_special_rights_tax_collector: "Ghazi Status"
  ghazi_special_rights_tax_collector_desc: "#emphasis #bold [vassal|E] Privilege:#!#!\nThe [vassal|E] pays less [piety|E] to use [holy_war|E] [casus_bellis|E] but more [prestige_i][prestige|E] for any other [casus_bellis|E] \n\n#flavor The [vassal|E] is chosen as a warrior of the [faith|E] by the [liege|E], charged with carrying the borders outwards through [holy_war|E].#!"
  ghazi_special_rights_tax_collector_flavor_desc: "Warriors of the faith and the frontier, the Ghazi collect income from plunder and brigandage, and wage a never-ending war against the religious enemies of the state."
