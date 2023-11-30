@@ -319,7 +319,7 @@
  court_position_khvarenah_legacy_1: ""
  court_position_innovation_mural_sextant: ""
  capable_magistrates_modifier: ""
- opinion_of_liege: ""
+ opinion_of_liege: "Opinia o [Concept( 'liege', 'seniorze' )|E]"
  court_cave_hermit_position: "Ogrodowy pustelnik"
  court_cave_hermit_position_desc: "$court_cave_hermit_position$ to ktoś, kto zamieszka na terenie twojego zamku i będzie zabawiał twoich gości przepowiedniami i zagadkami. Niektórzy twierdzą, że mogą być prawdziwymi mistykami."
  court_cave_hermit_position_tt: ""

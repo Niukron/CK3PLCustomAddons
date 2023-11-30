@@ -353,7 +353,7 @@
  nick_the_judge: "the Judge"
  nick_the_judge_desc: "$k_israel$ has called for just and true judges throughout history. [CharYouSheHe(CHARACTER)|U] [CharAreIs(CHARACTER)] sometimes remembered alongside them."
  nick_the_saoshyant: "the Saoshyant"
- nick_the_saoshyant_desc: "When all the world seemed swallowed by Ahura Mazda, [CharYouSheHe(CHARACTER)] [CharWereWas(CHARACTER)] there to restore the Light."
+ nick_the_saoshyant_desc: "When all the world seemed swallowed by [CHARACTER.GetFaith.DevilName], [CharYouSheHe(CHARACTER)] [CharWereWas(CHARACTER)] there to restore the Light."
  nick_the_timely_rain: "the Timely Rain"
  nick_the_timely_rain_desc: "The generosity of [CharYourHerHis(CHARACTER)] spirit and the respect in [CharYourHerHis(CHARACTER)] bearing do [CHARACTER.GetShortUINameNoTooltipNoFormat] credit."
  nick_the_jade_unicorn: "the Jade Unicorn"

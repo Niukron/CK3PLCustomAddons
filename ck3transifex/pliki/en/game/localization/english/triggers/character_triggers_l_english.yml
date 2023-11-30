@@ -691,6 +691,7 @@
  IS_PREGNANT_TRIGGER: "Is pregnant"
  IS_TWIN_TRIGGER: "Is a twin"
  IS_INCAPABLE_TRIGGER: "Is incapable"
+ CHARACTER_ARE_IS_INCAPABLE: "[CHARACTER.GetShortUIName|U] [CharAreIs(CHARACTER)] incapable"
  IS_IMMORTAL_TRIGGER: "Is immortal"
  HAS_TRAIT_RANK_TRIGGER: "Has $TRAIT|V$"
  NUMBER_OF_LIFESTYLE_TRAITS_TRIGGER: "Number of lifestyle traits that [CHARACTER.GetShortUIName|U] has: $NUM|V0$"

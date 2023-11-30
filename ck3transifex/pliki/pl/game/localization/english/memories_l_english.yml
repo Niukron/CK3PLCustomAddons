@@ -28,7 +28,7 @@
  became_friends_desc_third_perspective: "[owner.GetName] i [new_relation.GetFullName] [Select_CString( And( owner.IsFemale, new_relation.IsFemale), 'zostały przyjaciółkami', 'zostali przyjaciółmi' )]"
  became_lovers_desc: "ja i [new_relation.GetFullName] [Select_CString( And( owner.IsFemale, new_relation.IsFemale), 'zakochałyśmy', 'zakochaliśmy' )] się w sobie"
  became_lovers_desc_second_perspective: "ty i [new_relation.GetFullName] [Select_CString( And( owner.IsFemale, new_relation.IsFemale), 'zakochałyście', 'zakochaliście' )] się w sobie"
- became_lovers_desc_third_perspective: "[owner.GetName] i [new_relation.GetFullName]] [Select_CString( And( owner.IsFemale, new_relation.IsFemale), 'zakochały', 'zakochali' )] się w sobie"
+ became_lovers_desc_third_perspective: "[owner.GetName] i [new_relation.GetFullName] [Select_CString( And( owner.IsFemale, new_relation.IsFemale), 'zakochały', 'zakochali' )] się w sobie"
  became_rivals_desc: "[rival.GetFullName] i ja [Select_CString( And( owner.IsFemale, rival.IsFemale), 'zostałyśmy rywalkami', 'zostaliśmy rywalami' )]"
  became_rivals_desc_second_perspective: "ty i [rival.GetFullName] [Select_CString( And( owner.IsFemale, rival.IsFemale), 'zostałyście rywalkami', 'zostaliście rywalami' )]"
  became_rivals_desc_third_perspective: "[rival.GetFullName] i [owner.GetFullName] [Select_CString( And( owner.IsFemale, rival.IsFemale), 'zostały rywalkami', 'zostali rywalami' )]"

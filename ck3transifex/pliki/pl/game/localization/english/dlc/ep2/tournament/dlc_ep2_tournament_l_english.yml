@@ -1,8 +1,8 @@
 ﻿l_english:
  train_for_tournament_decision_name: "Przygotowania do turnieju"
  train_for_tournament_decision_desc: "Skrzęt stali nie może pozostać bez odpowiedzi: włożę na siebie niezbędne wyposażenie i udam się na teren treningowy, aby trochę poćwiczyć."
- train_for_tournament_decision_tooltip: ""
- train_tournament_decision.tt: ""
+ train_for_tournament_decision_tooltip: "Trenuj swoją [prowess|El] na potrzeby nadchodzącego #L #TOOLTIP:ACTIVITY_TYPE,activity_tournament wielkiego turnieju#!#!."
+ train_tournament_decision.tt: "Ty i twoi $knight_culture_player_plural$ będziecie doskonalić swoje umiejętności. Jeśli zakończy się to powodzeniem, wzmocnisz swoją [prowess|El] na potrzeby nadchodzącego #L #TOOLTIP:ACTIVITY_TYPE,activity_tournament wielkiego turnieju#!#!."
  train_for_tournament_decision_confirm: "Rozpocznij trening"
  grand_tournament_active: ""
  ep2_decision_events.0001.t: ""
