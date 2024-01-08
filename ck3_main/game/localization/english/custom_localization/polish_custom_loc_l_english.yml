@@ -3472,4 +3472,7 @@
 
 #GetLegendaryColorOdm
 fur_color_black_odm:0 "czarn"
-fur_color_white:0 "biał"
+fur_color_white_odm:0 "biał"
+
+
+game_concept_house_unity_possessive:0 "[Concept( 'house_unity', 'jedności rodu' )|E]"
