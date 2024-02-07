@@ -41,7 +41,7 @@
  activity_pulse_action_ridiculed_food: ""
  guest_tells_fantastic_joke_title: "$activity_pulse_action_guest_tells_fantastic_joke$"
  activity_pulse_action_guest_tells_fantastic_joke: ""
- every_attending_guest: "Każdy obecny gość"
+ every_attending_guest: "Każdy uczestniczący gość"
  local_mayor_tax_title: "$activity_pulse_action_local_mayor_tax$"
  activity_pulse_action_local_mayor_tax: ""
  tax_rich_local_title: "$activity_pulse_action_tax_rich_local$"

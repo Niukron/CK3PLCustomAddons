@@ -25,7 +25,7 @@
  promote_culture_leader_modifier: "Świętowanie różnorodności kulturowej"
  ep1_decision.0201.t: "Lingwista na dworze"
  ep1_decision.0201.desc: "Poszukiwania lingwisty znającego język [target_court_language.GetCourtLanguage.GetName|l] w końcu przyniosły oczekiwane rezultaty. Przedstawiono mi kandydatów, z których każdy posiada własną wiedzę na temat języków obcych."
- ep1_decision.0201.tt.aptitude: ""
+ ep1_decision.0201.tt.aptitude: "[Select_CString( selected_linguist.IsLocalPlayer, 'Twoje #E #TOOLTIP:GAME_CONCEPT,aptitude kompetencje#!#!', Concatenate('#E #TOOLTIP:GAME_CONCEPT,aptitude Kompetencje#!#! postaci ', selected_linguist.GetUIName))] są [selected_linguist.GetCourtPositionAptitude( GetCourtPositionType( 'court_tutor_court_position' ))|l]"
  ep1_decision.0201.a: "[good_linguist.GetNameNoTooltip] bardzo dobrze zna język [target_court_language.GetCourtLanguage.GetNameNoTooltip|l]."
  ep1_decision.0201.b: "[medium_linguist.GetNameNoTooltip] się tym zajmie."
  ep1_decision.0201.c: "[scholarly_linguist.GetNameNoTooltip] to słynn[Select_CString(scholarly_linguist.IsFemale, 'a ekspertka znająca', 'y ekspert znający')] język [target_court_language.GetCourtLanguage.GetNameNoTooltip|l]!"

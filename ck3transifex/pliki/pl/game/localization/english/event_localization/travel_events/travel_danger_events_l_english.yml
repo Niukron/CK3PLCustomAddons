@@ -141,7 +141,7 @@
  travel_danger_events.1013.success_root: ""
  travel_danger_events.1013.failure: ""
  travel_danger_events.1013.failure_root: ""
- travel_danger_events.1013.runaway_joins: ""
+ travel_danger_events.1013.runaway_joins: "[runaway_character.GetFirstNameNoTooltip] dołącza do twojego dworu"
  travel_danger_events.1013.runaway_return: ""
  travel_danger_events.1013.b: ""
  travel_danger_events.1013.c: ""

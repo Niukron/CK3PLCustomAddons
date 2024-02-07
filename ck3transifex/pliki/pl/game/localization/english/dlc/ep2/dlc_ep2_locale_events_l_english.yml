@@ -350,7 +350,7 @@
  ep2_locale_events.4506.t: ""
  ep2_locale_events.4506.desc: ""
  ep2_locale_events.4506.a: ""
- ep2_locale_events.4506.a.tt: ""
+ ep2_locale_events.4506.a.tt: "[rename_artifact.GetName] otrzymuje nową nazwę"
  ep2_locale_events.4506.b: ""
  ep2_locale_events.4510.t: ""
  ep2_locale_events.4510.desc: ""
