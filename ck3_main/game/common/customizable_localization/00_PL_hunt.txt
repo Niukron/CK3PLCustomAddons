@@ -419,3 +419,259 @@ PL_GetAnimalTypeGender = {
 	parent = GetAnimalType
 	suffix = "_pl_gender"
 }
+
+
+#original 1.11.5
+GetTerrainType = {
+	type = province
+	random_valid = yes
+
+	text = {
+		localization_key = terrain_plain
+		trigger = { terrain = plains }
+	}
+
+	text = {
+		localization_key = terrain_hill
+		trigger = { terrain = hills }
+	}
+
+	text = {
+		localization_key = terrain_jungle
+		trigger = { terrain = jungle }
+	}
+
+	text = {
+		localization_key = terrain_wetland
+		trigger = { terrain = wetlands }
+	}
+
+	text = {
+		localization_key = terrain_floodplain
+		trigger = { terrain = floodplains }
+	}
+
+	text = {
+		localization_key = terrain_taiga
+		trigger = { terrain = taiga }
+	}
+
+	text = {
+		localization_key = terrain_dryland
+		trigger = { terrain = drylands }
+	}
+
+	text = {
+		localization_key = terrain_steppe
+		trigger = { terrain = steppe }
+	}
+
+	text = {
+		localization_key = terrain_forest
+		trigger = {
+			OR = {
+				terrain = forest
+				terrain = taiga
+			}
+		}
+	}
+
+	text = {
+		localization_key = terrain_desert
+		trigger = {
+			OR = {
+				terrain = desert
+				terrain = desert_mountains
+				terrain = oasis
+			}
+		}
+	}
+
+	text = {
+		localization_key = terrain_farmland
+		trigger = {
+			OR = {
+				terrain = farmlands
+				terrain = floodplains
+			}
+		}
+	}
+
+	text = {
+		localization_key = terrain_wood
+		trigger = {
+			OR = {
+				terrain = forest
+				terrain = taiga
+			}
+		}
+	}
+
+	text = {
+		localization_key = terrain_grassland
+		trigger = {
+			OR = {
+				terrain = plains
+				terrain = hills
+				terrain = steppe
+			}
+		}
+	}
+
+	text = {
+		localization_key = terrain_flatland
+		trigger = {
+			OR = {
+				terrain = plains
+				terrain = hills
+				terrain = steppe
+			}
+		}
+	}
+
+	text = {
+		localization_key = terrain_valley
+		trigger = {
+			OR = {
+				terrain = mountains
+				terrain = desert_mountains
+			}
+		}
+	}
+
+	text = {
+		localization_key = terrain_mountain
+		trigger = {
+			OR = {
+				terrain = mountains
+				terrain = desert_mountains
+			}
+		}
+	}
+
+	text = {
+		localization_key = terrain_slope
+		trigger = {
+			OR = {
+				terrain = mountains
+				terrain = desert_mountains
+			}
+		}
+	}
+
+	text = {
+		localization_key = terrain_field
+		trigger = {
+			OR = {
+				terrain = farmlands
+				terrain = floodplains
+			}
+		}
+	}
+
+	text = {
+		localization_key = terrain_swampland
+		trigger = {
+			OR = {
+				terrain = wetlands
+				terrain = floodplains
+			}
+		}
+	}
+
+	text = {
+		localization_key = terrain_scrubland
+		trigger = {
+			OR = {
+				terrain = drylands
+				terrain = oasis
+				terrain = desert
+				terrain = desert_mountains
+			}
+		}
+	}
+
+	text = {
+		localization_key = terrain_highland
+		trigger = {
+			OR = {
+				terrain = mountains
+				terrain = hills
+				terrain = desert_mountains
+			}
+		}
+	}
+
+	text = {
+		localization_key = terrain_woodland
+		trigger = {
+			OR = {
+				terrain = forest
+				terrain = taiga
+			}
+		}
+	}
+
+	text = {
+		localization_key = terrain_fallback
+		trigger = { always = no }
+		fallback = yes
+	}
+}
+
+#1.11.5
+PL_GetTerrainTypeLocative = {
+	type = province
+	parent = GetTerrainType
+	suffix = _pl_locative
+}
+
+#1.11.5
+PL_GetTerrainTypePluralLocative = {
+	type = province
+	parent = GetTerrainType
+	suffix = _plural_pl_locative
+}
+
+#original 1.11.5
+GetRegionalDeerType = {
+	type = character
+
+	text = {
+		trigger = {
+			location = {
+				hunt_animal_antelope_trigger = yes
+				hunt_animal_steppe_trigger = yes
+			}
+		}
+		localization_key = animal_type_saiga
+	}
+	text = {
+		trigger = {
+			location = { hunt_animal_antelope_trigger = yes }
+		}
+		localization_key = animal_type_antelope
+	}
+	text = {
+		trigger = {
+			location = {
+				hunt_animal_deer_trigger = yes
+				geographical_region = hunt_animal_reindeer_region
+			}
+		}
+		localization_key = animal_type_reindeer
+	}
+	text = {
+		trigger = {
+			location = { hunt_animal_deer_trigger = yes }
+		}
+		localization_key = animal_type_buck
+		fallback = yes
+	}
+}
+
+#1.11.5
+PL_GetRegionalDeerTypeGenitive = {
+	parent = GetRegionalDeerType
+	suffix = _pl_genitive
+}
