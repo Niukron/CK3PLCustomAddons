@@ -420,6 +420,11 @@ PL_GetAnimalTypeGender = {
 	suffix = "_pl_gender"
 }
 
+PL_GetAnimalPluralGenitive = {
+	parent = GetAnimalType
+	suffix = "_plural_pl_genitive"
+}
+
 
 #original 1.11.5
 GetTerrainType = {
@@ -674,4 +679,10 @@ GetRegionalDeerType = {
 PL_GetRegionalDeerTypeGenitive = {
 	parent = GetRegionalDeerType
 	suffix = _pl_genitive
+}
+
+#1.11.5
+PL_GetRegionalDeerTypeAccusative = {
+	parent = GetRegionalDeerType
+	suffix = _pl_accusative
 }
