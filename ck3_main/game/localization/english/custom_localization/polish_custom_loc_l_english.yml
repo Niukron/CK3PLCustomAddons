@@ -3641,3 +3641,10 @@ game_concept_house_unity_possessive:0 "[Concept( 'house_unity', 'jedności rodu'
  terrain_highland_plural_pl_genitive:0 "wyżyn"
  terrain_woodland_plural_pl_genitive:0 "terenów leśnych"
  terrain_fallback_plural_pl_genitive:0 "dziczy"
+
+#PL_GetDiarchTitle
+
+ pl_diarch_regent:0 "[Select_CString( second.IsFemale, 'Regentka', 'Regent' )]"
+ pl_diarch_vizier:0 "[Select_CString( second.IsFemale, 'Wezyrka', 'Wezyr' )]"
+ pl_diarch_fallback:0 "[Select_CString( EqualTo_string( ROOT.Char.GetDiarchTitle , '$regency_diarch_title$' ) , Select_CString( second.IsFemale, 'Regentka', 'Regent' ) , ROOT.Char.GetDiarchTitle )]"
+
