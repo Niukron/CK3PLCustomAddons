@@ -6172,7 +6172,7 @@ PL_GetDiarchTitle = {
 			OR = {
 				has_diarchy_type = regency
 				has_diarchy_type = temporary_regency
-				has_diarchy_type = entrenched_regency
+				# has_diarchy_type = entrenched_regency
 			}
 		}
 		localization_key = pl_diarch_regent
