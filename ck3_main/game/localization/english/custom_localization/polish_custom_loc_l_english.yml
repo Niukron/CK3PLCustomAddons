@@ -1819,7 +1819,7 @@
 
  #TerrainTypeProvinceGenitiveUppercase
  terrain_plains_dop_uc:0 "Równin"
- terrain_farmlands_dop_uc:0 "Pól uprawnych"
+ terrain_farmlands_dop_uc:0 "Pól Uprawnych"
  terrain_hills_dop_uc:0 "Wzgórz"
  terrain_mountains_dop_uc:0 "Gór"
  terrain_desert_dop_uc:0 "Pustyni"
