@@ -6184,3 +6184,8 @@ PL_GetDiarchTitle = {
 	}
 
 }
+
+PL_GetDiarchTitleInstrumental = {
+	parent = PL_GetDiarchTitle
+	suffix = "_instrumental"
+}

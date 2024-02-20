@@ -3659,6 +3659,12 @@ game_concept_house_unity_possessive:0 "[Concept( 'house_unity', 'jedności rodu'
  pl_diarch_vizier:0 "[Select_CString( second.IsFemale, 'Wezyrka', 'Wezyr' )]"
  pl_diarch_fallback:0 "[Select_CString( EqualTo_string( ROOT.Char.GetDiarchTitle , '$regency_diarch_title$' ) , Select_CString( second.IsFemale, 'Regentka', 'Regent' ) , ROOT.Char.GetDiarchTitle )]"
 
+#PL_GetDiarchTitleInstrumental
+
+ pl_diarch_regent_instrumental:0 "[Select_CString( second.IsFemale, 'Regentką', 'Regentem' )]"
+ pl_diarch_vizier_instrumental:0 "[Select_CString( second.IsFemale, 'Wezyrką', 'Wezyrem' )]"
+ pl_diarch_fallback_instrumental:0 "[Select_CString( EqualTo_string( ROOT.Char.GetDiarchTitle , '$regency_diarch_title$' ) , Select_CString( second.IsFemale, 'Regentką', 'Regentem' ) , ROOT.Char.GetDiarchTitle )]"
+
 #PL_GetRandomRegionalWoodGenitive
  
  oak_pl_genitive:0 "dębu"
