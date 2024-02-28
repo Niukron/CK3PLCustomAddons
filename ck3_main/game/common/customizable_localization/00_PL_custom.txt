@@ -6185,7 +6185,69 @@ PL_GetDiarchTitle = {
 
 }
 
+PL_GetDiarchTitleGenitive = {
+	parent = PL_GetDiarchTitle
+	suffix = "_genitive"
+}
+
+PL_GetDiarchTitleAccusative = {
+	parent = PL_GetDiarchTitle
+	suffix = "_accusative"
+}
+
 PL_GetDiarchTitleInstrumental = {
 	parent = PL_GetDiarchTitle
 	suffix = "_instrumental"
+}
+
+
+PL_GetDiarchyTypeName = {
+	type = character
+
+	text = {
+		trigger = {
+			has_diarchy_type = vizierate 
+		}
+		localization_key = pl_diarch_vizierate
+	}
+
+	text = {
+		trigger = {
+			OR = {
+				has_diarchy_type = temporary_regency
+			}
+		}
+		localization_key = pl_diarch_temp_regency
+	}
+
+	text = {
+		trigger = {
+			OR = {
+				has_diarchy_type = regency
+			}
+		}
+		localization_key = pl_diarch_ent_regency
+	}
+
+	text = {
+		fallback = yes
+		localization_key = pl_diarch_type_fallback
+	}
+
+}
+
+PL_GetDiarchyTypeNameAccusative = {
+	parent = PL_GetDiarchyTypeName
+	suffix = "_accusative"
+}
+
+PL_GetDiarchyTypeNameLocative = {
+	parent = PL_GetDiarchyTypeName
+	suffix = "_locative"
+}
+
+
+PL_GetDiarchyTypeNameGender = {
+	parent = PL_GetDiarchyTypeName
+	suffix = "_gender"
 }

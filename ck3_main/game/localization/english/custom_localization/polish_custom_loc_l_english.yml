@@ -3659,11 +3659,51 @@ game_concept_house_unity_possessive:0 "[Concept( 'house_unity', 'jedności rodu'
  pl_diarch_vizier:0 "[Select_CString( second.IsFemale, 'Wezyrka', 'Wezyr' )]"
  pl_diarch_fallback:0 "[Select_CString( EqualTo_string( ROOT.Char.GetDiarchTitle , '$regency_diarch_title$' ) , Select_CString( second.IsFemale, 'Regentka', 'Regent' ) , ROOT.Char.GetDiarchTitle )]"
 
+#PL_GetDiarchTitleGenitive
+
+ pl_diarch_regent_genitive:0 "[Select_CString( second.IsFemale, 'Regentki', 'Regenta' )]"
+ pl_diarch_vizier_genitive:0 "[Select_CString( second.IsFemale, 'Wezyrki', 'Wezyra' )]"
+ pl_diarch_fallback_genitive:0 "[Select_CString( EqualTo_string( ROOT.Char.GetDiarchTitle , '$regency_diarch_title$' ) , Select_CString( second.IsFemale, 'Regentki', 'Regenta' ) , ROOT.Char.GetDiarchTitle )]"
+
 #PL_GetDiarchTitleInstrumental
 
  pl_diarch_regent_instrumental:0 "[Select_CString( second.IsFemale, 'Regentką', 'Regentem' )]"
  pl_diarch_vizier_instrumental:0 "[Select_CString( second.IsFemale, 'Wezyrką', 'Wezyrem' )]"
  pl_diarch_fallback_instrumental:0 "[Select_CString( EqualTo_string( ROOT.Char.GetDiarchTitle , '$regency_diarch_title$' ) , Select_CString( second.IsFemale, 'Regentką', 'Regentem' ) , ROOT.Char.GetDiarchTitle )]"
+
+#PL_GetDiarchTitleAccusative
+
+ pl_diarch_regent_accusative:0 "[Select_CString( second.IsFemale, 'Regentkę', 'Regenta' )]"
+ pl_diarch_vizier_accusative:0 "[Select_CString( second.IsFemale, 'Wezyrkę', 'Wezyra' )]"
+ pl_diarch_fallback_accusative:0 "[Select_CString( EqualTo_string( ROOT.Char.GetDiarchTitle , '$regency_diarch_title$' ) , Select_CString( second.IsFemale, 'Regentkę', 'Regenta' ) , ROOT.Char.GetDiarchTitle )]"
+
+#PL_GetDiarchyTypeName
+
+ pl_diarch_vizierate:0 "[vizierate|E]"
+ pl_diarch_temp_regency:0 "[regency|E]"
+ pl_diarch_ent_regency:0 "[entrenched_regency|E]"
+ pl_diarch_type_fallback:0 "[ROOT.Char.GetDiarchyTypeName]"
+
+#PL_GetDiarchyTypeNameAccusative
+
+ pl_diarch_vizierate_accusative:0 "[vizierate|E]"
+ pl_diarch_temp_regency_accusative:0 "[Concept( 'regency', 'regencję' )|E]"
+ pl_diarch_ent_regency_accusative:0 "[Concept( 'entrenched_regency', 'zakorzenioną regencję' )|E]"
+ pl_diarch_type_fallback_accusative:0 "[ROOT.Char.GetDiarchyTypeName]"
+
+#PL_GetDiarchyTypeNameLocative
+
+ pl_diarch_vizierate_locative:0 "[Concept( 'vizierate', 'wezyracie' )|E]"
+ pl_diarch_temp_regency_locative:0 "[Concept( 'regency', 'regencji' )|E]"
+ pl_diarch_ent_regency_locative:0 "[Concept( 'entrenched_regency', 'zakorzenionej regencji' )|E]"
+ pl_diarch_type_fallback_locative:0 "[ROOT.Char.GetDiarchyTypeName]"
+
+#PL_GetDiarchyTypeNameGender
+
+ pl_diarch_vizierate_gender:0 "m"
+ pl_diarch_temp_regency_gender:0 "z"
+ pl_diarch_ent_regency_gender:0 "z"
+ pl_diarch_type_fallback_gender:0 "z"
 
 #PL_GetRandomRegionalWoodGenitive
  
