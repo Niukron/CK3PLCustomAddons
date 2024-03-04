@@ -2,7 +2,7 @@
  bishop.1001.opening: "[bishop.Custom2('AppropriateGreeting', ROOT.Char)]"
  bishop.1001.desc: "It is my duty to inform you that irrefutable evidence has been unveiled proving that your marriage with [spouse.GetTitledFirstName] is consanguineous in nature. This information will stay between the two of us if you end this unholy union at once."
  bishop.1001.a: "Of course, [bishop.GetTitledFirstNameNoTooltip]."
- bishop.1001.a.tt: "@warning_icon!#X You divorce [spouse.GetUIName]#!"
+ bishop.1001.a.tt: "@warning_icon! #X You divorce [spouse.GetUIName]#!"
  bishop.1001.b: "Our marriage will not be torn apart by such an obvious lie!"
  bishop.1001.b.success: "I prove that the claim is fake"
  bishop.1001.b.failure: "The claim is indeed irrefutable"

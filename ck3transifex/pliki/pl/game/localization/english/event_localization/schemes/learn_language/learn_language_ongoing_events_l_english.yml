@@ -138,6 +138,6 @@
  learn_language_ongoing.1300.b.flavor: "Masz nadzieję, że [interlocutor.GetFirstNameNoTooltip] zgodzi się na polubowną debatę"
  learn_language_ongoing.1300.b.success: "Ty i [interlocutor.GetFirstNameNoTooltip] prowadzicie angażującą debatę"
  learn_language_ongoing.1300.b.failure: "Ty i [interlocutor.GetFirstNameNoTooltip] nie dochodzicie do porozumienia"
- learn_language_ongoing.1300.c: "„Dołącz do nas w naszej podróży do [next_destination.GetAdjectiveNoTooltip]!”"
+ learn_language_ongoing.1300.c: "„Dołącz do nas w naszej podróży do [next_destination.GetTitle.GetAdjectiveNoTooltip]!”"
  learn_lang_cult_acceptance_gain_debate: "Zaangażowano się w polubowną debatę podczas podróży"
  interlocutor_entourage_member: "Interlokutor dołącza do świty"

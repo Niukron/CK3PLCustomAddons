@@ -178,7 +178,7 @@
  commission_epic.6005.c: "Is this [ROOT.GetCharacter.GetFaith.HighGodName] punishing me for my vanity?"
  commission_epic.6005.d: "At least I got a chronicle..."
  commission_epic.6006.t: "Potent Propaganda"
- commission_epic.6006.writerservant: "\"It is finished my [ROOT.Char.GetLadyLord]\", [composer.GetName] says with some relief, handing me a large tome. \"This is the chronicle of house [ROOT.Char.GetDynastyHouseNameNoTooltip], describing in great detail its history of ruling the various lands that you desired. Surely none can now contest your righteous claims!\""
+ commission_epic.6006.writerservant: "\"It is finished my [ROOT.Char.GetLadyLord]\", [composer.GetName] says with some relief, handing me a large tome.\n\n\"This is the chronicle of house [ROOT.Char.GetDynastyHouseNameNoTooltip], describing in great detail its history of ruling the various lands that you desired. Surely none can now contest your righteous claims!\""
  commission_epic.6006.scribes: "At last, my scribes have completed the propaganda chronicle. They look relieved as they hand me a tremendously large book.\n\n\"Here it is, [Select_CString(ROOT.Char.IsFemale,'Milady','Sire')], the great chronicle of house [ROOT.Char.GetDynastyHouseNameNoTooltip], elaborating in detail on all of your claims. May it bring you great fortune.\""
  commission_epic.6006.a: "Perfect!"
  propaganda_chronicle_name: "[ROOT.Char.GetDynastyHouseNameNoTooltip] Propaganda Chronicle"

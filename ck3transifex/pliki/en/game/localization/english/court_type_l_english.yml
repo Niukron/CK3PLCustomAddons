@@ -1,7 +1,7 @@
 ﻿l_english:
  CHANGE_COURT_TYPE_HIDE: "#I Hide Court Type change window#!"
  CHANGE_COURT_TYPE_SHOW: "#I Click to change Court Type#!"
- COURT_TYPE_NOT_VALID: "@warning_icon!#X You cannot switch to this court type:#!"
+ COURT_TYPE_NOT_VALID: "@warning_icon! #X You cannot switch to this court type:#!"
  CHANGE_COURT_TYPE_ACCEPT: "Change Court Type"
  CHANGE_COURT_TYPE_ACCEPT_NO_SELECTION: "Select a Court Type"
  CHANGE_COURT_TYPE_HEADER: "Change Court Type"

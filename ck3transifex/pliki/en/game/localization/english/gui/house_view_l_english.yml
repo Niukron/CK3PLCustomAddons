@@ -53,7 +53,7 @@
  HOUSE_NAME_FIELD: "Name"
  HOUSE_MOTTO_FIELD: "Motto"
  CUSTOMIZE_HOUSE: "#T Customize House#!"
- CUSTOMIZE_HOUSE_PLAYER_NOT_ALLOWED: "@warning_icon!#X House [DYNASTY_HOUSE.GetBaseNameNoTooltip] is not yours to customize#!"
+ CUSTOMIZE_HOUSE_PLAYER_NOT_ALLOWED: "@warning_icon! #X House [DYNASTY_HOUSE.GetBaseNameNoTooltip] is not yours to customize#!"
  HOUSE_MEMBERS_TITLE: "Members of [house|E] $NAME$"
  DYNASTY_MEMBERS_TITLE: "Members of the $NAME$ [dynasty|E]"
  HOUSE_SORT_FOUNDATION_DATE: "Founding Date"

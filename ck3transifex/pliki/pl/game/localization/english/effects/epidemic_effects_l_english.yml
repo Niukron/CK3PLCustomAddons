@@ -1,0 +1,9 @@
+﻿l_english:
+ set_epidemic_outbreak_intensity_global: ""
+ set_epidemic_outbreak_intensity_global_past: ""
+ set_epidemic_outbreak_intensity_third: ""
+ set_epidemic_outbreak_intensity_third_past: ""
+ create_epidemic_outbreak_global: ""
+ create_epidemic_outbreak_global_past: ""
+ create_epidemic_outbreak_third: ""
+ create_epidemic_outbreak_third_past: ""

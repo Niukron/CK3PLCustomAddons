@@ -24,6 +24,7 @@ java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%\\culture" "pliki\\en%gle%\\cult
 java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%\\culture\\traditions" "pliki\\en%gle%\\culture\\traditions" "temp\\supply%gle%\\culture\\traditions" yaml
 java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%\\dlc\\bp1" "pliki\\en%gle%\\dlc\\bp1" "temp\\supply%gle%\\dlc\\bp1" yaml
 java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%\\dlc\\bp2" "pliki\\en%gle%\\dlc\\bp2" "temp\\supply%gle%\\dlc\\bp2" yaml
+java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%\\dlc\\ce1" "pliki\\en%gle%\\dlc\\ce1" "temp\\supply%gle%\\dlc\\ce1" yaml
 java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%\\dlc\\ep1" "pliki\\en%gle%\\dlc\\ep1" "temp\\supply%gle%\\dlc\\ep1" yaml
 java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%\\dlc\\ep2" "pliki\\en%gle%\\dlc\\ep2" "temp\\supply%gle%\\dlc\\ep2" yaml
 java -jar "%parser%" "%sup%" "pliki\\%lang%%gle%\\dlc\\ep2\\dynasty_legacies" "pliki\\en%gle%\\dlc\\ep2\\dynasty_legacies" "temp\\supply%gle%\\dlc\\ep2\\dynasty_legacies" yaml
@@ -128,6 +129,7 @@ java -jar "%parser%" "%fte%" "temp\\supply%gle%\\custom_localization" "temp\\ck3
 java -jar "%parser%" "%fte%" "temp\\supply%gle%\\diarchies" "temp\\ck3%gle%\\diarchies" "%charset%"
 java -jar "%parser%" "%fte%" "temp\\supply%gle%\\dlc\\bp1" "temp\\ck3%gle%\\dlc\\bp1" "%charset%"
 java -jar "%parser%" "%fte%" "temp\\supply%gle%\\dlc\\bp2" "temp\\ck3%gle%\\dlc\\bp2" "%charset%"
+java -jar "%parser%" "%fte%" "temp\\supply%gle%\\dlc\\ce1" "temp\\ck3%gle%\\dlc\\ce1" "%charset%"
 java -jar "%parser%" "%fte%" "temp\\supply%gle%\\dlc\\ep1" "temp\\ck3%gle%\\dlc\\ep1" "%charset%"
 java -jar "%parser%" "%fte%" "temp\\supply%gle%\\dlc\\ep2" "temp\\ck3%gle%\\dlc\\ep2" "%charset%"
 java -jar "%parser%" "%fte%" "temp\\supply%gle%\\dlc\\ep2\\dynasty_legacies" "temp\\ck3%gle%\\dlc\\ep2\\dynasty_legacies" "%charset%"

@@ -9,4 +9,4 @@
  BANNER_RAISE_PROMPT: "#T Raise Army and all Soldiers assigned to this Rally Point#!"
  BANNER_CANCEL_RAISING: "Cancel Raising"
  BANNER_CANCEL_RAISING_PROMPT: "#T Cancel Raising from this Rally Point and dismiss Army#!"
- BANNER_LIST_DOMAIN_LIMIT_PENALTY_TOOLTIP: "@warning_icon!#X Above [domain_limit|E]. Levies from [domain] reduced by $PENALTY|%0$#!"
+ BANNER_LIST_DOMAIN_LIMIT_PENALTY_TOOLTIP: "@warning_icon! #X Above [domain_limit|E]. Levies from [domain] reduced by $PENALTY|%0$#!"

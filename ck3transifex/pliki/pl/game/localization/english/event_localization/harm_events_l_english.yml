@@ -37,7 +37,7 @@
  harm.0003.a: ""
  harm.0003.a.tt: ""
  harm.0011.t: ""
- harm.0011.desc.default_body: "Po zakończeniu konfliktu na terenie [battle_location.GetAdjective], ranni i okaleczeni opuścili pole bitwy, podczas gdy najbardziej godni uwagi zmarli zostali przeniesieni przez przyjaciół i służących.\n\nJeśli chodzi o mnie, wciągnięto mnie w najcięższą walkę — po prostu siekanie, krzyczenie i zabijanie. Wciąż kręci mi się w głowie od ciosów i adrenaliny, przypływów strachu, wściekłości, uniesienia i...\n\nKr-kręci. Kręci mi się w głowie. Mój wzrok rozmywa się, a następnie podwaja i zaczynam upadać na [ROOT.Char.Custom('GritType')].\n\n„Potrzebny natychmiast jest [ROOT.Char.Custom('GetRandomBattlefieldMedic')], [ROOT.Char.GetTitleAsNameNoTooltip] został[Select_CString(ROOT.Char.IsFemale, 'a trafiona', ' trafiony' )]!” – rozlega się okrzyk,"
+ harm.0011.desc.default_body: "Po zakończeniu konfliktu na terenie [battle_location.GetTitle.GetAdjective] ranni i okaleczeni opuścili pole bitwy, podczas gdy najbardziej godni uwagi zmarli zostali przeniesieni przez przyjaciół i służących.\n\nJeśli chodzi o mnie, wciągnięto mnie w najcięższą walkę — po prostu siekanie, krzyczenie i zabijanie. Wciąż kręci mi się w głowie od ciosów i adrenaliny, przypływów strachu, wściekłości, uniesienia i...\n\nKr-kręci. Kręci mi się w głowie. Mój wzrok rozmywa się, a następnie podwaja i zaczynam upadać na [ROOT.Char.Custom('GritType')].\n\n„Potrzebny natychmiast jest [ROOT.Char.Custom('GetRandomBattlefieldMedic')], [ROOT.Char.GetTitleAsNameNoTooltip] został[Select_CString(ROOT.Char.IsFemale, 'a trafiona', ' trafiony' )]!” – rozlega się okrzyk,"
  harm.0011.desc.medic_present: ""
  harm.0011.desc.no_medic: ""
  harm.0011.a: ""

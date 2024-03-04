@@ -28,6 +28,7 @@ java -jar "%parser%" "%fty%" "orginal%gle%\\custom_localization" "pliki\\en%gle%
 java -jar "%parser%" "%fty%" "orginal%gle%\\diarchies" "pliki\\en%gle%\\diarchies" "%charset%"
 java -jar "%parser%" "%fty%" "orginal%gle%\\dlc\\bp1" "pliki\\en%gle%\\dlc\\bp1" "%charset%"
 java -jar "%parser%" "%fty%" "orginal%gle%\\dlc\\bp2" "pliki\\en%gle%\\dlc\\bp2" "%charset%"
+java -jar "%parser%" "%fty%" "orginal%gle%\\dlc\\ce1" "pliki\\en%gle%\\dlc\\ce1" "%charset%"
 java -jar "%parser%" "%fty%" "orginal%gle%\\dlc\\ep1" "pliki\\en%gle%\\dlc\\ep1" "%charset%"
 java -jar "%parser%" "%fty%" "orginal%gle%\\dlc\\ep2" "pliki\\en%gle%\\dlc\\ep2" "%charset%"
 java -jar "%parser%" "%fty%" "orginal%gle%\\dlc\\ep2\\dynasty_legacies" "pliki\\en%gle%\\dlc\\ep2\\dynasty_legacies" "%charset%"

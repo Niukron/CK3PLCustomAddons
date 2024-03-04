@@ -9,6 +9,8 @@
  befriend_attendee_intent_desc: "Nastawiasz się na zdobycie przychylności swojego celu. Często prowadzi to do wydarzeń i opcji związanych z przyjaźnią."
  lechery_intent: "Rozpusta"
  lechery_intent_desc: "Zamierzasz zaspokoić swoje cielesne pragnienia i szukać kontaktów seksualnych z wieloma partnerami. Często skutkuje to redukcją [Concept( 'stress', 'stresu' )|E] u #L #TOOLTIP:GAME_TRAIT,lustfu,[GetNullCharacter.GetID] lubieżnych#!#! postaci."
+ legitimacy_intent: ""
+ legitimacy_intent_desc: ""
  altruism_intent_header: "Altruizm:"
  altruism_intent: "Altruizm"
  altruism_intent_desc: "Starasz się poprawić życie innych, szukając okazji do podjęcia altruistycznych działań. Często prowadzi to do wzrostu [Concept( 'county_opinion', 'powszechnej opinii' )|E] i [Concept( 'piety', 'pobożności' )|E]. Postacie z cechami [GetTrait('zealous').GetName( GetNullCharacter )||l], [GetTrait('generous').GetName( GetNullCharacter )|l] i [GetTrait('improvident').GetName( GetNullCharacter )|l] mogą stracić [stress|El]."

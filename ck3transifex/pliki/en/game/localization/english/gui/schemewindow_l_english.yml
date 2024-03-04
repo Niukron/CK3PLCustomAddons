@@ -23,7 +23,7 @@
  SCHEME_POWER_DESCRIPTION_HEADER: "[scheme_power|E]"
  SCHEME_TIER_INFLUENCE: "[CHARACTER.GetShortUINamePossessive|U] Rank"
  SCHEME_SPYMASTER: "[CHARACTER.GetShortUINamePossessive|U] Spymaster"
- SCHEME_WINDOW_TT_CHARACTER_EXPOSED: "@warning_icon!#X @exposed_icon!Currently exposed#!"
+ SCHEME_WINDOW_TT_CHARACTER_EXPOSED: "@warning_icon! #X @exposed_icon!Currently exposed#!"
  SCHEME_WINDOW_MEMBER_LIST: "Discovered Agents"
  SCHEME_WINDOW_SCHEME_OWNER: "#T Scheme Owner#!: [CHARACTER.GetUIName|U]"
  SCHEME_WINDOW_SCHEME_MEMBER: "#T Scheme Member#!: [CHARACTER.GetUIName|U]"

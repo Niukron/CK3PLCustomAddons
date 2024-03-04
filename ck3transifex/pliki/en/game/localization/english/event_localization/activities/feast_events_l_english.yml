@@ -142,6 +142,7 @@
  feast.7201.b: "Let us address the #EMP [goh.Custom('InsultNoun')]#! of the hour..."
  feast.7201.b.tt: "You insult [goh.GetFirstNameNoTooltip] instead of honoring [goh.GetHerHim]"
  feast.7201.c: "And you're all #EMP very#! welcome for my hospitality."
+ feast.7201.d: "A toast to my reign!"
  feast.7202.t: "$feast.7201.t$"
  feast.7202.desc.intro: "As the feast winds to its inevitable conclusion, there's one event remaining that everyone is expecting, and that's [host.GetTitledFirstNamePossessive] toast to the guest of honor:"
  feast.7202.desc.honoured: "me.\n\nIt's a lovely moment, one that I've rather been looking forward to all evening, and it comes and goes all too swiftly."

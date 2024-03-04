@@ -3,7 +3,7 @@
  hold_court.6000.desc_intro: "Stoi przede mną [6000_poor.Custom2('MyCharacterIntroduction', ROOT.Char)] z nisko zawieszoną głową.\n\n„[Select_CString( ROOT.Char.IsFemale, 'Moja pani', 'Mój panie' )], na terenie [6000_province.GetTitle.GetAdjectiveNoTooltip] doszło do poważnych strat na skutek"
  hold_court.6000.desc_occupation: "wrogiej okupacji."
  hold_court.6000.desc_raiding: "najazdu i grabieży."
- hold_court.6000.desc_epidemics: "epidemii."
+ hold_court.6000.desc_epidemics: ""
  hold_court.6000.desc_winter: "surowej zimy."
  hold_court.6000.desc_middle: "Ludzie umierają z głodu; nasze pola nie dają plonów, a bydła jest za mało, by przeżyć!"
  hold_court.6000.desc_count: "[6000_count.Custom2('MyCharacterIntroduction', 6000_poor)|U] nie ma ani pieniędzy, ani chęci, by nam pomóc."

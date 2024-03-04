@@ -16,6 +16,8 @@
  TITLE_PRODUCTION_DIRECTOR: "#credits_subheader Production Director#!"
  TITLE_PRODUCTION_LEAD: "#credits_subheader Production Lead#!"
  TITLE_CCP_CREATOR: "#credits_subheader Content Creator Pack Developer#!"
+ TITLE_GAME_DESIGN_DEPUTY: "#credits_subheader Game Design Deputy#!"
+ TITLE_CODE_OWNER: "#credits_subheader Code Owner#!"
  HEADER_DESIGN: "#credits_header DESIGN#!"
  TITLE_GAME_DESIGN: "#credits_subheader Game Design#!"
  TITLE_ADDITIONAL_DESIGN: "#credits_subheader Additional Design#!"
@@ -280,3 +282,4 @@
  TITLE_EMBEDDED_QA_ANALYST: "#credits_subheader Embedded QA Analyst#!"
  HEADER_CRUSADER_KINGS_3_LEGACY_OF_PERSIA: "#credits_title CRUSADER KINGS III: LEGACY OF PERSIA#!"
  HEADER_CRUSADER_KINGS_3_NORTH_AFRICAN_ATTIRE: "#credits_title CRUSADER KINGS III: NORTH AFRICAN ATTIRE#!"
+ HEADER_CRUSADER_KINGS_3_LEGENDS_OF_THE_DEAD: "#credits_title CRUSADER KINGS III: LEGENDS OF THE DEAD#!"

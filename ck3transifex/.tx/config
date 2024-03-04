@@ -302,6 +302,13 @@ source_file = pliki/en/game/localization/english/laws_l_english.yml
 source_lang = en
 type = YAML_GENERIC
 
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:legitimacy_l_englishyml]
+file_filter = pliki/<lang>/game/localization/english/legitimacy_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/legitimacy_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
 [o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:major_decisions_central_asia_l_englishyml]
 file_filter = pliki/<lang>/game/localization/english/major_decisions_central_asia_l_english.yml
 minimum_perc = 0
@@ -981,6 +988,13 @@ source_file = pliki/en/game/localization/english/custom_localization/casus_belli
 source_lang = en
 type = YAML_GENERIC
 
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:ce1_custom_loc_l_englishyml]
+file_filter = pliki/<lang>/game/localization/english/custom_localization/ce1_custom_loc_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/custom_localization/ce1_custom_loc_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
 [o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:character_descriptions_l_englishyml]
 file_filter = pliki/<lang>/game/localization/english/custom_localization/character_descriptions_l_english.yml
 minimum_perc = 0
@@ -1490,6 +1504,111 @@ type = YAML_GENERIC
 file_filter = pliki/<lang>/game/localization/english/dlc/bp2/dlc_bp2_yearly_extra_l_english.yml
 minimum_perc = 0
 source_file = pliki/en/game/localization/english/dlc/bp2/dlc_bp2_yearly_extra_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:ce1_buildings_l_english]
+file_filter = pliki/<lang>/game/localization/english/dlc/ce1/ce1_buildings_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/ce1/ce1_buildings_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:ce1_epidemic_events_l_english]
+file_filter = pliki/<lang>/game/localization/english/dlc/ce1/ce1_epidemic_events_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/ce1/ce1_epidemic_events_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:ce1_epidemic_physician_events_l_english]
+file_filter = pliki/<lang>/game/localization/english/dlc/ce1/ce1_epidemic_physician_events_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/ce1/ce1_epidemic_physician_events_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:ce1_epidemics_l_english]
+file_filter = pliki/<lang>/game/localization/english/dlc/ce1/ce1_epidemics_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/ce1/ce1_epidemics_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:ce1_feast_l_english]
+file_filter = pliki/<lang>/game/localization/english/dlc/ce1/ce1_feast_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/ce1/ce1_feast_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:ce1_innovations_l_english]
+file_filter = pliki/<lang>/game/localization/english/dlc/ce1/ce1_innovations_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/ce1/ce1_innovations_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:ce1_interactions_l_english]
+file_filter = pliki/<lang>/game/localization/english/dlc/ce1/ce1_interactions_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/ce1/ce1_interactions_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:ce1_legacies_l_english]
+file_filter = pliki/<lang>/game/localization/english/dlc/ce1/ce1_legacies_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/ce1/ce1_legacies_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:ce1_legend_ending_events_l_english]
+file_filter = pliki/<lang>/game/localization/english/dlc/ce1/ce1_legend_ending_events_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/ce1/ce1_legend_ending_events_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:ce1_legend_spread_events_l_english]
+file_filter = pliki/<lang>/game/localization/english/dlc/ce1/ce1_legend_spread_events_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/ce1/ce1_legend_spread_events_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:ce1_legendary_decisions_l_english]
+file_filter = pliki/<lang>/game/localization/english/dlc/ce1/ce1_legendary_decisions_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/ce1/ce1_legendary_decisions_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:ce1_legitimacy_l_english]
+file_filter = pliki/<lang>/game/localization/english/dlc/ce1/ce1_legitimacy_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/ce1/ce1_legitimacy_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:ce1_modifiers_l_english]
+file_filter = pliki/<lang>/game/localization/english/dlc/ce1/ce1_modifiers_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/ce1/ce1_modifiers_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:dlc_ce1_achievements_l_english]
+file_filter = pliki/<lang>/game/localization/english/dlc/ce1/dlc_ce1_achievements_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/ce1/dlc_ce1_achievements_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:legends_l_english]
+file_filter = pliki/<lang>/game/localization/english/dlc/ce1/legends_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/dlc/ce1/legends_l_english.yml
 source_lang = en
 type = YAML_GENERIC
 
@@ -2242,10 +2361,24 @@ source_file = pliki/en/game/localization/english/dynasty_legacies/legacies_l_eng
 source_lang = en
 type = YAML_GENERIC
 
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:epidemic_effects_l_englishyml]
+file_filter = pliki/<lang>/game/localization/english/effects/epidemic_effects_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/effects/epidemic_effects_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
 [o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:hostage_effects_l_englishyml]
 file_filter = pliki/<lang>/game/localization/english/effects/hostage_effects_l_english.yml
 minimum_perc = 0
 source_file = pliki/en/game/localization/english/effects/hostage_effects_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:legend_effects_l_englishyml]
+file_filter = pliki/<lang>/game/localization/english/effects/legend_effects_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/effects/legend_effects_l_english.yml
 source_lang = en
 type = YAML_GENERIC
 
@@ -2505,6 +2638,13 @@ type = YAML_GENERIC
 file_filter = pliki/<lang>/game/localization/english/event_localization/activities/feast_main_stew_flood_l_english.yml
 minimum_perc = 0
 source_file = pliki/en/game/localization/english/event_localization/activities/feast_main_stew_flood_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:funeral_events_l_englishyml]
+file_filter = pliki/<lang>/game/localization/english/event_localization/activities/funeral_events_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/event_localization/activities/funeral_events_l_english.yml
 source_lang = en
 type = YAML_GENERIC
 
@@ -2827,6 +2967,13 @@ type = YAML_GENERIC
 file_filter = pliki/<lang>/game/localization/english/event_localization/decisions/decision_hold_court_l_english.yml
 minimum_perc = 0
 source_file = pliki/en/game/localization/english/event_localization/decisions/decision_hold_court_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:decision_legend_book_l_english]
+file_filter = pliki/<lang>/game/localization/english/event_localization/decisions/decision_legend_book_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/event_localization/decisions/decision_legend_book_l_english.yml
 source_lang = en
 type = YAML_GENERIC
 
@@ -4174,6 +4321,13 @@ source_file = pliki/en/game/localization/english/gui/encyclopedia_l_english.yml
 source_lang = en
 type = YAML_GENERIC
 
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:epidemics_window_l_englishyml]
+file_filter = pliki/<lang>/game/localization/english/gui/epidemics_window_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/gui/epidemics_window_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
 [o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:event_window_l_englishyml]
 file_filter = pliki/<lang>/game/localization/english/gui/event_window_l_english.yml
 minimum_perc = 0
@@ -4297,6 +4451,20 @@ type = YAML_GENERIC
 file_filter = pliki/<lang>/game/localization/english/gui/legacy_window_l_english.yml
 minimum_perc = 0
 source_file = pliki/en/game/localization/english/gui/legacy_window_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:legend_chronicle_window_l_englishyml]
+file_filter = pliki/<lang>/game/localization/english/gui/legend_chronicle_window_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/gui/legend_chronicle_window_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:legends_window_l_englishyml]
+file_filter = pliki/<lang>/game/localization/english/gui/legends_window_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/gui/legends_window_l_english.yml
 source_lang = en
 type = YAML_GENERIC
 
@@ -5588,6 +5756,13 @@ source_file = pliki/en/game/localization/english/triggers/dynasty_triggers_l_eng
 source_lang = en
 type = YAML_GENERIC
 
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:epidemic_triggers_l_englishyml]
+file_filter = pliki/<lang>/game/localization/english/triggers/epidemic_triggers_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/triggers/epidemic_triggers_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
 [o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:faction_triggers_l_englishyml]
 file_filter = pliki/<lang>/game/localization/english/triggers/faction_triggers_l_english.yml
 minimum_perc = 0
@@ -5613,6 +5788,13 @@ type = YAML_GENERIC
 file_filter = pliki/<lang>/game/localization/english/triggers/landed_title_triggers_l_english.yml
 minimum_perc = 0
 source_file = pliki/en/game/localization/english/triggers/landed_title_triggers_l_english.yml
+source_lang = en
+type = YAML_GENERIC
+
+[o:Spolszczenia-gier:p:crusader-kings-iii-spolszczenie:r:legend_triggers_l_englishyml]
+file_filter = pliki/<lang>/game/localization/english/triggers/legend_triggers_l_english.yml
+minimum_perc = 0
+source_file = pliki/en/game/localization/english/triggers/legend_triggers_l_english.yml
 source_lang = en
 type = YAML_GENERIC
 

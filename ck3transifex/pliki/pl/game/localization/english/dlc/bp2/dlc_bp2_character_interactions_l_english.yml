@@ -2,7 +2,7 @@
  influence_child_personality_interaction: "Ukształtuj osobowość dziecka"
  influence_child_personality_interaction_desc: "Przekaż swojemu [Concept( 'ward', 'wychowankowi' )|E] [Concept( 'personality_trait', 'cechę charakteru' )|E]"
  had_guardian_influence_interaction: ""
- bp2_character_interaction.1001.t: ""
+ bp2_character_interaction.1001.t: "$influence_child_personality_interaction$: [target_trait.GetNameNoTooltip(GetPlayer)]"
  bp2_character_interaction.1001.desc_intro: ""
  bp2_character_interaction.desc_lustful: ""
  bp2_character_interaction.1001.desc_lustful: ""

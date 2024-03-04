@@ -40,3 +40,7 @@
  economy_buildings_desc: "#T Gospodarka i budowle#!\nPokazuje na mapie [Concept( 'income', 'dochód' )|E] [Concept( 'county', 'hrabstwa' )|E] i [special_buildings|El]."
  county_control: "$MAPMODE_COUNTY_CONTROL_NAME$"
  county_control_desc: "$MAPMODE_COUNTY_CONTROL$"
+ epidemics: ""
+ epidemics_desc: ""
+ legends: ""
+ legends_desc: ""

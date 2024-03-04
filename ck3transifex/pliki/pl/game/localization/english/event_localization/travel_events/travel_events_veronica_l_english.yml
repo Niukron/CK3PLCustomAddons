@@ -33,6 +33,8 @@
  cryptid_obssessed_rush: ""
  travel_events.3010.t: ""
  travel_events.3010.intro: ""
+ travel_events.3010.desc: ""
+ travel_events.3010.alone: ""
  travel_events.3010.exotic: ""
  travel_events.3010.cat: ""
  travel_events.3010.dog: ""

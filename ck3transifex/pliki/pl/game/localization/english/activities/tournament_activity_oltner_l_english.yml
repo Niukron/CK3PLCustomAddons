@@ -56,7 +56,7 @@
  an_empty_cup: ""
  a_stick_simple: ""
  a_rock: ""
- available_because_of_intent: ""
+ available_because_of_intent: "Ta opcja jest dostępna z powodu twojego [Concept( 'intent', 'zamiaru' )|E] "
  you_get_drunk: ""
  they_share_some_tricks: ""
  you_have_a_good_time: ""
