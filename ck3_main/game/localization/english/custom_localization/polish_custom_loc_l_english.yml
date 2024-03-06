@@ -30,25 +30,25 @@
 
  #GetExpensiveDrink_SingularAccusative
 
- expensive_drink_singular_hippocras_accusative:0 "wykwintny hipokras"
- expensive_drink_singular_bordeaux_claret_accusative:0 "Bordeaux claret"
- expensive_drink_singular_imported_wine_accusative:0 "sprowadzane wino"
- expensive_drink_singular_brandy_accusative:0 "nowoodkryte brandy"
- expensive_drink_singular_spiced_wine_accusative:0 "wino korzenne"
- expensive_drink_singular_premium_tea_accusative:0 "sprowadzaną herbatę"
- expensive_drink_invigorating_herbal_infusions_accusative:0 "orzeźwiający napar ziołowy"
- expensive_drink_singular_violet_sharbah_accusative:0 "fiołkowy szarbat"
+ expensive_drink_singular_hippocras_accusative_singular:0 "wykwintny hipokras"
+ expensive_drink_singular_bordeaux_claret_accusative_singular:0 "Bordeaux claret"
+ expensive_drink_singular_imported_wine_accusative_singular:0 "sprowadzane wino"
+ expensive_drink_singular_brandy_accusative_singular:0 "nowoodkryte brandy"
+ expensive_drink_singular_spiced_wine_accusative_singular:0 "wino korzenne"
+ expensive_drink_singular_premium_tea_accusative_singular:0 "sprowadzaną herbatę"
+ expensive_drink_invigorating_herbal_infusions_accusative_singular:0 "orzeźwiający napar ziołowy"
+ expensive_drink_singular_violet_sharbah_accusative_singular:0 "fiołkowy szarbat"
 
  #GetExpensiveDrink_SingularGenitive
 
- expensive_drink_singular_hippocras_genitive:0 "wykwintnego hipokrasu"
- expensive_drink_singular_bordeaux_claret_genitive:0 "Bordeaux claret"
- expensive_drink_singular_imported_wine_genitive:0 "sprowadzanego wina"
- expensive_drink_singular_brandy_genitive:0 "nowoodkrytego brandy"
- expensive_drink_singular_spiced_wine_genitive:0 "wina korzennego"
- expensive_drink_singular_premium_tea_genitive:0 "sprowadzanej herbaty"
- expensive_drink_invigorating_herbal_infusions_genitive:0 "orzeźwiającego naparu ziołowego"
- expensive_drink_singular_violet_sharbah_genitive:0 "fiołkowego szarbatu"
+ expensive_drink_singular_hippocras_genitive_singular:0 "wykwintnego hipokrasu"
+ expensive_drink_singular_bordeaux_claret_genitive_singular:0 "Bordeaux claret"
+ expensive_drink_singular_imported_wine_genitive_singular:0 "sprowadzanego wina"
+ expensive_drink_singular_brandy_genitive_singular:0 "nowoodkrytego brandy"
+ expensive_drink_singular_spiced_wine_genitive_singular:0 "wina korzennego"
+ expensive_drink_singular_premium_tea_genitive_singular:0 "sprowadzanej herbaty"
+ expensive_drink_invigorating_herbal_infusions_genitive_singular:0 "orzeźwiającego naparu ziołowego"
+ expensive_drink_singular_violet_sharbah_genitive_singular:0 "fiołkowego szarbatu"
 
  #GetExpensiveDrinkGenitive
  expensive_drink_hippocras_genitive:0 "wykwintnych hipokrasów"
@@ -3435,6 +3435,7 @@
  accolade_flower_gen:0 "[ROOT.Char.GetCurrentLocation.Custom('get_region_flower_type_gen')|U]"
 
 #accolade_leader_of_the_culture_unit
+#accolade_leader_of_the_lieges_unit
  accolade_chosen_gen:0 "Wybrańców"
 
 #accolade_bearer_of_the_lieges_item
@@ -3452,8 +3453,6 @@
 
 #accolade_the_knight_of_aspect
  accolade_most_feared_gen:0 "Wcielenia Terroru"
-#accolade_leader_of_the_lieges_unit
- accolade_chosen_gen:0 "Wybrańców"
 
 #get_region_flower_type_gen
  flower_type_hibiscus_gen:0 "hibiskusa"

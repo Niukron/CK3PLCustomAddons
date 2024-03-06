@@ -626,13 +626,13 @@ GetExpensiveDrink_Singular = {
 # v1.11.5
 GetExpensiveDrink_SingularAccusative = {
 	parent = GetExpensiveDrink_Singular
-	suffix = "_accusative"
+	suffix = "_accusative_singular"
 }
 
 # v1.11.5
 GetExpensiveDrink_SingularGenitive = {
 	parent = GetExpensiveDrink_Singular
-	suffix = "_genitive"
+	suffix = "_genitive_singular"
 }
 
 # v1.9.0.2 - original
