@@ -1,4 +1,4 @@
-#v1.6.1
+﻿#v1.6.1
 religion_name_adj_feminine_accusative = {
 	type = faith
 	text = {
