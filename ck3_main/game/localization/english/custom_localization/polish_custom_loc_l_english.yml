@@ -3091,6 +3091,7 @@
  activity_wedding_accusative:0 "wielki ślub"
  activity_witch_accusative:0 "wielki rytuał"
  activity_adult_education_accusative:0 "naukę na uniwersytecie"
+ activity_funeral_accusative:0 "pogrzeb"
 
 # Rodzaj aktywności biernik - accusative
 
@@ -3104,6 +3105,7 @@
  activity_wedding_accusative_tt:0 "#L #TOOLTIP:ACTIVITY_TYPE,activity_wedding $activity_wedding_accusative$#!#!"
  activity_witch_accusative_tt:0 "#L #TOOLTIP:ACTIVITY_TYPE,activity_witch $activity_witch_accusative$#!#!"
  activity_adult_education_accusative_tt:0 "#L #TOOLTIP:ACTIVITY_TYPE,activity_adult_education $activity_adult_education_accusative$#!#!"
+ activity_funeral_accusative_tt:0 "#L #TOOLTIP:ACTIVITY_TYPE,activity_funeral $activity_funeral_accusative$#!#!"
 
 # Rodzaj aktywności dopełniacz - genitive - notooltip
 
@@ -3117,6 +3119,7 @@
  activity_wedding_genitive:0 "wielkiego ślubu"
  activity_witch_genitive:0 "wielkiego rytuału"
  activity_adult_education_genitive:0 "nauki na uniwersytecie"
+ activity_funeral_genitive:0 "pogrzebu"
 
 # Rodzaj aktywności dopełniacz + tooltip - genitive 
 
@@ -3130,6 +3133,7 @@
  activity_wedding_genitive_tt:0 "#L #TOOLTIP:ACTIVITY_TYPE,activity_wedding $activity_wedding_genitive$#!#!"
  activity_witch_genitive_tt:0 "#L #TOOLTIP:ACTIVITY_TYPE,activity_witch $activity_witch_genitive$#!#!"
  activity_adult_education_genitive_tt:0 "#L #TOOLTIP:ACTIVITY_TYPE,activity_adult_education $activity_adult_education_genitive$#!#!"
+ activity_funeral_genitive_tt:0 "#L #TOOLTIP:ACTIVITY_TYPE,activity_funeral $activity_funeral$#!#!"
 
 # Rodzaj aktywności miejscownik - locative - notooltip 
 
@@ -3143,6 +3147,7 @@
  activity_wedding_locative:0 "wielkim ślubie"
  activity_witch_locative:0 "wielkim rytuale"
  activity_adult_education_locative:0 "nauce na uniwersytecie"
+ activity_funeral_locative:0 "pogrzebie"
 
 # Rodzaj aktywności miejscownik + tooltip - locative 
 
@@ -3155,7 +3160,8 @@
  activity_tournament_locative_tt:0 "#L #TOOLTIP:ACTIVITY_TYPE,activity_tournament $activity_tournament_locative$#!#!"
  activity_wedding_locative_tt:0 "#L #TOOLTIP:ACTIVITY_TYPE,activity_wedding $activity_wedding_locative$#!#!"
  activity_witch_locative_tt:0 "#L #TOOLTIP:ACTIVITY_TYPE,activity_witch $activity_witch_locative$#!#!"
- activity_adult_education_locative_tt:0 "#L #TOOLTIP:ACTIVITY_TYPE,activity_adult_educatio $activity_adult_educatio_locative$#!#!"
+ activity_adult_education_locative_tt:0 "#L #TOOLTIP:ACTIVITY_TYPE,activity_adult_education $activity_adult_education_locative$#!#!"
+ activity_funeral_locative_tt:0 "#L #TOOLTIP:ACTIVITY_TYPE,activity_funeral $activity_funeral$#!#!"
  
 # Rodzaj aktywności - your
  
@@ -3169,6 +3175,7 @@
  activity_wedding_your:0 "twój "
  activity_witch_ritual_your:0 "twój "
  activity_adult_education_your:0 "twoja "
+ activity_funeral_your:0 "twój "
 
 # Rodzaj aktywności - your - genitive - dopełniacz
  
@@ -3182,6 +3189,7 @@
  activity_wedding_your_genitive:0 "twojego "
  activity_witch_ritual_your_genitive:0 "twojego "
  activity_adult_education_your_genitive:0 "twojej "
+ activity_funeral_your_genitive:0 "twojego "
 
 # Rodzaj aktywności - your - accusative - biernik
  
@@ -3195,6 +3203,7 @@
  activity_wedding_your_accusative:0 "twój "
  activity_witch_ritual_your_accusative:0 "twój "
  activity_adult_education_your_accusative:0 "twoją "
+ activity_funeral_your_accusative:0 "twój "
 
 # Rodzaj aktywności - your - locative - miejscownik
  
@@ -3208,6 +3217,7 @@
  activity_wedding_your_locative:0 "twoim "
  activity_witch_ritual_your_locative:0 "twoim "
  activity_adult_education_your_locative:0 "twojej "
+ activity_funeral_your_locative:0 "twoim "
 
 # activity bypass 
 
