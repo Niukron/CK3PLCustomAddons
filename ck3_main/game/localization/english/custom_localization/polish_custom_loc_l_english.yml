@@ -1842,7 +1842,7 @@
  terrain_drylands_bier:0 "tereny suche"
 
  #Teren - Miejscownik
- #TerrainTypeInMie
+ #TerrainTypeInMie i TerrainTypeProvinceInMie
  terrain_plains_in_mie:0 "na równinach"
  terrain_farmlands_in_mie:0 "na polach uprawnych"
  terrain_hills_in_mie:0 "na wzgórzach"
