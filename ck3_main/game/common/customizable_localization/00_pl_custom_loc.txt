@@ -6714,6 +6714,13 @@ PL_GetTerrainTypeGenitive = {
 }
 
 #1.11.5
+PL_GetTerrainTypeArticle = {
+	type = province
+	parent = GetTerrainType
+	suffix = _pl_art
+}
+
+#1.11.5
 PL_GetTerrainTypePluralLocative = {
 	type = province
 	parent = GetTerrainType
