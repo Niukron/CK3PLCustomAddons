@@ -5054,12 +5054,6 @@ TerrainTypeInMie = {
 	suffix = "_in_mie"
 }
 
-# v1.12
-TerrainTypeProvinceInMie = {
-	parent = TerrainTypeProvince
-	suffix = "_in_mie"
-}
-
 # v1.10 - original
 TerrainTypeProvince = {
 	type = province
