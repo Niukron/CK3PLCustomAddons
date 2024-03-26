@@ -6961,3 +6961,101 @@ GetWritingMaterialGenitive = {
 	parent = GetWritingMaterial
 	suffix = _gen
 }
+
+#1.12 - original
+GetMusicalInstrument = {
+	type = character
+	random_valid = yes
+	
+	text = { # Flute
+		localization_key = GetMusicalInstrument_flute
+	}
+	
+	text = { # Drum
+		fallback = yes
+		localization_key = GetMusicalInstrument_drum
+	}
+	
+	text = { # Trumpet
+		localization_key = GetMusicalInstrument_trumpet
+	}
+	
+	text = { # Harp
+		localization_key = GetMusicalInstrument_harp
+	}
+	
+	text = { # Lute
+		trigger = {
+			location = {
+				OR = {
+					geographical_region = world_europe
+					geographical_region = world_middle_east
+					geographical_region = world_africa_north
+				}
+			}
+		}
+		localization_key = GetMusicalInstrument_lute
+	}
+	
+	text = { # Fiddle
+		trigger = {
+			location = {
+				OR = {
+					geographical_region = world_europe
+					geographical_region = world_middle_east
+					geographical_region = world_africa_north
+				}
+			}
+		}
+		localization_key = GetMusicalInstrument_fiddle
+	}
+	
+	text = { # Lyre
+		trigger = {
+			location = {
+				OR = {
+					geographical_region = world_europe
+					geographical_region = world_middle_east
+					geographical_region = world_africa_north
+					geographical_region = world_africa_east
+				}
+			}
+		}
+		localization_key = GetMusicalInstrument_lyre
+	}
+	
+	text = { # Tambourine
+		trigger = {
+			location = {
+				OR = {
+					geographical_region = world_europe
+					geographical_region = world_middle_east
+					geographical_region = world_africa_north
+				}
+			}
+		}
+		localization_key = GetMusicalInstrument_tambourine
+	}
+
+	text = { # Bagpipes
+		trigger = {
+			culture = { has_cultural_era_or_later = culture_era_high_medieval }
+		}
+		localization_key = GetMusicalInstrument_bagpipe
+	}
+	
+	text = { # Hurdy-Gurdy
+		trigger = {
+			location = {
+				geographical_region = world_europe
+			}
+			culture = { has_cultural_era_or_later = culture_era_late_medieval }
+		}
+		localization_key = GetMusicalInstrument_hurdy_gurdy
+	}
+}
+
+GetMusicalInstrumentLocative = {
+	parent = GetMusicalInstrument
+	suffix = _loc
+}

@@ -3754,3 +3754,15 @@ game_concept_house_unity_possessive:0 "[Concept( 'house_unity', 'jedności rodu'
  GetWritingMaterial_palm_leaf_gen:0 "liścia palmowego"
  GetWritingMaterial_birch_bark_gen:0 "kory brzozy"
  GetWritingMaterial_stone_stele_gen:0 "kamiennej tabliczki"
+ 
+#GetMusicalInstrumentLocative
+ GetMusicalInstrument_flute_loc:0 "flecie"
+ GetMusicalInstrument_drum_loc:0 "bębnie"
+ GetMusicalInstrument_trumpet_loc:0 "trąbce"
+ GetMusicalInstrument_harp_loc:0 "harfie"
+ GetMusicalInstrument_lute_loc:0 "lutni"
+ GetMusicalInstrument_fiddle_loc:0 "skrzypcach"
+ GetMusicalInstrument_lyre_loc:0 "lirze"
+ GetMusicalInstrument_tambourine_loc:0 "tamburynie"
+ GetMusicalInstrument_bagpipe_loc:0 "dudach"
+ GetMusicalInstrument_hurdy_gurdy_loc:0 "lirze korbowej"
