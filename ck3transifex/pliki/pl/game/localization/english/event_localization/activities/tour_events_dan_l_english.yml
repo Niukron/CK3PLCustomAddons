@@ -69,7 +69,7 @@
  tour_travel.3040.c: ""
  tour_travel.3040.c.foreign: ""
  entourage_member_wounded_toast: ""
- entourage_member_wound_chance_tt: ""
+ entourage_member_wound_chance_tt: "Przypadkowy członek świty zostaje ranny"
  truth_of_it_sleuth_toast: ""
  truth_of_it_skill_toast: ""
  truth_of_it_stress_toast: ""

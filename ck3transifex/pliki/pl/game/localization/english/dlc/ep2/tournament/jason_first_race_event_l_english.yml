@@ -1,6 +1,6 @@
 ﻿l_english:
  jason_first_race_event.1.t: "Tupot kopyt"
- jason_first_race_event.1.desc: "W pełnym galopie jeździec, za którym stoi [opponent.GetTitledFirstName], ciągnie za lejce, a #EMP [opponent.Custom('GetContestHorseRaceName')]#! popycha mojego konia i jeźdźca imieniem [jockey.GetFirstName] — a może to #EMP [ROOT.Char.Custom('GetContestHorseRaceName')]#! ich popycha? Jakkolwiek by nie było, cała ta nieszczęsna grupa wpada bokiem w barierki.\n\nTam, gdzie jeszcze przed chwilą było całe stado pędzących wierzchowców, lśniących od potu, teraz dwa konie wyrwały się z tłumu, a ich jeźdźcy walczą, by nad nimi zapanować.\n\nReszta zawodników pędzi dalej, dwa chwiejące się konie zostały daleko za nimi."
+ jason_first_race_event.1.desc: "W pełnym galopie jeździec, za którym stoi [opponent.GetTitledFirstName], ciągnie za lejce, a #EMP [opponent.Custom('GetContestHorseRaceName')]#! popycha mojego konia i jeźdźca imieniem [jockey.GetFirstName] — a może to #EMP [ROOT.Char.Custom('GetContestHorseRaceName')]#! ich popycha? Jakkolwiek by nie było, cała ta nieszczęsna grupa wpada bokiem w barierki.\n\nTam, gdzie jeszcze przed chwilą było całe stado pędzących wierzchowców, lśniących od potu, teraz dwa konie wyrwały się z tłumu, a ich jeźdźcy walczą, by nad nimi zapanować.\n\nReszta jeźdźców pędzi dalej, dwa chwiejące się konie zostały daleko za nimi."
  jason_first_race_event.1.desc.suspicious: "Pośród swoich sług [opponent.GetTitledFirstNameNoTooltip] krzyczy w „szoku”… nieprzekonująco."
  jason_first_race_event.1.desc.sympathetic: "Pośród swoich sług [opponent.GetTitledFirstNameNoTooltip] krzyczy z przerażenia."
  jason_first_race_event.1.a: "Podstęp! Oszukano mnie!"
@@ -15,5 +15,5 @@
  jason_first_race_event.1.c.tt.lose: "[jockey.GetFirstNameNoTooltip] nie słyszy cię"
  jason_first_race_event.1.d: "Żegnaj, zwycięstwo?"
  jason_first_race_event.1.d.tt: "Po prostu mam nadzieję, że [jockey.GetFirstNameNoTooltip] ma się dobrze..."
- contest_horse_race_collision_log_title: "Zderzenie zawodników"
+ contest_horse_race_collision_log_title: "Zderzenie jeźdźców"
  contest_horse_race_collision_log: "Zawodnicy, których wystawili [CHARACTER.GetShortUIName] i [TARGET_CHARACTER.GetShortUIName], zderzyli się"

@@ -105,3 +105,4 @@
  TRAVEL_POINT_OF_INTEREST_TT_poi_lighthouse_of_alexandria: "Lighthouse of Alexandria"
  TRAVEL_POINT_OF_INTEREST_TT_poi_grand_city: "Great City of [Province.GetBaronyNameExplicitly]"
  poi_grand_city_visit_event_tt: "Will trigger a Sight-Seeing Event"
+ TRAVEL_POINT_OF_INTEREST_TT_poi_legend_capitals: "Origin of [Province.GetTitle.GetHolder.GetPromotedLegend.GetName]"

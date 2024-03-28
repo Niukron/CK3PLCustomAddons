@@ -41,3 +41,4 @@
  hunt_invite_flavor_dangerous: "$invite_to_activity_flavor_hunt$ Together, we shall bring down a treacherous beast!\n"
  hunt_invite_flavor_falconry: "$invite_to_activity_flavor_hunt$ Together, our hawks will make short work of their prey!\n"
  NOT_activity_invite_max_num_guests: "Cannot add [CHARACTER.GetShortUIName] to activity, it is full!"
+ REASON_NOT_A_WITCH: "You are not a Witch"

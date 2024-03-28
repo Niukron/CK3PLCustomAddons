@@ -587,7 +587,7 @@
  artifact_pedestal_reliquary_buddhism_description: "Wytworny relikwiarz zawierający świętą relikwię: [SCOPE.Custom('BuddhismRelic')|l]."
  artifact_pedestal_reliquary_judaism_name: "[SCOPE.Custom('JudaismRelicName')|U]"
  artifact_pedestal_reliquary_judaism_description: "Wytworny relikwiarz zawierający świętą relikwię: [SCOPE.Custom('JudaismRelic')|l]."
- artifact_pedestal_reliquary_christian_nail: ""
+ artifact_pedestal_reliquary_christian_nail: "jeden z gwoździ z krzyża Jezusa"
  artifact_pedestal_reliquary_christian_nail_name: "Święty gwóźdź"
  artifact_pedestal_reliquary_christian_cross: "drewniany fragment Świętego Krzyża, na którym został ukrzyżowany Jezus"
  artifact_pedestal_reliquary_christian_cross_name: "Fragment Świętego Krzyża"

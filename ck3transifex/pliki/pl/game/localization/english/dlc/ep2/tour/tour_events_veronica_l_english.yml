@@ -322,7 +322,7 @@
  cultural_festival.3040.desc: ""
  cultural_festival.3040.a: ""
  cultural_festival.3040.flavor: ""
- cultural_festival.3040.a.tt: ""
+ cultural_festival.3040.a.tt: "@warning_icon! #X Możesz stracić ten artefakt"
  cultural_festival.3040.b: ""
  cultural_festival.3041.t: ""
  cultural_festival.3041.desc: ""

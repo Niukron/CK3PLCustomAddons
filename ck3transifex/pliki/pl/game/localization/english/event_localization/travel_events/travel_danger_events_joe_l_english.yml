@@ -46,7 +46,7 @@
  travel_danger_events.6010.c: ""
  travel_danger_events.6010.c.success: ""
  travel_danger_events.6010.c.failure: ""
- travel_danger_events.6010.c.wound: ""
+ travel_danger_events.6010.c.wound: "Przypadkowy członek świty zostaje ranny "
  travel_danger_events.6010.d: ""
  travel_danger_events.6011.t: ""
  travel_danger_events.6011.intro: ""

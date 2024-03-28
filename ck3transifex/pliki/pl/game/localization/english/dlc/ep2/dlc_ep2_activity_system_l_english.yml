@@ -41,3 +41,4 @@
  hunt_invite_flavor_dangerous: "$invite_to_activity_flavor_hunt$ Razem pokonamy zdradziecką bestię!\n"
  hunt_invite_flavor_falconry: "$invite_to_activity_flavor_hunt$ Wspólnie nasze jastrzębie szybko rozprawią się ze swoją zdobyczą!\n"
  NOT_activity_invite_max_num_guests: ""
+ REASON_NOT_A_WITCH: ""

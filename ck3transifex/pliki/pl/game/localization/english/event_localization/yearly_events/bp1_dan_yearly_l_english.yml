@@ -1,6 +1,6 @@
 ﻿l_english:
  bp1_yearly.7000.t: "Przerwanie postu z przyjacielem"
- bp1_yearly.7000.desc: "Jestem w drodze do [ROOT.Char.GetFaith.CustomLoc('HouseOfWorshipAdj')] pewnego ranka, kiedy zauważam, że [distraction_friend.GetTitledFirstName] niesie małą torbę. Rozglądając się dookoła, konspiracyjnie otwiera ją, odkrywając różnego rodzaju jedzenie i napoje.\n\n„Jest taki piękny dzień. Dołącz do mnie, organizuję poranny piknik” — mówi.\n\nGdy zaczynam protestować, że jestem w drodze do [ROOT.Char.GetFaith.CustomLoc('HouseOfWorshipAdj')], [distraction_friend.GetFirstNameNoTooltip] przerywa mi: \n\n„[ROOT.Char.GetFaith.HighGodName] może poczekać, ale te [ROOT.Char.Custom('GetExpensiveDesert')] już nie”."
+ bp1_yearly.7000.desc: "Jestem w drodze do [ROOT.Char.GetFaith.CustomLoc('HouseOfWorshipAdj')] pewnego ranka, kiedy zauważam, że [distraction_friend.GetTitledFirstName] niesie małą torbę. Rozglądając się dookoła, konspiracyjnie otwiera ją, odkrywając różnego rodzaju jedzenie i napoje.\n\n„Jest taki piękny dzień. Dołącz do mnie, organizuję poranny piknik” – mówi.\n\nGdy zaczynam protestować, że jestem w drodze do [ROOT.Char.GetFaith.CustomLoc('HouseOfWorshipAdj')], [distraction_friend.GetFirstNameNoTooltip] przerywa mi: \n\n„[ROOT.Char.GetFaith.HighGodName] może poczekać, ale te [ROOT.Char.Custom('GetExpensiveDesert')] już nie”."
  bp1_yearly.7000.a: "[ROOT.Char.GetFaith.HighGodName] jest ważniejszy niż śniadanie."
  bp1_yearly.7000.b: "Prawdziwym grzechem byłoby przepuszczenie takiej okazji."
  lovely_picnic_modifier: "Cudowny piknik"
@@ -33,7 +33,7 @@
  bp1_orgy_tapestry: ""
  bp1_orgy_tapestry_desc: ""
  bp1_yearly.7004.t: "Pociecha z przyjaci[Select_CString(concerned_friend.IsFemale, 'ółki', 'ela' )]"
- bp1_yearly.7004.desc: "[ROOT.Char.Custom2('MySheHe', concerned_friend)|U] [ROOT.Char.Custom2('RelationToMeShort', concerned_friend)] [concerned_friend.GetFirstName] podchodzi do mnie, gdy siedzę przy oknie: „Nie jesteś tak[Select_CString(ROOT.Char.IsFemale, 'a sama', 'i sam' )] od kiedy... od kiedy to się stało”.\n\nNie mówi tego, ale wiem, że odnosi się do czasu, kiedy [bad_memory.GetDescription].\n\n„Może potrzebujesz kogoś, z kim możesz porozmawiać? Tym kimś [Select_CString(concerned_friend.IsFemale, 'mogłabym', 'mógłbym' )] bym być ja” — kontynuuje łagodnie."
+ bp1_yearly.7004.desc: "[ROOT.Char.Custom2('MySheHe', concerned_friend)|U] [ROOT.Char.Custom2('RelationToMeShort', concerned_friend)] [concerned_friend.GetFirstName] podchodzi do mnie, gdy siedzę przy oknie: „Nie jesteś tak[Select_CString(ROOT.Char.IsFemale, 'a sama', 'i sam' )] od kiedy... od kiedy to się stało”.\n\nNie mówi tego, ale wiem, że odnosi się do czasu, kiedy [bad_memory.GetDescription].\n\n„Może potrzebujesz kogoś, z kim możesz porozmawiać? Tym kimś [Select_CString(concerned_friend.IsFemale, 'mogłabym', 'mógłbym' )] bym być ja” – kontynuuje łagodnie."
  bp1_yearly.7004.a: "Brzmi nieźle."
  bp1_yearly.7004.b: "Moje kłopoty są mymi własnymi."
  bp1_yearly.7005.t: ""

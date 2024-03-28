@@ -66,7 +66,7 @@
  THEY_ARE_NOT_INVOLVED_IN_FP3_STRUGGLE: ""
  fp3_request_turkic_invasion_interaction: "Poproś o interwencję zbrojną"
  fp3_request_turkic_invasion_interaction_desc: "Poszukaj pomocy u tureckiego watażki, aby zaatakować i zdestabilizować tego władcę"
- fp3_request_turkic_invasion_interaction_negative_gold_offer: ""
+ fp3_request_turkic_invasion_interaction_negative_gold_offer: "Odbiorca ma już więcej żołnierzy niż cel, nie możesz zaoferować proporcjonalnie ujemnej sumy [Concept( 'gold', 'złota' )|E]!\n"
  recipient_secondary_fp3_request_turkic_invasion_interaction: "@trebuchet_icon! Najeźdźca"
  fp3_request_turkic_invasion_interaction_option_join_war: "@alliance_icon! Zapewnij wsparcie wojskowe"
  fp3_request_turkic_invasion_interaction_option_join_war_desc: ""
