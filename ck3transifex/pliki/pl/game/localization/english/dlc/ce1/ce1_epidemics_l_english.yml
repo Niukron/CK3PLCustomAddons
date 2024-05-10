@@ -69,7 +69,7 @@
  epidemic_terrain_fever: ""
  epidemic_culture_sweats: "$epidemic_culture_loc$ zaraza potów"
  epidemic_devils_fever: ""
- epidemic_camp_fever: "Gorączka obozowa"
+ epidemic_camp_fever: "Gorączka polowa"
  epidemic_famine_fever: "Gorączka głodowa"
  epidemic_spotted_fever: "Gorączka plamista"
  epidemic_curse_of_canaan: "Klątwa Kanaanu"

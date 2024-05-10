@@ -1,6 +1,6 @@
 ﻿l_english:
  SELECT_CHARACTER_ON_MAP: "Choose a Character on the Map."
- PICK_ANY_CHARACTER: "Play as any Ruler in #light_background;bold [GameSetup.GetSelectedBookmark.GetDate.GetYear]#!, or #bold create your own!#!"
+ PICK_ANY_CHARACTER: "Play as any Ruler in #bold [GameSetup.GetSelectedBookmark.GetDate.GetYear]#!, or #bold create your own!#!"
  BOOKMARK_DISABLED: "This Bookmark is disabled"
  BOOKMARK_NOT_PICKED_CHARACTER: "Choose a Character in the Bookmark before starting the game. Or, choose freely by clicking 'Choose any Character'."
  SINGLEPLAYER: "Single Player"

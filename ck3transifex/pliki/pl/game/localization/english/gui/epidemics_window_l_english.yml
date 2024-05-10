@@ -7,7 +7,7 @@
  EPIDEMIC_OUTBREAK_LOCATION: "Wybuch zarazy na terenie [Epidemic.GetStartingOutbreakProvince.GetTitle.GetAdjective]"
  EPIDEMIC_TOTAL_DEATH_TOLL: "[Concept( 'fatalities', '$game_concept_fatalities$' )|E]: @death_icon! [Epidemic.GetTotalCharacterDeaths|V]"
  EPIDEMICS_IN_OWN_REALM: "[epidemics|E] w państwie"
- EPIDEMICS_IN_OWN_REALM_EMPTY: "W twoim państwie nie ma [Concept( 'epidemics', epidemii' )|E]"
+ EPIDEMICS_IN_OWN_REALM_EMPTY: "W twoim państwie nie ma żadnej [Concept( 'epidemics', 'zarazy' )|E]"
  EPIDEMICS_NEARBY: "Pobliskie [epidemics|El]"
  EPIDEMICS_NEARBY_EMPTY: "W pobliskich państwach nie ma [Concept( 'epidemics', 'zaraz' )|E]."
  EPIDEMICS_REST_OF_WORLD: "[epidemics|E] na świecie"
