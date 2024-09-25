@@ -72,7 +72,7 @@
 
 
  relation_upgrade.1002.t:0 "$relation_upgrade.1001.t$: Anywhere But Here"
- relation_upgrade.1002.desc:0 "I have been stuck at this torturous party (that [terrible_party_host.GetFirstName] has more or less totally failed to throw) for what feels like #EMP hours#!, limply waving at everyone who wanders past.\n\nThe thought of throwing myself from this balcony is starting to gain appeal, when I feel a tap on my shoulder.\n\n"Excuse me, [potential_friend.GetFirstNameNoTooltip]?", says [party_root.GetTitledFirstName], "do you fancy a walk away from here?""
+ relation_upgrade.1002.desc:0 "I have been stuck at this torturous party (that [terrible_party_host.GetFirstName] has more or less totally failed to throw) for what feels like #EMP hours#!, limply waving at everyone who wanders past.\n\nThe thought of throwing myself from this balcony is starting to gain appeal, when I feel a tap on my shoulder.\n\n"Excuse me, [potential_friend.GetFirstNameNoTooltip]?" says [party_root.GetTitledFirstName], "do you fancy a walk away from here?""
  relation_upgrade.1002.a:0 "[ROOT.GetCharacter.GetFaith.HighGodName], yes, anywhere but here!"
  relation_upgrade.1002.a.tt:0 "[potential_friend.GetFirstNameNoTooltip] accepts your offer"
  relation_upgrade.1002.b:0 "Ehm, thank you, but no thank you."

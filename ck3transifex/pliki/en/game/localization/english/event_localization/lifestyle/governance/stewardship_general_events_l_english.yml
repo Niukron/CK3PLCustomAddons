@@ -64,7 +64,7 @@
  stewardship_general.5013.desc: "As I stroll through the gardens, I notice my [ROOT.GetCharacter.Custom2('RelationToMe', SCOPE.sC('carp_food'))] [carp_food.GetTitledFirstName] sitting on a rock by the carp pond. Leaning down over the edge, [carp_food.GetSheHe] trails [carp_food.GetHerHis] fingers through the water. A shadow stirs beneath the surface..."
  stewardship_general.5013.a: "[carp_food.GetFirstNameNoTooltip], step back! Step back from... NOOO!"
  stewardship_general.5041.t: "Rogue Servant"
- stewardship_general.5041.desc: "A lowly [ROOT.GetCharacter.Custom('lowly_servant_type')] has been stealing from my household!"
+ stewardship_general.5041.desc: "A lowly [ROOT.GetCharacter.Custom('lowly_servant_type')] has been stealing from my [ROOT.Char.Custom('GetCourt')]!"
  stewardship_general.5041.desc_highgod: "The [servant_character.GetWomanMan] cowers before me, sniveling about hungry children and mercy in the name of [ROOT.Char.GetFaith.HouseholdGodName]."
  stewardship_general.5041.desc_other: "The [servant_character.GetWomanMan] cowers before me, sniveling about hungry children and pleading for mercy."
  stewardship_general.5041.desc_ending: "\n\n\"Please my [ROOT.Char.GetLadyLord], I will do anything you ask!\""

@@ -113,7 +113,7 @@
  diplomacy_foreign_special.1025.a: "Pah! I'll let [foreign_guest.GetHerHim] think [foreign_guest.GetSheHe] stands a chance."
  diplomacy_foreign_special.1025.b: "Traitors! The both of you!"
  diplomacy_foreign_special.1026.t: "$diplomacy_foreign_special.1017.t$: Deception And Desire"
- diplomacy_foreign_special.1026.desc: "As the lewd suggestion passes [foreign_guest.GetTitledFirstNamePossessive] lips, I am not sure whether I am furious about [foreign_guest.GetHerHis] utter lack of decency, or impressed by [foreign_guest.GetHerHis] gall. Seducing my [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('interesting_relation') )] under my very roof!  I lean back against the cool wall of the hidden passage, trying to rein in the storm of emotion."
+ diplomacy_foreign_special.1026.desc: "As the lewd suggestion passes [foreign_guest.GetTitledFirstNamePossessive] lips, I am not sure whether I am furious about [foreign_guest.GetHerHis] utter lack of decency, or impressed by [foreign_guest.GetHerHis] gall. Seducing my [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('interesting_relation') )] under my very roof! I lean back against the cool wall of the hidden passage, trying to rein in the storm of emotion."
  diplomacy_foreign_special.1026.a.tt: "You will know of their [secret|E]"
  diplomacy_foreign_special.1026.a: "Let them have their fun, what do I care."
  diplomacy_foreign_special.1026.b: "Get your filthy hands away from [interesting_relation.GetHerHim], [foreign_guest.Custom('InsultNoun')]!"

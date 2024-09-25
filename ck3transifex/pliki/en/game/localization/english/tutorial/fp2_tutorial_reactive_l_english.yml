@@ -5,6 +5,7 @@
  action_reactive_advice_struggle_click: "$click_to_open_lesson$"
  lessons_struggle_introduction: "Struggles"
  lessons_struggle_introduction_desc: "You are now part of a [struggle|E]!\n\n[struggle_struggles|E] are prolonged conflicts within a [region|E] where the actions of all participants will change the state of the area, establishing different [struggle_phase_phases|E]. The changes in the state of the region will come with effects to [war|E], [faith|E] and [culture|E].\n\nUltimately, all participants compete to be the one to decide how the [struggle|E] ends, affecting all participants in the region."
+ reactive_advice_struggle_introduction: "$lessons_struggle_introduction$"
  lessons_struggle_region_open: "Struggle Region"
  lessons_struggle_region_open_desc: "The [struggle_region|E] is marked within a new border which highlights if you hover over the Struggle button. Only characters owning land in the region participate in the [struggle|E].\n\n#TUT [characters|E] outside the region can join a [struggle|E] by acquiring lands within the [struggle_region|E] and moving their [capital|E] into the area.#!"
  lessons_struggle_view_open: "Accessing the Struggle View"

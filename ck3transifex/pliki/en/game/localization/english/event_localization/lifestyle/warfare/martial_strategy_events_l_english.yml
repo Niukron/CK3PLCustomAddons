@@ -1,6 +1,6 @@
 ﻿l_english:
  martial_strategy.1051.t: "General Gossip"
- martial_strategy.1051.desc: "The most popular topic of conversation in court is ever-changing, but one recent trend has been the discussion of my notable skill as a military commander — and what the secret to my success is.\n\nI can use this natural curiosity to bolster my reputation, but first I must decide what to attribute my success to..."
+ martial_strategy.1051.desc: "The most popular topic of conversation in [ROOT.Char.Custom('GetCourt')] is ever-changing, but one recent trend has been the discussion of my notable skill as a military commander — and what the secret to my success is.\n\nI can use this natural curiosity to bolster my reputation, but first I must decide what to attribute my success to..."
  martial_strategy.1051.a: "I have a natural talent that sets me above the rest."
  martial_strategy.1051.a.humble: "Knowing my limits means I can work around them."
  martial_strategy.1051.b.brave: "My courage inspires my troops to stand and fight."
@@ -199,8 +199,8 @@
  martial_strategy_special.1404.a.tt: "#EMP My#! soldiers need to follow #EMP my#! orders."
  martial_strategy_special.1404.b: "What is this shoddy stance? That is no way to hold a sword!"
  martial_strategy_special.1404.b.tt: "No wonder they got lost — these troops need discipline!"
- martial_strategy_special.1404.c: "Take the men home, [knight.GetFirstName]. I am tired of searching."
- martial_strategy_special.1404.d: "[soldier_friend.GetTitledFirstName] can take charge of these troops."
+ martial_strategy_special.1404.c: "Take the men home, [knight.GetFirstNameNoTooltip]. I am tired of searching."
+ martial_strategy_special.1404.d: "[soldier_friend.GetTitledFirstNameNoTooltip] can take charge of these troops."
  martial_strategy_special.1404.d.tt: "[soldier_friend.GetSheHe|U] will get them safely to the castle."
  martial_strategy_special.1405.t: "On the March"
  martial_strategy_special.1405.desc: "As I am passing through a small village I notice that, though clad in simple cloth, the town's guards are all carrying weapons with my mark on them!\n\nWelcoming me in the muddy street was [zealot.GetTitledFirstName], the self-proclaimed \"divine guardian\" of the town. My soldiers laid down their armor to help this preaches serve [zealot.GetFaith.HighGodName]!"

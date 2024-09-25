@@ -1,5 +1,10 @@
 ﻿l_english:
+ DECISIONS_VIEW_TITLE_CONTAINER: "[SelectLocalization( Or( IsAdministrativeRuler( Character ), IsLandlessAdventurer( Character ) ), 'DECISIONS_AND_CONTRACTS_VIEW_TITLE', 'DECISIONS_VIEW_TITLE' )]"
  DECISIONS_VIEW_TITLE: "Decisions"
+ DECISIONS_AND_CONTRACTS_VIEW_TITLE: "Decisions & [GetPlayer.Custom('GetContractOrIssuePlural')]"
+ DECISIONS_VIEW_DECISION_TAB_TITLE: "Decisions"
+ DECISIONS_VIEW_CONTRACTS_TAB_TITLE: "[GetPlayer.Custom('GetContractOrIssuePlural')]"
+ DECISIONS_VIEW_GROUP_HEADER: "$NAME$ #weak ($SIZE$)#!"
  MY_LIFESTYLE_TITLE: "My Lifestyle Focus"
  MY_EDUCATION_TITLE: "My Education Focus"
  CHOOSE_LIFESTYLE: "Choose a Lifestyle Focus"
@@ -16,6 +21,7 @@
  DECISIONS_VIEW_LEAVE_COUNCIL: "Resign"
  DECISIONS_VIEW_LEAVE_COUNCIL_TT: "#T Resign from Council#!\nResign from the position of [GetPlayer.GetCouncilTitle], relinquishing any benefits of the position"
  DECISIONS_VIEW_MAJOR_NOT_AVAILABLE: "No major decisions available"
+ DECISIONS_VIEW_ONGOING_CONTRACTS: "Ongoing [GetPlayer.Custom('GetContractOrIssuePlural')]"
  LEAVE_COUNCIL_CONFIRMATION_TITLE: "Leave the Council"
  LEAVE_COUNCIL_CONFIRMATION: "Will no longer receive the benefits of being [CHARACTER.GetCouncilTitle] on the [council|E] of [CHARACTER.GetLiege.GetUIName]."
  LEAVE_COUNCIL_CONFIRMATION_ACCEPT: "Leave"

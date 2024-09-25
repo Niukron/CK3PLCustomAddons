@@ -56,7 +56,7 @@
  feast_events_ewan.0401.a.tt.success: "You charm [intent_target.GetHerHim] utterly"
  feast_events_ewan.0401.a.tt.partial_success: "[intent_target.GetSheHe|U]'d like to talk more"
  feast_events_ewan.0401.a.tt.failure: "You're fun, but not that fun"
- feast_events_ewan.0401.b: "\"You... #EMP do#! realise that this is my feast, yes?\""
+ feast_events_ewan.0401.b: "\"You... #EMP do#! realize that this is my feast, yes?\""
  feast_events_ewan.0401.c: "\"Loudly sing the meal's praises.\""
  feast_events_ewan.0401.d: "Switch the subject to something less contentious."
  feast_events_ewan.0601.t: "A Mere Jest"

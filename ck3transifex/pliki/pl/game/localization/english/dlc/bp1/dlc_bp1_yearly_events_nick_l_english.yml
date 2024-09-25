@@ -60,7 +60,7 @@
  bp1_yearly.5702.martial: ""
  bp1_yearly.5702.stewardship: ""
  bp1_yearly.5702.intrigue: ""
- bp1_yearly.5702.learning: "[skilful_friend.GetHerHis|U] umysł jako uczone[Select_CString(skilful_friend.IsFemale, 'j', 'go' )] jest naprawdę niezmierny i mało kto może się z [Select_CString(skilful_friend.IsFemale, 'nią', 'nim' )] równać. [skilful_friend.GetHerHis|U] zrozumienie spraw filozoficznych i teologicznych pozwala [skilful_friend.GetHerHim] dyskutować na równi z najświętszymi i najmądrzejszymi przywódcami religijnymi. Nie widział[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] jeszcze, by kiedykolwiek zawi[Select_CString(skilful_friend.IsFemale, 'odła', 'ódł' )] w obliczu problemu wymagającego umysłu. Nawet teraz słyszę [Select_CString(skilful_friend.IsFemale, 'ją', 'go' )] na korytarzu, jak wypowiada się na jakiś niejasny temat z wprawą i łatwością mistr[Select_CString(skilful_friend.IsFemale, 'zyni', 'a' )] rzemisła z kilkudziesięcioletnim doświadczeniem."
+ bp1_yearly.5702.learning: ""
  bp1_yearly.5702.prowess: ""
  bp1_yearly.5702.fallback: "FALLBACK"
  bp1_yearly.5702.ending: "\n\nMoże mógłbym poprosić [Select_CString(skilful_friend.IsFemale, 'ją', 'go' )], żeby dał[Select_CString(skilful_friend.IsFemale, 'a', '' )] mi jakieś wskazówki i porady z tej dziedziny?"

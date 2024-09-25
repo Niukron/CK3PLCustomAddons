@@ -16,7 +16,7 @@
  travel_danger_events.1002.a.failure: "Nie przekonujesz bandytów"
  travel_danger_events.1002.a.failure.desc: "Płacisz bandytom, by pozwolili ci przejść."
  travel_danger_events.1002.b: "„Nie poddam się tak łatwo. #EMP Do boju!#!”"
- travel_danger_events.1002.b.success: "„Pokonujesz bandytów"
+ travel_danger_events.1002.b.success: ""
  travel_danger_events.1002.b.success.desc: "$travel_danger_events.1002.a.success.desc$"
  travel_danger_events.1002.b.failure: "Bandyci cię pokonują"
  travel_danger_events.1002.b.failure.desc: "$travel_danger_events.1002.a.failure.desc$"

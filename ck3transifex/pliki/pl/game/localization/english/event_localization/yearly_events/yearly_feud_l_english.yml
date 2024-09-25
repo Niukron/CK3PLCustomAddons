@@ -1,6 +1,6 @@
 ﻿l_english:
  bp1_yearly.6000.t: "Za grzechy [Select_CString(my_rival.IsFemale, 'matki', 'ojca' )]"
- bp1_yearly.6000.desc: "Gwar mojego dziedzińca przecina głośny krzyk.\n\n„Znienawidzon[Select_CString(ROOT.Char.IsFemale, 'a', 'y' )] [ROOT.Char.Custom('InsultNounVocative')|U]! [Select_CString(my_rival.IsFemale, 'Moją matką jest', 'Moim ojcem jest' )] [my_rival.GetTitledFirstName]. Nadszedł czas, abyś odpowiedział[Select_CString(ROOT.Char.IsFemale, 'a', '' )] za swoje nikczemne występki.\nZmierz się ze mną, albo świat dowie się, że nie jesteś skłonn[Select_CString(ROOT.Char.IsFemale, 'a', 'y' )] bronić własnego honoru!”\n\nGdy się odwracam, dostrzegam płonące oczy [Select_CString(rivals_child.IsFemale, 'kobiety trawionej', 'mężczyzny trawionego' )] pragnieniem obrony honoru [Select_CString(my_rival.IsFemale, 'swojej matki', 'swojego ojca' )].\n\nMoi strażnicy wciąż są w pobliżu - wystarczy jeden rozkaz, by [Select_CString(rivals_child.IsFemale, 'ta choleryczka została wyrzucona', 'ten choleryk został wyrzucony' )] za bramę. Niech uświadomi sobie swoją bezsilność i upokorzenie"
+ bp1_yearly.6000.desc: ""
  bp1_yearly.6000.a: "Spieram się z [Select_CString(my_rival.IsFemale, 'twoją matką', 'twoim ojcem' )], nie z tobą."
  bp1_yearly.6000.b: "Przyjmuję wyzwanie!"
  bp1_yearly.6000.c: "Straże! Zabierzcie stąd tego #EMP bachora#!."

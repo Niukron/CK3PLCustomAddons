@@ -16,7 +16,7 @@
  travel_danger_events.1002.a.failure: "You do not persuade the bandits"
  travel_danger_events.1002.a.failure.desc: "You pay the bandits off to allow your passage."
  travel_danger_events.1002.b: "\"I'll not give in so easily. #EMP To battle!#!\""
- travel_danger_events.1002.b.success: "\"You beat the bandits"
+ travel_danger_events.1002.b.success: "You beat the bandits"
  travel_danger_events.1002.b.success.desc: "$travel_danger_events.1002.a.success.desc$"
  travel_danger_events.1002.b.failure: "The bandits beat you"
  travel_danger_events.1002.b.failure.desc: "$travel_danger_events.1002.a.failure.desc$"

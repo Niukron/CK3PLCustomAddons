@@ -89,6 +89,8 @@
  west_christian_war_god_name_possessive: "St. George's"
  west_christian_water_god_name: "St. Nicholas"
  west_christian_water_god_name_possessive: "St. Nicholas'"
+ west_christian_fallback_god_name: "$christianity_health_god_name$"
+ generic_religious_figure_fallback_name: "[ROOT.Char.GetFaith.HighGodName]"
  cathar: "Catharism"
  cathar_adj: "Cathar"
  cathar_adherent: "Cathar"

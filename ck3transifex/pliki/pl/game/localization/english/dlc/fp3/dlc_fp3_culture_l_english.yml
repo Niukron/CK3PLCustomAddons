@@ -9,7 +9,6 @@
  tawashi_flavor: "#F Ta elastyczna kawaleria polega na mieczu, włóczni i łuku, aby bronić swojej górskiej ojczyzny przed obcymi.#!"
  master_assassin_court_position: "Mistrz asasynów"
  master_assassin_court_position_desc: "Związany wiarą lub kredem, mistrz asasynów pomaga swojemu władcy w niekonwencjonalnym podejściu do działań wojennych, szpiegostwa, zastraszania i morderstw."
- master_assassin_employer_custom_effect_description: ""
  has_no_particular_noble_roots_trigger: "Jest [lowborn|El] lub z mało znaczącej [Concept( 'dynasty', 'dynastii' )|E]"
  court_scholar_court_position: "Nadworny uczony"
  court_scholar_court_position_desc: "Reprezentując intelektualną elitę twojego państwa, nadworny uczony pomaga odkrywać przyszłe [innovations|E]."

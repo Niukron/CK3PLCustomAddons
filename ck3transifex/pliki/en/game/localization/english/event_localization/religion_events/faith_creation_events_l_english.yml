@@ -42,4 +42,4 @@
  faith_creation.1010.desc.end.personal: "\n\nWith the faithful finally unified behind me, I will lead [faith.GetNameNoTooltip] into a new golden age!"
  faith_creation.1010.a: "Glory to [faith.HighGodName]!"
  faith_creation.1011.message.title: "Religious Head Established"
- faith_creation.1011.message.desc: "Previously leaderless, the [faith.GetAdjective] [faith.AltPriestTermPlural] have made [HoF.GetFirstName] their new [faith.ReligiousHeadName]"
+ faith_creation.1011.message.desc: "The [faith.GetAdjective] [faith.AltPriestTermPlural] have proclaimed [faith.ReligiousHeadName|U] [HoF.GetFirstName] their [head_of_faith|E]"

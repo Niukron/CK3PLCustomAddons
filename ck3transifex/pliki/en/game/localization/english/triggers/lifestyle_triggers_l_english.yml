@@ -15,5 +15,5 @@
  NOT_HAS_PERK_TRIGGER: "Does #bold not#! have the [PERK.GetName(CHARACTER.Self)] [perk|E]"
  I_HAVE_PERK_TRIGGER: "You have the [PERK.GetName(CHARACTER.Self)] [perk|E]"
  NOT_I_HAVE_PERK_TRIGGER: "You do #bold not#! have the [PERK.GetName(CHARACTER.Self)] [perk|E]"
- THEY_HAVE_PERK_TRIGGER: "[CHARACTER.GetShortUIName|V] have the [PERK.GetName(CHARACTER.Self)] [perk|E]"
- NOT_THEY_HAVE_PERK_TRIGGER: "[CHARACTER.GetShortUIName|V] does #bold not#! have the [PERK.GetName(CHARACTER.Self)] [perk|E]"
+ THEY_HAVE_PERK_TRIGGER: "[CHARACTER.GetShortUIName|VU] have the [PERK.GetName(CHARACTER.Self)] [perk|E]"
+ NOT_THEY_HAVE_PERK_TRIGGER: "[CHARACTER.GetShortUIName|VU] does #bold not#! have the [PERK.GetName(CHARACTER.Self)] [perk|E]"

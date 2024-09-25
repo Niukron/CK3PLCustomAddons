@@ -129,5 +129,5 @@
  befriend_outcome.6007.a.a: "[target.GetTitledFirstNameNoTooltip] betrayed us!"
  befriend_outcome.6007.a.b: "Perhaps [target.GetSheHe] has a point..."
  befriend_outcome.2007.opening_travel: "Much to my delight, one of [target.GetTitledFirstNamePossessive] couriers has found me here in [current_location.GetName] as my entourage and I make our way toward [next_destination.GetName].\n\n"
- befriend_outcome.2007.opening_no_travel: "Much to my delight, one of [target.GetTitledFirstNamePossessive] couriers has arrived here at my [ROOT.Char.Custom('FortifiedBuilding')] in [ROOT.Char.GetLocation.GetName].\n\n"
+ befriend_outcome.2007.opening_no_travel: "Much to my delight, one of [target.GetTitledFirstNamePossessive] couriers has arrived here at my [ROOT.Char.Custom('FortifiedBuilding')] in [ROOT.Char.GetCurrentLocation.GetName].\n\n"
  befriend_outcome.2007.desc: "[courier.GetSheHe|U] carries good news, for [target.GetFirstNameNoTooltip] wishes to formalize our friendship! I never expected us to grow so close, but [target.GetSheHe] has proven [target.GetHerselfHimself] to be a reliable and forthright [target.GetWomanMan], with only my best interests at heart."

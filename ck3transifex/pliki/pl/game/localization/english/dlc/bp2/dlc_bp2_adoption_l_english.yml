@@ -20,3 +20,6 @@
  we_are_NOT_alike_tt: "Mamy przeciwne [traits|El]: $VALUE|=+0$"
  ambition_tt: "Mam ambicje na więcej: $VALUE|=+0$"
  every_non_content_child: ""
+ adventurer_adopt_interaction: ""
+ adventurer_adopt_interaction_desc: ""
+ adventurer_adoption_child_tt: ""

@@ -23,5 +23,5 @@
  travel_danger_events.9020.hunter: "There's bound to be prey somewhere!"
  travel_danger_events.9020.cannibal: "Oh [emaciated_character.GetFirstNameNoTooltip], would you give your life for [ROOT.Char.GetPrimaryTitle.GetBaseNameNoTierNoTooltip]?"
  emaciated_modifier: "Emaciated"
- emaciated_modifier_desc: "This cahracter has traveled for a long distance without any food at all."
+ emaciated_modifier_desc: "This character has traveled for a long distance without any food at all."
  cannibalicus_maximus: "You and all entourage members will get the Cannibal [secret|E], if you're not already Cannibals"

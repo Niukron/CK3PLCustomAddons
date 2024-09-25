@@ -154,7 +154,7 @@
  playdate.4000.c: "Życzę tego samego losu, [host.GetTitledFirstNameNoTooltip]."
  playdate.4001.t: "Bariera językowa"
  playdate.4001.desc.rowdy: "„Powiedział[Select_CString(participant.IsFemale, 'am', 'em' )] #EMP lalka#!, a nie #EMP walka#!, rany!” — [participant.GetTitledFirstName] jest ewidentnie wzburzon[Select_CString(participant.IsFemale, 'a', 'y' )] naszą barierą językową. Ręce wzniesione do góry malują obraz furii, która niedługo się zacznie."
- playdate.4001.desc.pensive: "„Przepraszam... #EMP chaty#!. Wraca do swojej skromnej chaty, nie za kraty”. Mimo dobrych manier, [participant.GetTitledFirstName] marszczy brwi we frustracji."
+ playdate.4001.desc.pensive: ""
  playdate.4001.desc: "\n\nJęzyk [ROOT.Char.GetCulture.GetLanguage.GetName|l] i język [participant.GetCulture.GetLanguage.GetName|l] wydają się mieć więcej różnic niż podobieństw, stąd nasze zmagania z mówieniem do siebie.\n\nMoże [Select_CString(ROOT.Char.IsFemale, 'mogłabym', 'mógłbym' )] coś zrobić, żebyśmy mogli bawić się razem bez złości, czy po prostu [Select_CString(ROOT.Char.IsFemale, 'powinnam', 'powinienem' )] mieć nadzieję, że problem sam się rozwiąże?"
  playdate.4001.a: "Będę mówić głośno i powoli! To powinno pomóc!"
  playdate.4001.b: "Może poproszę, żeby [participant.GetFirstNameNoTooltip] nauczył[Select_CString(participant.IsFemale, 'a', '' )] mnie nieco swojego języka?"

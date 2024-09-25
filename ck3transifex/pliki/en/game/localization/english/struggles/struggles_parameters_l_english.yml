@@ -45,7 +45,7 @@
  struggle_parameter_learning_languages_gives_prestige: "Learning a new [language|E] provides [prestige_i][prestige|E]"
  struggle_parameter_granting_title_to_local_noble_gives_prestige: "Granting a [title|E] to a local noble provides [prestige_i][prestige|E]"
  prestige_from_granting_title.tt: "Local Noble promoted"
- cultural_acceptance_gain_from_phase_effects: "[county_development|E] increased in  a [county|E] of the [current_culture.GetName] [culture|E]"
+ cultural_acceptance_gain_from_phase_effects: "[county_development|E] increased in a [county|E] of the [current_culture.GetName] [culture|E]"
  struggle_parameter_gain_acceptance_when_developing_other_culture_county: "Increasing the [county_development|E] of a county with a different [culture|E] increases [cultural_acceptance|E]"
  struggle_parameter_struggle_high_impact_on_terrain_danger: "[travel_danger|E] when [traveling|E] within the [struggle_region|E] is increased markedly"
  struggle_parameter_unlocks_claim_throne_for_caliph_vassals: "Unlocks the [GetScheme('claim_throne').GetTypeName] [scheme|E] for [vassals|E] of [GetTitleByKey('e_arabia').Custom('GetIncumbentOrNone')]"

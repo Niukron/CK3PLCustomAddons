@@ -1,7 +1,7 @@
 ﻿l_english:
  bp2_yearly.3000.t: "Ile wart jest dzień nauki?"
  bp2_yearly.3000.desc: "[educator.Custom2('MyCharacterIntroduction', ROOT.Char)|U] wciąż przynudza, po raz enty wykładając mi, jak [Select_CString( ROOT.Char.IsFemale. 'powinna zachowywać się pani', 'jak powinien się zachowywać pan' )] i przeplatając to surowymi cytatami z [educator.GetFaith.CustomLoc('ReligiousTextAdj')]."
- bp2_yearly.3000.desc_no_educator: "Gdy przewracam kolejną stronę, spoglądam ze smutkiem na inne dzieci z dworu bawiące się w ogrodzie. Śmiech, radosne krzyki... Spoglądam na kopię [ROOT.Char.GetFaith.CustomLoc('ReligiousTextAdj')] leżącą na moim biurku."
+ bp2_yearly.3000.desc_no_educator: ""
  bp2_yearly.3000.desc_ending: "\n\nOczywiście, to wszystko jest bardzo ważne dla mojej przyszłości, ale... Czy ktokolwiek zauważyłby, gdybym wymkn[Select_CString(ROOT.Char.IsFemale, 'ęła', 'ął' )] się raz – a może dwa – żeby się pobawić?"
  bp2_yearly.3000.a: "Wiedza jest kluczem do Wszechświata!"
  bp2_yearly.3000.a.tt: "Istnieje szansa, że twoja edukacja przyniesie lepsze rezultaty"

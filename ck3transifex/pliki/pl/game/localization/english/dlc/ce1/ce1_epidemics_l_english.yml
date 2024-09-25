@@ -132,7 +132,7 @@
  epidemic_saint_anthonys_fire: "Ogień świętego Antoniego"
  trait_ergotism: "Święty ogień"
  trait_ergotism_desc: "Ta postać cierpi na bolesne drgawki, bóle głowy, nudności i biegunkę — mimowolne skurcze sprawiają, że wygląda, jakby tańczyła."
- trait_ergotism_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] cierpi na bolesne drgawki, bóle głowy, nudności i biegunkę — mimowolne skurcze sprawiają, że wygląda, jakby tańczył[Select_CString(ROOT.GetCharacter.IsFemale, 'a', '' )]."
+ trait_ergotism_character_desc: ""
  county_epidemic_recovered_tiny_modifier: ""
  county_epidemic_recovered_tiny_modifier_desc: "$county_epidemic_recovered_minor_modifier_desc$"
  county_epidemic_recovered_minor_modifier: "Wyzdrowienie z choroby"

@@ -154,7 +154,7 @@
  playdate.4000.c: "I wish the same fate on [host.GetTitledFirstNameNoTooltip]."
  playdate.4001.t: "The Language Barrier"
  playdate.4001.desc.rowdy: "\"I said #EMP \"doll\"#! not #EMP \"dull!\"#! Gosh!\" [participant.GetTitledFirstName] is obviously agitated by our language barrier. The throwing of hands up in the air paints the picture of a tantrum wanting to start."
- playdate.4001.desc.pensive: "\"Sorry... #EMP Abode#!. She returns to her humble abode, not her bundle abroad.\" Despite [participant.GetHerHis] well manners,  [participant.GetTitledFirstNamePossessive] eyebrows are knitted together in frustration."
+ playdate.4001.desc.pensive: "\"Sorry... #EMP Abode#!. She returns to her humble abode, not her bundle abroad.\" Despite [participant.GetHerHis] well manners, [participant.GetTitledFirstNamePossessive] eyebrows are knitted together in frustration."
  playdate.4001.desc: "\n\n[ROOT.Char.GetCulture.GetLanguage.GetName] and [participant.GetCulture.GetLanguage.GetName] language seem to have more differences than similarities, hence our struggles to speak to each other.\n\nMaybe I could do something so that we can play together without getting angry or should I just hope it resolves by itself?"
  playdate.4001.a: "I'll talk slowly and loudly! That should help!"
  playdate.4001.b: "Maybe I can ask [participant.GetFirstNameNoTooltip] to teach me some [participant.GetCulture.GetLanguage.GetNameNoTooltip]?"

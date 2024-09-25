@@ -157,7 +157,7 @@
  tradition_group_ritual: "Ritual"
  REFORM_CULTURE_LABEL: "Reform [Culture.GetNameNoTooltip]"
  REFORM_CULTURE_TOOLTIP: "[reform|E] [traditions|E], [ethos|E] or [culture_pillars|E] of [Culture.GetName]\n\n[SelectLocalization(Culture.IsReforming, 'REFORM_CULTURE_TOOLTIP_WARNING','')]"
- REFORM_CULTURE_TOOLTIP_WARNING: "@warning_icon! #X  A [reformation|E] is already ongoing."
+ REFORM_CULTURE_TOOLTIP_WARNING: "@warning_icon! #X A [reformation|E] is already ongoing."
  REFORM_CULTURE_CLOSE_LABEL: "Cancel"
  REFORM_CULTURE_CLOSE_TOOLTIP: "Return without doing any reforms"
  REFORM_ETHOS_NEW_NAME: "[Culture.GetReformation.GetNewPillar.GetName]: "

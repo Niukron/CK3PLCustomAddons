@@ -30,7 +30,7 @@
  martial_strategy.7000.desc_opening: "While I am in the midst of drilling my"
  martial_strategy.7000.desc_elephantry: "elephantry"
  martial_strategy.7000.desc_cavalry: "heavy cavalry"
- martial_strategy.7000.desc_middle: " [worried_knight.GetTitledFirstName] approaches me as I sit atop my steed. [worried_knight.GetSheHe|U] avoids my gaze and stares at the ground. After much hesitation, [worried_knight.GetSheHe] speaks up: \n\n\"My [ROOT.Char.GetLadyLord|U], all we ever seem to do with our "
+ martial_strategy.7000.desc_middle: " [worried_knight.GetTitledFirstName] approaches me as I sit atop my steed. [worried_knight.GetSheHe|U] avoids my gaze and stares at the ground. After much hesitation, [worried_knight.GetSheHe] speaks up:\n\n\"My [ROOT.Char.GetLadyLord|U], all we ever seem to do with our"
  martial_strategy.7000.desc_war_elephant: "war elephants"
  martial_strategy.7000.desc_armored_horse: "armored horses"
  martial_strategy.7000.desc_cont: "is charge them directly at the enemy in a straight line. Is it not time we attempted another approach?\""

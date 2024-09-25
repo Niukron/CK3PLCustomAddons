@@ -6,6 +6,8 @@
  interaction_category_diplomacy: "Diplomacy"
  interaction_category_friendly: "Personal"
  interaction_category_clan: "Clan"
+ interaction_category_admin: "Administrative"
+ interaction_category_laamp: "Landless Adventurer"
  interaction_category_hostile: "Hostile"
  interaction_category_vassal: "Vassalage & Court"
  interaction_category_religion: "Religion"

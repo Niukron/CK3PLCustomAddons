@@ -82,5 +82,5 @@
  game_concept_reforge_artifact_desc: "Niektóre [inventory_artifacts|El] mogą zostać przekute i zamienione w [court_artifacts|El].\n\nMusisz posiadać #TOOLTIP:COURT_POSITION_TYPE,antiquarian_court_position antykwariusza#! i zapłacić [gold|El], aby przekuć [artifact|El], choć koszt przekucia starszych artefaktów jest mniejszy.\n\nPodobnie jak w przypadku [Concept( 'repair', 'naprawy' )|E] [Concept( 'artifact', 'artefaktu' )|E], jego [durability|El] zostaje przywrócona.\n\nTylko broń, zbroje, korony i regalia mogą być przekute i zawsze stają się obiektami na postument."
  game_concept_repair_artifact: "Napraw artefakt"
  game_concept_repair: "Napraw"
- game_concept_repair_artifact_desc: "Kiedy [artifact|El] ma niską [durability|El], możesz zdecydować się na jego naprawę.\n\nMusisz posiadać #TOOLTIP:COURT_POSITION_TYPE,antiquarian_court_position antykwariusza#! i zapłacić [gold|El], aby naprawić artefakt.[SelectLocalization( HasDlcFeature( 'court_artifacts' ), 'game_concept_repair_artifact_desc_DLC', '' )]"
+ game_concept_repair_artifact_desc: ""
  game_concept_repair_artifact_desc_DLC: "\n\nMożesz też [Concept( 'reforge', 'przekuć' )|E] artefakt."

@@ -44,3 +44,5 @@
  epidemics_desc: "#T Zarazy#!\nPokazuje rozmieszczenie [Concept( 'epidemics', 'zaraz' )|E] na mapie."
  legends: "@legend_icon! Legendy"
  legends_desc: "#T Legendy#!\nPokazuje rozmieszczenie [Concept( 'legends', 'legend' )|E] na mapie."
+ landless_rulers: ""
+ landless_rulers_desc: ""

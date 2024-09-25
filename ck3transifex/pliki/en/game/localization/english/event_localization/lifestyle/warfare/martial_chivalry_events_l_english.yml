@@ -89,7 +89,7 @@
  martial_chivalry.2015.desc: "I make a desperate last attack, but [challenger.GetFirstName] is quick. [challenger.GetSheHe|U] parries instinctively, but as my attack was unexpected, [challenger.GetSheHe] is not in full control of [challenger.GetHerHis] weapon. Paralyzing pain sears through my arm."
  martial_chivalry.2015.a: "Why did I do that?!"
  martial_chivalry.3000.t: "Undisciplined Recruits"
- martial_chivalry.3000.desc: "Today I am observing [bad_commander.GetTitledFirstName] as [bad_commander.GetSheHe] trains some of [bad_commander.GetHerHis] new levies, but the recruits under [bad_commander.GetHerHis] command resemble a disorganized mob more than an army.\n\nI look on as [bad_commander.GetSheHe] struggles to gain control of the situation, clearly pushed to [bad_commander.GetHerHis] limits."
+ martial_chivalry.3000.desc: "Today I am observing [bad_commander.GetTitledFirstName] as [bad_commander.GetSheHe] trains some of [bad_commander.GetHerHis] new recruits, but under [bad_commander.GetHerHis] command they resemble a disorganized mob more than an army.\n\nI look on as [bad_commander.GetSheHe] struggles to gain control of the situation, clearly pushed to [bad_commander.GetHerHis] limits."
  martial_chivalry.3000.desc.callous: " This display of ineptitude is an embarrassment to the [ROOT.Char.GetPrimaryTitle.GetName] and cannot be tolerated!"
  martial_chivalry.3000.desc.compassionate: " Having been in that situation, I know how difficult it is to work with untrained soldiers."
  martial_chivalry.3000.desc.fallback: " While it's never easy to train new soldiers, [bad_commander.GetSheHe] seriously needs to do better than this."

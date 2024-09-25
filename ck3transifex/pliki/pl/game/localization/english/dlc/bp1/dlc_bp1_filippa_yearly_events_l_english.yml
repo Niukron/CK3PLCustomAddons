@@ -52,7 +52,7 @@
  bp1_yearly.2023.c: ""
  bp1_yearly.2023.c_imprisoned_dead: ""
  bp1_yearly.2030.t: "Co ma zrobić [bp1_yearly_2030_mopey_consort.Custom('GirlBoy')|l]"
- bp1_yearly.2030.desc: "Gdy wchodzę do pomieszczenia, zauważam, że [ROOT.Char.Custom2('MySheHe', bp1_yearly_2030_mopey_consort )] [ROOT.Char.Custom2('RelationToMeShort', bp1_yearly_2030_mopey_consort )] [bp1_yearly_2030_mopey_consort.GetTitledFirstName] wydaje się [Select_CString( bp1_yearly_2030_mopey_consort.IsFemale, 'zdystansowana i nieobecna', 'zdystansowany i nieobecny' )]. Podchodzę do [Select_CString( bp1_yearly_2030_mopey_consort.IsFemale, 'niej i kładę rękę na jej', 'niego i kładę rękę na jego' )] ramieniu. „Co się stało?” – pytam.\n\nPatrzy na mnie przez chwilę, po czym ciężko wzdycha. „To miejsce jest takie... niedostatecznie stymulujące”.\n\nWzrusza ramionami: „Po prostu nie wiem, co mam ze sobą zrobić”."
+ bp1_yearly.2030.desc: ""
  bp1_yearly.2030.a: "Może powin[Select_CString( bp1_yearly_2030_mopey_consort.IsFemale, 'naś', 'ieneś' )] się trochę uspołecznić?"
  bp1_yearly.2030.a_tt_paranoia: ""
  bp1_yearly.2030.a_tt_gregarious: "Z pewnością się uda."

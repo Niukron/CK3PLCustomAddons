@@ -40,3 +40,5 @@
  siege.1007.pow_toast.t: "$siege.1005.pow_toast.t$"
  siege.1007.pow_toast.desc: "[occupant.GetTitledFirstName] took [valuable_prisoner.Custom2('NamePossessiveCharacterIntroduction', primary_siege_defender)] prisoner after the Siege of [barony.GetNameNoTier]"
  siege.1007.pow_toast.desc.primary: "[occupant.GetTitledFirstName] took my foe [valuable_prisoner.GetTitledFirstName] prisoner after the Siege of [barony.GetNameNoTier]"
+ war_siege: "siege"
+ war_raid: "raid"

@@ -1,5 +1,6 @@
 ﻿l_english:
  imprisoned_me: "In Prison"
+ imprisoned_me_dungeon: "$imprisoned_me$"
  imprisoned_me_past: "Imprisoned Me"
  imprisoned_close_relative: "Imprisoned Close Relative"
  released_from_prison: "Released from Prison"
@@ -12,3 +13,4 @@
  attempted_murder_opinion: "Attempted Murder"
  escaped_from_prison_opinion: "Escaped Prison"
  escaped_from_prison_crime: "Escaped Prison"
+ tried_to_escape_from_prison_opinion: "Tried to Escape from Prison"

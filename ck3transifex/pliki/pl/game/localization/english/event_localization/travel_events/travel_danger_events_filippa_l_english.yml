@@ -31,7 +31,7 @@
  travel_danger_events.4010.b.cured.desc: "Całkowicie wyzdrowiał[Select_CString(ill_character.IsFemale, 'a', '' )]"
  travel_danger_events.4010.b.worsened.t: "Pogorszenie stanu"
  travel_danger_events.4010.b.worsened.desc: "[ill_character.GetHerHis|U] stan się pogarsza"
- travel_danger_events.4010.c: "[medicine_person.GetTitledFirstName|U], możesz [Select_CString(ill_character.IsFemale, 'ją', 'go' )] wyleczyć?"
+ travel_danger_events.4010.c: ""
  travel_danger_events.4010.d: "Cóż, mam właśnie #EMP coś takiego...#!"
  travel_danger_events.4010.d.flavor: "Okazja, by pozbyć się [Select_CString(ill_character.IsFemale, 'jej', 'go' )] na dobre!"
  travel_danger_events.4010.d.poisoned.t: "Śmierć"

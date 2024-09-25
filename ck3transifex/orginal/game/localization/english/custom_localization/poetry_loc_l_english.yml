@@ -56,10 +56,10 @@
  generatepoem_title_incompetence_05:0 "[ROOT.Char.Custom('GeneratePoem_Title_Fragment_Verb')] all over [ROOT.Var('poem_subject').Char.GetPrimaryTitle.GetNameNoTierNoTooltip]"
 
  
- generatepoem_title_spring:0 "Spring"
- generatepoem_title_summer:0 "Summer"
- generatepoem_title_autumn:0 "Autumn"
- generatepoem_title_winter:0 "Winter"
+ generatepoem_title_spring:0 "spring"
+ generatepoem_title_summer:0 "summer"
+ generatepoem_title_autumn:0 "autumn"
+ generatepoem_title_winter:0 "winter"
  
  generatepoem_title_love:0 "Love"
  generatepoem_title_passion:0 "Passion"

@@ -594,8 +594,8 @@
  west_african_roog_afterlife_3:0 "$west_african_roog_afterlife$" 
  roog_sene_creator_god_name:0 "$west_african_roog_high_god_name$"
  roog_sene_creator_god_name_possessive:0 "$west_african_roog_high_god_name_possessive$"
- roog_sene_health_god_name:0 "the pangool"
- roog_sene_health_god_name_possessive:0 "the pangool's"
+ roog_sene_health_god_name:0 "the Pangool"
+ roog_sene_health_god_name_possessive:0 "the Pangool's"
  roog_sene_fertility_god_name:0 "$roog_sene_health_god_name$"
  roog_sene_fertility_god_name_possessive:0 "$roog_sene_health_god_name_possessive$"
  roog_sene_wealth_god_name:0 "Tiurakh"
@@ -1354,7 +1354,7 @@
  basque_pagan_old_adherent_plural:0 "Old $basque_pagan_adherent_plural$"
 
  basque_high_god_name:0 "Mari"
- ## The euphemistic nickname "Red Skirt", with red being a colour frequently ascribed to magical creatures and items in certain versions of Basque mythology.
+ ## The euphemistic nickname "Red Skirt", with red being a color frequently ascribed to magical creatures and items in certain versions of Basque mythology.
  basque_high_god_name_2:0 "Ionagorri"
  basque_high_god_name_possessive:0 "Mari's"
  basque_high_god_name_alternate:0 "$basque_high_god_name$"

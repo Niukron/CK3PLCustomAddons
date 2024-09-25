@@ -29,7 +29,7 @@
  bp1_yearly.4010.c_effect: "[child_to_change_guardian.GetFirstName] znacząco zwiększa swoją [Concept( 'education', 'edukację' )|E]"
  bp1_yearly.4020.t: "Poetycka przyjaźń"
  bp1_yearly.4020.desc: "„[ROOT.Char.GetFirstNameNoTooltip], [Select_CString(ROOT.Char.IsFemale, 'moja droga przyjaciółko', 'mój drogi przyjacielu' )], po raz kolejny przypomniało mi się jak [war_memory_participant.GetTitledFirstName] uciekał[Select_CString(war_memory_participant.IsFemale, 'a', '' )] w popłochu po twoim zwycięstwem nad [Select_CString(war_memory_participant.IsFemale, 'nią', 'nim' )] — postanowił[Select_CString(poetry_friend.IsFemale, 'am', 'em' )] więc napisać wiersz o twoim triumfie!” — mówi [poetry_friend.GetFirstName], chrząkając:\n\n[poetry_artifact.GetName]\n[poetry_artifact.GetDesc]"
- bp1_yearly.4020.a: "Wystawię go na moim dworze!"
+ bp1_yearly.4020.a: ""
  bp1_yearly.4020.b: "Dziękuję, [Select_CString(poetry_friend.IsFemale, 'moja przyjaciółko', 'mój przyjacielu' )]. Będę cenić ten wiersz."
  bp1_yearly.4020.c: "Ha! Wyślę kopię do każdego, kogo zna [war_memory_participant.GetFirstNameNoTooltip]!"
  bp1_yearly.4020.d: "To zbyt wiele, tylko [ROOT.Char.GetFaith.HighGodName] zasługuje na taką pochwałę."

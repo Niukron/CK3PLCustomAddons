@@ -64,6 +64,7 @@
  clan_unity_ransom_self_fail.desc: ""
  clan_unity_abelarding.desc: ""
  clan_unity_blinding.desc: ""
+ clan_unity_maimed.desc: ""
  clan_unity_ward_offerage.desc: ""
  clan_unity_ward_decline.desc: ""
  clan_unity_guardianship.desc: ""
@@ -222,3 +223,4 @@
  clan_unity_become_lover.desc: ""
  clan_unity_become_soulmate.desc: ""
  clan_unity_caliph_interfered_with_unity.desc: ""
+ clan_unity_seize_realm_attempted.desc: ""
