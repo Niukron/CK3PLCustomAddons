@@ -84,12 +84,12 @@
  expensive_drink_kosher_wine_genitive:0 "win koszernych"
  expensive_drink_premium_tea_genitive:0 "sprowadzanych herbat"
  expensive_drink_invigorating_herbal_infusions_genitive:0 "orzeźwiających naparów ziołowych"
- macedonian_wine_genitive_singular:0 "win macedońskich"
- byzantine_cypriot_genitive_singular:0 "commandarii"
- cretan_muscat_genitive_singular:0 "muszkateli kreteńskich"
- rumney_genitive_singular:0 "rumneyów"
- malvasia_genitive_singular:0 "małmazji"
- retsina_genitive_singular:0 "retsin"
+ macedonian_wine_genitive:0 "win macedońskich"
+ byzantine_cypriot_genitive:0 "commandarii"
+ cretan_muscat_genitive:0 "muszkateli kreteńskich"
+ rumney_genitive:0 "rumneyów"
+ malvasia_genitive:0 "małmazji"
+ retsina_genitive:0 "retsin"
 
  #Typy rezydencji postaci - dopełniacz, miejscownik
  #ResidenceBuildingDop
