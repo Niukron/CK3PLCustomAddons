@@ -7818,3 +7818,9 @@ PL_GetRealmOrDomicileConceptYourLocative = {
 #PL_GetCourtOrOfficerPositionConceptPlural
  officer_positions_pl:0 "[officers|E]"
  COURT_POSITION_PLURAL_pl:0 "$COURT_POSITION_PLURAL$"
+
+ # 1.13.0.3
+PL_GetCourtOrOfficerPositionConceptPlural = {
+	parent = GetCourtOrOfficerPositionConceptPlural
+	suffix = "_pl_y_locative"
+}
