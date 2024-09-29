@@ -97,7 +97,7 @@
  temple_dop:0 "świątyni"
  castle_dop:0 "zamku"
  tent_dop:0 "namiotu"
- estate_dop:0 "dworu"
+ estate_dop:0 "majętności"
  residence_dop:0 "posesji"
 
  #Style życia
@@ -3978,3 +3978,15 @@ game_concept_house_unity_possessive:0 "[Concept( 'house_unity', 'jedności rodu'
  master_of_spoils_camp_officer_pl_tt_gen:0 "#L #TOOLTIP:COURT_POSITION_TYPE,master_of_spoils_camp_officer Skarbnika wojennego#!#!"
  laureate_camp_officer_pl_tt_gen:0 "#L #TOOLTIP:COURT_POSITION_TYPE,laureate_camp_officer Laureata#!#!"
  camp_priest_camp_officer_pl_tt_gen:0 "#L #TOOLTIP:COURT_POSITION_TYPE,camp_priest_camp_officer Kapłana polowego#!#!"
+
+
+#PL_GetRealmOrDomicileConceptYourLocative
+
+ CAMP_pl_y_locative:0 "twoim [Concept( 'camp', 'obozie')|E]"
+ ESTATE_pl_y_locative:0 "twojej [Concept( 'estate', 'majętności')|E]"
+ GOVERNORSHIP_pl_y_locative:0 "twoim [Concept( 'governorship', 'namiestnictwie')|E]"
+ activity_filter_realm_pl_y_locative:0 "twoim [Concept( 'realm', 'państwie')|E]"
+ 
+#PL_GetCourtOrOfficerPositionConceptPlural
+ officer_positions_pl:0 "[officers|E]"
+ COURT_POSITION_PLURAL_pl:0 "$COURT_POSITION_PLURAL$"

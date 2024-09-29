@@ -7807,3 +7807,14 @@ PL_RegionalRootVegetableGenitive = {
 	parent = RegionalRootVegetable
 	suffix = _gen
 }
+
+# 1.13.0.3
+PL_GetRealmOrDomicileConceptYourLocative = {
+	parent = GetRealmOrDomicileConcept
+	suffix = "_pl_y_locative"
+}
+
+# 1.13.0.3
+#PL_GetCourtOrOfficerPositionConceptPlural
+ officer_positions_pl:0 "[officers|E]"
+ COURT_POSITION_PLURAL_pl:0 "$COURT_POSITION_PLURAL$"

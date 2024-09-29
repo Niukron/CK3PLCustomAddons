@@ -285,10 +285,10 @@
  relation_fellow_vassal_female_accusative:0 "współwasalkę"
  relation_fellow_vassal_male_accusative:0 "współwasala"
  relation_ally_accusative:0 "sojusznika"
- relation_follower_female_accusative:0 "zwolenniczkę"
- relation_follower_male_accusative:0 "zwolennika"
- follower_female_accusative:0 "zwolenniczkę"
- follower_male_accusative:0 "zwolennika"
+ relation_follower_female_accusative:0 "kompanke"
+ relation_follower_male_accusative:0 "kompana"
+ follower_female_accusative:0 "kompankę"
+ follower_male_accusative:0 "kompana"
 
 
  #Vocative - RelationToMeVocative - v1.13.0.3
@@ -500,10 +500,10 @@
  relation_fellow_vassal_female_vocative:0 "współwasalko"
  relation_fellow_vassal_male_vocative:0 "współwasalu"
  relation_ally_vocative:0 "sojuszniku"
- relation_follower_female_vocative:0 "zwolenniczko"
- relation_follower_male_vocative:0 "zwolenniku"
- follower_female_vocative:0 "zwolenniczko"
- follower_male_vocative:0 "zwolenniku"
+ relation_follower_female_vocative:0 "kompanko"
+ relation_follower_male_vocative:0 "kompanie"
+ follower_female_vocative:0 "kompanko"
+ follower_male_vocative:0 "kompanie"
 
 
  #Locative - RelationToMeLocative - v1.13.0.3
@@ -715,10 +715,10 @@
  relation_fellow_vassal_female_locative:0 "współwasalce"
  relation_fellow_vassal_male_locative:0 "współwasalu"
  relation_ally_locative:0 "sojuszniku"
- relation_follower_female_locative:0 "zwolenniczce"
- relation_follower_male_locative:0 "zwolenniku"
- follower_female_locative:0 "zwolenniczce"
- follower_male_locative:0 "zwolenniku"
+ relation_follower_female_locative:0 "kompance"
+ relation_follower_male_locative:0 "kompanie"
+ follower_female_locative:0 "kompance"
+ follower_male_locative:0 "kompanie"
 
  #Dative - RelationToMeDative - v1.13.0.3
  relation_motherwife_dative:0 "matce-żonie"
@@ -929,10 +929,10 @@
  relation_fellow_vassal_female_dative:0 "współwasalce"
  relation_fellow_vassal_male_dative:0 "współwasalowi"
  relation_ally_dative:0 "sojusznikowi"
- relation_follower_female_dative:0 "zwolenniczce"
- relation_follower_male_dative:0 "zwolennikowi"
- follower_female_dative:0 "zwolenniczce"
- follower_male_dative:0 "zwolennikowi"
+ relation_follower_female_dative:0 "kompance"
+ relation_follower_male_dative:0 "kompanowi"
+ follower_female_dative:0 "kompance"
+ follower_male_dative:0 "kompanowi"
 
  #Narzednik - RelationToMeInstrumental - v1.13.0.3
  relation_motherwife_instrumental:0 "matką-żoną"
@@ -1143,10 +1143,10 @@
  relation_fellow_vassal_female_instrumental:0 "współwasalką"
  relation_fellow_vassal_male_instrumental:0 "współwasalem"
  relation_ally_instrumental:0 "sojusznikiem"
- relation_follower_female_instrumental:0 "zwolenniczką"
- relation_follower_male_instrumental:0 "zwolennikiem"
- follower_female_instrumental:0 "zwolenniczką"
- follower_male_instrumental:0 "zwolennikiem"
+ relation_follower_female_instrumental:0 "kompanką"
+ relation_follower_male_instrumental:0 "kompanem"
+ follower_female_instrumental:0 "kompanką"
+ follower_male_instrumental:0 "kompanem"
 
  #MySheHe - v1.13.0.3
  relation_motherwife_my:0 "moja"
