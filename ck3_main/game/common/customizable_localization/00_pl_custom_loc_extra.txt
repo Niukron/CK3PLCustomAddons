@@ -7541,7 +7541,7 @@ ReligiousSymbolAdj = {
 				religion_tag = germanic_religion
 			}
 		
-		localization_key = germanic_religious_symbol_adj
+		localization_key = germanic_religious_symbol_adj2
 	}
 	
 	text = {
