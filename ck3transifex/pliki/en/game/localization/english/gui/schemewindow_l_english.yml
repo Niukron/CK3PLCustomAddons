@@ -343,6 +343,7 @@
  SCHEME_YOUTH_MODIFIER: "You are young and eager to learn: $VALUE|+0=$"
  SCHEME_CHAPLAIN_HELP_LEARNING_MODIFIER: "Your [Concept( 'realm_priest', GetPlayer.GetCouncillorPosition( 'councillor_court_chaplain' ).GetPositionNamePossesive )|E] [learning|E]: $VALUE|+0=$"
  SCHEME_KNOWN_LANGUAGES_MODIFIER: "Number of already learned [languages|E]: $VALUE|+0=$"
+ SCHEME_TARGET_TRAIT_AMBITIOUS: "[target.GetShortUIName] is [GetTrait('ambitious').GetName( target.Self )]: $VALUE|+0=$"
  scheme_executes_immediately: "The [scheme|E] executes immediately"
  OPEN_SCHEMES_TAB: "Schemes"
  OPEN_HOOKS_AND_SECRETS_TAB: "Hooks and Secrets"

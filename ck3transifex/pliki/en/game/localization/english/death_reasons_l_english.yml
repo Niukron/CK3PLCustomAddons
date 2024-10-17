@@ -224,6 +224,7 @@
  death_cut_down_by_many_swords: "was cut down by many swords"
  death_flogged_by_censors: "was flogged for their insobriety"
  death_trampled: "was trampled to death"
+ death_trampled_killer: "was trampled to death on [TARGET_CHARACTER.GetUINamePossessive] orders"
  death_lost_in_the_forest: "was lost in the forest and never seen again"
  death_cuteness_overload: "witnessed the ultimate cuteness and passed on"
  death_maimed_by_wild_beast: "was maimed by a wild beast"

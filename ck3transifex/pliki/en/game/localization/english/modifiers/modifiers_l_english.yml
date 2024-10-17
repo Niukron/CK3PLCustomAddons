@@ -204,6 +204,7 @@
  light_cavalry_recruitment_cost_mult: "[light_cavalry|E] Recruitment Cost"
  light_cavalry_max_size_add: "Max Size of [light_cavalry|E] [regiments|E]"
  heavy_infantry_screen_add: "[heavy_infantry|E] [screen|E]"
+ heavy_infantry_screen_mult: "[heavy_infantry|E] [screen|E]"
  pikemen_screen_add: "[spearmen|E] [screen|E]"
  pikemen_damage_add: "[spearmen|E] [damage|E]"
  pikemen_damage_mult: "$pikemen_damage_add$"
