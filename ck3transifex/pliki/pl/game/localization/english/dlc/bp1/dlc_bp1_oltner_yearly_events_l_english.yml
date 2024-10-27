@@ -54,7 +54,7 @@
  bp1_yearly.4030.a.failure: "[marriage_vassal.GetTitledFirstName] uważa, że mówisz kolejne kłamstwa"
  bp1_yearly.4030.b.success: "[marriage_vassal.GetTitledFirstName] dostrzega błąd w swoim postępowaniu"
  bp1_yearly.4030.b.failure: "Bez względu na to, co mówią [ROOT.Char.GetFaith.PriestNeuterPlural|l], [marriage_vassal.GetTitledFirstName] z łatwością odpiera ich argumenty"
- bp1_yearly.4040.t: "[Select_CString(EqualTo_string( ROOT.Char.Custom2('MySheHe', SCOPE.sC('kindly_grandmother')), '$MyShe$'), 'Moja życzliwa', 'Mój życzliwy' )] [ROOT.Char.Custom2('RelationToMeShortVocative', SCOPE.sC('kindly_grandmother'))]"
+ bp1_yearly.4040.t: "[Select_CString(EqualTo_string( ROOT.Char.Custom2('MySheHe', SCOPE.sC('kindly_grandmother')), '$MyShe|q$'), 'Moja życzliwa', 'Mój życzliwy' )] [ROOT.Char.Custom2('RelationToMeShortVocative', SCOPE.sC('kindly_grandmother'))]"
  bp1_yearly.4040.desc.intro.1: "„Och, [Select_CString(ROOT.Char.IsFemale, 'moja droga, droga', 'mój drogi, drogi' )] [ROOT.Char.GetFirstNameNoTooltip] — tak bardzo cię kocham!” – [Select_CString(kindly_grandmother.IsFemale, 'moja', 'mój' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('kindly_grandmother'))] [kindly_grandmother.GetFirstName] mówi do mnie, niosąc talerz pysznych smakołyków. „Oto [ROOT.Char.Custom('FavoriteTreatDemand')]. Zrobił[Select_CString(kindly_grandmother.IsFemale, 'am', 'em' )] ci trochę, gdyż wiem, że to twoje ulubione!”\n\nOch, [kindly_grandmother.GetSheHe] zna mnie tak dobrze! Oczywiście robienie takich rzeczy ręcznie jest poniżej [kindly_grandmother.GetHerHis] godności, ale... kim ja jestem, żeby odmówić?"
  bp1_yearly.4040.desc.intro.2: ""
  bp1_yearly.4040.desc.feeding.1: ""

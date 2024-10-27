@@ -68,6 +68,7 @@
  epidemic_events.1010.a: ""
  epidemic_events.1010.b: ""
  epidemic_events.1010.c: ""
+ all_realm_county_epidemic_scope: ""
  epidemic_events.1020.t: ""
  epidemic_events.1020.desc: ""
  epidemic_events.1020.a: "Warto spróbować."

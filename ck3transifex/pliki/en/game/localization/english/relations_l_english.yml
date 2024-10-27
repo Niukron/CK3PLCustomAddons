@@ -229,6 +229,8 @@
  relation_akolouthos_female_possessive: "akolouthos'"
  relation_liege_female: "liege"
  relation_liege_male: "liege"
+ relation_leader_female: "leader"
+ relation_leader_male: "leader"
  relation_ward: "ward"
  relation_guardian: "guardian"
  relation_spymaster_female: "spymaster"

@@ -34,7 +34,7 @@
  EPIDMIC_TOOLTIP_IN_REALM: "#X @warning_icon! [epidemic|E] w twoim [Concept( 'realm', 'państwie' )|E]#!"
  EPIDMIC_TOOLTIP_NEARBY_REALM: "#alert_trial @alert_icon!W pobliżu twojego [realms|El] wybuchła [epidemic|El]#!"
  EPIDMIC_TOOLTIP_DOMAIN_INFECTIONS: "Zakażenia w [Concept( 'domain', 'domenie' )|E]: #high [Epidemic.CalcDomainInfected( GetPlayer )]/[GetPlayer.GetDomainSize]#!"
- EPIDEMIC_TOOLTIP_COURT_PHYSICIAN: "Wyznacz #L #TOOLTIP:COURT_POSITION_TYPE,court_physician_court_position nadwornego medyka#!#! lub wznieś [buildings|El], które zwiększają [epidemic_resistance|El], aby wpłynąć na rozprzestrzenianie się choroby."
+ EPIDEMIC_TOOLTIP_COURT_PHYSICIAN: "Wyznacz #L #TOOLTIP:COURT_POSITION_TYPE,court_physician_court_position osobistego medyka#!#! lub wznieś [buildings|El], które zwiększają [epidemic_resistance|El], aby wpłynąć na rozprzestrzenianie się choroby."
  EPIDEMIC_TOOLTIP_OUTBREAK: "Wybuch zarazy na terenie [Epidemic.GetStartingOutbreakProvince.GetTitle.GetAdjective] w dniu [Epidemic.GetOutbreakStartDate.GetString]"
  EPIDEMIC_TOOLTIP_CHANCE_OF_INFECTION_CHARACTER_LOCATION: ""
  EPIDEMIC_TOOLTIP_CHANCE_OF_INFECTION_SPECIFIC_PROVINCE: ""

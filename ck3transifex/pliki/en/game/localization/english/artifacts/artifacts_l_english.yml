@@ -997,3 +997,5 @@
  warenne_coin_description: "This coin bears the blue-and-yellow checkerboard insignia of the Warenne dynasty on the obverse. A dark splatter of blood marks its edge."
  traitors_head: "Traitor's Head"
  traitors_head_description: "A disembodied head, hacked neatly from its owner. It is more a message than a keepsake."
+ artifact_: "Destroyed Artifact"
+ artifact_slot_untyped: "Destroyed Artifact             "

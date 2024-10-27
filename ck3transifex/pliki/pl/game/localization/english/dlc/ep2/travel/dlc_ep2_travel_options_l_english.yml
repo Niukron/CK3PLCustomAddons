@@ -36,7 +36,7 @@
  court_physician_option: "Wzięcie sprzętu medycznego"
  court_physician_option_suffix: " #weak (tylko przeciwdziała zarazom)#!"
  court_physician_option_desc: "W podróż zabierzesz ze sobą pokaźny zapas narzędzi i akcesoriów medycznych, aby zmniejszyć [travel_danger|El] wynikające z [Concept( 'epidemics', 'zarazy' )|E]."
- court_physician_option_tt: "Musisz wyznaczyć #L #TOOLTIP:COURT_POSITION_TYPE,court_physician_court_position nadwornego medyka#!#! kwalifikującego się do podróży"
+ court_physician_option_tt: "Musisz wyznaczyć #L #TOOLTIP:COURT_POSITION_TYPE,court_physician_court_position osobistego medyka#!#! kwalifikującego się do podróży"
  cultural_ambassador_option: "Wynajęcie przedstawiciela kultury"
  cultural_ambassador_option_desc: "Zaprosisz do swojej świty przedstawiciela kultury, który będzie rozpowszechniał informacje na temat twojej kultury we wszystkich baroniach, przez które będziesz podróżować."
  cultural_ambassador_recruited.t: "Wynajęto przedstawiciela kultury"

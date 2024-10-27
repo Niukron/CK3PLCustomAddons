@@ -70,7 +70,7 @@
  learn_language_ongoing.1080.desc: ""
  learn_language_ongoing.1080.a: "[court_tutor.GetFirstNameNoTooltip], zasługujesz na nagrodę!"
  learn_language_ongoing.1080.b: "Dobrze wykonuje swoją pracę."
- attended_by_tutor_modifier: "Nauka z ochmistrzem nadwornym"
+ attended_by_tutor_modifier: "Nauka z ochmistrzem"
  court_tutor_child_language_rank_1_modifier: "$attended_by_tutor_modifier$"
  court_tutor_child_language_rank_2_modifier: "$attended_by_tutor_modifier$"
  court_tutor_child_language_rank_3_modifier: "$attended_by_tutor_modifier$"

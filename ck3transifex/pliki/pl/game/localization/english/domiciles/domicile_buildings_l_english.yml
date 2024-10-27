@@ -8,6 +8,7 @@
  DOMICILE_BUILDING_COOLTIP_COST: ""
  DOMICILE_BUILDING_COOLTIP_BUILD: ""
  DOMICILE_BUILDING_COOLTIP_UPGRADE: ""
+ DOMICILE_TAX_VALUE: ""
  estate_main_01_domicile_building: ""
  estate_main_02_domicile_building: ""
  estate_main_03_domicile_building: ""

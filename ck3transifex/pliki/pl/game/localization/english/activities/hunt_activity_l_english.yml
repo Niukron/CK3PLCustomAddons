@@ -157,7 +157,7 @@
  hunt_seek_fox_tt: "Będziesz polować na #V $animal_type_fox_pl_accusative$#!:\n$hunt_animal_safety_safer$\n$hunt_animal_prestige_lowest$"
  hunt_seek_hare_tt: "Będziesz polować na #V $animal_type_hare_pl_accusative$#!:\n$hunt_animal_safety_safest$\n$hunt_animal_prestige_lowest$"
  hunt_seek_buck_tt: "Będziesz polować na [host.Custom('PL_GetRegionalDeerTypeAccusative')|V]:\n$hunt_animal_safety_middling$\n$hunt_animal_prestige_middling$"
- hunt_seek_wolf_tt: "Będziesz polować na [Select_CString(EqualTo_string(THIS.Char.Custom('GetRegionalWolfType'), '$animal_type_hyena$' ), '$animal_type_hyena_pl_accusative$', '$animal_type_wolf_pl_accusative$' )|V]:\n$hunt_animal_safety_middling$\n$hunt_animal_prestige_middling$"
+ hunt_seek_wolf_tt: "Będziesz polować na [Select_CString(EqualTo_string(THIS.Char.Custom('GetRegionalWolfType'), '$animal_type_hyena|q$' ), '$animal_type_hyena_pl_accusative|q$', '$animal_type_wolf_pl_accusative|q$' )|V]:\n$hunt_animal_safety_middling$\n$hunt_animal_prestige_middling$"
  hunt_seek_boar_tt: "Będziesz polować na #V $animal_type_boar_pl_accusative$#!:\n$hunt_animal_safety_dangerous$\n$hunt_animal_prestige_high$"
  hunt_seek_hare_falconry_tt: ""
  hunt_modifier_success_slightly_improved_location_tt: ""

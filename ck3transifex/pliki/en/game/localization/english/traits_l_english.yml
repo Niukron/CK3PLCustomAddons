@@ -316,7 +316,7 @@
  trait_loyal_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] takes [ROOT.GetCharacter.GetHerHis] relations more seriously than most."
  TRAIT_FLAG_DESC_join_factions_less: "Less likely to join [factions|E] against their [liege|E]"
  TRAIT_FLAG_DESC_join_factions_more: "More likely to join [factions|E] against their [liege|E]"
- TRAIT_FLAG_DESC_cannot_inherit_titles: "@warning_icon! #N Cannot inherit [titles|E]#!"
+ TRAIT_FLAG_DESC_cannot_inherit_titles: "@warning_icon! #X Cannot inherit [titles|E]#!"
  trait_disloyal: "Disloyal"
  trait_disloyal_desc: "Where most people see a relationship, this person sees an opportunity."
  trait_disloyal_character_desc: "Where most people see a relationship, [ROOT.GetCharacter.GetFirstNameNoTooltip] sees an opportunity."

@@ -10,5 +10,5 @@
  hold_court.5030.desc: ""
  hold_court.5030.a: "Wspaniały pomysł!"
  hold_court.5030.courtiers: "[Select_CString( courtier.IsFemale, 'Każda dworzanka', 'Każdy męski dworzanin' )]"
- hold_court.5030.b: "[Select_CString( court_tutor.IsFemale, 'Ochmistrzyni nadworna', 'Ochmistrz nadworny' )] [court_tutor.GetFirstNameNoTooltip] pomoże ci nauczać."
+ hold_court.5030.b: "[Select_CString( court_tutor.IsFemale, 'Ochmistrzyni', 'Ochmistrz' )] [court_tutor.GetFirstNameNoTooltip] pomoże ci nauczać."
  hold_court.5030.c: "Taki talent można by lepiej wykorzystać!"

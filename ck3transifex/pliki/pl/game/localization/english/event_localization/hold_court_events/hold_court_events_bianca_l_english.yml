@@ -22,7 +22,7 @@
  hold_court.3010.a: ""
  hold_court.3010.b: ""
  hold_court.3010.c: "Chętnie dam [unconventional_preacher.GetHerHim] urząd wielkiego jałmużnika."
- hold_court.3010.d: "Jeżeli potrafi nauczać chłopstwo, sprawdzi się dobrze jako [Select_CString( unconventional_preacher.IsFemale, 'ochmistrzyni nadworna', 'ochmistrz nadworny' )]..."
+ hold_court.3010.d: "Jeżeli potrafi nauczać chłopstwo, sprawdzi się dobrze jako [Select_CString( unconventional_preacher.IsFemale, 'ochmistrzyni', 'ochmistrz' )]..."
  hold_court.3020.t: "Obraźliwy pomnik"
  hold_court.3020.desc: "Przede mną staje chłop z petycją w ręku, „[Select_CString( ROOT.Char.IsFemale, 'Moja pani', 'Mój panie' )], przybyłem tutaj jako wysłannik, którego wyznaczyli [village.GetCountyData.GetCulture.GetCollectiveNounNoTooltip] z [village.GetAdjective]” – chłop na chwilę przerywa zapamiętaną mowę.\n\n„[holder_of_area.GetTitleTierName|U] ignorował[Select_CString( holder_of_area.IsFemale, 'a', '' )] nasze błagania o pomoc w rekonstrukcji ważnego pomnika naszej kultury. Na domiar złego wszelkimi sposobami opóźnia jego odbudowę!”\n\n„[ROOT.Char.Custom2('RelationToMeAddressVocative', holder_of_area)|U], pozwól mi wyjaśnić!” – [holder_of_area.GetFirstNameNoTooltip] wtrąca się panicznie. „To nie jest pomnik, to kpina z naszej kultury! Sugeruje on, że [holder_of_area.GetCulture.GetCollectiveNounNoTooltip] są potworami! Z pewnością rozumiesz, dlaczego nie chcę dopuścić do odbudowy tego wcielenia nienawiści!”"
  hold_court.3020.a: ""

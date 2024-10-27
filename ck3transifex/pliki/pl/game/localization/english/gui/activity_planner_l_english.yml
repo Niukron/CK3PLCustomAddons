@@ -39,7 +39,7 @@
  activity_filter_domicile_domain: ""
  activity_filter_domicile_realm: ""
  GOVERNMENT_ADJECTIVE: ""
- GOVERNMENT_ADJECTIVE_ICON: ""
+ GOVERNMENT_ADJECTIVE_ICON: "[Character.Custom('GetGovernmentIcon')] [realm|E] [Character.GetGovernment.GetAdjective|l]"
  GOVERNORSHIP_TOOLTIP: ""
  VASSAL_TOOLTIP: ""
  REALM_TOOLTIP: ""

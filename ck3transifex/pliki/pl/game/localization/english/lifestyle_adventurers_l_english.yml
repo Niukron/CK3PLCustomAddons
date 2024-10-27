@@ -71,6 +71,7 @@
  must_be_in_domain_tt: ""
  attempt_conversion_of_local_ruler_interaction: ""
  attempt_conversion_of_local_ruler_interaction_desc: ""
+ attempt_conversion_of_local_ruler_interaction_extra_icon: ""
  USE_PIETY: ""
  USE_STRESS: ""
  USE_INTRIGUE: ""

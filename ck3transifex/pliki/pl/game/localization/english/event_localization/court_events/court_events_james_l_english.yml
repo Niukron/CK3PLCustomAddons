@@ -75,7 +75,7 @@
  court.0108.c: "Dziękuję za twoja wizytę, [Select_CString( foreign_prince.IsFemale, 'księżno', 'księciu' )] [foreign_prince.GetFirstNameNoTooltip], ale powin[Select_CString( foreign_prince.IsFemale, 'naś', 'ieneś' )] wyjechać."
  court.0109.t: "Ekspert[Select_CString(executioner.IsFemale, 'ka', '' )] od anatomii"
  court.0109.desc: ""
- court.0109.a: "Marnujesz się jako kat! Bądź mo[Select_CString( executioner.IsFemale, 'ją nadworną medyczką', 'im nadwornym medykiem' )]!"
+ court.0109.a: "Marnujesz się jako kat! Bądź mo[Select_CString( executioner.IsFemale, 'ją osobistą medyczką', 'im osobistym medykiem' )]!"
  court.0109.b: "Nie trać czasu na leczenie tych szumowin!"
  court.0109.c: "Fascynujące, może nauczysz mnie niektórych ze swoich metod."
  court.0109.d: "Dobra robota! Kontynuuj służbę chorym i potrzebującym z [ROOT.Char.GetCapitalLocation.GetTitle.GetAdjectiveNoTooltip]."

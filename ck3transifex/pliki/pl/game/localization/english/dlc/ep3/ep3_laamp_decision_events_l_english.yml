@@ -896,7 +896,7 @@
  local_holding_type_capitalized_temple_holding: ""
  local_holding_type_capitalized_castle_holding: ""
  local_holding_type_capitalized_city_holding: ""
- is_encampment: ""
+ is_encampment: "obóz"
  is_settlement: ""
  is_town: ""
  is_city: ""

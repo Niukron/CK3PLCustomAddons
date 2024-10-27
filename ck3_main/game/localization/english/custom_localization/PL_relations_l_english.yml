@@ -2021,3 +2021,6 @@
  relation_follower_male_your:0 "twój"
  follower_female_your:0 "twoja"
  follower_male_your:0 "twój"
+
+ relation_leader_female_possessive:0 "liderki"
+ relation_leader_male_possessive:0 "lidera"

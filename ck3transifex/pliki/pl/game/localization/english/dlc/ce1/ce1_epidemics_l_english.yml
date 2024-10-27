@@ -13,7 +13,7 @@
  game_concept_infection_rates_desc: "$game_concept_infection_rate_desc$"
  game_concept_epidemic_resistance: "Odporność na zarazę"
  game_concept_epidemic_resistance_desc: "$game_concept_epidemic_resistance$ obniża [infection_rate|El] [Concept( 'barony', 'baronii' )|E] lub [Concept( 'county', 'hrabstwa' )|E], łagodząc skutki [Concept( 'epidemic', 'zarazy' )|E].\n\n$game_concept_epidemic_resistance$ może zostać zwiększona poprzez [buildings|El] takie jak hospicja lub miejsca pochówku #weak ([duchy_building|El])#!, [court_position_tasks|El] wykonywane przez medyka, [decisions|El] lub wydarzenia."
- game_concept_epidemic_res: ""
+ game_concept_epidemic_res: "Odp. na zarazę"
  game_concept_epidemic_res_desc: "$game_concept_epidemic_resistance_desc$"
  game_concept_infection_chance: "Ryzyko zakażenia"
  game_concept_chance_of_infection: "Ryzyko zakażenia"
